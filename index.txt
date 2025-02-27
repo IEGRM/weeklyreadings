@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weekly Readings</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Week Selection -->
+    <div class="selector">
+      <label for="weekSelect">Select Week:</label>
+      <select id="weekSelect">
+        <!-- Weeks will be populated by JavaScript -->
+      </select>
+    </div>
+
+    <!-- Grade Selection -->
+    <div class="selector">
+      <label for="gradeSelect">Select Grade:</label>
+      <select id="gradeSelect">
+        <option value="6">6° Grade</option>
+        <option value="7">7° Grade</option>
+        <option value="8">8° Grade</option>
+        <option value="9">9° Grade</option>
+        <option value="10">10° Grade</option>
+        <option value="11">11° Grade</option>
+      </select>
+    </div>
+
+    <!-- Audio Player -->
+    <audio id="audioPlayer" controls>
+      <source id="audioSource" src="" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <!-- Image Section -->
+    <div id="imageSection">
+      <iframe id="imageFrame" src="" frameborder="0"></iframe>
+    </div>
+
+    <!-- Reading Text -->
+    <div id="readingText">
+      <p id="textContent">Select a week and grade to load the reading.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
