@@ -86,6 +86,8 @@ function loadReading() {
 
 // Function to update text based on audio time
 function updateTextForCurrentTime() {
+  console.log("Current audio time:", audioPlayer.currentTime); // Debugging
+
   const weekIndex = weekSelect.value;
   const grade = gradeSelect.value;
   const week = weeklyData[weekIndex];
@@ -96,11 +98,9 @@ function updateTextForCurrentTime() {
     const spans = textContent.querySelectorAll('span');
 
     if (spans.length === 0) {
-      console.log("No spans found.");
+      console.log("No spans found! Text not loaded correctly.");
       return;
     }
-
-    console.log("Audio time:", currentTime); // Debugging log
 
     // Remove previous highlights
     spans.forEach((span) => span.classList.remove('highlight'));
