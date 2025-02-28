@@ -9,15 +9,16 @@ body {
 
 .container {
   max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden; /* Add this to prevent overflow */
 }
 
 .selector {
-  margin: 20px 0;
+  margin: 5px 0;
 }
 
 .selector label {
@@ -39,19 +40,19 @@ body {
 }
 
 #imageSection {
-   margin: 20px 0;
-  width: 100%; /* Make the container 100% wide */
-  height: 250px; /* Set a fixed height for the container */
-  overflow: hidden; /* Hide any overflow (prevents scroll bars) */
-  display: flex; /* Enable flexbox for centering */
-  justify-content: center; /* Center the image horizontally */
-  align-items: center; /* Center the image vertically */
+  margin: 20px 0;
 }
 
 #imageFrame {
   width: 100%;
-  height: 100%;
-  object-fit: cover; /* Ensures the image fills the box without distortion */
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    overflow: hidden;
+  
 }
 
 #readingText {
