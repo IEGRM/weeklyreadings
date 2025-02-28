@@ -12,7 +12,7 @@ const weeklyData = [
     readings: {
       6: {
         audio: 'audios/week1/w1-grade6.mp3',
-        image: 'images/week1/w1-grade6.png',
+        image: 'images/week1/w1-grade6.jpg',
         text: [
 			  { time: 1, content: 'A Morning Routine: She <b>wakes</b> up.' },
 			  { time: 2, content: 'She sees the moon <b>rise</b>.' },
@@ -76,7 +76,7 @@ function loadReading() {
     imageFrame.src = reading.image;
     textContent.innerHTML = reading.text
       .map((sentence) => `<span data-time="${sentence.time}">${sentence.content}</span>`)
-      .join('<br>'); // Add line breaks between sentences
+      .join(' '); // Add line breaks between sentences
     audioPlayer.load();
   }
 }
