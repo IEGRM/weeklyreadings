@@ -59,10 +59,8 @@ body {
 }
 
 .highlight {
-  background-color: yellow !important; /* Ensures highlight is applied */
-  font-weight: bold;
-  padding: 2px 4px;
-  border-radius: 3px;
-  display: inline !important; /* Ensures text stays inline */
+  background-color: yellow !important;
+  color: black !important;
+  display: inline !important;
 }
 
