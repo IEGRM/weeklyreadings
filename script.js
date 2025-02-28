@@ -76,8 +76,12 @@ function loadReading() {
     imageFrame.src = reading.image;
     textContent.innerHTML = reading.text
       .map((sentence) => `<span data-time="${sentence.time}">${sentence.content}</span>`)
-      .join(' '); // Add line breaks between sentences
+      .join(' '); // Keeps sentences in a paragraph
+
     audioPlayer.load();
+
+    // Reassign spans after loading new content
+    spans = textContent.querySelectorAll('span');
   }
 }
 
@@ -91,6 +95,8 @@ function updateTextForCurrentTime() {
   if (reading) {
     const currentTime = audioPlayer.currentTime;
     const spans = textContent.querySelectorAll('span');
+
+    if (spans.length === 0) return; // Prevents errors if spans are not found
 
     // Remove highlight from all spans
     spans.forEach((span) => span.classList.remove('highlight'));
