@@ -12,7 +12,7 @@ const weeklyData = [
     readings: {
       6: {
         audio: 'audios/week1/w1-grade6.mp3',
-        image: 'images/week1/w1-grade6.jpg',
+        image: 'images/week1/w1-grade6.png',
         text: [
 			  { time: 1, content: 'A Morning Routine: She <b>wakes</b> up.' },
 			  { time: 2, content: 'She sees the moon <b>rise</b>.' },
@@ -32,7 +32,7 @@ const weeklyData = [
       },
       7: {
         audio: 'audios/week1/w1-grade7.mp3',
-        image: 'images/week1/w1-grade7.jpg',
+        image: 'images/week1/w1-grade7.png',
         text: [
 			  { time: 1, content: 'I love mornings: She <b>woke up</b> and headed to the bathroom.' },
 			  { time: 2, content: 'She turned on the <b>shower</b> and stepped in.' },
