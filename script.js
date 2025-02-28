@@ -11,51 +11,49 @@ const weeklyData = [
     week: 1,
     readings: {
       6: {
-        audio: 'audios/week1/grade6.mp3',
-        image: 'images/week1/grade6.jpg',
+        audio: 'audios/week1/w1-grade6.mp3',
+        image: 'images/week1/w1-grade6.jpg',
         text: [
-          { time: 0, content: '6° Grade: Week 1 - Beginning of the reading.' },
-          { time: 5, content: '6° Grade: Week 1 - 5 seconds in.' },
-          { time: 10, content: '6° Grade: Week 1 - 10 seconds in.' }
-        ]
+			  { time: 1, content: 'A Morning Routine: She <b>wakes</b> up.' },
+			  { time: 2, content: 'She sees the moon <b>rise</b>.' },
+			  { time: 4, content: 'She <b>brushes</b> her <b>teeth</b>.' },
+			  { time: 7, content: 'Her <b>teeth</b> are <b>white</b>.' },
+			  { time: 10, content: 'She puts on her <b>clothes</b>.' },
+			  { time: 12, content: 'Her <b>shirt</b> is green.' },
+			  { time: 15, content: 'Her shoes are <b>yellow</b>.' },
+			  { time: 18, content: 'Her <b>pants</b> are <b>brown</b>.' },
+			  { time: 21, content: 'She goes <b>downstairs</b>.' },
+			  { time: 23, content: 'She gets a <b>bowl</b>.' },
+			  { time: 26, content: 'She <b>pours</b> milk and <b>cereal</b>.' },
+			  { time: 32, content: 'She eats.' },
+			  { time: 34, content: 'She gets the <b>newspaper</b>.' },
+			  { time: 37, content: 'She reads.' }
+			]
       },
       7: {
-        audio: 'audios/week1/grade7.mp3',
-        image: 'images/week1/grade7.jpg',
+        audio: 'audios/week1/w1-grade7.mp3',
+        image: 'images/week1/w1-grade7.jpg',
         text: [
-          { time: 0, content: '7° Grade: Week 1 - Beginning of the reading.' },
-          { time: 6, content: '7° Grade: Week 1 - 6 seconds in.' },
-          { time: 12, content: '7° Grade: Week 1 - 12 seconds in.' }
-        ]
-      }
-      // Add grades 8-11 similarly
-    }
-  },
-  {
-    week: 2,
-    readings: {
-      6: {
-        audio: 'audios/week2/grade6.mp3',
-        image: 'images/week2/grade6.jpg',
-        text: [
-          { time: 0, content: '6° Grade: Week 2 - Beginning of the reading.' },
-          { time: 7, content: '6° Grade: Week 2 - 7 seconds in.' },
-          { time: 14, content: '6° Grade: Week 2 - 14 seconds in.' }
-        ]
-      },
-      7: {
-        audio: 'audios/week2/grade7.mp3',
-        image: 'images/week2/grade7.jpg',
-        text: [
-          { time: 0, content: '7° Grade: Week 2 - Beginning of the reading.' },
-          { time: 8, content: '7° Grade: Week 2 - 8 seconds in.' },
-          { time: 16, content: '7° Grade: Week 2 - 16 seconds in.' }
-        ]
+			  { time: 1, content: 'I love mornings: She <b>woke up</b> and headed to the bathroom.' },
+			  { time: 2, content: 'She turned on the <b>shower</b> and stepped in.' },
+			  { time: 5, content: 'The water made her hair <b>wet</b>.' },
+			  { time: 9, content: 'She <b>grabbed</b> her soap and washed.' },
+			  { time: 12, content: 'After finishing, she <b>wrapped</b> herself in a <b>towel</b>.' },
+			  { time: 15, content: 'Looking in the <b>mirror</b>, she saw her <b>reflection</b>.' },
+			  { time: 20, content: 'She needed to <b>shave</b> her legs.' },
+			  { time: 24, content: 'She applied <b>cream</b> and picked up the <b>razor</b>.' },
+			  { time: 27, content: 'By <b>accident</b>, she cut herself and started to <b>bleed</b>.' },
+			  { time: 31, content: 'The cut began to <b>sting</b>.' },
+			  { time: 35, content: 'She wiped away the <b>facial</b> expression of pain and' },
+			  { time: 38, content: 'continued getting ready.' }
+			]
+
       }
       // Add grades 8-11 similarly
     }
   }
-  // Add more weeks as needed
+  
+  // Add more weeks as needed. by jony: remember when adding another week, must add the comma "}," after the bracket
 ];
 
 // Populate week dropdown
