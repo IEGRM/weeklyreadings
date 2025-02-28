@@ -4,6 +4,7 @@ const audioPlayer = document.getElementById('audioPlayer');
 const audioSource = document.getElementById('audioSource');
 const imageFrame = document.getElementById('imageFrame');
 const textContent = document.getElementById('textContent');
+const VERSION = "1.0.0"; // Add version code here
 
 // Data structure for all weeks and grades
 const weeklyData = [
