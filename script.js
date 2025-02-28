@@ -79,7 +79,7 @@ function loadReading() {
       .join('<br>');
 
     audioPlayer.load();
-
+	console.log("Image path:", reading.image); // Debugging log
     console.log("Text loaded:", textContent.innerHTML); // Debugging log
     console.log("All spans after loading:", document.querySelectorAll("span")); // Check if spans exist
   }
