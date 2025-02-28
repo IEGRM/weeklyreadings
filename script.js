@@ -76,11 +76,12 @@ function loadReading() {
     imageFrame.src = reading.image;
     textContent.innerHTML = reading.text
       .map((sentence) => `<span data-time="${sentence.time}">${sentence.content}</span>`)
-      .join('<br>');
+      .join(' ');
 
     audioPlayer.load();
 
     console.log("Text loaded:", textContent.innerHTML); // Debugging log
+    console.log("All spans after loading:", document.querySelectorAll("span")); // Check if spans exist
   }
 }
 
