@@ -16,9 +16,10 @@ const weeklyData = [
         image: 'images/week1/w1-grade6.jpg',
         text: [
 		  { time: 0, content: '' },
-          { time: 1, content: 'A Morning Routine: She <b>wakes</b> up.' },
-          { time: 2, content: 'She sees the moon <b>rise</b>.' },
-          { time: 4, content: 'She <b>brushes</b> her <b>teeth</b>.' },
+          { time: 2, content: 'A Morning Routine:' },
+		  { time: 3, content: 'She <b>wakes</b> up.' },
+          { time: 4, content: 'She sees the moon <b>rise</b>.' },
+          { time: 5, content: 'She <b>brushes</b> her <b>teeth</b>.' },
           { time: 7, content: 'Her <b>teeth</b> are <b>white</b>.' },
           { time: 10, content: 'She puts on her <b>clothes</b>.' },
           { time: 12, content: 'Her <b>shirt</b> is green.' },
