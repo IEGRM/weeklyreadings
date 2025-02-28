@@ -63,7 +63,7 @@ body {
   border-radius: 5px;
 }
 
-.highlight {
+#highlight {
   background-color: yellow;
   font-weight: bold;
   padding: 2px 4px;
