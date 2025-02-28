@@ -59,8 +59,10 @@ body {
 }
 
 .highlight {
-  background-color: yellow !important;
+  background-color: red !important;
   color: black !important;
-  display: inline !important;
+  display: inline !important;  /* Ensure spans are not block elements */
+  padding: 2px 4px;
+  border-radius: 3px;
 }
 
