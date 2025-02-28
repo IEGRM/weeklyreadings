@@ -37,7 +37,7 @@ body {
 
 #audioPlayer {
   width: 100%;
-  margin: 30px; /* Adds more space on top */
+  margin-top: 30px; /* Adds more space on top */
   margin-bottom: 20px;
 }
 
@@ -64,8 +64,10 @@ body {
 }
 
 .highlight {
-  background-color: #ffeb3b; /* Yellow highlight for current sentence */
+.highlight {
+  background-color: yellow;
   font-weight: bold;
-  padding: 2px 5px;
+  padding: 2px 4px;
   border-radius: 3px;
+}
 }
