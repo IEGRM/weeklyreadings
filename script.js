@@ -87,8 +87,6 @@ function loadReading() {
 
 // Function to update text based on audio time
 function updateTextForCurrentTime() {
-  console.log("Current audio time:", audioPlayer.currentTime); // Debugging
-
   const weekIndex = weekSelect.value;
   const grade = gradeSelect.value;
   const week = weeklyData[weekIndex];
@@ -96,26 +94,29 @@ function updateTextForCurrentTime() {
 
   if (reading) {
     const currentTime = audioPlayer.currentTime;
-    const spans = textContent.querySelectorAll('span');
+    const spans = document.querySelectorAll("#textContent span");
 
     if (spans.length === 0) {
       console.log("No spans found! Text not loaded correctly.");
       return;
     }
 
+    console.log("All spans:", spans); // Debugging log
+
     // Remove previous highlights
-    spans.forEach((span) => span.classList.remove('highlight'));
+    spans.forEach((span) => span.classList.remove("highlight"));
 
     // Find the correct sentence to highlight
     for (let i = reading.text.length - 1; i >= 0; i--) {
       if (currentTime >= reading.text[i].time) {
-        spans[i].classList.add('highlight');
-        console.log("Highlighting:", spans[i].textContent);
+        spans[i].classList.add("highlight");
+        console.log("Highlighting:", spans[i].textContent); // Show the exact span being highlighted
         break;
       }
     }
   }
 }
+
 
 // Event listeners
 weekSelect.addEventListener('change', loadReading);
