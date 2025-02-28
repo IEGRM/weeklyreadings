@@ -14,6 +14,7 @@ const weeklyData = [
         audio: 'audios/week1/w1-grade6.mp3',
         image: 'images/week1/w1-grade6.jpg',
         text: [
+		{ time: 0, content: 'A Morning Routine:' },
           { time: 1, content: 'A Morning Routine: She <b>wakes</b> up.' },
           { time: 2, content: 'She sees the moon <b>rise</b>.' },
           { time: 4, content: 'She <b>brushes</b> her <b>teeth</b>.' },
@@ -34,7 +35,8 @@ const weeklyData = [
         audio: 'audios/week1/w1-grade7.mp3',
         image: 'images/week1/w1-grade7.png',
         text: [
-          { time: 1, content: 'I love mornings: She <b>woke up</b> and headed to the bathroom.' },
+		{ time: 1, content: 'I love mornings:' },
+          { time: 1, content: 'She <b>woke up</b> and headed to the bathroom.' },
           { time: 2, content: 'She turned on the <b>shower</b> and stepped in.' },
           { time: 5, content: 'The water made her hair <b>wet</b>.' },
           { time: 9, content: 'She <b>grabbed</b> her soap and washed.' },
