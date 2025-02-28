@@ -25,11 +25,11 @@ const weeklyData = [
           { time: 19, content: 'Her shoes are <b>yellow</b>.' },
           { time: 21, content: 'Her <b>pants</b> are <b>brown</b>.' },
           { time: 24, content: 'She goes <b>downstairs</b>.' },
-          { time: 26, content: 'She gets a <b>bowl</b>.' },
+          { time: 27, content: 'She gets a <b>bowl</b>.' },
           { time: 29, content: 'She <b>pours</b> milk and <b>cereal</b>.' },
-          { time: 35, content: 'She eats.' },
-          { time: 37, content: 'She gets the <b>newspaper</b>.' },
-          { time: 39, content: 'She reads.' }
+          { time: 33, content: 'She eats.' },
+          { time: 35, content: 'She gets the <b>newspaper</b>.' },
+          { time: 37, content: 'She reads.' }
         ]
       },
       7: {
