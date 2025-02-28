@@ -63,9 +63,11 @@ body {
   border-radius: 5px;
 }
 
-#highlight {
-  background-color: yellow;
+.highlight {
+  background-color: yellow !important; /* Ensures highlight is applied */
   font-weight: bold;
   padding: 2px 4px;
   border-radius: 3px;
+  display: inline !important; /* Ensures text stays inline */
 }
+
