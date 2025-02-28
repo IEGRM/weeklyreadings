@@ -76,7 +76,7 @@ function loadReading() {
     imageFrame.src = reading.image;
     textContent.innerHTML = reading.text
       .map((sentence) => `<span data-time="${sentence.time}">${sentence.content}</span>`)
-      .join(' ');
+      .join('<br>');
 
     audioPlayer.load();
 
