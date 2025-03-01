@@ -11,7 +11,10 @@
     <!-- Week Selection -->
     <div class="selector">
       <label for="weekSelect">Select Week:</label>
-      <select id="weekSelect"></select>
+      <select id="weekSelect">
+        <option value="0">Week 1</option>
+        <!-- Add more weeks as needed -->
+      </select>
     </div>
 
     <!-- Grade Selection -->
@@ -40,10 +43,23 @@
 
     <!-- Reading Text -->
     <div id="readingText">
-      <p id="textContent">Select a week and grade to load the reading.</p>
+      <p id="textContent">Select Week 1 and Grade 6 to load the reading.</p>
+    </div>
+
+    <!-- Vocabulary Section -->
+    <div id="vocabularySection">
+      <h3>Vocabulary</h3>
+      <div id="vocabularyContent"></div>
+    </div>
+
+    <!-- Quiz Section -->
+    <div id="quizSection">
+      <h3>Quiz</h3>
+      <div id="quizContent"></div>
     </div>
   </div>
 
-  <script src="script.js"></script>
+  <!-- Corrected script path -->
+  <script src="data/readings/week1/grade6.js"></script>
 </body>
 </html>

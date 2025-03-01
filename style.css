@@ -62,6 +62,21 @@ body {
   background-color: rgba(255, 255, 255, 0.95); /* Make it less transparent */
 }
 
+#vocabularySection,
+#quizSection {
+  margin-top: 20px;
+}
+
+#vocabularyContent,
+#quizContent {
+  margin-top: 10px;
+}
+
+.quiz-question {
+  margin-bottom: 20px;
+}
+
+
 .highlight {
   background-color: yellow; /* Changed to yellow for better visibility */
   color: black;
