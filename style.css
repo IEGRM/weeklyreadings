@@ -34,25 +34,28 @@ body {
 }
 
 #audioPlayer {
-  width: 50%;
-  margin: 30px auto 20px auto; /* Center the audio player */
+  width: 80%;
+  margin: 20px auto 10px auto; /* Center the audio player */
   display: block;
 }
 
-#imageSection {
-  margin: 20px 0;
+#imageSection {  
+  margin: 10px 0;
+  display: flex;           /* Make this a flex container */
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */  
+  
 }
 
 #imageFrame {
-  width: 100%;
-    height: 250px;
-    object-fit: cover;
-    display: block;
-    margin: 0;
-    padding: 0;
-    border: none;
-    overflow: hidden;
-  
+  width: 50%;             /* You can adjust this as needed */
+  max-width: 800px;        /* Add a max-width if desired */
+  height: 250px;
+  object-fit: cover;
+  border: none;
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
 }
 
 #readingText {

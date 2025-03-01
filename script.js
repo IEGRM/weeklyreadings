@@ -15,40 +15,116 @@ const weeklyData = [
         audio: 'audios/week1/w1-grade6.mp3',
         image: 'images/week1/w1-grade6.jpg',
         text: [
-		  { time: 1, content: 'A Morning Routine:' },
-		  { time: 3, content: 'She <b>wakes</b> up.' },
+		  { time: 1, content: '<b>A Morning Routine:</b><br>' },
+		  { time: 3, content: '<br>She <b>wakes</b> up.' },
           { time: 5, content: 'She sees the moon <b>rise</b>.' },
           { time: 8, content: 'She <b>brushes</b> her <b>teeth</b>.' },
           { time: 10, content: 'Her <b>teeth</b> are <b>white</b>.' },
           { time: 13, content: 'She puts on her <b>clothes</b>.' },
           { time: 15, content: 'Her <b>shirt</b> is green.' },
-          { time: 19, content: 'Her shoes are <b>yellow</b>.' },
+          { time: 18, content: 'Her shoes are <b>yellow</b>.' },
           { time: 21, content: 'Her <b>pants</b> are <b>brown</b>.' },
-          { time: 24, content: 'She goes <b>downstairs</b>.' },
-          { time: 27, content: 'She gets a <b>bowl</b>.' },
-          { time: 29, content: 'She <b>pours</b> milk and <b>cereal</b>.' },
-          { time: 33, content: 'She eats.' },
-          { time: 35, content: 'She gets the <b>newspaper</b>.' },
-          { time: 37, content: 'She reads.' }
+          { time: 23, content: 'She goes <b>downstairs</b>.' },
+          { time: 26, content: 'She gets a <b>bowl</b>.' },
+          { time: 28, content: 'She <b>pours</b> milk and <b>cereal</b>.' },
+          { time: 32, content: 'She eats.' },
+          { time: 34, content: 'She gets the <b>newspaper</b>.' },
+          { time: 37, content: 'She reads.' }		  
         ]
       },
       7: {
         audio: 'audios/week1/w1-grade7.mp3',
         image: 'images/week1/w1-grade7.png',
         text: [
-		{ time: 1, content: 'I love mornings:' },
-          { time: 1, content: 'She <b>woke up</b> and headed to the bathroom.' },
-          { time: 2, content: 'She turned on the <b>shower</b> and stepped in.' },
-          { time: 5, content: 'The water made her hair <b>wet</b>.' },
-          { time: 9, content: 'She <b>grabbed</b> her soap and washed.' },
-          { time: 12, content: 'After finishing, she <b>wrapped</b> herself in a <b>towel</b>.' },
-          { time: 15, content: 'Looking in the <b>mirror</b>, she saw her <b>reflection</b>.' },
-          { time: 20, content: 'She needed to <b>shave</b> her legs.' },
-          { time: 24, content: 'She applied <b>cream</b> and picked up the <b>razor</b>.' },
-          { time: 27, content: 'By <b>accident</b>, she cut herself and started to <b>bleed</b>.' },
-          { time: 31, content: 'The cut began to <b>sting</b>.' },
-          { time: 35, content: 'She wiped away the <b>facial</b> expression of pain and' },
-          { time: 38, content: 'continued getting ready.' }
+		  { time: 1, content: '<b>I love mornings:</b><br><br>' },
+          { time: 2, content: '<br>She <b>woke up</b> and headed to the bathroom.' },
+          { time: 5, content: 'She turned on the <b>shower</b> and stepped in.' },
+          { time: 9, content: 'The water made her hair <b>wet</b>.' },
+          { time: 13, content: 'She <b>grabbed</b> her soap and washed.' },
+          { time: 15, content: 'After finishing, she <b>wrapped</b> herself in a <b>towel</b>.' },
+          { time: 20, content: 'Looking in the <b>mirror</b>, she saw her <b>reflection</b>.' },
+          { time: 23, content: 'She needed to <b>shave</b> her legs.' },
+          { time: 27, content: 'She applied <b>cream</b> and picked up the <b>razor</b>.' },
+          { time: 31, content: 'By <b>accident</b>, she cut herself and started to <b>bleed</b>.' },
+          { time: 35, content: 'The cut began to <b>sting</b>.' },
+          { time: 38, content: 'She wiped away the <b>facial</b> expression of pain and ' },
+          { time: 41, content: 'continued getting ready.' }		  
+        ]
+      },
+	  8: {
+        audio: 'audios/week1/w1-grade8.mp3',
+        image: 'images/week1/w1-grade8.png',
+        text: [
+		  { time: 1, content: '<b>Add story:</b><br><br>' },
+          { time: 2, content: '<br>She <b>woke up</b> and headed to the bathroom.' },
+          { time: 5, content: 'She turned on the <b>shower</b> and stepped in.' },
+          { time: 9, content: 'The water made her hair <b>wet</b>.' },
+          { time: 13, content: 'She <b>grabbed</b> her soap and washed.' },
+          { time: 15, content: 'After finishing, she <b>wrapped</b> herself in a <b>towel</b>.' },
+          { time: 20, content: 'Looking in the <b>mirror</b>, she saw her <b>reflection</b>.' },
+          { time: 23, content: 'She needed to <b>shave</b> her legs.' },
+          { time: 27, content: 'She applied <b>cream</b> and picked up the <b>razor</b>.' },
+          { time: 31, content: 'By <b>accident</b>, she cut herself and started to <b>bleed</b>.' },
+          { time: 35, content: 'The cut began to <b>sting</b>.' },
+          { time: 38, content: 'She wiped away the <b>facial</b> expression of pain and ' },
+          { time: 41, content: 'continued getting ready.' }		  
+        ]
+      },
+	  9: {
+        audio: 'audios/week1/w1-grade9.mp3',
+        image: 'images/week1/w1-grade9.png',
+        text: [
+		  { time: 1, content: '<b>Add story:</b><br><br>' },
+          { time: 2, content: '<br>She <b>woke up</b> and headed to the bathroom.' },
+          { time: 5, content: 'She turned on the <b>shower</b> and stepped in.' },
+          { time: 9, content: 'The water made her hair <b>wet</b>.' },
+          { time: 13, content: 'She <b>grabbed</b> her soap and washed.' },
+          { time: 15, content: 'After finishing, she <b>wrapped</b> herself in a <b>towel</b>.' },
+          { time: 20, content: 'Looking in the <b>mirror</b>, she saw her <b>reflection</b>.' },
+          { time: 23, content: 'She needed to <b>shave</b> her legs.' },
+          { time: 27, content: 'She applied <b>cream</b> and picked up the <b>razor</b>.' },
+          { time: 31, content: 'By <b>accident</b>, she cut herself and started to <b>bleed</b>.' },
+          { time: 35, content: 'The cut began to <b>sting</b>.' },
+          { time: 38, content: 'She wiped away the <b>facial</b> expression of pain and ' },
+          { time: 41, content: 'continued getting ready.' }		  
+        ]
+      },
+	  10: {
+        audio: 'audios/week1/w1-grade10.mp3',
+        image: 'images/week1/w1-grade10.png',
+        text: [
+		  { time: 1, content: '<b>Add story:</b><br><br>' },
+          { time: 2, content: '<br>She <b>woke up</b> and headed to the bathroom.' },
+          { time: 5, content: 'She turned on the <b>shower</b> and stepped in.' },
+          { time: 9, content: 'The water made her hair <b>wet</b>.' },
+          { time: 13, content: 'She <b>grabbed</b> her soap and washed.' },
+          { time: 15, content: 'After finishing, she <b>wrapped</b> herself in a <b>towel</b>.' },
+          { time: 20, content: 'Looking in the <b>mirror</b>, she saw her <b>reflection</b>.' },
+          { time: 23, content: 'She needed to <b>shave</b> her legs.' },
+          { time: 27, content: 'She applied <b>cream</b> and picked up the <b>razor</b>.' },
+          { time: 31, content: 'By <b>accident</b>, she cut herself and started to <b>bleed</b>.' },
+          { time: 35, content: 'The cut began to <b>sting</b>.' },
+          { time: 38, content: 'She wiped away the <b>facial</b> expression of pain and ' },
+          { time: 41, content: 'continued getting ready.' }		  
+        ]
+      },
+	  11: {
+        audio: 'audios/week1/w1-grade11.mp3',
+        image: 'images/week1/w1-grade11.png',
+        text: [
+		  { time: 1, content: '<b>Add story:</b><br><br>' },
+          { time: 2, content: '<br>She <b>woke up</b> and headed to the bathroom.' },
+          { time: 5, content: 'She turned on the <b>shower</b> and stepped in.' },
+          { time: 9, content: 'The water made her hair <b>wet</b>.' },
+          { time: 13, content: 'She <b>grabbed</b> her soap and washed.' },
+          { time: 15, content: 'After finishing, she <b>wrapped</b> herself in a <b>towel</b>.' },
+          { time: 20, content: 'Looking in the <b>mirror</b>, she saw her <b>reflection</b>.' },
+          { time: 23, content: 'She needed to <b>shave</b> her legs.' },
+          { time: 27, content: 'She applied <b>cream</b> and picked up the <b>razor</b>.' },
+          { time: 31, content: 'By <b>accident</b>, she cut herself and started to <b>bleed</b>.' },
+          { time: 35, content: 'The cut began to <b>sting</b>.' },
+          { time: 38, content: 'She wiped away the <b>facial</b> expression of pain and ' },
+          { time: 41, content: 'continued getting ready.' }		  
         ]
       }
       // Add grades 8-11 similarly
@@ -77,7 +153,7 @@ function loadReading() {
     imageFrame.src = reading.image;
     textContent.innerHTML = reading.text
       .map((sentence) => `<span data-time="${sentence.time}">${sentence.content}</span>`)
-      .join('<br>');
+      .join('');
 
     audioPlayer.load();
 	console.log("Image path:", reading.image); // Debugging log
