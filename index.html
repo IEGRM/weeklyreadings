@@ -64,10 +64,10 @@
 	  <pShow it or send it to your teacher (if requested)."</P><br>
       
 	  <!-- Data Entry Fields -->
-		<label for="school">*          School:</label>
+		<label for="school">* School:</label>
 		<input type="text" id="school" name="school" size="40"><br><br>
 
-		<label for="group">*           Group:</label>
+		<label for="group">* Group:</label>
 		<input type="text" id="group" name="group" size="40"><br><br>
 
 		<label for="name">*Name + Last Name:</label>
@@ -79,16 +79,23 @@
 		<p id="scoreFeedback"></p> 
     </div>
   </div>
-  
-	<script>
-	  function hideScoreButton() {
-		document.getElementById("scoreButton").style.display = "none";
-	  }
+		<!-- JavaScript -->
+		<script>
+		  // Wait for the document to load before adding event listeners
+		  document.addEventListener("DOMContentLoaded", function () {
+			let scoreButton = document.getElementById("scoreButton");
+			let clearButton = document.getElementById("clearButton");
 
-	  function showScoreButton() {
-		document.getElementById("scoreButton").style.display = "inline-block";
-	  }
-	</script>
+			scoreButton.addEventListener("click", function () {
+			  scoreButton.style.display = "none"; // Hide "My Score"
+			});
+
+			clearButton.addEventListener("click", function () {
+			  scoreButton.style.display = "inline-block"; // Show "My Score" again
+			});
+		  });
+		</script>
+	
   <script src="script.js"></script>
 </body>
 </html>
