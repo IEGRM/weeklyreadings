@@ -6,9 +6,6 @@ const imageFrame = document.getElementById('imageFrame');
 const textContent = document.getElementById('textContent');
 const vocabularyContent = document.getElementById('vocabularyContent');
 const quizContent = document.getElementById('quizContent');
-const scoreButton = document.getElementById('scoreButton');
-const clearButton = document.getElementById('clearButton');
-const scoreFeedback = document.getElementById('scoreFeedback');
 
 // Populate week dropdown
 for (let week = 1; week <= 39; week++) {
@@ -22,6 +19,7 @@ for (let week = 1; week <= 39; week++) {
 }
 
 // Function to load reading, vocabulary, and quiz based on selected week and grade
+
 async function loadReading() {
   const week = weekSelect.value;
   const grade = gradeSelect.value;
@@ -29,7 +27,7 @@ async function loadReading() {
   console.log(`Loading Week ${week}, Grade ${grade}`); // Debugging log
 
   try {
-    // Load reading
+    // Load reading for audio by jony
     const readingResponse = await fetch(`data/readings/week${week}/grade${grade}.json`);
     if (!readingResponse.ok) {
       throw new Error(`Failed to fetch reading data: ${readingResponse.status} ${readingResponse.statusText}`);
@@ -72,7 +70,7 @@ async function loadReading() {
     if (!quizResponse.ok) {
       throw new Error(`Failed to fetch quiz data: ${quizResponse.status} ${quizResponse.statusText}`);
     }
-    const quizData = await quizResponse.json();
+    const quizData = await quizResponse.json(); // Parse the JSON object
     console.log("Quiz data:", quizData); // Debugging log
 
     // Access the array inside the "quiz" key
@@ -83,13 +81,9 @@ async function loadReading() {
             <div class="quiz-question">
               <p><strong>Question ${index + 1}:</strong> ${question.question}</p>
               <ul>
-                ${question.options.map((option) => `
-                  <li>
-                    <input type="radio" name="question${index}" value="${option}">
-                    ${option}
-                  </li>
-                `).join('')}
+                ${question.options.map((option) => `<li>${option}</li>`).join('')}
               </ul>
+              <p><strong>Answer:</strong> ${question.answer}</p>
             </div>
           `
         )
@@ -108,67 +102,44 @@ async function loadReading() {
   }
 }
 
-// Function to calculate the score
-function calculateScore() {
-  const questions = document.querySelectorAll('.quiz-question');
-  let score = 0;
+// Function to update text based on audio time
+function updateTextForCurrentTime() {
+  const week = weekSelect.value;
+  const grade = gradeSelect.value;
 
-  questions.forEach((question, index) => {
-    const selectedOption = question.querySelector('input[type="radio"]:checked');
-    if (selectedOption) {
-      const userAnswer = selectedOption.value;
-      const correctAnswer = quizData.quiz[index].answer;
+  // Fetch the reading data again to get the text with timestamps
+  fetch(`data/readings/week${week}/grade${grade}.json`)
+    .then((response) => response.json())
+    .then((reading) => {
+      const currentTime = audioPlayer.currentTime;
+      const spans = document.querySelectorAll("#textContent span");
 
-      if (userAnswer === correctAnswer) {
-        score += 1;
+      if (spans.length === 0) {
+        console.log("No spans found! Text not loaded correctly.");
+        return;
       }
-    }
-  });
 
-  return score;
+      // Remove previous highlights
+      spans.forEach((span) => span.classList.remove("highlight"));
+
+      // Find the correct sentence to highlight
+      for (let i = reading.text.length - 1; i >= 0; i--) {
+        if (currentTime >= reading.text[i].time) {
+          spans[i].classList.add("highlight");
+          console.log("Highlighting:", spans[i].textContent);
+          break;
+        }
+      }
+    })
+    .catch((error) => {
+      console.error('Error fetching reading data:', error);
+    });
 }
 
-// Function to display feedback based on the score
-function displayFeedback(score) {
-  let feedback = '';
-  switch (score) {
-    case 1:
-      feedback = "Too low. (Muy bajito)";
-      break;
-    case 2:
-      feedback = "Getting better (Mejorando)";
-      break;
-    case 3:
-      feedback = "Just made it (Pasaste)";
-      break;
-    case 4:
-      feedback = "Good job (Buen trabajo)";
-      break;
-    case 5:
-      feedback = "Amazing work! (Estupendo)";
-      break;
-    default:
-      feedback = "Please answer all questions to get your score.";
-  }
-  scoreFeedback.textContent = `Score: ${score}/5 - ${feedback}`;
-}
-
-// Event listener for the "My Score" button
-scoreButton.addEventListener('click', () => {
-  const score = calculateScore();
-  displayFeedback(score);
-});
-
-// Event listener for the "Clear" button
-clearButton.addEventListener('click', () => {
-  const radioButtons = document.querySelectorAll('input[type="radio"]');
-  radioButtons.forEach((radio) => (radio.checked = false));
-  scoreFeedback.textContent = ''; // Clear the feedback
-});
-
-// Event listeners for week and grade selection
+// Event listeners
 weekSelect.addEventListener('change', loadReading);
 gradeSelect.addEventListener('change', loadReading);
+audioPlayer.addEventListener('timeupdate', updateTextForCurrentTime);
 
 // Load the first week and grade by default
 loadReading();
