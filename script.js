@@ -163,11 +163,6 @@ clearButton.addEventListener('click', () => {
   scoreFeedback.textContent = ''; // Clear the feedback
 });
 
-	
-
-
-
-
 
 // Function to update text based on audio time
 function updateTextForCurrentTime() {
