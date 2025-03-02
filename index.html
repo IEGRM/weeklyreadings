@@ -7,14 +7,13 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <!-- Week Selection -->
+  <!-- Week and Grade Selection -->
+  <div class="selector-container">
     <div class="selector">
       <label for="weekSelect">Select Week:</label>
       <select id="weekSelect"></select>
     </div>
 
-    <!-- Grade Selection -->
     <div class="selector">
       <label for="gradeSelect">Select Grade:</label>
       <select id="gradeSelect">
@@ -26,7 +25,10 @@
         <option value="11">11° Grade</option>
       </select>
     </div>
+  </div>
 
+  <!-- First Box: Reading Section -->
+  <div class="container">
     <!-- Audio Player -->
     <audio id="audioPlayer" controls>
       <source id="audioSource" src="" type="audio/mpeg">
@@ -42,14 +44,18 @@
     <div id="readingText">
       <p id="textContent">Select a week and grade to load the reading.</p>
     </div>
+  </div>
 
-    <!-- Vocabulary Section -->
+  <!-- Second Box: Vocabulary Section -->
+  <div class="container">
     <div id="vocabularySection">
       <h3>Vocabulary</h3>
       <div id="vocabularyContent"></div>
     </div>
+  </div>
 
-    <!-- Quiz Section -->
+  <!-- Third Box: Quiz Section -->
+  <div class="container">
     <div id="quizSection">
       <h3>Quiz</h3>
       <div id="quizContent"></div>
