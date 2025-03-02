@@ -27,7 +27,7 @@ async function loadReading() {
   console.log(`Loading Week ${week}, Grade ${grade}`); // Debugging log
 
   try {
-    // Load reading
+    // Load reading for audio by jony
     const readingResponse = await fetch(`data/readings/week${week}/grade${grade}.json`);
     if (!readingResponse.ok) {
       throw new Error(`Failed to fetch reading data: ${readingResponse.status} ${readingResponse.statusText}`);
