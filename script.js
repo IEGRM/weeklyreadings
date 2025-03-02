@@ -57,7 +57,7 @@ async function loadReading() {
     // Access the array inside the "vocabulary" key
     if (vocabularyData.vocabulary && Array.isArray(vocabularyData.vocabulary)) {
       vocabularyContent.innerHTML = vocabularyData.vocabulary
-        .map((item) => `<div>${item.word}: ${item.definition}</div>`)
+        .map((item) => `<div><strong>${item.word}:</strong> ${item.definition}</div>`)
         .join('');
     } else {
       console.error("Vocabulary data is not in the expected format:", vocabularyData);
