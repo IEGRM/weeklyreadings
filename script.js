@@ -54,10 +54,13 @@ async function loadReading() {
     const vocabulary = await vocabularyResponse.json();
     console.log("Vocabulary data:", vocabulary); // Debugging log
 
-    if (vocabulary) {
+    if (Array.isArray(vocabulary)) {
       vocabularyContent.innerHTML = vocabulary
         .map((item) => `<div>${item.word}: ${item.definition}</div>`)
         .join('');
+    } else {
+      console.error("Vocabulary data is not an array:", vocabulary);
+      vocabularyContent.innerHTML = "No vocabulary data available.";
     }
 
     // Load quiz
@@ -68,7 +71,7 @@ async function loadReading() {
     const quiz = await quizResponse.json();
     console.log("Quiz data:", quiz); // Debugging log
 
-    if (quiz) {
+    if (quiz && Array.isArray(quiz.questions)) {
       quizContent.innerHTML = quiz.questions
         .map(
           (question, index) => `
@@ -82,6 +85,9 @@ async function loadReading() {
           `
         )
         .join('');
+    } else {
+      console.error("Quiz data is not in the expected format:", quiz);
+      quizContent.innerHTML = "No quiz data available.";
     }
   } catch (error) {
     console.error('Error loading content:', error);
