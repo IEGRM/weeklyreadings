@@ -84,3 +84,29 @@ body {
 }
 
 
+
+/* Style for the quiz buttons */
+#scoreButton,
+#clearButton {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#scoreButton {
+  background-color: darkred;
+  color: white;
+}
+
+#clearButton {
+  background-color: #ccc;
+  color: #333;
+}
+
+#scoreFeedback {
+  margin-top: 10px;
+  font-weight: bold;
+}
