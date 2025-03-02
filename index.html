@@ -76,16 +76,14 @@
 		<!-- Buttons -->
 		<button id="scoreButton" onclick="hideScoreButton()">My Score</button>
 		<button id="clearButton" onclick="showScoreButton()">Clear</button>
-		
+		<p id="scoreFeedback"> </p>
+		<p>"Date & Time: " + getCurrentDateTime()</p>
 		<script>
 	  // Function to get the current date and time
 	  function getCurrentDateTime() {
 		const now = new Date();
 		return now.toLocaleString(); // Formats the date and time based on the user's locale
 	  }
-
-	  // Select the scoreFeedback element and update its content
-	  document.getElementById("scoreFeedback").innerHTML = "Date & Time: " + getCurrentDateTime();
 	</script>
 		
     </div>
