@@ -10,8 +10,11 @@ const scoreButton = document.getElementById('scoreButton');
 const clearButton = document.getElementById('clearButton');
 const scoreFeedback = document.getElementById('scoreFeedback');
 
-// Populate week dropdown (agregar cada semana una semana más para mostrar la ultima desarrollada)
-for (let week = 1; week <= 2; week++) {
+// Global variable to store quiz data keep in mind this!
+let quizData = null;
+
+// Populate week dropdown
+for (let week = 1; week <= 4; week++) {
   const option = document.createElement('option');
   option.value = week;
   option.textContent = `Week ${week}`;
@@ -22,18 +25,20 @@ for (let week = 1; week <= 2; week++) {
 }
 
 // Function to load reading, vocabulary, and quiz based on selected week and grade
-
 async function loadReading() {
   const week = weekSelect.value;
-  const grade = gradeSelect.value;  
+  const grade = gradeSelect.value;
+
+  console.log(`Loading Week ${week}, Grade ${grade}`); // Debugging log
 
   try {
-    // Load reading for audio by jony
+    // Load reading
     const readingResponse = await fetch(`data/readings/week${week}/grade${grade}.json`);
     if (!readingResponse.ok) {
       throw new Error(`Failed to fetch reading data: ${readingResponse.status} ${readingResponse.statusText}`);
     }
-    const reading = await readingResponse.json();    
+    const reading = await readingResponse.json();
+    console.log("Reading data:", reading); // Debugging log
 
     if (reading) {
       audioSource.src = reading.audio;
@@ -42,7 +47,9 @@ async function loadReading() {
         .map((sentence) => `<span data-time="${sentence.time}">${sentence.content}</span>`)
         .join('');
 
-      audioPlayer.load();      
+      audioPlayer.load();
+      console.log("Image path:", reading.image); // Debugging log
+      console.log("All spans after loading:", document.querySelectorAll("span")); // Check if spans exist
     }
 
     // Load vocabulary
@@ -63,13 +70,12 @@ async function loadReading() {
       vocabularyContent.innerHTML = "No vocabulary data available.";
     }
 
-    
-	// Load quiz
+    // Load quiz
     const quizResponse = await fetch(`data/quizzes/week${week}/grade${grade}.json`);
     if (!quizResponse.ok) {
       throw new Error(`Failed to fetch quiz data: ${quizResponse.status} ${quizResponse.statusText}`);
     }
-    const quizData = await quizResponse.json();
+    quizData = await quizResponse.json(); // Store quiz data in the global variable
     console.log("Quiz data:", quizData); // Debugging log
 
     // Access the array inside the "quiz" key
@@ -163,6 +169,7 @@ clearButton.addEventListener('click', () => {
   scoreFeedback.textContent = ''; // Clear the feedback
 });
 
+<<<<<<< HEAD
 
 // Function to update text based on audio time
 function updateTextForCurrentTime() {
@@ -199,6 +206,9 @@ function updateTextForCurrentTime() {
 }
 
 // Event listeners
+=======
+// Event listeners for week and grade selection
+>>>>>>> eb9e90940d54ae1d8df2e61be2cb8da737d25f97
 weekSelect.addEventListener('change', loadReading);
 gradeSelect.addEventListener('change', loadReading);
 audioPlayer.addEventListener('timeupdate', updateTextForCurrentTime);
