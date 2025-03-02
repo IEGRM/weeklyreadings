@@ -19,6 +19,7 @@ for (let week = 1; week <= 39; week++) {
 }
 
 // Function to load reading, vocabulary, and quiz based on selected week and grade
+
 async function loadReading() {
   const week = weekSelect.value;
   const grade = gradeSelect.value;
@@ -69,11 +70,12 @@ async function loadReading() {
     if (!quizResponse.ok) {
       throw new Error(`Failed to fetch quiz data: ${quizResponse.status} ${quizResponse.statusText}`);
     }
-    const quiz = await quizResponse.json();
-    console.log("Quiz data:", quiz); // Debugging log
+    const quizData = await quizResponse.json(); // Parse the JSON object
+    console.log("Quiz data:", quizData); // Debugging log
 
-    if (quiz && Array.isArray(quiz.questions)) {
-      quizContent.innerHTML = quiz.questions
+    // Access the array inside the "quiz" key
+    if (quizData.quiz && Array.isArray(quizData.quiz)) {
+      quizContent.innerHTML = quizData.quiz
         .map(
           (question, index) => `
             <div class="quiz-question">
@@ -87,7 +89,7 @@ async function loadReading() {
         )
         .join('');
     } else {
-      console.error("Quiz data is not in the expected format:", quiz);
+      console.error("Quiz data is not in the expected format:", quizData);
       quizContent.innerHTML = "No quiz data available.";
     }
   } catch (error) {
