@@ -10,11 +10,8 @@ const scoreButton = document.getElementById('scoreButton');
 const clearButton = document.getElementById('clearButton');
 const scoreFeedback = document.getElementById('scoreFeedback');
 
-// Global variable to store quiz data
-let quizData = null;
-
 // Populate week dropdown (agregar cada semana una semana más para mostrar la ultima desarrollada)
-for (let week = 1; week <= 2; week++) {
+for (let week = 1; week <= 5; week++) {
   const option = document.createElement('option');
   option.value = week;
   option.textContent = `Week ${week}`;
@@ -25,6 +22,7 @@ for (let week = 1; week <= 2; week++) {
 }
 
 // Function to load reading, vocabulary, and quiz based on selected week and grade
+
 async function loadReading() {
   const week = weekSelect.value;
   const grade = gradeSelect.value;  
@@ -65,12 +63,13 @@ async function loadReading() {
       vocabularyContent.innerHTML = "No vocabulary data available.";
     }
 
-    // Load quiz
+    
+	// Load quiz
     const quizResponse = await fetch(`data/quizzes/week${week}/grade${grade}.json`);
     if (!quizResponse.ok) {
       throw new Error(`Failed to fetch quiz data: ${quizResponse.status} ${quizResponse.statusText}`);
     }
-    quizData = await quizResponse.json(); // Assign quiz data to the global variable
+    const quizData = await quizResponse.json();
     console.log("Quiz data:", quizData); // Debugging log
 
     // Access the array inside the "quiz" key
@@ -163,40 +162,6 @@ clearButton.addEventListener('click', () => {
   radioButtons.forEach((radio) => (radio.checked = false));
   scoreFeedback.textContent = ''; // Clear the feedback
 });
-
-// Function to update text based on audio time
-function updateTextForCurrentTime() {
-  const week = weekSelect.value;
-  const grade = gradeSelect.value;
-
-  // Fetch the reading data again to get the text with timestamps
-  fetch(`data/readings/week${week}/grade${grade}.json`)
-    .then((response) => response.json())
-    .then((reading) => {
-      const currentTime = audioPlayer.currentTime;
-      const spans = document.querySelectorAll("#textContent span");
-
-      if (spans.length === 0) {
-        console.log("No spans found! Text not loaded correctly.");
-        return;
-      }
-
-      // Remove previous highlights
-      spans.forEach((span) => span.classList.remove("highlight"));
-
-      // Find the correct sentence to highlight
-      for (let i = reading.text.length - 1; i >= 0; i--) {
-        if (currentTime >= reading.text[i].time) {
-          spans[i].classList.add("highlight");
-          console.log("Highlighting:", spans[i].textContent);
-          break;
-        }
-      }
-    })
-    .catch((error) => {
-      console.error('Error fetching reading data:', error);
-    });
-}
 
 
 // Function to update text based on audio time
