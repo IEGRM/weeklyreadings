@@ -51,15 +51,16 @@ async function loadReading() {
     if (!vocabularyResponse.ok) {
       throw new Error(`Failed to fetch vocabulary data: ${vocabularyResponse.status} ${vocabularyResponse.statusText}`);
     }
-    const vocabulary = await vocabularyResponse.json();
-    console.log("Vocabulary data:", vocabulary); // Debugging log
+    const vocabularyData = await vocabularyResponse.json(); // Parse the JSON object
+    console.log("Vocabulary data:", vocabularyData); // Debugging log
 
-    if (Array.isArray(vocabulary)) {
-      vocabularyContent.innerHTML = vocabulary
+    // Access the array inside the "vocabulary" key
+    if (vocabularyData.vocabulary && Array.isArray(vocabularyData.vocabulary)) {
+      vocabularyContent.innerHTML = vocabularyData.vocabulary
         .map((item) => `<div>${item.word}: ${item.definition}</div>`)
         .join('');
     } else {
-      console.error("Vocabulary data is not an array:", vocabulary);
+      console.error("Vocabulary data is not in the expected format:", vocabularyData);
       vocabularyContent.innerHTML = "No vocabulary data available.";
     }
 
