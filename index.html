@@ -48,7 +48,7 @@
   <div class="container">
     <div id="vocabularySection">
       <h3><span style="color: darkred;">VOCABULARY REVIEW</span></h3>
-	  <p>Make sure to review this "key vocabulary". Remember, "Practice Makes Perfect!"</P> 
+      <p>Make sure to review this "key vocabulary". Remember, "Practice Makes Perfect!"</p>
       <div id="vocabularyContent"></div>
     </div>
   </div>
@@ -57,51 +57,32 @@
   <div class="container">
     <div id="quizSection">
       <h3><span style="color: darkred;">TAKE A QUIZ</span></h3>
-	  <p>Let's see how much you learned in this activity...</p> 	    
-	  
-	  <div id="quizContent"></div>
-	  <p>Please, enter all the information in the boxes and take a screenshot.<p>
-	  <pShow it or send it to your teacher (if requested)."</P><br>
-      
-	  <!-- Data Entry Fields -->
-		<label for="school" style="color: darkblue; font-weight: bold;">* School:</label>
-		<input type="text" id="school" name="school" size="40"><br><br>
+      <p>Let's see how much you learned in this activity...</p>
+      <div id="quizContent"></div>
+      <p>Please, enter all the information in the boxes and take a screenshot.</p>
+      <p>Show it or send it to your teacher (if requested).</p><br>
 
-		<label for="school" style="color: darkblue; font-weight: bold;">* Group:</label>
-		<input type="text" id="group" name="group" size="40"><br><br>
+      <!-- Data Entry Fields -->
+      <label for="school" style="color: darkblue; font-weight: bold;">* School:</label>
+      <input type="text" id="school" name="school" size="40"><br><br>
 
-		<label for="school" style="color: darkblue; font-weight: bold;">* Full Name(s):</label>
-		<input type="text" id="name" name="name" size="40"><br><br>
-		
-		<!-- Buttons -->
-		<button id="scoreButton" onclick="hideScoreButton()">My Score</button>
-		<button id="clearButton" onclick="showScoreButton()">Clear</button>
-		<p id="scoreFeedback"> </p>	
-		<div style="text-align: right; color: darkblue; font-size: 10px;"> Developer: Jony Rojas / Assistant: Felipe Molina
-		</div>
-		
+      <label for="group" style="color: darkblue; font-weight: bold;">* Group:</label>
+      <input type="text" id="group" name="group" size="40"><br><br>
+
+      <label for="name" style="color: darkblue; font-weight: bold;">* Full Name(s):</label>
+      <input type="text" id="name" name="name" size="40"><br><br>
+
+      <!-- Buttons -->
+      <button id="scoreButton">My Score</button>
+      <button id="clearButton">Clear</button>
+      <p id="scoreFeedback"></p>
+      <div style="text-align: right; color: darkblue; font-size: 10px;">
+        Developer: Jony Rojas / Assistant: Felipe Molina
+      </div>
     </div>
   </div>
-		<!-- JavaScript -->
-		<script>
-		  // Wait for the document to load before adding event listeners
-		  document.addEventListener("DOMContentLoaded", function () {
-			let scoreButton = document.getElementById("scoreButton");
-			let clearButton = document.getElementById("clearButton");
 
-			scoreButton.addEventListener("click", function () {
-			  scoreButton.style.display = "none"; // Hide "My Score"
-			});
-
-			clearButton.addEventListener("click", function () {
-			  scoreButton.style.display = "inline-block"; // Show "My Score" again
-			});
-		  });
-		</script>
-		
-	
+  <!-- JavaScript -->
   <script src="script.js"></script>
-  
-
 </body>
 </html>
