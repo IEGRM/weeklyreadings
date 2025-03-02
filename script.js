@@ -10,6 +10,7 @@ const quizContent = document.getElementById('quizContent');
 const scoreButton = document.getElementById('scoreButton');
 const clearButton = document.getElementById('clearButton');
 const scoreFeedback = document.getElementById('scoreFeedback');
+const timestamp = document.getElementById('timestamp'); // New element for timestamp
 
 // Global variable to store quiz data
 let quizData = null;
@@ -113,6 +114,15 @@ function displayFeedback(score) {
 
   const feedback = feedbackMap[score] || "Please answer all questions to get your score.";
   scoreFeedback.textContent = `Score: ${score}/5 - ${feedback}`;
+
+  // Show timestamp
+  const now = new Date();
+  const dateOptions = { year: 'numeric', month: 'short', day: 'numeric' };
+  const timeOptions = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true };
+  const date = now.toLocaleDateString('en-US', dateOptions);
+  const time = now.toLocaleTimeString('en-US', timeOptions);
+  timestamp.textContent = `Date: ${date} / Time: ${time}`;
+  timestamp.style.display = "block"; // Show the timestamp
 }
 
 // Highlight text based on audio time
@@ -146,6 +156,8 @@ scoreButton.addEventListener('click', () => {
 clearButton.addEventListener('click', () => {
   document.querySelectorAll('input[type="radio"]').forEach(radio => (radio.checked = false));
   scoreFeedback.textContent = '';
+  timestamp.textContent = ''; // Clear the timestamp
+  timestamp.style.display = "none"; // Hide the timestamp
   scoreButton.style.display = "inline-block";
 });
 
