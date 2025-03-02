@@ -11,7 +11,7 @@ const clearButton = document.getElementById('clearButton');
 const scoreFeedback = document.getElementById('scoreFeedback');
 
 // Populate week dropdown (agregar cada semana una semana más para mostrar la ultima desarrollada)
-for (let week = 1; week <= 2; week++) {
+for (let week = 1; week <= 5; week++) {
   const option = document.createElement('option');
   option.value = week;
   option.textContent = `Week ${week}`;
