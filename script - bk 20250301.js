@@ -4,8 +4,6 @@ const audioPlayer = document.getElementById('audioPlayer');
 const audioSource = document.getElementById('audioSource');
 const imageFrame = document.getElementById('imageFrame');
 const textContent = document.getElementById('textContent');
-const vocabularyContent = document.getElementById('vocabularyContent');
-const quizContent = document.getElementById('quizContent');
 
 // Populate week dropdown
 for (let week = 1; week <= 39; week++) {
@@ -18,7 +16,7 @@ for (let week = 1; week <= 39; week++) {
   weekSelect.appendChild(option);
 }
 
-// Function to load reading, vocabulary, and quiz based on selected week and grade
+// Function to load reading based on selected week and grade
 async function loadReading() {
   const week = weekSelect.value;
   const grade = gradeSelect.value;
@@ -26,12 +24,11 @@ async function loadReading() {
   console.log(`Loading Week ${week}, Grade ${grade}`); // Debugging log
 
   try {
-    // Load reading
-    const readingResponse = await fetch(`data/readings/week${week}/grade${grade}.json`);
-    if (!readingResponse.ok) {
-      throw new Error(`Failed to fetch reading data: ${readingResponse.status} ${readingResponse.statusText}`);
+    const response = await fetch(`data/readings/week${week}/grade${grade}.json`);
+    if (!response.ok) {
+      throw new Error(`Failed to fetch data: ${response.status} ${response.statusText}`);
     }
-    const reading = await readingResponse.json();
+    const reading = await response.json();
     console.log("Reading data:", reading); // Debugging log
 
     if (reading) {
@@ -45,51 +42,11 @@ async function loadReading() {
       console.log("Image path:", reading.image); // Debugging log
       console.log("All spans after loading:", document.querySelectorAll("span")); // Check if spans exist
     }
-
-    // Load vocabulary
-    const vocabularyResponse = await fetch(`data/vocabulary/week${week}/grade${grade}.json`);
-    if (!vocabularyResponse.ok) {
-      throw new Error(`Failed to fetch vocabulary data: ${vocabularyResponse.status} ${vocabularyResponse.statusText}`);
-    }
-    const vocabulary = await vocabularyResponse.json();
-    console.log("Vocabulary data:", vocabulary); // Debugging log
-
-    if (vocabulary) {
-      vocabularyContent.innerHTML = vocabulary
-        .map((item) => `<div>${item.word}: ${item.definition}</div>`)
-        .join('');
-    }
-
-    // Load quiz
-    const quizResponse = await fetch(`data/quizzes/week${week}/grade${grade}.json`);
-    if (!quizResponse.ok) {
-      throw new Error(`Failed to fetch quiz data: ${quizResponse.status} ${quizResponse.statusText}`);
-    }
-    const quiz = await quizResponse.json();
-    console.log("Quiz data:", quiz); // Debugging log
-
-    if (quiz) {
-      quizContent.innerHTML = quiz.questions
-        .map(
-          (question, index) => `
-            <div class="quiz-question">
-              <p><strong>Question ${index + 1}:</strong> ${question.question}</p>
-              <ul>
-                ${question.options.map((option) => `<li>${option}</li>`).join('')}
-              </ul>
-              <p><strong>Answer:</strong> ${question.answer}</p>
-            </div>
-          `
-        )
-        .join('');
-    }
   } catch (error) {
-    console.error('Error loading content:', error);
+    console.error('Error loading reading:', error);
     audioSource.src = '';
     imageFrame.src = '';
-    textContent.innerHTML = 'Error loading content. Please try again.';
-    vocabularyContent.innerHTML = ''; // Clear vocabulary content on error
-    quizContent.innerHTML = ''; // Clear quiz content on error
+    textContent.innerHTML = 'Error loading reading. Please try again.';
   }
 }
 

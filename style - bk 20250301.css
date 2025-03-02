@@ -1,0 +1,86 @@
+/* Version: 1.0.0 */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden; /* Add this to prevent overflow */
+}
+
+.selector {
+  margin: 5px 0;
+}
+
+.selector label {
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.selector select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+#audioPlayer {
+  width: 80%;
+  margin: 20px auto 10px auto; /* Center the audio player */
+  display: block;
+}
+
+#imageSection {  
+  margin: 10px 0;
+  display: flex;           /* Make this a flex container */
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */  
+  
+}
+
+#imageFrame {
+  width: 50%;             /* You can adjust this as needed */
+  max-width: 800px;        /* Add a max-width if desired */
+  height: 250px;
+  object-fit: cover;
+  border: none;
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+}
+
+#readingText {
+  background-color: rgba(255, 255, 255, 0.95); /* Make it less transparent */
+}
+
+#vocabularySection,
+#quizSection {
+  margin-top: 20px;
+}
+
+#vocabularyContent,
+#quizContent {
+  margin-top: 10px;
+}
+
+.quiz-question {
+  margin-bottom: 20px;
+}
+
+
+.highlight {
+  background-color: yellow; /* Changed to yellow for better visibility */
+  color: black;
+  display: inline;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
