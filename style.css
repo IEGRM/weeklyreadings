@@ -128,3 +128,8 @@ body {
   margin-top: 15px; /* Add spacing above feedback and timestamp */
   font-weight: bold; /* Make feedback and timestamp bold */
 }
+
+.highlightFedbkTitles {
+  color: darkred; /* Dark red color */
+  font-weight: bold; /* Bold text */
+}
