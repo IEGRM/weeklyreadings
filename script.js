@@ -10,7 +10,7 @@ const quizContent = document.getElementById('quizContent');
 const scoreButton = document.getElementById('scoreButton');
 const clearButton = document.getElementById('clearButton');
 const scoreFeedback = document.getElementById('scoreFeedback');
-const timestamp = document.getElementById('timestamp'); // New element for timestamp
+const timestamp = document.getElementById('timestamp');
 
 // Global variable to store quiz data
 let quizData = null;
@@ -23,6 +23,21 @@ for (let week = 1; week <= 2; week++) {
   option.textContent = `Week ${week}`;
   if (week === 1) option.selected = true; // Set Week 1 as default
   weekSelect.appendChild(option);
+}
+
+// Save selected week and grade to localStorage
+function saveSelections() {
+  localStorage.setItem('selectedWeek', weekSelect.value);
+  localStorage.setItem('selectedGrade', gradeSelect.value);
+}
+
+// Restore selected week and grade from localStorage
+function restoreSelections() {
+  const savedWeek = localStorage.getItem('selectedWeek');
+  const savedGrade = localStorage.getItem('selectedGrade');
+
+  if (savedWeek) weekSelect.value = savedWeek;
+  if (savedGrade) gradeSelect.value = savedGrade;
 }
 
 // Load reading, vocabulary, and quiz based on selected week and grade
@@ -88,7 +103,6 @@ async function loadReading() {
 }
 
 // Calculate quiz score
-// Function to calculate the score
 function calculateScore() {
   const questions = document.querySelectorAll('.quiz-question');
   let score = 0;
@@ -111,7 +125,7 @@ function calculateScore() {
   return { score, allAnswered }; // Return both the score and the flag
 }
 
-// Function to display feedback based on the score
+// Display feedback based on score
 function displayFeedback(score, allAnswered) {
   if (!allAnswered) {
     scoreFeedback.textContent = "Please answer all questions to get your score.";
@@ -120,11 +134,11 @@ function displayFeedback(score, allAnswered) {
   }
 
   const feedbackMap = {
-    1: "Too low, try again. (Muy bajito).",
-    2: "Getting better, try again (Mejorando).",
-    3: "Just made it, much better (Pasaste Raspadito).",
-    4: "Good job.(Buen trabajo).",
-    5: "Amazing work, you are the best! (Estupendo. El/La mejor).",
+    1: "Too low. (Muy bajito)",
+    2: "Getting better (Mejorando)",
+    3: "Just made it (Pasaste)",
+    4: "Good job (Buen trabajo)",
+    5: "Amazing work! (Estupendo)",
   };
 
   const feedback = feedbackMap[score] || "Please answer all questions to get your score.";
@@ -140,7 +154,17 @@ function displayFeedback(score, allAnswered) {
   timestamp.style.display = "block"; // Show the timestamp
 }
 
-// Event listener for the "My Score" button
+// Event listeners
+weekSelect.addEventListener('change', () => {
+  saveSelections();
+  loadReading();
+});
+
+gradeSelect.addEventListener('change', () => {
+  saveSelections();
+  loadReading();
+});
+
 scoreButton.addEventListener('click', () => {
   const { score, allAnswered } = calculateScore(); // Destructure the returned object
   displayFeedback(score, allAnswered); // Pass both score and allAnswered flag
@@ -149,53 +173,16 @@ scoreButton.addEventListener('click', () => {
   }
 });
 
-// Event listener for the "Clear" button
 clearButton.addEventListener('click', () => {
   document.querySelectorAll('input[type="radio"]').forEach(radio => (radio.checked = false));
-  scoreFeedback.textContent = ''; // Clear the feedback
+  scoreFeedback.textContent = ''; // Clear the feedback message
   timestamp.textContent = ''; // Clear the timestamp
   timestamp.style.display = "none"; // Hide the timestamp
   scoreButton.style.display = "inline-block"; // Show "My Score" button again
 });
 
-
-
-
-// Highlight text based on audio time
-function updateTextForCurrentTime() {
-  if (!cachedReadingData) return;
-
-  const currentTime = audioPlayer.currentTime;
-  const spans = document.querySelectorAll("#textContent span");
-
-  if (spans.length === 0) return;
-
-  spans.forEach(span => span.classList.remove("highlight"));
-
-  for (let i = cachedReadingData.text.length - 1; i >= 0; i--) {
-    if (currentTime >= cachedReadingData.text[i].time) {
-      spans[i].classList.add("highlight");
-      break;
-    }
-  }
-}
-
-// Event Listeners
-weekSelect.addEventListener('change', loadReading);
-gradeSelect.addEventListener('change', loadReading);
-audioPlayer.addEventListener('timeupdate', updateTextForCurrentTime);
-scoreButton.addEventListener('click', () => {
-  const score = calculateScore();
-  displayFeedback(score);
-  scoreButton.style.display = "none";
+// Restore selections and load reading when the page loads
+document.addEventListener('DOMContentLoaded', () => {
+  restoreSelections();
+  loadReading();
 });
-clearButton.addEventListener('click', () => {
-  document.querySelectorAll('input[type="radio"]').forEach(radio => (radio.checked = false));
-  scoreFeedback.textContent = '';
-  timestamp.textContent = ''; // Clear the timestamp
-  timestamp.style.display = "none"; // Hide the timestamp
-  scoreButton.style.display = "inline-block";
-});
-
-// Load the first week and grade by default
-loadReading();
