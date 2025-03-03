@@ -88,28 +88,43 @@ async function loadReading() {
 }
 
 // Calculate quiz score
+// Function to calculate the score
 function calculateScore() {
   const questions = document.querySelectorAll('.quiz-question');
   let score = 0;
+  let allAnswered = true; // Flag to check if all questions are answered
 
   questions.forEach((question, index) => {
     const selectedOption = question.querySelector('input[type="radio"]:checked');
-    if (selectedOption && selectedOption.value === quizData.quiz[index].answer) {
-      score += 1;
+    if (!selectedOption) {
+      allAnswered = false; // Set flag to false if any question is unanswered
+    } else {
+      const userAnswer = selectedOption.value;
+      const correctAnswer = quizData.quiz[index].answer;
+
+      if (userAnswer === correctAnswer) {
+        score += 1;
+      }
     }
   });
 
-  return score;
+  return { score, allAnswered }; // Return both the score and the flag
 }
 
-// Display feedback based on score
-function displayFeedback(score) {
+// Function to display feedback based on the score
+function displayFeedback(score, allAnswered) {
+  if (!allAnswered) {
+    scoreFeedback.textContent = "Please answer all questions to get your score.";
+    timestamp.textContent = ""; // Clear the timestamp if not all questions are answered
+    return; // Exit the function early
+  }
+
   const feedbackMap = {
-    1: "Too low. (Muy bajito)",
-    2: "Getting better (Mejorando)",
-    3: "Just made it (Pasaste)",
-    4: "Good job (Buen trabajo)",
-    5: "Amazing work! (Estupendo)",
+    1: "Too low, try again. (Muy bajito).",
+    2: "Getting better, try again (Mejorando).",
+    3: "Just made it, much better (Pasaste Raspadito).",
+    4: "Good job.(Buen trabajo).",
+    5: "Amazing work, you are the best! (Estupendo. El/La mejor).",
   };
 
   const feedback = feedbackMap[score] || "Please answer all questions to get your score.";
@@ -124,6 +139,27 @@ function displayFeedback(score) {
   timestamp.textContent = `Date: ${date} / Time: ${time}`;
   timestamp.style.display = "block"; // Show the timestamp
 }
+
+// Event listener for the "My Score" button
+scoreButton.addEventListener('click', () => {
+  const { score, allAnswered } = calculateScore(); // Destructure the returned object
+  displayFeedback(score, allAnswered); // Pass both score and allAnswered flag
+  if (allAnswered) {
+    scoreButton.style.display = "none"; // Hide "My Score" button only if all questions are answered
+  }
+});
+
+// Event listener for the "Clear" button
+clearButton.addEventListener('click', () => {
+  document.querySelectorAll('input[type="radio"]').forEach(radio => (radio.checked = false));
+  scoreFeedback.textContent = ''; // Clear the feedback
+  timestamp.textContent = ''; // Clear the timestamp
+  timestamp.style.display = "none"; // Hide the timestamp
+  scoreButton.style.display = "inline-block"; // Show "My Score" button again
+});
+
+
+
 
 // Highlight text based on audio time
 function updateTextForCurrentTime() {
