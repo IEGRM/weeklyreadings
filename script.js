@@ -124,13 +124,14 @@ function displayFeedback(score, allAnswered) {
 weekSelect.addEventListener('change', () => {
   saveSelections();
   loadQuiz();
+  loadReadingForAudio(); // Reload audio, image, and vocabulary when week changes
 });
 
 gradeSelect.addEventListener('change', () => {
   saveSelections();
   loadQuiz();
+  loadReadingForAudio(); // Reload audio, image, and vocabulary when grade changes
 });
-
 scoreButton.addEventListener('click', () => {
   const { score, allAnswered } = calculateScore(); // Destructure the returned object
   displayFeedback(score, allAnswered); // Pass both score and allAnswered flag
