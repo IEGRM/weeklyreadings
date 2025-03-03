@@ -82,3 +82,49 @@ body {
   padding: 2px 4px;
   border-radius: 3px;
 }
+
+.info-box {
+  border: 2px solid darkblue; /* Border color */
+  border-radius: 15px; /* Rounded corners */
+  padding: 20px; /* Space inside the box */
+  margin: 20px auto; /* Space outside the box (centered) */
+  max-width: 600px; /* Maximum width of the box */
+  background-color: #f9f9f9; /* Light background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.info-box p {
+  margin: 10px 0; /* Add spacing between paragraphs */
+}
+
+.info-box label {
+  display: block; /* Make labels block-level for better alignment */
+  margin-top: 10px; /* Add spacing above labels */
+}
+
+.info-box input[type="text"] {
+  width: 100%; /* Make input fields full width */
+  padding: 8px; /* Add padding inside input fields */
+  margin-top: 5px; /* Add spacing above input fields */
+  border: 1px solid #ccc; /* Light border for input fields */
+  border-radius: 5px; /* Slightly rounded corners for input fields */
+}
+
+.info-box button {
+  margin-top: 15px; /* Add spacing above buttons */
+  padding: 10px 20px; /* Add padding inside buttons */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners for buttons */
+  background-color: darkblue; /* Button background color */
+  color: white; /* Button text color */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.info-box button:hover {
+  background-color: #0056b3; /* Darker background on hover */
+}
+
+#scoreFeedback, #timestamp {
+  margin-top: 15px; /* Add spacing above feedback and timestamp */
+  font-weight: bold; /* Make feedback and timestamp bold */
+}
