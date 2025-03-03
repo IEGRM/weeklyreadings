@@ -103,7 +103,7 @@ body {
 }
 
 .info-box input[type="text"] {
-  width: 100%; /* Make input fields full width */
+  width: calc(100% - 16px);/* Make input fields full width */
   padding: 8px; /* Add padding inside input fields */
   margin-top: 5px; /* Add spacing above input fields */
   border: 1px solid #ccc; /* Light border for input fields */
