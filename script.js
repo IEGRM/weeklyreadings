@@ -1,4 +1,5 @@
 // DOM Elements for Quiz
+// Recreated
 const weekSelect = document.getElementById('weekSelect');
 const gradeSelect = document.getElementById('gradeSelect');
 const quizContent = document.getElementById('quizContent');
