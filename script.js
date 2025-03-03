@@ -134,11 +134,11 @@ function displayFeedback(score, allAnswered) {
   }
 
   const feedbackMap = {
-    1: "Too low. (Muy bajito)",
-    2: "Getting better (Mejorando)",
-    3: "Just made it (Pasaste)",
-    4: "Good job (Buen trabajo)",
-    5: "Amazing work! (Estupendo)",
+    1: "Too low. Try again! (Muy bajito, ¡Intenta de nuevo!)",
+    2: "Getting better. Try again! (Mejorando. ¡Intenta de nuevo!)",
+    3: "Barely made it. Try again! (Pasaste raspadito(a). ¡Intenta de nuevo!)",
+    4: "Good job. (¡Buen trabajo!)",
+    5: "Amazing work! You are the best! (¡Estupendo!)",
   };
 
   const feedback = feedbackMap[score] || "Please answer all questions to get your score.";
