@@ -1,0 +1,29 @@
+{
+  "quiz": [
+    {
+      "question": "Where does Carlos start working?",
+      "options": ["At a bakery", "At a corner shop", "At a restaurant"],
+      "answer": "At a corner shop"
+    },
+    {
+      "question": "What is the name of the shop?",
+      "options": ["Tienda La Esperanza", "Supermercado El Sol", "Minimarket San José"],
+      "answer": "Tienda La Esperanza"
+    },
+    {
+      "question": "How does Carlos feel on his first day?",
+      "options": ["Excited and nervous", "Angry and sad", "Calm and relaxed"],
+      "answer": "Excited and nervous"
+    },
+    {
+      "question": "What is one of his first tasks?",
+      "options": ["Cooking food", "Organizing shelves", "Delivering packages"],
+      "answer": "Organizing shelves"
+    },
+    {
+      "question": "How does Carlos feel at the end of the day?",
+      "options": ["Tired but happy", "Angry and frustrated", "Bored and lazy"],
+      "answer": "Tired but happy"
+    }
+  ]
+}

@@ -1,29 +1,29 @@
 {
   "quiz": [
     {
-      "question": "Jony checking on quiz for grade 7",
-      "options": ["She pours cereal.", "She wakes up.", "She reads the newspaper."],
-      "answer": "She wakes up."
+      "question": "What wakes him up?",
+      "options": ["His alarm clock", "Street vendors", "His phone ringing"],
+      "answer": "Street vendors"
     },
     {
-      "question": "What does she see rise?",
-      "options": ["The sun", "The moon", "Her shirt"],
-      "answer": "The moon"
+      "question": "What does he see in the mirror?",
+      "options": ["A cut on his face", "His facial hair growing", "His wet hair"],
+      "answer": "His facial hair growing"
     },
     {
-      "question": "What color are her teeth?",
-      "options": ["Yellow", "White", "Brown"],
-      "answer": "White"
+      "question": "Why does he wait before taking a shower?",
+      "options": ["The water is cold", "He forgot his towel", "He needs to shave first"],
+      "answer": "The water is cold"
     },
     {
-      "question": "What does she pour into the bowl?",
-      "options": ["Juice", "Milk and cereal", "Water"],
-      "answer": "Milk and cereal"
+      "question": "What happens when he shaves?",
+      "options": ["He cuts himself", "He finishes quickly", "His razor breaks"],
+      "answer": "He cuts himself"
     },
     {
-      "question": "What does she do after she eats?",
-      "options": ["She reads the newspaper.", "She goes upstairs.", "She brushes her teeth."],
-      "answer": "She reads the newspaper."
+      "question": "How does he feel after applying aftershave?",
+      "options": ["Refreshed", "The cut stings", "Very tired"],
+      "answer": "The cut stings"
     }
   ]
 }
