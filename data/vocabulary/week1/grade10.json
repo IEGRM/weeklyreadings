@@ -1,17 +1,21 @@
 {
   "vocabulary": [
-    { "word": "<strong>ceiling</strong>", "definition": "the top interior surface of a room (techo)" },
-    { "word": "<strong>chandelier</strong>", "definition": "a decorative hanging light with branches (candelabro)" },
-    { "word": "<strong>entire</strong>", "definition": "whole or complete (entero)" },
-    { "word": "<strong>jump</strong>", "definition": "to push oneself off the ground into the air (saltar)" },
-    { "word": "<strong>laptop</strong>", "definition": "a small portable computer (computador portátil)" },
-    { "word": "<strong>offer</strong>", "definition": "to present something for acceptance (ofrecer)" },
-    { "word": "<strong>painting</strong>", "definition": "a picture made using paint (pintura)" },
-    { "word": "<strong>quit</strong>", "definition": "to stop doing something (renunciar)" },
-    { "word": "<strong>recently</strong>", "definition": "not long ago (recientemente)" },
-    { "word": "<strong>rude</strong>", "definition": "not polite (grosero)" },
-    { "word": "<strong>though</strong>", "definition": "despite the fact (aunque)" },
-    { "word": "<strong>understand</strong>", "definition": "to comprehend (entender)" },
-    { "word": "<strong>wallet</strong>", "definition": "a small case for carrying money (billetera)" }
+    { "word": "<strong>laptop</strong>", "definition": "a portable computer (computador portátil)" },
+    { "word": "<strong>struggling</strong>", "definition": "having difficulty dealing with a problem (luchando, teniendo dificultades)" },
+    { "word": "<strong>factory</strong>", "definition": "a building where goods are manufactured (fábrica)" },
+    { "word": "<strong>garage</strong>", "definition": "a place where vehicles are repaired or stored (garaje, taller)" },
+    { "word": "<strong>successful</strong>", "definition": "achieving a goal or having wealth and recognition (exitoso)" },
+    { "word": "<strong>impressive</strong>", "definition": "causing admiration due to size, quality, or skill (impresionante)" },
+    { "word": "<strong>chandelier</strong>", "definition": "a decorative hanging light with branches (candelabro, lámpara de araña)" },
+    { "word": "<strong>ceiling</strong>", "definition": "the top inside surface of a room (techo, cielo raso)" },
+    { "word": "<strong>decorate</strong>", "definition": "to add things to make a place more attractive (decorar)" },
+    { "word": "<strong>bedroom</strong>", "definition": "a room for sleeping (dormitorio, habitación)" },
+    { "word": "<strong>bathroom</strong>", "definition": "a room with a toilet and sink, sometimes a shower (baño)" },
+    { "word": "<strong>hesitate</strong>", "definition": "to pause before saying or doing something (dudar, vacilar)" },
+    { "word": "<strong>rude</strong>", "definition": "not polite or respectful (grosero, descortés)" },
+    { "word": "<strong>nod</strong>", "definition": "to move the head up and down to show agreement (asentir con la cabeza)" },
+    { "word": "<strong>wallet</strong>", "definition": "a small case for carrying money and cards (billetera, cartera)" },
+    { "word": "<strong>jump with excitement</strong>", "definition": "to physically express happiness by jumping (saltar de emoción)" },
+    { "word": "<strong>feel bad</strong>", "definition": "to experience sadness or guilt (sentirse mal)" }
   ]
 }
