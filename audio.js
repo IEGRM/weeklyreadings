@@ -1,25 +1,16 @@
-// DOM Elements for Audio, Video, and Image
+// DOM Elements for Audio and Image
 const audioPlayer = document.getElementById('audioPlayer');
 const audioSource = document.getElementById('audioSource');
-const youtubePlayer = document.getElementById('youtubePlayer');
 const textContent = document.getElementById('textContent');
 const imageFrame = document.getElementById('imageFrame');
 const vocabularyContent = document.getElementById('vocabularyContent');
 let cachedReadingData = null;
 
-// Function to update text based on media time
+// Function to update text based on audio time
 function updateTextForCurrentTime() {
   if (!cachedReadingData) return;
 
-  let currentTime;
-  if (audioPlayer.style.display !== 'none') {
-    currentTime = audioPlayer.currentTime;
-  } else if (youtubePlayer.style.display !== 'none') {
-    currentTime = youtubePlayer.currentTime;
-  } else {
-    return;
-  }
-
+  const currentTime = audioPlayer.currentTime;
   const spans = document.querySelectorAll("#textContent span");
 
   if (spans.length === 0) return;
@@ -36,30 +27,21 @@ function updateTextForCurrentTime() {
   }
 }
 
-// Function to load reading data for audio, video, and vocabulary
+// Function to load reading data for audio, image, and vocabulary
 async function loadReadingForAudio() {
   const week = document.getElementById('weekSelect').value; // Access weekSelect
   const grade = document.getElementById('gradeSelect').value; // Access gradeSelect
 
   try {
-    // Load reading for audio/video
+    // Load reading for audio
     const readingResponse = await fetch(`data/readings/week${week}/grade${grade}.json`);
     if (!readingResponse.ok) throw new Error(`Failed to fetch reading data: ${readingResponse.status} ${readingResponse.statusText}`);
     const reading = await readingResponse.json();
 
     if (reading) {
-      if (reading.audio.endsWith('.mp3')) {
-        audioSource.src = reading.audio;
-        audioPlayer.load();
-        audioPlayer.style.display = 'block';
-        youtubePlayer.style.display = 'none';
-      } else if (reading.audio.includes('youtube.com')) {
-        youtubePlayer.src = reading.audio;
-        youtubePlayer.style.display = 'block';
-        audioPlayer.style.display = 'none';
-      }
-
+      audioSource.src = reading.audio;
       textContent.innerHTML = reading.text.map(sentence => `<span data-time="${sentence.time}">${sentence.content}</span>`).join('');
+      audioPlayer.load();
       cachedReadingData = reading; // Cache reading data
 
       // Load image
@@ -79,7 +61,6 @@ async function loadReadingForAudio() {
   } catch (error) {
     console.error('Error loading reading data:', error);
     audioSource.src = '';
-    youtubePlayer.src = '';
     textContent.innerHTML = 'Error loading reading content. Please try again.';
     imageFrame.src = '';
     vocabularyContent.innerHTML = '';
@@ -89,8 +70,5 @@ async function loadReadingForAudio() {
 // Event listener for audio time updates
 audioPlayer.addEventListener('timeupdate', updateTextForCurrentTime);
 
-// Event listener for YouTube video time updates
-youtubePlayer.addEventListener('timeupdate', updateTextForCurrentTime);
-
-// Load reading for audio, video, and vocabulary when the page loads
+// Load reading for audio, image, and vocabulary when the page loads
 document.addEventListener('DOMContentLoaded', loadReadingForAudio);
