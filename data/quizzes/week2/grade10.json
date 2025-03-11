@@ -1,0 +1,29 @@
+{
+  "quiz": [
+    {
+      "question": "Why is getting into college difficult?",
+      "options": ["Because schools are closing", "Because students need more than good grades", "Because it is expensive"],
+      "answer": "Because students need more than good grades"
+    },
+    {
+      "question": "What do students need besides good grades?",
+      "options": ["Advanced subjects", "Extracurricular activities", "New uniforms"],
+      "answer": "Extracurricular activities"
+    },
+    {
+      "question": "Who writes recommendation letters?",
+      "options": ["Parents and friends", "Teachers and principals", "Famous people"],
+      "answer": "Teachers and principals"
+    },
+    {
+      "question": "Why are essays important?",
+      "options": ["They help students get better grades", "They help colleges understand students", "They replace exams"],
+      "answer": "They help colleges understand students"
+    },
+    {
+      "question": "What happens if a student has great grades but a boring essay?",
+      "options": ["They might not get into college", "They get a scholarship", "They automatically pass"],
+      "answer": "They might not get into college"
+    }
+  ]
+}

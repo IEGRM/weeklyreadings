@@ -1,0 +1,29 @@
+{
+  "quiz": [
+    {
+      "question": "What time did Marta come home?",
+      "options": ["Nine o’clock", "Eleven o’clock", "Ten o’clock"],
+      "answer": "Eleven o’clock"
+    },
+    {
+      "question": "What did Marta do before going to bed?",
+      "options": ["She ate dinner.", "She put on her pajamas.", "She watched TV."],
+      "answer": "She put on her pajamas."
+    },
+    {
+      "question": "Why did Marta wake up in the middle of the night?",
+      "options": ["She was cold.", "She was thirsty.", "She heard a loud noise."],
+      "answer": "She was thirsty."
+    },
+    {
+      "question": "What did Marta see outside the window?",
+      "options": ["A black cat", "A stray dog", "A noisy bird"],
+      "answer": "A stray dog"
+    },
+    {
+      "question": "Did Marta sleep well that night?",
+      "options": ["Yes, she slept all night.", "No, she kept waking up.", "She did not sleep at all."],
+      "answer": "No, she kept waking up."
+    }
+  ]
+}
