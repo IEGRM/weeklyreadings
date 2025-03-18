@@ -44,22 +44,21 @@ html, body {
 #imageSection {
   margin: 10px 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 100%; /* Ensure the image section doesn't exceed the viewport width */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically (optional) */
+  width: 100%; /* Ensure the container takes up the full width */
   box-sizing: border-box; /* Include padding and border in the element's total width */
 }
 
 #imageFrame {
-  width: 50%; /* Adjust as needed */
-  max-width: 800px; /* Prevent the image from exceeding this width */
-  height: 250px;
+  width: 100%; /* Make the image responsive */
+  max-width: 251px; /* Ensure it doesn't exceed its actual size */
+  height: auto; /* Maintain aspect ratio */
   object-fit: cover;
   border: none;
   overflow: hidden;
   display: block;
-  margin: 0 auto;
-  box-sizing: border-box; /* Include padding and border in the element's total width */
+  margin: 0 auto; /* Center the image horizontally within its container */
 }
 
 #readingText {
