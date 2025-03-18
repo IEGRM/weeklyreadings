@@ -9,14 +9,14 @@ html, body {
 }
 
 .container {
-  max-width: 100%; /* Ensure the container doesn't exceed the viewport width */
-  margin: 20px auto; /* Center the container */
+  max-width: 800px;
+  margin: 20px auto; /* Center the container horizontally */
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   overflow: hidden; /* Prevent overflow */
-  box-sizing: border-box; /* Include padding and border in the element's total width */
+  box-sizing: border-box;
 }
 
 .selector {
@@ -48,15 +48,16 @@ html, body {
   align-items: center; /* Center vertically (optional) */
   width: 100%; /* Ensure the container takes up the full width */
   box-sizing: border-box; /* Include padding and border in the element's total width */
+  overflow: hidden; /* Prevent overflow */
 }
 
 #imageFrame {
   width: 100%; /* Make the image responsive */
-  max-width: 251px; /* Ensure it doesn't exceed its actual size */
+  max-width: 250px; /* Ensure it doesn't exceed its actual size */
   height: auto; /* Maintain aspect ratio */
   object-fit: cover;
   border: none;
-  overflow: hidden;
+  overflow: hidden; /* Prevent overflow */
   display: block;
   margin: 0 auto; /* Center the image horizontally within its container */
 }
