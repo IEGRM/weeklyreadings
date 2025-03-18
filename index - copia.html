@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,12 +27,12 @@
         <option value="11">11° Grade</option>
       </select>
     </div>
-    <hr>
-    <!-- Image Section -->
+	<hr>
+	    <!-- Image Section -->
     <div id="imageSection">
-      <!-- Camera feed will be inserted here -->
+      <iframe id="imageFrame" src="" frameborder="0"></iframe>
     </div>
-    <hr>
+	<hr>
     <!-- Audio Player -->
     <audio id="audioPlayer" controls>
       <source id="audioSource" src="" type="audio/mpeg">
@@ -55,7 +56,7 @@
   <!-- Quiz Section -->
   <div class="container">
     <div id="quizSection">
-      <h3><span style="color: darkred;">TAKE THE QUIZ NOW...</span></h3>
+      <h3><span style="color: darkred;">TAKE A QUIZ</span></h3>
       <p><em>Let's see how much you learned in this activity...</em></p>
       <div id="quizContent"></div>
       <div class="info-box">
@@ -85,6 +86,5 @@
   <!-- JavaScript -->
   <script src="audio.js"></script>
   <script src="script.js"></script>
-  <script src="camera.js"></script>
 </body>
 </html>
