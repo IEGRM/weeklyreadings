@@ -12,7 +12,7 @@ const timestamp = document.getElementById('timestamp');
 let quizData = null;
 
 // Populate week dropdown
-for (let week = 1; week <= 2; week++) {
+for (let week = 1; week <= 3; week++) {
   const option = document.createElement('option');
   option.value = week;
   option.textContent = `Week ${week}`;
