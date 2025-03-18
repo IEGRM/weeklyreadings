@@ -16,7 +16,7 @@ for (let week = 1; week <= 3; week++) {
   const option = document.createElement('option');
   option.value = week;
   option.textContent = `Week ${week}`;
-  if (week === 1) option.selected = true; // Set Week 1 as default
+  if (week === 3) option.selected = true; // Set Week 1 as default
   weekSelect.appendChild(option);
 }
 
