@@ -1,22 +1,20 @@
 /* Version: 1.0.0 */
 
-html, body {
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  overflow-x: hidden; /* Prevent horizontal scrollbar */
-  width: 100%;
-  height: 100%;
+  padding: 20px;
+  color: #333;
 }
 
 .container {
-  max-width: 100%; /* Ensure the container doesn't exceed the viewport width */
-  margin: 20px auto; /* Center the container */
+  max-width: 800px;
+  margin: 20px auto; /* Add margin to separate containers */
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  overflow: hidden; /* Prevent overflow */
-  box-sizing: border-box; /* Include padding and border in the element's total width */
+  overflow: hidden; /* Add this to prevent overflow */
 }
 
 .selector {
@@ -41,25 +39,22 @@ html, body {
   display: block;
 }
 
-#imageSection {
+#imageSection {  
   margin: 10px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 100%; /* Ensure the image section doesn't exceed the viewport width */
-  box-sizing: border-box; /* Include padding and border in the element's total width */
+  display: flex;           /* Make this a flex container */
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */  
 }
 
 #imageFrame {
-  width: 50%; /* Adjust as needed */
-  max-width: 800px; /* Prevent the image from exceeding this width */
+  width: 50%;             /* You can adjust this as needed */
+  max-width: 800px;        /* Add a max-width if desired */
   height: 250px;
   object-fit: cover;
   border: none;
   overflow: hidden;
   display: block;
   margin: 0 auto;
-  box-sizing: border-box; /* Include padding and border in the element's total width */
 }
 
 #readingText {
@@ -89,14 +84,13 @@ html, body {
 }
 
 .info-box {
-  border: 2px solid darkblue;
-  border-radius: 15px;
-  padding: 20px;
-  margin: 20px auto;
-  max-width: 100%; /* Ensure the info box doesn't exceed the container width */
-  background-color: #f9f9f9;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  box-sizing: border-box; /* Include padding and border in the element's total width */
+  border: 2px solid darkblue; /* Border color */
+  border-radius: 15px; /* Rounded corners */
+  padding: 20px; /* Space inside the box */
+  margin: 20px auto; /* Space outside the box (centered) */
+  max-width: 600px; /* Maximum width of the box */
+  background-color: #f9f9f9; /* Light background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 .info-box p {
@@ -137,8 +131,6 @@ html, body {
 
 /* This is for the camera box at the bottom of the form */
 #cameraBox {
-  width: 150px; /* Fixed width for the camera box */
-  height: 150px; /* Fixed height for the camera box */
   border: 2px solid darkblue;
   border-radius: 10px;
   background-color: #f0f0f0;
@@ -146,7 +138,6 @@ html, body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  box-sizing: border-box; /* Include padding and border in the element's total width */
 }
 
 #cameraBox video {
