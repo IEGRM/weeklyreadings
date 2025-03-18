@@ -129,3 +129,19 @@ body {
   font-weight: bold; /* Make feedback and timestamp bold */
 }
 
+/* This is for the camera box at the bottom of the form */
+#cameraBox {
+  border: 2px solid darkblue;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#cameraBox video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

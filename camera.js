@@ -29,11 +29,11 @@ function stopCamera() {
   }
 }
 
-// Function to insert the camera feed into the image section
+// Function to insert the camera feed into the camera box
 function insertCameraFeed() {
-  const imageSection = document.getElementById('imageSection');
-  imageSection.innerHTML = ''; // Clear any existing content
-  imageSection.appendChild(video);
+  const cameraBox = document.getElementById('cameraBox');
+  cameraBox.innerHTML = ''; // Clear any existing content
+  cameraBox.appendChild(video);
 }
 
 // Start the camera and insert the feed when the page loads
