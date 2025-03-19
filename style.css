@@ -8,6 +8,12 @@ html, body {
   height: 100%;
 }
 
+@media (max-width: 600px) {
+  #imageFrame {
+    max-width: 150px; /* Adjust the image size for smaller screens */
+  }
+}
+
 .container {
   max-width: 800px;
   margin: 20px auto; /* Center the container horizontally */
@@ -52,8 +58,9 @@ html, body {
 }
 
 #imageFrame {
-  width: 100%; /* Make the image responsive */   
-  max-height: 250px; /* Ensure it doesn't exceed its actual size */
+  width: 100%; /* Make the image responsive */
+  max-width: 247px; /* Ensure it doesn't exceed its actual size */
+  height: auto; /* Maintain aspect ratio */
   object-fit: cover;
   border: none;
   overflow: hidden; /* Prevent overflow */
