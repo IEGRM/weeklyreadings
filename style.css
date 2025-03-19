@@ -52,9 +52,9 @@ html, body {
 }
 
 #imageFrame {
-  width: 100%; /* Make the image responsive */
-  max-width: 250px; /* Ensure it doesn't exceed its actual size */
-  height: auto; /* Maintain aspect ratio */
+  width: 100%; /* Make the image responsive */  
+  height: 100%; /* Maintain aspect ratio */
+  max-height: 250px; /* Ensure it doesn't exceed its actual size */
   object-fit: cover;
   border: none;
   overflow: hidden; /* Prevent overflow */
