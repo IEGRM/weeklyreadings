@@ -36,7 +36,6 @@ function restoreSelections() {
 }
 
 // Load quiz based on selected week and grade
-// Function to load quiz and set the reading title
 async function loadQuiz() {
   const week = weekSelect.value;
   const grade = gradeSelect.value;
@@ -46,7 +45,6 @@ async function loadQuiz() {
     if (!quizResponse.ok) throw new Error(`Failed to fetch quiz data: ${quizResponse.status} ${quizResponse.statusText}`);
     quizData = await quizResponse.json();
 
-    // Display the quiz content
     if (quizData.quiz && Array.isArray(quizData.quiz)) {
       quizContent.innerHTML = quizData.quiz.map((question, index) => `
         <div class="quiz-question">
@@ -63,14 +61,6 @@ async function loadQuiz() {
       `).join('');
     } else {
       quizContent.innerHTML = "No quiz data available.";
-    }
-
-    // Set the reading title dynamically
-    const readingTitleDisplay = document.getElementById('readingTitleDisplay');
-    if (quizData.readingTitle) {
-      readingTitleDisplay.textContent = quizData.readingTitle; // Set the reading title
-    } else {
-      readingTitleDisplay.textContent = "No title available"; // Fallback if no title is found
     }
   } catch (error) {
     console.error('Error loading quiz data:', error);
