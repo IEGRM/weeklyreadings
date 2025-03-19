@@ -97,8 +97,8 @@ html, body {
 .info-box {
   border: 2px solid darkblue;
   border-radius: 15px;
-  padding: 20px;
-  margin: 20px auto;
+  padding: 10px;
+  margin: 10px auto;
   max-width: 100%; /* Ensure the info box doesn't exceed the container width */
   background-color: #f9f9f9;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -154,7 +154,7 @@ html, body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  margin: 0 auto; /* Center the camera box horizontally */
+  margin: 1px auto; /* Center the camera box horizontally */
 }
 
 #cameraBox video {
