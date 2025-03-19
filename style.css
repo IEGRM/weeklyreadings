@@ -52,8 +52,7 @@ html, body {
 }
 
 #imageFrame {
-  width: 100%; /* Make the image responsive */  
-  height: 100%; /* Maintain aspect ratio */
+  width: 100%; /* Make the image responsive */   
   max-height: 250px; /* Ensure it doesn't exceed its actual size */
   object-fit: cover;
   border: none;
