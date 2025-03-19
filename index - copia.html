@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weekly Readings by Teacher Jony Rojas</title>
+  <title>Weekly Readings by Teacher Jony Rojas IEGRM</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -53,18 +53,27 @@
     </div>
   </div>
 
-  <!-- Quiz Section -->
+    <!-- Quiz Section -->
   <div class="container">
     <div id="quizSection">
       <h3><span style="color: darkred;">TAKE A QUIZ</span></h3>
       <p><em>Let's see how much you learned in this activity...</em></p>
       <div id="quizContent"></div>
       <div class="info-box">
-        <p>Fill out all the information. Take a screenshot (pantallazo).</p>
-        <p>Show it or send it to your teacher (if requested).</p><br>
-        <!-- Data Entry Fields -->
-        <label for="school" style="color: darkblue; font-weight: bold;">* Reading Title:</label>
-        <input type="text" id="school" name="school" size="40"><br>
+        <div style="flex: 1;">
+		<p>Fill out all the information. Take a screenshot (pantallazo).</p>
+        <p>Show it or send it to your teacher (if requested).</p>		
+		</div>        
+		<!-- Data Entry Student Fields -->
+        <div style="display: flex; align-items: center;">		  
+		  <div style="flex: 1;">
+            <label for="readingTitle" style="color: darkblue; font-weight: bold;">* Reading Title:</label>
+            <input type="text" id="readingTitle" name="readingTitle" size="40">
+          </div>
+          <div id="cameraBox" style="width: 150px; height: 150px; border: 2px solid darkblue; margin-left: 20px; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+            <!-- Camera feed will be inserted here -->
+          </div>
+        </div>
         <label for="school" style="color: darkblue; font-weight: bold;">* School:</label>
         <input type="text" id="school" name="school" size="40"><br>
         <label for="group" style="color: darkblue; font-weight: bold;">* Group:</label>
@@ -86,5 +95,6 @@
   <!-- JavaScript -->
   <script src="audio.js"></script>
   <script src="script.js"></script>
+  <script src="camera.js"></script>
 </body>
 </html>

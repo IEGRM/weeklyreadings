@@ -59,33 +59,30 @@
       <h3><span style="color: darkred;">TAKE A QUIZ</span></h3>
       <p><em>Let's see how much you learned in this activity...</em></p>
       <div id="quizContent"></div>
-      <div class="info-box">
-        <div style="flex: 1;">
-		<p>Fill out all the information. Take a screenshot (pantallazo).</p>
-        <p>Show it or send it to your teacher (if requested).</p>		
-		</div>        
-		<!-- Data Entry Student Fields -->
-        <div style="display: flex; align-items: center;">		  
-		  <div style="flex: 1;">
-            <label for="readingTitle" style="color: darkblue; font-weight: bold;">* Reading Title:</label>
-            <input type="text" id="readingTitle" name="readingTitle" size="40">
-          </div>
-          <div id="cameraBox" style="width: 150px; height: 150px; border: 2px solid darkblue; margin-left: 20px; display: flex; justify-content: center; align-items: center; overflow: hidden;">
-            <!-- Camera feed will be inserted here -->
-          </div>
-        </div>
-        <label for="school" style="color: darkblue; font-weight: bold;">* School:</label>
-        <input type="text" id="school" name="school" size="40"><br>
-        <label for="group" style="color: darkblue; font-weight: bold;">* Group:</label>
-        <input type="text" id="group" name="group" size="40"><br>
-        <label for="name" style="color: darkblue; font-weight: bold;">* Full Name:</label>
-        <input type="text" id="name" name="name" size="40"><br><br>
-        <!-- Buttons -->
-        <button id="scoreButton">My Score</button>
-        <button id="clearButton">Clear</button>
-        <p id="scoreFeedback"></p>
-        <p id="timestamp"></p>
-      </div>
+	  
+	  
+			<div class="info-box">
+			  <p>Fill out all the information. Take a screenshot (pantallazo).</p>
+			  <p>Show it or send it to your teacher (if requested).</p>
+			  <br>
+			  <!-- Reading Title -->
+			  <p><strong>Reading Title:</strong> <span id="readingTitleDisplay"></span></p>
+			  <br>
+			  <!-- Data Entry Fields -->
+			  <label for="school" style="color: darkblue; font-weight: bold;">* School:</label>
+			  <input type="text" id="school" name="school" size="40"><br>
+			  <label for="group" style="color: darkblue; font-weight: bold;">* Group:</label>
+			  <input type="text" id="group" name="group" size="40"><br>
+			  <label for="name" style="color: darkblue; font-weight: bold;">* Full Name:</label>
+			  <input type="text" id="name" name="name" size="40"><br><br>
+			  <!-- Buttons -->
+			  <button id="scoreButton">My Score</button>
+			  <button id="clearButton">Clear</button>
+			  <p id="scoreFeedback"></p>
+			  <p id="timestamp"></p>
+			</div>
+	  
+	  
       <div style="text-align: center; color: darkblue; font-size: 10px;">
         Developers: Jony Rojas & Felipe Molina /IT Support: Juan Pablo Gaviria
       </div>
