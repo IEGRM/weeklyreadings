@@ -47,6 +47,10 @@ html, body {
   display: block;
 }
 
+#imageSection, #imageFrame, .container {
+  box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
 #imageSection {
   margin: 10px 0;
   display: flex;
