@@ -16,13 +16,12 @@ html, body {
 
 .container {
   max-width: 800px;
-  margin: 20px auto; /* Center the container horizontally */
+  margin: 20px auto; /* Add margin to separate containers */
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  overflow: hidden; /* Prevent overflow */
-  box-sizing: border-box;
+  overflow: hidden; /* Add this to prevent overflow */
 }
 
 .selector {
@@ -51,25 +50,22 @@ html, body {
   box-sizing: border-box; /* Include padding and border in the element's total width */
 }
 
-#imageSection {
+#imageSection {  
   margin: 10px 0;
-  display: flex;
+  display: flex;           /* Make this a flex container */
   justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically (optional) */
-  width: 100%; /* Ensure the container takes up the full width */
-  box-sizing: border-box; /* Include padding and border in the element's total width */
-  overflow: hidden; /* Prevent overflow */
+  align-items: center;     /* Center vertically */  
 }
 
 #imageFrame {
-  width: 100%; /* Make the image responsive */
-  max-width: 247px; /* Ensure it doesn't exceed its actual size */
-  height: auto; /* Maintain aspect ratio */
+  width: 50%;             /* You can adjust this as needed */
+  max-width: 800px;        /* Add a max-width if desired */
+  height: 250px;
   object-fit: cover;
   border: none;
-  overflow: hidden; /* Prevent overflow */
+  overflow: hidden;
   display: block;
-  margin: 0 auto; /* Center the image horizontally within its container */
+  margin: 0 auto;
 }
 
 #readingText {
