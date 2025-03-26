@@ -12,11 +12,11 @@ const timestamp = document.getElementById('timestamp');
 let quizData = null;
 
 // Populate week dropdown
-for (let week = 1; week <= 3; week++) {
+for (let week = 1; week <= 4; week++) {
   const option = document.createElement('option');
   option.value = week;
   option.textContent = `Week ${week}`;
-  if (week === 3) option.selected = true; // Set Week 1 as default
+  if (week === 4) option.selected = true; // Set Week 1 as default
   weekSelect.appendChild(option);
 }
 
