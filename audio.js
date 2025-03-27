@@ -38,19 +38,6 @@ async function loadReadingForAudio() {
   const week = document.getElementById('weekSelect').value;
   const grade = document.getElementById('gradeSelect').value;
   
- 
- 
-  // Add this inside loadReadingForAudio():
-if (window.AICharacter && reading.character) {
-  window.AICharacter.characterType = reading.character;
-  window.AICharacter.loadAssets().then(() => {
-    window.AICharacter.drawCharacter();
-  });
-}
-
-
-
-
   try {
     // Load reading for audio
     const readingResponse = await fetch(`data/readings/week${week}/grade${grade}.json`);
@@ -64,21 +51,20 @@ if (window.AICharacter && reading.character) {
       audioPlayer.load();
       imageFrame.src = reading.image;
 	  
-	  
 	  // Initialize character
-         if (typeof initCharacter !== 'undefined' && reading.character) {
-         initCharacter(reading.character);
-         }
+      if (typeof initCharacter !== 'undefined' && reading.character) {
+        initCharacter(reading.character);
+      }
 
       // Load vocabulary
       const vocabularyResponse = await fetch(`data/vocabulary/week${week}/grade${grade}.json`);
-      if (!vocabularyResponse.ok) throw new Error(`Failed to fetch vocabulary data: ${vocabularyResponse.status} ${vocabularyResponse.statusText}`);
+      if (!vocabularyResponse.ok) throw new Error(`Failed to fetch vocabulary data: ${readingResponse.status} ${readingResponse.statusText}`);
       vocabularyData = await vocabularyResponse.json(); // Store in global variable
 
       if (vocabularyData.vocabulary && Array.isArray(vocabularyData.vocabulary)) {
         vocabularyContent.innerHTML = vocabularyData.vocabulary.map(item => `<div><strong>${item.word}:</strong> ${item.definition}</div>`).join('');
         
-        // THIS IS WHERE IT SHOULD BE ADDED:
+        // Process text for vocabulary words
         setTimeout(processTextForVocabulary, 100); // Process text after vocabulary loads
       } else {
         vocabularyContent.innerHTML = "No vocabulary data available.";
@@ -92,6 +78,10 @@ if (window.AICharacter && reading.character) {
     vocabularyContent.innerHTML = '';
   }
 }
+
+// Step 4: Add event listeners for grade and week selection changes
+document.getElementById('gradeSelect').addEventListener('change', loadReadingForAudio);
+document.getElementById('weekSelect').addEventListener('change', loadReadingForAudio);
 
 //This is for the tooltip
 
@@ -174,13 +164,6 @@ function processTextForVocabulary() {
     });
   });
 }
-
-
-//end of tooltip
-
-
-
-
 
 // Event listener for audio time updates
 audioPlayer.addEventListener('timeupdate', updateTextForCurrentTime);

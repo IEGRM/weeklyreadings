@@ -2,126 +2,81 @@ class TalkingCharacter {
   constructor() {
     this.canvas = document.getElementById('talking-character');
     this.ctx = this.canvas.getContext('2d');
-    this.audioPlayer = document.getElementById('audioPlayer');
-    this.mouthValue = 0;
-    this.animationId = null;
-    this.characterType = 'woman';
+    this.img = new Image();
+    this.mouthOpenness = 0;
+    this.floatOffset = 0;
     
-    // AI Lip Sync Properties
-    this.phonemeMap = {
-      'A': 0.8, 'E': 0.6, 'I': 0.7, 'O': 0.9, 'U': 0.8,
-      'L': 0.5, 'M': 0.4, 'B': 0.3, 'P': 0.3, 'D': 0.2
-    };
+    // Load character
+    this.img.src = 'assets/characters/woman.png';
+    this.img.onload = () => this.draw();
     
-    this.loadAssets().then(() => {
-      this.drawCharacter();
-      this.setupSpeechRecognition();
-    });
+    // Animation loop
+    setInterval(() => this.draw(), 1000/60); // 60fps
   }
 
-  async loadAssets() {
-    this.characterImage = new Image();
-    return new Promise((resolve) => {
-      this.characterImage.src = `assets/characters/${this.characterType}.png`;
-      this.characterImage.onload = resolve;
-    });
-  }
-
-  setupSpeechRecognition() {
-    // Web Speech API Integration
-    this.synth = window.speechSynthesis;
-    this.utterance = new SpeechSynthesisUtterance();
-    
-    this.utterance.onboundary = (event) => {
-      if (event.name === 'word') {
-        const word = this.utterance.text.substring(event.charIndex, event.charIndex + event.charLength);
-        this.animatePhonemes(word);
-      }
-    };
-
-    // Sync with audio player
-    this.audioPlayer.addEventListener('play', () => {
-      const text = document.getElementById('textContent').textContent;
-      this.speak(text);
-    });
-  }
-
-  speak(text) {
-    this.utterance.text = text;
-    this.synth.speak(this.utterance);
-    this.startLipSync();
-  }
-
-  animatePhonemes(word) {
-    // AI-powered phoneme detection
-    const phonemes = word.toUpperCase().split('');
-    phonemes.forEach((char, i) => {
-      const intensity = this.phonemeMap[char] || 0.1;
-      setTimeout(() => {
-        this.mouthValue = intensity;
-      }, i * 150); // Adjust timing for natural speech
-    });
-  }
-
-  startLipSync() {
-    cancelAnimationFrame(this.animationId);
-    
-    const animate = () => {
-      this.drawCharacter();
-      
-      // Natural mouth closing when not speaking
-      if (!this.synth.speaking) {
-        this.mouthValue = Math.max(0, this.mouthValue - 0.05);
-      }
-      
-      this.animationId = requestAnimationFrame(animate);
-    };
-    
-    animate();
-  }
-
-  drawCharacter() {
+  draw() {
+    // Clear canvas
     this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
     
-    // Draw character
-    this.ctx.drawImage(this.characterImage, 0, 0, this.canvas.width, this.canvas.height);
+    // Floating animation
+    this.floatOffset = Math.sin(Date.now() / 500) * 5;
     
-    // AI-powered mouth drawing
+    // Draw character
+    this.ctx.save();
+    this.ctx.translate(0, this.floatOffset);
+    this.ctx.drawImage(this.img, 0, 0, this.canvas.width, this.canvas.height);
+    
+    // Draw mouth (simple version)
     this.drawMouth();
+    this.ctx.restore();
   }
 
   drawMouth() {
-    const mouthHeight = 10 + this.mouthValue * 20;
-    const mouthWidth = 30 + this.mouthValue * 10;
+    const mouthHeight = 5 + (this.mouthOpenness * 15);
+    const mouthWidth = 20 + (this.mouthOpenness * 10);
     
-    this.ctx.fillStyle = '#C45C66';
+    this.ctx.fillStyle = '#ff6b8b'; // Mouth color
     this.ctx.beginPath();
     this.ctx.ellipse(
-      this.canvas.width / 2,
-      this.canvas.height / 2 + 40,
-      mouthWidth,
-      mouthHeight,
+      this.canvas.width/2, 
+      this.canvas.height/2 + 40, 
+      mouthWidth, 
+      mouthHeight, 
       0, 0, Math.PI
     );
     this.ctx.fill();
+  }
+
+  speak(text) {
+    // Animate mouth while "speaking"
+    const animateMouth = () => {
+      this.mouthOpenness = Math.min(1, this.mouthOpenness + 0.1);
+      if (this.mouthOpenness >= 1) this.closeMouth();
+    };
     
-    // Tongue animation when mouth is very open
-    if (this.mouthValue > 0.7) {
-      this.ctx.fillStyle = '#FF7F93';
-      this.ctx.beginPath();
-      this.ctx.ellipse(
-        this.canvas.width / 2,
-        this.canvas.height / 2 + 45,
-        mouthWidth * 0.7,
-        mouthHeight * 0.4,
-        0, 0, Math.PI
-      );
-      this.ctx.fill();
-    }
+    this.mouthInterval = setInterval(animateMouth, 150);
+    setTimeout(() => this.stopSpeaking(), text.length * 100); // Auto-stop
+  }
+
+  closeMouth() {
+    this.mouthOpenness = Math.max(0, this.mouthOpenness - 0.2);
+  }
+
+  stopSpeaking() {
+    clearInterval(this.mouthInterval);
+    const closeInterval = setInterval(() => {
+      this.closeMouth();
+      if (this.mouthOpenness <= 0) clearInterval(closeInterval);
+    }, 50);
   }
 }
 
-// Initialize automatically when DOM loads
+// Initialize when page loads
 document.addEventListener('DOMContentLoaded', () => {
-  window.AICharacter = new TalkingCharacter();
+  window.character = new TalkingCharacter();
+  
+  // Test - remove this in production
+  document.getElementById('audioPlayer').addEventListener('play', () => {
+    window.character.speak("Hello, let's read the story");
+  });
 });
