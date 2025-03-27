@@ -26,8 +26,6 @@ function updateTextForCurrentTime() {
   for (let i = cachedReadingData.text.length - 1; i >= 0; i--) {
     if (currentTime >= cachedReadingData.text[i].time) {
       spans[i].classList.add("highlight");
-      
-      // Optional: Auto-scroll to highlighted text
       spans[i].scrollIntoView({ behavior: 'smooth', block: 'center' });
       break;
     }
@@ -45,18 +43,23 @@ async function loadReadingForAudio() {
     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
     
     const weekData = await response.json();
+    
+    if (!weekData.readings || !weekData.readings[grade]) {
+      throw new Error(`No reading data for week ${week}, grade ${grade}`);
+    }
+    
     cachedReadingData = weekData.readings[grade];
-    vocabularyData = weekData.vocabulary[grade];
+    vocabularyData = weekData.vocabulary ? weekData.vocabulary[grade] : null;
 
-    // 2. Update audio source
+    // 2. Update audio source with new path
     audioSource.src = `assets/audios/week${week}_audio_grade${grade}.mp3`;
     audioPlayer.load();
 
-    // 3. Update image
+    // 3. Update image with new path
     imageFrame.src = `assets/images/week${week}_image_grade${grade}.jpg`;
 
-    // 4. Build text content with time markers
-    if (cachedReadingData && cachedReadingData.text) {
+    // 4. Build text content
+    if (cachedReadingData.text) {
       textContent.innerHTML = cachedReadingData.text
         .map(sentence => `<span data-time="${sentence.time}">${sentence.content}</span>`)
         .join(' ');
@@ -64,13 +67,11 @@ async function loadReadingForAudio() {
       textContent.innerHTML = "No reading text available.";
     }
 
-    // 5. Load vocabulary
+    // 5. Load vocabulary if available
     if (vocabularyData && vocabularyData.length > 0) {
       vocabularyContent.innerHTML = vocabularyData
         .map(item => `<div><strong>${item.word}:</strong> ${item.definition}</div>`)
         .join('');
-      
-      // Process text for vocabulary tooltips after short delay
       setTimeout(processTextForVocabulary, 300);
     } else {
       vocabularyContent.innerHTML = "No vocabulary for this lesson.";
@@ -81,6 +82,7 @@ async function loadReadingForAudio() {
     handleLoadingError();
   }
 }
+
 
 // Handle loading errors
 function handleLoadingError() {
