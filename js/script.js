@@ -44,14 +44,14 @@ async function loadQuiz() {
   const grade = gradeSelect.value;
 
   try {
-    const response = await fetch(`data/week${week}.json`);
+    const response = await fetch(`data/quizzes/week${week}_quiz.json`);
     if (!response.ok) throw new Error(`Failed to load quiz: ${response.status}`);
     
-    const weekData = await response.json();
-    quizData = weekData.quizzes[grade]; // Access grade-specific quiz
+    const quizData = await response.json();
+    const gradeQuizData = quizData.quizzes[grade]; // Access grade-specific quiz
 
-    if (quizData && Array.isArray(quizData)) {
-      renderQuiz(quizData);
+    if (gradeQuizData && Array.isArray(gradeQuizData)) {
+      renderQuiz(gradeQuizData);
     } else {
       quizContent.innerHTML = "No quiz available for this selection.";
     }

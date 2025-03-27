@@ -32,34 +32,39 @@ function updateTextForCurrentTime() {
   }
 }
 
-// Load reading content for selected week/grade
 async function loadReadingForAudio() {
   const week = document.getElementById('weekSelect').value;
   const grade = document.getElementById('gradeSelect').value;
 
   try {
-    // 1. Load consolidated week data
-    const response = await fetch(`data/week${week}.json`);
-    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+    // 1. Load reading data
+    const readingResponse = await fetch(`data/readings/week${week}_reading.json`);
+    if (!readingResponse.ok) throw new Error(`Failed to load reading: ${readingResponse.status}`);
     
-    const weekData = await response.json();
-    
-    if (!weekData.readings || !weekData.readings[grade]) {
-      throw new Error(`No reading data for week ${week}, grade ${grade}`);
-    }
-    
-    cachedReadingData = weekData.readings[grade];
-    vocabularyData = weekData.vocabulary ? weekData.vocabulary[grade] : null;
+    const readingData = await readingResponse.json();
+    cachedReadingData = readingData.readings[grade];
 
-    // 2. Update audio source with new path
+    // 2. Load vocabulary data if available
+    try {
+      const vocabResponse = await fetch(`data/vocabulary/week${week}_vocabulary.json`);
+      if (vocabResponse.ok) {
+        const vocabData = await vocabResponse.json();
+        vocabularyData = vocabData.vocabulary[grade];
+      }
+    } catch (vocabError) {
+      console.log('No vocabulary file found for this week');
+      vocabularyData = null;
+    }
+
+    // 3. Update audio source with new path
     audioSource.src = `assets/audios/week${week}_audio_grade${grade}.mp3`;
     audioPlayer.load();
 
-    // 3. Update image with new path
+    // 4. Update image with new path
     imageFrame.src = `assets/images/week${week}_image_grade${grade}.jpg`;
 
-    // 4. Build text content
-    if (cachedReadingData.text) {
+    // 5. Build text content
+    if (cachedReadingData && cachedReadingData.text) {
       textContent.innerHTML = cachedReadingData.text
         .map(sentence => `<span data-time="${sentence.time}">${sentence.content}</span>`)
         .join(' ');
@@ -67,7 +72,7 @@ async function loadReadingForAudio() {
       textContent.innerHTML = "No reading text available.";
     }
 
-    // 5. Load vocabulary if available
+    // 6. Load vocabulary if available
     if (vocabularyData && vocabularyData.length > 0) {
       vocabularyContent.innerHTML = vocabularyData
         .map(item => `<div><strong>${item.word}:</strong> ${item.definition}</div>`)
