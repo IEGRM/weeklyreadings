@@ -49,11 +49,11 @@ async function loadReadingForAudio() {
     vocabularyData = weekData.vocabulary[grade];
 
     // 2. Update audio source
-    audioSource.src = `assets/week${week}_grade${grade}.mp3`;
+    audioSource.src = `assets/audios/week${week}_audio_grade${grade}.mp3`;
     audioPlayer.load();
 
     // 3. Update image
-    imageFrame.src = `assets/week${week}_grade${grade}.jpg`;
+    imageFrame.src = `assets/images/week${week}_image_grade${grade}.jpg`;
 
     // 4. Build text content with time markers
     if (cachedReadingData && cachedReadingData.text) {
