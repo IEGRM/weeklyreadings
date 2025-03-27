@@ -13,14 +13,7 @@ const CHARACTER_ASSETS = {
   }
 };
 
-function initCharacterSystem(audioElement) {
-  // Set up event listeners
-  audioElement.addEventListener('play', startAnimation);
-  audioElement.addEventListener('pause', resetAnimation);
-  audioElement.addEventListener('ended', resetAnimation);
-}
-
-function loadCharacter(characterType) {
+function initCharacter(characterType, audioPlayer) {
   const character = CHARACTER_ASSETS[characterType] || CHARACTER_ASSETS['woman'];
   
   // Preload images
@@ -34,12 +27,25 @@ function loadCharacter(characterType) {
     characterImg.src = character.neutral;
     characterImg.dataset.talking = character.talking;
     characterImg.style.display = 'block';
+    setupCharacterAnimation(audioPlayer);
   };
   
   neutralImg.onerror = () => {
     console.error('Failed to load character images');
     characterImg.style.display = 'none';
   };
+}
+
+function setupCharacterAnimation(audioPlayer) {
+  // Clear any existing listeners
+  audioPlayer.removeEventListener('play', startAnimation);
+  audioPlayer.removeEventListener('pause', resetAnimation);
+  audioPlayer.removeEventListener('ended', resetAnimation);
+  
+  // Add new listeners
+  audioPlayer.addEventListener('play', startAnimation);
+  audioPlayer.addEventListener('pause', resetAnimation);
+  audioPlayer.addEventListener('ended', resetAnimation);
 }
 
 function startAnimation() {
@@ -70,11 +76,4 @@ function resetAnimation() {
   if (characterImg.src.includes('_talking')) {
     characterImg.src = characterImg.src.replace('_talking', '_neutral');
   }
-}
-
-// Initialize when audio player is ready
-let audioPlayer;
-function initCharacters(player) {
-  audioPlayer = player;
-  initCharacterSystem(audioPlayer);
 }
