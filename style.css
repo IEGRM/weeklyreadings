@@ -272,3 +272,22 @@ html, body {
 .close-tooltip:hover {
   background: #0d5bba;
 }
+
+/* Add to the end of your style.css */
+#talking-character {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 150px;
+  height: auto;
+  z-index: 1000;
+  display: none; /* Hidden by default */
+}
+
+@media (max-width: 600px) {
+  #talking-character {
+    width: 100px;
+    bottom: 10px;
+    right: 10px;
+  }
+}

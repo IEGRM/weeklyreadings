@@ -4,6 +4,9 @@ const audioSource = document.getElementById('audioSource');
 const textContent = document.getElementById('textContent');
 const imageFrame = document.getElementById('imageFrame');
 const vocabularyContent = document.getElementById('vocabularyContent');
+const characterImg = document.getElementById('talking-character');
+
+
 let cachedReadingData = null;
 
 // Added this for tooltip on 20250326
@@ -46,6 +49,13 @@ async function loadReadingForAudio() {
       textContent.innerHTML = reading.text.map(sentence => `<span data-time="${sentence.time}">${sentence.content}</span>`).join('');
       audioPlayer.load();
       imageFrame.src = reading.image;
+	  
+	  
+	  // Load character if specified
+      if (reading.character) {
+        loadCharacter(reading.character); // From character.js
+      }
+	  
 
       // Load vocabulary
       const vocabularyResponse = await fetch(`data/vocabulary/week${week}/grade${grade}.json`);

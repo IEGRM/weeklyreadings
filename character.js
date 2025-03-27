@@ -1,6 +1,6 @@
 // characters.js
 const characterImg = document.getElementById('talking-character');
-let mouthAnimationFrame = null;
+let animationFrame = null;
 
 const CHARACTER_ASSETS = {
   'man': {
@@ -13,62 +13,68 @@ const CHARACTER_ASSETS = {
   }
 };
 
+function initCharacterSystem(audioElement) {
+  // Set up event listeners
+  audioElement.addEventListener('play', startAnimation);
+  audioElement.addEventListener('pause', resetAnimation);
+  audioElement.addEventListener('ended', resetAnimation);
+}
+
 function loadCharacter(characterType) {
-  const character = CHARACTER_ASSETS[characterType] || CHARACTER_ASSETS['woman']; // Default to woman
-  characterImg.src = character.neutral;
-  characterImg.dataset.talking = character.talking;
+  const character = CHARACTER_ASSETS[characterType] || CHARACTER_ASSETS['woman'];
   
-  // Verify images exist
-  const img = new Image();
-  img.onerror = () => {
-    console.warn(`Character images missing for ${characterType}, using default`);
-    characterImg.src = CHARACTER_ASSETS.woman.neutral;
-    characterImg.dataset.talking = CHARACTER_ASSETS.woman.talking;
+  // Preload images
+  const neutralImg = new Image();
+  const talkingImg = new Image();
+  
+  neutralImg.src = character.neutral;
+  talkingImg.src = character.talking;
+  
+  neutralImg.onload = () => {
+    characterImg.src = character.neutral;
+    characterImg.dataset.talking = character.talking;
+    characterImg.style.display = 'block';
   };
-  img.src = character.neutral;
-}
-
-function setupCharacterAnimation() {
-  if (mouthAnimationFrame) {
-    cancelAnimationFrame(mouthAnimationFrame);
-  }
   
-  audioPlayer.addEventListener('play', startMouthAnimation);
-  audioPlayer.addEventListener('pause', resetMouthAnimation);
-  audioPlayer.addEventListener('ended', resetMouthAnimation);
+  neutralImg.onerror = () => {
+    console.error('Failed to load character images');
+    characterImg.style.display = 'none';
+  };
 }
 
-function startMouthAnimation() {
+function startAnimation() {
   let isTalking = false;
-  const animationInterval = 200; // Adjust speed here
+  const animationSpeed = 200; // milliseconds between mouth changes
   
   function animate() {
-    if (audioPlayer.paused) return;
+    if (characterImg.style.display === 'none') return;
     
     isTalking = !isTalking;
     characterImg.src = isTalking 
       ? characterImg.dataset.talking 
       : characterImg.src.replace('_talking', '_neutral');
     
-    mouthAnimationFrame = setTimeout(() => {
-      requestAnimationFrame(animate);
-    }, animationInterval);
+    animationFrame = setTimeout(animate, animationSpeed);
   }
+  
+  // Clear any existing animation
+  if (animationFrame) clearTimeout(animationFrame);
   animate();
 }
 
-function resetMouthAnimation() {
-  if (mouthAnimationFrame) {
-    clearTimeout(mouthAnimationFrame);
-    mouthAnimationFrame = null;
+function resetAnimation() {
+  if (animationFrame) {
+    clearTimeout(animationFrame);
+    animationFrame = null;
   }
   if (characterImg.src.includes('_talking')) {
     characterImg.src = characterImg.src.replace('_talking', '_neutral');
   }
 }
 
-// Make audioPlayer available (shared with audio.js)
+// Initialize when audio player is ready
 let audioPlayer;
 function initCharacters(player) {
   audioPlayer = player;
+  initCharacterSystem(audioPlayer);
 }
