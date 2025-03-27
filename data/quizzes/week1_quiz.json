@@ -1,0 +1,208 @@
+{
+  "week": 1,
+  "grades": {
+    "6": {
+      "quiz": [
+        {
+          "question": "What does she do first in the morning?",
+          "options": ["She pours cereal.", "She wakes up.", "She reads the newspaper."],
+          "answer": "She wakes up."
+        },
+        {
+          "question": "What does she see rise?",
+          "options": ["The sun", "The moon", "Her shirt"],
+          "answer": "The moon"
+        },
+        {
+          "question": "What color are her teeth?",
+          "options": ["Yellow", "White", "Brown"],
+          "answer": "White"
+        },
+        {
+          "question": "What does she pour into the bowl?",
+          "options": ["Juice", "Milk and cereal", "Water"],
+          "answer": "Milk and cereal"
+        },
+        {
+          "question": "What does she do after she eats?",
+          "options": ["She reads the newspaper.", "She goes upstairs.", "She brushes her teeth."],
+          "answer": "She reads the newspaper."
+        }
+      ]
+    },
+    "7": {
+      "quiz": [
+        {
+          "question": "What wakes him up?",
+          "options": ["His alarm clock", "Street vendors", "His phone ringing"],
+          "answer": "Street vendors"
+        },
+        {
+          "question": "What does he see in the mirror?",
+          "options": ["A cut on his face", "His facial hair growing", "His wet hair"],
+          "answer": "His facial hair growing"
+        },
+        {
+          "question": "Why does he wait before taking a shower?",
+          "options": ["The water is cold", "He forgot his towel", "He needs to shave first"],
+          "answer": "The water is cold"
+        },
+        {
+          "question": "What happens when he shaves?",
+          "options": ["He cuts himself", "He finishes quickly", "His razor breaks"],
+          "answer": "He cuts himself"
+        },
+        {
+          "question": "How does he feel after applying aftershave?",
+          "options": ["Refreshed", "The cut stings", "Very tired"],
+          "answer": "The cut stings"
+        }
+      ]
+    },
+    "8": {
+      "quiz": [
+        {
+          "question": "Where do Julián and his friends play soccer?",
+          "options": ["At school", "At the neighborhood cancha", "At the park"],
+          "answer": "At the neighborhood cancha"
+        },
+        {
+          "question": "What happened when Julián kicked the ball too hard?",
+          "options": ["It hit a window", "It landed on the street", "It got lost"],
+          "answer": "It landed on the street"
+        },
+        {
+          "question": "Who ran to get the ball?",
+          "options": ["Julián", "Luis", "Camilo"],
+          "answer": "Luis"
+        },
+        {
+          "question": "What was coming fast around the corner?",
+          "options": ["A car", "A bus", "A motorcycle"],
+          "answer": "A motorcycle"
+        },
+        {
+          "question": "What did the others shout when Luis ran for the ball?",
+          "options": ["Run faster!", "Stop, Luis!", "Be careful!"],
+          "answer": "Stop, Luis!"
+        }
+      ]
+    },
+    "9": {
+      "quiz": [
+        {
+          "question": "Where does Carlos start working?",
+          "options": ["At a bakery", "At a corner shop", "At a restaurant"],
+          "answer": "At a corner shop"
+        },
+        {
+          "question": "What is the name of the shop?",
+          "options": ["Tienda La Esperanza", "Supermercado El Sol", "Minimarket San José"],
+          "answer": "Tienda La Esperanza"
+        },
+        {
+          "question": "How does Carlos feel on his first day?",
+          "options": ["Excited and nervous", "Angry and sad", "Calm and relaxed"],
+          "answer": "Excited and nervous"
+        },
+        {
+          "question": "What is one of his first tasks?",
+          "options": ["Cooking food", "Organizing shelves", "Delivering packages"],
+          "answer": "Organizing shelves"
+        },
+        {
+          "question": "How does Carlos feel at the end of the day?",
+          "options": ["Tired but happy", "Angry and frustrated", "Bored and lazy"],
+          "answer": "Tired but happy"
+        }
+      ]
+    },
+    "10": {
+      "quiz": [
+        {
+          "question": "Why can't Andrés ask his parents for a new phone?",
+          "options": ["They are strict.", "They lost their jobs.", "They don't like technology."],
+          "answer": "They lost their jobs."
+        },
+        {
+          "question": "How does Andrés get to Mauricio's house?",
+          "options": ["By bus", "By taxi", "By walking"],
+          "answer": "By bus"
+        },
+        {
+          "question": "What does Andrés see in Mauricio's house?",
+          "options": ["A chandelier", "A swimming pool", "A big garden"],
+          "answer": "A chandelier"
+        },
+        {
+          "question": "How much money does Mauricio give to Andrés?",
+          "options": ["500,000 pesos", "800,000 pesos", "1,000,000 pesos"],
+          "answer": "800,000 pesos"
+        },
+        {
+          "question": "Why doesn't Andrés tell his mom about the money?",
+          "options": ["He is scared.", "He doesn't want her to feel bad.", "He forgot."],
+          "answer": "He doesn't want her to feel bad."
+        }
+      ]
+    },
+    "11": {
+      "quiz": [
+        {
+          "question": "Why did Kevin want a new haircut?",
+          "options": [
+            "A) He wanted to look more mature.",
+            "B) His friends told him to change his style.",
+            "C) His barber recommended it."
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Where did Kevin go to get his haircut?",
+          "options": [
+            "A) A shopping mall.",
+            "B) A local barbershop.",
+            "C) A friend's house."
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What did the barber say when Kevin asked for a new style?",
+          "options": [
+            "A) 'This will take a long time.'",
+            "B) 'Are you sure about that?'",
+            "C) 'Say no more.'"
+          ],
+          "answer": "C"
+        },
+        {
+          "question": "How did Kevin feel when he saw his new haircut?",
+          "options": [
+            "A) He barely recognized himself.",
+            "B) He was disappointed.",
+            "C) He thought he looked the same."
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "What happened after Kevin's haircut?",
+          "options": [
+            "A) His teachers gave him compliments.",
+            "B) A music producer noticed him.",
+            "C) His parents told him to cut his hair again."
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What is the main theme of the story?",
+          "options": [
+            "A) How appearances can change people's perceptions.",
+            "B) The importance of following school rules.",
+            "C) How to become a barber."
+          ],
+          "answer": "A"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "week": 1,
+  "grades": {
+    "6": {
+    "quiz": [
+      {
+        "question": "What does Camila see first?",
+        "options": ["A messy floor", "A big puddle", "A glass of water"],
+        "answer": "A messy floor"
+      },
+      {
+        "question": "What does Camila use to clean the floor?",
+        "options": ["A broom and a mop", "A glass", "A puddle"],
+        "answer": "A broom and a mop"
+      },
+      {
+        "question": "What happens when Camila drops the glass?",
+        "options": ["There is water everywhere", "The floor is clean", "She is happy"],
+        "answer": "There is water everywhere"
+      },
+      {
+        "question": "Who helps Camila with the chores?",
+        "options": ["Her brother Juan", "Her friend Maria", "Her mother"],
+        "answer": "Her brother Juan"
+      },
+      {
+        "question": "How does Camila feel at the end?",
+        "options": ["Happy", "Tired", "Sad"],
+        "answer": "Happy"
+      }
+    ]
+  },
+  "7": {
+    "quiz": [
+      {
+        "question": "What is the dog’s name?",
+        "options": ["Max", "Rocky", "Buddy"],
+        "answer": "Rocky"
+      },
+      {
+        "question": "Where does Santiago tie Rocky?",
+        "options": ["A pole", "A fence", "A tree"],
+        "answer": "A fence"
+      },
+      {
+        "question": "What does Santiago buy at the grocery store?",
+        "options": ["Bread", "Milk", "Fruit"],
+        "answer": "Milk"
+      },
+      {
+        "question": "Who does Santiago greet outside?",
+        "options": ["His neighbor", "His uncle", "His friend"],
+        "answer": "His uncle"
+      },
+      {
+        "question": "What does Santiago serve Rocky?",
+        "options": ["A bowl of water", "A bowl of food", "A treat"],
+        "answer": "A bowl of food"
+      }
+    ]
+  },
+  "8": {
+    "quiz": [
+      {
+        "question": "What does María dislike about her hair?",
+        "options": ["It’s too short", "It’s too big", "It’s too straight"],
+        "answer": "It’s too big"
+      },
+      {
+        "question": "What does María want to be?",
+        "options": ["A teacher", "A student leader", "A singer"],
+        "answer": "A student leader"
+      },
+      {
+        "question": "What does María do every morning?",
+        "options": ["She combs her hair", "She straightens her hair", "She cuts her hair"],
+        "answer": "She straightens her hair"
+      },
+      {
+        "question": "Who does María meet with?",
+        "options": ["Her teacher", "The school principal", "Her friend"],
+        "answer": "The school principal"
+      },
+      {
+        "question": "What does the principal say about María’s hair?",
+        "options": ["It’s too curly", "It’s unique", "It’s messy"],
+        "answer": "It’s unique"
+      }
+    ]
+  },
+  "9": {
+    "quiz": [
+      {
+        "question": "What type of movies does Carlos love?",
+        "options": ["Romantic", "Action", "Comedy"],
+        "answer": "Action"
+      },
+      {
+        "question": "What did Carlos buy at the concession stand?",
+        "options": ["Candy", "Popcorn and soda", "A hot dog"],
+        "answer": "Popcorn and soda"
+      },
+      {
+        "question": "Why was Carlos angry?",
+        "options": ["The movie was bad", "His friends didn’t show up", "He lost his ticket"],
+        "answer": "His friends didn’t show up"
+      },
+      {
+        "question": "What did Carlos do when his friends didn’t answer?",
+        "options": ["He went home", "He went inside alone", "He called the police"],
+        "answer": "He went inside alone"
+      },
+      {
+        "question": "How did Carlos feel about the movie?",
+        "options": ["He hated it", "He enjoyed it", "He fell asleep"],
+        "answer": "He enjoyed it"
+      }
+    ]
+  },
+  "10": {
+    "quiz": [
+      {
+        "question": "What is Camila’s physical imperfection?",
+        "options": ["A scar", "A limp", "A unibrow"],
+        "answer": "A limp"
+      },
+      {
+        "question": "Who are Camila’s best friends?",
+        "options": ["Sofia and Mateo", "Valeria and Juan", "Maria and Carlos"],
+        "answer": "Sofia and Mateo"
+      },
+      {
+        "question": "What did Valeria offer Sofia?",
+        "options": ["Money", "Popularity", "A bike"],
+        "answer": "Popularity"
+      },
+      {
+        "question": "What did Sofia decide to do?",
+        "options": ["Leave Camila", "Stay friends with Camila", "Ignore Mateo"],
+        "answer": "Stay friends with Camila"
+      },
+      {
+        "question": "Where did Sofia, Camila, and Mateo hang out?",
+        "options": ["At school", "At the park", "At their corner hangout"],
+        "answer": "At their corner hangout"
+      }
+    ]
+  },
+  "11": {
+    "quiz": [
+      {
+        "question": "What is Camila’s job?",
+        "options": ["Teacher", "Night shift worker", "Chef"],
+        "answer": "Night shift worker"
+      },
+      {
+        "question": "What does Camila do after work?",
+        "options": ["Sleep", "Go to the gym", "Watch TV"],
+        "answer": "Go to the gym"
+      },
+      {
+        "question": "Why was Camila’s request rejected?",
+        "options": ["She was late", "Older employees needed the shift", "The manager didn’t like her"],
+        "answer": "Older employees needed the shift"
+      },
+      {
+        "question": "How did Camila feel at first about the rejection?",
+        "options": ["Happy", "Mad", "Excited"],
+        "answer": "Mad"
+      },
+      {
+        "question": "What did Camila decide to do?",
+        "options": ["Quit her job", "Stay strong for her coworkers", "Complain to the manager"],
+        "answer": "Stay strong for her coworkers"
+        }
+      ]
+    }
+  }
+}

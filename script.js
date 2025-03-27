@@ -1,5 +1,7 @@
-// DOM Elements for Quiz
-// Recreated
+// script.js - Quiz Functionality
+// Handles week/grade selection and quiz management
+
+// DOM Elements
 const weekSelect = document.getElementById('weekSelect');
 const gradeSelect = document.getElementById('gradeSelect');
 const quizContent = document.getElementById('quizContent');
@@ -8,25 +10,26 @@ const clearButton = document.getElementById('clearButton');
 const scoreFeedback = document.getElementById('scoreFeedback');
 const timestamp = document.getElementById('timestamp');
 
-// Global variable to store quiz data
+// Global variable
 let quizData = null;
 
 // Populate week dropdown
-for (let week = 1; week <= 4; week++) {
-  const option = document.createElement('option');
-  option.value = week;
-  option.textContent = `Week ${week}`;
-  if (week === 4) option.selected = true; // Set Week 1 as default
-  weekSelect.appendChild(option);
+function initializeWeekSelector() {
+  for (let week = 1; week <= 4; week++) {
+    const option = document.createElement('option');
+    option.value = week;
+    option.textContent = `Week ${week}`;
+    weekSelect.appendChild(option);
+  }
 }
 
-// Save selected week and grade to localStorage
+// Save selections to localStorage
 function saveSelections() {
   localStorage.setItem('selectedWeek', weekSelect.value);
   localStorage.setItem('selectedGrade', gradeSelect.value);
 }
 
-// Restore selected week and grade from localStorage
+// Restore selections from localStorage
 function restoreSelections() {
   const savedWeek = localStorage.getItem('selectedWeek');
   const savedGrade = localStorage.getItem('selectedGrade');
@@ -35,68 +38,70 @@ function restoreSelections() {
   if (savedGrade) gradeSelect.value = savedGrade;
 }
 
-// Load quiz based on selected week and grade
+// Load quiz from consolidated JSON
 async function loadQuiz() {
   const week = weekSelect.value;
   const grade = gradeSelect.value;
 
   try {
-    const quizResponse = await fetch(`data/quizzes/week${week}/grade${grade}.json`);
-    if (!quizResponse.ok) throw new Error(`Failed to fetch quiz data: ${quizResponse.status} ${quizResponse.statusText}`);
-    quizData = await quizResponse.json();
+    const response = await fetch(`data/week${week}.json`);
+    if (!response.ok) throw new Error(`Failed to load quiz: ${response.status}`);
+    
+    const weekData = await response.json();
+    quizData = weekData.quizzes[grade]; // Access grade-specific quiz
 
-    if (quizData.quiz && Array.isArray(quizData.quiz)) {
-      quizContent.innerHTML = quizData.quiz.map((question, index) => `
-        <div class="quiz-question">
-          <p><strong>Question ${index + 1}:</strong> ${question.question}</p>
-          <ul>
-            ${question.options.map(option => `
-              <li>
-                <input type="radio" name="question${index}" value="${option}">
-                ${option}
-              </li>
-            `).join('')}
-          </ul>
-        </div>
-      `).join('');
+    if (quizData && Array.isArray(quizData)) {
+      renderQuiz(quizData);
     } else {
-      quizContent.innerHTML = "No quiz data available.";
+      quizContent.innerHTML = "No quiz available for this selection.";
     }
   } catch (error) {
-    console.error('Error loading quiz data:', error);
-    quizContent.innerHTML = 'Error loading quiz content. Please try again.';
+    console.error('Quiz loading error:', error);
+    quizContent.innerHTML = "Error loading quiz. Please try again.";
   }
+}
+
+// Render quiz questions
+function renderQuiz(questions) {
+  quizContent.innerHTML = questions.map((question, index) => `
+    <div class="quiz-question">
+      <p><strong>Question ${index + 1}:</strong> ${question.question}</p>
+      <ul>
+        ${question.options.map(option => `
+          <li>
+            <input type="radio" name="question${index}" id="q${index}_opt${question.options.indexOf(option)}" value="${option}">
+            <label for="q${index}_opt${question.options.indexOf(option)}">${option}</label>
+          </li>
+        `).join('')}
+      </ul>
+    </div>
+  `).join('');
 }
 
 // Calculate quiz score
 function calculateScore() {
-  const questions = document.querySelectorAll('.quiz-question');
   let score = 0;
-  let allAnswered = true; // Flag to check if all questions are answered
+  let allAnswered = true;
 
-  questions.forEach((question, index) => {
+  document.querySelectorAll('.quiz-question').forEach((question, index) => {
     const selectedOption = question.querySelector('input[type="radio"]:checked');
+    
     if (!selectedOption) {
-      allAnswered = false; // Set flag to false if any question is unanswered
-    } else {
-      const userAnswer = selectedOption.value;
-      const correctAnswer = quizData.quiz[index].answer;
-
-      if (userAnswer === correctAnswer) {
-        score += 1;
-      }
+      allAnswered = false;
+    } else if (selectedOption.value === quizData[index].answer) {
+      score++;
     }
   });
 
-  return { score, allAnswered }; // Return both the score and the flag
+  return { score, allAnswered };
 }
 
-// Display feedback based on score
+// Display score feedback
 function displayFeedback(score, allAnswered) {
   if (!allAnswered) {
     scoreFeedback.textContent = "Please answer all questions to get your score.";
-    timestamp.textContent = ""; // Clear the timestamp if not all questions are answered
-    return; // Exit the function early
+    timestamp.textContent = "";
+    return;
   }
 
   const feedbackMap = {
@@ -107,49 +112,46 @@ function displayFeedback(score, allAnswered) {
     5: "Amazing work! You are the best! (¡Estupendo!)",
   };
 
-  const feedback = feedbackMap[score] || "Please answer all questions to get your score.";
-  scoreFeedback.textContent = `Score: ${score}/5 - ${feedback}`;
-
-  // Show timestamp
-  const now = new Date();
-  const dateOptions = { year: 'numeric', month: 'short', day: 'numeric' };
-  const timeOptions = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true };
-  const date = now.toLocaleDateString('en-US', dateOptions);
-  const time = now.toLocaleTimeString('en-US', timeOptions);
-  timestamp.textContent = `Date: ${date} / Time: ${time}`;
-  timestamp.style.display = "block"; // Show the timestamp
+  scoreFeedback.textContent = `Score: ${score}/5 - ${feedbackMap[score] || "Please answer all questions."}`;
+  updateTimestamp();
 }
 
-// Event listeners for quiz
+// Update timestamp
+function updateTimestamp() {
+  const now = new Date();
+  timestamp.textContent = `Submitted: ${now.toLocaleString()}`;
+  timestamp.style.display = "block";
+}
+
+// Event Listeners
 weekSelect.addEventListener('change', () => {
   saveSelections();
   loadQuiz();
-  loadReadingForAudio(); // Reload audio, image, and vocabulary when week changes
 });
 
 gradeSelect.addEventListener('change', () => {
   saveSelections();
   loadQuiz();
-  loadReadingForAudio(); // Reload audio, image, and vocabulary when grade changes
 });
+
 scoreButton.addEventListener('click', () => {
-  const { score, allAnswered } = calculateScore(); // Destructure the returned object
-  displayFeedback(score, allAnswered); // Pass both score and allAnswered flag
-  if (allAnswered) {
-    scoreButton.style.display = "none"; // Hide "My Score" button only if all questions are answered
-  }
+  const { score, allAnswered } = calculateScore();
+  displayFeedback(score, allAnswered);
+  if (allAnswered) scoreButton.style.display = "none";
 });
 
 clearButton.addEventListener('click', () => {
-  document.querySelectorAll('input[type="radio"]').forEach(radio => (radio.checked = false));
-  scoreFeedback.textContent = ''; // Clear the feedback message
-  timestamp.textContent = ''; // Clear the timestamp
-  timestamp.style.display = "none"; // Hide the timestamp
-  scoreButton.style.display = "inline-block"; // Show "My Score" button again
+  document.querySelectorAll('input[type="radio"]').forEach(radio => {
+    radio.checked = false;
+  });
+  scoreFeedback.textContent = "";
+  timestamp.textContent = "";
+  scoreButton.style.display = "inline-block";
 });
 
-// Restore selections and load quiz when the page loads
+// Initialize
 document.addEventListener('DOMContentLoaded', () => {
+  initializeWeekSelector();
   restoreSelections();
   loadQuiz();
 });
