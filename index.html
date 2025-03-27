@@ -92,13 +92,13 @@
     </div>
   </div>
   
-<!-- Adding character elements to this shit -->
-  <img id="talking-character" style="display:none;">
+<!-- Add this right before the closing </body> tag -->
+<img id="talking-character" style="display:none;">
 
-  <!-- JavaScript -->
-  <script src="character.js"></script> <!-- Add this line -->
-  <script src="audio.js"></script>
-  <script src="script.js"></script>
-  <script src="camera.js"></script>
+<!-- JavaScript - IMPORTANT: Load character.js AFTER audio.js -->
+<script src="audio.js"></script>
+<script src="character.js"></script>
+<script src="script.js"></script>
+<script src="camera.js"></script>
 </body>
 </html>
