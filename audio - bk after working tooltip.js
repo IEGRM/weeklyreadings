@@ -4,8 +4,9 @@ const audioSource = document.getElementById('audioSource');
 const textContent = document.getElementById('textContent');
 const imageFrame = document.getElementById('imageFrame');
 const vocabularyContent = document.getElementById('vocabularyContent');
-const characterImg = document.getElementById('talking-character');
 let cachedReadingData = null;
+
+// Added this for tooltip on 20250326
 let vocabularyData = null;
 
 // Function to update text based on audio time
@@ -29,91 +30,33 @@ function updateTextForCurrentTime() {
   }
 }
 
-// Character functions
-function loadCharacter(characterType) {
-  const characters = {
-    'man': {
-      neutral: 'assets/characters/man_neutral.png',
-      talking: 'assets/characters/man_talking.png'
-    },
-    'woman': {
-      neutral: 'assets/characters/woman_neutral.png',
-      talking: 'assets/characters/woman_talking.png'
-    }
-  };
-
-  const character = characters[characterType] || characters['woman']; // Default to woman
-  characterImg.src = character.neutral;
-  characterImg.dataset.talking = character.talking;
-}
-
-function setupCharacterAnimation() {
-  let animationFrame;
-  const animationInterval = 200;
-
-  function animate() {
-    if (audioPlayer.paused) return;
-    
-    // Toggle between talking and neutral states
-    const isTalking = characterImg.src.includes('_talking');
-    characterImg.src = isTalking 
-      ? characterImg.src.replace('_talking', '_neutral')
-      : characterImg.dataset.talking;
-    
-    animationFrame = setTimeout(animate, animationInterval);
-  }
-
-  audioPlayer.addEventListener('play', () => {
-    animate();
-  });
-
-  audioPlayer.addEventListener('pause', () => {
-    clearTimeout(animationFrame);
-    characterImg.src = characterImg.src.replace('_talking', '_neutral');
-  });
-
-  audioPlayer.addEventListener('ended', () => {
-    clearTimeout(animationFrame);
-    characterImg.src = characterImg.src.replace('_talking', '_neutral');
-  });
-}
-
 async function loadReadingForAudio() {
   const week = document.getElementById('weekSelect').value;
   const grade = document.getElementById('gradeSelect').value;
 
   try {
-    // Load reading data
+    // Load reading for audio
     const readingResponse = await fetch(`data/readings/week${week}/grade${grade}.json`);
-    if (!readingResponse.ok) throw new Error(`Failed to fetch reading data`);
+    if (!readingResponse.ok) throw new Error(`Failed to fetch reading data: ${readingResponse.status} ${readingResponse.statusText}`);
     const reading = await readingResponse.json();
     cachedReadingData = reading;
 
     if (reading) {
-      // Set up audio and image
       audioSource.src = reading.audio;
-      textContent.innerHTML = reading.text.map(sentence => 
-        `<span data-time="${sentence.time}">${sentence.content}</span>`
-      ).join('');
+      textContent.innerHTML = reading.text.map(sentence => `<span data-time="${sentence.time}">${sentence.content}</span>`).join('');
       audioPlayer.load();
       imageFrame.src = reading.image;
 
-      // Set up character if specified
-      if (reading.character) {
-        loadCharacter(reading.character);
-        setupCharacterAnimation();
-      }
-
       // Load vocabulary
       const vocabularyResponse = await fetch(`data/vocabulary/week${week}/grade${grade}.json`);
-      if (!vocabularyResponse.ok) throw new Error(`Failed to fetch vocabulary data`);
-      vocabularyData = await vocabularyResponse.json();
+      if (!vocabularyResponse.ok) throw new Error(`Failed to fetch vocabulary data: ${vocabularyResponse.status} ${vocabularyResponse.statusText}`);
+      vocabularyData = await vocabularyResponse.json(); // Store in global variable
 
-      if (vocabularyData.vocabulary?.length) {
-        vocabularyContent.innerHTML = vocabularyData.vocabulary.map(item => 
-          `<div><strong>${item.word}:</strong> ${item.definition}</div>`
-        ).join('');
-        setTimeout(processTextForVocabulary, 100);
+      if (vocabularyData.vocabulary && Array.isArray(vocabularyData.vocabulary)) {
+        vocabularyContent.innerHTML = vocabularyData.vocabulary.map(item => `<div><strong>${item.word}:</strong> ${item.definition}</div>`).join('');
+        
+        // THIS IS WHERE IT SHOULD BE ADDED:
+        setTimeout(processTextForVocabulary, 100); // Process text after vocabulary loads
       } else {
         vocabularyContent.innerHTML = "No vocabulary data available.";
       }
@@ -127,20 +70,26 @@ async function loadReadingForAudio() {
   }
 }
 
-// Vocabulary tooltip functions
+//This is for the tooltip
+
+// Function to show vocabulary tooltip
 function showVocabularyTooltip(word, element) {
   if (!vocabularyData) return;
   
+  // Clean the word by removing HTML tags and punctuation
   const cleanWord = word.replace(/<[^>]+>/g, '').replace(/[.,!?;:"]/g, '').toLowerCase();
   
+  // Find the word in vocabulary (case insensitive)
   const vocabItem = vocabularyData.vocabulary.find(item => {
     const vocabWord = item.word.replace(/<[^>]+>/g, '').toLowerCase();
     return vocabWord === cleanWord;
   });
   
   if (vocabItem) {
+    // Remove any existing tooltips
     document.querySelectorAll('.vocab-tooltip').forEach(t => t.remove());
     
+    // Create and show tooltip
     const tooltip = document.createElement('div');
     tooltip.className = 'vocab-tooltip';
     tooltip.innerHTML = `
@@ -150,6 +99,7 @@ function showVocabularyTooltip(word, element) {
       </div>
     `;
     
+    // Position it near the clicked word
     const rect = element.getBoundingClientRect();
     tooltip.style.position = 'fixed';
     tooltip.style.top = `${rect.top + window.scrollY - 40}px`;
@@ -157,10 +107,12 @@ function showVocabularyTooltip(word, element) {
     
     document.body.appendChild(tooltip);
     
+    // Close tooltip when clicking the close button
     tooltip.querySelector('.close-tooltip').addEventListener('click', () => {
       tooltip.remove();
     });
     
+    // Close tooltip when clicking outside
     setTimeout(() => {
       document.addEventListener('click', function closeTooltip(e) {
         if (!tooltip.contains(e.target)) {
@@ -172,21 +124,26 @@ function showVocabularyTooltip(word, element) {
   }
 }
 
+// Function to process text and make vocabulary words clickable
 function processTextForVocabulary() {
   if (!vocabularyData || !textContent) return;
   
+  // Get all text content
   let html = textContent.innerHTML;
   
+  // Process each vocabulary word
   vocabularyData.vocabulary.forEach(item => {
-    const word = item.word.replace(/<[^>]+>/g, '');
+    const word = item.word.replace(/<[^>]+>/g, ''); // Remove HTML tags
     const regex = new RegExp(`\\b${word}\\b`, 'gi');
-    html = html.replace(regex, match => 
-      `<span class="vocab-word" data-word="${word}">${match}</span>`
-    );
+    html = html.replace(regex, match => {
+      return `<span class="vocab-word" data-word="${word}">${match}</span>`;
+    });
   });
   
+  // Update the content
   textContent.innerHTML = html;
   
+  // Add click handlers
   document.querySelectorAll('.vocab-word').forEach(el => {
     el.addEventListener('click', function(e) {
       e.stopPropagation();
@@ -195,6 +152,15 @@ function processTextForVocabulary() {
   });
 }
 
-// Event listeners
+
+//end of tooltip
+
+
+
+
+
+// Event listener for audio time updates
 audioPlayer.addEventListener('timeupdate', updateTextForCurrentTime);
+
+// Load reading for audio, image, and vocabulary when the page loads
 document.addEventListener('DOMContentLoaded', loadReadingForAudio);
