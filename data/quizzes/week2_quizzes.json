@@ -1,8 +1,6 @@
 {
-  "week": 2,
-  "grades": {
-    "6": {
-      "quiz": [
+  "quizzes": {
+    "6": [
         {
           "question": "Where does Juan walk into?",
           "options": ["A store", "A park", "A school"],
@@ -202,8 +200,8 @@
           "question": "What did they do when they got home?",
           "options": ["They played outside", "They sat and ate their treats", "They carved pumpkins"],
           "answer": "They sat and ate their treats"
-        }
-      ]
-    }
+        
+      }
+    ]
   }
 }

@@ -1,8 +1,6 @@
 {
-  "week": 4,
-  "grades": {
-    "6": {
-      "quiz": [
+  "quizzes": {
+    "6": [
         {
           "question": "Why does Camila babysit?",
           "options": ["To buy sneakers", "To play with Mateo", "To read stories"],
@@ -172,8 +170,8 @@
           "question": "How did Valentina feel about the surprise party?",
           "options": ["Elated", "Angry", "Disappointed"],
           "answer": "Elated"
-        }
-      ]
-    }
+       
+      }
+    ]
   }
 }

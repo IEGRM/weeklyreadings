@@ -1,8 +1,6 @@
 {
-  "week": 1,
-  "grades": {
-    "6": {
-    "quiz": [
+  "quizzes": {
+    "6": [
       {
         "question": "What does Camila see first?",
         "options": ["A messy floor", "A big puddle", "A glass of water"],
@@ -172,8 +170,8 @@
         "question": "What did Camila decide to do?",
         "options": ["Quit her job", "Stay strong for her coworkers", "Complain to the manager"],
         "answer": "Stay strong for her coworkers"
-        }
-      ]
-    }
+       
+      }
+    ]
   }
 }
