@@ -37,6 +37,19 @@ function updateTextForCurrentTime() {
 async function loadReadingForAudio() {
   const week = document.getElementById('weekSelect').value;
   const grade = document.getElementById('gradeSelect').value;
+  
+ 
+ 
+  // Add this inside loadReadingForAudio():
+if (window.AICharacter && reading.character) {
+  window.AICharacter.characterType = reading.character;
+  window.AICharacter.loadAssets().then(() => {
+    window.AICharacter.drawCharacter();
+  });
+}
+
+
+
 
   try {
     // Load reading for audio

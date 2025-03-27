@@ -3,112 +3,125 @@ class TalkingCharacter {
     this.canvas = document.getElementById('talking-character');
     this.ctx = this.canvas.getContext('2d');
     this.audioPlayer = document.getElementById('audioPlayer');
-    this.isSpeaking = false;
     this.mouthValue = 0;
-    this.characterType = 'woman'; // Default
-    this.characterImages = {
-      woman: { neutral: 'assets/characters/woman.png' },
-      man: { neutral: 'assets/characters/man.png' }
+    this.animationId = null;
+    this.characterType = 'woman';
+    
+    // AI Lip Sync Properties
+    this.phonemeMap = {
+      'A': 0.8, 'E': 0.6, 'I': 0.7, 'O': 0.9, 'U': 0.8,
+      'L': 0.5, 'M': 0.4, 'B': 0.3, 'P': 0.3, 'D': 0.2
     };
-    this.currentImage = new Image();
-    this.animationFrame = null;
-    this.speech = new SpeechSynthesisUtterance();
-    this.speech.lang = 'en-US';
-    this.speech.onboundary = (e) => this.handleSpeechEvent(e);
-  }
-
-  async init(characterType) {
-    this.characterType = characterType || 'woman';
-    await this.loadCharacter();
-    this.setupEventListeners();
-  }
-
-  async loadCharacter() {
-    return new Promise((resolve) => {
-      this.currentImage.src = this.characterImages[this.characterType].neutral;
-      this.currentImage.onload = () => {
-        this.drawCharacter();
-        resolve();
-      };
+    
+    this.loadAssets().then(() => {
+      this.drawCharacter();
+      this.setupSpeechRecognition();
     });
   }
 
-  drawCharacter(mouthOpenness = 0) {
+  async loadAssets() {
+    this.characterImage = new Image();
+    return new Promise((resolve) => {
+      this.characterImage.src = `assets/characters/${this.characterType}.png`;
+      this.characterImage.onload = resolve;
+    });
+  }
+
+  setupSpeechRecognition() {
+    // Web Speech API Integration
+    this.synth = window.speechSynthesis;
+    this.utterance = new SpeechSynthesisUtterance();
+    
+    this.utterance.onboundary = (event) => {
+      if (event.name === 'word') {
+        const word = this.utterance.text.substring(event.charIndex, event.charIndex + event.charLength);
+        this.animatePhonemes(word);
+      }
+    };
+
+    // Sync with audio player
+    this.audioPlayer.addEventListener('play', () => {
+      const text = document.getElementById('textContent').textContent;
+      this.speak(text);
+    });
+  }
+
+  speak(text) {
+    this.utterance.text = text;
+    this.synth.speak(this.utterance);
+    this.startLipSync();
+  }
+
+  animatePhonemes(word) {
+    // AI-powered phoneme detection
+    const phonemes = word.toUpperCase().split('');
+    phonemes.forEach((char, i) => {
+      const intensity = this.phonemeMap[char] || 0.1;
+      setTimeout(() => {
+        this.mouthValue = intensity;
+      }, i * 150); // Adjust timing for natural speech
+    });
+  }
+
+  startLipSync() {
+    cancelAnimationFrame(this.animationId);
+    
+    const animate = () => {
+      this.drawCharacter();
+      
+      // Natural mouth closing when not speaking
+      if (!this.synth.speaking) {
+        this.mouthValue = Math.max(0, this.mouthValue - 0.05);
+      }
+      
+      this.animationId = requestAnimationFrame(animate);
+    };
+    
+    animate();
+  }
+
+  drawCharacter() {
     this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
     
-    // Draw base character
-    this.ctx.drawImage(this.currentImage, 0, 0, this.canvas.width, this.canvas.height);
+    // Draw character
+    this.ctx.drawImage(this.characterImage, 0, 0, this.canvas.width, this.canvas.height);
     
-    // Animate mouth (simplified example)
-    if (mouthOpenness > 0) {
-      this.ctx.fillStyle = '#000';
+    // AI-powered mouth drawing
+    this.drawMouth();
+  }
+
+  drawMouth() {
+    const mouthHeight = 10 + this.mouthValue * 20;
+    const mouthWidth = 30 + this.mouthValue * 10;
+    
+    this.ctx.fillStyle = '#C45C66';
+    this.ctx.beginPath();
+    this.ctx.ellipse(
+      this.canvas.width / 2,
+      this.canvas.height / 2 + 40,
+      mouthWidth,
+      mouthHeight,
+      0, 0, Math.PI
+    );
+    this.ctx.fill();
+    
+    // Tongue animation when mouth is very open
+    if (this.mouthValue > 0.7) {
+      this.ctx.fillStyle = '#FF7F93';
       this.ctx.beginPath();
       this.ctx.ellipse(
-        this.canvas.width/2, 
-        this.canvas.height/2 + 30, 
-        20, 
-        5 + (10 * mouthOpenness), 
-        0, 0, Math.PI * 2
+        this.canvas.width / 2,
+        this.canvas.height / 2 + 45,
+        mouthWidth * 0.7,
+        mouthHeight * 0.4,
+        0, 0, Math.PI
       );
       this.ctx.fill();
     }
   }
-
-  speakText(text) {
-    if (window.speechSynthesis) {
-      this.speech.text = text;
-      window.speechSynthesis.speak(this.speech);
-      this.animateSpeaking();
-    }
-  }
-
-  handleSpeechEvent(event) {
-    if (event.name === 'word') {
-      const word = this.speech.text.substring(event.charIndex, 
-                event.charIndex + event.charLength);
-      this.highlightWord(word);
-    }
-  }
-
-  animateSpeaking() {
-    this.isSpeaking = true;
-    const animate = () => {
-      if (!this.isSpeaking) return;
-      
-      // Simple mouth animation
-      this.mouthValue = Math.sin(Date.now() / 200) * 0.5 + 0.5;
-      this.drawCharacter(this.mouthValue);
-      
-      this.animationFrame = requestAnimationFrame(animate);
-    };
-    animate();
-  }
-
-  stopSpeaking() {
-    this.isSpeaking = false;
-    if (this.animationFrame) {
-      cancelAnimationFrame(this.animationFrame);
-    }
-    this.drawCharacter(0);
-    window.speechSynthesis.cancel();
-  }
-
-  setupEventListeners() {
-    this.audioPlayer.addEventListener('play', () => {
-      // Sync with audio playback
-      const text = document.getElementById('textContent').textContent;
-      this.speakText(text);
-    });
-
-    this.audioPlayer.addEventListener('pause', () => this.stopSpeaking());
-    this.audioPlayer.addEventListener('ended', () => this.stopSpeaking());
-  }
 }
 
-// Initialize
-const character = new TalkingCharacter();
-
-// Export for use in audio.js
-function initCharacter(characterType) {
-  character.init(characterType);
-}
+// Initialize automatically when DOM loads
+document.addEventListener('DOMContentLoaded', () => {
+  window.AICharacter = new TalkingCharacter();
+});
