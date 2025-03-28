@@ -9,8 +9,6 @@ const timestamp = document.getElementById('timestamp');
 
 let quizData = null;
 
-// testing new
-
 // Initialize week selector with Week 4 as default
 function initializeWeekSelector() {
   for (let week = 1; week <= 4; week++) {
