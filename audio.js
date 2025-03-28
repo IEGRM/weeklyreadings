@@ -1,4 +1,4 @@
-// audio.js - Complete Version with Working Tooltip
+// audio.js - Fixed Version with Working Tooltip and No Word Duplication
 // Handles audio playback, text highlighting, and vocabulary tooltips
 
 // DOM Elements
@@ -53,7 +53,7 @@ async function loadReadingForAudio() {
     if (cachedReadingData?.text) {
       cachedReadingData.text = cachedReadingData.text.map(sentence => ({
         time: sentence.time,
-        content: sentence.content.replace(/">/g, '') // Clean artifacts
+        content: sentence.content.replace(/"?>([^<]+)<\/span>/g, '$1') // Fix for word duplication
       }));
     }
 
@@ -109,7 +109,7 @@ function handleLoadingError() {
   vocabularyContent.innerHTML = '';
 }
 
-// Vocabulary Tooltip System - Using the working version from audio_workingtootip.js
+// Vocabulary Tooltip System
 function showVocabularyTooltip(word, element) {
   if (!vocabularyData) return;
   
@@ -161,32 +161,47 @@ function showVocabularyTooltip(word, element) {
   }
 }
 
-// Process text to make vocabulary words clickable (using the working version)
+// Process text to make vocabulary words clickable (fixed version)
 function processTextForVocabulary() {
   if (!vocabularyData || !textContent) return;
   
-  // Get all text content
-  let html = textContent.innerHTML;
-  
+  // First clean any existing vocabulary spans to prevent duplication
+  const spans = textContent.querySelectorAll('span[data-time]');
+  spans.forEach(span => {
+    span.innerHTML = span.innerHTML.replace(/<span class="vocab-word"[^>]*>([^<]+)<\/span>/g, '$1');
+  });
+
   // Process each vocabulary word
   vocabularyData.forEach(item => {
     const word = item.word.replace(/<[^>]+>/g, ''); // Remove HTML tags
-    const regex = new RegExp(`\\b${word}\\b`, 'gi');
-    html = html.replace(regex, match => {
-      return `<span class="vocab-word" data-word="${word}">${match}</span>`;
+    const regex = new RegExp(`(^|\\s|>)(${escapeRegExp(word)})(?=[\\s.,!?;:]|$|<)`, 'gi');
+    
+    spans.forEach(span => {
+      const originalHTML = span.innerHTML;
+      const processedHTML = originalHTML.replace(regex, (match, p1, p2) => {
+        // Skip if already wrapped in a vocab-word span
+        if (p1.endsWith('"') || p1.endsWith('=')) return match;
+        return `${p1}<span class="vocab-word" data-word="${word}">${p2}</span>`;
+      });
+      
+      if (processedHTML !== originalHTML) {
+        span.innerHTML = processedHTML;
+      }
     });
   });
   
-  // Update the content
-  textContent.innerHTML = html;
-  
-  // Add click handlers
+  // Add click handlers to new vocab words
   document.querySelectorAll('.vocab-word').forEach(el => {
     el.addEventListener('click', function(e) {
       e.stopPropagation();
       showVocabularyTooltip(this.dataset.word, this);
     });
   });
+}
+
+// Helper function to escape regex special characters
+function escapeRegExp(string) {
+  return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
 // Event Listeners
