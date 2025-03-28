@@ -17,11 +17,6 @@ function initializeWeekSelector() {
     option.textContent = `Week ${week}`;
     weekSelect.appendChild(option);
   }
-  
-  // Set Week 4 as default if no saved selection exists
-  if (!localStorage.getItem('selectedWeek')) {
-    weekSelect.value = 4;
-  }
 }
 
 // Save selections to localStorage
