@@ -74,100 +74,17 @@ html, body {
   border-radius: 3px;
 }
 
-
-
-
 /* Vocabulary Section */
-/* Vocabulary Section - Optimized */
 #vocabularySection {
-  margin-top: 18px;
-  padding: 12px;
-  background-color: #f8f9fa;
-  border-radius: 8px;
-  border-left: 4px solid darkred; /* Accent color matching your heading */
-}
-
-#vocabularySection h3 {
-  margin: 0 0 8px 0;
-  color: darkred;
-  font-size: 18px;
-}
-
-#vocabularySection p {
-  margin: 0 0 10px 0;
-  font-style: italic;
-  color: #555;
-  font-size: 14px;
+  margin-top: 20px; /* Reduced margin */
 }
 
 #vocabularyContent {
-  padding: 8px;
-  background-color: white;
-  border-radius: 6px;
-  border: 1px solid #e0e0e0;
-}
-
-.vocab-item {
-  margin: 6px 0;
-  padding: 8px 10px;
+  padding: 8px 10px; /* Adjusted padding */
   background-color: #f9f9f9;
-  border-radius: 4px;
-  border-left: 3px solid #1a73e8;
-  line-height: 1.4;
-  transition: all 0.2s ease;
+  border-radius: 5px;
+  line-height: 1.4; /* Tighter line height */
 }
-
-.vocab-item:hover {
-  background-color: #f0f7ff;
-  transform: translateX(2px);
-}
-
-.vocab-item strong {
-  color: #1a73e8;
-  font-weight: 600;
-}
-
-/* Tooltip adjustments */
-.vocab-tooltip {
-  max-width: 280px;
-  padding: 10px;
-  font-size: 14px;
-  line-height: 1.5;
-  border: 1px solid #1a73e8;
-}
-
-.vocab-tooltip strong {
-  color: #1a73e8;
-}
-
-.close-tooltip {
-  width: 16px;
-  height: 16px;
-  font-size: 10px;
-  top: -6px;
-  right: -6px;
-}
-
-/* Responsive adjustments */
-@media (max-width: 600px) {
-  #vocabularySection {
-    padding: 10px;
-    margin-top: 15px;
-  }
-  
-  .vocab-item {
-    padding: 6px 8px;
-    font-size: 14px;
-  }
-  
-  #vocabularySection h3 {
-    font-size: 16px;
-  }
-}
-
-
-
-
 
 /* Quiz Section - Fixed Spacing */
 #quizSection {
