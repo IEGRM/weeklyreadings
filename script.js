@@ -1,4 +1,4 @@
-// script.js - Complete Quiz Solution
+// script.js - Complete Solution with Default Week 4 Loading
 const weekSelect = document.getElementById('weekSelect');
 const gradeSelect = document.getElementById('gradeSelect');
 const quizContent = document.getElementById('quizContent');
@@ -44,17 +44,12 @@ async function loadQuiz() {
   const week = weekSelect.value;
   const grade = gradeSelect.value;
   
-  console.log(`Loading quiz from: data/quizzes/week${week}_quizzes.json`);
-  
   try {
     const response = await fetch(`data/quizzes/week${week}_quizzes.json`);
     
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
+    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
     
     const data = await response.json();
-    console.log("Quiz data loaded:", data);
     
     if (!data.quizzes || !data.quizzes[grade]) {
       quizContent.innerHTML = "No quiz for this grade.";
@@ -66,91 +61,64 @@ async function loadQuiz() {
     
   } catch (error) {
     console.error("Quiz load failed:", error);
-    quizContent.innerHTML = `
-      <div class="error">
-        Quiz load failed: ${error.message}
-        <br>Path: data/quizzes/week${week}_quizzes.json
-      </div>
-    `;
+    quizContent.innerHTML = `Quiz load failed: ${error.message}`;
   }
 }
 
-// Render quiz questions
-function renderQuiz(questions) {
-  quizContent.innerHTML = questions.map((question, index) => `
-    <div class="quiz-question">
-      <p><strong>Question ${index + 1}:</strong> ${question.question}</p>
-      <ul>
-        ${question.options.map((option, optIndex) => `
-          <li>
-            <input type="radio" 
-                   name="question${index}" 
-                   id="q${index}_opt${optIndex}" 
-                   value="${option.replace(/"/g, '&quot;')}">
-            <label for="q${index}_opt${optIndex}">${option}</label>
-          </li>
-        `).join('')}
-      </ul>
-    </div>
-  `).join('');
-}
-
-// Calculate score
-function calculateScore() {
-  let score = 0;
-  let allAnswered = true;
-
-  quizData.forEach((question, index) => {
-    const selectedOption = document.querySelector(`input[name="question${index}"]:checked`);
-    
-    if (!selectedOption) {
-      allAnswered = false;
-    } else if (selectedOption.value === question.answer) {
-      score++;
-    }
-  });
-
-  return { score, allAnswered, total: quizData.length };
-}
-
-// Display feedback
-function displayFeedback(score, allAnswered, total) {
-  if (!allAnswered) {
-    scoreFeedback.textContent = "Please answer all questions to get your score.";
-    scoreFeedback.style.color = "red";
-    timestamp.textContent = "";
-    return;
-  }
-
-  const percentage = Math.round((score / total) * 100);
-  let message = "";
+// Initialize all content
+async function initializeContent() {
+  const week = weekSelect.value;
+  const grade = gradeSelect.value;
   
-  if (percentage >= 80) message = "Excellent work!";
-  else if (percentage >= 60) message = "Good job!";
-  else message = "Keep practicing!";
-
-  scoreFeedback.innerHTML = `
-    Score: ${score}/${total} (${percentage}%) - ${message}
-  `;
-  scoreFeedback.style.color = "darkgreen";
-  updateTimestamp();
-}
-
-// Update timestamp
-function updateTimestamp() {
-  const now = new Date();
-  timestamp.textContent = `Submitted: ${now.toLocaleString()}`;
+  // Load reading content
+  try {
+    const readingResponse = await fetch(`data/readings/week${week}_reading.json`);
+    const readingData = await readingResponse.json();
+    
+    if (readingData.readings && readingData.readings[grade]) {
+      // Update reading content display
+      document.getElementById('textContent').innerHTML = 
+        readingData.readings[grade].text.map(s => `<span data-time="${s.time}">${s.content}</span>`).join(' ');
+      
+      // Update media
+      document.getElementById('audioSource').src = `assets/audios/week${week}_audio_grade${grade}.mp3`;
+      document.getElementById('audioPlayer').load();
+      document.getElementById('imageFrame').src = `assets/images/week${week}_image_grade${grade}.jpg`;
+    }
+  } catch (error) {
+    console.error("Reading load failed:", error);
+  }
+  
+  // Load vocabulary
+  try {
+    const vocabResponse = await fetch(`data/vocabulary/week${week}_vocabulary.json`);
+    const vocabData = await vocabResponse.json();
+    
+    if (vocabData.vocabulary && vocabData.vocabulary[grade]) {
+      document.getElementById('vocabularyContent').innerHTML = 
+        vocabData.vocabulary[grade].map(item => `
+          <div class="vocab-item">
+            <strong>${item.word}</strong>: ${item.definition}
+          </div>
+        `).join('');
+    }
+  } catch (error) {
+    console.error("Vocabulary load failed:", error);
+  }
+  
+  // Load quiz
+  await loadQuiz();
 }
 
 // Event listeners
 weekSelect.addEventListener('change', () => {
   saveSelections();
-  loadQuiz();
+  initializeContent();
 });
 
 gradeSelect.addEventListener('change', () => {
   saveSelections();
-  loadQuiz();
+  initializeContent();
 });
 
 scoreButton.addEventListener('click', () => {
@@ -170,5 +138,5 @@ clearButton.addEventListener('click', () => {
 document.addEventListener('DOMContentLoaded', () => {
   initializeWeekSelector();
   restoreSelections();
-  loadQuiz();
+  initializeContent(); // Changed from loadQuiz() to initializeContent()
 });
