@@ -1,4 +1,4 @@
-// audio.js - Complete Version with Duplicate Words Fix
+// audio.js - Complete Version with Working Tooltip
 // Handles audio playback, text highlighting, and vocabulary tooltips
 
 // DOM Elements
@@ -109,101 +109,84 @@ function handleLoadingError() {
   vocabularyContent.innerHTML = '';
 }
 
-// Vocabulary Tooltip System
+// Vocabulary Tooltip System - Using the working version from audio_workingtootip.js
 function showVocabularyTooltip(word, element) {
   if (!vocabularyData) return;
-
-  // Find matching vocabulary item (case insensitive, exact match)
-  const vocabItem = vocabularyData.find(item => 
-    item.word.toLowerCase() === word.toLowerCase()
-  );
-
-  if (!vocabItem) return;
-
-  // Remove existing tooltips
-  document.querySelectorAll('.vocab-tooltip').forEach(t => t.remove());
-
-  // Create new tooltip
-  const tooltip = document.createElement('div');
-  tooltip.className = 'vocab-tooltip';
-  tooltip.innerHTML = `
-    <div class="tooltip-content">
-      <strong>${vocabItem.word}:</strong> ${vocabItem.definition}
-      <button class="close-tooltip">×</button>
-    </div>
-  `;
-
-  // Position tooltip near clicked word
-  const rect = element.getBoundingClientRect();
-  tooltip.style.position = 'fixed';
-  tooltip.style.top = `${rect.top + window.scrollY - 40}px`;
-  tooltip.style.left = `${rect.left + window.scrollX}px`;
   
-  document.body.appendChild(tooltip);
-
-  // Close button handler
-  tooltip.querySelector('.close-tooltip').addEventListener('click', () => {
-    tooltip.remove();
+  // Clean the word by removing HTML tags and punctuation
+  const cleanWord = word.replace(/<[^>]+>/g, '').replace(/[.,!?;:"]/g, '').toLowerCase();
+  
+  // Find the word in vocabulary (case insensitive)
+  const vocabItem = vocabularyData.find(item => {
+    const vocabWord = item.word.replace(/<[^>]+>/g, '').toLowerCase();
+    return vocabWord === cleanWord;
   });
-
-  // Close when clicking outside
-  setTimeout(() => {
-    document.addEventListener('click', function closeTooltip(e) {
-      if (!tooltip.contains(e.target)) {
-        tooltip.remove();
-        document.removeEventListener('click', closeTooltip);
-      }
+  
+  if (vocabItem) {
+    // Remove any existing tooltips
+    document.querySelectorAll('.vocab-tooltip').forEach(t => t.remove());
+    
+    // Create and show tooltip
+    const tooltip = document.createElement('div');
+    tooltip.className = 'vocab-tooltip';
+    tooltip.innerHTML = `
+      <div class="tooltip-content">
+        <strong>${vocabItem.word}:</strong> ${vocabItem.definition}
+        <button class="close-tooltip">×</button>
+      </div>
+    `;
+    
+    // Position it near the clicked word
+    const rect = element.getBoundingClientRect();
+    tooltip.style.position = 'fixed';
+    tooltip.style.top = `${rect.top + window.scrollY - 40}px`;
+    tooltip.style.left = `${rect.left + window.scrollX}px`;
+    
+    document.body.appendChild(tooltip);
+    
+    // Close tooltip when clicking the close button
+    tooltip.querySelector('.close-tooltip').addEventListener('click', () => {
+      tooltip.remove();
     });
-  }, 100);
+    
+    // Close tooltip when clicking outside
+    setTimeout(() => {
+      document.addEventListener('click', function closeTooltip(e) {
+        if (!tooltip.contains(e.target)) {
+          tooltip.remove();
+          document.removeEventListener('click', closeTooltip);
+        }
+      });
+    }, 100);
+  }
 }
 
-// Process text to make vocabulary words clickable (without duplication)
-// In the processTextForVocabulary() function:
+// Process text to make vocabulary words clickable (using the working version)
 function processTextForVocabulary() {
   if (!vocabularyData || !textContent) return;
-
-  // Get all sentence spans
-  const sentenceSpans = textContent.querySelectorAll('span[data-time]');
   
-  // Process each sentence individually
-  sentenceSpans.forEach(span => {
-    const originalHTML = span.innerHTML;
-    let processedHTML = originalHTML;
-
-    // Process each vocabulary word
-    vocabularyData.forEach(item => {
-      const word = item.word.trim();
-      // Match the word as standalone or with punctuation
-      const regex = new RegExp(`(^|\\s|>)(${escapeRegExp(word)})(?=[\\s.,!?;:]|$|<)`, 'gi');
-      processedHTML = processedHTML.replace(regex, (match, p1, p2) => {
-        // Skip if already wrapped in a vocab-word span
-        if (p1.endsWith('"') || p1.endsWith('=')) return match;
-        return `${p1}<span class="vocab-word" data-word="${word}">${p2}</span>`;
-      });
+  // Get all text content
+  let html = textContent.innerHTML;
+  
+  // Process each vocabulary word
+  vocabularyData.forEach(item => {
+    const word = item.word.replace(/<[^>]+>/g, ''); // Remove HTML tags
+    const regex = new RegExp(`\\b${word}\\b`, 'gi');
+    html = html.replace(regex, match => {
+      return `<span class="vocab-word" data-word="${word}">${match}</span>`;
     });
-
-    // Only update if changes were made
-    if (processedHTML !== originalHTML) {
-      span.innerHTML = processedHTML;
-
-      // Add click handlers to new vocab words
-      span.querySelectorAll('.vocab-word').forEach(el => {
-        el.addEventListener('click', function(e) {
-          e.stopPropagation();
-          showVocabularyTooltip(this.dataset.word, this);
-        });
-      });
-    }
   });
-}
-
-// Keep the rest of the audio.js file exactly as in previous solution
-
-
-
-// Helper function to escape regex special characters
-function escapeRegExp(string) {
-  return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  
+  // Update the content
+  textContent.innerHTML = html;
+  
+  // Add click handlers
+  document.querySelectorAll('.vocab-word').forEach(el => {
+    el.addEventListener('click', function(e) {
+      e.stopPropagation();
+      showVocabularyTooltip(this.dataset.word, this);
+    });
+  });
 }
 
 // Event Listeners
