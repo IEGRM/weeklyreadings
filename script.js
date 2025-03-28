@@ -39,30 +39,32 @@ async function loadQuiz() {
   const week = weekSelect.value;
   const grade = gradeSelect.value;
   
-  quizContent.innerHTML = '<p>Loading quiz...</p>';
+  console.log(`Loading quiz from: data/quizzes/week${week}_quizzes.json`);
   
   try {
     const response = await fetch(`data/quizzes/week${week}_quizzes.json`);
     
     if (!response.ok) {
-      throw new Error(`Server returned ${response.status} error`);
+      throw new Error(`HTTP error! status: ${response.status}`);
     }
     
     const data = await response.json();
+    console.log("Quiz data loaded:", data);
     
     if (!data.quizzes || !data.quizzes[grade]) {
-      throw new Error(`No quiz found for grade ${grade}`);
+      quizContent.innerHTML = "No quiz for this grade.";
+      return;
     }
     
     quizData = data.quizzes[grade];
     renderQuiz(quizData);
     
   } catch (error) {
-    console.error('Quiz loading failed:', error);
+    console.error("Quiz load failed:", error);
     quizContent.innerHTML = `
       <div class="error">
-        Error loading quiz: ${error.message}
-        <br><small>Check console for details</small>
+        Quiz load failed: ${error.message}
+        <br>Path: data/quizzes/week${week}_quizzes.json
       </div>
     `;
   }
