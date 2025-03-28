@@ -52,11 +52,13 @@ async function loadReading(week, grade) {
       textContent.innerHTML = data.readings[grade].text
         .map(sentence => `<span data-time="${sentence.time}">${sentence.content}</span>`)
         .join(' ');
+      return true;
     }
   } catch (error) {
     console.error('Reading load error:', error);
     textContent.innerHTML = 'Error loading reading content';
   }
+  return false;
 }
 
 // Load vocabulary
@@ -73,11 +75,13 @@ async function loadVocabulary(week, grade) {
             <strong>${item.word}</strong>: ${item.definition}
           </div>
         `).join('');
+      return true;
     }
   } catch (error) {
     console.error('Vocabulary load error:', error);
     vocabularyContent.innerHTML = 'Error loading vocabulary';
   }
+  return false;
 }
 
 // Load quiz
@@ -105,11 +109,13 @@ async function loadQuiz(week, grade) {
           </ul>
         </div>
       `).join('');
+      return true;
     }
   } catch (error) {
     console.error('Quiz load error:', error);
     quizContent.innerHTML = 'Error loading quiz';
   }
+  return false;
 }
 
 // Load media (audio and image)
@@ -124,12 +130,14 @@ async function loadAllContent() {
   const week = weekSelect.value;
   const grade = gradeSelect.value;
   
+  // Load all content in parallel
   await Promise.all([
     loadReading(week, grade),
     loadVocabulary(week, grade),
     loadQuiz(week, grade)
   ]);
   
+  // Load media after content is ready
   loadMedia(week, grade);
 }
 
