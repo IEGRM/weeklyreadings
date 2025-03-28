@@ -171,23 +171,24 @@ html, body {
 
 
 /* Tooltip adjustments */
-.vocab-word {
-  cursor: pointer;
-  color: #0066cc;
-  text-decoration: underline dotted;
-  position: relative;
-  display: inline;
+.vocab-tooltip {
+  max-width: 280px;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  border: 1px solid #1a73e8;
 }
 
-.vocab-tooltip {
-  position: absolute;
-  z-index: 100;
-  background: white;
-  border: 1px solid #ccc;
-  padding: 8px;
-  border-radius: 4px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-  max-width: 300px;
+.vocab-tooltip strong {
+  color: #1a73e8;
+}
+
+.close-tooltip {
+  width: 16px;
+  height: 16px;
+  font-size: 10px;
+  top: -6px;
+  right: -6px;
 }
 
 /* Responsive adjustments */

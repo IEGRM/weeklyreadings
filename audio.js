@@ -157,7 +157,10 @@ function showVocabularyTooltip(word, element) {
   }, 100);
 }
 
+
+
 // Process text to make vocabulary words clickable (without duplication)
+// In the processTextForVocabulary() function:
 function processTextForVocabulary() {
   if (!vocabularyData || !textContent) return;
 
@@ -166,23 +169,25 @@ function processTextForVocabulary() {
   
   // Process each sentence individually
   sentenceSpans.forEach(span => {
-    const originalText = span.textContent;
-    let newHTML = originalText;
+    const originalHTML = span.innerHTML;
+    let processedHTML = originalHTML;
 
     // Process each vocabulary word
     vocabularyData.forEach(item => {
       const word = item.word.trim();
-      // Match whole words only, not inside HTML tags
-      const regex = new RegExp(`(^|\\s)(${escapeRegExp(word)})(?=\\s|$|[.,!?;:])`, 'gi');
-      newHTML = newHTML.replace(regex, (match, p1, p2) => 
-        `${p1}<span class="vocab-word" data-word="${word}">${p2}</span>`
-      );
+      // Match the word as standalone or with punctuation
+      const regex = new RegExp(`(^|\\s|>)(${escapeRegExp(word)})(?=[\\s.,!?;:]|$|<)`, 'gi');
+      processedHTML = processedHTML.replace(regex, (match, p1, p2) => {
+        // Skip if already wrapped in a vocab-word span
+        if (p1.endsWith('"') || p1.endsWith('=')) return match;
+        return `${p1}<span class="vocab-word" data-word="${word}">${p2}</span>`;
+      });
     });
 
     // Only update if changes were made
-    if (newHTML !== originalText) {
-      span.innerHTML = newHTML;
-      
+    if (processedHTML !== originalHTML) {
+      span.innerHTML = processedHTML;
+
       // Add click handlers to new vocab words
       span.querySelectorAll('.vocab-word').forEach(el => {
         el.addEventListener('click', function(e) {
@@ -193,6 +198,10 @@ function processTextForVocabulary() {
     }
   });
 }
+
+
+
+
 
 // Helper function to escape regex special characters
 function escapeRegExp(string) {
