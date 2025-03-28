@@ -1,4 +1,4 @@
-// script.js - Complete Quiz Solution
+// script.js - Fixed Initial Load Issue
 const weekSelect = document.getElementById('weekSelect');
 const gradeSelect = document.getElementById('gradeSelect');
 const quizContent = document.getElementById('quizContent');
@@ -9,7 +9,7 @@ const timestamp = document.getElementById('timestamp');
 
 let quizData = null;
 
-// Initialize week selector
+// Initialize week selector with Week 4 as default
 function initializeWeekSelector() {
   for (let week = 1; week <= 4; week++) {
     const option = document.createElement('option');
@@ -17,6 +17,10 @@ function initializeWeekSelector() {
     option.textContent = `Week ${week}`;
     weekSelect.appendChild(option);
   }
+  
+  // Force Week 4 as default on first load
+  weekSelect.value = 4;
+  localStorage.setItem('selectedWeek', 4); // Save default to localStorage
 }
 
 // Save selections to localStorage
@@ -34,136 +38,89 @@ function restoreSelections() {
   if (savedGrade) gradeSelect.value = savedGrade;
 }
 
-// Load quiz data
-async function loadQuiz() {
+// Load all content for current selections
+async function loadAllContent() {
   const week = weekSelect.value;
   const grade = gradeSelect.value;
   
-  console.log(`Loading quiz from: data/quizzes/week${week}_quizzes.json`);
-  
+  // Load reading content
   try {
-    const response = await fetch(`data/quizzes/week${week}_quizzes.json`);
+    const readingResponse = await fetch(`data/readings/week${week}_reading.json`);
+    const readingData = await readingResponse.json();
     
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
+    if (readingData.readings?.[grade]?.text) {
+      document.getElementById('textContent').innerHTML = 
+        readingData.readings[grade].text.map(s => `<span data-time="${s.time}">${s.content}</span>`).join(' ');
     }
+  } catch (error) {
+    console.error("Reading load failed:", error);
+  }
+
+  // Load vocabulary
+  try {
+    const vocabResponse = await fetch(`data/vocabulary/week${week}_vocabulary.json`);
+    const vocabData = await vocabResponse.json();
     
-    const data = await response.json();
-    console.log("Quiz data loaded:", data);
-    
-    if (!data.quizzes || !data.quizzes[grade]) {
-      quizContent.innerHTML = "No quiz for this grade.";
-      return;
+    if (vocabData.vocabulary?.[grade]) {
+      document.getElementById('vocabularyContent').innerHTML = 
+        vocabData.vocabulary[grade].map(item => `
+          <div class="vocab-item">
+            <strong>${item.word}</strong>: ${item.definition}
+          </div>
+        `).join('');
     }
+  } catch (error) {
+    console.error("Vocabulary load failed:", error);
+  }
+
+  // Load quiz
+  try {
+    const quizResponse = await fetch(`data/quizzes/week${week}_quizzes.json`);
+    const quizData = await quizResponse.json();
     
-    quizData = data.quizzes[grade];
-    renderQuiz(quizData);
-    
+    if (quizData.quizzes?.[grade]) {
+      quizContent.innerHTML = quizData.quizzes[grade].map((question, index) => `
+        <div class="quiz-question">
+          <p><strong>Question ${index + 1}:</strong> ${question.question}</p>
+          <ul>
+            ${question.options.map((option, optIndex) => `
+              <li>
+                <input type="radio" 
+                       name="question${index}" 
+                       id="q${index}_opt${optIndex}" 
+                       value="${option.replace(/"/g, '&quot;')}">
+                <label for="q${index}_opt${optIndex}">${option}</label>
+              </li>
+            `).join('')}
+          </ul>
+        </div>
+      `).join('');
+    }
   } catch (error) {
     console.error("Quiz load failed:", error);
-    quizContent.innerHTML = `
-      <div class="error">
-        Quiz load failed: ${error.message}
-        <br>Path: data/quizzes/week${week}_quizzes.json
-      </div>
-    `;
-  }
-}
-
-// Render quiz questions
-function renderQuiz(questions) {
-  quizContent.innerHTML = questions.map((question, index) => `
-    <div class="quiz-question">
-      <p><strong>Question ${index + 1}:</strong> ${question.question}</p>
-      <ul>
-        ${question.options.map((option, optIndex) => `
-          <li>
-            <input type="radio" 
-                   name="question${index}" 
-                   id="q${index}_opt${optIndex}" 
-                   value="${option.replace(/"/g, '&quot;')}">
-            <label for="q${index}_opt${optIndex}">${option}</label>
-          </li>
-        `).join('')}
-      </ul>
-    </div>
-  `).join('');
-}
-
-// Calculate score
-function calculateScore() {
-  let score = 0;
-  let allAnswered = true;
-
-  quizData.forEach((question, index) => {
-    const selectedOption = document.querySelector(`input[name="question${index}"]:checked`);
-    
-    if (!selectedOption) {
-      allAnswered = false;
-    } else if (selectedOption.value === question.answer) {
-      score++;
-    }
-  });
-
-  return { score, allAnswered, total: quizData.length };
-}
-
-// Display feedback
-function displayFeedback(score, allAnswered, total) {
-  if (!allAnswered) {
-    scoreFeedback.textContent = "Please answer all questions to get your score.";
-    scoreFeedback.style.color = "red";
-    timestamp.textContent = "";
-    return;
+    quizContent.innerHTML = `Quiz load failed: ${error.message}`;
   }
 
-  const percentage = Math.round((score / total) * 100);
-  let message = "";
-  
-  if (percentage >= 80) message = "Excellent work!";
-  else if (percentage >= 60) message = "Good job!";
-  else message = "Keep practicing!";
-
-  scoreFeedback.innerHTML = `
-    Score: ${score}/${total} (${percentage}%) - ${message}
-  `;
-  scoreFeedback.style.color = "darkgreen";
-  updateTimestamp();
-}
-
-// Update timestamp
-function updateTimestamp() {
-  const now = new Date();
-  timestamp.textContent = `Submitted: ${now.toLocaleString()}`;
+  // Load media
+  document.getElementById('audioSource').src = `assets/audios/week${week}_audio_grade${grade}.mp3`;
+  document.getElementById('audioPlayer').load();
+  document.getElementById('imageFrame').src = `assets/images/week${week}_image_grade${grade}.jpg`;
 }
 
 // Event listeners
 weekSelect.addEventListener('change', () => {
   saveSelections();
-  loadQuiz();
+  loadAllContent();
 });
 
 gradeSelect.addEventListener('change', () => {
   saveSelections();
-  loadQuiz();
-});
-
-scoreButton.addEventListener('click', () => {
-  const { score, allAnswered, total } = calculateScore();
-  displayFeedback(score, allAnswered, total);
-});
-
-clearButton.addEventListener('click', () => {
-  document.querySelectorAll('input[type="radio"]').forEach(radio => {
-    radio.checked = false;
-  });
-  scoreFeedback.textContent = "";
-  timestamp.textContent = "";
+  loadAllContent();
 });
 
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
   initializeWeekSelector();
   restoreSelections();
-  loadQuiz();
+  loadAllContent(); // Load all content on initial page load
 });
