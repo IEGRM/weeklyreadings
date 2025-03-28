@@ -1,4 +1,4 @@
-// audio.js - Complete Version
+// audio.js - Complete Version with Duplicate Words Fix
 // Handles audio playback, text highlighting, and vocabulary tooltips
 
 // DOM Elements
@@ -17,7 +17,7 @@ function updateTextForCurrentTime() {
   if (!cachedReadingData || !cachedReadingData.text) return;
 
   const currentTime = audioPlayer.currentTime;
-  const spans = document.querySelectorAll("#textContent span");
+  const spans = document.querySelectorAll("#textContent span[data-time]");
 
   // Remove previous highlights
   spans.forEach(span => span.classList.remove("highlight"));
@@ -25,8 +25,13 @@ function updateTextForCurrentTime() {
   // Find and highlight current sentence
   for (let i = cachedReadingData.text.length - 1; i >= 0; i--) {
     if (currentTime >= cachedReadingData.text[i].time) {
-      spans[i].classList.add("highlight");
-      spans[i].scrollIntoView({ behavior: 'smooth', block: 'center' });
+      const targetSpan = Array.from(spans).find(span => 
+        parseFloat(span.getAttribute('data-time')) === cachedReadingData.text[i].time
+      );
+      if (targetSpan) {
+        targetSpan.classList.add("highlight");
+        targetSpan.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
       break;
     }
   }
@@ -43,6 +48,14 @@ async function loadReadingForAudio() {
     
     const readingData = await readingResponse.json();
     cachedReadingData = readingData.readings[grade];
+
+    // Clean text data of any artifacts
+    if (cachedReadingData?.text) {
+      cachedReadingData.text = cachedReadingData.text.map(sentence => ({
+        time: sentence.time,
+        content: sentence.content.replace(/">/g, '') // Clean artifacts
+      }));
+    }
 
     // 2. Load vocabulary data if available
     try {
@@ -88,7 +101,6 @@ async function loadReadingForAudio() {
   }
 }
 
-
 // Handle loading errors
 function handleLoadingError() {
   audioSource.src = '';
@@ -101,14 +113,9 @@ function handleLoadingError() {
 function showVocabularyTooltip(word, element) {
   if (!vocabularyData) return;
 
-  // Clean the word (remove HTML tags and punctuation)
-  const cleanWord = word.replace(/<[^>]+>/g, '')
-                       .replace(/[.,!?;:"]/g, '')
-                       .toLowerCase();
-
-  // Find matching vocabulary item
+  // Find matching vocabulary item (case insensitive, exact match)
   const vocabItem = vocabularyData.find(item => 
-    item.word.replace(/<[^>]+>/g, '').toLowerCase() === cleanWord
+    item.word.toLowerCase() === word.toLowerCase()
   );
 
   if (!vocabItem) return;
@@ -150,30 +157,53 @@ function showVocabularyTooltip(word, element) {
   }, 100);
 }
 
-// Process text to make vocabulary words clickable
+// Process text to make vocabulary words clickable (without duplication)
+// In the processTextForVocabulary() function:
 function processTextForVocabulary() {
   if (!vocabularyData || !textContent) return;
+
+  // Get all sentence spans
+  const sentenceSpans = textContent.querySelectorAll('span[data-time]');
   
-  let html = textContent.innerHTML;
+  // Process each sentence individually
+  sentenceSpans.forEach(span => {
+    const originalHTML = span.innerHTML;
+    let processedHTML = originalHTML;
 
-  // Make each vocabulary word clickable
-  vocabularyData.forEach(item => {
-    const word = item.word.replace(/<[^>]+>/g, '');
-    const regex = new RegExp(`\\b${word}\\b`, 'gi');
-    html = html.replace(regex, match => 
-      `<span class="vocab-word" data-word="${word}">${match}</span>`
-    );
-  });
-
-  textContent.innerHTML = html;
-
-  // Add click handlers to vocabulary words
-  document.querySelectorAll('.vocab-word').forEach(el => {
-    el.addEventListener('click', function(e) {
-      e.stopPropagation();
-      showVocabularyTooltip(this.dataset.word, this);
+    // Process each vocabulary word
+    vocabularyData.forEach(item => {
+      const word = item.word.trim();
+      // Match the word as standalone or with punctuation
+      const regex = new RegExp(`(^|\\s|>)(${escapeRegExp(word)})(?=[\\s.,!?;:]|$|<)`, 'gi');
+      processedHTML = processedHTML.replace(regex, (match, p1, p2) => {
+        // Skip if already wrapped in a vocab-word span
+        if (p1.endsWith('"') || p1.endsWith('=')) return match;
+        return `${p1}<span class="vocab-word" data-word="${word}">${p2}</span>`;
+      });
     });
+
+    // Only update if changes were made
+    if (processedHTML !== originalHTML) {
+      span.innerHTML = processedHTML;
+
+      // Add click handlers to new vocab words
+      span.querySelectorAll('.vocab-word').forEach(el => {
+        el.addEventListener('click', function(e) {
+          e.stopPropagation();
+          showVocabularyTooltip(this.dataset.word, this);
+        });
+      });
+    }
   });
+}
+
+// Keep the rest of the audio.js file exactly as in previous solution
+
+
+
+// Helper function to escape regex special characters
+function escapeRegExp(string) {
+  return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
 // Event Listeners
