@@ -77,8 +77,6 @@ html, body {
 
 
 
-
-/* Vocabulary Section - Optimized */
 /* Vocabulary Section - Enhanced Styling */
 #vocabularySection {
   margin-top: 20px;
@@ -172,11 +170,14 @@ html, body {
 
 /* Tooltip adjustments */
 .vocab-tooltip {
-  max-width: 280px;
-  padding: 10px;
-  font-size: 14px;
-  line-height: 1.5;
-  border: 1px solid #1a73e8;
+  position: absolute;
+  z-index: 100;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  max-width: 300px;
 }
 
 .vocab-tooltip strong {
@@ -190,6 +191,20 @@ html, body {
   top: -6px;
   right: -6px;
 }
+
+.vocab-word {
+  cursor: pointer;
+  color: #0066cc;
+  text-decoration: underline dotted;
+  position: relative;
+  display: inline;
+}
+
+
+
+
+
+
 
 /* Responsive adjustments */
 @media (max-width: 600px) {
