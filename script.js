@@ -1,4 +1,4 @@
-// script.js - Complete Solution with Default Week 4 Loading
+// script.js - Fixed Initial Load Issue
 const weekSelect = document.getElementById('weekSelect');
 const gradeSelect = document.getElementById('gradeSelect');
 const quizContent = document.getElementById('quizContent');
@@ -9,7 +9,7 @@ const timestamp = document.getElementById('timestamp');
 
 let quizData = null;
 
-// Initialize week selector
+// Initialize week selector with Week 4 as default
 function initializeWeekSelector() {
   for (let week = 1; week <= 4; week++) {
     const option = document.createElement('option');
@@ -18,10 +18,9 @@ function initializeWeekSelector() {
     weekSelect.appendChild(option);
   }
   
-  // Set Week 4 as default if no saved selection exists
-  if (!localStorage.getItem('selectedWeek')) {
-    weekSelect.value = 4;
-  }
+  // Force Week 4 as default on first load
+  weekSelect.value = 4;
+  localStorage.setItem('selectedWeek', 4); // Save default to localStorage
 }
 
 // Save selections to localStorage
@@ -39,34 +38,8 @@ function restoreSelections() {
   if (savedGrade) gradeSelect.value = savedGrade;
 }
 
-// Load quiz data
-async function loadQuiz() {
-  const week = weekSelect.value;
-  const grade = gradeSelect.value;
-  
-  try {
-    const response = await fetch(`data/quizzes/week${week}_quizzes.json`);
-    
-    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-    
-    const data = await response.json();
-    
-    if (!data.quizzes || !data.quizzes[grade]) {
-      quizContent.innerHTML = "No quiz for this grade.";
-      return;
-    }
-    
-    quizData = data.quizzes[grade];
-    renderQuiz(quizData);
-    
-  } catch (error) {
-    console.error("Quiz load failed:", error);
-    quizContent.innerHTML = `Quiz load failed: ${error.message}`;
-  }
-}
-
-// Initialize all content
-async function initializeContent() {
+// Load all content for current selections
+async function loadAllContent() {
   const week = weekSelect.value;
   const grade = gradeSelect.value;
   
@@ -75,26 +48,20 @@ async function initializeContent() {
     const readingResponse = await fetch(`data/readings/week${week}_reading.json`);
     const readingData = await readingResponse.json();
     
-    if (readingData.readings && readingData.readings[grade]) {
-      // Update reading content display
+    if (readingData.readings?.[grade]?.text) {
       document.getElementById('textContent').innerHTML = 
         readingData.readings[grade].text.map(s => `<span data-time="${s.time}">${s.content}</span>`).join(' ');
-      
-      // Update media
-      document.getElementById('audioSource').src = `assets/audios/week${week}_audio_grade${grade}.mp3`;
-      document.getElementById('audioPlayer').load();
-      document.getElementById('imageFrame').src = `assets/images/week${week}_image_grade${grade}.jpg`;
     }
   } catch (error) {
     console.error("Reading load failed:", error);
   }
-  
+
   // Load vocabulary
   try {
     const vocabResponse = await fetch(`data/vocabulary/week${week}_vocabulary.json`);
     const vocabData = await vocabResponse.json();
     
-    if (vocabData.vocabulary && vocabData.vocabulary[grade]) {
+    if (vocabData.vocabulary?.[grade]) {
       document.getElementById('vocabularyContent').innerHTML = 
         vocabData.vocabulary[grade].map(item => `
           <div class="vocab-item">
@@ -105,38 +72,55 @@ async function initializeContent() {
   } catch (error) {
     console.error("Vocabulary load failed:", error);
   }
-  
+
   // Load quiz
-  await loadQuiz();
+  try {
+    const quizResponse = await fetch(`data/quizzes/week${week}_quizzes.json`);
+    const quizData = await quizResponse.json();
+    
+    if (quizData.quizzes?.[grade]) {
+      quizContent.innerHTML = quizData.quizzes[grade].map((question, index) => `
+        <div class="quiz-question">
+          <p><strong>Question ${index + 1}:</strong> ${question.question}</p>
+          <ul>
+            ${question.options.map((option, optIndex) => `
+              <li>
+                <input type="radio" 
+                       name="question${index}" 
+                       id="q${index}_opt${optIndex}" 
+                       value="${option.replace(/"/g, '&quot;')}">
+                <label for="q${index}_opt${optIndex}">${option}</label>
+              </li>
+            `).join('')}
+          </ul>
+        </div>
+      `).join('');
+    }
+  } catch (error) {
+    console.error("Quiz load failed:", error);
+    quizContent.innerHTML = `Quiz load failed: ${error.message}`;
+  }
+
+  // Load media
+  document.getElementById('audioSource').src = `assets/audios/week${week}_audio_grade${grade}.mp3`;
+  document.getElementById('audioPlayer').load();
+  document.getElementById('imageFrame').src = `assets/images/week${week}_image_grade${grade}.jpg`;
 }
 
 // Event listeners
 weekSelect.addEventListener('change', () => {
   saveSelections();
-  initializeContent();
+  loadAllContent();
 });
 
 gradeSelect.addEventListener('change', () => {
   saveSelections();
-  initializeContent();
-});
-
-scoreButton.addEventListener('click', () => {
-  const { score, allAnswered, total } = calculateScore();
-  displayFeedback(score, allAnswered, total);
-});
-
-clearButton.addEventListener('click', () => {
-  document.querySelectorAll('input[type="radio"]').forEach(radio => {
-    radio.checked = false;
-  });
-  scoreFeedback.textContent = "";
-  timestamp.textContent = "";
+  loadAllContent();
 });
 
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
   initializeWeekSelector();
   restoreSelections();
-  initializeContent(); // Changed from loadQuiz() to initializeContent()
+  loadAllContent(); // Load all content on initial page load
 });
