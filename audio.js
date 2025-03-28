@@ -1,4 +1,4 @@
-// audio.js - Final Fixed Version with No Word Duplication
+// audio.js - Final Working Version with Tooltips and No Duplication
 // Handles audio playback, text highlighting, and vocabulary tooltips
 
 // DOM Elements
@@ -61,14 +61,12 @@ async function loadReadingForAudio() {
       vocabularyData = null;
     }
 
-    // 3. Update audio source with new path
+    // 3. Update media sources
     audioSource.src = `assets/audios/week${week}_audio_grade${grade}.mp3`;
     audioPlayer.load();
-
-    // 4. Update image with new path
     imageFrame.src = `assets/images/week${week}_image_grade${grade}.jpg`;
 
-    // 5. Build text content - CLEANED version
+    // 4. Build text content
     if (cachedReadingData && cachedReadingData.text) {
       // First clean any existing HTML artifacts
       const cleanedText = cachedReadingData.text.map(sentence => ({
@@ -87,12 +85,12 @@ async function loadReadingForAudio() {
       textContent.innerHTML = "No reading text available.";
     }
 
-    // 6. Load vocabulary if available
+    // 5. Load vocabulary if available
     if (vocabularyData && vocabularyData.length > 0) {
       vocabularyContent.innerHTML = vocabularyData
-        .map(item => `<div><strong>${item.word}:</strong> ${item.definition}</div>`)
+        .map(item => `<div class="vocab-item"><strong>${item.word}:</strong> ${item.definition}</div>`)
         .join('');
-      setTimeout(processTextForVocabulary, 300);
+      setTimeout(() => processTextForVocabulary(), 300); // Slight delay to ensure DOM is ready
     } else {
       vocabularyContent.innerHTML = "No vocabulary for this lesson.";
     }
@@ -122,7 +120,7 @@ function showVocabularyTooltip(word, element) {
   
   if (vocabItem) {
     // Remove any existing tooltips
-    document.querySelectorAll('.vocab-tooltip').forEach(t => t.remove());
+    removeAllTooltips();
     
     // Create and show tooltip
     const tooltip = document.createElement('div');
@@ -143,7 +141,8 @@ function showVocabularyTooltip(word, element) {
     document.body.appendChild(tooltip);
     
     // Close tooltip when clicking the close button
-    tooltip.querySelector('.close-tooltip').addEventListener('click', () => {
+    tooltip.querySelector('.close-tooltip').addEventListener('click', (e) => {
+      e.stopPropagation();
       tooltip.remove();
     });
     
@@ -159,7 +158,11 @@ function showVocabularyTooltip(word, element) {
   }
 }
 
-// Process text to make vocabulary words clickable (FIXED version)
+function removeAllTooltips() {
+  document.querySelectorAll('.vocab-tooltip').forEach(t => t.remove());
+}
+
+// Process text to make vocabulary words clickable
 function processTextForVocabulary() {
   if (!vocabularyData || !textContent) return;
   
@@ -168,26 +171,28 @@ function processTextForVocabulary() {
   
   // Process each sentence individually
   sentenceSpans.forEach(span => {
-    let originalText = span.textContent;
-    let processedHTML = originalText;
+    let originalHTML = span.innerHTML;
+    let processedHTML = originalHTML;
     
     // Process each vocabulary word
     vocabularyData.forEach(item => {
       const word = item.word.trim();
       // Match whole words only (case insensitive)
-      const regex = new RegExp(`\\b${escapeRegExp(word)}\\b`, 'gi');
-      processedHTML = processedHTML.replace(regex, match => {
-        return `<span class="vocab-word" data-word="${word}">${match}</span>`;
+      const regex = new RegExp(`(^|\\s)(${escapeRegExp(word)})(?=[\\s.,!?;:]|$)`, 'gi');
+      processedHTML = processedHTML.replace(regex, (match, p1, p2) => {
+        // Skip if already wrapped in a vocab-word span
+        if (p1.includes('vocab-word')) return match;
+        return `${p1}<span class="vocab-word" data-word="${word}">${p2}</span>`;
       });
     });
     
     // Only update if changes were made
-    if (processedHTML !== originalText) {
+    if (processedHTML !== originalHTML) {
       span.innerHTML = processedHTML;
     }
   });
   
-  // Add click handlers to new vocab words
+  // Add click handlers to vocab words
   document.querySelectorAll('.vocab-word').forEach(el => {
     el.addEventListener('click', function(e) {
       e.stopPropagation();
