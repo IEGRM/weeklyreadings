@@ -201,10 +201,7 @@ function processTextForVocabulary() {
   });
 }
 
-// Helper function to escape regex special characters
-function escapeRegExp(string) {
-  return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-}
+// Helper function to escape regex special characters (removed regEX)
 
 // Event Listeners
 audioPlayer.addEventListener('timeupdate', updateTextForCurrentTime);
