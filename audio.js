@@ -1,5 +1,5 @@
-// audio.js - Simplified Version with Bold Formatting Preserved
-// Handles audio playback and text highlighting without tooltips
+// audio.js - Final Working Version with Tooltips and No Duplication
+// Handles audio playback, text highlighting, and vocabulary tooltips
 
 // DOM Elements
 const audioPlayer = document.getElementById('audioPlayer');
@@ -8,8 +8,9 @@ const textContent = document.getElementById('textContent');
 const imageFrame = document.getElementById('imageFrame');
 const vocabularyContent = document.getElementById('vocabularyContent');
 
-// Global variable
+// Global variables
 let cachedReadingData = null;
+let vocabularyData = null;
 
 // Highlight text based on audio playback time
 function updateTextForCurrentTime() {
@@ -48,24 +49,16 @@ async function loadReadingForAudio() {
     const readingData = await readingResponse.json();
     cachedReadingData = readingData.readings[grade];
 
-    // 2. Load vocabulary data if available (without tooltips)
+    // 2. Load vocabulary data if available
     try {
       const vocabResponse = await fetch(`data/vocabulary/week${week}_vocabulary.json`);
       if (vocabResponse.ok) {
         const vocabData = await vocabResponse.json();
-        const gradeVocab = vocabData.vocabulary[grade];
-        
-        if (gradeVocab && gradeVocab.length > 0) {
-          vocabularyContent.innerHTML = gradeVocab
-            .map(item => `<div><strong>${item.word}:</strong> ${item.definition}</div>`)
-            .join('');
-        } else {
-          vocabularyContent.innerHTML = "No vocabulary for this lesson.";
-        }
+        vocabularyData = vocabData.vocabulary[grade];
       }
     } catch (vocabError) {
       console.log('No vocabulary file found for this week');
-      vocabularyContent.innerHTML = '';
+      vocabularyData = null;
     }
 
     // 3. Update media sources
@@ -73,13 +66,33 @@ async function loadReadingForAudio() {
     audioPlayer.load();
     imageFrame.src = `assets/images/week${week}_image_grade${grade}.jpg`;
 
-    // 4. Build text content - PRESERVE ALL ORIGINAL HTML FORMATTING
+    // 4. Build text content
     if (cachedReadingData && cachedReadingData.text) {
-      textContent.innerHTML = cachedReadingData.text
+      // First clean any existing HTML artifacts
+      const cleanedText = cachedReadingData.text.map(sentence => ({
+        time: sentence.time,
+        content: sentence.content
+          .replace(/<[^>]+>/g, '') // Remove all HTML tags
+          .replace(/\s+/g, ' ') // Normalize whitespace
+          .trim()
+      }));
+
+      // Then build the content
+      textContent.innerHTML = cleanedText
         .map(sentence => `<span data-time="${sentence.time}">${sentence.content}</span>`)
         .join(' ');
     } else {
       textContent.innerHTML = "No reading text available.";
+    }
+
+    // 5. Load vocabulary if available
+    if (vocabularyData && vocabularyData.length > 0) {
+      vocabularyContent.innerHTML = vocabularyData
+        .map(item => `<div class="vocab-item"><strong>${item.word}:</strong> ${item.definition}</div>`)
+        .join('');
+      setTimeout(() => processTextForVocabulary(), 300); // Slight delay to ensure DOM is ready
+    } else {
+      vocabularyContent.innerHTML = "No vocabulary for this lesson.";
     }
 
   } catch (error) {
@@ -94,6 +107,103 @@ function handleLoadingError() {
   textContent.innerHTML = 'Error loading content. Please try again later.';
   imageFrame.src = '';
   vocabularyContent.innerHTML = '';
+}
+
+// Vocabulary Tooltip System
+function showVocabularyTooltip(word, element) {
+  if (!vocabularyData) return;
+  
+  // Find the word in vocabulary (case insensitive)
+  const vocabItem = vocabularyData.find(item => 
+    item.word.toLowerCase() === word.toLowerCase()
+  );
+  
+  if (vocabItem) {
+    // Remove any existing tooltips
+    removeAllTooltips();
+    
+    // Create and show tooltip
+    const tooltip = document.createElement('div');
+    tooltip.className = 'vocab-tooltip';
+    tooltip.innerHTML = `
+      <div class="tooltip-content">
+        <strong>${vocabItem.word}:</strong> ${vocabItem.definition}
+        <button class="close-tooltip">×</button>
+      </div>
+    `;
+    
+    // Position it near the clicked word
+    const rect = element.getBoundingClientRect();
+    tooltip.style.position = 'fixed';
+    tooltip.style.top = `${rect.top + window.scrollY - 40}px`;
+    tooltip.style.left = `${rect.left + window.scrollX}px`;
+    
+    document.body.appendChild(tooltip);
+    
+    // Close tooltip when clicking the close button
+    tooltip.querySelector('.close-tooltip').addEventListener('click', (e) => {
+      e.stopPropagation();
+      tooltip.remove();
+    });
+    
+    // Close tooltip when clicking outside
+    setTimeout(() => {
+      document.addEventListener('click', function closeTooltip(e) {
+        if (!tooltip.contains(e.target)) {
+          tooltip.remove();
+          document.removeEventListener('click', closeTooltip);
+        }
+      });
+    }, 100);
+  }
+}
+
+function removeAllTooltips() {
+  document.querySelectorAll('.vocab-tooltip').forEach(t => t.remove());
+}
+
+// Process text to make vocabulary words clickable
+function processTextForVocabulary() {
+  if (!vocabularyData || !textContent) return;
+  
+  // Get all sentence spans
+  const sentenceSpans = textContent.querySelectorAll('span[data-time]');
+  
+  // Process each sentence individually
+  sentenceSpans.forEach(span => {
+    let originalHTML = span.innerHTML;
+    let processedHTML = originalHTML;
+    
+    // Process each vocabulary word
+    vocabularyData.forEach(item => {
+      const word = item.word.trim();
+      // Match whole words only (case insensitive)
+      const regex = new RegExp(`(^|\\s)(${escapeRegExp(word)})(?=[\\s.,!?;:]|$)`, 'gi');
+      processedHTML = processedHTML.replace(regex, (match, p1, p2) => {
+        // Skip if already wrapped in a vocab-word span
+        if (p1.includes('vocab-word')) return match;
+        return `${p1}<span class="vocab-word" data-word="${word}">${p2}</span>`;
+      });
+    });
+    
+    // Only update if changes were made
+    if (processedHTML !== originalHTML) {
+      span.innerHTML = processedHTML;
+    }
+  });
+  
+  // Add click handlers to vocab words
+  document.querySelectorAll('.vocab-word').forEach(el => {
+    el.addEventListener('click', function(e) {
+      e.stopPropagation();
+      showVocabularyTooltip(this.dataset.word, this);
+    });
+  });
+}
+
+// Helper function to escape regex special characters
+function escapeRegExp(string) {
+  return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
 // Event Listeners
