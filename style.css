@@ -1,4 +1,4 @@
-/* style.css - Optimized and Fixed Version */
+/* style.css - Optimized with Fixed Vocabulary Highlighting */
 
 /* Base Styles */
 html, body {
@@ -7,7 +7,7 @@ html, body {
   width: 100%;
   height: 100%;
   font-family: Arial, sans-serif;
-  line-height: 1.5; /* Slightly tighter line height */
+  line-height: 1.5;
 }
 
 .container {
@@ -16,30 +16,30 @@ html, body {
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Softer shadow */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Selectors */
 .selector {
-  margin: 12px 0; /* Slightly reduced margin */
+  margin: 12px 0;
 }
 
 .selector label {
   font-weight: bold;
-  margin-right: 8px; /* Reduced spacing */
+  margin-right: 8px;
 }
 
 .selector select {
   padding: 8px 12px;
   border-radius: 5px;
   border: 1px solid #ccc;
-  font-size: 15px; /* Slightly smaller font */
+  font-size: 15px;
   background-color: white;
 }
 
 /* Media Sections */
 #imageSection {
-  margin: 16px 0; /* Reduced margin */
+  margin: 16px 0;
   display: flex;
   justify-content: center;
 }
@@ -47,37 +47,28 @@ html, body {
 #imageFrame {
   width: 100%;
   max-width: 800px;
-  height: 220px; /* Slightly reduced height */
+  height: 220px;
   border: none;
   background-color: #f0f0f0;
-  border-radius: 5px; /* Added border radius */
+  border-radius: 5px;
 }
 
 /* Audio Player */
 #audioPlayer {
   width: 100%;
-  margin: 16px 0; /* Reduced margin */
+  margin: 16px 0;
 }
 
 /* Text Content */
 #readingText {
-  padding: 12px; /* Reduced padding */
+  padding: 12px;
   background-color: white;
   border-radius: 5px;
-  margin-top: 12px; /* Reduced margin */
-  line-height: 1.5; /* Better readability */
+  margin-top: 12px;
+  line-height: 1.5;
 }
 
-.highlight {
-  background-color: #ffeb3b;
-  padding: 1px 3px; /* Tighter padding */
-  border-radius: 3px;
-}
-
-
-
-
-/* Vocabulary Section - Enhanced Styling */
+/* Vocabulary Section */
 #vocabularySection {
   margin-top: 20px;
   padding: 15px;
@@ -132,12 +123,175 @@ html, body {
   margin-right: 5px;
 }
 
-.vocab-item::after {
-  content: "";
+/* Quiz Section */
+#quizSection {
+  margin-top: 20px;
+}
+
+.quiz-question {
+  margin-bottom: 12px;
+  padding: 12px;
+  background-color: white;
+  border-radius: 5px;
+  border-left: 3px solid darkblue;
+}
+
+.quiz-question p {
+  margin: 0 0 8px 0;
+  font-weight: 500;
+}
+
+.quiz-question ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 6px 0;
+}
+
+.quiz-question li {
+  margin: 4px 0;
+  padding: 6px 8px;
+  background-color: #f9f9f9;
+  border-radius: 3px;
+  transition: background-color 0.2s;
+}
+
+.quiz-question li:hover {
+  background-color: #f0f0f0;
+}
+
+.quiz-question input[type="radio"] {
+  margin-right: 8px;
+  transform: scale(1.05);
+  vertical-align: middle;
+}
+
+/* Info Box */
+.info-box {
+  border: 2px solid darkblue;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 16px 0;
+  background-color: #f9f9f9;
+}
+
+.info-box label {
   display: block;
-  height: 1px;
-  background: #edf2f7;
   margin-top: 8px;
+  color: darkblue;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.info-box input[type="text"] {
+  width: 100%;
+  padding: 7px;
+  margin: 4px 0 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+/* Buttons */
+button {
+  padding: 8px 16px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  background-color: darkblue;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Feedback */
+#scoreFeedback {
+  margin: 12px 0;
+  font-weight: bold;
+  color: darkgreen;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #f0fff0;
+}
+
+#timestamp {
+  font-size: 13px;
+  color: #666;
+  margin-top: 8px;
+}
+
+/* Vocabulary Word Highlighting - Consolidated and Fixed */
+.vocab-word {
+  color: #1a73e8;
+  cursor: pointer;
+  border-bottom: 1px dashed #1a73e8;
+  transition: all 0.2s ease;
+  background-color: transparent;
+  position: relative;
+}
+
+.vocab-word:hover {
+  background-color: #e8f0fe;
+  text-decoration: none;
+}
+
+.current-highlight .vocab-word {
+  background-color: #ffeb3b;
+  color: #000;
+  border-bottom: 1px dashed #000;
+}
+
+/* Text Highlighting */
+.current-highlight {
+  background-color: #ffeb3b;
+  padding: 2px 4px;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+/* Tooltip Styles */
+.vocab-tooltip {
+  position: absolute;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  z-index: 1000;
+  max-width: 250px;
+  animation: fadeIn 0.2s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.close-tooltip {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.close-tooltip:hover {
+  background: #0d5bba;
 }
 
 /* Responsive adjustments */
@@ -151,21 +305,6 @@ html, body {
   }
 }
 
-@media (max-width: 480px) {
-  #vocabularySection {
-    padding: 12px;
-  }
-  
-  #vocabularySection h3 {
-    font-size: 1.1em;
-  }
-}
-
-
-
-
-
-/* Responsive adjustments */
 @media (max-width: 600px) {
   #vocabularySection {
     padding: 10px;
@@ -182,155 +321,12 @@ html, body {
   }
 }
 
-
-
-
-
-/* Quiz Section - Fixed Spacing */
-#quizSection {
-  margin-top: 20px; /* Reduced margin */
-}
-
-.quiz-question {
-  margin-bottom: 12px; /* Reduced from 20px */
-  padding: 12px; /* Reduced from 15px */
-  background-color: white;
-  border-radius: 5px;
-  border-left: 3px solid darkblue; /* Added accent */
-}
-
-.quiz-question p {
-  margin: 0 0 8px 0; /* Better paragraph spacing */
-  font-weight: 500; /* Slightly bolder */
-}
-
-.quiz-question ul {
-  list-style-type: none;
-  padding-left: 0;
-  margin: 6px 0; /* Reduced margin */
-}
-
-.quiz-question li {
-  margin: 4px 0; /* Reduced from 8px */
-  padding: 6px 8px; /* Better padding */
-  background-color: #f9f9f9;
-  border-radius: 3px;
-  transition: background-color 0.2s;
-}
-
-.quiz-question li:hover {
-  background-color: #f0f0f0;
-}
-
-.quiz-question input[type="radio"] {
-  margin-right: 8px; /* Reduced from 10px */
-  transform: scale(1.05); /* Better radio button scaling */
-  vertical-align: middle;
-}
-
-/* Info Box */
-.info-box {
-  border: 2px solid darkblue;
-  border-radius: 12px; /* Slightly smaller */
-  padding: 12px; /* Reduced padding */
-  margin: 16px 0; /* Reduced margin */
-  background-color: #f9f9f9;
-}
-
-.info-box label {
-  display: block;
-  margin-top: 8px; /* Reduced spacing */
-  color: darkblue;
-  font-weight: bold;
-  font-size: 15px; /* Slightly smaller */
-}
-
-.info-box input[type="text"] {
-  width: 100%;
-  padding: 7px; /* Slightly reduced */
-  margin: 4px 0 12px; /* Better spacing */
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  font-size: 15px;
-}
-
-/* Buttons */
-button {
-  padding: 8px 16px; /* Slightly reduced */
-  margin-right: 8px; /* Reduced spacing */
-  border: none;
-  border-radius: 4px; /* Slightly smaller */
-  background-color: darkblue;
-  color: white;
-  cursor: pointer;
-  font-size: 15px; /* Slightly smaller */
-  transition: background-color 0.2s;
-}
-
-button:hover {
-  background-color: #0056b3;
-}
-
-/* Feedback */
-#scoreFeedback {
-  margin: 12px 0; /* Reduced spacing */
-  font-weight: bold;
-  color: darkgreen;
-  padding: 8px;
-  border-radius: 4px;
-  background-color: #f0fff0;
-}
-
-#timestamp {
-  font-size: 13px; /* Slightly smaller */
-  color: #666;
-  margin-top: 8px; /* Reduced spacing */
-}
-
-
-
-
-
-
-/* Vocabulary Tooltips */
-.vocab-word {
-  color: #0066cc;
-  cursor: pointer;
-  border-bottom: 1px dashed #0066cc;
-  position: relative;
-}
-
-.vocab-word:hover {
-  background-color: #e6f2ff;
-}
-
-#tooltip-container {
-  max-width: 250px;
-  background: #fff;
-  border-radius: 4px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  padding: 10px;
-  font-size: 14px;
-}
-
-/* Reading Section */
-#readingText {
-  line-height: 1.6;
-  padding: 15px;
-  background: #f9f9f9;
-  border-radius: 5px;
-}
-
-/* Quiz Section */
-#quizContent {
-  margin-top: 20px;
-}
-
-.quiz-question {
-  margin-bottom: 15px;
-  padding: 15px;
-  background: white;
-  border-radius: 5px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+@media (max-width: 480px) {
+  #vocabularySection {
+    padding: 12px;
+  }
+  
+  #vocabularySection h3 {
+    font-size: 1.1em;
+  }
 }

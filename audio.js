@@ -1,98 +1,166 @@
-// audio.js - Simplified and Fixed Version
-document.addEventListener('DOMContentLoaded', function() {
-  // Initialize all components
-  initReadingSection();
-  initVocabularySection();
-});
+// audio.js - Complete solution with audio sync highlighting AND tooltips
+const audioPlayer = document.getElementById('audioPlayer');
+const audioSource = document.getElementById('audioSource');
+const textContent = document.getElementById('textContent');
+const imageFrame = document.getElementById('imageFrame');
+const vocabularyContent = document.getElementById('vocabularyContent');
 
-function initReadingSection() {
-  const weekSelect = document.getElementById('weekSelect');
-  const gradeSelect = document.getElementById('gradeSelect');
-  
-  weekSelect.addEventListener('change', loadContent);
-  gradeSelect.addEventListener('change', loadContent);
-  
+let currentReadingData = null;
+let vocabularyData = null;
+
+// Initialize everything when DOM loads
+document.addEventListener('DOMContentLoaded', function() {
   loadContent();
   
-  function loadContent() {
-    const week = weekSelect.value;
-    const grade = gradeSelect.value;
-    
-    loadReading(week, grade);
-    loadVocabulary(week, grade);
+  // Set up event listeners
+  document.getElementById('weekSelect').addEventListener('change', loadContent);
+  document.getElementById('gradeSelect').addEventListener('change', loadContent);
+  audioPlayer.addEventListener('timeupdate', highlightCurrentText);
+});
+
+async function loadContent() {
+  const week = document.getElementById('weekSelect').value;
+  const grade = document.getElementById('gradeSelect').value;
+  
+  try {
+    await loadReading(week, grade);
+    await loadVocabulary(week, grade);
+    processVocabularyHighlighting();
+  } catch (error) {
+    console.error("Error loading content:", error);
   }
 }
 
 async function loadReading(week, grade) {
-  try {
-    const response = await fetch(`data/readings/week${week}_reading.json`);
-    const data = await response.json();
-    const reading = data.readings[grade];
-    
-    document.getElementById('textContent').innerHTML = reading.text
-      .map(s => `<span data-time="${s.time}">${s.content}</span>`)
-      .join(' ');
-      
-    document.getElementById('audioSource').src = `assets/audios/week${week}_audio_grade${grade}.mp3`;
-    document.getElementById('audioPlayer').load();
-    
-    document.getElementById('imageFrame').src = `assets/images/week${week}_image_grade${grade}.jpg`;
-    
-    // Process for vocabulary highlighting
-    setTimeout(highlightVocabulary, 300);
-  } catch (error) {
-    console.error("Error loading reading:", error);
-  }
+  const response = await fetch(`data/readings/week${week}_reading.json`);
+  const data = await response.json();
+  currentReadingData = data.readings[grade];
+  
+  // Build the text content with time markers
+  textContent.innerHTML = currentReadingData.text
+    .map(sentence => `<span data-time="${sentence.time}">${sentence.content}</span>`)
+    .join(' ');
+  
+  // Set up audio and image
+  audioSource.src = `assets/audios/week${week}_audio_grade${grade}.mp3`;
+  audioPlayer.load();
+  imageFrame.src = `assets/images/week${week}_image_grade${grade}.jpg`;
 }
 
 async function loadVocabulary(week, grade) {
   try {
     const response = await fetch(`data/vocabulary/week${week}_vocabulary.json`);
     const data = await response.json();
-    const vocab = data.vocabulary[grade];
+    vocabularyData = data.vocabulary[grade];
     
-    document.getElementById('vocabularyContent').innerHTML = vocab
-      .map(item => `<div><strong>${item.word}</strong>: ${item.definition}</div>`)
+    // Display vocabulary list
+    vocabularyContent.innerHTML = vocabularyData
+      .map(item => `<div class="vocab-item"><strong>${item.word}</strong>: ${item.definition}</div>`)
       .join('');
   } catch (error) {
-    console.error("Error loading vocabulary:", error);
+    console.log("No vocabulary file found for this week");
+    vocabularyData = null;
   }
 }
 
-function highlightVocabulary() {
-  const vocabItems = document.querySelectorAll('#vocabularyContent div');
-  const textContent = document.getElementById('textContent');
-  
-  vocabItems.forEach(item => {
-    const word = item.querySelector('strong').textContent.replace(/<[^>]*>/g, '');
-    const definition = item.textContent.split(': ')[1];
-    
-    // Create regex to match the word (case insensitive)
-    const regex = new RegExp(`\\b${word}\\b`, 'gi');
-    
-    // Highlight matches in text
-    textContent.innerHTML = textContent.innerHTML.replace(regex, 
-      `<span class="vocab-word" data-definition="${definition}">$&</span>`);
+
+
+function processVocabularyHighlighting() {
+  if (!vocabularyData) return;
+
+  // Create a map of vocabulary words and their definitions
+  const vocabMap = {};
+  vocabularyData.forEach(item => {
+    // Extract text content from HTML tags and clean
+    const cleanWord = item.word.replace(/<[^>]*>/g, '')
+                              .toLowerCase()
+                              .trim();
+    vocabMap[cleanWord] = item.definition;
   });
-  
+
+  // Process each text span
+  const textSpans = document.querySelectorAll('#textContent span[data-time]');
+  textSpans.forEach(span => {
+    const originalHTML = span.innerHTML;
+    let highlightedHTML = originalHTML;
+    
+    // Match whole words only (case insensitive)
+    const wordRegex = /\b(\w+)\b/g;
+    
+    highlightedHTML = highlightedHTML.replace(wordRegex, (matchedWord) => {
+      const lowerWord = matchedWord.toLowerCase();
+      if (vocabMap[lowerWord]) {
+        return `<span class="vocab-word highlightable" 
+                 data-definition="${vocabMap[lowerWord]}">${matchedWord}</span>`;
+      }
+      return matchedWord;
+    });
+
+    span.innerHTML = highlightedHTML;
+  });
+
   // Add click handlers for tooltips
   document.querySelectorAll('.vocab-word').forEach(word => {
     word.addEventListener('click', showTooltip);
   });
 }
 
+
+
+function highlightCurrentText() {
+  if (!currentReadingData?.text) return;
+  
+  const currentTime = audioPlayer.currentTime;
+  const textSpans = document.querySelectorAll('#textContent span[data-time]');
+  
+  // Remove highlight from all spans
+  textSpans.forEach(span => span.classList.remove('current-highlight'));
+  
+  // Find and highlight the current span
+  for (let i = currentReadingData.text.length - 1; i >= 0; i--) {
+    if (currentTime >= currentReadingData.text[i].time) {
+      const currentSpan = Array.from(textSpans).find(
+        span => parseFloat(span.getAttribute('data-time')) === currentReadingData.text[i].time
+      );
+      
+      if (currentSpan) {
+        currentSpan.classList.add('current-highlight');
+        currentSpan.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+      break;
+    }
+  }
+}
+
 function showTooltip(event) {
-  const tooltip = document.getElementById('tooltip-container');
-  tooltip.innerHTML = event.target.getAttribute('data-definition');
-  tooltip.style.display = 'block';
-  tooltip.style.left = `${event.pageX}px`;
-  tooltip.style.top = `${event.pageY + 10}px`;
-  
-  // Hide tooltip when clicking anywhere
-  document.addEventListener('click', function hideTooltip() {
-    tooltip.style.display = 'none';
-    document.removeEventListener('click', hideTooltip);
-  }, { once: true });
-  
   event.stopPropagation();
+  
+  const tooltip = document.createElement('div');
+  tooltip.className = 'vocab-tooltip';
+  tooltip.innerHTML = `
+    <div class="tooltip-content">
+      ${event.target.getAttribute('data-definition')}
+    </div>
+    <button class="close-tooltip">×</button>
+  `;
+  
+  // Position tooltip near clicked word
+  const rect = event.target.getBoundingClientRect();
+  tooltip.style.left = `${rect.left + window.scrollX}px`;
+  tooltip.style.top = `${rect.bottom + window.scrollY + 5}px`;
+  
+  document.body.appendChild(tooltip);
+  
+  // Close tooltip when clicking the X
+  tooltip.querySelector('.close-tooltip').addEventListener('click', () => {
+    tooltip.remove();
+  });
+  
+  // Close tooltip when clicking outside
+  document.addEventListener('click', function closeTooltip(e) {
+    if (!tooltip.contains(e.target)) {
+      tooltip.remove();
+      document.removeEventListener('click', closeTooltip);
+    }
+  });
 }
