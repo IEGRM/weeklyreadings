@@ -51,8 +51,8 @@ html, body {
 }
 
 #imageFrame {
-  width: 50%;
-  max-width: 800px;
+  width: 100%;
+  max-width: 250px;
   height: 250px;
   border: none;
   background-color: white; /* Change from #f0f0f0 to white */
