@@ -5,21 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Readings by Jony Rojas et al.</title>
   <link rel="stylesheet" href="style.css">
-  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
-
 </head>
 <body>
-<div class="container">
-  <!-- Week and Grade Selectors - With increased spacing -->
-  <div style="display: flex; flex-direction: column; gap: 20px;">
+  <div class="container">
     <!-- Week Selection -->
-    <div>
-      <label for="weekSelect">Select Week:</label>
+    <div class="selector">
+      <label for="weekSelect">*Select Week:</label>
       <select id="weekSelect"></select>
-    </div>
 
     <!-- Grade Selection -->
-    <div>
+    <div class="selector">
       <label for="gradeSelect">Select Grade:</label>
       <select id="gradeSelect">
         <option value="6">6° Grade</option>
@@ -30,13 +25,12 @@
         <option value="11">11° Grade</option>
       </select>
     </div>
-  </div>
-</div>
 
-  <!-- Rest of your content remains exactly the same -->
-  <div id="imageSection">
-    <iframe id="imageFrame" src="" frameborder="0"></iframe>
-  </div>
+    
+    <!-- Image Section -->
+    <div id="imageSection">
+      <iframe id="imageFrame" src="" frameborder="0"></iframe>
+    </div>
 
   <audio id="audioPlayer" controls>
     <source id="audioSource" src="" type="audio/mpeg">
@@ -66,7 +60,7 @@
       <div id="quizContent"></div>
       <div class="info-box">
         <div style="flex: 1;">
-          <p>Fill out all the information. Take a screenshot (pantallazo).</p>
+          <p>1. Fill out all the information. 2. Take a screenshot.</p>
           <p>Show it or send it to your teacher (if requested).</p>		
         </div>        
         <!-- Data Entry Student Fields -->
@@ -79,6 +73,8 @@
             <!-- Camera feed will be inserted here -->
           </div>
         </div>
+		
+		
         <label for="school" style="color: darkblue; font-weight: bold;">* School:</label>
         <input type="text" id="school" name="school" size="40"><br>
         <label for="group" style="color: darkblue; font-weight: bold;">* Group:</label>
@@ -89,7 +85,7 @@
 		<!-- Buttons -->
         <button id="scoreButton">My Score</button>
         <button id="clearButton">Clear</button>
-		<button id="screenshotButton">Take Screenshot</button>
+		<button id="screenshotButton">Screenshot</button>
 		
 		
 		
