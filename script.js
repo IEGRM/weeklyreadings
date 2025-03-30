@@ -44,35 +44,6 @@ function resetQuizUI() {
   scoreButton.style.display = "inline-block";
 }
 
-// Screenshot function
-async function takeScreenshot() {
-  try {
-    // Target the info box and its parent for better capture
-    const element = document.querySelector('.info-box');
-    
-    // Load html2canvas dynamically if not already loaded
-    if (typeof html2canvas !== 'function') {
-      await loadScript('https://html2canvas.hertzen.com/dist/html2canvas.min.js');
-    }
-
-    const canvas = await html2canvas(element, {
-      scale: 2, // Higher quality
-      logging: false,
-      useCORS: true,
-      allowTaint: true
-    });
-
-    // Create download link
-    const link = document.createElement('a');
-    link.download = `quiz-result-${new Date().toISOString().slice(0,10)}.png`;
-    link.href = canvas.toDataURL('image/png');
-    link.click();
-  } catch (error) {
-    console.error('Screenshot failed:', error);
-    alert('Failed to take screenshot. Please try again.');
-  }
-}
-
 // Helper function to load scripts dynamically
 function loadScript(src) {
   return new Promise((resolve, reject) => {
@@ -82,6 +53,69 @@ function loadScript(src) {
     script.onerror = reject;
     document.head.appendChild(script);
   });
+}
+
+// Enhanced screenshot function for mobile/desktop
+async function takeScreenshot() {
+  try {
+    // Show loading state
+    screenshotButton.disabled = true;
+    screenshotButton.textContent = "Capturing...";
+    
+    const element = document.querySelector('.info-box');
+    const originalScroll = window.scrollY;
+    
+    // Scroll to top for full capture
+    window.scrollTo(0, 0);
+    
+    // Load html2canvas if needed
+    if (typeof html2canvas !== 'function') {
+      await loadScript('https://html2canvas.hertzen.com/dist/html2canvas.min.js');
+    }
+
+    // Wait for rendering
+    await new Promise(resolve => setTimeout(resolve, 300));
+
+    const canvas = await html2canvas(element, {
+      scale: window.innerWidth < 768 ? 3 : 2, // Higher DPI on mobile
+      scrollX: -window.scrollX,
+      scrollY: -window.scrollY,
+      useCORS: true,
+      logging: false
+    });
+
+    // Restore scroll position
+    window.scrollTo(0, originalScroll);
+
+    // Handle download/display
+    const dataURL = canvas.toDataURL('image/png');
+    const fileName = `quiz-result-${new Date().toISOString().slice(0,10)}.png`;
+
+    // iOS workaround
+    if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+      const newWindow = window.open();
+      newWindow.document.write(`
+        <img src="${dataURL}" style="max-width:100%" />
+        <p>Press and hold to save image</p>
+      `);
+    } 
+    // Android/Desktop download
+    else {
+      const link = document.createElement('a');
+      link.download = fileName;
+      link.href = dataURL;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+
+  } catch (error) {
+    console.error('Screenshot error:', error);
+    alert('Could not capture screenshot. Please try again.');
+  } finally {
+    screenshotButton.disabled = false;
+    screenshotButton.textContent = "Take Screenshot";
+  }
 }
 
 // Load quiz based on selected week and grade
