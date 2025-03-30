@@ -39,6 +39,16 @@ html, body {
 }
 
 
+/* Reading Section Sections */
+#readingText {
+  padding: 12px;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 12px;
+  line-height: 1.5;
+  font-size: 20px; /* Add this line */
+}
+
 /* Media Sections */
 #imageSection {
   margin: 16px 0;

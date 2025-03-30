@@ -5,16 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Readings by Jony Rojas et al.</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+
 </head>
 <body>
-  <div class="container">
+<div class="container">
+  <!-- Week and Grade Selectors - With increased spacing -->
+  <div style="display: flex; flex-direction: column; gap: 20px;">
     <!-- Week Selection -->
-    <div class="selector">
-      <label for="weekSelect">Select Week (11.30):</label>
+    <div>
+      <label for="weekSelect">Select Week:</label>
       <select id="weekSelect"></select>
+    </div>
 
     <!-- Grade Selection -->
-    <div class="selector">
+    <div>
       <label for="gradeSelect">Select Grade:</label>
       <select id="gradeSelect">
         <option value="6">6° Grade</option>
@@ -25,25 +30,24 @@
         <option value="11">11° Grade</option>
       </select>
     </div>
-
-    
-    <!-- Image Section -->
-    <div id="imageSection">
-      <iframe id="imageFrame" src="" frameborder="0"></iframe>
-    </div>
-
-    
-    <!-- Audio Player -->
-    <audio id="audioPlayer" controls>
-      <source id="audioSource" src="" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-    
-    <!-- Reading Text -->
-    <div id="readingText">
-      <p id="textContent">Select a week and grade to load the reading.</p>
-    </div>
   </div>
+</div>
+
+  <!-- Rest of your content remains exactly the same -->
+  <div id="imageSection">
+    <iframe id="imageFrame" src="" frameborder="0"></iframe>
+  </div>
+
+  <audio id="audioPlayer" controls>
+    <source id="audioSource" src="" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  
+  <div id="readingText">
+    <p id="textContent">Select a week and grade to load the reading.</p>
+  </div>
+</div>
+
 
   <!-- Vocabulary Section -->
   <div class="container">
@@ -81,9 +85,14 @@
         <input type="text" id="group" name="group" size="40"><br>
         <label for="name" style="color: darkblue; font-weight: bold;">* Full Name:</label>
         <input type="text" id="name" name="name" size="40"><br><br>
-        <!-- Buttons -->
+        
+		<!-- Buttons -->
         <button id="scoreButton">My Score</button>
         <button id="clearButton">Clear</button>
+		<button id="screenshotButton">Take Screenshot</button>
+		
+		
+		
         <p id="scoreFeedback"></p>
         <p id="timestamp"></p>
       </div>
@@ -97,5 +106,6 @@
   <script src="audio.js"></script>
   <script src="script.js"></script>
   <script src="camera.js"></script>
+  <div id="tooltip-container" style="display:none; position:absolute; background:#fff; border:1px solid #333; padding:8px; z-index:1000;"></div>
 </body>
 </html>
