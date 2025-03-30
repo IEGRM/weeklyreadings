@@ -26,12 +26,10 @@
         "options": ["Happy", "Tired", "Sad"],
         "answer": "Happy"
       }
-    ]
-  },
-  "7": {
-    "quiz": [
+    ],
+    "7": [
       {
-        "question": "What is the dog’s name?",
+        "question": "What is the dog's name?",
         "options": ["Max", "Rocky", "Buddy"],
         "answer": "Rocky"
       },
@@ -55,14 +53,12 @@
         "options": ["A bowl of water", "A bowl of food", "A treat"],
         "answer": "A bowl of food"
       }
-    ]
-  },
-  "8": {
-    "quiz": [
+    ],
+    "8": [
       {
         "question": "What does María dislike about her hair?",
-        "options": ["It’s too short", "It’s too big", "It’s too straight"],
-        "answer": "It’s too big"
+        "options": ["It's too short", "It's too big", "It's too straight"],
+        "answer": "It's too big"
       },
       {
         "question": "What does María want to be?",
@@ -80,14 +76,12 @@
         "answer": "The school principal"
       },
       {
-        "question": "What does the principal say about María’s hair?",
-        "options": ["It’s too curly", "It’s unique", "It’s messy"],
-        "answer": "It’s unique"
+        "question": "What does the principal say about María's hair?",
+        "options": ["It's too curly", "It's unique", "It's messy"],
+        "answer": "It's unique"
       }
-    ]
-  },
-  "9": {
-    "quiz": [
+    ],
+    "9": [
       {
         "question": "What type of movies does Carlos love?",
         "options": ["Romantic", "Action", "Comedy"],
@@ -100,11 +94,11 @@
       },
       {
         "question": "Why was Carlos angry?",
-        "options": ["The movie was bad", "His friends didn’t show up", "He lost his ticket"],
-        "answer": "His friends didn’t show up"
+        "options": ["The movie was bad", "His friends didn't show up", "He lost his ticket"],
+        "answer": "His friends didn't show up"
       },
       {
-        "question": "What did Carlos do when his friends didn’t answer?",
+        "question": "What did Carlos do when his friends didn't answer?",
         "options": ["He went home", "He went inside alone", "He called the police"],
         "answer": "He went inside alone"
       },
@@ -113,17 +107,15 @@
         "options": ["He hated it", "He enjoyed it", "He fell asleep"],
         "answer": "He enjoyed it"
       }
-    ]
-  },
-  "10": {
-    "quiz": [
+    ],
+    "10": [
       {
-        "question": "What is Camila’s physical imperfection?",
+        "question": "What is Camila's physical imperfection?",
         "options": ["A scar", "A limp", "A unibrow"],
         "answer": "A limp"
       },
       {
-        "question": "Who are Camila’s best friends?",
+        "question": "Who are Camila's best friends?",
         "options": ["Sofia and Mateo", "Valeria and Juan", "Maria and Carlos"],
         "answer": "Sofia and Mateo"
       },
@@ -142,12 +134,10 @@
         "options": ["At school", "At the park", "At their corner hangout"],
         "answer": "At their corner hangout"
       }
-    ]
-  },
-  "11": {
-    "quiz": [
+    ],
+    "11": [
       {
-        "question": "What is Camila’s job?",
+        "question": "What is Camila's job?",
         "options": ["Teacher", "Night shift worker", "Chef"],
         "answer": "Night shift worker"
       },
@@ -157,8 +147,8 @@
         "answer": "Go to the gym"
       },
       {
-        "question": "Why was Camila’s request rejected?",
-        "options": ["She was late", "Older employees needed the shift", "The manager didn’t like her"],
+        "question": "Why was Camila's request rejected?",
+        "options": ["She was late", "Older employees needed the shift", "The manager didn't like her"],
         "answer": "Older employees needed the shift"
       },
       {
@@ -170,7 +160,6 @@
         "question": "What did Camila decide to do?",
         "options": ["Quit her job", "Stay strong for her coworkers", "Complain to the manager"],
         "answer": "Stay strong for her coworkers"
-       
       }
     ]
   }

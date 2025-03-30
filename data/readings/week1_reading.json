@@ -73,7 +73,7 @@
         { "time": 25, "content": "He arrived early, wearing his new <b>uniform</b>." },
         { "time": 29, "content": "His first <b>task</b> was to organize the <b>shelves</b>." },
         { "time": 33, "content": "He arranged bags of rice, beans, and snacks." },
-        { "time": 38, "content": "He also had to clean the <b>counter</b> and check the <b>cash register</b>." },
+        { "time": 38, "content": "He also had to clean the <b>counter</b> and check the <b>cash_register</b>." },
         { "time": 43, "content": "The <b>owner</b>, Don Luis, showed him how to use the <b>scanner</b>." },
         { "time": 48, "content": "His <b>coworkers</b> helped him feel comfortable." },
         { "time": 52, "content": "Carlos took <b>orders</b>, packed groceries, and greeted <b>customers</b>." },
@@ -122,8 +122,8 @@
       "image": "assets/images/week1_image_grade11.jpg",
       "text": [
         { "time": 1, "content": "<b>A NEW HAIRCUT</b><br>" },
-        { "time": 3, "content": "<br>Kevin wanted a <b>fresh look</b>." },
-        { "time": 5, "content": "He was about to start his last year of <b>high school</b> in the <b>barrio</b>, and he didn't want to look like a kid anymore." },
+        { "time": 3, "content": "<br>Kevin wanted a <b>fresh_look</b>." },
+        { "time": 5, "content": "He was about to start his last year of <b>high_school</b> in the <b>barrio</b>, and he didn't want to look like a kid anymore." },
         { "time": 13, "content": "His current <b>haircut</b> was simple—short and neat." },
         { "time": 17, "content": "He had it since he was 13." },
         { "time": 20, "content": "But now, he wanted something <b>bold</b>, something that would make people take him seriously." },
@@ -142,8 +142,8 @@
         { "time": 81, "content": "His friends were shocked when they saw him." },
         { "time": 85, "content": "\"Damn, bro, you look like a <b>reggaeton</b> star!\" one of them said." },
         { "time": 91, "content": "Even <b>strangers</b> at school noticed him." },
-        { "time": 95, "content": "A few days later, a local <b>music producer</b> approached him at the mall." },
-        { "time": 101, "content": "\"Ever thought about <b>modeling</b> for a <b>music video</b>?\"" },
+        { "time": 95, "content": "A few days later, a local <b>music_producer</b> approached him at the mall." },
+        { "time": 101, "content": "\"Ever thought about <b>modeling</b> for a <b>music_video</b>?\"" },
         { "time": 105, "content": "Kevin laughed, but he took the guy's number." },
         { "time": 108, "content": "Maybe this <b>haircut</b> really was the start of something new." }
       ]

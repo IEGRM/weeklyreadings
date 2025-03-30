@@ -67,7 +67,7 @@
         { "time": 16, "content": "It always looked <b>perfect</b> and <b>smooth</b>." },
         { "time": 19, "content": "Every morning, María was up at 6:00 a.m." },
         { "time": 23, "content": "She <b>spent</b> an hour <b>straightening</b> her <b>hair</b>." },
-        { "time": 26, "content": "One morning, María had a big meeting with the <b>school principal</b>." },
+        { "time": 26, "content": "One morning, María had a big meeting with the <b>school_principal</b>." },
         { "time": 30, "content": "She was running late." },
         { "time": 32, "content": "There was no time to straighten her hair." },
         { "time": 35, "content": "\"I'll never impress the principal with this hair,\" she thought." },
@@ -84,7 +84,7 @@
       "image": "assets/images/week3_image_grade9.jpg",
       "text": [
         { "time": 1, "content": "<b>LET'S GO TO THE MOVIES</b><br>" },
-        { "time": 2, "content": "<br>Carlos went to the <b>movie theater</b>." },
+        { "time": 2, "content": "<br>Carlos went to the <b>movie_theater</b>." },
         { "time": 5, "content": "He loves <b>action</b> movies." },
         { "time": 7, "content": "The more explosions, the better." },
         { "time": 10, "content": "He waited for his friends outside." },
@@ -94,7 +94,7 @@
         { "time": 24, "content": "He tried calling Sofia, but she didn't answer either." },
         { "time": 27, "content": "Carlos was getting <b>angry</b>." },
         { "time": 30, "content": "He decided to go inside alone." },
-        { "time": 33, "content": "He bought a <b>ticket</b> and got in <b>line</b> at the <b>concession stand</b>." },
+        { "time": 33, "content": "He bought a <b>ticket</b> and got in <b>line</b> at the <b>concession_stand</b>." },
         { "time": 37, "content": "He ordered <b>popcorn</b> and a <b>soda</b>." },
         { "time": 39, "content": "Then, he walked into the viewing room." },
         { "time": 42, "content": "He found a <b>comfy</b> seat and sat down." },
@@ -107,8 +107,8 @@
       "image": "assets/images/week3_image_grade10.jpg",
       "text": [
         { "time": 1, "content": "<b>MY IMPERFECT NEIGHBOR</b><br>" },
-        { "time": 3, "content": "<br>Camila has a <b>physical imperfection</b>." },
-        { "time": 7, "content": "She walks with a <b>limp</b> because of a <b>bike accident</b> when she was younger." },
+        { "time": 3, "content": "<br>Camila has a <b>physical_imperfection</b>." },
+        { "time": 7, "content": "She walks with a <b>limp</b> because of a <b>bike_accident</b> when she was younger." },
         { "time": 12, "content": "Some kids at school call her \"<b>Limpy</b>,\" but Camila doesn't let it bother her." },
         { "time": 18, "content": "She has two best friends, Sofia and Mateo." },
         { "time": 24, "content": "They <b>accept</b> her just the way she is." },
@@ -116,13 +116,13 @@
         { "time": 33, "content": "Their leader, Valeria, made Sofia an <b>offer</b>: join them and leave Camila behind." },
         { "time": 41, "content": "Sofia thought about it." },
         { "time": 44, "content": "She always dreamed of being part of the <b>popularity</b> crowd." },
-        { "time": 50, "content": "But then she remembered all the times she and Camila spent together at their <b>corner hangout</b> laughing and sharing secrets." },
+        { "time": 50, "content": "But then she remembered all the times she and Camila spent together at their <b>corner_hangout</b> laughing and sharing secrets." },
         { "time": 59, "content": "Sofia told Mateo about the offer." },
         { "time": 63, "content": "He was furious." },
         { "time": 66, "content": "\"Camila has been our friend <b>forever</b>,\" he said." },
         { "time": 71, "content": "Sofia realized he was right." },
         { "time": 75, "content": "She called Valeria and said, \"I'm not leaving Camila. She's beautiful inside and out.\"" },
-        { "time": 84, "content": "That weekend, Sofia, Camila, and Mateo went to <b>hang out</b> at their favorite spot." },
+        { "time": 84, "content": "That weekend, Sofia, Camila, and Mateo went to <b>hang_out</b> at their favorite spot." },
         { "time": 91, "content": "They were stronger than ever." }
       ]
     },
@@ -131,13 +131,13 @@
       "image": "assets/images/week3_image_grade11.jpg",
       "text": [
         { "time": 1, "content": "<b>A NIGHT OWL WORKER</b><br>" },
-        { "time": 3, "content": "<br>Camila works the <b>night shift</b> at a hospital in Bogotá." },
+        { "time": 3, "content": "<br>Camila works the <b>night_shift</b> at a hospital in Bogotá." },
         { "time": 8, "content": "Her <b>schedule</b> is from 9 p.m. to 5 a.m." },
         { "time": 14, "content": "At first, she struggled to <b>adjust</b>." },
         { "time": 18, "content": "Sleeping during the day was hard, and she missed her friends' parties." },
         { "time": 23, "content": "Now, she has a routine." },
         { "time": 27, "content": "After work, she goes to the <b>gym</b>." },
-        { "time": 30, "content": "Then, she practices <b>sewing</b> with her <b>needle and thread</b>." },
+        { "time": 30, "content": "Then, she practices <b>sewing</b> with her <b>needle_and_thread</b>." },
         { "time": 34, "content": "<b>Afterwards</b>, she cooks a healthy meal." },
         { "time": 38, "content": "One day, the hospital allowed <b>employees</b> to <b>request</b> a shift change." },
         { "time": 44, "content": "Camila was excited and submitted her <b>request</b>." },
@@ -147,7 +147,7 @@
         { "time": 59, "content": "She asked why, and the manager explained that older <b>employees</b> needed the day shift more." },
         { "time": 66, "content": "Their bones <b>ached</b>, and they were tired." },
         { "time": 70, "content": "At first, Camila was <b>mad</b>, but she understood." },
-        { "time": 75, "content": "She realized she was young and could handle the <b>night shift</b>." },
+        { "time": 75, "content": "She realized she was young and could handle the <b>night_shift</b>." },
         { "time": 79, "content": "She decided to stay strong for her older coworkers." }
       ]
     }

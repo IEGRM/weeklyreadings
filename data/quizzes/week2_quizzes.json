@@ -1,206 +1,185 @@
 {
   "quizzes": {
     "6": [
-        {
-          "question": "Where does Juan walk into?",
-          "options": ["A store", "A park", "A school"],
-          "answer": "A school"
-        },
-        {
-          "question": "What do the walls have on them?",
-          "options": ["Posters", "Graffiti", "Paintings"],
-          "answer": "Graffiti"
-        },
-        {
-          "question": "How does Juan feel when he arrives?",
-          "options": ["Happy", "Nervous", "Excited"],
-          "answer": "Nervous"
-        },
-        {
-          "question": "Who sits next to Juan?",
-          "options": ["A girl", "A boy", "The teacher"],
-          "answer": "A boy"
-        },
-        {
-          "question": "What does the teacher do first?",
-          "options": ["She writes on the board", "She closes the door", "She talks to Juan"],
-          "answer": "She closes the door"
-        },
-        {
-          "question": "What does Juan take out?",
-          "options": ["A book", "A pen", "A notebook"],
-          "answer": "A notebook"
-        },
-        {
-          "question": "How does the first day of school begin?",
-          "options": ["With a game", "With silence", "With noise"],
-          "answer": "With silence"
-        }
-      ]
-    },
-    "7": {
-      "quiz": [
-        {
-          "question": "What time did Marta come home?",
-          "options": ["Nine o'clock", "Eleven o'clock", "Ten o'clock"],
-          "answer": "Eleven o'clock"
-        },
-        {
-          "question": "What did Marta do before going to bed?",
-          "options": ["She ate dinner.", "She put on her pajamas.", "She watched TV."],
-          "answer": "She put on her pajamas."
-        },
-        {
-          "question": "Why did Marta wake up in the middle of the night?",
-          "options": ["She was cold.", "She was thirsty.", "She heard a loud noise."],
-          "answer": "She was thirsty."
-        },
-        {
-          "question": "What did Marta see outside the window?",
-          "options": ["A black cat", "A stray dog", "A noisy bird"],
-          "answer": "A stray dog"
-        },
-        {
-          "question": "Did Marta sleep well that night?",
-          "options": ["Yes, she slept all night.", "No, she kept waking up.", "She did not sleep at all."],
-          "answer": "No, she kept waking up."
-        }
-      ]
-    },
-    "8": {
-      "quiz": [
-        {
-          "question": "What did Juan's grandma always make for him?",
-          "options": ["Sweaters", "Shirts", "Hats"],
-          "answer": "Shirts"
-        },
-        {
-          "question": "Why did Juan not like the shirts?",
-          "options": ["They were too small.", "They were too big.", "They were ugly."],
-          "answer": "They were too big."
-        },
-        {
-          "question": "Where did Juan live?",
-          "options": ["In Bogotá", "In a big house", "In a small apartment in Medellín"],
-          "answer": "In a small apartment in Medellín"
-        },
-        {
-          "question": "What did Juan do with the shirts?",
-          "options": ["He kept them all.", "He gave them away.", "He lost them."],
-          "answer": "He gave them away."
-        },
-        {
-          "question": "What did Juan tell his grandma happened to the shirts?",
-          "options": ["They got stolen.", "He lost them.", "He gave them to his friends."],
-          "answer": "They got stolen."
-        }
-      ]
-    },
-    "9": {
-      "quiz": [
-        {
-          "question": "Where does Juan work?",
-          "options": ["In a factory", "In a small store", "In a restaurant"],
-          "answer": "In a small store"
-        },
-        {
-          "question": "What do customers always want?",
-          "options": ["Free products", "Discounts", "Better service"],
-          "answer": "Discounts"
-        },
-        {
-          "question": "What is the worst part of Juan's job?",
-          "options": ["Answering phone calls", "Cleaning the storage room", "Working at the cash register"],
-          "answer": "Cleaning the storage room"
-        },
-        {
-          "question": "What does Juan do at the cash register?",
-          "options": ["He cleans it", "He scans items", "He fixes broken machines"],
-          "answer": "He scans items"
-        },
-        {
-          "question": "What does Juan hope to do in the future?",
-          "options": ["Get a promotion", "Open his own business", "Work fewer hours"],
-          "answer": "Open his own business"
-        }
-      ]
-    },
-    "10": {
-      "quiz": [
-        {
-          "question": "Why is getting into college difficult?",
-          "options": ["Because schools are closing", "Because students need more than good grades", "Because it is expensive"],
-          "answer": "Because students need more than good grades"
-        },
-        {
-          "question": "What do students need besides good grades?",
-          "options": ["Advanced subjects", "Extracurricular activities", "New uniforms"],
-          "answer": "Extracurricular activities"
-        },
-        {
-          "question": "Who writes recommendation letters?",
-          "options": ["Parents and friends", "Teachers and principals", "Famous people"],
-          "answer": "Teachers and principals"
-        },
-        {
-          "question": "Why are essays important?",
-          "options": ["They help students get better grades", "They help colleges understand students", "They replace exams"],
-          "answer": "They help colleges understand students"
-        },
-        {
-          "question": "What happens if a student has great grades but a boring essay?",
-          "options": ["They might not get into college", "They get a scholarship", "They automatically pass"],
-          "answer": "They might not get into college"
-        }
-      ]
-    },
-    "11": {
-      "quiz": [
-        {
-          "question": "Why was Camilo excited?",
-          "options": ["Because he had a new bike", "Because he was spending Halloween with Andrés", "Because he was going to a concert"],
-          "answer": "Because he was spending Halloween with Andrés"
-        },
-        {
-          "question": "What costume did Camilo wear?",
-          "options": ["A ghost", "A pirate", "A vampire"],
-          "answer": "A vampire"
-        },
-        {
-          "question": "What did they decide to make?",
-          "options": ["Chocolate cake", "Pumpkin pie", "Gummy bars"],
-          "answer": "Pumpkin pie"
-        },
-        {
-          "question": "What did Andrés sprinkle on the pie?",
-          "options": ["Salt", "Sugar", "Chocolate"],
-          "answer": "Sugar"
-        },
-        {
-          "question": "Why didn't they go trick-or-treating?",
-          "options": ["Because it was too dangerous", "Because they didn't like candy", "Because they forgot their costumes"],
-          "answer": "Because it was too dangerous"
-        },
-        {
-          "question": "Who did they visit instead?",
-          "options": ["Their neighbor", "Their aunt", "Their teacher"],
-          "answer": "Their aunt"
-        },
-        {
-          "question": "What did Camilo's aunt give them?",
-          "options": ["Money", "Candy", "Pumpkins"],
-          "answer": "Candy"
-        },
-        {
-          "question": "Who gave them gummy bars?",
-          "options": ["A group of grown-ups", "A ghost", "Camilo's aunt"],
-          "answer": "A group of grown-ups"
-        },
-        {
-          "question": "What did they do when they got home?",
-          "options": ["They played outside", "They sat and ate their treats", "They carved pumpkins"],
-          "answer": "They sat and ate their treats"
-        
+      {
+        "question": "Where does Juan walk into?",
+        "options": ["A store", "A park", "A school"],
+        "answer": "A school"
+      },
+      {
+        "question": "What do the walls have on them?",
+        "options": ["Posters", "Graffiti", "Paintings"],
+        "answer": "Graffiti"
+      },
+      {
+        "question": "How does Juan feel when he arrives?",
+        "options": ["Happy", "Nervous", "Excited"],
+        "answer": "Nervous"
+      },
+      {
+        "question": "Who sits next to Juan?",
+        "options": ["A girl", "A boy", "The teacher"],
+        "answer": "A boy"
+      },
+      {
+        "question": "What does the teacher do first?",
+        "options": ["She writes on the board", "She closes the door", "She talks to Juan"],
+        "answer": "She closes the door"
+      }
+    ],
+    "7": [
+      {
+        "question": "What time did Marta come home?",
+        "options": ["Nine o'clock", "Eleven o'clock", "Ten o'clock"],
+        "answer": "Eleven o'clock"
+      },
+      {
+        "question": "What did Marta do before going to bed?",
+        "options": ["She ate dinner.", "She put on her pajamas.", "She watched TV."],
+        "answer": "She put on her pajamas."
+      },
+      {
+        "question": "Why did Marta wake up in the middle of the night?",
+        "options": ["She was cold.", "She was thirsty.", "She heard a loud noise."],
+        "answer": "She was thirsty."
+      },
+      {
+        "question": "What did Marta see outside the window?",
+        "options": ["A black cat", "A stray dog", "A noisy bird"],
+        "answer": "A stray dog"
+      },
+      {
+        "question": "Did Marta sleep well that night?",
+        "options": ["Yes, she slept all night.", "No, she kept waking up.", "She did not sleep at all."],
+        "answer": "No, she kept waking up."
+      }
+    ],
+    "8": [
+      {
+        "question": "What did Juan's grandma always make for him?",
+        "options": ["Sweaters", "Shirts", "Hats"],
+        "answer": "Shirts"
+      },
+      {
+        "question": "Why did Juan not like the shirts?",
+        "options": ["They were too small.", "They were too big.", "They were ugly."],
+        "answer": "They were too big."
+      },
+      {
+        "question": "Where did Juan live?",
+        "options": ["In Bogotá", "In a big house", "In a small apartment in Medellín"],
+        "answer": "In a small apartment in Medellín"
+      },
+      {
+        "question": "What did Juan do with the shirts?",
+        "options": ["He kept them all.", "He gave them away.", "He lost them."],
+        "answer": "He gave them away."
+      },
+      {
+        "question": "What did Juan tell his grandma happened to the shirts?",
+        "options": ["They got stolen.", "He lost them.", "He gave them to his friends."],
+        "answer": "They got stolen."
+      }
+    ],
+    "9": [
+      {
+        "question": "Where does Juan work?",
+        "options": ["In a factory", "In a small store", "In a restaurant"],
+        "answer": "In a small store"
+      },
+      {
+        "question": "What do customers always want?",
+        "options": ["Free products", "Discounts", "Better service"],
+        "answer": "Discounts"
+      },
+      {
+        "question": "What is the worst part of Juan's job?",
+        "options": ["Answering phone calls", "Cleaning the storage room", "Working at the cash register"],
+        "answer": "Cleaning the storage room"
+      },
+      {
+        "question": "What does Juan do at the cash register?",
+        "options": ["He cleans it", "He scans items", "He fixes broken machines"],
+        "answer": "He scans items"
+      },
+      {
+        "question": "What does Juan hope to do in the future?",
+        "options": ["Get a promotion", "Open his own business", "Work fewer hours"],
+        "answer": "Open his own business"
+      }
+    ],
+    "10": [
+      {
+        "question": "Why is getting into college difficult?",
+        "options": ["Because schools are closing", "Because students need more than good grades", "Because it is expensive"],
+        "answer": "Because students need more than good grades"
+      },
+      {
+        "question": "What do students need besides good grades?",
+        "options": ["Advanced subjects", "Extracurricular activities", "New uniforms"],
+        "answer": "Extracurricular activities"
+      },
+      {
+        "question": "Who writes recommendation letters?",
+        "options": ["Parents and friends", "Teachers and principals", "Famous people"],
+        "answer": "Teachers and principals"
+      },
+      {
+        "question": "Why are essays important?",
+        "options": ["They help students get better grades", "They help colleges understand students", "They replace exams"],
+        "answer": "They help colleges understand students"
+      },
+      {
+        "question": "What happens if a student has great grades but a boring essay?",
+        "options": ["They might not get into college", "They get a scholarship", "They automatically pass"],
+        "answer": "They might not get into college"
+      }
+    ],
+    "11": [
+      {
+        "question": "Why was Camilo excited?",
+        "options": ["Because he had a new bike", "Because he was spending Halloween with Andrés", "Because he was going to a concert"],
+        "answer": "Because he was spending Halloween with Andrés"
+      },
+      {
+        "question": "What costume did Camilo wear?",
+        "options": ["A ghost", "A pirate", "A vampire"],
+        "answer": "A vampire"
+      },
+      {
+        "question": "What did they decide to make?",
+        "options": ["Chocolate cake", "Pumpkin pie", "Gummy bars"],
+        "answer": "Pumpkin pie"
+      },
+      {
+        "question": "What did Andrés sprinkle on the pie?",
+        "options": ["Salt", "Sugar", "Chocolate"],
+        "answer": "Sugar"
+      },
+      {
+        "question": "Why didn't they go trick-or-treating?",
+        "options": ["Because it was too dangerous", "Because they didn't like candy", "Because they forgot their costumes"],
+        "answer": "Because it was too dangerous"
+      },
+      {
+        "question": "Who did they visit instead?",
+        "options": ["Their neighbor", "Their aunt", "Their teacher"],
+        "answer": "Their aunt"
+      },
+      {
+        "question": "What did Camilo's aunt give them?",
+        "options": ["Money", "Candy", "Pumpkins"],
+        "answer": "Candy"
+      },
+      {
+        "question": "Who gave them gummy bars?",
+        "options": ["A group of grown-ups", "A ghost", "Camilo's aunt"],
+        "answer": "A group of grown-ups"
+      },
+      {
+        "question": "What did they do when they got home?",
+        "options": ["They played outside", "They sat and ate their treats", "They carved pumpkins"],
+        "answer": "They sat and ate their treats"
       }
     ]
   }

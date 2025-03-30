@@ -4,7 +4,6 @@ const gradeSelect = document.getElementById('gradeSelect');
 const quizContent = document.getElementById('quizContent');
 const scoreButton = document.getElementById('scoreButton');
 const clearButton = document.getElementById('clearButton');
-const screenshotButton = document.getElementById('screenshotButton');
 const scoreFeedback = document.getElementById('scoreFeedback');
 const timestamp = document.getElementById('timestamp');
 
@@ -35,7 +34,7 @@ function restoreSelections() {
   if (savedGrade) gradeSelect.value = savedGrade;
 }
 
-// Function to reset quiz UI
+// Function to reset quiz UI (new function)
 function resetQuizUI() {
   document.querySelectorAll('input[type="radio"]').forEach(radio => (radio.checked = false));
   scoreFeedback.textContent = '';
@@ -44,52 +43,13 @@ function resetQuizUI() {
   scoreButton.style.display = "inline-block";
 }
 
-// Screenshot function
-async function takeScreenshot() {
-  try {
-    // Target the info box and its parent for better capture
-    const element = document.querySelector('.info-box');
-    
-    // Load html2canvas dynamically if not already loaded
-    if (typeof html2canvas !== 'function') {
-      await loadScript('https://html2canvas.hertzen.com/dist/html2canvas.min.js');
-    }
-
-    const canvas = await html2canvas(element, {
-      scale: 2, // Higher quality
-      logging: false,
-      useCORS: true,
-      allowTaint: true
-    });
-
-    // Create download link
-    const link = document.createElement('a');
-    link.download = `quiz-result-${new Date().toISOString().slice(0,10)}.png`;
-    link.href = canvas.toDataURL('image/png');
-    link.click();
-  } catch (error) {
-    console.error('Screenshot failed:', error);
-    alert('Failed to take screenshot. Please try again.');
-  }
-}
-
-// Helper function to load scripts dynamically
-function loadScript(src) {
-  return new Promise((resolve, reject) => {
-    const script = document.createElement('script');
-    script.src = src;
-    script.onload = resolve;
-    script.onerror = reject;
-    document.head.appendChild(script);
-  });
-}
-
 // Load quiz based on selected week and grade
 async function loadQuiz() {
   const week = weekSelect.value;
   const grade = gradeSelect.value;
 
   try {
+    // CORRECTED FILENAME - changed "_quiz.json" to "_quizzes.json"
     const quizResponse = await fetch(`data/quizzes/week${week}_quizzes.json`);
     
     if (!quizResponse.ok) {
@@ -97,6 +57,8 @@ async function loadQuiz() {
     }
     
     const fullQuizData = await quizResponse.json();
+    
+    // Get questions for the selected grade
     const gradeQuestions = fullQuizData.quizzes[grade];
     
     if (gradeQuestions && Array.isArray(gradeQuestions)) {
@@ -114,7 +76,10 @@ async function loadQuiz() {
         </div>
       `).join('');
       
-      quizData = { quiz: gradeQuestions };
+      // Store the current grade's questions for scoring
+      quizData = {
+        quiz: gradeQuestions
+      };
     } else {
       quizContent.innerHTML = "No quiz data available for this grade.";
       quizData = null;
@@ -183,17 +148,17 @@ function displayFeedback(score, allAnswered) {
   timestamp.style.display = "block";
 }
 
-// Event listeners
+// Event listeners for quiz
 weekSelect.addEventListener('change', () => {
   saveSelections();
-  resetQuizUI();
+  resetQuizUI(); // Clear score and reset UI before loading new quiz
   loadQuiz();
   loadReadingForAudio();
 });
 
 gradeSelect.addEventListener('change', () => {
   saveSelections();
-  resetQuizUI();
+  resetQuizUI(); // Clear score and reset UI before loading new quiz
   loadQuiz();
   loadReadingForAudio();
 });
@@ -206,11 +171,9 @@ scoreButton.addEventListener('click', () => {
   }
 });
 
-clearButton.addEventListener('click', resetQuizUI);
+clearButton.addEventListener('click', resetQuizUI); // Simplified using the reset function
 
-screenshotButton.addEventListener('click', takeScreenshot);
-
-// Initialize on page load
+// Restore selections and load quiz when the page loads
 document.addEventListener('DOMContentLoaded', () => {
   restoreSelections();
   loadQuiz();
