@@ -323,22 +323,6 @@ This
   background: #0d5bba;
 }
 
-/* Smart positioning classes - applied by JavaScript 20250331*/
-.vocab-tooltip.position-above {
-  bottom: auto;
-  top: var(--tooltip-y);
-  transform: translateX(-50%) translateY(-100%);
-}
-
-.vocab-tooltip.position-below {
-  top: var(--tooltip-y);
-  transform: translateX(-50%);
-}
-
-
-
-
-
 /* Responsive adjustments */
 @media (max-width: 768px) {
   #vocabularyContent {
