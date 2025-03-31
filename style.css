@@ -292,6 +292,7 @@ This
   z-index: 1000;
   max-width: 250px;
   animation: fadeIn 0.2s ease-out;
+  
 }
 
 @keyframes fadeIn {
@@ -339,6 +340,8 @@ This
   background: #0d5bba;
   transform: scale(1.1);
 }
+
+
 
 
 
