@@ -273,6 +273,14 @@ This
   border-bottom: 1px dashed #000;
 }
 
+/* Text Highlighting */
+.current-highlight {
+  background-color: #ffeb3b;
+  padding: 2px 4px;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
@@ -336,14 +344,6 @@ This
   flex-shrink: 0;         /* Stops Chrome from shrinking buttons */
 }
 
-
-/* Text Highlighting */
-.current-highlight {
-  background-color: #ffeb3b;
-  padding: 2px 4px;
-  border-radius: 3px;
-  transition: background-color 0.3s ease;
-}
 
 /* Tooltip Styles */
 /* Add this to your existing style.css - Tooltip Fix Only */
