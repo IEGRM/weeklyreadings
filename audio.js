@@ -132,11 +132,34 @@ function highlightCurrentText() {
   }
 }
 
+// Add this to your existing showTooltip function
 function showTooltip(event) {
   event.stopPropagation();
   
+  // Remove any existing tooltips
+  const existingTooltip = document.querySelector('.vocab-tooltip.visible');
+  if (existingTooltip) existingTooltip.remove();
+  
+  // Create tooltip
   const tooltip = document.createElement('div');
   tooltip.className = 'vocab-tooltip';
+  document.body.appendChild(tooltip);
+  
+  // Position tooltip
+  const wordRect = event.target.getBoundingClientRect();
+  const scrollY = window.scrollY || window.pageYOffset;
+  
+  // Set CSS variables for positioning
+  tooltip.style.setProperty('--tooltip-x', `${wordRect.left + wordRect.width/2}px`);
+  tooltip.style.setProperty('--tooltip-y', `${wordRect.bottom + scrollY + 5}px`);
+  
+  // Smart positioning
+  if (wordRect.bottom > window.innerHeight - 150) {
+    tooltip.classList.add('position-above');
+  } else {
+    tooltip.classList.add('position-below');
+  }
+  
   tooltip.innerHTML = `
     <div class="tooltip-content">
       ${event.target.getAttribute('data-definition')}
@@ -144,19 +167,14 @@ function showTooltip(event) {
     <button class="close-tooltip">×</button>
   `;
   
-  // Position tooltip near clicked word
-  const rect = event.target.getBoundingClientRect();
-  tooltip.style.left = `${rect.left + window.scrollX}px`;
-  tooltip.style.top = `${rect.bottom + window.scrollY + 5}px`;
+  // Show tooltip
+  setTimeout(() => tooltip.classList.add('visible'), 10);
   
-  document.body.appendChild(tooltip);
-  
-  // Close tooltip when clicking the X
+  // Close handlers (keep your existing implementation)
   tooltip.querySelector('.close-tooltip').addEventListener('click', () => {
     tooltip.remove();
   });
   
-  // Close tooltip when clicking outside
   document.addEventListener('click', function closeTooltip(e) {
     if (!tooltip.contains(e.target)) {
       tooltip.remove();
