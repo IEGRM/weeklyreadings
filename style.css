@@ -46,7 +46,7 @@ html, body {
   border-radius: 5px;
   margin-top: 12px;
   line-height: 1.5;
-  font-size: 20px; /* Add this line */
+  font-size: 20px; /* this is the size for the text */
 }
 
 /* Media Sections */
@@ -348,7 +348,7 @@ This
 /* Tooltip Styles */
 /* Add this to your existing style.css - Tooltip Fix Only */
 .vocab-tooltip {
-  position: fixed;
+  position: absolute;
   background: white;
   border: 2px solid #1a73e8;
   border-radius: 8px;
@@ -361,7 +361,7 @@ This
   /* New positioning approach */
   left: var(--tooltip-x, 0);
   top: var(--tooltip-y, 0);
-  transform: none;
+  transform: translateZ(0); /* Fixes flickering/disappearing */
   margin: 0;
   visibility: hidden;
   opacity: 0;
