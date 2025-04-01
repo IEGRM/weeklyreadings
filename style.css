@@ -391,7 +391,7 @@ This
 
 /* Close button (keep your existing styles) */
 .close-tooltip {
-  position: absolute;
+  position: absolute; /* este hp estaba "fixed" and now it works */
   top: -12px;
   right: -12px;
   background: #1a73e8;
