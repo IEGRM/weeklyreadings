@@ -44,7 +44,7 @@ async function loadReading(week, grade) {
   // Set up audio and image
   audioSource.src = `assets/audios/week${week}_audio_grade${grade}.mp3`;
   audioPlayer.load();
-  document.getElementById('imageDisplay').src = `assets/images/week${week}_image_grade${grade}.jpg`;
+  imageFrame.src = `assets/images/week${week}_image_grade${grade}.jpg`;
 }
 
 async function loadVocabulary(week, grade) {
