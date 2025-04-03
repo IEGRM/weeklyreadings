@@ -49,49 +49,27 @@ html, body {
   font-size: 20px; /* this is the size for the text */
 }
 
-/* Picture or image Sections */
-#imageSection {  
+/* Media Sections */
+#imageSection {
   margin: 16px 0;
   display: flex;
   justify-content: center;
-  background-color: white;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  max-width: 100%;
-  /* Remove any fixed height constraints */
-  min-height: 250px; /* Minimum height to match your original */
-  height: auto; /* Let it grow with content */  
+  background-color: white; /* Add white background */
+  padding: 10px; /* Add some padding */
+  border-radius: 5px; /* Match other elements' rounded corners */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1); /* Optional: subtle shadow */
 }
 
-#imageFrame {  
+#imageFrame {
   width: 100%;
-  max-height: 800px; /* New maximum height */
-  height: auto; /* Let it adjust based on content */
+  max-width: 250px;
+  height: 250px;
   border: none;
-  background-color: white;
+  background-color: white; /* Change from #f0f0f0 to white */
   border-radius: 5px;
   object-fit: contain; /* Ensures image fits properly */
-  aspect-ratio: auto; /* Maintain original aspect ratio */
-  min-height: 250px; /* Keep your original minimum size */ 
-  /* Ensure the iframe can scale properly */
-  display: block; /* Change from default inline */  
+  margin: 0 auto; /* Center horizontally */
 }
-
-/* Add this to handle iframe contents */
-#imageFrame img {
-  max-width: 100%;
-  max-height: 800px;
-  width: auto;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-
-
-
-
 
 /* Audio Player */
 #audioPlayer {
