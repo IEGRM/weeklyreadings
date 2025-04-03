@@ -8,15 +8,21 @@ const screenshotButton = document.getElementById('screenshotButton');
 const scoreFeedback = document.getElementById('scoreFeedback');
 const timestamp = document.getElementById('timestamp');
 
+
+// Change this to current week. No me puedo olvidadar!
+const totalWeeks = 5; 
+// *******************************************
+
+
 // Global variable to store quiz data
 let quizData = null;
 
 // Populate week dropdown
-for (let week = 1; week <= 5; week++) {
+for (let week = 1; week <= totalWeeks; week++) {
   const option = document.createElement('option');
   option.value = week;
   option.textContent = `Week ${week}`;
-  if (week === 5) option.selected = true;
+  if (week === totalWeeks) option.selected = true; // Auto-select last week
   weekSelect.appendChild(option);
 }
 
