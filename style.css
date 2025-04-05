@@ -484,7 +484,7 @@ This
   padding: 4px 10px;
   margin: 0;
   font-size: 14px;
-  background: #a0d2eb;
+  background: #a0ebdf;
   border-radius: 12px;
   cursor: grab;
   display: inline-flex;
@@ -604,27 +604,47 @@ This
 .draggable-words {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
-  margin: 10px 0;
-  padding: 6px;
+  gap: 4px;              /* Reduced from 6px */
+  margin: 8px 0;         /* Slightly reduced margins */
+  padding: 4px 6px;      /* Tighter padding */
   background: #f5f9fa;
-  border-radius: 12px;
-  min-height: 40px;
+  border-radius: 8px;    /* Slightly smaller radius */
+  min-height: 32px;      /* Reduced from 40px */
+  align-items: center;   /* New: Vertically center items */
 }
 
+/* Updated Draggable Items */
 .draggable {
-  padding: 4px 6px;
-  margin: 2px;
+  padding: 2px 8px;      /* Less vertical padding */
+  margin: 0;             /* Remove individual margins */
   background: #a0d2eb;
   border-radius: 4px;
   cursor: grab;
-  display: inline-block;
+  display: inline-flex;  /* Changed from inline-block */
+  align-items: center;   /* Better vertical alignment */
   user-select: none;
-  color: #000;  
-  touch-action: none; /* Disables browser touch gestures on this element due to scrolling problem */
-  -webkit-user-select: none; /* Prevent text selection */
-  user-select: none;  
+  touch-action: none;
+  font-size: 14px;       /* Explicit font size */
+  line-height: 1.2;      /* Tighter line spacing */
+  height: 24px;          /* Fixed height */
+  box-sizing: border-box; /* Include padding in height */
 }
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .draggable-words {
+    gap: 3px;
+    padding: 3px;
+    min-height: 28px;
+  }
+  
+  .draggable {
+    padding: 1px 6px;
+    height: 22px;
+    font-size: 13px;
+  }
+}
+
 
 .draggable:hover {
   background: #8bc5e0;
