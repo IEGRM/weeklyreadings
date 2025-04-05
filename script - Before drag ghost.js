@@ -14,7 +14,6 @@ const defaultGradelevel = 6;
 
 // Global variable to store quiz data
 let quizData = null;
-let dragGhost = null;
 
 // Populate week dropdown
 for (let week = 1; week <= totalWeeks; week++) {
@@ -277,8 +276,8 @@ async function initReadingGame() {
 
     const gameHTML = `
       <div class="reading-game">
-        <div id="scoreDisplay" style="font-weight: bold; text-align: center; color: darkblue;">Score: 0%</div>		
-        <hr class="score-divider"> 
+<div id="scoreDisplay" style="font-weight: bold; text-align: center; color: darkblue;">Score: 0%</div>		
+		<hr class="score-divider"> 
         <div class="reading-text">${fullText}</div>
         <div class="draggable-words">
           ${shuffledWords.map(word => `
@@ -322,19 +321,6 @@ async function initReadingGame() {
   }
 }
 
-function positionGhost(e) {
-  if (!dragGhost) return;
-  dragGhost.style.left = `${e.clientX}px`;
-  dragGhost.style.top = `${e.clientY}px`;
-}
-
-function positionTouchGhost(e) {
-  if (!dragGhost) return;
-  const touch = e.touches[0];
-  dragGhost.style.left = `${touch.clientX}px`;
-  dragGhost.style.top = `${touch.clientY}px`;
-}
-
 function setupDragAndDrop() {
   const body = document.body;
   const draggableWords = document.querySelector('.draggable-words');
@@ -351,13 +337,6 @@ function setupDragAndDrop() {
       activeTouchElement = target;
       touchStartY = e.touches[0].clientY;
       isDragging = false;
-      
-      // Create ghost for touch
-      dragGhost = target.cloneNode(true);
-      dragGhost.classList.add('drag-ghost');
-      dragGhost.style.width = `${target.offsetWidth}px`;
-      document.body.appendChild(dragGhost);
-      
       e.preventDefault();
     }
   }, { passive: false });
@@ -370,13 +349,11 @@ function setupDragAndDrop() {
         isDragging = true;
         body.classList.add('no-scroll');
         activeTouchElement.classList.add('dragging');
-        document.documentElement.style.overflow = 'hidden';
-        document.addEventListener('touchmove', positionTouchGhost);
+        document.documentElement.style.overflow = 'hidden'; // Prevent page scroll
       }
     }
 
     if (isDragging) {
-      positionTouchGhost(e);
       e.preventDefault();
     }
   }, { passive: false });
@@ -420,11 +397,6 @@ function setupDragAndDrop() {
     // Clean up
     body.classList.remove('no-scroll');
     document.documentElement.style.overflow = '';
-    if (dragGhost) {
-      document.removeEventListener('touchmove', positionTouchGhost);
-      dragGhost.remove();
-      dragGhost = null;
-    }
     if (activeTouchElement) {
       activeTouchElement.classList.remove('dragging');
       activeTouchElement = null;
@@ -436,25 +408,8 @@ function setupDragAndDrop() {
   document.addEventListener('dragstart', (e) => {
     if (e.target.classList.contains('draggable') || e.target.classList.contains('dropped-word')) {
       body.classList.add('no-scroll');
-      
-      // Create ghost element
-      dragGhost = e.target.cloneNode(true);
-      dragGhost.classList.add('drag-ghost');
-      dragGhost.style.width = `${e.target.offsetWidth}px`;
-      document.body.appendChild(dragGhost);
-      
-      // Position it at the cursor
-      document.addEventListener('dragover', positionGhost);
       e.dataTransfer.setData('text/plain', e.target.dataset.word);
       e.target.classList.add('dragging');
-    }
-  });
-
-  document.addEventListener('dragover', (e) => {
-    positionGhost(e);
-    if (e.target.classList.contains('drop-zone')) {
-      e.preventDefault();
-      e.target.classList.add('hovered');
     }
   });
 
@@ -463,16 +418,16 @@ function setupDragAndDrop() {
     document.querySelectorAll('.dragging').forEach(el => {
       el.classList.remove('dragging');
     });
-    
-    // Remove ghost
-    if (dragGhost) {
-      document.removeEventListener('dragover', positionGhost);
-      dragGhost.remove();
-      dragGhost = null;
-    }
   });
 
   // ===== SHARED DROP ZONE HANDLING =====
+  document.addEventListener('dragover', (e) => {
+    if (e.target.classList.contains('drop-zone')) {
+      e.preventDefault();
+      e.target.classList.add('hovered');
+    }
+  });
+
   document.addEventListener('dragleave', (e) => {
     if (e.target.classList.contains('drop-zone')) {
       e.target.classList.remove('hovered');

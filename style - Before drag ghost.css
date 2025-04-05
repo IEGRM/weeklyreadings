@@ -601,7 +601,6 @@ This
   border-radius: 8px;    /* Slightly smaller radius */
   min-height: 32px;      /* Reduced from 40px */
   align-items: center;   /* New: Vertically center items */
-  transition: transform 0.2s ease, opacity 0.2s ease; /* New: ghost trailing items */
 }
 
 
@@ -653,12 +652,6 @@ body.dragging {
   height: 100%;
 }
 
-.dragging {
-  opacity: 0.4;
-  transform: scale(0.9);
-  transition: opacity 0.2s ease, transform 0.2s ease;
-}
-
 
 .dropped-word {
   padding: 4px 10px;
@@ -699,24 +692,4 @@ body.dragging {
   height: 2px;
   background-color: darkblue;
   margin: 12px 0;
-}
-
-/* showing like trailing tail for ss to know he is doing it. */
-.drag-ghost {
-  position: fixed;
-  pointer-events: none;
-  z-index: 9999;
-  opacity: 0.8;
-  transform: translate(-50%, -50%);
-  padding: 4px 8px;
-  background: #a0d2eb;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  transition: transform 0.1s ease;
-  animation: float 1s ease-in-out infinite alternate;
-}
-
-@keyframes float {
-  from { transform: translate(-50%, -50%) rotate(-2deg); }
-  to { transform: translate(-50%, -50%) rotate(2deg); }
 }
