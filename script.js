@@ -277,6 +277,7 @@ async function initReadingGame() {
     const gameHTML = `
       <div class="reading-game">
         <div id="scoreDisplay">Score: 0%</div>
+		<hr class="score-divider"> 
         <div class="reading-text">${fullText}</div>
         <div class="draggable-words">
           ${shuffledWords.map(word => `

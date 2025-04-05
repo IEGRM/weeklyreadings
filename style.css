@@ -659,11 +659,6 @@ body.dragging {
 }
 
 
-
-
-
-
-
 .dropped-word {
   padding: 4px 10px;
   background: #e0f7fa;
@@ -677,4 +672,18 @@ body.dragging {
 .drop-zone.filled {
   border-bottom: none;
   color: inherit;
+}
+
+#scoreDisplay {
+	font-family: Arial, sans-serif; /* Ensures bold is available */
+    font-weight: bold;
+    color: darkblue;
+	text-align: center
+}
+
+.score-divider {
+  border: 0;
+  height: 2px;
+  background-color: darkblue;
+  margin: 12px 0;
 }
