@@ -245,6 +245,9 @@ async function initReadingGame() {
   const grade = gradeSelect.value;
   
   try {
+    // Hide the practice button when game starts
+    document.getElementById('readingGameButton').style.display = 'none';
+    
     const response = await fetch(`data/readings/week${week}_reading.json`);
     const data = await response.json();
     const readingData = data.readings[grade].text;
@@ -302,35 +305,33 @@ async function initReadingGame() {
 
     setupDragAndDrop();
 
+    // Close button event listener
+    document.getElementById('closeGame').addEventListener('click', () => {
+      container.style.display = 'none';
+      // Show the practice button again
+      document.getElementById('readingGameButton').style.display = 'block';
+    });
+
   } catch (error) {
     console.error("Error loading reading game:", error);
     alert("Failed to load the reading game. Please try again.");
+    // Show button again if error occurs
+    document.getElementById('readingGameButton').style.display = 'block';
   }
 }
-
-
-
 
 function setupDragAndDrop() {
   const draggableWords = document.querySelector('.draggable-words');
   
   // Make original words draggable
-  draggableWords.addEventListener('dragstart', (e) => {
-    if (e.target.classList.contains('draggable')) {
-      e.dataTransfer.setData('text/plain', e.target.dataset.word);
-      e.target.classList.add('dragging');
-    }
-  });
-
-  // Make dropped words draggable
   document.addEventListener('dragstart', (e) => {
-    if (e.target.classList.contains('dropped-word')) {
+    if (e.target.classList.contains('draggable') || e.target.classList.contains('dropped-word')) {
       e.dataTransfer.setData('text/plain', e.target.dataset.word);
       e.target.classList.add('dragging');
     }
   });
 
-  // Handle drop zones
+  // Drop zone events
   document.addEventListener('dragover', (e) => {
     if (e.target.classList.contains('drop-zone')) {
       e.preventDefault();
@@ -347,8 +348,6 @@ function setupDragAndDrop() {
   document.addEventListener('drop', (e) => {
     if (e.target.classList.contains('drop-zone')) {
       e.preventDefault();
-      e.target.classList.remove('hovered');
-      
       const word = e.dataTransfer.getData('text/plain');
       const draggedElement = document.querySelector(`.dragging[data-word="${word}"]`);
       
@@ -379,18 +378,9 @@ function setupDragAndDrop() {
       
       e.target.appendChild(wordClone);
       e.target.dataset.filled = word;
+      e.target.classList.remove('hovered');
     }
   });
-
-  // Helper function to return words to word bank
-  function returnToWordBank(word) {
-    const newDraggable = document.createElement('div');
-    newDraggable.textContent = word;
-    newDraggable.classList.add('draggable');
-    newDraggable.dataset.word = word;
-    newDraggable.draggable = true;
-    draggableWords.appendChild(newDraggable);
-  }
 
   // Check answers button
   document.getElementById('checkAnswers').addEventListener('click', () => {
@@ -399,11 +389,11 @@ function setupDragAndDrop() {
     
     dropZones.forEach(zone => {
       const filledWord = zone.querySelector('.dropped-word');
-      const isCorrect = filledWord && filledWord.textContent === zone.dataset.expected;
+      const isCorrect = filledWord && filledWord.dataset.word === zone.dataset.expected;
       
+      zone.style.backgroundColor = isCorrect ? '#d4edda' : '#f8d7da';
       if (filledWord) {
         filledWord.style.color = isCorrect ? 'darkgreen' : 'darkred';
-        filledWord.style.backgroundColor = isCorrect ? '#d4edda' : '#f8d7da';
       }
       if (isCorrect) correct++;
     });
@@ -415,15 +405,15 @@ function setupDragAndDrop() {
     scoreDisplay.style.color = score === 100 ? 'darkgreen' : 'darkred';
   });
 
-  // Close game button
-  document.getElementById('closeGame').addEventListener('click', () => {
-    document.getElementById('readingGameContainer').style.display = 'none';
-  });
+  function returnToWordBank(word) {
+    const newDraggable = document.createElement('div');
+    newDraggable.textContent = word;
+    newDraggable.classList.add('draggable');
+    newDraggable.dataset.word = word;
+    newDraggable.draggable = true;
+    draggableWords.appendChild(newDraggable);
+  }
 }
-
-
-
-
 
 // Start the game when button is clicked
 document.getElementById('readingGameButton').addEventListener('click', initReadingGame);
