@@ -8,9 +8,12 @@ const screenshotButton = document.getElementById('screenshotButton');
 const scoreFeedback = document.getElementById('scoreFeedback');
 const timestamp = document.getElementById('timestamp');
 
-// Change this to current week
+
+// Change this to current week. No me puedo olvidadar!
 const totalWeeks = 5;
 const defaultGradelevel = 6;
+// *******************************************
+
 
 // Global variable to store quiz data
 let quizData = null;
@@ -20,7 +23,7 @@ for (let week = 1; week <= totalWeeks; week++) {
   const option = document.createElement('option');
   option.value = week;
   option.textContent = `Week ${week}`;
-  if (week === totalWeeks) option.selected = true;
+  if (week === totalWeeks) option.selected = true; // Auto-select last week
   weekSelect.appendChild(option);
 }
 
@@ -32,9 +35,10 @@ function saveSelections() {
 
 // Restore selected week and grade from localStorage
 function restoreSelections() {
-  weekSelect.value = totalWeeks;
-  gradeSelect.value = defaultGradelevel;
-  saveSelections();
+  // Unconditionally reset to defaults (override localStorage)
+  weekSelect.value = totalWeeks;    // Week 5
+  gradeSelect.value = defaultGradelevel;   // Grade 6
+  saveSelections();          // Sync defaults to localStorage
 }
 
 // Function to reset quiz UI
@@ -60,38 +64,49 @@ function loadScript(src) {
 // Enhanced screenshot function for mobile/desktop
 async function takeScreenshot() {
   try {
+    // Show loading state
     screenshotButton.disabled = true;
     screenshotButton.textContent = "Capturing...";
     
     const element = document.querySelector('.info-box');
     const originalScroll = window.scrollY;
+    
+    // Scroll to top for full capture
     window.scrollTo(0, 0);
     
+    // Load html2canvas if needed
     if (typeof html2canvas !== 'function') {
       await loadScript('https://html2canvas.hertzen.com/dist/html2canvas.min.js');
     }
 
+    // Wait for rendering
     await new Promise(resolve => setTimeout(resolve, 300));
 
     const canvas = await html2canvas(element, {
-      scale: window.innerWidth < 768 ? 3 : 2,
+      scale: window.innerWidth < 768 ? 3 : 2, // Higher DPI on mobile
       scrollX: -window.scrollX,
       scrollY: -window.scrollY,
       useCORS: true,
       logging: false
     });
 
+    // Restore scroll position
     window.scrollTo(0, originalScroll);
+
+    // Handle download/display
     const dataURL = canvas.toDataURL('image/png');
     const fileName = `quiz-result-${new Date().toISOString().slice(0,10)}.png`;
 
+    // iOS workaround
     if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
       const newWindow = window.open();
       newWindow.document.write(`
         <img src="${dataURL}" style="max-width:100%" />
         <p>Press and hold to save image</p>
       `);
-    } else {
+    } 
+    // Android/Desktop download
+    else {
       const link = document.createElement('a');
       link.download = fileName;
       link.href = dataURL;
@@ -198,6 +213,7 @@ function displayFeedback(score, allAnswered) {
   const feedback = feedbackMap[score] || "Please answer all questions to get your score.";
   scoreFeedback.textContent = `Score: ${score}/5 - ${feedback}`;
 
+  // Show timestamp
   const now = new Date();
   const dateOptions = { year: 'numeric', month: 'short', day: 'numeric' };
   const timeOptions = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true };
@@ -231,6 +247,7 @@ scoreButton.addEventListener('click', () => {
 });
 
 clearButton.addEventListener('click', resetQuizUI);
+
 screenshotButton.addEventListener('click', takeScreenshot);
 
 // Initialize on page load
@@ -239,27 +256,36 @@ document.addEventListener('DOMContentLoaded', () => {
   loadQuiz();
 });
 
-// Reading Game Implementation
+
+
+
+//<<<<<<<<<<  This is my game for vocabulary building activity.>>>>>>>>>
+
 async function initReadingGame() {
   const week = weekSelect.value;
   const grade = gradeSelect.value;
   
   try {
+    // Fetch reading data
     const response = await fetch(`data/readings/week${week}_reading.json`);
     const data = await response.json();
     const readingData = data.readings[grade].text;
 
+    // Process the reading text (skip first line/title)
     let fullText = '';
     const boldedWords = [];
     
+    // Start from index 1 to skip the title
     for (let i = 1; i < readingData.length; i++) {
       let content = readingData[i].content;
       
+      // Extract and store bolded words
       content = content.replace(/<b>(.*?)<\/b>/g, (match, word) => {
         boldedWords.push(word);
-        return `_____`;
+        return `_____`; // Replace with gap
       });
       
+      // Remove other HTML tags
       content = content.replace(/<br>/g, ' ')
                        .replace(/<\/?[^>]+>/g, '')
                        .replace(/\s+/g, ' ');
@@ -267,10 +293,16 @@ async function initReadingGame() {
       fullText += content + ' ';
     }
 
+    // Clean up extra spaces
     fullText = fullText.trim();
+
+    // Remove duplicate words
     const uniqueWords = [...new Set(boldedWords)];
+    
+    // Shuffle words for drag-and-drop
     const shuffledWords = [...uniqueWords].sort(() => Math.random() - 0.5);
 
+    // Generate game HTML
     const gameHTML = `
       <div class="reading-game">
         <div id="scoreDisplay">Score: 0%</div>
@@ -289,11 +321,13 @@ async function initReadingGame() {
     container.innerHTML = gameHTML;
     container.style.display = 'block';
 
+    // Convert gaps to drop zones
     const textElement = container.querySelector('.reading-text');
     textElement.innerHTML = textElement.textContent.replace(/_____/g, 
       '<span class="drop-zone" data-expected=""></span>'
     );
 
+    // Match drop zones with expected words
     const dropZones = container.querySelectorAll('.drop-zone');
     let wordIndex = 0;
     dropZones.forEach(zone => {
@@ -310,117 +344,74 @@ async function initReadingGame() {
 
 
 
-
 function setupDragAndDrop() {
-  const draggableWords = document.querySelector('.draggable-words');
-  
-  // Make original words draggable
-  draggableWords.addEventListener('dragstart', (e) => {
-    if (e.target.classList.contains('draggable')) {
-      e.dataTransfer.setData('text/plain', e.target.dataset.word);
-      e.target.classList.add('dragging');
-    }
+  const draggables = document.querySelectorAll('.draggable');
+  const dropZones = document.querySelectorAll('.drop-zone');
+
+  // Drag events
+  draggables.forEach(draggable => {
+    draggable.addEventListener('dragstart', (e) => {
+      e.dataTransfer.setData('text/plain', draggable.dataset.word);
+      draggable.classList.add('dragging');
+    });
   });
 
-  // Make dropped words draggable
-  document.addEventListener('dragstart', (e) => {
-    if (e.target.classList.contains('dropped-word')) {
-      e.dataTransfer.setData('text/plain', e.target.dataset.word);
-      e.target.classList.add('dragging');
-    }
-  });
-
-  // Handle drop zones
-  document.addEventListener('dragover', (e) => {
-    if (e.target.classList.contains('drop-zone')) {
+  // Drop zone events
+  dropZones.forEach(zone => {
+    zone.addEventListener('dragover', e => {
       e.preventDefault();
-      e.target.classList.add('hovered');
-    }
-  });
+      zone.classList.add('hovered');
+    });
 
-  document.addEventListener('dragleave', (e) => {
-    if (e.target.classList.contains('drop-zone')) {
-      e.target.classList.remove('hovered');
-    }
-  });
+    zone.addEventListener('dragleave', () => {
+      zone.classList.remove('hovered');
+    });
 
-  document.addEventListener('drop', (e) => {
-    if (e.target.classList.contains('drop-zone')) {
+    zone.addEventListener('drop', e => {
       e.preventDefault();
-      e.target.classList.remove('hovered');
-      
       const word = e.dataTransfer.getData('text/plain');
-      const draggedElement = document.querySelector(`.dragging[data-word="${word}"]`);
+      const draggable = document.querySelector(`.draggable[data-word="${word}"]`);
       
-      // Remove from previous location
-      if (draggedElement) {
-        const sourceZone = draggedElement.closest('.drop-zone');
-        if (sourceZone) {
-          sourceZone.innerHTML = '';
-          sourceZone.dataset.filled = '';
-        } else {
-          draggedElement.remove();
-        }
+      if (!zone.querySelector('.dropped-word')) {
+        zone.innerHTML = '';
+        const wordClone = draggable.cloneNode(true);
+        wordClone.classList.remove('dragging');
+        wordClone.classList.add('dropped-word');
+        wordClone.draggable = false;
+        zone.appendChild(wordClone);
+        zone.dataset.filled = word;
       }
-
-      // Remove existing word in target zone if any
-      if (e.target.querySelector('.dropped-word')) {
-        const existingWord = e.target.querySelector('.dropped-word');
-        returnToWordBank(existingWord.dataset.word);
-        e.target.innerHTML = '';
-      }
-
-      // Create new dropped word
-      const wordClone = document.createElement('div');
-      wordClone.textContent = word;
-      wordClone.classList.add('dropped-word');
-      wordClone.dataset.word = word;
-      wordClone.draggable = true;
       
-      e.target.appendChild(wordClone);
-      e.target.dataset.filled = word;
-    }
+      zone.classList.remove('hovered');
+    });
   });
 
-  // Helper function to return words to word bank
-  function returnToWordBank(word) {
-    const newDraggable = document.createElement('div');
-    newDraggable.textContent = word;
-    newDraggable.classList.add('draggable');
-    newDraggable.dataset.word = word;
-    newDraggable.draggable = true;
-    draggableWords.appendChild(newDraggable);
-  }
-
-  // Check answers button
+  // Rest of the function remains the same...
   document.getElementById('checkAnswers').addEventListener('click', () => {
     const dropZones = document.querySelectorAll('.drop-zone');
     let correct = 0;
     
     dropZones.forEach(zone => {
-      const filledWord = zone.querySelector('.dropped-word');
-      const isCorrect = filledWord && filledWord.textContent === zone.dataset.expected;
-      
-      if (filledWord) {
-        filledWord.style.color = isCorrect ? 'darkgreen' : 'darkred';
-        filledWord.style.backgroundColor = isCorrect ? '#d4edda' : '#f8d7da';
-      }
+      const isCorrect = zone.dataset.filled === zone.dataset.expected;
+      zone.style.backgroundColor = isCorrect ? '#d4edda' : '#f8d7da';
       if (isCorrect) correct++;
     });
 
     const totalWords = dropZones.length;
     const score = Math.round((correct / totalWords) * 100);
     const scoreDisplay = document.getElementById('scoreDisplay');
-    scoreDisplay.textContent = `Score: ${score}%`;
+    scoreDisplay.innerHTML = `Score: ${score}%`;
     scoreDisplay.style.color = score === 100 ? 'darkgreen' : 'darkred';
+
+    if (score < 100) {
+      scoreDisplay.innerHTML += `<br><small>Some answers are incorrect. Try again!</small>`;
+    }
   });
 
-  // Close game button
   document.getElementById('closeGame').addEventListener('click', () => {
     document.getElementById('readingGameContainer').style.display = 'none';
   });
 }
-
 
 
 

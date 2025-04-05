@@ -10,7 +10,8 @@ const timestamp = document.getElementById('timestamp');
 
 
 // Change this to current week. No me puedo olvidadar!
-const totalWeeks = 5; 
+const totalWeeks = 5;
+const defaultGradelevel = 6;
 // *******************************************
 
 
@@ -34,11 +35,10 @@ function saveSelections() {
 
 // Restore selected week and grade from localStorage
 function restoreSelections() {
-  const savedWeek = localStorage.getItem('selectedWeek');
-  const savedGrade = localStorage.getItem('selectedGrade');
-
-  if (savedWeek) weekSelect.value = savedWeek;
-  if (savedGrade) gradeSelect.value = savedGrade;
+  // Unconditionally reset to defaults (override localStorage)
+  weekSelect.value = totalWeeks;    // Week 5
+  gradeSelect.value = defaultGradelevel;   // Grade 6
+  saveSelections();          // Sync defaults to localStorage
 }
 
 // Function to reset quiz UI
