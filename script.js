@@ -276,7 +276,7 @@ async function initReadingGame() {
 
     const gameHTML = `
       <div class="reading-game">
-        <div id="scoreDisplay">Score: 0%</div>
+<div id="scoreDisplay" style="font-weight: bold; text-align: center; color: darkblue;">Score: 0%</div>		
 		<hr class="score-divider"> 
         <div class="reading-text">${fullText}</div>
         <div class="draggable-words">
@@ -486,7 +486,7 @@ function setupDragAndDrop() {
       const filledWord = zone.querySelector('.dropped-word');
       const isCorrect = filledWord && filledWord.dataset.word === zone.dataset.expected;
       
-      zone.style.backgroundColor = isCorrect ? '#d4edda' : '#f8d7da';
+      zone.style.backgroundColor = isCorrect ? '#d4edda' : '#ffa6a6';
       if (filledWord) {
         filledWord.style.color = isCorrect ? 'darkgreen' : 'darkred';
       }

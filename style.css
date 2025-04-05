@@ -503,7 +503,10 @@ This
   border-bottom: 2px dashed #3498db;
   margin: 0 2px;
   position: relative;
-  color: inherit;
+  color: inherit;  
+  min-height: 22px;         /* Slightly larger than content */
+  height: auto;             /* Flexible height */
+  padding: 1px 0;           /* Minimal padding */  
 }
 
 .drop-zone.filled {
@@ -531,8 +534,8 @@ This
 
 /* Updated Drag-and-Drop Game Styles */
 .draggable {
-  padding: 4px 8px;       /* Smaller padding */
-  margin: 2px;            /* Reduced margin */
+  padding: 2px 8px;       /* Smaller padding */
+  margin: 0px;            /* Reduced margin */
   font-size: 14px;        /* Smaller font */
   background: #a0d2eb;
   border-radius: 12px;    /* Slightly less rounded */
@@ -541,6 +544,14 @@ This
   align-items: center;
   min-width: 0;          /* Allow natural width */
   box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  white-space: nowrap; 		/* Make sure text doesn't wrap 
+  display: inline-flex;  /* Changed from inline-block */
+  align-items: center;   /* Better vertical alignment */
+  user-select: none;
+  touch-action: none;
+  line-height: 1.2;      /* Tighter line spacing */
+  height: 24px;          /* Fixed height */
+  box-sizing: border-box; /* Include padding in height */  
 }
 
 .draggable-words {
@@ -549,7 +560,6 @@ This
   margin: 10px 0;
 }
 
-/* Updated Drop Zone Styles */
 /* Updated Drop Zone Styles */
 .drop-zone {
   min-width: 60px;
@@ -565,39 +575,19 @@ This
   border-bottom: none;
 }
 
-.dropped-word {
-  padding: 2px 6px;
+.dropped-word { 
+  padding: 1px 6px;         /* Smaller padding */
+  font-size: 16px;          /* Slightly smaller text */
+  height: 20px;             /* Reduced height */
+  line-height: 1.1;         /* Tighter line spacing */
+  min-width: 40px;          /* Minimum width */
+  align-items: center;
+  justify-content: center;
   background: #e0f7fa;
-  border-radius: 12px;
-  font-size: 14px;
-  display: inline-block;
-  cursor: pointer;
-  margin: -1px 0;
-  transition: all 0.2s;
-  
-  color: #000 !important; /* Force black text or any contrasting color */
-  background-color: #e0f7fa;
-  padding: 2px 6px;
-  border-radius: 12px;
-  display: inline-block;
+  border-radius: 12px;       /* Smaller radius */
+  margin: 0 1px;            /* Minimal margin */
+  white-space: nowrap; 		/* Make sure text doesn't wrap 
 }
-
-.dropped-word:hover {
-  background: #b2ebf2;
-  box-shadow: 0 0 0 1px #3498db;
-}
-
-
-.drop-zone.hovered {
-  background-color: #f0f8ff;
-}
-
-.drop-zone.filled {
-  border-bottom: none;
-}
-
-
-
 
 
 /* Word Bank Styles */
@@ -613,22 +603,6 @@ This
   align-items: center;   /* New: Vertically center items */
 }
 
-/* Updated Draggable Items */
-.draggable {
-  padding: 2px 8px;      /* Less vertical padding */
-  margin: 0;             /* Remove individual margins */
-  background: #a0d2eb;
-  border-radius: 4px;
-  cursor: grab;
-  display: inline-flex;  /* Changed from inline-block */
-  align-items: center;   /* Better vertical alignment */
-  user-select: none;
-  touch-action: none;
-  font-size: 14px;       /* Explicit font size */
-  line-height: 1.2;      /* Tighter line spacing */
-  height: 24px;          /* Fixed height */
-  box-sizing: border-box; /* Include padding in height */
-}
 
 /* Mobile adjustments */
 @media (max-width: 768px) {
@@ -689,16 +663,28 @@ body.dragging {
   color: #000 !important;
 }
 
+
 .drop-zone.filled {
   border-bottom: none;
   color: inherit;
 }
 
+/* New color examples */
+.drop-zone.correct {
+  background-color: #e6ffed; /* Lighter green */
+  border-left: 3px solid #2ecc71; /* Add green accent */
+}
+
+.drop-zone.incorrect {
+  background-color: #ffebee; /* Lighter red */
+  border-right: 3px solid #e74c3c; /* Add red accent */
+}
+
 #scoreDisplay {
-	font-family: Arial, sans-serif; /* Ensures bold is available */
+    font-family: Arial, sans-serif;
     font-weight: bold;
     color: darkblue;
-	text-align: center
+    text-align: center;  /* This will force centering */
 }
 
 .score-divider {
