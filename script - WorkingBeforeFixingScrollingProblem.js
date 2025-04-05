@@ -321,105 +321,17 @@ async function initReadingGame() {
 }
 
 function setupDragAndDrop() {
-  const body = document.body;
   const draggableWords = document.querySelector('.draggable-words');
-
-  // ===== MOBILE TOUCH HANDLING =====
-  let touchStartY = 0;
-  let activeTouchElement = null;
-  let isDragging = false;
-
-  // Touch start handler
-  document.addEventListener('touchstart', (e) => {
-    const target = e.target.closest('.draggable, .dropped-word');
-    if (target) {
-      activeTouchElement = target;
-      touchStartY = e.touches[0].clientY;
-      isDragging = false;
-      e.preventDefault();
-    }
-  }, { passive: false });
-
-  // Touch move handler
-  document.addEventListener('touchmove', (e) => {
-    if (activeTouchElement && !isDragging) {
-      const touchY = e.touches[0].clientY;
-      if (Math.abs(touchY - touchStartY) > 5) {
-        isDragging = true;
-        body.classList.add('no-scroll');
-        activeTouchElement.classList.add('dragging');
-        document.documentElement.style.overflow = 'hidden'; // Prevent page scroll
-      }
-    }
-
-    if (isDragging) {
-      e.preventDefault();
-    }
-  }, { passive: false });
-
-  // Touch end handler
-  document.addEventListener('touchend', (e) => {
-    if (isDragging) {
-      const touch = e.changedTouches[0];
-      const elementUnderTouch = document.elementFromPoint(touch.clientX, touch.clientY);
-      const dropZone = elementUnderTouch?.closest('.drop-zone');
-
-      if (dropZone) {
-        const word = activeTouchElement.dataset.word;
-        
-        // Remove from previous location
-        const sourceZone = activeTouchElement.closest('.drop-zone');
-        if (sourceZone) {
-          sourceZone.innerHTML = '';
-          sourceZone.dataset.filled = '';
-        } else {
-          activeTouchElement.remove();
-        }
-
-        // Remove existing word in target zone if any
-        if (dropZone.querySelector('.dropped-word')) {
-          returnToWordBank(dropZone.querySelector('.dropped-word').dataset.word);
-          dropZone.innerHTML = '';
-        }
-
-        // Create new dropped word
-        const wordClone = document.createElement('div');
-        wordClone.textContent = word;
-        wordClone.classList.add('dropped-word');
-        wordClone.dataset.word = word;
-        wordClone.draggable = true;
-        dropZone.appendChild(wordClone);
-        dropZone.dataset.filled = word;
-      }
-    }
-
-    // Clean up
-    body.classList.remove('no-scroll');
-    document.documentElement.style.overflow = '';
-    if (activeTouchElement) {
-      activeTouchElement.classList.remove('dragging');
-      activeTouchElement = null;
-    }
-    isDragging = false;
-  });
-
-  // ===== DESKTOP DRAG HANDLING =====
+  
+  // Make original words draggable
   document.addEventListener('dragstart', (e) => {
     if (e.target.classList.contains('draggable') || e.target.classList.contains('dropped-word')) {
-      body.classList.add('no-scroll');
       e.dataTransfer.setData('text/plain', e.target.dataset.word);
       e.target.classList.add('dragging');
     }
   });
 
-  document.addEventListener('dragend', () => {
-    body.classList.remove('no-scroll');
-    document.querySelectorAll('.dragging').forEach(el => {
-      el.classList.remove('dragging');
-    });
-  });
-
-  // ===== SHARED DROP ZONE HANDLING =====
+  // Drop zone events
   document.addEventListener('dragover', (e) => {
     if (e.target.classList.contains('drop-zone')) {
       e.preventDefault();
@@ -439,6 +351,7 @@ function setupDragAndDrop() {
       const word = e.dataTransfer.getData('text/plain');
       const draggedElement = document.querySelector(`.dragging[data-word="${word}"]`);
       
+      // Remove from previous location
       if (draggedElement) {
         const sourceZone = draggedElement.closest('.drop-zone');
         if (sourceZone) {
@@ -447,34 +360,27 @@ function setupDragAndDrop() {
         } else {
           draggedElement.remove();
         }
-
-        if (e.target.querySelector('.dropped-word')) {
-          const existingWord = e.target.querySelector('.dropped-word');
-          returnToWordBank(existingWord.dataset.word);
-          e.target.innerHTML = '';
-        }
-
-        const wordClone = document.createElement('div');
-        wordClone.textContent = word;
-        wordClone.classList.add('dropped-word');
-        wordClone.dataset.word = word;
-        wordClone.draggable = true;
-        e.target.appendChild(wordClone);
-        e.target.dataset.filled = word;
-        e.target.classList.remove('hovered');
       }
+
+      // Remove existing word in target zone if any
+      if (e.target.querySelector('.dropped-word')) {
+        const existingWord = e.target.querySelector('.dropped-word');
+        returnToWordBank(existingWord.dataset.word);
+        e.target.innerHTML = '';
+      }
+
+      // Create new dropped word
+      const wordClone = document.createElement('div');
+      wordClone.textContent = word;
+      wordClone.classList.add('dropped-word');
+      wordClone.dataset.word = word;
+      wordClone.draggable = true;
+      
+      e.target.appendChild(wordClone);
+      e.target.dataset.filled = word;
+      e.target.classList.remove('hovered');
     }
   });
-
-  // Helper function to return words to word bank
-  function returnToWordBank(word) {
-    const newDraggable = document.createElement('div');
-    newDraggable.textContent = word;
-    newDraggable.classList.add('draggable');
-    newDraggable.dataset.word = word;
-    newDraggable.draggable = true;
-    draggableWords.appendChild(newDraggable);
-  }
 
   // Check answers button
   document.getElementById('checkAnswers').addEventListener('click', () => {
@@ -498,6 +404,15 @@ function setupDragAndDrop() {
     scoreDisplay.textContent = `Score: ${score}%`;
     scoreDisplay.style.color = score === 100 ? 'darkgreen' : 'darkred';
   });
+
+  function returnToWordBank(word) {
+    const newDraggable = document.createElement('div');
+    newDraggable.textContent = word;
+    newDraggable.classList.add('draggable');
+    newDraggable.dataset.word = word;
+    newDraggable.draggable = true;
+    draggableWords.appendChild(newDraggable);
+  }
 }
 
 // Start the game when button is clicked

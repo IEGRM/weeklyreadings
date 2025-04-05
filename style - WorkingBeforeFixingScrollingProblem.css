@@ -620,10 +620,7 @@ This
   cursor: grab;
   display: inline-block;
   user-select: none;
-  color: #000;  
-  touch-action: none; /* Disables browser touch gestures on this element due to scrolling problem */
-  -webkit-user-select: none; /* Prevent text selection */
-  user-select: none;  
+  color: #000;
 }
 
 .draggable:hover {
@@ -641,6 +638,8 @@ This
 }
 
 
+
+
 draggable, .dropped-word {
   cursor: grab;
   user-select: none;
@@ -649,20 +648,6 @@ draggable, .dropped-word {
 .draggable:active, .dropped-word:active {
   cursor: grabbing;
 }
-
-/*Preventing scrolling*/
-body.dragging {
-  overflow: hidden;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-}
-
-
-
-
-
-
 
 .dropped-word {
   padding: 4px 10px;
