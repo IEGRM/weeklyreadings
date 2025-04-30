@@ -214,6 +214,7 @@ weekSelect.addEventListener('change', () => {
   resetQuizUI();
   loadQuiz();
   loadReadingForAudio();
+  loadReadingTitle();
 });
 
 gradeSelect.addEventListener('change', () => {
@@ -221,6 +222,7 @@ gradeSelect.addEventListener('change', () => {
   resetQuizUI();
   loadQuiz();
   loadReadingForAudio();
+  loadReadingTitle();
 });
 
 scoreButton.addEventListener('click', () => {

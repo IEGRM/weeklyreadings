@@ -8,40 +8,51 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <!-- Week Selection -->
+<div class="container">
+  <!-- Week Selection - Added wrapper div -->
+  <div style="display: flex; justify-content: space-between; align-items: flex-start;">
     <div class="selector">
-      <label for="weekSelect" style="color: #2b6cb0;">*Select Week:</label>
-      <select id="weekSelect"></select>
-
-    <!-- Grade Selection -->
-    <div class="selector">
-      <label for="gradeSelect" style="color: #2b6cb0;">Select Grade:</label>
-      <select id="gradeSelect">
-        <option value="6" selected>6° Grade</option> <!-- Default -->
-        <option value="7">7° Grade</option>
-        <option value="8">8° Grade</option>
-        <option value="9">9° Grade</option>
-        <option value="10">10° Grade</option>
-        <option value="11">11° Grade</option>
-      </select>
+      <!-- Week Selection -->
+      <div>
+        <label for="weekSelect" style="color: #2b6cb0;">*Select Week:</label>
+        <select id="weekSelect"></select>
+      </div>
+      
+      <!-- Grade Selection -->
+      <div>
+        <label for="gradeSelect" style="color: #2b6cb0;">Select Grade/Level:</label>
+        <select id="gradeSelect">
+          <option value="6" selected>6° Grade</option>
+          <option value="7">7° Grade</option>
+          <option value="8">8° Grade</option>
+          <option value="9">9° Grade</option>
+          <option value="10">10° Grade</option>
+          <option value="11">11° Grade</option>
+        </select>
+      </div>
     </div>
-
     
-    <!-- Image Section -->
-	<div id="imageSection">
-	  <img id="imageDisplay" src="" alt="Reading visual" class="responsive-image">
-	</div>
-
-  <audio id="audioPlayer" controls>
-    <source id="audioSource" src="" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-  
-  <div id="readingText">
-    <p id="textContent">Select a week and grade to load the reading.</p>
+    <!-- School Logo - Simple addition -->
+    <img src="assets/images/school_logo.png" alt="School Logo" style="width: 80px; height: 80px; margin-left: 20px;">
   </div>
-</div>
+
+				
+			<!-- Image Section -->
+			<div id="imageSection">
+			  <img id="imageDisplay" src="" alt="Reading visual" class="responsive-image">
+			</div>
+			
+			<div id="audiosection">
+			  <audio id="audioPlayer" controls>
+				<source id="audioSource" src="" type="audio/mpeg">
+				Your browser does not support the audio element.
+			  </audio>
+		  </div>
+		  
+		  <div id="readingText">
+			<p id="textContent">Select a week and grade to load the reading.</p>
+		  </div>
+	</div>
 
 
   <!-- Vocabulary Section -->
@@ -62,39 +73,45 @@
   <!-- Quiz Section -->
   <div class="container">
     <div id="quizSection">
-      <h3><span style="color: darkred;">TAKE A QUIZ</span></h3>
+      <h3><span style="color: darkred;">TRY THIS QUIZ NOW...</span></h3>
       <p><em>Let's see how much you learned in this activity...</em></p>
-      <div id="quizContent"></div>
-        <div class="info-box">
-        <div style="flex: 1;">
-          <p>1. Smile! 2. Fill information out. 3. Take a Screenshot. 4. Send/Show to your teacher</p>
-                 <div id="cameraBox" 
-					style="width: 150px; 
-					height: 150px; 
-					border: 2px solid darkblue; 
-					margin: 0 auto; 
-					display: flex; 
-					justify-content: center; 
-					align-items: center; 
-					overflow: hidden;
-					box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);">  <!-- Added shadow -->
-					<!-- Camera feed will be inserted here -->
-				</div>  
-		  </div>      
+      
+	  <div id="quizContent"></div>
+        <div class="info-box">		
+		
+			<div style="flex: 1; text-align: center;">
+<h4 style="display: inline-block; margin: 0;">
+        <span id="readingTitleDisplay" style="color: darkred;">Weekly Reading Title</span>
+ </h4>
+			  <p>1. Fill all information out. 2. Take a Screenshot. 3. Send/Show evidence to your teacher</p>
+					 <div id="cameraBox" 
+						style="width: 130px; 
+						height: 130px; 
+						border: 2px solid darkblue; 
+						margin: 0 auto; 
+						display: flex; 
+						justify-content: center; 
+						align-items: center; 
+						overflow: hidden;
+						box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);">  <!-- Added shadow -->
+						<!-- Camera feed will be inserted here -->
+					</div>  
+			  </div> 
+
+		  
         <!-- Data Entry Student Fields -->
         <div style="display: flex; align-items: center;">		  
           <div style="flex: 1;">
-            <label for="readingTitle" style="color: #2b6cb0; font-weight: bold;">* Reading Title:</label>
+            <label for="readingTitle" style="color: #2b6cb0; font-weight: bold;">* Institution:</label>
             <input type="text" id="readingTitle" name="readingTitle" size="40">
           </div>
-
-        </div>
-		
-		
-        <label for="school" style="color: #2b6cb0; font-weight: bold;">* School:</label>
+        </div>		
+        <label for="school" style="color: #2b6cb0; font-weight: bold;">* Group/Course:</label>
         <input type="text" id="school" name="school" size="40"><br>
-        <label for="group" style="color: #2b6cb0; font-weight: bold;">* Group:</label>
+		
+        <label for="group" style="color: #2b6cb0; font-weight: bold;">* ID:</label>
         <input type="text" id="group" name="group" size="40"><br>
+		
         <label for="name" style="color: #2b6cb0; font-weight: bold;">* Full Name:</label>
         <input type="text" id="name" name="name" size="40"><br><br>
         
@@ -110,13 +127,14 @@
         <p id="timestamp"></p>
       </div>
       <div style="text-align: center; color: darkblue; font-size: 10px;">
-        Developers: Jony Rojas & Felipe Molina /IT Support: Juan P. Gaviria / QA: Isabel Jimenez
+        Developers: Jony Rojas (IEGRM) & Felipe Molina (IEFV) /IT Support: Juan P. Gaviria / QA: Isabel Jimenez
       </div>
     </div>
   </div>
 
   <!-- JavaScript -->
   <script src="audio.js"></script>
+  <script src="readingTitle.js"></script>
   <script src="script.js"></script>
   <script src="camera.js"></script>
   <div id="tooltip-container" style="display:none; position:absolute; background:#fff; border:1px solid #333; padding:8px; z-index:1000;"></div>
