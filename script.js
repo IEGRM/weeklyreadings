@@ -45,6 +45,7 @@ function resetQuizUI() {
   timestamp.textContent = '';
   timestamp.style.display = "none";
   scoreButton.style.display = "inline-block";
+  screenshotButton.style.display = "none";
 }
 
 // Helper function to load scripts dynamically
@@ -206,6 +207,7 @@ function displayFeedback(score, allAnswered) {
   const time = now.toLocaleTimeString('en-US', timeOptions);
   timestamp.textContent = `Date: ${date} / Time: ${time}`;
   timestamp.style.display = "block";
+  screenshotButton.style.display = "inline-block";
 }
 
 // Event listeners
@@ -240,6 +242,7 @@ screenshotButton.addEventListener('click', takeScreenshot);
 document.addEventListener('DOMContentLoaded', () => {
   restoreSelections();
   loadQuiz();
+  screenshotButton.style.display = "none";
 });
 
 // Reading Game Implementation
