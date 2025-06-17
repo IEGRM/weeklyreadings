@@ -76,6 +76,9 @@ function processVocabularyHighlighting() {
                               .toLowerCase()
                               .trim();
     vocabMap[cleanWord] = item.definition;
+    
+    // Also store the original word for exact matching
+    vocabMap[item.word.toLowerCase()] = item.definition;
   });
 
   // Process each text span
@@ -84,10 +87,20 @@ function processVocabularyHighlighting() {
     const originalHTML = span.innerHTML;
     let highlightedHTML = originalHTML;
     
-    // Match whole words only (case insensitive)
-    const wordRegex = /\b(\w+)\b/g;
+    // First process multi-word phrases
+    vocabularyData.forEach(item => {
+      const phrase = item.word.replace(/<[^>]*>/g, '');
+      if (phrase.includes(' ')) {
+        const regex = new RegExp(phrase, 'gi');
+        highlightedHTML = highlightedHTML.replace(regex, (matched) => {
+          return `<span class="vocab-word highlightable" 
+                   data-definition="${item.definition}">${matched}</span>`;
+        });
+      }
+    });
     
-    highlightedHTML = highlightedHTML.replace(wordRegex, (matchedWord) => {
+    // Then process single words (whole words only)
+    highlightedHTML = highlightedHTML.replace(/\b(\w+)\b/g, (matchedWord) => {
       const lowerWord = matchedWord.toLowerCase();
       if (vocabMap[lowerWord]) {
         return `<span class="vocab-word highlightable" 
