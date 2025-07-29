@@ -1,3 +1,23 @@
+// script.js - Modified to prevent translation
+
+// Add translation prevention at the start
+document.addEventListener('DOMContentLoaded', function() {
+  // Detectar si la página ha sido traducida
+  if (document.documentElement.lang !== 'en' || 
+      document.documentElement.getAttribute('translate') === 'yes') {
+    document.documentElement.lang = 'en';
+    document.documentElement.setAttribute('translate', 'no');
+    alert('La traducción automática está deshabilitada para este sitio. Por favor, lea el contenido en inglés.');
+  }
+  
+  // Prevenir el menú contextual de traducción
+  document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+    return false;
+  }, false);
+});
+
+// Resto del código original de script.js sigue igual...
 // DOM Elements for Quiz
 const weekSelect = document.getElementById('weekSelect');
 const gradeSelect = document.getElementById('gradeSelect');

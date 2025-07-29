@@ -423,7 +423,8 @@ button:hover {
 
 /* Smart positioning classes */
 .vocab-tooltip.position-above {
-  transform: translate(-50%, -110%);
+  top: auto;
+  bottom: calc(100% - var(--tooltip-y) + 10px);
 }
 
 .vocab-tooltip.position-below {
@@ -728,4 +729,3 @@ body.dragging {
   from { transform: translate(-50%, -50%) rotate(-2deg); }
   to { transform: translate(-50%, -50%) rotate(2deg); }
 }
-
