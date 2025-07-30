@@ -69,7 +69,9 @@ async function loadReading(week, grade) {
 
   audioSource.src = `assets/audios/week${week}_audio_grade${grade}.mp3`;
   audioPlayer.load();
-  audioPlayer.playbackRate = 0.8;
+  //Audio Playback speed 0.8=80%
+  audioPlayer.playbackRate = 1.0;
+  
   document.getElementById('imageDisplay').src = `assets/images/week${week}_image_grade${grade}.jpg`;
 }
 
