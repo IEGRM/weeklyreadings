@@ -12,8 +12,8 @@ const handPointer = document.createElement('img');
 handPointer.id = 'handPointer';
 handPointer.src = 'assets/images/hand_normal.png';
 handPointer.style.position = 'absolute';
-handPointer.style.width = '60px';
-handPointer.style.height = '60px';
+handPointer.style.width = '80px'; // tamaño de la foto
+handPointer.style.height = '80px'; // tamaño de la foto
 handPointer.style.pointerEvents = 'none';
 handPointer.style.zIndex = '1000';
 handPointer.style.transition = 'all 0.3s ease';
@@ -76,7 +76,7 @@ async function loadReading(week, grade) {
 
   audioSource.src = `assets/audios/week${week}_audio_grade${grade}.mp3`;
   audioPlayer.load();
-  audioPlayer.playbackRate = 1.0; // velocidad 100%
+  audioPlayer.playbackRate = 1.0; // velocidad 100% de la manito
   document.getElementById('imageDisplay').src = `assets/images/week${week}_image_grade${grade}.jpg`;
 }
 
