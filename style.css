@@ -729,3 +729,13 @@ body.dragging {
   to { transform: translate(-50%, -50%) rotate(2deg); }
 }
 
+body, .notranslate {
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  translate: no;
+}
+
+
+
+

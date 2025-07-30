@@ -2,36 +2,24 @@
 <html lang="en" translate="no">
 <head>
   <meta charset="UTF-8">
-
-  <!-- Viewport optimized for mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-  <!-- Block Google Translate -->
   <meta name="google" content="notranslate">
-
-  <!-- Optional: prevent image indexing -->
   <meta name="robots" content="noimageindex">
-
   <title>By Jony R. et al.</title>
   <link rel="stylesheet" href="style.css">
-
-  <!-- Disable translation using CSS -->
   <style>
     html:not([translate]) body {
       translate: no;
     }
   </style>
-
-  <!-- Optional: block Google Translate script if injected -->
   <script>
     if (typeof google !== 'undefined' && google.translate) {
       google.translate.TranslateElement = function() {};
     }
   </script>
 </head>
-<body>
+<body translate="no" oncopy="return false" oncut="return false" onpaste="return false" onselectstart="return false">
 <div class="container">
-  <!-- Week Selection -->
   <div style="display: flex; justify-content: space-between; align-items: flex-start;">
     <div class="selector">
       <div>
@@ -53,12 +41,10 @@
     <img src="assets/images/school_logo.png" alt="School Logo" style="width: 80px; height: 80px; margin-left: 20px;">
   </div>
 
-  <!-- Image Section -->
   <div id="imageSection">
     <img id="imageDisplay" src="" alt="Reading visual" class="responsive-image">
   </div>
 
-  <!-- Audio Section -->
   <div id="audiosection">
     <audio id="audioPlayer" controls>
       <source id="audioSource" src="" type="audio/mpeg">
@@ -66,13 +52,11 @@
     </audio>
   </div>
 
-  <!-- Reading Section -->
   <div id="readingText">
-    <p id="textContent">Select a week and grade to load the reading.</p>
+    <p id="textContent" class="notranslate">Select a week and grade to load the reading.</p>
   </div>
 </div>
 
-<!-- Vocabulary Section -->
 <div class="container">
   <div id="vocabularySection">
     <h3><span style="color: darkred;">VOCABULARY REVIEW</span></h3>
@@ -80,19 +64,17 @@
     <div id="vocabularyContent"></div>
   </div>
 
-  <!-- Activity Section -->
   <h4><span style="color: darkred;">LET US PRACTICE THE VOCABULARY NOW...</span></h4>
   <button id="readingGameButton" style="display: block; margin: 0 auto;">Drag and Drop Activity</button>
   <div id="readingGameContainer" style="display: none; margin: 20px auto 0 auto; text-align: center;"></div>
 </div>
 
-<!-- Quiz Section -->
 <div class="container">
-  <div id="quizSection">
+  <div id="quizSection" class="notranslate">
     <h3><span style="color: darkred;">TRY THIS QUIZ NOW...</span></h3>
     <p><em>Let's see how much you learned in this activity...</em></p>
-    <div id="quizContent"></div>
-    <div class="info-box">
+    <div id="quizContent" class="notranslate"></div>
+    <div class="info-box notranslate" id="studentInfo">
       <div style="flex: 1; text-align: center;">
         <h4 style="display: inline-block; margin: 0;">
           <span id="readingTitleDisplay" style="color: darkred;">Weekly Reading Title</span>
@@ -101,8 +83,6 @@
         <div id="cameraBox" style="width: 130px; height: 130px; border: 2px solid darkblue; margin: 0 auto; display: flex; justify-content: center; align-items: center; overflow: hidden; box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);">
         </div>
       </div>
-
-      <!-- Student Info -->
       <div style="display: flex; align-items: center;">
         <div style="flex: 1;">
           <label for="readingTitle" style="color: #2b6cb0; font-weight: bold;">* Institution:</label>
@@ -116,7 +96,6 @@
       <label for="name" style="color: #2b6cb0; font-weight: bold;">* Full Name:</label>
       <input type="text" id="name" name="name" size="40"><br><br>
 
-      <!-- Buttons -->
       <div class="button-row">
         <button id="scoreButton">My Score</button>
         <button id="clearButton">Clear</button>
@@ -127,12 +106,11 @@
       <p id="timestamp"></p>
     </div>
     <div style="text-align: center; color: darkblue; font-size: 10px;">
-      Developers: Jony Rojas (IEGRM) & Felipe Molina (IEFV) /IT Support: Juan P. Gaviria / QA: Isabel Jimenez
+      Developers: Jony Rojas (IEGRM) & Felipe Molina (IEFV) / IT Support: Juan P. Gaviria / QA: Isabel Jimenez
     </div>
   </div>
 </div>
 
-<!-- JavaScript -->
 <script src="audio.js"></script>
 <script src="readingTitle.js"></script>
 <script src="script.js"></script>

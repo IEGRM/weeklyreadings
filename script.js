@@ -571,5 +571,13 @@ function setupDragAndDrop() {
   });
 }
 
+setInterval(() => {
+  const bodyText = document.body.innerText;
+  if (bodyText.includes('Traducido por Google') || bodyText.includes('Translate this page')) {
+    alert("Traducción detectada. Esta actividad debe hacerse en inglés.");
+    location.reload(); // o redirecciona o bloquea
+  }
+}, 3000);
+
 // Start the game when button is clicked
 document.getElementById('readingGameButton').addEventListener('click', initReadingGame);
