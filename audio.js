@@ -61,17 +61,22 @@ async function loadReading(week, grade) {
 
   textContent.innerHTML = currentReadingData.text
     .map(sentence => {
-      const words = sentence.content.split(/\s+/);
-      const wordSpans = words.map(word => `<span class="word-unit">${word}</span>`).join(' ');
-      return `<span class="sentence-span" data-time="${sentence.time}">${wordSpans}</span>`;
+      const tempDiv = document.createElement('div');
+      tempDiv.innerHTML = sentence.content;
+      const words = Array.from(tempDiv.childNodes).map(node => {
+        if (node.nodeType === Node.TEXT_NODE) {
+          return node.textContent.split(/\s+/).map(word => `<span class="word-unit">${word}</span>`).join(' ');
+        } else {
+          return `<span class="word-unit">${node.outerHTML}</span>`;
+        }
+      }).join(' ');
+      return `<span class="sentence-span" data-time="${sentence.time}">${words}</span>`;
     })
     .join(' ');
 
   audioSource.src = `assets/audios/week${week}_audio_grade${grade}.mp3`;
   audioPlayer.load();
-  //Audio Playback speed 0.8=80%
-  audioPlayer.playbackRate = 1.0;
-  
+  audioPlayer.playbackRate = 1.0; // velocidad 100%
   document.getElementById('imageDisplay').src = `assets/images/week${week}_image_grade${grade}.jpg`;
 }
 
@@ -97,7 +102,6 @@ function processVocabularyHighlighting() {
   vocabularyData.forEach(item => {
     const cleanWord = item.word.replace(/<[^>]*>/g, '').toLowerCase().trim();
     vocabMap[cleanWord] = item.definition;
-    vocabMap[item.word.toLowerCase()] = item.definition;
   });
 
   const textSpans = document.querySelectorAll('#textContent .word-unit');
@@ -199,7 +203,7 @@ function showTooltip(event) {
 
   tooltip.style.setProperty('--tooltip-x', `${wordRect.left + wordRect.width / 2}px`);
   tooltip.style.setProperty('--tooltip-y', `${wordRect.top + scrollY - 10}px`);
-  tooltip.classList.add('position-above'); // siempre encima
+  tooltip.classList.add('position-above');
 
   tooltip.innerHTML = `
     <div class="tooltip-content">
