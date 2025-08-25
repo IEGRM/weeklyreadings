@@ -12,8 +12,8 @@ const handPointer = document.createElement('img');
 handPointer.id = 'handPointer';
 handPointer.src = 'assets/images/hand_normal.png';
 handPointer.style.position = 'absolute';
-handPointer.style.width = '90px'; // tamaño de la foto
-handPointer.style.height = '90px'; // tamaño de la foto
+handPointer.style.width = '90px';
+handPointer.style.height = '90px';
 handPointer.style.pointerEvents = 'none';
 handPointer.style.zIndex = '1000';
 handPointer.style.transition = 'all 0.3s ease';
@@ -39,6 +39,9 @@ document.addEventListener('DOMContentLoaded', function () {
     handPointer.style.display = 'none';
     handPointer.classList.remove('bouncing');
   });
+
+  // Crear los controles de velocidad personalizados
+  createSpeedControls();
 });
 
 async function loadContent() {
@@ -76,7 +79,7 @@ async function loadReading(week, grade) {
 
   audioSource.src = `assets/audios/week${week}_audio_grade${grade}.mp3`;
   audioPlayer.load();
-  audioPlayer.playbackRate = 1.0; // velocidad 100% de la manito
+  audioPlayer.playbackRate = 1.0; // velocidad inicial
   document.getElementById('imageDisplay').src = `assets/images/week${week}_image_grade${grade}.jpg`;
 }
 
@@ -222,4 +225,66 @@ function showTooltip(event) {
       document.removeEventListener('click', closeTooltip);
     }
   });
+}
+
+// ===============================
+// NUEVOS BOTONES DE VELOCIDAD
+// ===============================
+function createSpeedControls() {
+  const speeds = [1.0, 0.90, 0.85, 0.80];
+  const container = document.createElement('div');
+  container.style.marginTop = "8px";
+  container.style.textAlign = "center";
+  
+  // Inject CSS to ensure proper styling
+  const style = document.createElement('style');
+  style.textContent = `
+    .speed-btn {
+      background-color: #f0f8ff !important;
+      color: darkblue !important;
+      border: 1px solid #2b6cb0;
+      margin: 0 6px;
+      padding: 6px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+    .speed-btn:hover {
+      background-color: #d0e8ff !important;
+    }
+    .speed-btn.active-speed {
+      background-color: darkblue !important;
+      color: white !important;
+      border-color: #1a4e8a;
+      font-weight: bold;
+      box-shadow: 0 0 6px rgba(0,0,0,0.3);
+    }
+  `;
+  document.head.appendChild(style);
+
+  speeds.forEach(speed => {
+    const btn = document.createElement('button');
+    btn.textContent = `${speed}x`;
+    btn.className = "speed-btn";
+
+    // Set the default active button (1.0x)
+    if (speed === 1.0) {
+      btn.classList.add('active-speed');
+    }
+
+    btn.addEventListener('click', () => {
+      audioPlayer.playbackRate = speed;
+
+      // reset all to default
+      document.querySelectorAll('.speed-btn')
+        .forEach(b => b.classList.remove('active-speed'));
+
+      // set active only for the clicked one
+      btn.classList.add('active-speed');
+    });
+
+    container.appendChild(btn);
+  });
+
+  document.getElementById('audiosection').appendChild(container);
 }
