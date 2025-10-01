@@ -1,0 +1,76 @@
+{
+  "vocabulary": {
+    "6": [
+      {"word": "<strong>word</strong>", "definition": "a single unit of language (palabra)"},
+      {"word": "<strong>bad_word</strong>", "definition": "an offensive expression (mala_palabra)"},
+      {"word": "<strong>good</strong>", "definition": "positive, nice (bueno)"},
+      {"word": "<strong>say</strong>", "definition": "to speak words (decir)"},
+      {"word": "<strong>talk</strong>", "definition": "to communicate with words (hablar)"},
+      {"word": "<strong>stop</strong>", "definition": "to not continue (parar)"},
+      {"word": "<strong>mouth</strong>", "definition": "part of the face used to speak (boca)"},
+      {"word": "<strong>friend</strong>", "definition": "a person you like (amigo)"},
+      {"word": "<strong>angry</strong>", "definition": "feeling mad (enojado)"},
+      {"word": "<strong>respect</strong>", "definition": "value for others (respeto)"}
+    ],
+    "7": [
+      {"word": "<strong>boy</strong>", "definition": "a male child (niño)"},
+      {"word": "<strong>mean</strong>", "definition": "unkind, cruel (malo)"},
+      {"word": "<strong>bad</strong>", "definition": "not good (malo)"},
+      {"word": "<strong>laugh</strong>", "definition": "sound when happy (reír)"},
+      {"word": "<strong>sad</strong>", "definition": "feeling unhappy (triste)"},
+      {"word": "<strong>cry</strong>", "definition": "to produce tears (llorar)"},
+      {"word": "<strong>help</strong>", "definition": "to assist (ayudar)"},
+      {"word": "<strong>alone</strong>", "definition": "without others (solo)"},
+      {"word": "<strong>school</strong>", "definition": "place of study (colegio)"},
+      {"word": "<strong>friends</strong>", "definition": "people you like (amigos)"}
+    ],
+    "8": [
+      {"word": "<strong>fight</strong>", "definition": "a physical conflict (pelea)"},
+      {"word": "<strong>loud</strong>", "definition": "with strong sound (fuerte)"},
+      {"word": "<strong>shout</strong>", "definition": "to speak loudly (gritar)"},
+      {"word": "<strong>push</strong>", "definition": "to move with force (empujar)"},
+      {"word": "<strong>hit</strong>", "definition": "to strike with force (golpear)"},
+      {"word": "<strong>stop</strong>", "definition": "to not continue (parar)"},
+      {"word": "<strong>help</strong>", "definition": "to assist (ayudar)"},
+      {"word": "<strong>angry</strong>", "definition": "feeling mad (enojado)"},
+      {"word": "<strong>run</strong>", "definition": "to move fast (correr)"},
+      {"word": "<strong>scared</strong>", "definition": "afraid (asustado)"}
+    ],
+    "9": [
+      {"word": "<strong>rumor</strong>", "definition": "unverified story (rumor)"},
+      {"word": "<strong>school</strong>", "definition": "place of study (colegio)"},
+      {"word": "<strong>story</strong>", "definition": "narrative or account (historia)"},
+      {"word": "<strong>lie</strong>", "definition": "false statement (mentira)"},
+      {"word": "<strong>friends</strong>", "definition": "people you like (amigos)"},
+      {"word": "<strong>talk</strong>", "definition": "to communicate with words (hablar)"},
+      {"word": "<strong>hurt</strong>", "definition": "to cause pain (herir)"},
+      {"word": "<strong>trust</strong>", "definition": "belief in honesty (confianza)"},
+      {"word": "<strong>true</strong>", "definition": "real, correct (verdadero)"},
+      {"word": "<strong>secret</strong>", "definition": "hidden information (secreto)"}
+    ],
+    "10": [
+      {"word": "<strong>friend</strong>", "definition": "a person you like (amigo)"},
+      {"word": "<strong>fake_friend</strong>", "definition": "a person who pretends to be real (amigo_falso)"},
+      {"word": "<strong>lie</strong>", "definition": "false statement (mentira)"},
+      {"word": "<strong>laugh</strong>", "definition": "sound when happy (reír)"},
+      {"word": "<strong>true</strong>", "definition": "real, correct (verdadero)"},
+      {"word": "<strong>trust</strong>", "definition": "belief in honesty (confianza)"},
+      {"word": "<strong>sad</strong>", "definition": "feeling unhappy (triste)"},
+      {"word": "<strong>alone</strong>", "definition": "without others (solo)"},
+      {"word": "<strong>talk</strong>", "definition": "to communicate with words (hablar)"},
+      {"word": "<strong>real</strong>", "definition": "genuine, not fake (real)"}
+    ],
+    "11": [
+      {"word": "<strong>bullying</strong>", "definition": "repeated aggressive behavior (acoso_escolar)"},
+      {"word": "<strong>silence</strong>", "definition": "complete quiet (silencio)"},
+      {"word": "<strong>pain</strong>", "definition": "physical or emotional hurt (dolor)"},
+      {"word": "<strong>alone</strong>", "definition": "without others (solo)"},
+      {"word": "<strong>hide</strong>", "definition": "to keep out of sight (esconder)"},
+      {"word": "<strong>fear</strong>", "definition": "feeling of being afraid (miedo)"},
+      {"word": "<strong>help</strong>", "definition": "to assist (ayudar)"},
+      {"word": "<strong>voice</strong>", "definition": "sound produced when speaking (voz)"},
+      {"word": "<strong>speak</strong>", "definition": "to talk (hablar)"},
+      {"word": "<strong>change</strong>", "definition": "to make different (cambiar)"}
+    ]
+  }
+}
