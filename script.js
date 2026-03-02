@@ -29,7 +29,7 @@ const scoreFeedback = document.getElementById('scoreFeedback');
 const timestamp = document.getElementById('timestamp');
 
 // Change this to current week
-const totalWeeks = 3;
+const totalWeeks = 4;
 const defaultGradelevel = 6;
 
 // Global variable to store quiz data
