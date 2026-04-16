@@ -29,7 +29,7 @@ const screenshotButton = document.getElementById('screenshotButton');
 const scoreFeedback = document.getElementById('scoreFeedback');
 const timestamp = document.getElementById('timestamp');
 
-// Change this to current week
+// Change this to current week. Edit this every week
 const totalWeeks = 7;
 const defaultGradelevel = 6;
 
