@@ -46,11 +46,28 @@
     <img id="imageDisplay" src="" alt="Reading visual" class="responsive-image">
   </div>
 
+  <!-- TTS CONTROLS (replaces old audio player) -->
   <div id="audiosection">
-    <audio id="audioPlayer" controls>
-      <source id="audioSource" src="" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
+    <div id="ttsControls">
+      <div class="tts-row">
+        <div class="tts-buttons">
+          <button id="ttsPlay" class="tts-btn tts-btn-play">▶ Listen</button>
+          <button id="ttsPause" class="tts-btn tts-btn-pause" style="display:none;">⏸ Pause</button>
+          <button id="ttsResume" class="tts-btn tts-btn-resume" style="display:none;">▶ Resume</button>
+          <button id="ttsStop" class="tts-btn tts-btn-stop" style="display:none;">⏹ Stop</button>
+        </div>
+        <div class="tts-speed">
+          <label style="font-size:13px; color:#2b6cb0; font-weight:bold;">Speed:</label>
+          <input type="range" id="ttsSpeedRange" min="0.5" max="1.1" step="0.05" value="0.85" style="width:90px; vertical-align:middle;">
+          <span id="ttsSpeedLabel" style="font-size:13px; font-weight:bold; color:#1565C0;">0.85x</span>
+        </div>
+      </div>
+      <div class="tts-row" style="margin-top:6px;">
+        <label style="font-size:12px; color:#2b6cb0; font-weight:bold; white-space:nowrap;">Voice:</label>
+        <select id="voiceSelect" style="flex:1; padding:5px 8px; border-radius:6px; border:1px solid #BBDEFB; font-size:13px; background:#fff;"></select>
+      </div>
+      <div id="ttsSyncStatus" style="display:none; margin-top:6px;"></div>
+    </div>
   </div>
 
   <div id="readingText">

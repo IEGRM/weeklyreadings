@@ -3,13 +3,15 @@
 // Add translation prevention at the start
 document.addEventListener('DOMContentLoaded', function() {
   // Detectar si la página ha sido traducida
-  if (document.documentElement.lang !== 'en' || 
-      document.documentElement.getAttribute('translate') === 'yes') {
+  if (
+    document.documentElement.lang !== 'en' ||
+    document.documentElement.getAttribute('translate') === 'yes'
+  ) {
     document.documentElement.lang = 'en';
     document.documentElement.setAttribute('translate', 'no');
     alert('La traducción automática está deshabilitada para este sitio. Por favor, lea el contenido en inglés.');
   }
-  
+
   // Prevenir el menú contextual de traducción
   document.addEventListener('contextmenu', function(e) {
     e.preventDefault();
@@ -17,7 +19,6 @@ document.addEventListener('DOMContentLoaded', function() {
   }, false);
 });
 
-// Resto del código original de script.js sigue igual...
 // DOM Elements for Quiz
 const weekSelect = document.getElementById('weekSelect');
 const gradeSelect = document.getElementById('gradeSelect');
@@ -29,7 +30,7 @@ const scoreFeedback = document.getElementById('scoreFeedback');
 const timestamp = document.getElementById('timestamp');
 
 // Change this to current week
-const totalWeeks = 15;
+const totalWeeks = 7;
 const defaultGradelevel = 6;
 
 // Global variable to store quiz data
@@ -84,11 +85,11 @@ async function takeScreenshot() {
   try {
     screenshotButton.disabled = true;
     screenshotButton.textContent = "Capturing...";
-    
+
     const element = document.querySelector('.info-box');
     const originalScroll = window.scrollY;
     window.scrollTo(0, 0);
-    
+
     if (typeof html2canvas !== 'function') {
       await loadScript('https://html2canvas.hertzen.com/dist/html2canvas.min.js');
     }
@@ -138,14 +139,14 @@ async function loadQuiz() {
 
   try {
     const quizResponse = await fetch(`data/quizzes/week${week}_quizzes.json`);
-    
+
     if (!quizResponse.ok) {
       throw new Error(`Failed to fetch quiz data: ${quizResponse.status}`);
     }
-    
+
     const fullQuizData = await quizResponse.json();
     const gradeQuestions = fullQuizData.quizzes[grade];
-    
+
     if (gradeQuestions && Array.isArray(gradeQuestions)) {
       quizContent.innerHTML = gradeQuestions.map((question, index) => `
         <div class="quiz-question">
@@ -160,7 +161,7 @@ async function loadQuiz() {
           </ul>
         </div>
       `).join('');
-      
+
       quizData = { quiz: gradeQuestions };
     } else {
       quizContent.innerHTML = "No quiz data available for this grade.";
@@ -269,30 +270,32 @@ document.addEventListener('DOMContentLoaded', () => {
 async function initReadingGame() {
   const week = weekSelect.value;
   const grade = gradeSelect.value;
-  
+
   try {
+    cleanupDragGhosts();
+
     // Hide the practice button when game starts
     document.getElementById('readingGameButton').style.display = 'none';
-    
+
     const response = await fetch(`data/readings/week${week}_reading.json`);
     const data = await response.json();
     const readingData = data.readings[grade].text;
 
     let fullText = '';
     const boldedWords = [];
-    
+
     for (let i = 1; i < readingData.length; i++) {
       let content = readingData[i].content;
-      
+
       content = content.replace(/<b>(.*?)<\/b>/g, (match, word) => {
         boldedWords.push(word);
         return `_____`;
       });
-      
+
       content = content.replace(/<br>/g, ' ')
                        .replace(/<\/?[^>]+>/g, '')
                        .replace(/\s+/g, ' ');
-      
+
       fullText += content + ' ';
     }
 
@@ -302,8 +305,8 @@ async function initReadingGame() {
 
     const gameHTML = `
       <div class="reading-game">
-        <div id="scoreDisplay" style="font-weight: bold; text-align: center; color: darkblue;">Score: 0%</div>		
-        <hr class="score-divider"> 
+        <div id="scoreDisplay" style="font-weight: bold; text-align: center; color: darkblue;">Score: 0%</div>
+        <hr class="score-divider">
         <div class="reading-text">${fullText}</div>
         <div class="draggable-words">
           ${shuffledWords.map(word => `
@@ -320,7 +323,7 @@ async function initReadingGame() {
     container.style.display = 'block';
 
     const textElement = container.querySelector('.reading-text');
-    textElement.innerHTML = textElement.textContent.replace(/_____/g, 
+    textElement.innerHTML = textElement.textContent.replace(/_____/g,
       '<span class="drop-zone" data-expected=""></span>'
     );
 
@@ -332,32 +335,34 @@ async function initReadingGame() {
 
     setupDragAndDrop();
 
-    // Close button event listener
     document.getElementById('closeGame').addEventListener('click', () => {
+      cleanupDragGhosts();
+      container.innerHTML = '';
       container.style.display = 'none';
-      // Show the practice button again
       document.getElementById('readingGameButton').style.display = 'block';
     });
 
   } catch (error) {
     console.error("Error loading reading game:", error);
     alert("Failed to load the reading game. Please try again.");
-    // Show button again if error occurs
     document.getElementById('readingGameButton').style.display = 'block';
   }
 }
 
 function positionGhost(e) {
-  if (!dragGhost) return;
-  dragGhost.style.left = `${e.clientX}px`;
-  dragGhost.style.top = `${e.clientY}px`;
+  return;
 }
 
 function positionTouchGhost(e) {
-  if (!dragGhost) return;
-  const touch = e.touches[0];
-  dragGhost.style.left = `${touch.clientX}px`;
-  dragGhost.style.top = `${touch.clientY}px`;
+  return;
+}
+
+function cleanupDragGhosts() {
+  document.querySelectorAll('.drag-ghost').forEach(el => el.remove());
+  dragGhost = null;
+  document.body.classList.remove('no-scroll');
+  document.body.classList.remove('dragging');
+  document.documentElement.style.overflow = '';
 }
 
 function setupDragAndDrop() {
@@ -369,25 +374,16 @@ function setupDragAndDrop() {
   let activeTouchElement = null;
   let isDragging = false;
 
-  // Touch start handler
   document.addEventListener('touchstart', (e) => {
     const target = e.target.closest('.draggable, .dropped-word');
     if (target) {
       activeTouchElement = target;
       touchStartY = e.touches[0].clientY;
       isDragging = false;
-      
-      // Create ghost for touch
-      dragGhost = target.cloneNode(true);
-      dragGhost.classList.add('drag-ghost');
-      dragGhost.style.width = `${target.offsetWidth}px`;
-      document.body.appendChild(dragGhost);
-      
       e.preventDefault();
     }
   }, { passive: false });
 
-  // Touch move handler
   document.addEventListener('touchmove', (e) => {
     if (activeTouchElement && !isDragging) {
       const touchY = e.touches[0].clientY;
@@ -396,17 +392,14 @@ function setupDragAndDrop() {
         body.classList.add('no-scroll');
         activeTouchElement.classList.add('dragging');
         document.documentElement.style.overflow = 'hidden';
-        document.addEventListener('touchmove', positionTouchGhost);
       }
     }
 
     if (isDragging) {
-      positionTouchGhost(e);
       e.preventDefault();
     }
   }, { passive: false });
 
-  // Touch end handler
   document.addEventListener('touchend', (e) => {
     if (isDragging) {
       const touch = e.changedTouches[0];
@@ -415,8 +408,7 @@ function setupDragAndDrop() {
 
       if (dropZone) {
         const word = activeTouchElement.dataset.word;
-        
-        // Remove from previous location
+
         const sourceZone = activeTouchElement.closest('.drop-zone');
         if (sourceZone) {
           sourceZone.innerHTML = '';
@@ -425,13 +417,11 @@ function setupDragAndDrop() {
           activeTouchElement.remove();
         }
 
-        // Remove existing word in target zone if any
         if (dropZone.querySelector('.dropped-word')) {
           returnToWordBank(dropZone.querySelector('.dropped-word').dataset.word);
           dropZone.innerHTML = '';
         }
 
-        // Create new dropped word
         const wordClone = document.createElement('div');
         wordClone.textContent = word;
         wordClone.classList.add('dropped-word');
@@ -442,14 +432,10 @@ function setupDragAndDrop() {
       }
     }
 
-    // Clean up
     body.classList.remove('no-scroll');
     document.documentElement.style.overflow = '';
-    if (dragGhost) {
-      document.removeEventListener('touchmove', positionTouchGhost);
-      dragGhost.remove();
-      dragGhost = null;
-    }
+    dragGhost = null;
+
     if (activeTouchElement) {
       activeTouchElement.classList.remove('dragging');
       activeTouchElement = null;
@@ -461,22 +447,12 @@ function setupDragAndDrop() {
   document.addEventListener('dragstart', (e) => {
     if (e.target.classList.contains('draggable') || e.target.classList.contains('dropped-word')) {
       body.classList.add('no-scroll');
-      
-      // Create ghost element
-      dragGhost = e.target.cloneNode(true);
-      dragGhost.classList.add('drag-ghost');
-      dragGhost.style.width = `${e.target.offsetWidth}px`;
-      document.body.appendChild(dragGhost);
-      
-      // Position it at the cursor
-      document.addEventListener('dragover', positionGhost);
       e.dataTransfer.setData('text/plain', e.target.dataset.word);
       e.target.classList.add('dragging');
     }
   });
 
   document.addEventListener('dragover', (e) => {
-    positionGhost(e);
     if (e.target.classList.contains('drop-zone')) {
       e.preventDefault();
       e.target.classList.add('hovered');
@@ -488,13 +464,7 @@ function setupDragAndDrop() {
     document.querySelectorAll('.dragging').forEach(el => {
       el.classList.remove('dragging');
     });
-    
-    // Remove ghost
-    if (dragGhost) {
-      document.removeEventListener('dragover', positionGhost);
-      dragGhost.remove();
-      dragGhost = null;
-    }
+    dragGhost = null;
   });
 
   // ===== SHARED DROP ZONE HANDLING =====
@@ -509,7 +479,7 @@ function setupDragAndDrop() {
       e.preventDefault();
       const word = e.dataTransfer.getData('text/plain');
       const draggedElement = document.querySelector(`.dragging[data-word="${word}"]`);
-      
+
       if (draggedElement) {
         const sourceZone = draggedElement.closest('.drop-zone');
         if (sourceZone) {
@@ -537,7 +507,6 @@ function setupDragAndDrop() {
     }
   });
 
-  // Helper function to return words to word bank
   function returnToWordBank(word) {
     const newDraggable = document.createElement('div');
     newDraggable.textContent = word;
@@ -547,15 +516,14 @@ function setupDragAndDrop() {
     draggableWords.appendChild(newDraggable);
   }
 
-  // Check answers button
   document.getElementById('checkAnswers').addEventListener('click', () => {
     const dropZones = document.querySelectorAll('.drop-zone');
     let correct = 0;
-    
+
     dropZones.forEach(zone => {
       const filledWord = zone.querySelector('.dropped-word');
       const isCorrect = filledWord && filledWord.dataset.word === zone.dataset.expected;
-      
+
       zone.style.backgroundColor = isCorrect ? '#d4edda' : '#ffa6a6';
       if (filledWord) {
         filledWord.style.color = isCorrect ? 'darkgreen' : 'darkred';
@@ -575,7 +543,7 @@ setInterval(() => {
   const bodyText = document.body.innerText;
   if (bodyText.includes('Traducido por Google') || bodyText.includes('Translate this page')) {
     alert("Traducción detectada. Esta actividad debe hacerse en inglés.");
-    location.reload(); // o redirecciona o bloquea
+    location.reload();
   }
 }, 3000);
 
