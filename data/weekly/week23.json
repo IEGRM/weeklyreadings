@@ -1,0 +1,1788 @@
+{
+  "week": 23,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 23",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "A Busy Night At Home",
+      "minimumWordTarget": 350,
+      "wordCount": 464,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week23_grade06_page01.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “A Busy Night At Home”, page 1. Scene based on: Juan is 11 years old and studies in Medellín. One ordinary day at the Medellín Metro, a situation involving a family being responsible begins to change the plans for the afternoon. María is nearby and notices that Juan is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Juan is 11 years old and studies in Medellín. One ordinary day at the Medellín Metro, a situation involving a family being responsible begins to change the plans for the afternoon."
+            },
+            {
+              "html": "María is nearby and notices that Juan is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about cooperation and priorities."
+            },
+            {
+              "html": "“This is my choice, but that is our shared space,” the student says."
+            },
+            {
+              "html": "María reminds Juan that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Juan's <b>family</b> has a very busy week."
+            },
+            {
+              "html": "Mom asks Juan to <b>help</b> with dinner."
+            },
+            {
+              "html": "Juan learns to <b>cook</b> rice for everyone."
+            },
+            {
+              "html": "Juan's <b>grandma</b> needs company in the afternoon."
+            }
+          ],
+          "wordCount": 122
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week23_grade06_page02.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “A Busy Night At Home”, page 2. Scene based on: The situation becomes harder when family responsibilities interrupt a personal plan. Juan feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when family responsibilities interrupt a personal plan. Juan feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "María suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "The family asks, “Is it yours?” and checks before moving anything."
+            },
+            {
+              "html": "Juan listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "After dinner, they <b>clean</b> the kitchen together."
+            },
+            {
+              "html": "Juan's little <b>sister</b> needs help with homework."
+            },
+            {
+              "html": "The <b>homework</b> takes more time than expected."
+            }
+          ],
+          "wordCount": 113
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week23_grade06_page03.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “A Busy Night At Home”, page 3. Scene based on: Juan decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Juan decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "María explains that being responsible is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "At home, they use technology every day, but they also set simple rules."
+            },
+            {
+              "html": "By the end of the day, the immediate problem has a result. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Juan feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "<b>Dinner</b> is late because Dad works until eight."
+            },
+            {
+              "html": "Everyone is <b>tired</b>, but they still smile."
+            }
+          ],
+          "wordCount": 131
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week23_grade06_page04.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “A Busy Night At Home”, page 4. Scene based on: At home, Juan thinks about what could have happened if the group had reacted without checking anything. The student writes a short reflection: a responsible choice is not always the fastest or most popular choice. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At home, Juan thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "The student writes a short reflection: a responsible choice is not always the fastest or most popular choice."
+            },
+            {
+              "html": "Next time, Juan plans to ask a clearer question, confirm important information, and explain the reason for the decision."
+            },
+            {
+              "html": "The experience becomes part of how Juan understands school, family, technology, travel, and life in a larger world."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "They finish the work <b>together</b>."
+            }
+          ],
+          "wordCount": 98
+        }
+      ],
+      "practiceWords": [
+        "family",
+        "help",
+        "cook",
+        "clean",
+        "sister",
+        "homework",
+        "dinner",
+        "tired",
+        "together",
+        "grandma"
+      ],
+      "vocabulary": [
+        {
+          "word": "family",
+          "definition": "parents, children and relatives (familia)"
+        },
+        {
+          "word": "help",
+          "definition": "to make something easier for someone (ayudar)"
+        },
+        {
+          "word": "cook",
+          "definition": "to prepare food (cocinar)"
+        },
+        {
+          "word": "clean",
+          "definition": "to make something not dirty (limpiar)"
+        },
+        {
+          "word": "sister",
+          "definition": "a girl with the same parents as you (hermana)"
+        },
+        {
+          "word": "homework",
+          "definition": "school work done at home (tarea)"
+        },
+        {
+          "word": "dinner",
+          "definition": "the meal in the evening (cena)"
+        },
+        {
+          "word": "tired",
+          "definition": "needing rest (cansado)"
+        },
+        {
+          "word": "together",
+          "definition": "with each other (juntos)"
+        },
+        {
+          "word": "grandma",
+          "definition": "the mother of your mother or father (abuela)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "According to the text, where does Juan's situation begin?",
+          "options": [
+            "The Medellín Metro",
+            "A bus stop after school",
+            "A community center",
+            "A local shopping area"
+          ],
+          "answer": "The Medellín Metro"
+        },
+        {
+          "skill": "sequence",
+          "question": "What happens FIRST in the story?",
+          "options": [
+            "Juan notices a situation at the Medellín Metro.",
+            "Juan writes a short reflection at home.",
+            "The students hear different versions of what happened.",
+            "Juan takes one small, concrete action."
+          ],
+          "answer": "Juan notices a situation at the Medellín Metro."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Which word from the text means “school work done at home”?",
+          "options": [
+            "homework",
+            "clean",
+            "tired",
+            "family"
+          ],
+          "answer": "homework"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which option is the best summary of the text?",
+          "options": [
+            "Juan lies to the friends about the reason and the problem disappears.",
+            "María solves the problem alone while Juan watches.",
+            "Juan and María travel to New York to solve the problem.",
+            "Juan faces a problem because family responsibilities interrupt a personal plan, checks the facts with María and makes a responsible decision."
+          ],
+          "answer": "Juan faces a problem because family responsibilities interrupt a personal plan, checks the facts with María and makes a responsible decision."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Which action would go AGAINST what Juan learns in the story?",
+          "options": [
+            "Asking a clear question.",
+            "Verifying a detail first.",
+            "Explaining the reason for a decision.",
+            "Ignoring the family request completely without thinking."
+          ],
+          "answer": "Ignoring the family request completely without thinking."
+        }
+      ],
+      "cover": "../assets/images/week23_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "Plans Versus Family",
+      "minimumWordTarget": 400,
+      "wordCount": 513,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week23_grade07_page01.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “Plans Versus Family”, page 1. Scene based on: Valeria is 12 years old and studies in Medellín. One ordinary day at a library near the school, a situation involving a family responsibility begins to change the plans for the afternoon. Samuel is nearby and notices that Valeria is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valeria is 12 years old and studies in Medellín. One ordinary day at a library near the school, a situation involving a family responsibility begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Samuel is nearby and notices that Valeria is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about cooperation and priorities."
+            },
+            {
+              "html": "Valeria's <b>family</b> has a very busy week."
+            },
+            {
+              "html": "Mom asks Valeria to <b>help</b> with dinner."
+            },
+            {
+              "html": "Valeria learns to <b>cook</b> rice for everyone."
+            },
+            {
+              "html": "They finish the work <b>together</b>."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week23_grade07_page02.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “Plans Versus Family”, page 2. Scene based on: The situation becomes harder when family responsibilities interrupt a personal plan. Valeria feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when family responsibilities interrupt a personal plan. Valeria feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Samuel suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "“Are we going to change the plan?” one student asks."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "After dinner, they <b>clean</b> the kitchen together."
+            },
+            {
+              "html": "Valeria's little <b>sister</b> needs help with homework."
+            },
+            {
+              "html": "Valeria's <b>grandma</b> needs company in the afternoon."
+            }
+          ],
+          "wordCount": 116
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week23_grade07_page03.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “Plans Versus Family”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Valeria has to think about the first idea again. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Valeria has to think about the first idea again."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "The <b>homework</b> takes more time than expected."
+            }
+          ],
+          "wordCount": 106
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week23_grade07_page04.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “Plans Versus Family”, page 4. Scene based on: Valeria decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valeria decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Samuel explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "They point to the options: “This route is shorter, but these tickets are cheaper.”"
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week23_grade07_page05.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “Plans Versus Family”, page 5. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Valeria feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Valeria feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about cooperation and priorities."
+            },
+            {
+              "html": "At home, Valeria thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "<b>Dinner</b> is late because Dad works until eight."
+            },
+            {
+              "html": "Everyone is <b>tired</b>, but they still smile."
+            }
+          ],
+          "wordCount": 109
+        }
+      ],
+      "practiceWords": [
+        "family",
+        "help",
+        "cook",
+        "clean",
+        "sister",
+        "homework",
+        "dinner",
+        "tired",
+        "together",
+        "grandma"
+      ],
+      "vocabulary": [
+        {
+          "word": "family",
+          "definition": "parents, children and relatives (familia)"
+        },
+        {
+          "word": "help",
+          "definition": "to make something easier for someone (ayudar)"
+        },
+        {
+          "word": "cook",
+          "definition": "to prepare food (cocinar)"
+        },
+        {
+          "word": "clean",
+          "definition": "to make something not dirty (limpiar)"
+        },
+        {
+          "word": "sister",
+          "definition": "a girl with the same parents as you (hermana)"
+        },
+        {
+          "word": "homework",
+          "definition": "school work done at home (tarea)"
+        },
+        {
+          "word": "dinner",
+          "definition": "the meal in the evening (cena)"
+        },
+        {
+          "word": "tired",
+          "definition": "needing rest (cansado)"
+        },
+        {
+          "word": "together",
+          "definition": "with each other (juntos)"
+        },
+        {
+          "word": "grandma",
+          "definition": "the mother of your mother or father (abuela)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What makes the situation harder for Valeria?",
+          "options": [
+            "A student notices a person struggling nearby",
+            "An important plan suddenly changes",
+            "Family responsibilities interrupt a personal plan",
+            "Students try to improve a shared local space"
+          ],
+          "answer": "Family responsibilities interrupt a personal plan"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "What happens because the students do not have all the facts?",
+          "options": [
+            "They hear different versions of what happened.",
+            "They immediately find the solution.",
+            "They decide to go home early.",
+            "They stop talking to each other."
+          ],
+          "answer": "They hear different versions of what happened."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which word best represents the central topic of the text?",
+          "options": [
+            "consequences",
+            "family",
+            "communication",
+            "community"
+          ],
+          "answer": "family"
+        },
+        {
+          "skill": "simple inference",
+          "question": "Imagine you are in Valeria's situation. Which action follows the message of the text?",
+          "options": [
+            "Ignore the family request completely.",
+            "Explain the situation honestly to the family and the friends.",
+            "Ly to the friends about the reason.",
+            "Leave home without telling the family."
+          ],
+          "answer": "Explain the situation honestly to the family and the friends."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Complete the sentence from the text: “Mom asks Valeria to _____ with dinner.”",
+          "options": [
+            "cook",
+            "help",
+            "together",
+            "sister"
+          ],
+          "answer": "help"
+        }
+      ],
+      "cover": "../assets/images/week23_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "The Plan I Had To Leave",
+      "minimumWordTarget": 450,
+      "wordCount": 562,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week23_grade08_page01.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Plan I Had To Leave”, page 1. Scene based on: Camila is 13 years old and studies in Medellín. One ordinary day at a sports court on a Medellín hillside, a situation involving a family responsibility begins to change the plans for the afternoon. Lucía is nearby and notices that Camila is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Camila is 13 years old and studies in Medellín. One ordinary day at a sports court on a Medellín hillside, a situation involving a family responsibility begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Lucía is nearby and notices that Camila is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about cooperation and priorities."
+            },
+            {
+              "html": "Washing dishes is Camila's daily <b>chore</b>."
+            },
+            {
+              "html": "Camila must <b>babysit</b> a younger cousin on Saturday."
+            },
+            {
+              "html": "Every member of the <b>household</b> has a task."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week23_grade08_page02.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Plan I Had To Leave”, page 2. Scene based on: The situation becomes harder when family responsibilities interrupt a personal plan. Camila feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when family responsibilities interrupt a personal plan. Camila feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Lucía suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "They are meeting again on Friday, so the plan already feels real."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "Mom sends Camila on an <b>errand</b> to the pharmacy."
+            },
+            {
+              "html": "Camila also made a <b>commitment</b> to friends."
+            }
+          ],
+          "wordCount": 96
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week23_grade08_page03.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Plan I Had To Leave”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Camila has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Camila has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Camila does not want to <b>cancel</b> without explaining."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week23_grade08_page04.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Plan I Had To Leave”, page 4. Scene based on: Camila decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Camila decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Lucía explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "The teacher gives them time to discuss the problem and asks the group to listen."
+            },
+            {
+              "html": "Lucía reminds Camila that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Lucía suggests they <b>reschedule</b> the plan for Sunday."
+            },
+            {
+              "html": "The youngest <b>sibling</b> cannot stay home alone."
+            }
+          ],
+          "wordCount": 104
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week23_grade08_page05.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Plan I Had To Leave”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in Brooklyn, New York. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in Brooklyn, New York."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Camila realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "Family duties feel like an <b>obligation</b>, but also like care."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week23_grade08_page06.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Plan I Had To Leave”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Camila feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Camila feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about cooperation and priorities."
+            },
+            {
+              "html": "At home, Camila thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "Camila wants to <b>balance</b> family and friends."
+            }
+          ],
+          "wordCount": 101
+        }
+      ],
+      "practiceWords": [
+        "chore",
+        "babysit",
+        "errand",
+        "commitment",
+        "cancel",
+        "reschedule",
+        "sibling",
+        "obligation",
+        "balance",
+        "household"
+      ],
+      "vocabulary": [
+        {
+          "word": "chore",
+          "definition": "a regular job at home (quehacer)"
+        },
+        {
+          "word": "babysit",
+          "definition": "to take care of children (cuidar niños)"
+        },
+        {
+          "word": "errand",
+          "definition": "a short trip to do a task (diligencia, mandado)"
+        },
+        {
+          "word": "commitment",
+          "definition": "a promise to do something (compromiso)"
+        },
+        {
+          "word": "cancel",
+          "definition": "to decide that a plan will not happen (cancelar)"
+        },
+        {
+          "word": "reschedule",
+          "definition": "to change the time of a plan (reprogramar)"
+        },
+        {
+          "word": "sibling",
+          "definition": "a brother or sister (hermano o hermana)"
+        },
+        {
+          "word": "obligation",
+          "definition": "something you must do (obligación)"
+        },
+        {
+          "word": "balance",
+          "definition": "to give the right amount of time to different things (equilibrar)"
+        },
+        {
+          "word": "household",
+          "definition": "the people who live in a home (hogar)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Which statement is TRUE according to the text?",
+          "options": [
+            "Lucía suggests checking the information before blaming anyone.",
+            "Camila leaves home without telling the family.",
+            "Lucía wants Camila to react immediately.",
+            "The students have all the facts from the beginning."
+          ],
+          "answer": "Lucía suggests checking the information before blaming anyone."
+        },
+        {
+          "skill": "inference",
+          "question": "Imagine you are in Camila's situation. Which action follows the message of the text?",
+          "options": [
+            "Explain the situation honestly to the family and the friends.",
+            "Ignore the family request completely.",
+            "Leave home without telling the family.",
+            "Ly to the friends about the reason."
+          ],
+          "answer": "Explain the situation honestly to the family and the friends."
+        },
+        {
+          "skill": "purpose",
+          "question": "What is the purpose of the question “What do you know for sure, and what are you only assuming?”",
+          "options": [
+            "To help the students separate evidence from emotion.",
+            "To give the students a grammar exercise.",
+            "To end the conversation quickly.",
+            "To blame one student for the problem."
+          ],
+          "answer": "To help the students separate evidence from emotion."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which sentence best expresses the main lesson of the text?",
+          "options": [
+            "Good decisions come from evidence, not from pressure.",
+            "It is better to stay silent when there is a problem.",
+            "The fastest reaction is always the best one.",
+            "Popular opinions are usually correct."
+          ],
+          "answer": "Good decisions come from evidence, not from pressure."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Which word from the text means “something you must do”?",
+          "options": [
+            "obligation",
+            "balance",
+            "reschedule",
+            "household"
+          ],
+          "answer": "obligation"
+        }
+      ],
+      "cover": "../assets/images/week23_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "Work At Home Or Plans With Friends",
+      "minimumWordTarget": 500,
+      "wordCount": 630,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week23_grade09_page01.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “Work At Home Or Plans With Friends”, page 1. Scene based on: Daniela is 14 years old and studies in Medellín. One ordinary day at a small family apartment, a situation involving a family responsibility begins to change the plans for the afternoon. Mateo is nearby and notices that Daniela is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniela is 14 years old and studies in Medellín. One ordinary day at a small family apartment, a situation involving a family responsibility begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Mateo is nearby and notices that Daniela is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about cooperation and priorities."
+            },
+            {
+              "html": "Washing dishes is Daniela's daily <b>chore</b>."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "Daniela must <b>babysit</b> a younger cousin on Saturday."
+            },
+            {
+              "html": "Mom sends Daniela on an <b>errand</b> to the pharmacy."
+            },
+            {
+              "html": "Family duties feel like an <b>obligation</b>, but also like care."
+            }
+          ],
+          "wordCount": 118
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week23_grade09_page02.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “Work At Home Or Plans With Friends”, page 2. Scene based on: The situation becomes harder when family responsibilities interrupt a personal plan. Daniela feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when family responsibilities interrupt a personal plan. Daniela feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Mateo suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "The students have to consider safety before making a decision."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Mateo reminds Daniela that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Daniela wants to <b>balance</b> family and friends."
+            }
+          ],
+          "wordCount": 101
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week23_grade09_page03.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “Work At Home Or Plans With Friends”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Daniela has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Daniela has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Mateo reminds Daniela that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Daniela also made a <b>commitment</b> to friends."
+            },
+            {
+              "html": "Every member of the <b>household</b> has a task."
+            }
+          ],
+          "wordCount": 108
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week23_grade09_page04.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “Work At Home Or Plans With Friends”, page 4. Scene based on: Daniela decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniela decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Mateo explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "The situation might improve, but it may also become harder if nobody checks the facts."
+            },
+            {
+              "html": "Daniela listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "Daniela does not want to <b>cancel</b> without explaining."
+            }
+          ],
+          "wordCount": 97
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week23_grade09_page05.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “Work At Home Or Plans With Friends”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in a subway station in Manhattan. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in a subway station in Manhattan."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Daniela realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Mateo suggests they <b>reschedule</b> the plan for Sunday."
+            }
+          ],
+          "wordCount": 105
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week23_grade09_page06.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “Work At Home Or Plans With Friends”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Daniela feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Daniela feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about cooperation and priorities."
+            },
+            {
+              "html": "At home, Daniela thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "The youngest <b>sibling</b> cannot stay home alone."
+            }
+          ],
+          "wordCount": 101
+        }
+      ],
+      "practiceWords": [
+        "chore",
+        "babysit",
+        "errand",
+        "commitment",
+        "cancel",
+        "reschedule",
+        "sibling",
+        "obligation",
+        "balance",
+        "household"
+      ],
+      "vocabulary": [
+        {
+          "word": "chore",
+          "definition": "a regular job at home (quehacer)"
+        },
+        {
+          "word": "babysit",
+          "definition": "to take care of children (cuidar niños)"
+        },
+        {
+          "word": "errand",
+          "definition": "a short trip to do a task (diligencia, mandado)"
+        },
+        {
+          "word": "commitment",
+          "definition": "a promise to do something (compromiso)"
+        },
+        {
+          "word": "cancel",
+          "definition": "to decide that a plan will not happen (cancelar)"
+        },
+        {
+          "word": "reschedule",
+          "definition": "to change the time of a plan (reprogramar)"
+        },
+        {
+          "word": "sibling",
+          "definition": "a brother or sister (hermano o hermana)"
+        },
+        {
+          "word": "obligation",
+          "definition": "something you must do (obligación)"
+        },
+        {
+          "word": "balance",
+          "definition": "to give the right amount of time to different things (equilibrar)"
+        },
+        {
+          "word": "household",
+          "definition": "the people who live in a home (hogar)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "According to the text, where does Daniela's situation begin?",
+          "options": [
+            "The Medellín Metro",
+            "A small family apartment",
+            "A library near the school",
+            "A community center"
+          ],
+          "answer": "A small family apartment"
+        },
+        {
+          "skill": "inference",
+          "question": "What can be inferred about Mateo?",
+          "options": [
+            "He wants Daniela to react as fast as possible.",
+            "He is not interested in the problem.",
+            "He helps Daniela think carefully before acting.",
+            "He created the problem on purpose."
+          ],
+          "answer": "He helps Daniela think carefully before acting."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What is the relationship between the Medellín situation and the New York example?",
+          "options": [
+            "They are completely unrelated situations.",
+            "Both show the same basic problem in different places.",
+            "The New York example causes the Medellín problem.",
+            "The Medellín situation solves the New York problem."
+          ],
+          "answer": "Both show the same basic problem in different places."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which word best represents the central topic of the text?",
+          "options": [
+            "memories",
+            "consent",
+            "appearance",
+            "family"
+          ],
+          "answer": "family"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read this sentence from page 1: “Mom sends Daniela on an errand to the pharmacy.” In this sentence, the word “errand” means…",
+          "options": [
+            "a short trip to do a task",
+            "a brother or sister",
+            "something you must do",
+            "to decide that a plan will not happen"
+          ],
+          "answer": "a short trip to do a task"
+        }
+      ],
+      "cover": "../assets/images/week23_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "The Decision Between Home And Plans",
+      "minimumWordTarget": 600,
+      "wordCount": 768,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week23_grade10_page01.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Decision Between Home And Plans”, page 1. Scene based on: Mateo is 15–16 years old and studies in Medellín. One ordinary day at a community center, a situation involving a family responsibility begins to change the plans for the afternoon. Isabella is nearby and notices that Mateo is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mateo is 15–16 years old and studies in Medellín. One ordinary day at a community center, a situation involving a family responsibility begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Isabella is nearby and notices that Mateo is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about cooperation and priorities."
+            },
+            {
+              "html": "This week, Mateo becomes a part-time <b>caregiver</b> for a grandparent."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "A <b>compromise</b> lets Mateo help at home and see friends later."
+            }
+          ],
+          "wordCount": 104
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week23_grade10_page02.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Decision Between Home And Plans”, page 2. Scene based on: The situation becomes harder when family responsibilities interrupt a personal plan. Mateo feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when family responsibilities interrupt a personal plan. Mateo feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Isabella suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "The group is meeting after class, and they are going to compare several options."
+            },
+            {
+              "html": "Isabella reminds Mateo that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Mateo listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "It is hard to <b>juggle</b> school, home and friends."
+            },
+            {
+              "html": "Good friends are <b>flexible</b> when a family need appears."
+            }
+          ],
+          "wordCount": 113
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week23_grade10_page03.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Decision Between Home And Plans”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Mateo has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Mateo has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Mateo listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "Family <b>expectations</b> and personal plans sometimes collide."
+            }
+          ],
+          "wordCount": 100
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week23_grade10_page04.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Decision Between Home And Plans”, page 4. Scene based on: Mateo decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mateo decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Isabella explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "One student says, “I will call if the plan changes.”"
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "Mateo decides to <b>negotiate</b> a new time with friends."
+            },
+            {
+              "html": "The group changes the meeting time to <b>accommodate</b> Mateo's situation."
+            }
+          ],
+          "wordCount": 124
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week23_grade10_page05.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Decision Between Home And Plans”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in a youth exchange in New York City. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in a youth exchange in New York City."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Mateo realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "Everyone should <b>contribute</b> at home, not only the parents."
+            },
+            {
+              "html": "Mateo wants to be <b>dependable</b> for family and friends."
+            }
+          ],
+          "wordCount": 121
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week23_grade10_page06.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Decision Between Home And Plans”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Mateo feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Mateo feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about cooperation and priorities."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            }
+          ],
+          "wordCount": 97
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week23_grade10_page07.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Decision Between Home And Plans”, page 7. Scene based on: The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another. They also discuss the author’s purpose and decide which detail best supports the final lesson. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another."
+            },
+            {
+              "html": "They also discuss the author’s purpose and decide which detail best supports the final lesson."
+            },
+            {
+              "html": "Mateo notices that strong reading is not only translating words. It means connecting evidence, sequence, intention, and consequences."
+            },
+            {
+              "html": "That habit will be useful in future exams because a difficult question often depends on a small but meaningful detail."
+            },
+            {
+              "html": "Isabella reminds Mateo that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Helping should not feel like a <b>burden</b> when it is shared."
+            }
+          ],
+          "wordCount": 109
+        }
+      ],
+      "practiceWords": [
+        "caregiver",
+        "juggle",
+        "negotiate",
+        "contribute",
+        "burden",
+        "compromise",
+        "flexible",
+        "expectations",
+        "accommodate",
+        "dependable"
+      ],
+      "vocabulary": [
+        {
+          "word": "caregiver",
+          "definition": "a person who takes care of someone (cuidador)"
+        },
+        {
+          "word": "juggle",
+          "definition": "to manage several activities at the same time (compaginar)"
+        },
+        {
+          "word": "negotiate",
+          "definition": "to discuss in order to reach an agreement (negociar)"
+        },
+        {
+          "word": "contribute",
+          "definition": "to give or do your part (contribuir)"
+        },
+        {
+          "word": "burden",
+          "definition": "a heavy responsibility (carga)"
+        },
+        {
+          "word": "compromise",
+          "definition": "an agreement where each side gives a little (acuerdo, término medio)"
+        },
+        {
+          "word": "flexible",
+          "definition": "able to change easily (flexible)"
+        },
+        {
+          "word": "expectations",
+          "definition": "what people think should happen (expectativas)"
+        },
+        {
+          "word": "accommodate",
+          "definition": "to adapt to someone's needs (adaptarse a)"
+        },
+        {
+          "word": "dependable",
+          "definition": "able to be trusted to do what is promised (confiable)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Who notices that Mateo is paying close attention to what is happening?",
+          "options": [
+            "Diego",
+            "Tomás",
+            "Isabella",
+            "Sara"
+          ],
+          "answer": "Isabella"
+        },
+        {
+          "skill": "inference",
+          "question": "Why does Mateo listen carefully before answering?",
+          "options": [
+            "Because one missing detail can change the meaning of the situation.",
+            "Because nobody else is paying attention.",
+            "Because he does not understand Spanish.",
+            "Because the teacher prohibits talking."
+          ],
+          "answer": "Because one missing detail can change the meaning of the situation."
+        },
+        {
+          "skill": "purpose",
+          "question": "What is the purpose of the question “What do you know for sure, and what are you only assuming?”",
+          "options": [
+            "To give the students a grammar exercise.",
+            "To end the conversation quickly.",
+            "To blame one student for the problem.",
+            "To help the students separate evidence from emotion."
+          ],
+          "answer": "To help the students separate evidence from emotion."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In “Instead of having all the facts, the students hear different versions of what happened,” the expression “instead of” shows that…",
+          "options": [
+            "the students have all the information they need",
+            "the students get rumors in place of complete information",
+            "the versions are all exactly the same",
+            "the facts arrive after a long time"
+          ],
+          "answer": "the students get rumors in place of complete information"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which sentence best expresses the main lesson of the text?",
+          "options": [
+            "The fastest reaction is always the best one.",
+            "Good decisions come from evidence, not from pressure.",
+            "Popular opinions are usually correct.",
+            "It is better to stay silent when there is a problem."
+          ],
+          "answer": "Good decisions come from evidence, not from pressure."
+        }
+      ],
+      "cover": "../assets/images/week23_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "When Family Responsibilities Change A Plan",
+      "minimumWordTarget": 700,
+      "wordCount": 826,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week23_grade11_page01.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “When Family Responsibilities Change A Plan”, page 1. Scene based on: Daniela is 17–18 years old and studies in Medellín. One ordinary day at a local shopping area, a situation involving a family responsibility begins to change the plans for the afternoon. Nicolás is nearby and notices that Daniela is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniela is 17–18 years old and studies in Medellín. One ordinary day at a local shopping area, a situation involving a family responsibility begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Nicolás is nearby and notices that Daniela is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about cooperation and priorities."
+            },
+            {
+              "html": "Students must follow the safety rules, but they do not have to accept every suggestion."
+            },
+            {
+              "html": "Nicolás reminds Daniela that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "This week, Daniela becomes a part-time <b>caregiver</b> for a grandparent."
+            },
+            {
+              "html": "It is hard to <b>juggle</b> school, home and friends."
+            },
+            {
+              "html": "Daniela wants to be <b>dependable</b> for family and friends."
+            }
+          ],
+          "wordCount": 124
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week23_grade11_page02.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “When Family Responsibilities Change A Plan”, page 2. Scene based on: The situation becomes harder when family responsibilities interrupt a personal plan. Daniela feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when family responsibilities interrupt a personal plan. Daniela feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Nicolás suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "Daniela decides to <b>negotiate</b> a new time with friends."
+            },
+            {
+              "html": "Daniela listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week23_grade11_page03.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “When Family Responsibilities Change A Plan”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Daniela has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Daniela has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Everyone should <b>contribute</b> at home, not only the parents."
+            }
+          ],
+          "wordCount": 102
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week23_grade11_page04.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “When Family Responsibilities Change A Plan”, page 4. Scene based on: Daniela decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniela decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Nicolás explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "Helping should not feel like a <b>burden</b> when it is shared."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "A <b>compromise</b> lets Daniela help at home and see friends later."
+            }
+          ],
+          "wordCount": 100
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week23_grade11_page05.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “When Family Responsibilities Change A Plan”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in an online classroom shared with New York students. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in an online classroom shared with New York students."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Daniela realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            }
+          ],
+          "wordCount": 103
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week23_grade11_page06.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “When Family Responsibilities Change A Plan”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Daniela feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Daniela feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about cooperation and priorities."
+            },
+            {
+              "html": "Nicolás reminds Daniela that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Good friends are <b>flexible</b> when a family need appears."
+            }
+          ],
+          "wordCount": 103
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week23_grade11_page07.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “When Family Responsibilities Change A Plan”, page 7. Scene based on: At home, Daniela thinks about what could have happened if the group had reacted without checking anything. The student writes a short reflection: a responsible choice is not always the fastest or most popular choice. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At home, Daniela thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "The student writes a short reflection: a responsible choice is not always the fastest or most popular choice."
+            },
+            {
+              "html": "Next time, Daniela plans to ask a clearer question, confirm important information, and explain the reason for the decision."
+            },
+            {
+              "html": "The experience becomes part of how Daniela understands school, family, technology, travel, and life in a larger world."
+            },
+            {
+              "html": "Daniela listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "Family <b>expectations</b> and personal plans sometimes collide."
+            }
+          ],
+          "wordCount": 96
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week23_grade11_page08.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “When Family Responsibilities Change A Plan”, page 8. Scene based on: The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another. They also discuss the author’s purpose and decide which detail best supports the final lesson. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another."
+            },
+            {
+              "html": "They also discuss the author’s purpose and decide which detail best supports the final lesson."
+            },
+            {
+              "html": "Daniela notices that strong reading is not only translating words. It means connecting evidence, sequence, intention, and consequences."
+            },
+            {
+              "html": "That habit will be useful in future exams because a difficult question often depends on a small but meaningful detail."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "The group changes the meeting time to <b>accommodate</b> Daniela's situation."
+            }
+          ],
+          "wordCount": 108
+        }
+      ],
+      "practiceWords": [
+        "caregiver",
+        "juggle",
+        "negotiate",
+        "contribute",
+        "burden",
+        "compromise",
+        "flexible",
+        "expectations",
+        "accommodate",
+        "dependable"
+      ],
+      "vocabulary": [
+        {
+          "word": "caregiver",
+          "definition": "a person who takes care of someone (cuidador)"
+        },
+        {
+          "word": "juggle",
+          "definition": "to manage several activities at the same time (compaginar)"
+        },
+        {
+          "word": "negotiate",
+          "definition": "to discuss in order to reach an agreement (negociar)"
+        },
+        {
+          "word": "contribute",
+          "definition": "to give or do your part (contribuir)"
+        },
+        {
+          "word": "burden",
+          "definition": "a heavy responsibility (carga)"
+        },
+        {
+          "word": "compromise",
+          "definition": "an agreement where each side gives a little (acuerdo, término medio)"
+        },
+        {
+          "word": "flexible",
+          "definition": "able to change easily (flexible)"
+        },
+        {
+          "word": "expectations",
+          "definition": "what people think should happen (expectativas)"
+        },
+        {
+          "word": "accommodate",
+          "definition": "to adapt to someone's needs (adaptarse a)"
+        },
+        {
+          "word": "dependable",
+          "definition": "able to be trusted to do what is promised (confiable)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "What does the idea “a responsible choice is not always the fastest or most popular choice” suggest?",
+          "options": [
+            "Good decisions sometimes take time and may not please everyone.",
+            "Popular choices are always irresponsible.",
+            "Students should never listen to their friends.",
+            "Fast decisions are always wrong."
+          ],
+          "answer": "Good decisions sometimes take time and may not please everyone."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In “Instead of having all the facts, the students hear different versions of what happened,” the expression “instead of” shows that…",
+          "options": [
+            "the versions are all exactly the same",
+            "the facts arrive after a long time",
+            "the students get rumors in place of complete information",
+            "the students have all the information they need"
+          ],
+          "answer": "the students get rumors in place of complete information"
+        },
+        {
+          "skill": "purpose",
+          "question": "What is the author's main purpose in this text?",
+          "options": [
+            "To show, through a story, how to act responsibly when family responsibilities interrupt a personal plan.",
+            "To describe the history of Medellín.",
+            "To sell a product to students.",
+            "To give scientific data about teenagers in Colombia."
+          ],
+          "answer": "To show, through a story, how to act responsibly when family responsibilities interrupt a personal plan."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read this sentence from page 4: “Helping should not feel like a burden when it is shared.” In this sentence, the word “burden” means…",
+          "options": [
+            "to give or do your part",
+            "a heavy responsibility",
+            "able to be trusted to do what is promised",
+            "what people think should happen"
+          ],
+          "answer": "a heavy responsibility"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which word best represents the central topic of the text?",
+          "options": [
+            "family",
+            "memories",
+            "weather",
+            "inclusion"
+          ],
+          "answer": "family"
+        }
+      ],
+      "cover": "../assets/images/week23_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

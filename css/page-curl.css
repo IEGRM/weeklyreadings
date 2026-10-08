@@ -1,0 +1,85 @@
+/* =========================================================
+   PAGE CURL — layers used by js/page-curl.js
+   ========================================================= */
+#flipPage{
+  position:relative;
+  touch-action:pan-y;           /* vertical scroll stays native; horizontal = page turn */
+  -webkit-tap-highlight-color:transparent;
+}
+
+.pc-stage{
+  position:absolute;
+  z-index:40;
+  pointer-events:none;
+}
+.pc-stage *{ pointer-events:none !important; }
+
+.pc-under,
+.pc-reveal,
+.pc-front,
+.pc-flap-wrap{
+  position:absolute;
+  inset:0;
+}
+
+.pc-reveal,
+.pc-front{
+  overflow:hidden;
+  will-change:clip-path;
+}
+
+.pc-flap-wrap{
+  /* Shadow of the lifted sheet over the page below it. */
+  filter:drop-shadow(0 4px 12px rgba(52,34,12,.30));
+}
+
+.pc-flap{
+  position:absolute;
+  left:0;
+  top:0;
+  overflow:hidden;
+  transform-origin:0 0;
+  will-change:transform, clip-path;
+}
+
+/* Back side of a single sheet: warm paper with a faint grain. */
+.pc-paper{
+  background:
+    radial-gradient(circle at 30% 20%, rgba(255,255,255,.65), transparent 55%),
+    repeating-linear-gradient(0deg, rgba(120,95,60,.025) 0 2px, transparent 2px 5px),
+    linear-gradient(180deg,#fffdf6,#f5ecdb);
+}
+
+.pc-strip{
+  position:absolute;
+  left:0;
+  top:0;
+  transform-origin:0 0;
+}
+
+.pc-spine{
+  position:absolute;
+  top:18px;
+  bottom:18px;
+  left:-10px;
+  width:20px;
+  background:linear-gradient(90deg,rgba(62,45,26,.10),rgba(255,255,255,.72),rgba(62,45,26,.12));
+  filter:blur(4px);
+  opacity:.78;
+}
+
+/* Cursor cues (mouse only) */
+@media (hover:hover) and (pointer:fine){
+  #flipPage.pc-grab{ cursor:grab; }
+  #flipPage.pc-dragging,
+  #flipPage.pc-dragging *{ cursor:grabbing !important; }
+}
+
+body.pc-no-select,
+body.pc-no-select *{
+  -webkit-user-select:none !important;
+  user-select:none !important;
+}
+
+/* The page turn is triggered by the reader, so it stays visible even when the
+   system asks for reduced motion (page-curl.js only makes it quicker). */

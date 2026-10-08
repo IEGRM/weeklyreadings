@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="google" content="notranslate" />
+  <meta name="theme-color" content="#cfe9ff" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <title>Little Readers</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Baloo+2:wght@600;700;800&display=swap" />
+  <link rel="stylesheet" href="../css/little-readers.css?v=20260927" />
+
+  <!-- Links file: edit ONLY data/little-readers-links.js to add the Artistly flipbooks -->
+  <script src="../data/little-readers-links.js?v=20260927" defer></script>
+  <script src="../js/little-readers.js?v=20260927" defer></script>
+</head>
+
+<body>
+  <a class="lr-skip" href="#shelf">Skip to the books</a>
+
+  <header class="lr-top">
+    <a class="lr-home" href="../index.html">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" /></svg>
+      Home
+    </a>
+    <div class="lr-brand">
+      <img src="../assets/images/school_logo.png" alt="I.E. Gabriel Restrepo Moreno" width="44" height="44" />
+      <span>Little Readers</span>
+    </div>
+  </header>
+
+  <section class="lr-hero">
+    <div class="lr-hero-copy">
+      <h1>Hello, little reader!</h1>
+      <p>Pick your grade, choose a book and turn the pages.</p>
+    </div>
+
+    <!-- Medellín sky: mountains, colorful houses and the Metrocable -->
+    <svg class="lr-scene" viewBox="0 0 1200 420" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false">
+      <circle class="sun" cx="1080" cy="70" r="46" />
+      <g class="clouds">
+        <path d="M120 80a26 26 0 0 1 48-12 22 22 0 0 1 38 14 18 18 0 0 1-4 36H128a20 20 0 0 1-8-38z" />
+        <path d="M880 140a20 20 0 0 1 37-9 17 17 0 0 1 29 11 14 14 0 0 1-3 28h-57a15 15 0 0 1-6-30z" />
+        <path d="M520 46a16 16 0 0 1 30-7 14 14 0 0 1 24 9 11 11 0 0 1-3 22h-46a12 12 0 0 1-5-24z" />
+      </g>
+
+      <path class="mtn-far" d="M0 250 L120 170 L230 220 L360 140 L500 210 L640 150 L780 215 L920 135 L1060 205 L1200 160 V420 H0z" />
+      <path class="mtn-mid" d="M0 300 C120 250 220 262 330 240 C460 214 560 262 690 248 C820 234 920 206 1040 226 C1110 238 1160 250 1200 246 V420 H0z" />
+
+      <g class="houses">
+        <rect x="620" y="246" width="24" height="24" rx="3" class="h4" />
+        <rect x="650" y="240" width="28" height="30" rx="3" class="h1" /><rect x="684" y="248" width="22" height="22" rx="3" class="h5" />
+        <rect x="860" y="222" width="26" height="24" rx="3" class="h3" /><rect x="892" y="214" width="24" height="32" rx="3" class="h2" />
+        <rect x="922" y="226" width="30" height="20" rx="3" class="h4" /><rect x="1000" y="226" width="22" height="22" rx="3" class="h5" />
+        <rect x="1028" y="220" width="26" height="28" rx="3" class="h1" />
+      </g>
+
+      <path class="mtn-near" d="M0 350 C160 312 300 330 460 318 C640 304 760 336 930 322 C1060 312 1140 322 1200 318 V420 H0z" />
+
+      <!-- station + cable line + tower -->
+      <path class="tower" d="M530 250 V160 M590 250 V160" />
+      <rect class="station" x="514" y="136" width="92" height="30" rx="6" />
+      <path class="station-roof" d="M506 138 L560 112 L614 138 Z" />
+      <line class="cable" x1="560" y1="134" x2="1220" y2="2" />
+      <path class="tower" d="M932 312 L946 57 L960 312 M936 250 H956 M940 180 H952" />
+
+      <!-- the gondola glides in once, then sways gently -->
+      <g class="gondola-glide">
+        <g class="gondola-sway">
+          <circle class="wheel" cx="760" cy="94" r="7" />
+          <path class="hanger" d="M760 94 V128 M738 128 H782" />
+          <rect class="cabin" x="700" y="128" width="120" height="88" rx="18" />
+          <rect class="cabin-roof" x="708" y="128" width="104" height="14" rx="7" />
+          <rect class="window" x="712" y="148" width="44" height="40" rx="8" />
+          <rect class="window" x="764" y="148" width="44" height="40" rx="8" />
+          <circle class="kid k1" cx="734" cy="176" r="11" />
+          <circle class="kid k2" cx="786" cy="176" r="11" />
+          <rect class="stripe" x="700" y="198" width="120" height="8" />
+        </g>
+      </g>
+    </svg>
+  </section>
+
+  <main class="lr-main">
+    <section class="lr-grades" aria-labelledby="gradeQuestion">
+      <h2 id="gradeQuestion">What grade are you in?</h2>
+      <div class="lr-grade-row" role="tablist" aria-label="Grades" id="gradeTabs">
+        <button class="lr-grade g1" role="tab" type="button" data-grade="1" aria-controls="shelf"><b>1</b><span>Grade</span></button>
+        <button class="lr-grade g2" role="tab" type="button" data-grade="2" aria-controls="shelf"><b>2</b><span>Grade</span></button>
+        <button class="lr-grade g3" role="tab" type="button" data-grade="3" aria-controls="shelf"><b>3</b><span>Grade</span></button>
+        <button class="lr-grade g4" role="tab" type="button" data-grade="4" aria-controls="shelf"><b>4</b><span>Grade</span></button>
+        <button class="lr-grade g5" role="tab" type="button" data-grade="5" aria-controls="shelf"><b>5</b><span>Grade</span></button>
+      </div>
+    </section>
+
+    <section class="lr-shelf" id="shelf" role="tabpanel" aria-labelledby="shelfTitle" tabindex="-1">
+      <div class="lr-shelf-head">
+        <h2 id="shelfTitle">Grade 1 books</h2>
+        <div class="lr-periods" role="tablist" aria-label="Periods" id="periodTabs">
+          <button class="lr-period" role="tab" type="button" data-period="1">Period 1 <small></small></button>
+          <button class="lr-period" role="tab" type="button" data-period="2">Period 2 <small></small></button>
+          <button class="lr-period" role="tab" type="button" data-period="3">Period 3 <small></small></button>
+        </div>
+      </div>
+
+      <ol class="lr-books" id="bookList" aria-live="polite"></ol>
+    </section>
+
+    <noscript>
+      <p class="lr-noscript">Turn on JavaScript to see the books.</p>
+    </noscript>
+  </main>
+
+  <footer class="lr-foot">
+    <span>I.E. Gabriel Restrepo Moreno</span>
+	<span>Developer: Teacher Jony Rojas</span
+    <span>English Reading Project</span>
+  </footer>
+
+  <!-- Flipbook reader -->
+  <dialog class="lr-reader" id="reader" aria-labelledby="readerTitle">
+    <div class="lr-reader-bar">
+      <div class="lr-reader-name">
+        <p id="readerMeta">Grade 1, Period 1, Reading 1</p>
+        <h2 id="readerTitle">Book</h2>
+      </div>
+      <a class="lr-btn lr-btn-soft" id="readerNewTab" href="#" target="_blank" rel="noopener noreferrer">Open in new tab</a>
+      <button class="lr-btn lr-btn-close" id="readerClose" type="button" aria-label="Close the book">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" /></svg>
+        <span>Close</span>
+      </button>
+    </div>
+    <div class="lr-reader-body">
+      <div class="lr-loading" id="readerLoading">
+        <span class="lr-dot"></span><span class="lr-dot"></span><span class="lr-dot"></span>
+        <p>Opening your book</p>
+      </div>
+      <iframe id="readerFrame" title="Flipbook"
+              allow="fullscreen; autoplay; clipboard-write"
+              allowfullscreen
+              referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+    <p class="lr-reader-help">Book not showing? Tap <b>Open in new tab</b>.</p>
+  </dialog>
+</body>
+</html>

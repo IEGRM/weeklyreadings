@@ -1,0 +1,2274 @@
+{
+  "week": 40,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 40",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "The Park Nobody Noticed",
+      "minimumWordTarget": 350,
+      "wordCount": 356,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week40_grade06_page01.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Park Nobody Noticed”, page 1. Scene based on: In front of a small, almost empty public park between apartment buildings in Medellín in the afternoon, Mateo, 11, and Sara, 11, stand at the entrance looking at a quiet park with old swings, a small basketball court and tall trees, with nobody inside. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "There is a small <b>park</b> next to Mateo’s building."
+            },
+            {
+              "html": "Every day, he walks past it with his friend Sara."
+            },
+            {
+              "html": "The park is always <b>empty</b>."
+            },
+            {
+              "html": "There are no children and no families."
+            },
+            {
+              "html": "“Why does nobody go to the park?” Sara asks."
+            },
+            {
+              "html": "“My mom says there is nothing to do there,” Mateo says."
+            },
+            {
+              "html": "“Is that true?” Sara asks."
+            },
+            {
+              "html": "Mateo doesn’t know."
+            },
+            {
+              "html": "He has never really gone inside."
+            },
+            {
+              "html": "“Let’s go and see,” Sara says."
+            },
+            {
+              "html": "They open the small metal gate of the park."
+            }
+          ],
+          "wordCount": 80
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week40_grade06_page02.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Park Nobody Noticed”, page 2. Scene based on: Inside the park, Sara sits on a swing and Mateo throws a ball at a basketball hoop on a small court, while a big mango tree with fruit stands behind them and a little stage made of stone is visible near the trees. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mateo and Sara walk into the park."
+            },
+            {
+              "html": "They are very surprised."
+            },
+            {
+              "html": "There are three <b>swing</b>s near the entrance."
+            },
+            {
+              "html": "There is a small basketball <b>court</b> behind the trees."
+            },
+            {
+              "html": "There is a little stone stage in the corner."
+            },
+            {
+              "html": "There is a big mango <b>tree</b> in the middle."
+            },
+            {
+              "html": "It has many yellow mangoes!"
+            },
+            {
+              "html": "“There are many things to do here!” Sara says."
+            },
+            {
+              "html": "Mateo can’t believe it."
+            },
+            {
+              "html": "She sits on a swing, and Mateo plays basketball."
+            },
+            {
+              "html": "They play for one hour and have a lot of fun."
+            },
+            {
+              "html": "Sara picks a mango from the tree, and they share it."
+            }
+          ],
+          "wordCount": 94
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week40_grade06_page03.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Park Nobody Noticed”, page 3. Scene based on: As the sun goes down in the park, Mateo and Sara stand next to a broken street lamp with no light, while the park becomes dark and a mother calls her children away from the entrance. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At six o’clock, the sun goes down."
+            },
+            {
+              "html": "The park becomes very dark."
+            },
+            {
+              "html": "Mateo looks around."
+            },
+            {
+              "html": "There is only one <b>light</b> in the park, and it’s broken."
+            },
+            {
+              "html": "A mother with two children walks past."
+            },
+            {
+              "html": "“Come on, kids. The park is too dark,” she says."
+            },
+            {
+              "html": "“Now I understand,” Sara says."
+            },
+            {
+              "html": "“There are many things to do in the day.”"
+            },
+            {
+              "html": "“But at night, there are no lights.”"
+            },
+            {
+              "html": "“Families come home from work at six. It’s dark then.”"
+            },
+            {
+              "html": "Mateo nods. “We need to do something.”"
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week40_grade06_page04.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Park Nobody Noticed”, page 4. Scene based on: In the park on a sunny Saturday morning, many families play games: children on the swings, teenagers on the basketball court, a small show on the stone stage, while Mateo and Sara hand out colorful invitations and a new street lamp is being installed by workers. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mateo and Sara have two ideas."
+            },
+            {
+              "html": "First, they make an <b>invitation</b> for the neighbors."
+            },
+            {
+              "html": "“Saturday morning: <b>games</b> in the park!” it says."
+            },
+            {
+              "html": "They put it on every door in their building."
+            },
+            {
+              "html": "On Saturday, many families come to the park."
+            },
+            {
+              "html": "Every <b>neighbor</b> is surprised."
+            },
+            {
+              "html": "“I didn’t know the park was so nice!” a man says."
+            },
+            {
+              "html": "Second, they write a <b>letter</b> to the neighborhood board."
+            },
+            {
+              "html": "“Please fix the lights in the park,” they write."
+            },
+            {
+              "html": "“Families want to come after work.”"
+            },
+            {
+              "html": "Two weeks later, workers come with new lights."
+            },
+            {
+              "html": "Now the park is full every evening."
+            },
+            {
+              "html": "Mateo’s mom plays basketball with him on Fridays!"
+            }
+          ],
+          "wordCount": 101
+        }
+      ],
+      "practiceWords": [
+        "park",
+        "empty",
+        "swing",
+        "court",
+        "tree",
+        "light",
+        "neighbor",
+        "invitation",
+        "games",
+        "letter"
+      ],
+      "vocabulary": [
+        {
+          "word": "park",
+          "definition": "a public green area with trees (parque)"
+        },
+        {
+          "word": "empty",
+          "definition": "with nobody or nothing inside (vacío)"
+        },
+        {
+          "word": "swing",
+          "definition": "a seat that moves back and forth for children (columpio)"
+        },
+        {
+          "word": "court",
+          "definition": "an area for playing sports like basketball (cancha)"
+        },
+        {
+          "word": "tree",
+          "definition": "a tall plant with a trunk and branches (árbol)"
+        },
+        {
+          "word": "light",
+          "definition": "something that helps you see in the dark (luz, lámpara)"
+        },
+        {
+          "word": "neighbor",
+          "definition": "a person who lives near you (vecino)"
+        },
+        {
+          "word": "invitation",
+          "definition": "a message that asks people to come (invitación)"
+        },
+        {
+          "word": "games",
+          "definition": "activities you play for fun (juegos)"
+        },
+        {
+          "word": "letter",
+          "definition": "a written message you send to someone (carta)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "Why is the park empty in the evening?",
+          "options": [
+            "There are no swings or courts in the park.",
+            "The big mango tree is dangerous at night.",
+            "The park has only one light, and it’s broken.",
+            "The park is closed after six o’clock."
+          ],
+          "answer": "The park has only one light, and it’s broken."
+        },
+        {
+          "skill": "sequence",
+          "question": "What happens AFTER Mateo and Sara see that the light is broken?",
+          "options": [
+            "Sara asks why nobody goes to the park.",
+            "They walk into the park for the first time that day.",
+            "They find a big mango tree in the middle.",
+            "They make an invitation and write a letter."
+          ],
+          "answer": "They make an invitation and write a letter."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “The park is always empty.” “Empty” means…",
+          "options": [
+            "with nobody or nothing inside",
+            "next to a tall building",
+            "very dark at night",
+            "full of children and families"
+          ],
+          "answer": "with nobody or nothing inside"
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the story mainly about?",
+          "options": [
+            "A family picks mangoes from a tree in the park every Saturday.",
+            "Two children discover why a park is empty.",
+            "Workers close a park because it is too dark.",
+            "Two children build a new park next to their building."
+          ],
+          "answer": "Two children discover why a park is empty."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why did Mateo’s mom think there was nothing to do in the park?",
+          "options": [
+            "She knew that the swings were broken.",
+            "She thought basketball was too dangerous.",
+            "She never went inside to see what was there.",
+            "The neighborhood board told her it was closed."
+          ],
+          "answer": "She never went inside to see what was there."
+        }
+      ],
+      "cover": "../assets/images/week40_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "The Meal We Cooked for Our Teacher",
+      "minimumWordTarget": 400,
+      "wordCount": 413,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week40_grade07_page01.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Meal We Cooked for Our Teacher”, page 1. Scene based on: In a public school classroom in Medellín near the end of the year, Valeria, 12, and Samuel, 12, stand at the board where a big drawing shows a pot of rice with chicken, while excited classmates raise their hands. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At the end of the year, Valeria’s class had a plan."
+            },
+            {
+              "html": "They wanted to thank their <b>teacher</b>, Ms. Luz."
+            },
+            {
+              "html": "“Let’s cook a <b>meal</b> for her!” Valeria said."
+            },
+            {
+              "html": "They chose arroz con pollo, her favorite dish."
+            },
+            {
+              "html": "Each student promised to <b>bring</b> one thing."
+            },
+            {
+              "html": "“I’ll bring the <b>rice</b>,” one boy said."
+            },
+            {
+              "html": "“I’ll bring the <b>chicken</b>,” a girl said."
+            },
+            {
+              "html": "“I’ll bring the vegetables,” another student said."
+            },
+            {
+              "html": "Everybody was talking at the same time."
+            },
+            {
+              "html": "Nobody wrote anything down."
+            },
+            {
+              "html": "The bell rang, and everybody ran to the next class."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week40_grade07_page02.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Meal We Cooked for Our Teacher”, page 2. Scene based on: On Friday morning in the school kitchen, many students put bags of food on a table, and Valeria looks confused at two packages of chicken and no salt, while Samuel holds an empty salt container. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Friday morning, everybody came to the school kitchen."
+            },
+            {
+              "html": "They put their bags on a big table."
+            },
+            {
+              "html": "Valeria looked at the food."
+            },
+            {
+              "html": "There were two packages of chicken."
+            },
+            {
+              "html": "There were three bags of rice."
+            },
+            {
+              "html": "But there wasn’t any <b>salt</b>."
+            },
+            {
+              "html": "There wasn’t any <b>onion</b> either."
+            },
+            {
+              "html": "“Who brought the chicken?” Valeria asked."
+            },
+            {
+              "html": "Two students raised their hands."
+            },
+            {
+              "html": "“Didn’t anyone bring salt?” she asked."
+            },
+            {
+              "html": "Nobody answered."
+            },
+            {
+              "html": "The students looked at each other, confused."
+            }
+          ],
+          "wordCount": 70
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week40_grade07_page03.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Meal We Cooked for Our Teacher”, page 3. Scene based on: Samuel sits at a kitchen table writing a list in a notebook while students tell him what they brought, Valeria pointing at the food on the table and checking each item. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Samuel had an idea."
+            },
+            {
+              "html": "“Let’s make a <b>list</b>,” he said."
+            },
+            {
+              "html": "“What did each person bring?”"
+            },
+            {
+              "html": "He wrote every name and every <b>ingredient</b>."
+            },
+            {
+              "html": "Juan brought rice. Ana brought chicken."
+            },
+            {
+              "html": "Pedro also brought chicken."
+            },
+            {
+              "html": "Lucía brought carrots and peas."
+            },
+            {
+              "html": "“What did you bring, Valeria?” Samuel asked."
+            },
+            {
+              "html": "“I brought the dessert,” she said."
+            },
+            {
+              "html": "“So we have too much chicken and no salt or onions.”"
+            },
+            {
+              "html": "“What can we do now?” Valeria asked."
+            }
+          ],
+          "wordCount": 68
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week40_grade07_page04.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Meal We Cooked for Our Teacher”, page 4. Scene based on: Valeria and Samuel talk politely with the school cafeteria cook, a smiling woman in an apron, who gives them a bag of onions and a container of salt, while the students in the kitchen cheer. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valeria and Samuel went to the school cafeteria."
+            },
+            {
+              "html": "“Did you have any salt and onions?” Samuel asked the cook."
+            },
+            {
+              "html": "“We need them for a special meal.”"
+            },
+            {
+              "html": "The cook smiled. “What did you forget?”"
+            },
+            {
+              "html": "“Salt and onions,” Valeria said, a little embarrassed."
+            },
+            {
+              "html": "The cook gave them a bag of onions and some salt."
+            },
+            {
+              "html": "“And what did you do with the extra chicken?” she asked."
+            },
+            {
+              "html": "“We don’t know yet,” Samuel laughed."
+            },
+            {
+              "html": "“Give it to me. I’ll cook it for the guards.”"
+            },
+            {
+              "html": "Everyone was happy with that idea."
+            },
+            {
+              "html": "They ran back to the kitchen with the salt and onions."
+            }
+          ],
+          "wordCount": 96
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week40_grade07_page05.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Meal We Cooked for Our Teacher”, page 5. Scene based on: In a decorated classroom, the students serve a big pot of arroz con pollo to their teacher, Ms. Luz, a woman in her forties, who smiles with emotion holding a thank-you card, while Valeria and Samuel stand beside her. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The students cooked together for two hours."
+            },
+            {
+              "html": "They put the rice and chicken in a big <b>pot</b>."
+            },
+            {
+              "html": "At noon, they invited Ms. Luz to the classroom."
+            },
+            {
+              "html": "“What did you do?” she asked, surprised."
+            },
+            {
+              "html": "“We cooked arroz con pollo for you!” they said."
+            },
+            {
+              "html": "Ms. Luz tasted it and smiled."
+            },
+            {
+              "html": "“Did you make this yourselves? It’s delicious!”"
+            },
+            {
+              "html": "Then they told her about the salt and the list."
+            },
+            {
+              "html": "Ms. Luz laughed. “That’s a great lesson too.”"
+            },
+            {
+              "html": "“What did you learn?” she asked."
+            },
+            {
+              "html": "“Write a list before cooking!” Samuel said."
+            },
+            {
+              "html": "Everybody laughed, and Ms. Luz ate a second plate."
+            }
+          ],
+          "wordCount": 95
+        }
+      ],
+      "practiceWords": [
+        "meal",
+        "teacher",
+        "ingredient",
+        "bring",
+        "rice",
+        "chicken",
+        "onion",
+        "salt",
+        "pot",
+        "list"
+      ],
+      "vocabulary": [
+        {
+          "word": "meal",
+          "definition": "the food you eat at one time, like lunch (comida)"
+        },
+        {
+          "word": "teacher",
+          "definition": "a person who teaches at a school (profesor)"
+        },
+        {
+          "word": "ingredient",
+          "definition": "one of the foods used to make a dish (ingrediente)"
+        },
+        {
+          "word": "bring",
+          "definition": "to take something with you to a place (traer)"
+        },
+        {
+          "word": "rice",
+          "definition": "small white grains you cook and eat (arroz)"
+        },
+        {
+          "word": "chicken",
+          "definition": "the meat of a bird often used in food (pollo)"
+        },
+        {
+          "word": "onion",
+          "definition": "a round vegetable with a strong smell (cebolla)"
+        },
+        {
+          "word": "salt",
+          "definition": "a white powder that gives flavor to food (sal)"
+        },
+        {
+          "word": "pot",
+          "definition": "a deep container for cooking (olla)"
+        },
+        {
+          "word": "list",
+          "definition": "words written one under the other (lista)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What did Valeria bring for the meal?",
+          "options": [
+            "The chicken",
+            "The rice",
+            "The salt and onions",
+            "The dessert"
+          ],
+          "answer": "The dessert"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "Why did the students have too much chicken and no salt?",
+          "options": [
+            "Nobody wrote down who was bringing each ingredient.",
+            "Ms. Luz asked them to bring only chicken.",
+            "The cook took the salt from the kitchen.",
+            "Valeria forgot to buy the salt and onions at the store."
+          ],
+          "answer": "Nobody wrote down who was bringing each ingredient."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main idea of the story?",
+          "options": [
+            "Students should never cook at school without a teacher in the kitchen.",
+            "Students learned that a list helps a group organize a shared meal.",
+            "The school cafeteria always has extra onions.",
+            "Arroz con pollo is the best food to cook for teachers."
+          ],
+          "answer": "Students learned that a list helps a group organize a shared meal."
+        },
+        {
+          "skill": "simple inference",
+          "question": "What did the cook do with the extra chicken?",
+          "options": [
+            "She threw it away because it was old.",
+            "She used it to make dessert.",
+            "She cooked it for the school guards.",
+            "She gave it back to Pedro and Ana."
+          ],
+          "answer": "She cooked it for the school guards."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “They put the rice and chicken in a big pot.” A “pot” is…",
+          "options": [
+            "a written list of names",
+            "a round vegetable with a strong smell",
+            "a white powder for flavor",
+            "a deep container for cooking"
+          ],
+          "answer": "a deep container for cooking"
+        }
+      ],
+      "cover": "../assets/images/week40_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "The Mall of the Future",
+      "minimumWordTarget": 450,
+      "wordCount": 472,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week40_grade08_page01.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Mall of the Future”, page 1. Scene based on: In a public school classroom in Medellín, the teacher shows a futuristic drawing of a building with a question mark, while Camila, 13, confidently says something with her hand up and Mateo, 13, sits beside her thinking. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The teacher gave the class a new project."
+            },
+            {
+              "html": "“Imagine the shopping <b>mall</b> of the <b>future</b>,” she said."
+            },
+            {
+              "html": "“What is it going to look like in 2040?”"
+            },
+            {
+              "html": "Camila had an answer immediately."
+            },
+            {
+              "html": "“Malls are going to disappear!” she said."
+            },
+            {
+              "html": "“Everybody is going to buy everything <b>online</b>.”"
+            },
+            {
+              "html": "Some classmates agreed with her."
+            },
+            {
+              "html": "Mateo, her partner, wasn’t so sure."
+            },
+            {
+              "html": "“Which services are people still going to need?” he asked."
+            },
+            {
+              "html": "“Some things are difficult to do online.”"
+            },
+            {
+              "html": "Camila thought about it."
+            }
+          ],
+          "wordCount": 77
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week40_grade08_page02.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Mall of the Future”, page 2. Scene based on: Inside a busy shopping mall in Medellín on a Saturday, Camila and Mateo hold a clipboard and interview an older couple near a bank, while families walk to a cinema and teenagers eat at a food court. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They decided to visit a mall on Saturday."
+            },
+            {
+              "html": "They were going to <b>interview</b> people."
+            },
+            {
+              "html": "“Why did you come to the mall today?” Camila asked."
+            },
+            {
+              "html": "An older couple answered first."
+            },
+            {
+              "html": "“We’re going to the bank,” the man said."
+            },
+            {
+              "html": "“I don’t like banking online. I prefer people.”"
+            },
+            {
+              "html": "A mother with two children was next."
+            },
+            {
+              "html": "“We’re going to watch a movie at the <b>cinema</b>.”"
+            },
+            {
+              "html": "A group of teenagers laughed."
+            },
+            {
+              "html": "“We’re going to eat and meet our friends,” they said."
+            },
+            {
+              "html": "“You can’t do that online!”"
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week40_grade08_page03.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Mall of the Future”, page 3. Scene based on: Camila and Mateo sit at a food court table looking at their clipboard with a list of icons: a bank, a movie camera, a fork and knife, a heart, a doctor cross and a wrench, Camila counting with her fingers. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "After two hours, they looked at their notes."
+            },
+            {
+              "html": "They interviewed thirty people."
+            },
+            {
+              "html": "Only five people came to buy clothes."
+            },
+            {
+              "html": "Most people came for a <b>service</b> or an experience."
+            },
+            {
+              "html": "They came to the bank, the doctor, or the cinema."
+            },
+            {
+              "html": "They came to eat, to meet friends, or to repair phones."
+            },
+            {
+              "html": "“So people aren’t going to stop going to malls,” Mateo said."
+            },
+            {
+              "html": "“But they’re going to go for different reasons.”"
+            },
+            {
+              "html": "Camila agreed. “I was wrong about disappearing.”"
+            },
+            {
+              "html": "“Malls are going to change, not disappear.”"
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week40_grade08_page04.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Mall of the Future”, page 4. Scene based on: Camila and Mateo build a colorful cardboard model of a futuristic mall on a table, with a rooftop garden, a small repair workshop, a cinema and open spaces with benches, using glue, scissors and paint. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They started to design their mall of the future."
+            },
+            {
+              "html": "They decided to build a <b>model</b> with cardboard."
+            },
+            {
+              "html": "“Our mall is going to have fewer clothing stores,” Camila said."
+            },
+            {
+              "html": "“It’s going to have more places to meet people.”"
+            },
+            {
+              "html": "“There’s going to be a garden on the roof.”"
+            },
+            {
+              "html": "Mateo added a repair <b>workshop</b>."
+            },
+            {
+              "html": "“People are going to fix phones and bicycles here.”"
+            },
+            {
+              "html": "“And there’s going to be a free study area for students.”"
+            },
+            {
+              "html": "Camila added a small health center."
+            },
+            {
+              "html": "“Older people are going to need doctors near home.”"
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week40_grade08_page05.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Mall of the Future”, page 5. Scene based on: In the classroom, Camila and Mateo present their cardboard mall model to the class, pointing at the rooftop garden and the workshop, while classmates lean closer to look and the teacher smiles. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Monday, they presented their project."
+            },
+            {
+              "html": "“In 2040, malls will be <b>community</b> centers,” Mateo said."
+            },
+            {
+              "html": "“People are going to come for services and experiences.”"
+            },
+            {
+              "html": "“They’re going to learn, repair, and meet people.”"
+            },
+            {
+              "html": "A classmate asked a question."
+            },
+            {
+              "html": "“Are stores going to disappear completely?”"
+            },
+            {
+              "html": "“No. Some stores are going to stay,” Camila said."
+            },
+            {
+              "html": "“But they’re going to be smaller.”"
+            },
+            {
+              "html": "“Online shopping is going to grow too.”"
+            },
+            {
+              "html": "“Both are going to exist together.”"
+            }
+          ],
+          "wordCount": 71
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week40_grade08_page06.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Mall of the Future”, page 6. Scene based on: After the presentation, the teacher places the cardboard mall model in the school library display case, while Camila and Mateo watch proudly and younger students look at it through the glass. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The teacher liked their project very much."
+            },
+            {
+              "html": "“You changed your idea after the interviews,” she said."
+            },
+            {
+              "html": "“That’s what good researchers do.”"
+            },
+            {
+              "html": "She put their model in the school library."
+            },
+            {
+              "html": "Many students came to see it."
+            },
+            {
+              "html": "Camila thought about her first answer."
+            },
+            {
+              "html": "“I was very sure on the first day,” she said."
+            },
+            {
+              "html": "“But I only used my own experience.”"
+            },
+            {
+              "html": "“The <b>visitor</b>s at the mall gave us better ideas.”"
+            },
+            {
+              "html": "Mateo smiled. “So the future needs people’s opinions.”"
+            }
+          ],
+          "wordCount": 75
+        }
+      ],
+      "practiceWords": [
+        "mall",
+        "future",
+        "online",
+        "service",
+        "cinema",
+        "interview",
+        "workshop",
+        "model",
+        "community",
+        "visitor"
+      ],
+      "vocabulary": [
+        {
+          "word": "mall",
+          "definition": "a large building with many stores (centro comercial)"
+        },
+        {
+          "word": "future",
+          "definition": "the time that will come after now (futuro)"
+        },
+        {
+          "word": "online",
+          "definition": "on the internet (en línea)"
+        },
+        {
+          "word": "service",
+          "definition": "work that helps people, like a bank or a doctor (servicio)"
+        },
+        {
+          "word": "cinema",
+          "definition": "a place where people watch movies (cine)"
+        },
+        {
+          "word": "interview",
+          "definition": "to ask someone questions (entrevistar)"
+        },
+        {
+          "word": "workshop",
+          "definition": "a place where people learn or make things (taller)"
+        },
+        {
+          "word": "model",
+          "definition": "a small copy of something bigger (maqueta)"
+        },
+        {
+          "word": "community",
+          "definition": "the people who live in the same area (comunidad)"
+        },
+        {
+          "word": "visitor",
+          "definition": "a person who comes to a place (visitante)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "How many of the thirty people came to the mall to buy clothes?",
+          "options": [
+            "Five people",
+            "Two people",
+            "Fifteen people",
+            "Thirty people"
+          ],
+          "answer": "Five people"
+        },
+        {
+          "skill": "inference",
+          "question": "Why did Camila first think that malls were going to disappear?",
+          "options": [
+            "She read a report about malls closing in Medellín last year.",
+            "She believed that everyone was going to buy everything online.",
+            "The teacher said that malls had no future.",
+            "Mateo told her that malls were dangerous."
+          ],
+          "answer": "She believed that everyone was going to buy everything online."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the interviews at the mall?",
+          "options": [
+            "To explain how to open a bank account.",
+            "To show that cinemas are more popular than stores.",
+            "To show how real opinions changed Camila’s first idea.",
+            "To show that older people don’t like teenagers at the mall."
+          ],
+          "answer": "To show how real opinions changed Camila’s first idea."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main idea of the story?",
+          "options": [
+            "Students should build cardboard models of every building in the city.",
+            "Malls are going to disappear completely by 2040.",
+            "Online shopping is always better than going to the mall.",
+            "Research with real people helped students imagine how malls will change."
+          ],
+          "answer": "Research with real people helped students imagine how malls will change."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “Mateo added a repair workshop.” A “workshop” is…",
+          "options": [
+            "a place where people learn or make things",
+            "a small copy of something bigger",
+            "a place where people watch movies together",
+            "the people who live in the same area"
+          ],
+          "answer": "a place where people learn or make things"
+        }
+      ],
+      "cover": "../assets/images/week40_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "Medellín After Extreme Rain",
+      "minimumWordTarget": 500,
+      "wordCount": 509,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week40_grade09_page01.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “Medellín After Extreme Rain”, page 1. Scene based on: At a Medellín public transport area during a sudden heavy storm in the afternoon, Santiago, 14, and Laura, 14, stand under a station roof as rain pours down, the street in front of them turning into a brown river, buses stopped in traffic. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Thursday afternoon, a huge <b>storm</b> fell on Medellín."
+            },
+            {
+              "html": "Santiago and Laura were at a bus station after school."
+            },
+            {
+              "html": "In thirty minutes, the sky turned completely black."
+            },
+            {
+              "html": "The rain fell so hard that people couldn’t see."
+            },
+            {
+              "html": "The street in front of the station became a river."
+            },
+            {
+              "html": "Cars and buses stopped in the water."
+            },
+            {
+              "html": "“The whole city is going to stop,” Santiago said."
+            },
+            {
+              "html": "“The Metro is going to stop too. We’ll be stuck here!”"
+            },
+            {
+              "html": "Laura looked at the water carefully."
+            },
+            {
+              "html": "“Do we know that? Or are we guessing?” she asked."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week40_grade09_page02.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “Medellín After Extreme Rain”, page 2. Scene based on: Laura shows Santiago her phone with an app showing a map of Medellín with colored rain zones and a blue warning icon, both standing under the station roof while rain falls, Santiago looking surprised. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura opened an app on her phone."
+            },
+            {
+              "html": "It was the city’s early <b>warning system</b>."
+            },
+            {
+              "html": "It shows the <b>rainfall</b> in every neighborhood in real time."
+            },
+            {
+              "html": "“Look. The heaviest rain is in this area,” Laura said."
+            },
+            {
+              "html": "“The north of the city has light rain only.”"
+            },
+            {
+              "html": "There was also an official <b>alert</b> on the screen."
+            },
+            {
+              "html": "“Avoid streets near creeks that might overflow,” it said."
+            },
+            {
+              "html": "“The Metro is working normally.”"
+            },
+            {
+              "html": "Santiago was surprised."
+            },
+            {
+              "html": "“So the Metro isn’t stopping,” he said."
+            },
+            {
+              "html": "“Only some streets are flooding,” Laura answered."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week40_grade09_page03.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “Medellín After Extreme Rain”, page 3. Scene based on: From the station, Santiago and Laura look at a nearby street where a creek has overflowed into the road, brown water covering cars' wheels and a street drain blocked by plastic bags and leaves. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They looked at the street which was next to the station."
+            },
+            {
+              "html": "There was a small creek under the street."
+            },
+            {
+              "html": "The water from the creek started to <b>overflow</b>."
+            },
+            {
+              "html": "A <b>drain</b> on the corner was full of plastic bags."
+            },
+            {
+              "html": "The water couldn’t go down."
+            },
+            {
+              "html": "“That’s why this street has a <b>flood</b>,” Laura said."
+            },
+            {
+              "html": "“The drains which have trash can’t take the water.”"
+            },
+            {
+              "html": "Santiago remembered something from science class."
+            },
+            {
+              "html": "“The hills send all the water down here,” he said."
+            },
+            {
+              "html": "“Our neighborhood is in the lowest part.”"
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week40_grade09_page04.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “Medellín After Extreme Rain”, page 4. Scene based on: Santiago and Laura ride a calm, dry Medellín Metro train with other wet passengers, looking out the window at flooded streets below, and Laura reads an alert on her phone about a hillside road. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They decided to take the Metro, which was still working."
+            },
+            {
+              "html": "The train was full of wet people, but it moved normally."
+            },
+            {
+              "html": "From the window, they could see the streets below."
+            },
+            {
+              "html": "Some streets were flooded, but others were dry."
+            },
+            {
+              "html": "Then Laura’s phone showed a new alert."
+            },
+            {
+              "html": "“A small <b>landslide</b> closed a road on the eastern <b>hillside</b>.”"
+            },
+            {
+              "html": "“Avoid the bus route which goes up to Santa Elena.”"
+            },
+            {
+              "html": "Santiago’s cousin lived up there."
+            },
+            {
+              "html": "He called her immediately."
+            },
+            {
+              "html": "She said that her family was safe at home."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week40_grade09_page05.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “Medellín After Extreme Rain”, page 5. Scene based on: The next day, in the school library, Santiago and Laura draw a big map of their neighborhood with colored markers, marking blue flooded streets, red closed hillside roads and green safe Metro routes, with a photo of the blocked drain beside it. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next day, the sun was shining again."
+            },
+            {
+              "html": "Santiago and Laura wanted to understand what happened."
+            },
+            {
+              "html": "They decided to make a map of the storm."
+            },
+            {
+              "html": "They marked the streets which flooded in blue."
+            },
+            {
+              "html": "They marked the hillside roads which closed in red."
+            },
+            {
+              "html": "They marked each <b>route</b> which stayed safe in green."
+            },
+            {
+              "html": "The Metro and the main avenues were green."
+            },
+            {
+              "html": "“Most of the city worked,” Laura said."
+            },
+            {
+              "html": "“But the problem areas were the low streets and the hills.”"
+            },
+            {
+              "html": "“And the drains which were full of trash,” Santiago added."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week40_grade09_page06.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “Medellín After Extreme Rain”, page 6. Scene based on: In the classroom, Santiago and Laura present their storm map to classmates, pointing at a photo of the drain full of plastic bags, while the teacher holds up a phone showing the early warning system app. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They presented their map to the class."
+            },
+            {
+              "html": "Santiago told the class about his first reaction."
+            },
+            {
+              "html": "“I thought that the whole city was going to stop.”"
+            },
+            {
+              "html": "“But real information showed a different picture.”"
+            },
+            {
+              "html": "Laura showed the warning system app."
+            },
+            {
+              "html": "“This is a tool which everyone can use,” she said."
+            },
+            {
+              "html": "Then Santiago showed the photo of the drain."
+            },
+            {
+              "html": "“Rain is natural. But trash makes floods worse.”"
+            },
+            {
+              "html": "“If we keep drains clean, the water can go down.”"
+            },
+            {
+              "html": "The class decided to clean the drains near the school."
+            }
+          ],
+          "wordCount": 84
+        }
+      ],
+      "practiceWords": [
+        "storm",
+        "rainfall",
+        "flood",
+        "drain",
+        "overflow",
+        "hillside",
+        "landslide",
+        "alert",
+        "warning system",
+        "route"
+      ],
+      "vocabulary": [
+        {
+          "word": "storm",
+          "definition": "very bad weather with strong rain and wind (tormenta)"
+        },
+        {
+          "word": "rainfall",
+          "definition": "the amount of rain that falls (precipitación)"
+        },
+        {
+          "word": "flood",
+          "definition": "water that covers an area that is usually dry (inundación)"
+        },
+        {
+          "word": "drain",
+          "definition": "a hole that takes water away from the street (alcantarilla)"
+        },
+        {
+          "word": "overflow",
+          "definition": "to flow over the edges because it is too full (desbordarse)"
+        },
+        {
+          "word": "hillside",
+          "definition": "the side of a hill (ladera)"
+        },
+        {
+          "word": "landslide",
+          "definition": "earth and rocks that fall down a hill (deslizamiento)"
+        },
+        {
+          "word": "alert",
+          "definition": "a warning about danger (alerta)"
+        },
+        {
+          "word": "warning system",
+          "definition": "a system that tells people about danger early (sistema de alerta)"
+        },
+        {
+          "word": "route",
+          "definition": "the way from one place to another (ruta)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What did the warning system say about the Metro?",
+          "options": [
+            "It was moving very slowly in the north.",
+            "It was working normally.",
+            "It was only working in the hillside areas.",
+            "It was closed because of the flood."
+          ],
+          "answer": "It was working normally."
+        },
+        {
+          "skill": "inference",
+          "question": "Why did the street next to the station flood?",
+          "options": [
+            "A landslide closed the street.",
+            "The Metro stopped and blocked the water.",
+            "A creek overflowed and the drain was blocked by trash.",
+            "The rain was heavier in the north of the city that day."
+          ],
+          "answer": "A creek overflowed and the drain was blocked by trash."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "How was Laura’s reaction to the storm different from Santiago’s first reaction?",
+          "options": [
+            "Laura thought that the whole city was going to stop.",
+            "Laura was more scared than Santiago and wanted to call her parents.",
+            "Laura wanted to walk home through the flooded street.",
+            "Laura checked real information before deciding, while Santiago guessed."
+          ],
+          "answer": "Laura checked real information before deciding, while Santiago guessed."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main message of the text?",
+          "options": [
+            "Reliable information helps people make safe decisions during extreme weather.",
+            "Students should never take the Metro during strong storms.",
+            "Floods only happen in the north of the city when it rains a lot.",
+            "Medellín stops completely when it rains."
+          ],
+          "answer": "Reliable information helps people make safe decisions during extreme weather."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “The water from the creek started to overflow.” “Overflow” means…",
+          "options": [
+            "to warn people about danger with a phone alert",
+            "to flow over the edges because it is too full",
+            "to take the water away from the street",
+            "to fall down a hill with rocks"
+          ],
+          "answer": "to flow over the edges because it is too full"
+        }
+      ],
+      "cover": "../assets/images/week40_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "The Greener Block Challenge",
+      "minimumWordTarget": 600,
+      "wordCount": 607,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week40_grade10_page01.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Greener Block Challenge”, page 1. Scene based on: In a Medellín neighborhood, a community leader in her fifties stands between two residential blocks with a colorful banner showing only a leaf icon, a recycling symbol and a bicycle, announcing a challenge, while Valentina, 16, and Mateo, 16, listen with neighbors. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "In Valentina’s neighborhood, there was a new <b>challenge</b>."
+            },
+            {
+              "html": "Two neighboring blocks were going to compete for one month."
+            },
+            {
+              "html": "The challenge was to become greener."
+            },
+            {
+              "html": "Each <b>block</b> had to reduce <b>waste</b>, heat, and car use."
+            },
+            {
+              "html": "“If your block wins, it will get ten trees.”"
+            },
+            {
+              "html": "The leader said it with a big smile."
+            },
+            {
+              "html": "Valentina lived on Block A."
+            },
+            {
+              "html": "Her friend Mateo lived on Block B."
+            },
+            {
+              "html": "“If we work hard, we’ll win easily,” Valentina said."
+            },
+            {
+              "html": "Mateo laughed. “We’ll see!”"
+            },
+            {
+              "html": "The two friends shook hands like real competitors."
+            },
+            {
+              "html": "The neighbors on both blocks were excited."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week40_grade10_page02.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Greener Block Challenge”, page 2. Scene based on: Neighbors on Block A organize enthusiastically: some put recycling bins in front of houses, a family starts a compost box in a small garden, and Valentina writes a list of points on a big poster. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina’s block started immediately."
+            },
+            {
+              "html": "They put recycling bins in front of every building."
+            },
+            {
+              "html": "Some families started to <b>compost</b> their food waste."
+            },
+            {
+              "html": "Others decided to <b>carpool</b> to work."
+            },
+            {
+              "html": "Valentina made a big poster with <b>points</b>."
+            },
+            {
+              "html": "“One bag of recycling is five points,” she wrote."
+            },
+            {
+              "html": "“One day without a car is ten points.”"
+            },
+            {
+              "html": "After one week, Block A had five hundred points."
+            },
+            {
+              "html": "“If we continue like this, we’ll win,” Valentina said."
+            },
+            {
+              "html": "She felt very proud of her block."
+            },
+            {
+              "html": "She didn’t know what Block B was doing."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week40_grade10_page03.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Greener Block Challenge”, page 3. Scene based on: Mateo walks over to Block A holding a notebook and points at Valentina's points poster with a confused face, while Valentina defends it with her arms crossed and a neighbor watches. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Sunday, Mateo came to visit Block A."
+            },
+            {
+              "html": "He looked at Valentina’s poster."
+            },
+            {
+              "html": "“Wait. Who decided these <b>rules</b>?” he asked."
+            },
+            {
+              "html": "“We did,” Valentina said."
+            },
+            {
+              "html": "“Block B has different rules,” Mateo said."
+            },
+            {
+              "html": "“We give two points for a bag of recycling, not five.”"
+            },
+            {
+              "html": "“If each block uses different rules, the results won’t be <b>fair</b>.”"
+            },
+            {
+              "html": "Valentina didn’t like it, but she understood."
+            },
+            {
+              "html": "“So who wins?” she asked."
+            },
+            {
+              "html": "“Nobody knows, because we’re not measuring the same way.”"
+            },
+            {
+              "html": "Valentina sat down on the steps, thinking."
+            },
+            {
+              "html": "All her points suddenly meant nothing."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week40_grade10_page04.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Greener Block Challenge”, page 4. Scene based on: The two community leaders, Valentina and Mateo sit at a table in a community center with neighbors from both blocks, writing shared rules on a whiteboard with icons for a scale, a thermometer and a car with a red X. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They talked to the community leader."
+            },
+            {
+              "html": "“For a real competition, we need the same rules.”"
+            },
+            {
+              "html": "Mateo said it calmly to the leader."
+            },
+            {
+              "html": "The leader agreed and called a meeting."
+            },
+            {
+              "html": "Neighbors from both blocks came."
+            },
+            {
+              "html": "They decided to <b>measure</b> three things."
+            },
+            {
+              "html": "First, they would weigh the trash every week."
+            },
+            {
+              "html": "Second, they would measure street temperature at noon."
+            },
+            {
+              "html": "Third, they would count cars that left each morning."
+            },
+            {
+              "html": "“If we measure the same way, the results will be clear.”"
+            },
+            {
+              "html": "Valentina and Mateo wrote the new rules together."
+            },
+            {
+              "html": "They printed copies for every building on both blocks."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week40_grade10_page05.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Greener Block Challenge”, page 5. Scene based on: On a sunny morning, Valentina weighs bags of trash on a big scale in front of Block A, while Mateo counts cars leaving Block B with a clipboard, and neighbors help with a thermometer under a tree. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "For three weeks, they measured carefully."
+            },
+            {
+              "html": "Every Monday, they weighed the trash bags."
+            },
+            {
+              "html": "Every day at noon, they measured the temperature."
+            },
+            {
+              "html": "Every morning, they counted the cars that left."
+            },
+            {
+              "html": "Block A reduced its trash more."
+            },
+            {
+              "html": "Families there were composting and starting to <b>recycle</b> much more."
+            },
+            {
+              "html": "Block B reduced car use more."
+            },
+            {
+              "html": "Many neighbors there started to walk and use bicycles."
+            },
+            {
+              "html": "Both blocks planted plants on balconies."
+            },
+            {
+              "html": "The temperature went down a little on both blocks."
+            },
+            {
+              "html": "Valentina and Mateo checked the numbers together every Friday."
+            },
+            {
+              "html": "They didn’t argue anymore. They compared."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week40_grade10_page06.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Greener Block Challenge”, page 6. Scene based on: At a community meeting, the leader shows a simple chart with two colored bars for each category, both blocks close, while neighbors clap and Valentina and Mateo shake hands, smiling. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At the end of the month, the leader presented the results."
+            },
+            {
+              "html": "Block A won in waste reduction."
+            },
+            {
+              "html": "Their trash bags were much lighter."
+            },
+            {
+              "html": "Block B won in car reduction."
+            },
+            {
+              "html": "In temperature, the results were almost the same."
+            },
+            {
+              "html": "“If I count everything, it’s a tie,” the leader said."
+            },
+            {
+              "html": "The neighbors laughed and clapped."
+            },
+            {
+              "html": "“So who gets the ten trees?” someone asked."
+            },
+            {
+              "html": "The leader smiled. “If both blocks share, each gets five.”"
+            },
+            {
+              "html": "Everybody agreed."
+            },
+            {
+              "html": "Valentina and Mateo shook hands."
+            },
+            {
+              "html": "This time, they were smiling as friends, not competitors."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week40_grade10_page07.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Greener Block Challenge”, page 7. Scene based on: Weeks later, young trees are planted along the sidewalks of both blocks, and Valentina and Mateo water them together while neighbors from both blocks plant flowers and children ride bicycles. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Two weeks later, the trees arrived."
+            },
+            {
+              "html": "Neighbors from both blocks planted them together."
+            },
+            {
+              "html": "Valentina and Mateo watered them every weekend."
+            },
+            {
+              "html": "“At first, I only wanted to win,” Valentina said."
+            },
+            {
+              "html": "“But my points were not fair.”"
+            },
+            {
+              "html": "“If we didn’t change the rules, we’d fight forever,” Mateo said."
+            },
+            {
+              "html": "“Now both blocks are greener.”"
+            },
+            {
+              "html": "Valentina looked at the young trees."
+            },
+            {
+              "html": "“If we continue, next year the streets will be cooler.”"
+            },
+            {
+              "html": "Mateo smiled. “Next challenge: both blocks against the heat!”"
+            }
+          ],
+          "wordCount": 76
+        }
+      ],
+      "practiceWords": [
+        "challenge",
+        "block",
+        "waste",
+        "compost",
+        "recycle",
+        "measure",
+        "points",
+        "rules",
+        "carpool",
+        "fair"
+      ],
+      "vocabulary": [
+        {
+          "word": "challenge",
+          "definition": "a competition or difficult task (reto)"
+        },
+        {
+          "word": "block",
+          "definition": "a group of buildings between two streets (cuadra)"
+        },
+        {
+          "word": "waste",
+          "definition": "things that people throw away (residuos)"
+        },
+        {
+          "word": "compost",
+          "definition": "food waste that becomes soil for plants (compostaje)"
+        },
+        {
+          "word": "recycle",
+          "definition": "to use old materials to make new things (reciclar)"
+        },
+        {
+          "word": "measure",
+          "definition": "to find the size or amount of something (medir)"
+        },
+        {
+          "word": "points",
+          "definition": "numbers you win in a game or competition (puntos)"
+        },
+        {
+          "word": "rules",
+          "definition": "statements about what you must or must not do (reglas)"
+        },
+        {
+          "word": "carpool",
+          "definition": "to share a car with others going the same way (compartir carro)"
+        },
+        {
+          "word": "fair",
+          "definition": "treating everyone in the same way (justo)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What did Block B reduce more than Block A?",
+          "options": [
+            "Trash",
+            "Water use",
+            "Car use",
+            "Temperature"
+          ],
+          "answer": "Car use"
+        },
+        {
+          "skill": "inference",
+          "question": "Why did Mateo say the results wouldn’t be fair at first?",
+          "options": [
+            "The community leader liked Block A more than Block B.",
+            "Block A was cheating by hiding trash.",
+            "Block B didn’t want to participate.",
+            "Each block was using different rules to give points."
+          ],
+          "answer": "Each block was using different rules to give points."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the meeting with neighbors from both blocks?",
+          "options": [
+            "To show how shared rules made the competition fair and clear.",
+            "To show that the leader wanted to cancel the green challenge.",
+            "To explain how to weigh trash on a scale.",
+            "To show that neighbors don’t like competitions."
+          ],
+          "answer": "To show how shared rules made the competition fair and clear."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What is the relationship between the shared rules and the final result?",
+          "options": [
+            "The shared rules stopped people from recycling.",
+            "With the same rules, they could compare fairly and see a tie.",
+            "The shared rules made Block A win easily in every category.",
+            "The shared rules had no effect on the result."
+          ],
+          "answer": "With the same rules, they could compare fairly and see a tie."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which statement best summarizes the text?",
+          "options": [
+            "Trees are not important in a city neighborhood.",
+            "Competitions between neighbors always create big fights.",
+            "Fair rules and real measurements turned a competition into cooperation.",
+            "Only one block can win a green challenge, so the other block loses."
+          ],
+          "answer": "Fair rules and real measurements turned a competition into cooperation."
+        }
+      ],
+      "cover": "../assets/images/week40_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "What Everyone Remembered Differently",
+      "minimumWordTarget": 700,
+      "wordCount": 706,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week40_grade11_page01.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “What Everyone Remembered Differently”, page 1. Scene based on: In a cozy café in the Manrique neighborhood of Medellín at night, Sofía, 17, Mateo, 17, and two friends sit around a table with hot drinks, laughing and talking, while a phone on the table shows an old photo of a broken-down bus. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Six months ago, Sofía’s debate team had a terrible day."
+            },
+            {
+              "html": "Tonight, the four friends met at a café in Manrique."
+            },
+            {
+              "html": "They started to <b>retell</b> the story of that day."
+            },
+            {
+              "html": "It was the day of the national debate <b>competition</b>."
+            },
+            {
+              "html": "Their school bus had a <b>breakdown</b> on the highway."
+            },
+            {
+              "html": "“I remember it perfectly,” Mateo said."
+            },
+            {
+              "html": "He said that it had been a complete disaster."
+            },
+            {
+              "html": "He said that they had arrived two hours late."
+            },
+            {
+              "html": "He said that they had lost every round."
+            },
+            {
+              "html": "Sofía frowned. Her <b>memory</b> was different."
+            },
+            {
+              "html": "She said that she remembered some good moments too."
+            }
+          ],
+          "wordCount": 94
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week40_grade11_page02.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “What Everyone Remembered Differently”, page 2. Scene based on: The friends at the café table talk at the same time, each gesturing differently: Mateo shaking his head, Laura smiling and counting on her fingers, Andrés looking up trying to remember, and Sofía raising her eyebrows. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura told her <b>version</b> next."
+            },
+            {
+              "html": "She said that it had been a lucky day."
+            },
+            {
+              "html": "She said that a kind truck driver had helped them."
+            },
+            {
+              "html": "She said that they had arrived only one hour late."
+            },
+            {
+              "html": "Andrés had another story."
+            },
+            {
+              "html": "He said that the bus driver had fixed the bus himself."
+            },
+            {
+              "html": "He said that they had won one round at least."
+            },
+            {
+              "html": "Sofía listened to everyone."
+            },
+            {
+              "html": "“Four people were there,” she said."
+            },
+            {
+              "html": "“But we have four different stories.”"
+            },
+            {
+              "html": "Everyone laughed, but they were also curious now."
+            },
+            {
+              "html": "Which story was the real one?"
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week40_grade11_page03.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “What Everyone Remembered Differently”, page 3. Scene based on: Sofía puts her phone in the middle of the café table and scrolls through old photos and messages, while the others lean in curiously; the screen shows a bus on the side of a highway and a group selfie. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Sofía had an idea."
+            },
+            {
+              "html": "“Let’s look at the <b>evidence</b>,” she said."
+            },
+            {
+              "html": "She opened the group chat from that day."
+            },
+            {
+              "html": "There were photos, messages, and times."
+            },
+            {
+              "html": "The first photo showed the bus on the highway at 7:15."
+            },
+            {
+              "html": "A message from Mateo said, “We’re stuck. This is a disaster.”"
+            },
+            {
+              "html": "Another photo showed a truck driver with a tool box."
+            },
+            {
+              "html": "“So there was a truck driver,” Laura said."
+            },
+            {
+              "html": "“And the bus driver helped him,” Andrés added."
+            },
+            {
+              "html": "“They both fixed the bus,” Sofía said."
+            },
+            {
+              "html": "Mateo looked at the photo for a long time."
+            },
+            {
+              "html": "He said that he didn’t remember the truck driver at all."
+            }
+          ],
+          "wordCount": 100
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week40_grade11_page04.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “What Everyone Remembered Differently”, page 4. Scene based on: Sofía reads from her phone at the café table, showing a message with a clock time and a photo of the team arriving at a university auditorium, while Mateo looks embarrassed and Laura laughs. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Sofía found another message from that morning."
+            },
+            {
+              "html": "It said, “We arrived! 9:40!”"
+            },
+            {
+              "html": "The competition started at 8:30."
+            },
+            {
+              "html": "“So we arrived seventy minutes late,” Sofía said."
+            },
+            {
+              "html": "“Not two hours, and not one hour.”"
+            },
+            {
+              "html": "Mateo laughed nervously."
+            },
+            {
+              "html": "“I really remembered two hours,” he said."
+            },
+            {
+              "html": "“You remembered how it felt,” Laura said."
+            },
+            {
+              "html": "“It felt like two hours.”"
+            },
+            {
+              "html": "Sofía wrote each <b>detail</b> in her phone’s notes."
+            },
+            {
+              "html": "She wanted to have the facts in one place."
+            }
+          ],
+          "wordCount": 71
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week40_grade11_page05.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “What Everyone Remembered Differently”, page 5. Scene based on: The friends look at a photo on Sofía's phone of the debate team holding a certificate in a university auditorium, smiling tiredly, while at the café table Andrés points at it with excitement. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Then Sofía found the most surprising photo."
+            },
+            {
+              "html": "It showed the team in the auditorium."
+            },
+            {
+              "html": "It was taken at the end of the day."
+            },
+            {
+              "html": "They were holding a certificate."
+            },
+            {
+              "html": "“Wait. What’s that certificate?” Mateo asked."
+            },
+            {
+              "html": "Sofía zoomed in."
+            },
+            {
+              "html": "It said “Third Place – Regional Round.”"
+            },
+            {
+              "html": "“We won third place in our group?” Mateo asked."
+            },
+            {
+              "html": "“I completely forgot that!”"
+            },
+            {
+              "html": "Andrés said that he had remembered winning one round."
+            },
+            {
+              "html": "“We won two rounds,” Sofía said. “Look at the results.”"
+            },
+            {
+              "html": "Everyone at the table started laughing."
+            },
+            {
+              "html": "The “disaster” day was actually a small success."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week40_grade11_page06.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “What Everyone Remembered Differently”, page 6. Scene based on: At the café table, the friends sit back, thinking, Mateo with his hand on his forehead and Laura smiling, while Sofía talks calmly and points to her phone notes. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The friends were quiet for a moment."
+            },
+            {
+              "html": "Mateo said that he only remembered the bad parts."
+            },
+            {
+              "html": "He explained that the stress was what he felt most."
+            },
+            {
+              "html": "Laura said that she had remembered the kindness."
+            },
+            {
+              "html": "She told them that the truck driver was her strongest memory."
+            },
+            {
+              "html": "Andrés admitted that he had mixed up some facts."
+            },
+            {
+              "html": "Sofía said that each person had a different <b>perspective</b>."
+            },
+            {
+              "html": "“Mateo remembers the stress,” she said."
+            },
+            {
+              "html": "“Laura remembers the help.”"
+            },
+            {
+              "html": "“Each of us chose a different part to <b>emphasize</b>.”"
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week40_grade11_page07.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “What Everyone Remembered Differently”, page 7. Scene based on: Sofía writes in a notebook at a small desk at home late at night, a printed photo of the debate team with the certificate pinned above the desk, a lamp lighting the page. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "That night, Sofía wrote about the conversation."
+            },
+            {
+              "html": "She wrote that memories are not videos."
+            },
+            {
+              "html": "She wrote that they are stories we build later."
+            },
+            {
+              "html": "She wrote that stress makes some moments bigger."
+            },
+            {
+              "html": "She wrote that gratitude makes other moments brighter."
+            },
+            {
+              "html": "“None of my friends lied,” she wrote."
+            },
+            {
+              "html": "“But none of them told the complete story.”"
+            },
+            {
+              "html": "“The photos and messages helped us find the facts.”"
+            },
+            {
+              "html": "“Our feelings helped us find the meaning.”"
+            },
+            {
+              "html": "She printed the photo with the certificate."
+            },
+            {
+              "html": "She pinned it above her desk, next to her lamp."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week40_grade11_page08.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “What Everyone Remembered Differently”, page 8. Scene based on: In a school classroom, Sofía and Mateo present to younger debate team students, showing the printed photo and a simple drawing of four speech bubbles with different colors pointing at one bus, while the students listen attentively. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "A week later, they talked to the new debate team."
+            },
+            {
+              "html": "They told them the story of the bus."
+            },
+            {
+              "html": "Mateo said that he had remembered a disaster."
+            },
+            {
+              "html": "He admitted that the evidence had shown something else."
+            },
+            {
+              "html": "A younger student asked what the real story was."
+            },
+            {
+              "html": "Sofía said that the real story included all the versions."
+            },
+            {
+              "html": "“The facts tell us what happened,” she said."
+            },
+            {
+              "html": "“The versions tell us how people lived it.”"
+            },
+            {
+              "html": "“In debates, we need both.”"
+            },
+            {
+              "html": "The students wrote her <b>conclusion</b> in their notebooks."
+            },
+            {
+              "html": "Mateo smiled. He was proud of that terrible, wonderful day."
+            }
+          ],
+          "wordCount": 93
+        }
+      ],
+      "practiceWords": [
+        "memory",
+        "version",
+        "retell",
+        "detail",
+        "perspective",
+        "emphasize",
+        "evidence",
+        "competition",
+        "breakdown",
+        "conclusion"
+      ],
+      "vocabulary": [
+        {
+          "word": "memory",
+          "definition": "something you remember (recuerdo)"
+        },
+        {
+          "word": "version",
+          "definition": "one person’s description of an event (versión)"
+        },
+        {
+          "word": "retell",
+          "definition": "to tell a story again (volver a contar)"
+        },
+        {
+          "word": "detail",
+          "definition": "a small fact or part (detalle)"
+        },
+        {
+          "word": "perspective",
+          "definition": "a way of seeing a situation (perspectiva)"
+        },
+        {
+          "word": "emphasize",
+          "definition": "to give special importance to something (enfatizar)"
+        },
+        {
+          "word": "evidence",
+          "definition": "facts that show something is true (evidencia)"
+        },
+        {
+          "word": "competition",
+          "definition": "an event where people try to win (competencia)"
+        },
+        {
+          "word": "breakdown",
+          "definition": "when a machine stops working (avería)"
+        },
+        {
+          "word": "conclusion",
+          "definition": "an idea you reach after thinking (conclusión)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "What time did the team actually arrive at the competition?",
+          "options": [
+            "Two hours late, at around 10:30",
+            "At 7:15, very early",
+            "At 8:30, on time",
+            "At 9:40, seventy minutes late"
+          ],
+          "answer": "At 9:40, seventy minutes late"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "Why did Mateo remember the day as a complete disaster?",
+          "options": [
+            "He remembered the stress more than the other parts of the day.",
+            "He wasn’t there on the day of the competition.",
+            "He didn’t like debate competitions or long bus trips.",
+            "He lied to his friends to make the story funnier at the café."
+          ],
+          "answer": "He remembered the stress more than the other parts of the day."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the old photos and messages from the group chat?",
+          "options": [
+            "To show that Sofía wanted to win the argument at the café.",
+            "To show how evidence helped the friends find the real facts.",
+            "To explain how to repair a broken bus.",
+            "To show that the friends never use group chats."
+          ],
+          "answer": "To show how evidence helped the friends find the real facts."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “Each of us chose a different part to emphasize.” “Emphasize” means…",
+          "options": [
+            "to tell a story for the first time",
+            "to fix a machine that stopped working on a trip",
+            "to give special importance to something",
+            "to forget the details of an event"
+          ],
+          "answer": "to give special importance to something"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which statement best expresses the central idea of the text?",
+          "options": [
+            "Friends usually lie when they retell a difficult day.",
+            "Debate teams should never travel to competitions by bus.",
+            "Memories are always exactly like videos of the real events we lived.",
+            "People remember events differently, so we need evidence and perspectives."
+          ],
+          "answer": "People remember events differently, so we need evidence and perspectives."
+        }
+      ],
+      "cover": "../assets/images/week40_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

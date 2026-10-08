@@ -1,0 +1,849 @@
+WEEKLY READINGS — WEEK 38 — PROMPTS PARA CHATGPT (UNA IMAGEN POR PROMPT)
+==========================================================================================
+
+CÓMO SE USA ESTE ARCHIVO (método probado en Weeks 12–18)
+1. Un chat NUEVO de ChatGPT por cada imagen (evita que se trabe y que copie la composición anterior).
+2. ORDEN POR GRADO: primero la PORTADA, después page01, page02… La portada fija las caras de los personajes de esta semana.
+3. Adjuntos en cada chat:
+   - PORTADA: solo las 2 fotos base de estilo del grado (week01_gradeXX_cover.webp + week01_gradeXX_page01.webp).
+   - PÁGINAS: las 2 fotos base de estilo + la portada YA GENERADA de ese grado y esta semana (weekNN_gradeXX_cover.webp).
+4. Pegar UN solo prompt completo (todo el bloque debajo de la línea "--- archivo.webp ---"). Cada prompt es autónomo: repite estilo, historia, hora, lugar, personajes, escena, ánimo, cámara y reglas, porque cada chat es nuevo.
+5. Revisar cada imagen: mismas caras y ropa dentro del grado, edad correcta, sin texto en páginas interiores, escena fiel a la página.
+6. Convertir a WEBP 1122x1402 con el nombre EXACTO del archivo (weekNN_gradeXX_cover.webp / weekNN_gradeXX_pageNN.webp).
+
+FOTOS BASE = SOLO ESTILO
+Las fotos base del proyecto (week01) tienen OTROS actores. Se adjuntan únicamente para copiar estilo, renderizado, luz y paleta. Los personajes de cada semana son NUEVOS: cada prompt los describe completos (sexo, edad, grado, piel, rasgo, peinado y ropa). Un mismo nombre en otra semana es OTRA cara y OTRA ropa.
+
+EDADES FIJAS POR GRADO (deben verse en la imagen)
+6° = 11 años | 7° = 12 años | 8° = 13 años | 9° = 14 años | 10° = 15–16 años | 11° = 17–18 años.
+6° y 7° se ven niños; 8° y 9° adolescentes jóvenes; 10° adolescentes maduros; 11° casi adultos. Cada grado conserva su estilo: 6° 3D pastel → 7° pictórico → 8° 3D vivo → 9° semi-realista brillante → 10° pictórico semi-realista → 11° realista cinematográfico.
+
+IMÁGENES ÚNICAS
+- Cada prompt corresponde a UNA página concreta de la lectura: su hora, su lugar, sus personas y su acción. Ninguna escena se repite (ni dentro del grado, ni entre grados, ni entre semanas).
+- La portada es un momento y una composición propios; NO es la page01.
+- La cámara cambia en cada página del grado (plano medio, general, sobre el hombro, cenital suave, detalle de manos, etc.).
+
+REGLAS ANTI-ERROR / ANTI-RECHAZO (aprendidas)
+- No escribir nombres de estudios ni marcas (ni "Pixar" ni "Disney"); el estilo se describe con palabras propias.
+- Adolescentes: vocabulario escolar y neutro; sin ángulos bajos; expresiones naturales; nada que parezca peligro real.
+- Páginas interiores: CERO texto (ni letras, ni números, ni logos), incluso en pantallas, tableros, buses, relojes, ropa o libros: solo íconos, bloques de color o líneas en blanco.
+- Portadas: SOLO el título exacto + las 2 líneas "Jony Rojas Ochoa" / "Reading Project shared by IEGRM".
+- Si el chat se traba (sin imagen en ~90 s): chat nuevo y reenviar el mismo prompt con los mismos adjuntos.
+- Si sale texto o letras: responder "Same image, but remove every letter, word and number."
+- Si se parece demasiado a otra imagen ya hecha: "Same scene, but a clearly different composition and camera angle."
+- Si cambia una cara o la ropa: "Keep the characters exactly as in the attached cover: same faces, hair and clothes."
+- Si la edad no se ve bien: "Make the students look exactly their stated age."
+
+******************************************************************************
+VOCABULARIO INTERACTIVO — OBLIGATORIO, NO SE PUEDE OMITIR (funciona EXACTAMENTE como en week15.json)
+******************************************************************************
+Las imágenes NO llevan texto, pero la lectura sí lleva el vocabulario interactivo, y eso NO se toca ni se olvida.
+1. Cada grado tiene EXACTAMENTE 10 entradas en "vocabulary": {"word": "...", "definition": "definición en inglés (traducción)"}.
+2. "practiceWords" contiene las MISMAS 10 palabras, en el MISMO orden que "vocabulary".
+3. Cada palabra aparece UNA vez marcada con <b>palabra</b> dentro de "sentences[].html". Esa marca es la que la vuelve interactiva (clic → resalta, muestra la definición y la pronuncia).
+4. NO quitar, renombrar ni mover las etiquetas <b>; NO convertir "html" en texto plano; NO volver al esquema viejo (legacySentenceSchema: false).
+5. Respetar todo el código base del audio: tts "Web Speech API / SpeechSynthesis", manualAudioFiles: false. Frases de máximo 11 palabras para que el resaltado siga al audio.
+6. Las rutas de imagen del JSON NO cambian: ../assets/images/week38_gradeXX_cover.webp y ../assets/images/week38_gradeXX_pageNN.webp.
+Checklist por grado: [ ] 10 vocabulary  [ ] practiceWords = vocabulary  [ ] 10 <b> en las oraciones  [ ] audio intacto  [ ] imágenes con nombre exacto.
+
+
+##########################################################################################
+GRADO 6 — "The Creek Behind Our School" — 6° Grade / A1 Beginner — portada + 4 páginas = 5 imágenes
+##########################################################################################
+EDAD VISUAL OBLIGATORIA: 11 years old, a sixth grader: small child body, round young face, clearly a child.
+BLOQUE DE ESTILO (fijo en todo el grado): original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream, sky blue), cute rounded characters with big expressive eyes, soft subsurface lighting, cozy detailed sets, shallow depth of field.
+FOTOS BASE DE ESTILO A ADJUNTAR (solo estilo, otros actores): week01_grade06_cover.webp + week01_grade06_page01.webp
+DESDE LA PAGE01: adjuntar también week38_grade06_cover.webp ya generada (fija las caras de esta semana).
+HISTORIA: After a weekend of rain, sixth graders Juan and María find the clear creek behind their school full of brown water, bottles and bags; they follow it up the street and discover a big trash bin with no lid next to the water, tell the principal, and on Saturday the community cleans the creek and gets a new bin with a strong lid.
+PERSONAJES FIJOS (NUEVOS esta semana; caras distintas a otros grados y semanas):
+   - Juan — boy, 11 years old, a sixth grader: small child body, round young face, clearly a child; medium-brown skin, a square jaw and a wide smile, curly black hair, a little long on top; wearing a public school uniform: a white short-sleeve polo shirt with no logo, navy school trousers and black school shoes (same outfit in every image unless the scene says otherwise)
+   - María — girl, 11 years old, a sixth grader: small child body, round young face, clearly a child; light olive skin, freckles across the nose, box braids tied back; wearing a public school uniform: a white short-sleeve blouse with no logo, a navy pinafore school dress, white socks and black school shoes (same outfit in every image unless the scene says otherwise)
+   - the principal, a friendly man about 50, glasses, a gray mustache and a light-blue shirt with a tie
+   - students, parents and neighbors of all ages wearing gloves
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - creek — a small river (quebrada)  [<b> en página 1]
+   - rain — water that falls from clouds (lluvia)  [<b> en página 1]
+   - trash — things people throw away (basura)  [<b> en página 1]
+   - water — the clear liquid in rivers and the rain (agua)  [<b> en página 1]
+   - bridge — a structure that goes over water (puente)  [<b> en página 1]
+   - rocks — hard pieces of stone (rocas)  [<b> en página 1]
+   - bottle — a container for drinks (botella)  [<b> en página 4]
+   - bin — a container for trash (caneca)  [<b> en página 2]
+   - lid — the top part that covers a container (tapa)  [<b> en página 2]
+   - clean — to remove dirt or trash (limpiar)  [<b> en página 3]
+
+--- week38_grade06_cover.webp ---
+Attached images: STYLE REFERENCES ONLY. They show OTHER students; copy only their art style, rendering, lighting and color palette. Do NOT copy their faces, hair or clothes: the characters below are new people.
+Generate the image now: one vertical 4:5 BOOK COVER illustration.
+STYLE: original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream, sky blue), cute rounded characters with big expressive eyes, soft subsurface lighting, cozy detailed sets, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY (for understanding only; never write it in the image): After a weekend of rain, sixth graders Juan and María find the clear creek behind their school full of brown water, bottles and bags; they follow it up the street and discover a big trash bin with no lid next to the water, tell the principal, and on Saturday the community cleans the creek and gets a new bin with a strong lid.
+CHARACTERS (draw exactly like this): Juan — boy, 11 years old, a sixth grader: small child body, round young face, clearly a child; medium-brown skin, a square jaw and a wide smile, curly black hair, a little long on top; wearing a public school uniform: a white short-sleeve polo shirt with no logo, navy school trousers and black school shoes (same outfit in every image unless the scene says otherwise) | María — girl, 11 years old, a sixth grader: small child body, round young face, clearly a child; light olive skin, freckles across the nose, box braids tied back; wearing a public school uniform: a white short-sleeve blouse with no logo, a navy pinafore school dress, white socks and black school shoes (same outfit in every image unless the scene says otherwise).
+COVER SCENE: Juan and María stand on a small wooden bridge over a sparkling clear creek, María holding a new trash bin lid like a shield and Juan holding up a full trash bag with a proud smile, while a tiny silver fish jumps in the water below and green trees and colorful hillside houses surround them.
+COMPOSITION: poster-like book-cover composition: the main characters large in the lower two-thirds, turned toward the viewer with faces clearly visible (unlike the interior pages, which show side-view action); the upper third is a calm, simple area of sky, wall or soft light for the title. This cover must not copy any interior page.
+AGE CHECK: every student must look exactly the age stated above; they are children.
+TEXT — the ONLY text allowed: the title "The Creek Behind Our School" at the top in bubbly hand-lettered orange and deep blue letters with tiny sun and heart doodles. At the bottom, two lines of white/pale-yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No subtitles, grade labels, numbers, captions, speech bubbles, logos or watermarks. Any screen, paper or sign in the scene shows only simple icons or blank shapes.
+
+--- week38_grade06_page01.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 1 of the story "The Creek Behind Our School".
+STYLE: original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream, sky blue), cute rounded characters with big expressive eyes, soft subsurface lighting, cozy detailed sets, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): After a weekend of rain, sixth graders Juan and María find the clear creek behind their school full of brown water, bottles and bags; they follow it up the street and discover a big trash bin with no lid next to the water, tell the principal, and on Saturday the community cleans the creek and gets a new bin with a strong lid.
+TIME: Monday at break, about ten in the morning, sunny after rain.
+PLACE: a small wooden bridge over a creek behind a public school in Medellín, green trees and wet rocks.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Juan — boy, 11 years old, a sixth grader: small child body, round young face, clearly a child; medium-brown skin, a square jaw and a wide smile, curly black hair, a little long on top; wearing a public school uniform: a white short-sleeve polo shirt with no logo, navy school trousers and black school shoes (same outfit in every image unless the scene says otherwise) | María — girl, 11 years old, a sixth grader: small child body, round young face, clearly a child; light olive skin, freckles across the nose, box braids tied back; wearing a public school uniform: a white short-sleeve blouse with no logo, a navy pinafore school dress, white socks and black school shoes (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): Behind a public school in Medellín, Juan, 11, and María, 11, stand on a small wooden bridge looking down at a creek with brown water, plastic bottles and a bag caught between the rocks, green trees around them after the rain.
+MOOD AND EXPRESSIONS: shock and surprise; natural, believable body language.
+CAMERA: closer medium shot on faces, hands and the important object, everyone in the scene still visible, background softly blurred.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade06_page02.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 2 of the story "The Creek Behind Our School".
+STYLE: original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream, sky blue), cute rounded characters with big expressive eyes, soft subsurface lighting, cozy detailed sets, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): After a weekend of rain, sixth graders Juan and María find the clear creek behind their school full of brown water, bottles and bags; they follow it up the street and discover a big trash bin with no lid next to the water, tell the principal, and on Saturday the community cleans the creek and gets a new bin with a strong lid.
+TIME: Monday after school, about one in the afternoon.
+PLACE: a path along the creek behind some houses up a sloping street.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Juan — boy, 11 years old, a sixth grader: small child body, round young face, clearly a child; medium-brown skin, a square jaw and a wide smile, curly black hair, a little long on top; wearing a public school uniform: a white short-sleeve polo shirt with no logo, navy school trousers and black school shoes (same outfit in every image unless the scene says otherwise) | María — girl, 11 years old, a sixth grader: small child body, round young face, clearly a child; light olive skin, freckles across the nose, box braids tied back; wearing a public school uniform: a white short-sleeve blouse with no logo, a navy pinafore school dress, white socks and black school shoes (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): Juan and María walk along a path next to the creek, following it upstream past houses, and María points at a big green trash bin without a lid next to the street, with trash falling out onto the ground near the water.
+MOOD AND EXPRESSIONS: investigation, discovery; natural, believable body language.
+CAMERA: eye-level side view, the setting visible behind the characters.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade06_page03.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 3 of the story "The Creek Behind Our School".
+STYLE: original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream, sky blue), cute rounded characters with big expressive eyes, soft subsurface lighting, cozy detailed sets, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): After a weekend of rain, sixth graders Juan and María find the clear creek behind their school full of brown water, bottles and bags; they follow it up the street and discover a big trash bin with no lid next to the water, tell the principal, and on Saturday the community cleans the creek and gets a new bin with a strong lid.
+TIME: Tuesday morning.
+PLACE: the principal's office with a desk, plants and a window.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Juan — boy, 11 years old, a sixth grader: small child body, round young face, clearly a child; medium-brown skin, a square jaw and a wide smile, curly black hair, a little long on top; wearing a public school uniform: a white short-sleeve polo shirt with no logo, navy school trousers and black school shoes (same outfit in every image unless the scene says otherwise) | María — girl, 11 years old, a sixth grader: small child body, round young face, clearly a child; light olive skin, freckles across the nose, box braids tied back; wearing a public school uniform: a white short-sleeve blouse with no logo, a navy pinafore school dress, white socks and black school shoes (same outfit in every image unless the scene says otherwise) | the principal, a friendly man about 50, glasses, a gray mustache and a light-blue shirt with a tie.
+SCENE (illustrate exactly this moment): In the school office, Juan and María talk to the principal, a friendly man with glasses, showing a drawing of the creek, the bin without a lid and arrows of rain, while the principal listens and nods.
+MOOD AND EXPRESSIONS: serious, responsible, listened to; natural, believable body language.
+CAMERA: layered depth composition: a relevant object softly blurred in the foreground, characters in the middle, setting behind.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade06_page04.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 4 of the story "The Creek Behind Our School".
+STYLE: original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream, sky blue), cute rounded characters with big expressive eyes, soft subsurface lighting, cozy detailed sets, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): After a weekend of rain, sixth graders Juan and María find the clear creek behind their school full of brown water, bottles and bags; they follow it up the street and discover a big trash bin with no lid next to the water, tell the principal, and on Saturday the community cleans the creek and gets a new bin with a strong lid.
+TIME: Saturday morning, bright sunny day.
+PLACE: the creek behind the school with the bridge and a new trash bin with a green lid by the street.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Juan — boy, 11 years old, a sixth grader: small child body, round young face, clearly a child; medium-brown skin, a square jaw and a wide smile, curly black hair, a little long on top; wearing a public school uniform: a white short-sleeve polo shirt with no logo, navy school trousers and black school shoes (same outfit in every image unless the scene says otherwise) | María — girl, 11 years old, a sixth grader: small child body, round young face, clearly a child; light olive skin, freckles across the nose, box braids tied back; wearing a public school uniform: a white short-sleeve blouse with no logo, a navy pinafore school dress, white socks and black school shoes (same outfit in every image unless the scene says otherwise) | students, parents and neighbors of all ages wearing gloves.
+SCENE (illustrate exactly this moment): On a sunny Saturday, students, parents and neighbors wearing gloves pull bottles and bags from the creek; Juan lifts a bottle from under the little bridge and María holds up an old shoe from between the rocks, while two neighbors set a new trash bin with a green lid by the street.
+MOOD AND EXPRESSIONS: teamwork, joy, pride; natural, believable body language.
+CAMERA: medium-wide frontal shot, characters slightly off-center following the rule of thirds, open space around them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+##########################################################################################
+GRADO 7 — "The Snack Budget Challenge" — 7° Grade / A1 Advanced — portada + 5 páginas = 6 imágenes
+##########################################################################################
+EDAD VISUAL OBLIGATORIA: 12 years old, a seventh grader: early-teen body, still a young, childlike face.
+BLOQUE DE ESTILO (fijo en todo el grado): painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors, warm storybook atmosphere.
+FOTOS BASE DE ESTILO A ADJUNTAR (solo estilo, otros actores): week01_grade07_cover.webp + week01_grade07_page01.webp
+DESDE LA PAGE01: adjuntar también week38_grade07_cover.webp ya generada (fija las caras de esta semana).
+HISTORIA: Every Wednesday after soccer practice, seventh graders Camila and Daniel and their friends Juli and Pipe share twenty thousand pesos for snacks and always spend it all on chips and sodas, still hungry; Daniel asks questions about last week and the prices, and they buy empanadas, fruit and water, save the change and stay full.
+PERSONAJES FIJOS (NUEVOS esta semana; caras distintas a otros grados y semanas):
+   - Camila — girl, 12 years old, a seventh grader: early-teen body, still a young, childlike face; golden-tan skin, small stud earrings, a long side braid; wearing a plain purple soccer jersey with no numbers, black shorts, long socks and soccer cleats (same outfit in every image unless the scene says otherwise)
+   - Daniel — boy, 12 years old, a seventh grader: early-teen body, still a young, childlike face; warm tan skin, a small scar on the chin, thick straight hair with a cowlick; wearing a plain purple soccer jersey with no numbers, black shorts, long socks and soccer cleats (same outfit in every image unless the scene says otherwise)
+   - their 12-year-old soccer friends: Juli (a girl with a long curly ponytail) and Pipe (a boy with a buzz cut and big smile), both in the same plain purple jersey
+   - the corner store owner, a cheerful man about 60, a white mustache, a cap and a striped apron
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - snack — a small amount of food between meals (refrigerio)  [<b> en página 1]
+   - budget — the amount of money you plan to spend (presupuesto)  [<b> en página 1]
+   - spend — to use money to buy things (gastar)  [<b> en página 2]
+   - price — how much money something costs (precio)  [<b> en página 3]
+   - chips — thin, crispy fried potatoes in a bag (papitas)  [<b> en página 1]
+   - empanada — a fried pastry filled with meat or potato (empanada)  [<b> en página 3]
+   - fruit — sweet food from plants, like mangoes and bananas (fruta)  [<b> en página 3]
+   - change — the money you get back after paying (vueltas)  [<b> en página 4]
+   - total — the whole amount (total)  [<b> en página 4]
+   - receipt — a paper that shows what you paid (recibo)  [<b> en página 2]
+
+--- week38_grade07_cover.webp ---
+Attached images: STYLE REFERENCES ONLY. They show OTHER students; copy only their art style, rendering, lighting and color palette. Do NOT copy their faces, hair or clothes: the characters below are new people.
+Generate the image now: one vertical 4:5 BOOK COVER illustration.
+STYLE: painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors, warm storybook atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY (for understanding only; never write it in the image): Every Wednesday after soccer practice, seventh graders Camila and Daniel and their friends Juli and Pipe share twenty thousand pesos for snacks and always spend it all on chips and sodas, still hungry; Daniel asks questions about last week and the prices, and they buy empanadas, fruit and water, save the change and stay full.
+CHARACTERS (draw exactly like this): Camila — girl, 12 years old, a seventh grader: early-teen body, still a young, childlike face; golden-tan skin, small stud earrings, a long side braid; wearing a plain purple soccer jersey with no numbers, black shorts, long socks and soccer cleats (same outfit in every image unless the scene says otherwise) | Daniel — boy, 12 years old, a seventh grader: early-teen body, still a young, childlike face; warm tan skin, a small scar on the chin, thick straight hair with a cowlick; wearing a plain purple soccer jersey with no numbers, black shorts, long socks and soccer cleats (same outfit in every image unless the scene says otherwise) | their 12-year-old soccer friends: Juli (a girl with a long curly ponytail) and Pipe (a boy with a buzz cut and big smile), both in the same plain purple jersey.
+COVER SCENE: In front of a small colorful corner store, Camila, Daniel, Juli and Pipe stand in a row facing the viewer, Camila hugging a paper bag overflowing with empanadas, mangoes and bananas and Daniel holding a soccer ball, all grinning.
+COMPOSITION: poster-like book-cover composition: the main characters large in the lower two-thirds, turned toward the viewer with faces clearly visible (unlike the interior pages, which show side-view action); the upper third is a calm, simple area of sky, wall or soft light for the title. This cover must not copy any interior page.
+AGE CHECK: every student must look exactly the age stated above; they are children.
+TEXT — the ONLY text allowed: the title "The Snack Budget Challenge" at the top in navy (first line) and green (second line) letters on a cream torn brush-stroke banner at the top, small leaf sprigs in the corners. At the bottom, two lines of navy text inside a cream rounded box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No subtitles, grade labels, numbers, captions, speech bubbles, logos or watermarks. Any screen, paper or sign in the scene shows only simple icons or blank shapes.
+
+--- week38_grade07_page01.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 1 of the story "The Snack Budget Challenge".
+STYLE: painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors, warm storybook atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Every Wednesday after soccer practice, seventh graders Camila and Daniel and their friends Juli and Pipe share twenty thousand pesos for snacks and always spend it all on chips and sodas, still hungry; Daniel asks questions about last week and the prices, and they buy empanadas, fruit and water, save the change and stay full.
+TIME: last Wednesday at five in the afternoon, warm light.
+PLACE: a small neighborhood corner store in Medellín with a counter and shelves of colorful snacks.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Camila — girl, 12 years old, a seventh grader: early-teen body, still a young, childlike face; golden-tan skin, small stud earrings, a long side braid; wearing a plain purple soccer jersey with no numbers, black shorts, long socks and soccer cleats (same outfit in every image unless the scene says otherwise) | Daniel — boy, 12 years old, a seventh grader: early-teen body, still a young, childlike face; warm tan skin, a small scar on the chin, thick straight hair with a cowlick; wearing a plain purple soccer jersey with no numbers, black shorts, long socks and soccer cleats (same outfit in every image unless the scene says otherwise) | their 12-year-old soccer friends: Juli (a girl with a long curly ponytail) and Pipe (a boy with a buzz cut and big smile), both in the same plain purple jersey.
+SCENE (illustrate exactly this moment): At a small neighborhood corner store in Medellín after soccer practice, Camila, 12, Daniel, 12, and two friends in sports clothes stand at the counter looking at a few coins and bills in Camila's hand, a shelf of colorful snacks behind them.
+MOOD AND EXPRESSIONS: hungry, careless; natural, believable body language.
+CAMERA: eye-level side view, the setting visible behind the characters.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade07_page02.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 2 of the story "The Snack Budget Challenge".
+STYLE: painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors, warm storybook atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Every Wednesday after soccer practice, seventh graders Camila and Daniel and their friends Juli and Pipe share twenty thousand pesos for snacks and always spend it all on chips and sodas, still hungry; Daniel asks questions about last week and the prices, and they buy empanadas, fruit and water, save the change and stay full.
+TIME: this Wednesday at five in the afternoon.
+PLACE: the sidewalk outside the corner store.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Camila — girl, 12 years old, a seventh grader: early-teen body, still a young, childlike face; golden-tan skin, small stud earrings, a long side braid; wearing a plain purple soccer jersey with no numbers, black shorts, long socks and soccer cleats (same outfit in every image unless the scene says otherwise) | Daniel — boy, 12 years old, a seventh grader: early-teen body, still a young, childlike face; warm tan skin, a small scar on the chin, thick straight hair with a cowlick; wearing a plain purple soccer jersey with no numbers, black shorts, long socks and soccer cleats (same outfit in every image unless the scene says otherwise) | their 12-year-old soccer friends: Juli (a girl with a long curly ponytail) and Pipe (a boy with a buzz cut and big smile), both in the same plain purple jersey.
+SCENE (illustrate exactly this moment): Outside the corner store, Juli and Pipe point eagerly at the chips and sodas inside, while Daniel holds up a small receipt with only coin icons and lines and Camila looks at it thoughtfully; Camila is also there, as described.
+MOOD AND EXPRESSIONS: tired, hungry, Daniel thoughtful; natural, believable body language.
+CAMERA: layered depth composition: a relevant object softly blurred in the foreground, characters in the middle, setting behind.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade07_page03.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 3 of the story "The Snack Budget Challenge".
+STYLE: painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors, warm storybook atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Every Wednesday after soccer practice, seventh graders Camila and Daniel and their friends Juli and Pipe share twenty thousand pesos for snacks and always spend it all on chips and sodas, still hungry; Daniel asks questions about last week and the prices, and they buy empanadas, fruit and water, save the change and stay full.
+TIME: a few minutes later.
+PLACE: inside the corner store at the counter with small price cards.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Camila — girl, 12 years old, a seventh grader: early-teen body, still a young, childlike face; golden-tan skin, small stud earrings, a long side braid; wearing a plain purple soccer jersey with no numbers, black shorts, long socks and soccer cleats (same outfit in every image unless the scene says otherwise) | Daniel — boy, 12 years old, a seventh grader: early-teen body, still a young, childlike face; warm tan skin, a small scar on the chin, thick straight hair with a cowlick; wearing a plain purple soccer jersey with no numbers, black shorts, long socks and soccer cleats (same outfit in every image unless the scene says otherwise) | the corner store owner, a cheerful man about 60, a white mustache, a cap and a striped apron.
+SCENE (illustrate exactly this moment): Inside the corner store, Daniel and Camila look at the prices on small handwritten cards next to empanadas, bananas, mangoes and chips, drawn only with coin icons, while the friendly store owner smiles behind the counter.
+MOOD AND EXPRESSIONS: comparing, curious; natural, believable body language.
+CAMERA: medium-wide frontal shot, characters slightly off-center following the rule of thirds, open space around them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade07_page04.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 4 of the story "The Snack Budget Challenge".
+STYLE: painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors, warm storybook atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Every Wednesday after soccer practice, seventh graders Camila and Daniel and their friends Juli and Pipe share twenty thousand pesos for snacks and always spend it all on chips and sodas, still hungry; Daniel asks questions about last week and the prices, and they buy empanadas, fruit and water, save the change and stay full.
+TIME: a few minutes later.
+PLACE: the store counter.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Camila — girl, 12 years old, a seventh grader: early-teen body, still a young, childlike face; golden-tan skin, small stud earrings, a long side braid; wearing a plain purple soccer jersey with no numbers, black shorts, long socks and soccer cleats (same outfit in every image unless the scene says otherwise) | Daniel — boy, 12 years old, a seventh grader: early-teen body, still a young, childlike face; warm tan skin, a small scar on the chin, thick straight hair with a cowlick; wearing a plain purple soccer jersey with no numbers, black shorts, long socks and soccer cleats (same outfit in every image unless the scene says otherwise) | their 12-year-old soccer friends: Juli (a girl with a long curly ponytail) and Pipe (a boy with a buzz cut and big smile), both in the same plain purple jersey | the corner store owner, a cheerful man about 60, a white mustache, a cap and a striped apron.
+SCENE (illustrate exactly this moment): At the store counter, the four friends happily choose eight empanadas, four mangoes and four bananas, and the owner gives Camila a few coins back, while Juli holds a big bottle of water; Daniel is also there, as described.
+MOOD AND EXPRESSIONS: happy choice, satisfaction; natural, believable body language.
+CAMERA: eye-level medium shot, the main characters in the foreground and the place clearly recognizable behind them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade07_page05.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 5 of the story "The Snack Budget Challenge".
+STYLE: painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors, warm storybook atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Every Wednesday after soccer practice, seventh graders Camila and Daniel and their friends Juli and Pipe share twenty thousand pesos for snacks and always spend it all on chips and sodas, still hungry; Daniel asks questions about last week and the prices, and they buy empanadas, fruit and water, save the change and stay full.
+TIME: about six in the afternoon, golden light.
+PLACE: the grass of a neighborhood park.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Camila — girl, 12 years old, a seventh grader: early-teen body, still a young, childlike face; golden-tan skin, small stud earrings, a long side braid; wearing a plain purple soccer jersey with no numbers, black shorts, long socks and soccer cleats (same outfit in every image unless the scene says otherwise) | Daniel — boy, 12 years old, a seventh grader: early-teen body, still a young, childlike face; warm tan skin, a small scar on the chin, thick straight hair with a cowlick; wearing a plain purple soccer jersey with no numbers, black shorts, long socks and soccer cleats (same outfit in every image unless the scene says otherwise) | their 12-year-old soccer friends: Juli (a girl with a long curly ponytail) and Pipe (a boy with a buzz cut and big smile), both in the same plain purple jersey.
+SCENE (illustrate exactly this moment): In a sunny park, the four friends sit on the grass eating empanadas and mangoes and laughing, while Daniel puts two thousand pesos into a small jar labelled only with a soccer ball drawing; Camila is also there, as described.
+MOOD AND EXPRESSIONS: full, happy, proud; natural, believable body language.
+CAMERA: wide establishing shot that shows the whole place, characters at full body in the middle ground.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+##########################################################################################
+GRADO 8 — "We Are Going to Save for It" — 8° Grade / A2 Beginner — portada + 6 páginas = 7 imágenes
+##########################################################################################
+EDAD VISUAL OBLIGATORIA: 13 years old, an eighth grader: young teenager, slim growing body, youthful face.
+BLOQUE DE ESTILO (fijo en todo el grado): original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition.
+FOTOS BASE DE ESTILO A ADJUNTAR (solo estilo, otros actores): week01_grade08_cover.webp + week01_grade08_page01.webp
+DESDE LA PAGE01: adjuntar también week38_grade08_cover.webp ya generada (fija las caras de esta semana).
+HISTORIA: Eighth graders Andrés and Laura in the school media club want to start a school podcast, but their old phone records bad sound and a professional microphone is too expensive; Laura draws a savings thermometer, they compare microphones, run an empanada and lemonade stand at the school fair and reach their goal.
+PERSONAJES FIJOS (NUEVOS esta semana; caras distintas a otros grados y semanas):
+   - Andrés — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light-brown skin, a square jaw and a wide smile, tight short curls; wearing a red zip jacket, with black jeans (same outfit in every image unless the scene says otherwise)
+   - Laura — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; deep-brown skin, freckles across the nose, a high dark ponytail; wearing a beige knit vest over a white shirt, with black jeans (same outfit in every image unless the scene says otherwise)
+   - other 13-year-old media club members
+   - the school cook, a smiling woman about 50, a hairnet and a white apron
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - club — a group of people who meet to do an activity (club)  [<b> en página 1]
+   - equipment — the tools you need for an activity (equipo)  [<b> en página 1]
+   - microphone — a device that records your voice (micrófono)  [<b> en página 1]
+   - podcast — an audio program you can listen to online (pódcast)  [<b> en página 1]
+   - save — to keep money for later (ahorrar)  [<b> en página 2]
+   - goal — something you want to achieve (meta)  [<b> en página 2]
+   - earn — to get money for work (ganar)  [<b> en página 2]
+   - fundraiser — an event to collect money for a project (actividad para recaudar fondos)  [<b> en página 4]
+   - compare — to look at differences and similarities (comparar)  [<b> en página 3]
+   - plan — a list of steps to reach a goal (plan)  [<b> en página 2]
+
+--- week38_grade08_cover.webp ---
+Attached images: STYLE REFERENCES ONLY. They show OTHER students; copy only their art style, rendering, lighting and color palette. Do NOT copy their faces, hair or clothes: the characters below are new people.
+Generate the image now: one vertical 4:5 BOOK COVER illustration.
+STYLE: original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY (for understanding only; never write it in the image): Eighth graders Andrés and Laura in the school media club want to start a school podcast, but their old phone records bad sound and a professional microphone is too expensive; Laura draws a savings thermometer, they compare microphones, run an empanada and lemonade stand at the school fair and reach their goal.
+CHARACTERS (draw exactly like this): Andrés — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light-brown skin, a square jaw and a wide smile, tight short curls; wearing a red zip jacket, with black jeans (same outfit in every image unless the scene says otherwise) | Laura — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; deep-brown skin, freckles across the nose, a high dark ponytail; wearing a beige knit vest over a white shirt, with black jeans (same outfit in every image unless the scene says otherwise).
+COVER SCENE: Andrés and Laura stand facing the viewer in a school hallway, Laura holding a big cardboard microphone cutout and Andrés holding a coin jar, both grinning, with soft sound-wave shapes floating around them.
+COMPOSITION: poster-like book-cover composition: the main characters large in the lower two-thirds, turned toward the viewer with faces clearly visible (unlike the interior pages, which show side-view action); the upper third is a calm, simple area of sky, wall or soft light for the title. This cover must not copy any interior page.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate, school-safe, natural expressions.
+TEXT — the ONLY text allowed: the title "We Are Going to Save for It" at the top in thick hand-lettered navy, green and orange letters with small ray accents. At the bottom, two lines of white/pale-yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No subtitles, grade labels, numbers, captions, speech bubbles, logos or watermarks. Any screen, paper or sign in the scene shows only simple icons or blank shapes.
+
+--- week38_grade08_page01.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 1 of the story "We Are Going to Save for It".
+STYLE: original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Eighth graders Andrés and Laura in the school media club want to start a school podcast, but their old phone records bad sound and a professional microphone is too expensive; Laura draws a savings thermometer, they compare microphones, run an empanada and lemonade stand at the school fair and reach their goal.
+TIME: Monday afternoon.
+PLACE: a small public school classroom used by the media club in Medellín, an old laptop and a phone on a table.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Andrés — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light-brown skin, a square jaw and a wide smile, tight short curls; wearing a red zip jacket, with black jeans (same outfit in every image unless the scene says otherwise) | Laura — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; deep-brown skin, freckles across the nose, a high dark ponytail; wearing a beige knit vest over a white shirt, with black jeans (same outfit in every image unless the scene says otherwise) | other 13-year-old media club members.
+SCENE (illustrate exactly this moment): In a small public school classroom in Medellín used by the media club, Andrés, 13, Laura, 13, and two classmates sit around an old laptop recording with a phone, while Andrés holds a picture of a professional microphone with a big price tag icon.
+MOOD AND EXPRESSIONS: enthusiasm and a problem; natural, believable body language.
+CAMERA: layered depth composition: a relevant object softly blurred in the foreground, characters in the middle, setting behind.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade08_page02.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 2 of the story "We Are Going to Save for It".
+STYLE: original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Eighth graders Andrés and Laura in the school media club want to start a school podcast, but their old phone records bad sound and a professional microphone is too expensive; Laura draws a savings thermometer, they compare microphones, run an empanada and lemonade stand at the school fair and reach their goal.
+TIME: Monday, a few minutes later.
+PLACE: the media club room around a table near a whiteboard.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Andrés — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light-brown skin, a square jaw and a wide smile, tight short curls; wearing a red zip jacket, with black jeans (same outfit in every image unless the scene says otherwise) | Laura — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; deep-brown skin, freckles across the nose, a high dark ponytail; wearing a beige knit vest over a white shirt, with black jeans (same outfit in every image unless the scene says otherwise) | other 13-year-old media club members.
+SCENE (illustrate exactly this moment): The media club members sit around a table looking at a whiteboard where Laura has drawn a simple goal thermometer with coin icons, while Andrés crosses his arms looking discouraged.
+MOOD AND EXPRESSIONS: discouragement versus determination; natural, believable body language.
+CAMERA: medium-wide frontal shot, characters slightly off-center following the rule of thirds, open space around them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade08_page03.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 3 of the story "We Are Going to Save for It".
+STYLE: original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Eighth graders Andrés and Laura in the school media club want to start a school podcast, but their old phone records bad sound and a professional microphone is too expensive; Laura draws a savings thermometer, they compare microphones, run an empanada and lemonade stand at the school fair and reach their goal.
+TIME: Tuesday afternoon.
+PLACE: a table in the school library with a laptop.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Andrés — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light-brown skin, a square jaw and a wide smile, tight short curls; wearing a red zip jacket, with black jeans (same outfit in every image unless the scene says otherwise) | Laura — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; deep-brown skin, freckles across the nose, a high dark ponytail; wearing a beige knit vest over a white shirt, with black jeans (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): Laura and Andrés sit in front of a laptop in the school library comparing three microphones shown as pictures with star icons and coin icons, Laura pointing at a smaller, cheaper one with high stars.
+MOOD AND EXPRESSIONS: smart comparison; natural, believable body language.
+CAMERA: eye-level medium shot, the main characters in the foreground and the place clearly recognizable behind them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade08_page04.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 4 of the story "We Are Going to Save for It".
+STYLE: original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Eighth graders Andrés and Laura in the school media club want to start a school podcast, but their old phone records bad sound and a professional microphone is too expensive; Laura draws a savings thermometer, they compare microphones, run an empanada and lemonade stand at the school fair and reach their goal.
+TIME: Friday, school fair day, sunny.
+PLACE: a busy stand in the decorated school courtyard.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Andrés — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light-brown skin, a square jaw and a wide smile, tight short curls; wearing a red zip jacket, with black jeans (same outfit in every image unless the scene says otherwise) | Laura — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; deep-brown skin, freckles across the nose, a high dark ponytail; wearing a beige knit vest over a white shirt, with black jeans (same outfit in every image unless the scene says otherwise) | other 13-year-old media club members.
+SCENE (illustrate exactly this moment): In the school courtyard during a school event, the media club runs a small stand selling homemade empanadas and lemonade, Andrés taking coins from students and Laura pouring lemonade, a colorful hand-drawn banner with a microphone drawing above them.
+MOOD AND EXPRESSIONS: busy, cheerful teamwork; natural, believable body language.
+CAMERA: wide establishing shot that shows the whole place, characters at full body in the middle ground.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade08_page05.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 5 of the story "We Are Going to Save for It".
+STYLE: original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Eighth graders Andrés and Laura in the school media club want to start a school podcast, but their old phone records bad sound and a professional microphone is too expensive; Laura draws a savings thermometer, they compare microphones, run an empanada and lemonade stand at the school fair and reach their goal.
+TIME: three weeks later, afternoon.
+PLACE: the media club room with the whiteboard.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Andrés — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light-brown skin, a square jaw and a wide smile, tight short curls; wearing a red zip jacket, with black jeans (same outfit in every image unless the scene says otherwise) | Laura — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; deep-brown skin, freckles across the nose, a high dark ponytail; wearing a beige knit vest over a white shirt, with black jeans (same outfit in every image unless the scene says otherwise) | other 13-year-old media club members.
+SCENE (illustrate exactly this moment): In the media club room, Laura colors the goal thermometer on the whiteboard almost to the top while the club members cheer, and Andrés holds an envelope with bills and coins, smiling.
+MOOD AND EXPRESSIONS: celebration, success; natural, believable body language.
+CAMERA: three-quarter view from a slightly raised camera, showing everyone involved and the key object.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade08_page06.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 6 of the story "We Are Going to Save for It".
+STYLE: original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Eighth graders Andrés and Laura in the school media club want to start a school podcast, but their old phone records bad sound and a professional microphone is too expensive; Laura draws a savings thermometer, they compare microphones, run an empanada and lemonade stand at the school fair and reach their goal.
+TIME: one week later, afternoon.
+PLACE: a quiet classroom set up for recording.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Andrés — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light-brown skin, a square jaw and a wide smile, tight short curls; wearing a red zip jacket, with black jeans (same outfit in every image unless the scene says otherwise) | Laura — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; deep-brown skin, freckles across the nose, a high dark ponytail; wearing a beige knit vest over a white shirt, with black jeans (same outfit in every image unless the scene says otherwise) | the school cook, a smiling woman about 50, a hairnet and a white apron.
+SCENE (illustrate exactly this moment): In a quiet classroom, Andrés, wearing headphones, controls the sound beside the new microphone on a small tripod while Laura interviews the school cook, who speaks into the microphone with a big smile.
+MOOD AND EXPRESSIONS: pride, excitement; natural, believable body language.
+CAMERA: over-the-shoulder view from behind one character, keeping the other faces clearly visible.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+##########################################################################################
+GRADO 9 — "The Route Which Saved Us Time" — 9° Grade / A2 Advanced — portada + 6 páginas = 7 imágenes
+##########################################################################################
+EDAD VISUAL OBLIGATORIA: 14 years old, a ninth grader: teenager with teen proportions, youthful face.
+BLOQUE DE ESTILO (fijo en todo el grado): glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field.
+FOTOS BASE DE ESTILO A ADJUNTAR (solo estilo, otros actores): week01_grade09_cover.webp + week01_grade09_page01.webp
+DESDE LA PAGE01: adjuntar también week38_grade09_cover.webp ya generada (fija las caras de esta semana).
+HISTORIA: Ninth graders Samuel and Valeria plan a route to see his cousin's youth soccer final at the big stadium in Medellín on Sunday morning; Samuel trusts the map's bus route, but Valeria discovers a small bicycle icon: on Sundays the avenue closes for cyclists and the bus takes a detour, so they take the Metro and arrive early.
+PERSONAJES FIJOS (NUEVOS esta semana; caras distintas a otros grados y semanas):
+   - Samuel — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; medium-brown skin, a round face and dimples, short spiky black hair; wearing a sky-blue hoodie, with navy pants (same outfit in every image unless the scene says otherwise)
+   - Valeria — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; warm brown skin, small stud earrings, straight shoulder-length hair tucked behind the ears; wearing a green polo shirt, with black jeans (same outfit in every image unless the scene says otherwise)
+   - families in plain colorful soccer jerseys with no numbers or logos
+   - Samuel's cousin, a 15-year-old soccer player, curly hair, a plain sweaty green team uniform with no numbers, a gold medal around his neck
+   - cyclists, runners and families on a car-free Sunday avenue
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - route — the way from one place to another (ruta)  [<b> en página 1]
+   - stadium — a big place for sports games (estadio)  [<b> en página 1]
+   - avenue — a wide street in a city (avenida)  [<b> en página 1]
+   - closure — the act of closing a road (cierre)  [<b> en página 3]
+   - detail — a small fact or part (detalle)  [<b> en página 2]
+   - cycle route — streets closed to cars for bikes on Sundays (ciclovía)  [<b> en página 2]
+   - detour — a different, longer route (desvío)  [<b> en página 3]
+   - connect — to join two places or things (conectar)  [<b> en página 6]
+   - arrive — to reach a place (llegar)  [<b> en página 5]
+   - traffic — the cars and buses on the road (tráfico)  [<b> en página 3]
+
+--- week38_grade09_cover.webp ---
+Attached images: STYLE REFERENCES ONLY. They show OTHER students; copy only their art style, rendering, lighting and color palette. Do NOT copy their faces, hair or clothes: the characters below are new people.
+Generate the image now: one vertical 4:5 BOOK COVER illustration.
+STYLE: glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY (for understanding only; never write it in the image): Ninth graders Samuel and Valeria plan a route to see his cousin's youth soccer final at the big stadium in Medellín on Sunday morning; Samuel trusts the map's bus route, but Valeria discovers a small bicycle icon: on Sundays the avenue closes for cyclists and the bus takes a detour, so they take the Metro and arrive early.
+CHARACTERS (draw exactly like this): Samuel — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; medium-brown skin, a round face and dimples, short spiky black hair; wearing a sky-blue hoodie, with navy pants (same outfit in every image unless the scene says otherwise) | Valeria — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; warm brown skin, small stud earrings, straight shoulder-length hair tucked behind the ears; wearing a green polo shirt, with black jeans (same outfit in every image unless the scene says otherwise) | cyclists, runners and families on a car-free Sunday avenue.
+COVER SCENE: Samuel and Valeria stand on a footbridge above a sunny avenue full of cyclists and runners, Valeria pointing at a tiny bicycle icon on her phone screen and Samuel laughing at himself, while behind them an elevated Metro train glides toward the big stadium shining in the morning sun.
+COMPOSITION: poster-like book-cover composition: the main characters large in the lower two-thirds, turned toward the viewer with faces clearly visible (unlike the interior pages, which show side-view action); the upper third is a calm, simple area of sky, wall or soft light for the title. This cover must not copy any interior page.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate, school-safe, natural expressions.
+TEXT — the ONLY text allowed: the title "The Route Which Saved Us Time" at the top in bold navy, green and orange hand-lettered letters with a soft white glow. At the bottom, two lines of white/pale-yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No subtitles, grade labels, numbers, captions, speech bubbles, logos or watermarks. Any screen, paper or sign in the scene shows only simple icons or blank shapes.
+
+--- week38_grade09_page01.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 1 of the story "The Route Which Saved Us Time".
+STYLE: glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Ninth graders Samuel and Valeria plan a route to see his cousin's youth soccer final at the big stadium in Medellín on Sunday morning; Samuel trusts the map's bus route, but Valeria discovers a small bicycle icon: on Sundays the avenue closes for cyclists and the bus takes a detour, so they take the Metro and arrive early.
+TIME: Saturday at nine at night, lamp light.
+PLACE: a desk in a family apartment in Medellín with a laptop.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Samuel — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; medium-brown skin, a round face and dimples, short spiky black hair; wearing a sky-blue hoodie, with navy pants (same outfit in every image unless the scene says otherwise) | Valeria — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; warm brown skin, small stud earrings, straight shoulder-length hair tucked behind the ears; wearing a green polo shirt, with black jeans (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): In a Medellín family apartment on Saturday night, Samuel, 14, and Valeria, 14, sit at a desk looking at a laptop map with two colored route lines of almost the same length leading to a stadium icon, Samuel pointing confidently at the blue route.
+MOOD AND EXPRESSIONS: confidence, planning; natural, believable body language.
+CAMERA: medium-wide frontal shot, characters slightly off-center following the rule of thirds, open space around them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade09_page02.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 2 of the story "The Route Which Saved Us Time".
+STYLE: glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Ninth graders Samuel and Valeria plan a route to see his cousin's youth soccer final at the big stadium in Medellín on Sunday morning; Samuel trusts the map's bus route, but Valeria discovers a small bicycle icon: on Sundays the avenue closes for cyclists and the bus takes a detour, so they take the Metro and arrive early.
+TIME: Saturday night, a few minutes later.
+PLACE: the same desk.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Samuel — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; medium-brown skin, a round face and dimples, short spiky black hair; wearing a sky-blue hoodie, with navy pants (same outfit in every image unless the scene says otherwise) | Valeria — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; warm brown skin, small stud earrings, straight shoulder-length hair tucked behind the ears; wearing a green polo shirt, with black jeans (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): Valeria zooms in on the laptop map and points at a small icon of a bicycle on the avenue, while Samuel leans back with his arms crossed, unconvinced.
+MOOD AND EXPRESSIONS: curiosity versus overconfidence; natural, believable body language.
+CAMERA: eye-level medium shot, the main characters in the foreground and the place clearly recognizable behind them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade09_page03.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 3 of the story "The Route Which Saved Us Time".
+STYLE: glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Ninth graders Samuel and Valeria plan a route to see his cousin's youth soccer final at the big stadium in Medellín on Sunday morning; Samuel trusts the map's bus route, but Valeria discovers a small bicycle icon: on Sundays the avenue closes for cyclists and the bus takes a detour, so they take the Metro and arrive early.
+TIME: Saturday night.
+PLACE: the same desk with the laptop.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Samuel — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; medium-brown skin, a round face and dimples, short spiky black hair; wearing a sky-blue hoodie, with navy pants (same outfit in every image unless the scene says otherwise) | Valeria — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; warm brown skin, small stud earrings, straight shoulder-length hair tucked behind the ears; wearing a green polo shirt, with black jeans (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): Samuel and Valeria look at the bus company's website on the laptop showing only a bus icon, an arrow taking a long curved path and a clock, Samuel's face changing from confident to surprised.
+MOOD AND EXPRESSIONS: surprise, change of mind; natural, believable body language.
+CAMERA: wide establishing shot that shows the whole place, characters at full body in the middle ground.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade09_page04.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 4 of the story "The Route Which Saved Us Time".
+STYLE: glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Ninth graders Samuel and Valeria plan a route to see his cousin's youth soccer final at the big stadium in Medellín on Sunday morning; Samuel trusts the map's bus route, but Valeria discovers a small bicycle icon: on Sundays the avenue closes for cyclists and the bus takes a detour, so they take the Metro and arrive early.
+TIME: Sunday at eight in the morning, sunny.
+PLACE: inside a clean Medellín Metro train full of families, the stadium visible through the window.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Samuel — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; medium-brown skin, a round face and dimples, short spiky black hair; wearing a sky-blue hoodie, with navy pants (same outfit in every image unless the scene says otherwise) | Valeria — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; warm brown skin, small stud earrings, straight shoulder-length hair tucked behind the ears; wearing a green polo shirt, with black jeans (same outfit in every image unless the scene says otherwise) | families in plain colorful soccer jerseys with no numbers or logos.
+SCENE (illustrate exactly this moment): On Sunday morning, Samuel and Valeria ride a clean Medellín Metro train full of families in plain soccer jerseys, standing and smiling, while through the big train window the big stadium appears in the morning sun.
+MOOD AND EXPRESSIONS: happy, relaxed; natural, believable body language.
+CAMERA: three-quarter view from a slightly raised camera, showing everyone involved and the key object.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade09_page05.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 5 of the story "The Route Which Saved Us Time".
+STYLE: glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Ninth graders Samuel and Valeria plan a route to see his cousin's youth soccer final at the big stadium in Medellín on Sunday morning; Samuel trusts the map's bus route, but Valeria discovers a small bicycle icon: on Sundays the avenue closes for cyclists and the bus takes a detour, so they take the Metro and arrive early.
+TIME: Sunday at nine in the morning, sunny.
+PLACE: the stadium seats with a view of the avenue outside.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Samuel — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; medium-brown skin, a round face and dimples, short spiky black hair; wearing a sky-blue hoodie, with navy pants (same outfit in every image unless the scene says otherwise) | Valeria — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; warm brown skin, small stud earrings, straight shoulder-length hair tucked behind the ears; wearing a green polo shirt, with black jeans (same outfit in every image unless the scene says otherwise) | families in plain colorful soccer jerseys with no numbers or logos | cyclists, runners and families on a car-free Sunday avenue.
+SCENE (illustrate exactly this moment): From a window of the stadium seats, Samuel and Valeria look down at the avenue outside, which is full of cyclists, runners and families walking on the closed road, with no buses, under a sunny sky.
+MOOD AND EXPRESSIONS: satisfaction, a funny realization; natural, believable body language.
+CAMERA: over-the-shoulder view from behind one character, keeping the other faces clearly visible.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade09_page06.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 6 of the story "The Route Which Saved Us Time".
+STYLE: glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Ninth graders Samuel and Valeria plan a route to see his cousin's youth soccer final at the big stadium in Medellín on Sunday morning; Samuel trusts the map's bus route, but Valeria discovers a small bicycle icon: on Sundays the avenue closes for cyclists and the bus takes a detour, so they take the Metro and arrive early.
+TIME: Sunday at eleven in the morning, bright sun.
+PLACE: outside the stadium entrance, families walking toward the Metro station.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Samuel — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; medium-brown skin, a round face and dimples, short spiky black hair; wearing a sky-blue hoodie, with navy pants (same outfit in every image unless the scene says otherwise) | Valeria — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; warm brown skin, small stud earrings, straight shoulder-length hair tucked behind the ears; wearing a green polo shirt, with black jeans (same outfit in every image unless the scene says otherwise) | families in plain colorful soccer jerseys with no numbers or logos | Samuel's cousin, a 15-year-old soccer player, curly hair, a plain sweaty green team uniform with no numbers, a gold medal around his neck.
+SCENE (illustrate exactly this moment): After the game, Samuel's cousin, a teenager in a sweaty soccer uniform with a medal, celebrates with Samuel and Valeria outside the stadium, while families walk toward the Metro station in the background.
+MOOD AND EXPRESSIONS: celebration, gratitude; natural, believable body language.
+CAMERA: closer medium shot on faces, hands and the important object, everyone in the scene still visible, background softly blurred.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+##########################################################################################
+GRADO 10 — "The Noise Map of Our Neighborhood" — 10° Grade / B1 Beginner — portada + 7 páginas = 8 imágenes
+##########################################################################################
+EDAD VISUAL OBLIGATORIA: 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face.
+BLOQUE DE ESTILO (fijo en todo el grado): painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere.
+FOTOS BASE DE ESTILO A ADJUNTAR (solo estilo, otros actores): week01_grade10_cover.webp + week01_grade10_page01.webp
+DESDE LA PAGE01: adjuntar también week38_grade10_cover.webp ya generada (fija las caras de esta semana).
+HISTORIA: Construction drilling and traffic noise ruin a math exam at tenth graders Laura and Andrés's school; with a sound-meter app recommended by their science teacher, they measure five places at different times, draw a red-and-green noise map, and the principal and the construction foreman change exam rooms and drilling hours.
+PERSONAJES FIJOS (NUEVOS esta semana; caras distintas a otros grados y semanas):
+   - Laura — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; light-brown skin, thin round glasses, wavy dark hair with a fabric headband; wearing a white school polo shirt with no logo, a navy pleated school skirt, white socks and black shoes (same outfit in every image unless the scene says otherwise)
+   - Andrés — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; deep-brown skin, a round face and dimples, short dark hair with a side part; wearing a white school polo shirt with no logo, navy school trousers and black shoes (same outfit in every image unless the scene says otherwise)
+   - 16-year-old students in white-and-navy school uniforms
+   - the science teacher, a woman about 40, a long braid, a white lab coat
+   - the principal, a woman about 55, short gray hair, glasses, a burgundy blazer
+   - younger students about 12 in the same white-and-navy school uniform
+   - the construction foreman, a man about 45, a yellow helmet, a reflective vest and a clipboard
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - noise — a loud or unpleasant sound (ruido)  [<b> en página 1]
+   - decibel — a unit to measure how loud a sound is (decibel)  [<b> en página 2]
+   - measure — to find the size or amount of something (medir)  [<b> en página 2]
+   - construction — the work of building something (construcción)  [<b> en página 1]
+   - concentrate — to give all your attention to something (concentrarse)  [<b> en página 1]
+   - data — facts and numbers collected for study (datos)  [<b> en página 3]
+   - schedule — a plan with times for activities (horario)  [<b> en página 4]
+   - solution — a way to solve a problem (solución)  [<b> en página 4]
+   - traffic — the cars and buses on the road (tráfico)  [<b> en página 3]
+   - foreman — the person in charge of workers at a construction site (capataz)  [<b> en página 5]
+
+--- week38_grade10_cover.webp ---
+Attached images: STYLE REFERENCES ONLY. They show OTHER students; copy only their art style, rendering, lighting and color palette. Do NOT copy their faces, hair or clothes: the characters below are new people.
+Generate the image now: one vertical 4:5 BOOK COVER illustration.
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY (for understanding only; never write it in the image): Construction drilling and traffic noise ruin a math exam at tenth graders Laura and Andrés's school; with a sound-meter app recommended by their science teacher, they measure five places at different times, draw a red-and-green noise map, and the principal and the construction foreman change exam rooms and drilling hours.
+CHARACTERS (draw exactly like this): Laura — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; light-brown skin, thin round glasses, wavy dark hair with a fabric headband; wearing a white school polo shirt with no logo, a navy pleated school skirt, white socks and black shoes (same outfit in every image unless the scene says otherwise) | Andrés — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; deep-brown skin, a round face and dimples, short dark hair with a side part; wearing a white school polo shirt with no logo, navy school trousers and black shoes (same outfit in every image unless the scene says otherwise).
+COVER SCENE: Laura holds up a phone with a sound-meter needle while Andrés unrolls a big colorful noise map with red and green zones around a drawing of their school; behind them, on one side, a construction site with a drilling machine sends visible sound waves, and on the other side a quiet green garden classroom glows calmly.
+COMPOSITION: poster-like book-cover composition: the main characters large in the lower two-thirds, turned toward the viewer with faces clearly visible (unlike the interior pages, which show side-view action); the upper third is a calm, simple area of sky, wall or soft light for the title. This cover must not copy any interior page.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate, school-safe, natural expressions.
+TEXT — the ONLY text allowed: the title "The Noise Map of Our Neighborhood" at the top in navy and green hand-lettered letters with a golden underline swoosh. At the bottom, two lines of white/pale-yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No subtitles, grade labels, numbers, captions, speech bubbles, logos or watermarks. Any screen, paper or sign in the scene shows only simple icons or blank shapes.
+
+--- week38_grade10_page01.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 1 of the story "The Noise Map of Our Neighborhood".
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Construction drilling and traffic noise ruin a math exam at tenth graders Laura and Andrés's school; with a sound-meter app recommended by their science teacher, they measure five places at different times, draw a red-and-green noise map, and the principal and the construction foreman change exam rooms and drilling hours.
+TIME: Tuesday at ten in the morning, hot, bright daylight.
+PLACE: a public school classroom in Medellín facing a busy street, windows open, rows of desks.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Laura — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; light-brown skin, thin round glasses, wavy dark hair with a fabric headband; wearing a white school polo shirt with no logo, a navy pleated school skirt, white socks and black shoes (same outfit in every image unless the scene says otherwise) | Andrés — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; deep-brown skin, a round face and dimples, short dark hair with a side part; wearing a white school polo shirt with no logo, navy school trousers and black shoes (same outfit in every image unless the scene says otherwise) | 16-year-old students in white-and-navy school uniforms.
+SCENE (illustrate exactly this moment): In a public school classroom in Medellín facing a busy street, students cover their ears during an exam as loud construction noise comes through the open windows, while Laura, 16, frowns at her exam paper and Andrés, 16, looks at the window.
+MOOD AND EXPRESSIONS: stress, noise, frustration; natural, believable body language.
+CAMERA: eye-level medium shot, the main characters in the foreground and the place clearly recognizable behind them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade10_page02.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 2 of the story "The Noise Map of Our Neighborhood".
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Construction drilling and traffic noise ruin a math exam at tenth graders Laura and Andrés's school; with a sound-meter app recommended by their science teacher, they measure five places at different times, draw a red-and-green noise map, and the principal and the construction foreman change exam rooms and drilling hours.
+TIME: Tuesday afternoon.
+PLACE: the school science lab with tables and equipment.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Laura — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; light-brown skin, thin round glasses, wavy dark hair with a fabric headband; wearing a white school polo shirt with no logo, a navy pleated school skirt, white socks and black shoes (same outfit in every image unless the scene says otherwise) | Andrés — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; deep-brown skin, a round face and dimples, short dark hair with a side part; wearing a white school polo shirt with no logo, navy school trousers and black shoes (same outfit in every image unless the scene says otherwise) | the science teacher, a woman about 40, a long braid, a white lab coat.
+SCENE (illustrate exactly this moment): Laura and Andrés sit in the school science lab with their science teacher, who shows them a phone app with a sound level meter icon and a needle, explaining how to use it.
+MOOD AND EXPRESSIONS: curiosity, guidance; natural, believable body language.
+CAMERA: wide establishing shot that shows the whole place, characters at full body in the middle ground.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade10_page03.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 3 of the story "The Noise Map of Our Neighborhood".
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Construction drilling and traffic noise ruin a math exam at tenth graders Laura and Andrés's school; with a sound-meter app recommended by their science teacher, they measure five places at different times, draw a red-and-green noise map, and the principal and the construction foreman change exam rooms and drilling hours.
+TIME: Wednesday at seven in the morning.
+PLACE: the school entrance next to a busy bus stop, a construction site next door.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Laura — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; light-brown skin, thin round glasses, wavy dark hair with a fabric headband; wearing a white school polo shirt with no logo, a navy pleated school skirt, white socks and black shoes (same outfit in every image unless the scene says otherwise) | Andrés — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; deep-brown skin, a round face and dimples, short dark hair with a side part; wearing a white school polo shirt with no logo, navy school trousers and black shoes (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): Laura holds up a phone with a sound meter app near the school entrance next to a busy bus stop, while Andrés makes tally marks in a notebook; buses, motorcycles and a construction site with a drilling machine are visible behind them.
+MOOD AND EXPRESSIONS: careful data collection; natural, believable body language.
+CAMERA: three-quarter view from a slightly raised camera, showing everyone involved and the key object.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade10_page04.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 4 of the story "The Noise Map of Our Neighborhood".
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Construction drilling and traffic noise ruin a math exam at tenth graders Laura and Andrés's school; with a sound-meter app recommended by their science teacher, they measure five places at different times, draw a red-and-green noise map, and the principal and the construction foreman change exam rooms and drilling hours.
+TIME: the next week, morning.
+PLACE: a school meeting room with a table and teachers.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Laura — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; light-brown skin, thin round glasses, wavy dark hair with a fabric headband; wearing a white school polo shirt with no logo, a navy pleated school skirt, white socks and black shoes (same outfit in every image unless the scene says otherwise) | Andrés — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; deep-brown skin, a round face and dimples, short dark hair with a side part; wearing a white school polo shirt with no logo, navy school trousers and black shoes (same outfit in every image unless the scene says otherwise) | the principal, a woman about 55, short gray hair, glasses, a burgundy blazer.
+SCENE (illustrate exactly this moment): Laura and Andrés present their colorful noise map, with red and green areas around a drawing of the school, to the principal and a few teachers in a meeting room, while the principal studies it carefully.
+MOOD AND EXPRESSIONS: evidence, problem solving; natural, believable body language.
+CAMERA: over-the-shoulder view from behind one character, keeping the other faces clearly visible.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade10_page05.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 5 of the story "The Noise Map of Our Neighborhood".
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Construction drilling and traffic noise ruin a math exam at tenth graders Laura and Andrés's school; with a sound-meter app recommended by their science teacher, they measure five places at different times, draw a red-and-green noise map, and the principal and the construction foreman change exam rooms and drilling hours.
+TIME: the same morning, about ten.
+PLACE: the edge of the construction site next to the school.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Laura — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; light-brown skin, thin round glasses, wavy dark hair with a fabric headband; wearing a white school polo shirt with no logo, a navy pleated school skirt, white socks and black shoes (same outfit in every image unless the scene says otherwise) | Andrés — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; deep-brown skin, a round face and dimples, short dark hair with a side part; wearing a white school polo shirt with no logo, navy school trousers and black shoes (same outfit in every image unless the scene says otherwise) | the principal, a woman about 55, short gray hair, glasses, a burgundy blazer | the construction foreman, a man about 45, a yellow helmet, a reflective vest and a clipboard.
+SCENE (illustrate exactly this moment): At the edge of the construction site next to the school, Laura and Andrés speak with the construction foreman, a man in his forties with a yellow helmet and a clipboard, showing him the noise map, while machines rest behind him; principal is also there, as described.
+MOOD AND EXPRESSIONS: respectful negotiation; natural, believable body language.
+CAMERA: closer medium shot on faces, hands and the important object, everyone in the scene still visible, background softly blurred.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade10_page06.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 6 of the story "The Noise Map of Our Neighborhood".
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Construction drilling and traffic noise ruin a math exam at tenth graders Laura and Andrés's school; with a sound-meter app recommended by their science teacher, they measure five places at different times, draw a red-and-green noise map, and the principal and the construction foreman change exam rooms and drilling hours.
+TIME: two weeks later, morning, calm soft light.
+PLACE: a quiet classroom next to the school garden.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Laura — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; light-brown skin, thin round glasses, wavy dark hair with a fabric headband; wearing a white school polo shirt with no logo, a navy pleated school skirt, white socks and black shoes (same outfit in every image unless the scene says otherwise) | Andrés — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; deep-brown skin, a round face and dimples, short dark hair with a side part; wearing a white school polo shirt with no logo, navy school trousers and black shoes (same outfit in every image unless the scene says otherwise) | 16-year-old students in white-and-navy school uniforms.
+SCENE (illustrate exactly this moment): Weeks later in a quiet classroom near the garden, students take an exam calmly while the windows show green plants, and Laura checks the sound meter app showing a low green needle, smiling at Andrés.
+MOOD AND EXPRESSIONS: calm, success; natural, believable body language.
+CAMERA: eye-level side view, the setting visible behind the characters.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade10_page07.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 7 of the story "The Noise Map of Our Neighborhood".
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Construction drilling and traffic noise ruin a math exam at tenth graders Laura and Andrés's school; with a sound-meter app recommended by their science teacher, they measure five places at different times, draw a red-and-green noise map, and the principal and the construction foreman change exam rooms and drilling hours.
+TIME: the next day.
+PLACE: a school hallway with a bulletin board.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Laura — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; light-brown skin, thin round glasses, wavy dark hair with a fabric headband; wearing a white school polo shirt with no logo, a navy pleated school skirt, white socks and black shoes (same outfit in every image unless the scene says otherwise) | Andrés — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; deep-brown skin, a round face and dimples, short dark hair with a side part; wearing a white school polo shirt with no logo, navy school trousers and black shoes (same outfit in every image unless the scene says otherwise) | the principal, a woman about 55, short gray hair, glasses, a burgundy blazer | younger students about 12 in the same white-and-navy school uniform.
+SCENE (illustrate exactly this moment): Laura and Andrés stand next to a school bulletin board where their colorful noise map is displayed with a small bar chart, while younger students look at it and the principal smiles beside them.
+MOOD AND EXPRESSIONS: sharing, pride; natural, believable body language.
+CAMERA: layered depth composition: a relevant object softly blurred in the foreground, characters in the middle, setting behind.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+##########################################################################################
+GRADO 11 — "The Night Hike That Taught Us Something" — 11° Grade / B1+ — portada + 8 páginas = 9 imágenes
+##########################################################################################
+EDAD VISUAL OBLIGATORIA: 17 years old, a final-year high-school student (17–18): young-adult look and proportions.
+BLOQUE DE ESTILO (fijo en todo el grado): realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors.
+FOTOS BASE DE ESTILO A ADJUNTAR (solo estilo, otros actores): week01_grade11_cover.webp + week01_grade11_page01.webp
+DESDE LA PAGE01: adjuntar también week38_grade11_cover.webp ya generada (fija las caras de esta semana).
+HISTORIA: Final-year students Samuel and Laura join a youth group's night hike in the mountains of Santa Elena; Samuel thinks the guide Marta's rules (stay together, count off) are too strict, but when Pablo leaves the trail for a photo of the stars and goes missing, the group follows the safety plan calmly and finds him.
+PERSONAJES FIJOS (NUEVOS esta semana; caras distintas a otros grados y semanas):
+   - Samuel — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; golden-tan skin, freckles across the nose, short light-brown hair; wearing a black puffer jacket, a gray beanie, hiking pants, boots, a backpack and a flashlight (same outfit in every image unless the scene says otherwise)
+   - Laura — young woman, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; medium-brown skin, rectangular dark-framed glasses, two long braids; wearing a maroon fleece jacket, a knitted headband, hiking pants, boots, a backpack and a headlamp (same outfit in every image unless the scene says otherwise)
+   - Marta, the experienced mountain guide, a woman about 45, a short practical haircut, a red outdoor jacket, a radio and a headlamp
+   - other young people aged 16–18 in outdoor jackets with flashlights
+   - the second adult leader, a man about 50 in a blue jacket at the back of the line
+   - Pablo, a quiet 17-year-old, thin, glasses, a green jacket and a camera around his neck
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - hike — a long walk in nature (caminata)  [<b> en página 1]
+   - guide — a person who leads visitors (guía)  [<b> en página 1]
+   - flashlight — a small light you carry in your hand (linterna)  [<b> en página 1]
+   - instructions — information about how to do something (instrucciones)  [<b> en página 4]
+   - count — to say numbers to know how many there are (contar)  [<b> en página 1]
+   - separate — to move apart from a group (separarse)  [<b> en página 4]
+   - radio — a device to talk with people far away (radio)  [<b> en página 4]
+   - trail — a path in nature for walking (sendero)  [<b> en página 2]
+   - report — a description of what happened (informe)  [<b> en página 8]
+   - safety — being protected from danger (seguridad)  [<b> en página 8]
+
+--- week38_grade11_cover.webp ---
+Attached images: STYLE REFERENCES ONLY. They show OTHER students; copy only their art style, rendering, lighting and color palette. Do NOT copy their faces, hair or clothes: the characters below are new people.
+Generate the image now: one vertical 4:5 BOOK COVER illustration.
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY (for understanding only; never write it in the image): Final-year students Samuel and Laura join a youth group's night hike in the mountains of Santa Elena; Samuel thinks the guide Marta's rules (stay together, count off) are too strict, but when Pablo leaves the trail for a photo of the stars and goes missing, the group follows the safety plan calmly and finds him.
+CHARACTERS (draw exactly like this): Samuel — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; golden-tan skin, freckles across the nose, short light-brown hair; wearing a black puffer jacket, a gray beanie, hiking pants, boots, a backpack and a flashlight (same outfit in every image unless the scene says otherwise) | Laura — young woman, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; medium-brown skin, rectangular dark-framed glasses, two long braids; wearing a maroon fleece jacket, a knitted headband, hiking pants, boots, a backpack and a headlamp (same outfit in every image unless the scene says otherwise).
+COVER SCENE: On a dark mountain trail under a sky full of stars, a line of young hikers with glowing flashlights winds between tall trees; in the foreground Samuel and Laura stand together, Laura holding up her headlamp and Samuel looking up at the stars with a thoughtful, mature expression, the faint lights of Medellín far below.
+COMPOSITION: poster-like book-cover composition: the main characters large in the lower two-thirds, turned toward the viewer with faces clearly visible (unlike the interior pages, which show side-view action); the upper third is a calm, simple area of sky, wall or soft light for the title. This cover must not copy any interior page.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate, school-safe, natural expressions.
+TEXT — the ONLY text allowed: the title "The Night Hike That Taught Us Something" at the top in navy and green letters with an orange underline. At the bottom, two lines of white/pale-yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No subtitles, grade labels, numbers, captions, speech bubbles, logos or watermarks. Any screen, paper or sign in the scene shows only simple icons or blank shapes.
+
+--- week38_grade11_page01.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 1 of the story "The Night Hike That Taught Us Something".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Final-year students Samuel and Laura join a youth group's night hike in the mountains of Santa Elena; Samuel thinks the guide Marta's rules (stay together, count off) are too strict, but when Pablo leaves the trail for a photo of the stars and goes missing, the group follows the safety plan calmly and finds him.
+TIME: Friday at six in the evening, warm indoor light.
+PLACE: a meeting room of a public library in Medellín with chairs in a circle.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Samuel — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; golden-tan skin, freckles across the nose, short light-brown hair; wearing a black puffer jacket, a gray beanie, hiking pants, boots, a backpack and a flashlight (same outfit in every image unless the scene says otherwise) | Laura — young woman, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; medium-brown skin, rectangular dark-framed glasses, two long braids; wearing a maroon fleece jacket, a knitted headband, hiking pants, boots, a backpack and a headlamp (same outfit in every image unless the scene says otherwise) | Marta, the experienced mountain guide, a woman about 45, a short practical haircut, a red outdoor jacket, a radio and a headlamp | other young people aged 16–18 in outdoor jackets with flashlights.
+SCENE (illustrate exactly this moment): In a meeting room of a public library in Medellín in the evening, a youth group of teenagers including Samuel, 17, and Laura, 17, sit in a circle with backpacks and flashlights while an experienced mountain guide in her forties explains rules with a simple drawn map of a trail.
+MOOD AND EXPRESSIONS: preparation, Samuel skeptical; natural, believable body language.
+CAMERA: wide establishing shot that shows the whole place, characters at full body in the middle ground.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade11_page02.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 2 of the story "The Night Hike That Taught Us Something".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Final-year students Samuel and Laura join a youth group's night hike in the mountains of Santa Elena; Samuel thinks the guide Marta's rules (stay together, count off) are too strict, but when Pablo leaves the trail for a photo of the stars and goes missing, the group follows the safety plan calmly and finds him.
+TIME: Saturday at eight at night, cold, dark, starry.
+PLACE: a forest trail in the mountains of Santa Elena with tall trees.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Samuel — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; golden-tan skin, freckles across the nose, short light-brown hair; wearing a black puffer jacket, a gray beanie, hiking pants, boots, a backpack and a flashlight (same outfit in every image unless the scene says otherwise) | Marta, the experienced mountain guide, a woman about 45, a short practical haircut, a red outdoor jacket, a radio and a headlamp | other young people aged 16–18 in outdoor jackets with flashlights | the second adult leader, a man about 50 in a blue jacket at the back of the line.
+SCENE (illustrate exactly this moment): On a dark forest trail at night in Santa Elena, the youth group walks in a line with flashlights shining on the path, the guide at the front and a second adult at the back, stars visible above the tall trees; Samuel is also there, as described.
+MOOD AND EXPRESSIONS: quiet adventure; natural, believable body language.
+CAMERA: three-quarter view from a slightly raised camera, showing everyone involved and the key object.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade11_page03.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 3 of the story "The Night Hike That Taught Us Something".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Final-year students Samuel and Laura join a youth group's night hike in the mountains of Santa Elena; Samuel thinks the guide Marta's rules (stay together, count off) are too strict, but when Pablo leaves the trail for a photo of the stars and goes missing, the group follows the safety plan calmly and finds him.
+TIME: Saturday at nine at night, dark.
+PLACE: a small clearing on the trail.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Samuel — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; golden-tan skin, freckles across the nose, short light-brown hair; wearing a black puffer jacket, a gray beanie, hiking pants, boots, a backpack and a flashlight (same outfit in every image unless the scene says otherwise) | Laura — young woman, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; medium-brown skin, rectangular dark-framed glasses, two long braids; wearing a maroon fleece jacket, a knitted headband, hiking pants, boots, a backpack and a headlamp (same outfit in every image unless the scene says otherwise) | Marta, the experienced mountain guide, a woman about 45, a short practical haircut, a red outdoor jacket, a radio and a headlamp | other young people aged 16–18 in outdoor jackets with flashlights.
+SCENE (illustrate exactly this moment): The group stops in a clearing at night, and the guide holds up her hand looking worried while teenagers shine flashlights around, and Laura points at an empty space in the line; one flashlight beam is missing; Samuel is also there, as described.
+MOOD AND EXPRESSIONS: sudden worry; natural, believable body language.
+CAMERA: over-the-shoulder view from behind one character, keeping the other faces clearly visible.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade11_page04.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 4 of the story "The Night Hike That Taught Us Something".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Final-year students Samuel and Laura join a youth group's night hike in the mountains of Santa Elena; Samuel thinks the guide Marta's rules (stay together, count off) are too strict, but when Pablo leaves the trail for a photo of the stars and goes missing, the group follows the safety plan calmly and finds him.
+TIME: a minute later, dark.
+PLACE: the clearing, the group standing together.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Samuel — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; golden-tan skin, freckles across the nose, short light-brown hair; wearing a black puffer jacket, a gray beanie, hiking pants, boots, a backpack and a flashlight (same outfit in every image unless the scene says otherwise) | Laura — young woman, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; medium-brown skin, rectangular dark-framed glasses, two long braids; wearing a maroon fleece jacket, a knitted headband, hiking pants, boots, a backpack and a headlamp (same outfit in every image unless the scene says otherwise) | Marta, the experienced mountain guide, a woman about 45, a short practical haircut, a red outdoor jacket, a radio and a headlamp | other young people aged 16–18 in outdoor jackets with flashlights.
+SCENE (illustrate exactly this moment): The guide speaks calmly into a handheld radio while the group stays together in a tight circle with flashlights, and Samuel and Laura stand close to her, listening seriously in the dark forest.
+MOOD AND EXPRESSIONS: calm leadership, serious attention; natural, believable body language.
+CAMERA: closer medium shot on faces, hands and the important object, everyone in the scene still visible, background softly blurred.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade11_page05.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 5 of the story "The Night Hike That Taught Us Something".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Final-year students Samuel and Laura join a youth group's night hike in the mountains of Santa Elena; Samuel thinks the guide Marta's rules (stay together, count off) are too strict, but when Pablo leaves the trail for a photo of the stars and goes missing, the group follows the safety plan calmly and finds him.
+TIME: about ten minutes later, dark.
+PLACE: the edge of the trail by the trees.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Marta, the experienced mountain guide, a woman about 45, a short practical haircut, a red outdoor jacket, a radio and a headlamp | other young people aged 16–18 in outdoor jackets with flashlights | Pablo, a quiet 17-year-old, thin, glasses, a green jacket and a camera around his neck.
+SCENE (illustrate exactly this moment): A teenage boy with a camera around his neck, Pablo, walks out of the trees back to the trail with an embarrassed face, holding his flashlight, while the guide and the group shine their lights on him with relief.
+MOOD AND EXPRESSIONS: relief, embarrassment; natural, believable body language.
+CAMERA: eye-level side view, the setting visible behind the characters.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade11_page06.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 6 of the story "The Night Hike That Taught Us Something".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Final-year students Samuel and Laura join a youth group's night hike in the mountains of Santa Elena; Samuel thinks the guide Marta's rules (stay together, count off) are too strict, but when Pablo leaves the trail for a photo of the stars and goes missing, the group follows the safety plan calmly and finds him.
+TIME: a few minutes later, starry night.
+PLACE: the clearing with logs to sit on.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Samuel — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; golden-tan skin, freckles across the nose, short light-brown hair; wearing a black puffer jacket, a gray beanie, hiking pants, boots, a backpack and a flashlight (same outfit in every image unless the scene says otherwise) | Laura — young woman, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; medium-brown skin, rectangular dark-framed glasses, two long braids; wearing a maroon fleece jacket, a knitted headband, hiking pants, boots, a backpack and a headlamp (same outfit in every image unless the scene says otherwise) | Marta, the experienced mountain guide, a woman about 45, a short practical haircut, a red outdoor jacket, a radio and a headlamp | other young people aged 16–18 in outdoor jackets with flashlights | Pablo, a quiet 17-year-old, thin, glasses, a green jacket and a camera around his neck.
+SCENE (illustrate exactly this moment): In the forest clearing, the group sits on logs around the guide, who explains with a serious face, while Samuel looks thoughtful and Pablo sits next to Laura, and the night sky full of stars shines above.
+MOOD AND EXPRESSIONS: reflection, learning; natural, believable body language.
+CAMERA: layered depth composition: a relevant object softly blurred in the foreground, characters in the middle, setting behind.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade11_page07.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 7 of the story "The Night Hike That Taught Us Something".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Final-year students Samuel and Laura join a youth group's night hike in the mountains of Santa Elena; Samuel thinks the guide Marta's rules (stay together, count off) are too strict, but when Pablo leaves the trail for a photo of the stars and goes missing, the group follows the safety plan calmly and finds him.
+TIME: late Saturday night.
+PLACE: the trail entrance under a single lamp post.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Samuel — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; golden-tan skin, freckles across the nose, short light-brown hair; wearing a black puffer jacket, a gray beanie, hiking pants, boots, a backpack and a flashlight (same outfit in every image unless the scene says otherwise) | Laura — young woman, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; medium-brown skin, rectangular dark-framed glasses, two long braids; wearing a maroon fleece jacket, a knitted headband, hiking pants, boots, a backpack and a headlamp (same outfit in every image unless the scene says otherwise) | Marta, the experienced mountain guide, a woman about 45, a short practical haircut, a red outdoor jacket, a radio and a headlamp | other young people aged 16–18 in outdoor jackets with flashlights | Pablo, a quiet 17-year-old, thin, glasses, a green jacket and a camera around his neck.
+SCENE (illustrate exactly this moment): Back at the trail entrance late at night, the whole group counts off one more time in a line under a single lamp post, everyone smiling and tired, while Pablo shows Laura one photo of the stars on his camera; Samuel and Marta are also there, as described.
+MOOD AND EXPRESSIONS: relief, tired smiles; natural, believable body language.
+CAMERA: medium-wide frontal shot, characters slightly off-center following the rule of thirds, open space around them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week38_grade11_page08.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 8 of the story "The Night Hike That Taught Us Something".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Final-year students Samuel and Laura join a youth group's night hike in the mountains of Santa Elena; Samuel thinks the guide Marta's rules (stay together, count off) are too strict, but when Pablo leaves the trail for a photo of the stars and goes missing, the group follows the safety plan calmly and finds him.
+TIME: the next Friday evening.
+PLACE: the library meeting room with a whiteboard.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Samuel — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; golden-tan skin, freckles across the nose, short light-brown hair; wearing a black puffer jacket, a gray beanie, hiking pants, boots, a backpack and a flashlight (same outfit in every image unless the scene says otherwise) | Laura — young woman, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; medium-brown skin, rectangular dark-framed glasses, two long braids; wearing a maroon fleece jacket, a knitted headband, hiking pants, boots, a backpack and a headlamp (same outfit in every image unless the scene says otherwise) | other young people aged 16–18 in outdoor jackets with flashlights | Pablo, a quiet 17-year-old, thin, glasses, a green jacket and a camera around his neck.
+SCENE (illustrate exactly this moment): The next Friday at the library meeting room, Samuel stands next to a whiteboard with a simple drawing of a line of people, a flashlight and tally marks, presenting a short report to the youth group while Laura and Pablo listen; everyone wears their jackets but carries no flashlights, headlamps or backpacks this time.
+MOOD AND EXPRESSIONS: maturity, sharing; natural, believable body language.
+CAMERA: eye-level medium shot, the main characters in the foreground and the place clearly recognizable behind them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+==========================================================================================
+FIN. Total: 6 portadas + 36 páginas = 42 imágenes.

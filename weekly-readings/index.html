@@ -1,0 +1,3027 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="google" content="notranslate" />
+  <meta name="theme-color" content="#f7f9ff" />
+  <title>Weekly Readings</title>
+  <link rel="stylesheet" href="../css/page-curl.css?v=20260927d" />
+
+  <style>
+    *{box-sizing:border-box}
+    :root{
+      --ink:#18223a;
+      --muted:#69748c;
+      --blue:#355cff;
+      --blue-2:#2642c7;
+      --green:#17824f;
+      --orange:#d77b13;
+      --red:#c9283b;
+      --line:#dfe6f4;
+      --soft:#f6f8fd;
+      --card:#ffffff;
+      --shadow:0 14px 38px rgba(31,50,100,.10);
+      --radius:22px;
+    }
+
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      min-height:100vh;
+      font-family:"Segoe UI",Inter,Arial,sans-serif;
+      color:var(--ink);
+      background:
+        radial-gradient(circle at 8% 8%,rgba(53,92,255,.10),transparent 24%),
+        linear-gradient(180deg,#f7f9ff 0%,#fbfdff 100%);
+      padding-bottom:max(38px,env(safe-area-inset-bottom));
+      overflow-x:hidden;
+    }
+
+    a{text-decoration:none;color:inherit}
+    button,input,select{font:inherit}
+    [hidden]{display:none !important;}
+
+    .page{
+      width:min(1180px,calc(100% - 26px));
+      margin:0 auto;
+    }
+
+    /* ===== TOP BAR ===== */
+    .topbar{
+      padding:max(16px,env(safe-area-inset-top)) 0 14px;
+      display:flex;
+      align-items:center;
+      gap:18px;
+      flex-wrap:wrap;
+    }
+
+    .home-link{
+      display:inline-flex;
+      align-items:center;
+      min-height:42px;
+      padding:0 14px;
+      border-radius:13px;
+      background:#fff;
+      border:1px solid var(--line);
+      color:var(--blue-2);
+      font-weight:800;
+      box-shadow:0 8px 20px rgba(30,50,100,.06);
+    }
+
+    .brand-block{
+      min-width:0;
+    }
+
+    .brand-kicker{
+      display:block;
+      color:var(--blue-2);
+      font-size:.74rem;
+      font-weight:900;
+      letter-spacing:.13em;
+      text-transform:uppercase;
+      margin-bottom:4px;
+    }
+
+    .brand-block h1{
+      margin:0;
+      font-size:clamp(1.55rem,4vw,2.4rem);
+      line-height:1.05;
+      letter-spacing:-.03em;
+    }
+
+    /* ===== SESSION CONTROLS ===== */
+    .session-bar{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:12px;
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:14px;
+      box-shadow:var(--shadow);
+      margin-bottom:14px;
+    }
+
+    .field label{
+      display:block;
+      margin-bottom:6px;
+      font-size:.82rem;
+      font-weight:800;
+      color:#30405f;
+    }
+
+    .field select,
+    .field input{
+      width:100%;
+      min-height:46px;
+      border:1px solid #ced8ef;
+      border-radius:12px;
+      background:#fff;
+      color:var(--ink);
+      padding:0 13px;
+      outline:none;
+    }
+
+    .field select:focus,
+    .field input:focus{
+      border-color:#7f98ff;
+      box-shadow:0 0 0 3px rgba(53,92,255,.10);
+    }
+
+    /* ===== READING HERO / ARTISTLY VISUAL ===== */
+    .hero{
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      overflow:hidden;
+      box-shadow:var(--shadow);
+      margin-bottom:14px;
+    }
+
+    .reading-image-wrap{
+      width:100%;
+      background:#eef2fb;
+      border-bottom:1px solid var(--line);
+    }
+
+    #imageDisplay{
+      display:block;
+      width:100%;
+      max-height:560px;
+      object-fit:contain;
+      background:#fff;
+    }
+
+    .hero-meta{
+      padding:16px 18px 18px;
+    }
+
+    .hero-meta .level{
+      color:var(--blue-2);
+      font-size:.82rem;
+      font-weight:800;
+      margin-bottom:4px;
+    }
+
+    #readingHeading{
+      margin:0 0 6px;
+      font-size:clamp(1.7rem,4vw,2.6rem);
+      letter-spacing:-.03em;
+    }
+
+    #readingSubheading{
+      margin:0;
+      color:var(--muted);
+      line-height:1.55;
+    }
+
+    /* ===== AUDIO BAR ===== */
+    .audio-bar{
+      display:grid;
+      grid-template-columns:auto auto auto auto minmax(180px,1fr) minmax(150px,220px);
+      gap:9px;
+      align-items:end;
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:12px;
+      box-shadow:var(--shadow);
+      margin-bottom:14px;
+    }
+
+    .btn{
+      border:0;
+      min-height:44px;
+      padding:0 16px;
+      border-radius:999px;
+      font-weight:850;
+      cursor:pointer;
+      transition:.16s ease;
+      white-space:nowrap;
+    }
+
+    .btn:hover{transform:translateY(-1px)}
+    .btn-primary{background:var(--blue);color:#fff}
+    .btn-warning{background:#fff0dd;color:var(--orange)}
+    .btn-success{background:#e5f7ee;color:var(--green)}
+    .btn-danger{background:#ffe7eb;color:var(--red)}
+    .btn-secondary{background:#eef2ff;color:var(--blue-2)}
+
+    .audio-field label,
+    .speed-field label{
+      display:flex;
+      justify-content:space-between;
+      gap:8px;
+      font-size:.76rem;
+      font-weight:800;
+      color:#42506d;
+      margin:0 0 5px;
+    }
+
+    .audio-field select{
+      width:100%;
+      min-height:44px;
+      border:1px solid #d5def0;
+      border-radius:11px;
+      background:#fff;
+      padding:0 11px;
+    }
+
+    .speed-field input{
+      width:100%;
+      min-height:32px;
+      margin:0;
+    }
+
+    #ttsSyncStatus{
+      grid-column:1/-1;
+      color:#15714a;
+      font-size:.78rem;
+      font-weight:800;
+      padding-left:3px;
+    }
+
+    /* ===== MAIN STACK ===== */
+    .card{
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:20px;
+      margin-bottom:14px;
+    }
+
+    .section-head{
+      display:flex;
+      justify-content:space-between;
+      gap:10px;
+      align-items:flex-start;
+      margin-bottom:14px;
+    }
+
+    .section-kicker{
+      display:block;
+      color:var(--blue-2);
+      font-size:.70rem;
+      font-weight:900;
+      letter-spacing:.10em;
+      text-transform:uppercase;
+      margin-bottom:3px;
+    }
+
+    .section-head h2,
+    .section-head h3{
+      margin:0;
+    }
+
+    .hint{
+      flex:0 0 auto;
+      font-size:.73rem;
+      font-weight:800;
+      color:#61708d;
+      background:#f2f5fb;
+      padding:6px 9px;
+      border-radius:999px;
+    }
+
+    /* ===== READING ===== */
+    .reading-text{
+      font-size:clamp(1.04rem,2vw,1.17rem);
+      line-height:1.92;
+      color:#1f2739;
+      overflow-wrap:break-word;
+    }
+
+    .sentence-span{display:inline}
+    .word-unit{
+      display:inline;
+      border-radius:6px;
+      padding:1px 2px;
+    }
+
+    .vocab-word{
+      color:#2148cc;
+      font-weight:750;
+      border-bottom:1px dashed #2148cc;
+      cursor:pointer;
+      -webkit-tap-highlight-color:transparent;
+    }
+
+    .tts-sentence-active{
+      background:#fff5d5;
+      border-radius:7px;
+      box-decoration-break:clone;
+      -webkit-box-decoration-break:clone;
+    }
+
+    .tts-active{
+      background:#ffd24d;
+      color:#111;
+      font-weight:850;
+    }
+
+    .tts-active-vocab{
+      background:#2c70ff;
+      color:#fff;
+      border-bottom:none;
+      font-weight:850;
+    }
+
+    /* ===== VOCAB ===== */
+    .vocab-list{
+      display:grid;
+      grid-template-columns:repeat(2,minmax(0,1fr));
+      gap:10px;
+    }
+
+    .vocab-item{
+      padding:13px 14px;
+      border:1px solid #dce5ff;
+      background:#f9fbff;
+      border-radius:14px;
+    }
+
+    .vocab-item strong{
+      display:block;
+      color:#2441b2;
+      margin-bottom:4px;
+    }
+
+    .vocab-item span{
+      color:#58647a;
+      line-height:1.45;
+    }
+
+    /* ===== PRACTICE ===== */
+    .section-description{
+      margin:0 0 14px;
+      color:var(--muted);
+      line-height:1.55;
+    }
+
+    .game-score{
+      display:inline-flex;
+      min-height:36px;
+      align-items:center;
+      padding:0 12px;
+      border-radius:999px;
+      background:#eef3ff;
+      color:#2148cc;
+      font-weight:900;
+      margin-bottom:12px;
+    }
+
+    .challenge-reading{
+      line-height:1.92;
+      background:#fbfcff;
+      border:1px solid #e5ebfb;
+      border-radius:15px;
+      padding:15px;
+      margin-bottom:12px;
+    }
+
+    .drop-zone{
+      display:inline-flex;
+      min-width:88px;
+      min-height:38px;
+      align-items:center;
+      justify-content:center;
+      border:2px dashed #8ea4e8;
+      border-radius:11px;
+      margin:0 3px 5px;
+      padding:3px 8px;
+      background:#fff;
+      vertical-align:middle;
+      touch-action:manipulation;
+    }
+
+    .word-bank{
+      display:flex;
+      flex-wrap:wrap;
+      gap:9px;
+    }
+
+    .word-chip{
+      display:inline-flex;
+      min-height:42px;
+      align-items:center;
+      justify-content:center;
+      padding:8px 13px;
+      border-radius:999px;
+      background:#e8f0ff;
+      color:#2148cc;
+      font-weight:800;
+      cursor:grab;
+      user-select:none;
+      -webkit-user-select:none;
+      touch-action:manipulation;
+    }
+
+    .word-chip.selected{
+      outline:3px solid rgba(53,92,255,.20);
+      background:#dce7ff;
+    }
+
+    .drop-zone.correct{background:#e7f8ef;border-color:#3da96a}
+    .drop-zone.incorrect{background:#ffe8ec;border-color:#da576d}
+
+    .button-row{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      margin-top:14px;
+    }
+
+    /* ===== QUIZ ===== */
+    .quiz-question{
+      border:1px solid #e2e8f5;
+      background:#fbfcff;
+      border-radius:14px;
+      padding:15px;
+      margin-top:12px;
+    }
+
+    .quiz-question p{
+      margin:0 0 10px;
+      line-height:1.5;
+    }
+
+    .quiz-options{
+      display:grid;
+      gap:8px;
+    }
+
+    .quiz-option{
+      display:flex;
+      gap:10px;
+      align-items:flex-start;
+      min-height:46px;
+      padding:10px 11px;
+      background:#fff;
+      border:1px solid #e4eaf7;
+      border-radius:12px;
+      cursor:pointer;
+    }
+
+    .quiz-option input{
+      width:18px;
+      height:18px;
+      margin-top:2px;
+      flex:0 0 auto;
+    }
+
+    /* ===== CLASSIC EVIDENCE ===== */
+    .old-evidence-box{
+      border:2px solid #2432b8;
+      background:#fbfbfd;
+      border-radius:18px;
+      padding:18px;
+    }
+
+    .old-evidence-title-wrap{
+      text-align:center;
+    }
+
+    .old-evidence-title{
+      color:#b00000;
+      font-size:1.08rem;
+      font-weight:900;
+      text-transform:uppercase;
+      margin-bottom:11px;
+    }
+
+    .old-evidence-instructions{
+      margin:0 auto 16px;
+      color:#111827;
+      line-height:1.5;
+    }
+
+    .old-camera-wrap{
+      display:flex;
+      justify-content:center;
+      margin:5px 0 16px;
+    }
+
+    .camera-box{
+      width:136px;
+      height:136px;
+      border:2px solid #1d2aa8;
+      background:#eaf0ff;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      overflow:hidden;
+      box-shadow:0 10px 18px rgba(0,0,0,.15);
+    }
+
+    .camera-box video{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+    }
+
+    .old-form-stack{
+      display:grid;
+      grid-template-columns:1fr;
+      gap:3px;
+    }
+
+    .old-form-stack label{
+      color:#1456bd;
+      font-weight:800;
+      margin-bottom:5px;
+      display:block;
+    }
+
+    .old-form-stack input{
+      width:100%;
+      min-height:42px;
+      margin:0 0 11px;
+      border:1px solid #c6cbd8;
+      border-radius:5px;
+      padding:0 10px;
+      background:#fff;
+    }
+
+    .evidence-title-input-wrap{display:none}
+
+    .old-score-feedback{
+      margin:14px 0 0;
+      padding:9px 10px;
+      min-height:18px;
+      border-radius:5px;
+      background:#f0fff0;
+      color:darkgreen;
+      font-weight:900;
+    }
+
+    .old-score-feedback:empty{display:none}
+    .old-timestamp{
+      color:#666;
+      font-size:.84rem;
+      margin-top:9px;
+    }
+
+    /* ===== TOOLTIP ===== */
+    .vocab-tooltip{
+      position:absolute;
+      z-index:9999;
+      max-width:min(300px,calc(100vw - 26px));
+      padding:13px 14px;
+      background:#fff;
+      border:2px solid #2c70ff;
+      border-radius:14px;
+      box-shadow:0 16px 36px rgba(20,30,88,.18);
+      line-height:1.45;
+    }
+
+    /* ===== TABLETS ===== */
+    @media (max-width:820px){
+      .page{width:min(100% - 20px,1180px)}
+
+      .audio-bar{
+        grid-template-columns:repeat(2,minmax(0,1fr));
+      }
+
+      .audio-field,
+      .speed-field{
+        grid-column:span 1;
+      }
+
+      .vocab-list{
+        grid-template-columns:1fr;
+      }
+    }
+
+    /* ===== MOBILE ===== */
+    @media (max-width:580px){
+      .page{width:min(100% - 14px,1180px)}
+
+      .topbar{
+        gap:10px;
+        padding-top:max(10px,env(safe-area-inset-top));
+      }
+
+      .home-link{
+        min-height:40px;
+        padding:0 12px;
+      }
+
+      .brand-block h1{
+        font-size:1.6rem;
+      }
+
+      .session-bar{
+        grid-template-columns:1fr 1fr;
+        gap:9px;
+        padding:10px;
+        border-radius:15px;
+      }
+
+      .field select{
+        min-height:44px;
+        padding:0 10px;
+      }
+
+      .hero{
+        border-radius:17px;
+      }
+
+      #imageDisplay{
+        max-height:none;
+      }
+
+      .hero-meta{
+        padding:13px 14px 15px;
+      }
+
+      .audio-bar{
+        grid-template-columns:repeat(2,minmax(0,1fr));
+        gap:8px;
+        padding:10px;
+        border-radius:15px;
+      }
+
+      .audio-bar .btn{
+        width:100%;
+        padding:0 10px;
+      }
+
+      .audio-field,
+      .speed-field{
+        grid-column:1/-1;
+      }
+
+      .card{
+        padding:15px;
+        border-radius:17px;
+      }
+
+      .section-head{
+        align-items:flex-start;
+      }
+
+      .reading-text{
+        font-size:1.04rem;
+        line-height:1.84;
+      }
+
+      .hint{
+        font-size:.68rem;
+      }
+
+      .button-row{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+      }
+
+      .button-row .btn{
+        width:100%;
+      }
+
+      #screenshotButton{
+        grid-column:1/-1;
+      }
+
+      .old-evidence-box{
+        padding:13px;
+      }
+
+      .old-evidence-instructions{
+        font-size:.90rem;
+      }
+
+      .camera-box{
+        width:122px;
+        height:122px;
+      }
+    }
+
+    @media (max-width:390px){
+      .session-bar{
+        grid-template-columns:1fr;
+      }
+
+      .audio-bar{
+        grid-template-columns:1fr;
+      }
+
+      .audio-field,
+      .speed-field{
+        grid-column:auto;
+      }
+
+      .button-row{
+        grid-template-columns:1fr;
+      }
+
+      #screenshotButton{
+        grid-column:auto;
+      }
+    }
+
+    @media (hover:none) and (pointer:coarse){
+      .btn,
+      select,
+      input,
+      .quiz-option,
+      .word-chip,
+      .drop-zone{
+        min-height:44px;
+      }
+    }
+
+    @media (prefers-reduced-motion:reduce){
+      *,
+      *::before,
+      *::after{
+        scroll-behavior:auto!important;
+        transition:none!important;
+        animation:none!important;
+      }
+    }
+  
+/* =========================================================
+   MOBILE COMPACT FIXES — quiz, score buttons, drag word bank
+   ========================================================= */
+
+/* Quiz choices: compact, vertically centered, no oversized boxes */
+.quiz-question{
+  padding:14px !important;
+}
+
+.quiz-options{
+  gap:8px !important;
+}
+
+.quiz-option{
+  min-height:52px !important;
+  padding:10px 12px !important;
+  border-radius:14px !important;
+  align-items:center !important;
+}
+
+.quiz-option input{
+  margin:0 !important;
+  width:20px !important;
+  height:20px !important;
+}
+
+.quiz-option span{
+  line-height:1.35 !important;
+}
+
+/* Practice word bank: more rectangular and compact */
+.word-bank{
+  gap:7px !important;
+  align-items:flex-start !important;
+}
+
+.word-chip{
+  min-height:34px !important;
+  padding:6px 11px !important;
+  border-radius:10px !important;
+  line-height:1.15 !important;
+  font-size:.96rem !important;
+}
+
+/* Score/evidence buttons: compact and aligned */
+.old-score-buttons,
+.old-evidence-box .button-row{
+  display:flex !important;
+  flex-wrap:wrap !important;
+  align-items:center !important;
+  justify-content:flex-start !important;
+  gap:10px !important;
+}
+
+.old-score-buttons .btn,
+.old-evidence-box .button-row .btn{
+  width:auto !important;
+  min-width:104px !important;
+  min-height:42px !important;
+  padding:0 16px !important;
+  border-radius:10px !important;
+  flex:0 0 auto !important;
+}
+
+/* Take Screenshot should align with Clear after score */
+#screenshotButton{
+  width:auto !important;
+  min-width:132px !important;
+  grid-column:auto !important;
+}
+
+/* Score feedback should fit its content instead of looking like a tall empty block */
+.old-score-feedback{
+  width:100% !important;
+  min-height:0 !important;
+  padding:9px 10px !important;
+  line-height:1.35 !important;
+}
+
+/* Evidence box should grow naturally with its content */
+.old-evidence-box{
+  height:auto !important;
+  min-height:0 !important;
+}
+
+/* MOBILE */
+@media (max-width:580px){
+
+  /* Quiz card */
+  .quiz-question{
+    padding:12px !important;
+    border-radius:15px !important;
+  }
+
+  .quiz-question p{
+    margin-bottom:9px !important;
+    line-height:1.42 !important;
+  }
+
+  .quiz-option{
+    min-height:48px !important;
+    padding:9px 10px !important;
+    border-radius:12px !important;
+  }
+
+  .quiz-option input{
+    width:19px !important;
+    height:19px !important;
+  }
+
+  /* Do NOT stack score buttons into full-width rows */
+  .old-evidence-box .button-row{
+    display:flex !important;
+    grid-template-columns:none !important;
+    flex-direction:row !important;
+    flex-wrap:wrap !important;
+    gap:8px !important;
+  }
+
+  .old-evidence-box .button-row .btn{
+    width:auto !important;
+    min-width:96px !important;
+    min-height:40px !important;
+    padding:0 14px !important;
+    border-radius:9px !important;
+  }
+
+  #screenshotButton{
+    width:auto !important;
+    min-width:126px !important;
+  }
+
+  /* Practice chips: compact rectangles */
+  .word-bank{
+    gap:6px !important;
+  }
+
+  .word-chip{
+    min-height:32px !important;
+    padding:5px 10px !important;
+    border-radius:9px !important;
+    font-size:.93rem !important;
+  }
+
+  .drop-zone{
+    min-height:34px !important;
+    min-width:74px !important;
+    border-radius:8px !important;
+    padding:2px 7px !important;
+  }
+}
+
+/* VERY SMALL PHONES */
+@media (max-width:390px){
+  .old-evidence-box .button-row{
+    display:flex !important;
+    flex-direction:row !important;
+    flex-wrap:wrap !important;
+  }
+
+  .old-evidence-box .button-row .btn{
+    width:auto !important;
+    min-width:92px !important;
+  }
+
+  .word-chip{
+    font-size:.90rem !important;
+    padding:5px 9px !important;
+  }
+}
+
+
+/* =========================================================
+   EXTRA COMPACT MOBILE SPACING
+   Tightens quiz answers and practice chips to save vertical space
+   ========================================================= */
+
+/* Practice words: hug the text more closely */
+.word-chip{
+  min-height:28px !important;
+  padding:3px 8px !important;
+  border-radius:8px !important;
+  line-height:1.05 !important;
+}
+
+/* Quiz options: reduce internal vertical padding */
+.quiz-option{
+  min-height:42px !important;
+  padding:6px 10px !important;
+  border-radius:12px !important;
+  align-items:center !important;
+}
+
+.quiz-option input{
+  margin:0 2px 0 0 !important;
+  width:19px !important;
+  height:19px !important;
+  flex:0 0 auto !important;
+}
+
+.quiz-option span{
+  line-height:1.22 !important;
+}
+
+.quiz-options{
+  gap:6px !important;
+}
+
+/* Slightly tighten question container too */
+.quiz-question{
+  padding:11px !important;
+}
+
+.quiz-question p{
+  margin:0 0 8px !important;
+  line-height:1.38 !important;
+}
+
+@media (max-width:580px){
+  .word-chip{
+    min-height:27px !important;
+    padding:3px 8px !important;
+    border-radius:7px !important;
+    font-size:.92rem !important;
+  }
+
+  .quiz-option{
+    min-height:40px !important;
+    padding:5px 9px !important;
+  }
+
+  .quiz-option input{
+    width:18px !important;
+    height:18px !important;
+  }
+
+  .quiz-option span{
+    line-height:1.18 !important;
+  }
+
+  .quiz-options{
+    gap:5px !important;
+  }
+}
+
+
+/* =========================================================
+   ULTRA COMPACT MOBILE SPACING
+   Strong final overrides placed last on purpose.
+   ========================================================= */
+
+/* ---------- Vocabulary: compact horizontal rows ---------- */
+.vocab-list{
+  gap:5px !important;
+}
+
+.vocab-item{
+  display:flex !important;
+  align-items:baseline !important;
+  flex-wrap:wrap !important;
+  column-gap:8px !important;
+  row-gap:1px !important;
+  padding:6px 9px !important;
+  border-radius:10px !important;
+  min-height:0 !important;
+}
+
+.vocab-item strong{
+  display:inline !important;
+  margin:0 !important;
+  line-height:1.2 !important;
+  flex:0 0 auto !important;
+}
+
+.vocab-item span{
+  display:inline !important;
+  margin:0 !important;
+  line-height:1.22 !important;
+  flex:1 1 220px !important;
+}
+
+/* ---------- Practice word bank: label-like rectangles ---------- */
+.word-bank{
+  gap:5px !important;
+}
+
+.word-chip{
+  min-height:0 !important;
+  height:auto !important;
+  padding:4px 8px !important;
+  border-radius:7px !important;
+  line-height:1.05 !important;
+  font-size:.91rem !important;
+}
+
+/* ---------- Quiz: much tighter answer cards ---------- */
+.quiz-question{
+  padding:9px !important;
+  border-radius:13px !important;
+}
+
+.quiz-question p{
+  margin:0 0 6px !important;
+  line-height:1.32 !important;
+}
+
+.quiz-options{
+  gap:5px !important;
+}
+
+.quiz-option{
+  display:grid !important;
+  grid-template-columns:24px minmax(0,1fr) !important;
+  align-items:center !important;
+  column-gap:7px !important;
+  min-height:0 !important;
+  height:auto !important;
+  padding:5px 8px !important;
+  border-radius:10px !important;
+}
+
+.quiz-option input{
+  width:18px !important;
+  height:18px !important;
+  min-height:0 !important;
+  margin:0 !important;
+  align-self:center !important;
+}
+
+.quiz-option span{
+  margin:0 !important;
+  padding:0 !important;
+  line-height:1.18 !important;
+}
+
+/* ---------- Phones ---------- */
+@media (max-width:580px){
+  .vocab-list{
+    gap:4px !important;
+  }
+
+  .vocab-item{
+    padding:5px 8px !important;
+    column-gap:7px !important;
+    border-radius:9px !important;
+  }
+
+  .vocab-item strong,
+  .vocab-item span{
+    line-height:1.17 !important;
+  }
+
+  .word-chip{
+    min-height:0 !important;
+    padding:3px 7px !important;
+    border-radius:6px !important;
+    font-size:.90rem !important;
+    line-height:1.0 !important;
+  }
+
+  .quiz-question{
+    padding:8px !important;
+  }
+
+  .quiz-question p{
+    margin-bottom:5px !important;
+    line-height:1.28 !important;
+  }
+
+  .quiz-option{
+    min-height:0 !important;
+    padding:4px 7px !important;
+    border-radius:9px !important;
+    column-gap:6px !important;
+  }
+
+  .quiz-option input{
+    width:17px !important;
+    height:17px !important;
+  }
+
+  .quiz-option span{
+    line-height:1.14 !important;
+  }
+}
+
+/* Override generic touch minimums specifically for these compact learning controls */
+@media (hover:none) and (pointer:coarse){
+  .quiz-option,
+  .word-chip{
+    min-height:0 !important;
+    height:auto !important;
+  }
+
+  .quiz-option input{
+    min-height:0 !important;
+  }
+}
+
+
+/* =========================================================
+   BUTTON TEXT VERTICAL CENTERING — FINAL OVERRIDE
+   ========================================================= */
+#scoreButton,
+#clearButton,
+.old-score-buttons .btn{
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  text-align:center !important;
+  vertical-align:middle !important;
+  line-height:1 !important;
+  padding-top:0 !important;
+  padding-bottom:0 !important;
+  min-height:40px !important;
+  height:40px !important;
+  box-sizing:border-box !important;
+}
+
+#scoreButton,
+#clearButton{
+  padding-left:16px !important;
+  padding-right:16px !important;
+}
+
+#screenshotButton{
+  padding-left:16px !important;
+  padding-right:16px !important;
+}
+
+@media (max-width:580px){
+  #scoreButton,
+  #clearButton,
+  .old-score-buttons .btn{
+    height:38px !important;
+    min-height:38px !important;
+    line-height:1 !important;
+    padding-top:0 !important;
+    padding-bottom:0 !important;
+    align-items:center !important;
+    justify-content:center !important;
+  }
+}
+
+
+/* Screenshot visibility is controlled ONLY by weekly-reader.js */
+#screenshotButton{
+  align-items:center !important;
+  justify-content:center !important;
+  text-align:center !important;
+  vertical-align:middle !important;
+  line-height:1 !important;
+  padding-top:0 !important;
+  padding-bottom:0 !important;
+  min-height:40px !important;
+  height:40px !important;
+  box-sizing:border-box !important;
+}
+
+@media (max-width:580px){
+  #screenshotButton{
+    height:38px !important;
+    min-height:38px !important;
+    line-height:1 !important;
+    padding-top:0 !important;
+    padding-bottom:0 !important;
+  }
+}
+
+
+/* =========================================================
+   SCHOOL LOGO + AUTOMATIC WEEK RELEASE
+   ========================================================= */
+.session-bar{
+  position:relative;
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr) 78px !important;
+  align-items:end !important;
+}
+
+.session-logo-wrap{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  align-self:center;
+  min-width:0;
+}
+
+.session-logo{
+  display:block;
+  width:70px;
+  height:70px;
+  object-fit:contain;
+}
+
+@media (max-width:580px){
+  .session-bar{
+    grid-template-columns:minmax(0,1fr) minmax(0,1fr) 58px !important;
+    align-items:end !important;
+  }
+
+  .session-logo{
+    width:54px;
+    height:54px;
+  }
+}
+
+@media (max-width:390px){
+  .session-bar{
+    grid-template-columns:1fr !important;
+    padding-right:72px !important;
+  }
+
+  .session-logo-wrap{
+    position:absolute;
+    top:10px;
+    right:10px;
+  }
+
+  .session-logo{
+    width:50px;
+    height:50px;
+  }
+}
+
+
+/* =========================================================
+   FLIP READER PROTOTYPE — ARTISTLY-READY
+   Existing JS IDs are preserved. Page turning is enabled later
+   through weekly-reader.js + paged JSON.
+   ========================================================= */
+.flip-reader-shell{
+  margin:14px 0 16px;
+}
+
+.flip-book-stage{
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+}
+
+.flip-page{
+  width:min(100%, 940px);
+  overflow:hidden;
+  border:1px solid #d9e2f3;
+  border-radius:22px;
+  background:#fff;
+  box-shadow:0 18px 48px rgba(19,45,95,.12);
+  transform-origin:center center;
+}
+
+.flip-visual{
+  position:relative;
+  width:100%;
+  min-height:340px;
+  aspect-ratio:16 / 8.7;
+  overflow:hidden;
+  background:#e9eef8;
+}
+
+.flip-visual::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(
+    180deg,
+    rgba(7,20,48,.03) 20%,
+    rgba(7,20,48,.18) 58%,
+    rgba(7,20,48,.75) 100%
+  );
+  pointer-events:none;
+}
+
+.flip-visual #imageDisplay{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.flip-visual-overlay{
+  position:absolute;
+  z-index:2;
+  left:28px;
+  right:28px;
+  bottom:22px;
+  color:#fff;
+  text-shadow:0 2px 12px rgba(0,0,0,.32);
+}
+
+.flip-level{
+  display:inline-flex;
+  align-items:center;
+  min-height:28px;
+  padding:5px 10px;
+  margin-bottom:8px;
+  border-radius:999px;
+  background:rgba(255,255,255,.18);
+  border:1px solid rgba(255,255,255,.30);
+  backdrop-filter:blur(8px);
+  font-size:.80rem;
+  font-weight:800;
+}
+
+.flip-visual-overlay h2{
+  margin:0;
+  color:#fff;
+  font-size:clamp(1.85rem,4vw,3.25rem);
+  line-height:1.03;
+  letter-spacing:-.035em;
+}
+
+.flip-visual-overlay p{
+  margin:8px 0 0;
+  max-width:680px;
+  color:rgba(255,255,255,.94);
+  font-weight:650;
+  line-height:1.35;
+}
+
+.flip-page-body{
+  padding:18px 22px 22px;
+}
+
+.flip-page-topline{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:14px;
+  margin-bottom:12px;
+}
+
+.flip-page-indicator{
+  margin-top:2px;
+  color:#132b5f;
+  font-weight:800;
+  font-size:.92rem;
+}
+
+.flip-audio-bar{
+  display:grid;
+  grid-template-columns:auto auto auto auto minmax(165px,1fr) minmax(150px,.8fr);
+  gap:9px;
+  align-items:end;
+  padding:10px;
+  margin:0 0 16px;
+  border-radius:14px;
+  border:1px solid #e1e8f6;
+  background:#f7f9fd;
+}
+
+.flip-audio-bar .btn{
+  min-height:40px;
+  align-self:end;
+}
+
+.flip-audio-bar .audio-field,
+.flip-audio-bar .speed-field{
+  min-width:0;
+}
+
+.flip-audio-bar label{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  min-height:18px;
+  margin:0 0 4px;
+  font-size:.72rem;
+  font-weight:800;
+  color:#23345c;
+}
+
+.flip-audio-bar select{
+  width:100%;
+  min-height:40px;
+}
+
+.flip-audio-bar input[type="range"]{
+  width:100%;
+}
+
+.flip-reading-text{
+  margin:0 !important;
+  padding:0 !important;
+  border:0 !important;
+  background:transparent !important;
+  box-shadow:none !important;
+  font-size:1.02rem;
+  line-height:1.78;
+}
+
+.flip-nav{
+  flex:0 0 44px;
+  width:44px;
+  height:64px;
+  border:0;
+  border-radius:14px;
+  background:#fff;
+  color:#1748cc;
+  box-shadow:0 8px 25px rgba(21,54,118,.14);
+  font-size:2rem;
+  line-height:1;
+  cursor:pointer;
+}
+
+.flip-nav:disabled{
+  opacity:.35;
+  cursor:default;
+}
+
+.flip-mobile-nav{
+  display:none;
+}
+
+@media (max-width:820px){
+  .flip-book-stage{
+    display:block;
+  }
+
+  .flip-nav{
+    display:none;
+  }
+
+  .flip-page{
+    width:100%;
+    border-radius:18px;
+  }
+
+  .flip-visual{
+    min-height:0;
+    aspect-ratio:4 / 3;
+  }
+
+  .flip-visual-overlay{
+    left:18px;
+    right:18px;
+    bottom:16px;
+  }
+
+  .flip-page-body{
+    padding:14px 14px 17px;
+  }
+
+  .flip-audio-bar{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:7px;
+    padding:8px;
+  }
+
+  .flip-audio-bar .audio-field,
+  .flip-audio-bar .speed-field{
+    grid-column:span 2;
+  }
+
+  .flip-mobile-nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:8px;
+    margin-top:8px;
+    color:#52617f;
+    font-size:.82rem;
+    font-weight:750;
+  }
+
+  .flip-mobile-btn{
+    min-height:36px;
+    padding:0 11px;
+    border:1px solid #dce4f2;
+    border-radius:10px;
+    background:#fff;
+    color:#2e4c90;
+    font-weight:750;
+  }
+}
+
+@media (max-width:480px){
+  .flip-reader-shell{
+    margin-top:9px;
+  }
+
+  .flip-page{
+    border-radius:14px;
+  }
+
+  .flip-visual{
+    aspect-ratio:4 / 3.25;
+  }
+
+  .flip-visual-overlay{
+    left:14px;
+    right:14px;
+    bottom:13px;
+  }
+
+  .flip-level{
+    min-height:24px;
+    margin-bottom:6px;
+    padding:4px 8px;
+    font-size:.70rem;
+  }
+
+  .flip-visual-overlay h2{
+    font-size:1.65rem;
+  }
+
+  .flip-visual-overlay p{
+    margin-top:5px;
+    font-size:.79rem;
+  }
+
+  .flip-page-body{
+    padding:11px 11px 14px;
+  }
+
+  .flip-page-topline{
+    margin-bottom:8px;
+  }
+
+  .flip-audio-bar{
+    margin-bottom:11px;
+  }
+
+  .flip-reading-text{
+    font-size:.97rem;
+    line-height:1.68;
+  }
+}
+
+
+/* =========================================================
+   FULL-HEIGHT BOOK PAGE — REMOVE TEMPORARY BLUE COVER
+   ========================================================= */
+
+.flip-reader-shell{
+  margin:10px 0 16px !important;
+}
+
+.flip-book-stage{
+  align-items:stretch !important;
+}
+
+.flip-page{
+  min-height:620px !important;
+  display:flex !important;
+  flex-direction:column !important;
+  background:#fff !important;
+}
+
+/* The old generated blue cover is only a temporary asset.
+   Keep the DOM node for JS compatibility, but do not show it. */
+.flip-visual-placeholder{
+  display:none !important;
+}
+
+.flip-page-body{
+  flex:1 1 auto !important;
+  display:flex !important;
+  flex-direction:column !important;
+  padding:22px 26px 28px !important;
+}
+
+.book-page-header{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:16px;
+  padding:0 0 14px;
+  margin:0 0 12px;
+  border-bottom:1px solid #e5eaf4;
+}
+
+.book-grade{
+  display:inline-flex;
+  align-items:center;
+  min-height:26px;
+  padding:4px 9px;
+  margin-bottom:6px;
+  border-radius:999px;
+  background:#eef3ff;
+  color:#2450c7;
+  font-size:.76rem;
+  font-weight:800;
+}
+
+.book-page-header h2{
+  margin:0;
+  color:#10295c;
+  font-size:clamp(1.65rem,3vw,2.3rem);
+  line-height:1.08;
+  letter-spacing:-.025em;
+}
+
+.book-page-header p{
+  margin:5px 0 0;
+  color:#65728f;
+  font-size:.86rem;
+  line-height:1.35;
+}
+
+.flip-page-topline{
+  margin-top:0 !important;
+}
+
+.flip-reading-text{
+  flex:1 1 auto !important;
+  font-size:1.06rem !important;
+  line-height:1.82 !important;
+}
+
+/* Give the book a more obvious paper-like presence */
+.flip-page{
+  border:1px solid #d8e1ef !important;
+  box-shadow:
+    0 20px 50px rgba(20,44,95,.12),
+    inset 0 0 0 1px rgba(255,255,255,.8) !important;
+}
+
+@media (max-width:820px){
+  .flip-page{
+    min-height:560px !important;
+  }
+
+  .flip-page-body{
+    padding:16px 15px 20px !important;
+  }
+
+  .book-page-header{
+    padding-bottom:10px;
+    margin-bottom:9px;
+  }
+
+  .book-page-header h2{
+    font-size:1.75rem;
+  }
+
+  .book-page-header p{
+    font-size:.79rem;
+  }
+
+  .flip-reading-text{
+    font-size:1rem !important;
+    line-height:1.7 !important;
+  }
+}
+
+@media (max-width:480px){
+  .flip-page{
+    min-height:535px !important;
+  }
+
+  .flip-page-body{
+    padding:13px 12px 16px !important;
+  }
+
+  .book-page-header{
+    padding-bottom:8px;
+    margin-bottom:8px;
+  }
+
+  .book-grade{
+    min-height:23px;
+    padding:3px 7px;
+    font-size:.68rem;
+  }
+
+  .book-page-header h2{
+    font-size:1.55rem;
+  }
+
+  .book-page-header p{
+    font-size:.74rem;
+  }
+
+  .flip-reading-text{
+    font-size:.96rem !important;
+    line-height:1.62 !important;
+  }
+}
+
+
+/* Remove redundant subtitle line under the reading title.
+   Keep #readingSubheading in the DOM for JS compatibility. */
+#readingSubheading{
+  display:none !important;
+}
+
+.book-page-header{
+  padding-bottom:10px !important;
+  margin-bottom:10px !important;
+}
+
+
+/* =========================================================
+   ULTRA-COMPACT MOBILE TTS PANEL
+   ========================================================= */
+@media (max-width:580px){
+
+  .flip-page-topline{
+    gap:6px !important;
+    margin-bottom:6px !important;
+  }
+
+  .flip-page-indicator{
+    font-size:.78rem !important;
+  }
+
+  .hint{
+    font-size:.68rem !important;
+    padding:4px 7px !important;
+    min-height:0 !important;
+    line-height:1.1 !important;
+    border-radius:999px !important;
+  }
+
+  .flip-audio-bar{
+    grid-template-columns:auto minmax(0,1fr) minmax(92px,.58fr) !important;
+    align-items:end !important;
+    gap:6px !important;
+    padding:6px !important;
+    margin:0 0 8px !important;
+    border-radius:10px !important;
+  }
+
+  #ttsPlay,
+  #ttsPause,
+  #ttsResume,
+  #ttsStop{
+    grid-column:auto !important;
+    min-width:0 !important;
+    width:auto !important;
+    height:34px !important;
+    min-height:34px !important;
+    padding:0 11px !important;
+    border-radius:9px !important;
+    font-size:.82rem !important;
+    line-height:1 !important;
+  }
+
+  .flip-audio-bar .audio-field,
+  .flip-audio-bar .speed-field{
+    grid-column:auto !important;
+    min-width:0 !important;
+  }
+
+  .flip-audio-bar label{
+    min-height:0 !important;
+    margin:0 0 2px !important;
+    font-size:.60rem !important;
+    line-height:1 !important;
+  }
+
+  .flip-audio-bar select{
+    min-height:34px !important;
+    height:34px !important;
+    padding:0 28px 0 8px !important;
+    border-radius:8px !important;
+    font-size:.74rem !important;
+  }
+
+  .flip-audio-bar input[type="range"]{
+    height:24px !important;
+    margin:0 !important;
+  }
+
+  .flip-audio-bar .speed-field label{
+    display:flex !important;
+    justify-content:space-between !important;
+    gap:4px !important;
+  }
+
+  #ttsSpeedLabel{
+    font-size:.60rem !important;
+  }
+
+  #ttsSyncStatus{
+    display:none !important;
+  }
+}
+
+@media (max-width:390px){
+  .flip-audio-bar{
+    grid-template-columns:auto minmax(0,1fr) !important;
+    gap:5px !important;
+  }
+
+  .flip-audio-bar .speed-field{
+    grid-column:1 / -1 !important;
+    display:grid !important;
+    grid-template-columns:auto 1fr !important;
+    align-items:center !important;
+    gap:7px !important;
+  }
+
+  .flip-audio-bar .speed-field label{
+    margin:0 !important;
+    white-space:nowrap !important;
+  }
+
+  .flip-audio-bar .speed-field input[type="range"]{
+    width:100% !important;
+  }
+}
+
+
+/* =========================================================
+   FIXED TTS ACTION BUTTONS ON MOBILE
+   Prevent Pause / Resume / Stop from stretching or hiding each other.
+   ========================================================= */
+@media (max-width:580px){
+
+  .flip-audio-bar{
+    /* Three fixed action slots + flexible voice + compact speed */
+    grid-template-columns:76px 76px 76px minmax(0,1fr) 92px !important;
+    align-items:end !important;
+  }
+
+  #ttsPlay,
+  #ttsPause,
+  #ttsResume,
+  #ttsStop{
+    width:76px !important;
+    min-width:76px !important;
+    max-width:76px !important;
+    height:34px !important;
+    min-height:34px !important;
+    padding:0 5px !important;
+    flex:0 0 76px !important;
+    overflow:hidden !important;
+    white-space:nowrap !important;
+    text-overflow:clip !important;
+    justify-self:start !important;
+    box-sizing:border-box !important;
+    font-size:.76rem !important;
+  }
+
+  /* Hidden buttons must truly disappear and consume no grid space */
+  #ttsPlay[hidden],
+  #ttsPause[hidden],
+  #ttsResume[hidden],
+  #ttsStop[hidden]{
+    display:none !important;
+  }
+
+  .flip-audio-bar .audio-field{
+    grid-column:auto !important;
+    min-width:0 !important;
+  }
+
+  .flip-audio-bar .speed-field{
+    grid-column:auto !important;
+    min-width:0 !important;
+  }
+}
+
+/* On narrow phones keep controls compact but allow Voice/Speed on the next row */
+@media (max-width:430px){
+
+  .flip-audio-bar{
+    grid-template-columns:72px 72px 72px minmax(0,1fr) !important;
+  }
+
+  #ttsPlay,
+  #ttsPause,
+  #ttsResume,
+  #ttsStop{
+    width:72px !important;
+    min-width:72px !important;
+    max-width:72px !important;
+    flex-basis:72px !important;
+    font-size:.72rem !important;
+  }
+
+  .flip-audio-bar .audio-field{
+    grid-column:1 / -1 !important;
+  }
+
+  .flip-audio-bar .speed-field{
+    grid-column:1 / -1 !important;
+    display:grid !important;
+    grid-template-columns:auto minmax(0,1fr) !important;
+    gap:6px !important;
+    align-items:center !important;
+  }
+}
+
+/* Very small phones: action buttons still remain side-by-side */
+@media (max-width:340px){
+  .flip-audio-bar{
+    grid-template-columns:68px 68px 68px !important;
+  }
+
+  #ttsPlay,
+  #ttsPause,
+  #ttsResume,
+  #ttsStop{
+    width:68px !important;
+    min-width:68px !important;
+    max-width:68px !important;
+    flex-basis:68px !important;
+    font-size:.68rem !important;
+  }
+}
+
+
+/* Artistly-ready illustration inside each book page */
+.book-illustration-wrap{
+  display:none;
+  margin:0 0 8px;
+  overflow:hidden;
+  border-radius:12px;
+  border:1px solid #dfe6f2;
+  background:#f3f6fb;
+}
+.book-illustration-wrap.has-image{ display:block; }
+.book-illustration{
+  display:block;
+  width:100%;
+  height:210px;
+  object-fit:cover;
+}
+@media (max-width:580px){
+  .book-illustration-wrap{ margin-bottom:6px; border-radius:9px; }
+  .book-illustration{ height:145px; }
+}
+@media (max-width:390px){
+  .book-illustration{ height:128px; }
+}
+
+
+/* =========================================================
+   WEEKLY READINGS DIGITAL STORYBOOK — FINAL OVERRIDES
+   Preserves existing vocabulary, TTS, practice, quiz and evidence.
+   ========================================================= */
+.storybook-reader{
+  background:transparent !important;
+  border:0 !important;
+  box-shadow:none !important;
+  overflow:visible !important;
+  padding:0 !important;
+  min-width:0;
+}
+
+.storybook-cover-view{
+  min-height:620px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+  padding:18px;
+  border-radius:24px;
+  background:linear-gradient(145deg,#eef3ff 0%,#fffaf1 100%);
+  border:1px solid #dfe6f4;
+  box-shadow:0 18px 48px rgba(31,50,100,.13);
+  touch-action:pan-y;
+}
+
+.storybook-cover-view[hidden],
+.storybook-spread[hidden]{
+  display:none !important;
+}
+
+.storybook-cover-image{
+  display:block;
+  width:min(480px,88vw);
+  max-height:72vh;
+  object-fit:contain;
+  border-radius:14px;
+  box-shadow:0 20px 42px rgba(49,39,28,.24);
+  background:#fff;
+}
+
+/* Cover safe area guidance for future generated covers:
+   keep title inside the upper 22% band and reserve the lower 15% band for credits. */
+.storybook-cover-view{
+  --cover-title-safe-top: 6%;
+  --cover-title-safe-bottom: 28%;
+  --cover-credits-safe-top: 84%;
+}
+
+.cover-swipe-hint{
+  color:#59647a;
+  font-size:.82rem;
+  font-weight:800;
+  text-align:center;
+}
+
+.storybook-spread{
+  position:relative;
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+  gap:0;
+  align-items:stretch;
+  width:100%;
+  max-width:1120px;
+  margin:0 auto;
+  padding:14px;
+  border-radius:26px;
+  background:linear-gradient(90deg,#d9c7a8 0%,#f6eddb 49.3%,#c9b28d 50%,#f6eddb 50.7%,#d9c7a8 100%);
+  box-shadow:0 24px 60px rgba(35,45,75,.18);
+  touch-action:pan-y;
+  overflow:visible;
+}
+
+.storybook-spread::after{
+  content:"";
+  position:absolute;
+  top:18px;
+  bottom:18px;
+  left:50%;
+  width:20px;
+  transform:translateX(-50%);
+  pointer-events:none;
+  background:linear-gradient(90deg,rgba(62,45,26,.10),rgba(255,255,255,.72),rgba(62,45,26,.12));
+  filter:blur(4px);
+  opacity:.78;
+  z-index:3;
+}
+
+.storybook-page{
+  position:relative;
+  min-width:0;
+  min-height:680px;
+  aspect-ratio:4/5;
+  background:#fffdf7;
+  overflow:hidden;
+}
+
+.illustration-page{
+  border-radius:16px 3px 3px 16px;
+  box-shadow:inset -12px 0 22px rgba(67,49,29,.07);
+}
+
+.reading-frame-page{
+  border-radius:3px 16px 16px 3px;
+  box-shadow:inset 12px 0 22px rgba(67,49,29,.07);
+}
+
+.illustration-paper{
+  position:absolute;
+  inset:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+  background:linear-gradient(180deg,#fffdf7,#f8efe0);
+}
+
+.book-illustration{
+  display:block !important;
+  width:100% !important;
+  height:auto !important;
+  max-height:100% !important;
+  object-fit:contain !important;
+  border-radius:10px;
+  box-shadow:0 10px 28px rgba(57,46,30,.14);
+}
+
+.reading-frame-bg{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:fill;
+  z-index:0;
+  pointer-events:none;
+}
+
+.reading-frame-content{
+  position:absolute;
+  z-index:2;
+  inset:7.5% 8.5% 7.5% 8.5%;
+  display:flex;
+  flex-direction:column;
+  min-height:0;
+}
+
+.reading-frame-content .book-page-header{
+  display:block !important;
+  margin:0 0 6px !important;
+  padding:0 2px 7px !important;
+  border-bottom:1px solid rgba(93,104,127,.14);
+}
+
+.reading-frame-content .book-grade{
+  font-size:.69rem !important;
+  margin-bottom:2px !important;
+}
+
+.reading-frame-content .book-page-header h2{
+  margin:1px 0 2px !important;
+  font-size:clamp(1.18rem,1.85vw,1.65rem) !important;
+  line-height:1.06 !important;
+}
+
+.reading-frame-content .book-page-header p{
+  margin:0 !important;
+  font-size:.69rem !important;
+  line-height:1.28 !important;
+  color:#687287 !important;
+}
+
+.reading-frame-content .flip-page-topline{
+  margin:0 0 6px !important;
+  padding:0 2px !important;
+  align-items:end !important;
+}
+
+.reading-frame-content .hint{
+  font-size:.61rem !important;
+  padding:3px 6px !important;
+}
+
+.reading-scroll-area{
+  flex:1 1 auto;
+  min-height:0;
+  overflow:auto;
+  padding:4px 7px 7px;
+  overscroll-behavior:contain;
+  scrollbar-width:thin;
+}
+
+.reading-frame-content .flip-reading-text{
+  margin:0 !important;
+  padding:0 !important;
+  background:transparent !important;
+  border:0 !important;
+  box-shadow:none !important;
+  font-size:clamp(.94rem,1.35vw,1.12rem) !important;
+  line-height:1.58 !important;
+  color:#243047 !important;
+}
+
+.reading-frame-content .sentence-span{
+  display:inline;
+}
+
+.reading-frame-content .flip-audio-bar{
+  flex:0 0 auto;
+  margin:7px 0 0 !important;
+  padding:6px !important;
+  gap:5px !important;
+  background:rgba(255,255,255,.84) !important;
+  border:1px solid rgba(205,214,230,.9) !important;
+  border-radius:11px !important;
+  box-shadow:0 5px 14px rgba(40,53,86,.07) !important;
+}
+
+.reading-frame-content .flip-audio-bar .btn{
+  min-height:34px !important;
+  height:34px !important;
+  padding:0 9px !important;
+  font-size:.72rem !important;
+}
+
+.reading-frame-content .flip-audio-bar label{
+  font-size:.58rem !important;
+  margin-bottom:2px !important;
+}
+
+.reading-frame-content .flip-audio-bar select{
+  min-height:34px !important;
+  height:34px !important;
+  font-size:.68rem !important;
+}
+
+.reading-frame-content .flip-audio-bar input[type="range"]{
+  min-height:26px !important;
+}
+
+/* Smooth visual cue when changing spreads. */
+.storybook-spread.page-changing{
+  animation:storybookPageIn .28s ease;
+}
+@keyframes storybookPageIn{
+  from{opacity:.58;transform:translateX(12px)}
+  to{opacity:1;transform:translateX(0)}
+}
+
+/* Future frame-safe-area guidance:
+   the readable text block should stay inside this centered paper window. */
+.reading-frame-page{
+  --frame-safe-left: 11.2%;
+  --frame-safe-right: 11.2%;
+  --frame-safe-top: 8.2%;
+  --frame-safe-bottom: 7.8%;
+}
+
+@media (max-width:900px){
+  .storybook-spread{
+    max-width:760px;
+  }
+  .storybook-page{
+    min-height:580px;
+  }
+  .reading-frame-content{
+    inset:7% 7.5%;
+  }
+  .reading-frame-content .book-page-header p{
+    display:none;
+  }
+}
+
+@media (max-width:720px){
+  .storybook-cover-view{
+    min-height:0;
+    padding:12px;
+  }
+  .storybook-cover-image{
+    width:min(420px,94vw);
+    max-height:none;
+  }
+  .storybook-spread{
+    display:block;
+    max-width:560px;
+    padding:9px;
+    background:#dcc9a8;
+  }
+  .storybook-spread::after{
+    display:none;
+  }
+  .storybook-page{
+    width:100%;
+    min-height:0;
+    aspect-ratio:4/5;
+    border-radius:13px;
+  }
+  .illustration-page{
+    margin-bottom:10px;
+  }
+  .illustration-paper{
+    padding:12px;
+  }
+  .reading-frame-content{
+    inset:7.8% 9.2%;
+    max-width:84%;
+  }
+  .reading-frame-content .book-page-header p{
+    display:none;
+  }
+  .reading-frame-content .flip-reading-text{
+    font-size:clamp(.98rem,4vw,1.08rem) !important;
+    line-height:1.5 !important;
+  }
+}
+
+@media (max-width:430px){
+  .storybook-spread{
+    padding:6px;
+  }
+  .illustration-page{
+    margin-bottom:7px;
+  }
+  .reading-frame-content{
+    inset:7.2% 8.4%;
+    max-width:86%;
+  }
+  .reading-frame-content .book-page-header h2{
+    font-size:1.16rem !important;
+  }
+  .reading-frame-content .book-grade{
+    font-size:.60rem !important;
+  }
+  .reading-frame-content .hint{
+    display:none !important;
+  }
+  .reading-frame-content .flip-reading-text{
+    font-size:.94rem !important;
+    line-height:1.47 !important;
+  }
+  .reading-frame-content .flip-audio-bar{
+    grid-template-columns:68px 68px 68px !important;
+  }
+  .reading-frame-content #ttsPlay,
+  .reading-frame-content #ttsPause,
+  .reading-frame-content #ttsResume,
+  .reading-frame-content #ttsStop{
+    width:68px !important;
+    min-width:68px !important;
+    max-width:68px !important;
+  }
+  .reading-frame-content .flip-audio-bar .audio-field,
+  .reading-frame-content .flip-audio-bar .speed-field{
+    grid-column:1 / -1 !important;
+  }
+}
+
+
+/* =========================================================
+   STORYBOOK V3 — FULL PAGE ART, SAFE TEXT FRAME, REAL PAGE DRAG
+   ========================================================= */
+[hidden]{display:none !important;}
+
+.flip-book-stage{
+  width:100% !important;
+  gap:10px !important;
+  align-items:stretch !important;
+}
+
+.storybook-reader{
+  width:min(100%,1120px) !important;
+  min-height:0 !important;
+  perspective:1800px;
+}
+
+.storybook-spread{
+  width:100% !important;
+  max-width:none !important;
+  padding:10px !important;
+  gap:0 !important;
+  box-sizing:border-box !important;
+  background:linear-gradient(90deg,#ccb184 0%,#ead9b9 49.4%,#b99763 50%,#ead9b9 50.6%,#ccb184 100%) !important;
+  border-radius:24px !important;
+  overflow:hidden !important;
+  transform-style:preserve-3d;
+}
+
+.storybook-page{
+  min-height:0 !important;
+  aspect-ratio:4/5 !important;
+  height:auto !important;
+  background:#fffaf0 !important;
+}
+
+/* Illustration occupies the complete left book page, like the cover. */
+.illustration-paper{
+  inset:0 !important;
+  padding:0 !important;
+  background:#fffaf0 !important;
+}
+
+.book-illustration{
+  width:100% !important;
+  height:100% !important;
+  max-height:none !important;
+  object-fit:cover !important;
+  object-position:center !important;
+  border-radius:14px 2px 2px 14px !important;
+  box-shadow:none !important;
+}
+
+.reading-frame-bg{
+  width:100% !important;
+  height:100% !important;
+  object-fit:cover !important;
+  object-position:center !important;
+}
+
+/* The inner blank-paper rectangle is the ONLY usable text area. */
+.reading-frame-content{
+  inset:6.4% 8.8% 6.6% 8.8% !important;
+  max-width:none !important;
+  margin:0 !important;
+  padding:0 !important;
+  overflow:hidden !important;
+}
+
+.reading-frame-content .book-page-header{
+  flex:0 0 auto !important;
+  margin:0 0 5px !important;
+  padding:0 0 6px !important;
+}
+
+.reading-frame-content .book-page-header h2{
+  font-size:clamp(1.08rem,1.55vw,1.46rem) !important;
+}
+
+.reading-frame-content .book-page-header p{
+  display:none !important;
+}
+
+.reading-frame-content .flip-page-topline{
+  flex:0 0 auto !important;
+  margin:0 0 5px !important;
+  padding:0 !important;
+}
+
+.reading-scroll-area{
+  flex:1 1 auto !important;
+  min-height:0 !important;
+  overflow:hidden !important;
+  padding:3px 5px 5px !important;
+  display:block !important;
+  scrollbar-width:none !important;
+}
+.reading-scroll-area::-webkit-scrollbar{display:none !important;}
+
+.reading-frame-content .flip-reading-text{
+  width:100% !important;
+  max-width:100% !important;
+  margin:0 !important;
+  padding:0 !important;
+  font-size:var(--page-font-size,1rem) !important;
+  line-height:var(--page-line-height,1.48) !important;
+  letter-spacing:var(--page-letter-spacing,0) !important;
+  text-align:left !important;
+}
+
+/* TTS footer stays completely inside the lower safe area. */
+.reading-frame-content .flip-audio-bar{
+  flex:0 0 auto !important;
+  display:grid !important;
+  grid-template-columns:84px minmax(0,1fr) minmax(105px,.68fr) !important;
+  align-items:end !important;
+  gap:7px !important;
+  margin:5px 0 0 !important;
+  padding:7px 8px !important;
+  border-radius:12px !important;
+  background:rgba(255,255,255,.91) !important;
+  border:1px solid rgba(190,204,222,.9) !important;
+  box-shadow:0 4px 12px rgba(32,45,74,.08) !important;
+}
+
+.reading-frame-content .flip-audio-bar .btn{
+  grid-column:1 !important;
+  grid-row:1 !important;
+  width:84px !important;
+  min-width:84px !important;
+  max-width:84px !important;
+  min-height:36px !important;
+  height:36px !important;
+  padding:0 8px !important;
+  font-size:.70rem !important;
+}
+
+.reading-frame-content .flip-audio-bar .audio-field{
+  grid-column:2 !important;
+  grid-row:1 !important;
+  min-width:0 !important;
+}
+.reading-frame-content .flip-audio-bar .speed-field{
+  grid-column:3 !important;
+  grid-row:1 !important;
+  min-width:0 !important;
+}
+.reading-frame-content .flip-audio-bar label{
+  font-size:.55rem !important;
+  line-height:1 !important;
+  margin:0 0 3px !important;
+}
+.reading-frame-content .flip-audio-bar select{
+  width:100% !important;
+  min-width:0 !important;
+  height:30px !important;
+  min-height:30px !important;
+  padding:0 5px !important;
+  font-size:.63rem !important;
+}
+.reading-frame-content .flip-audio-bar input[type="range"]{
+  width:100% !important;
+  height:24px !important;
+  min-height:24px !important;
+}
+.reading-frame-content #ttsSyncStatus{
+  grid-column:1/-1 !important;
+  grid-row:2 !important;
+}
+
+/* Page curl while the finger drags horizontally. */
+.reading-frame-page,
+.illustration-page{
+  transform-style:preserve-3d;
+  backface-visibility:hidden;
+  will-change:transform,filter;
+}
+.storybook-spread.drag-turn-next .reading-frame-page{
+  transform-origin:left center;
+  transform:perspective(1500px) rotateY(calc(var(--turn-progress,0) * -72deg));
+  filter:brightness(calc(1 - var(--turn-progress,0) * .10));
+  box-shadow:-18px 0 32px rgba(69,46,20,calc(var(--turn-progress,0) * .24));
+}
+.storybook-spread.drag-turn-prev .illustration-page{
+  transform-origin:right center;
+  transform:perspective(1500px) rotateY(calc(var(--turn-progress,0) * 72deg));
+  filter:brightness(calc(1 - var(--turn-progress,0) * .10));
+  box-shadow:18px 0 32px rgba(69,46,20,calc(var(--turn-progress,0) * .24));
+}
+.storybook-spread.turn-snap-back .reading-frame-page,
+.storybook-spread.turn-snap-back .illustration-page{
+  transition:transform .20s ease,filter .20s ease,box-shadow .20s ease;
+}
+.storybook-spread.turn-commit-next .reading-frame-page{
+  transform-origin:left center;
+  animation:commitNextPage .30s ease-in both;
+}
+.storybook-spread.turn-commit-prev .illustration-page{
+  transform-origin:right center;
+  animation:commitPrevPage .30s ease-in both;
+}
+@keyframes commitNextPage{
+  from{transform:perspective(1500px) rotateY(-18deg)}
+  to{transform:perspective(1500px) rotateY(-88deg);filter:brightness(.84)}
+}
+@keyframes commitPrevPage{
+  from{transform:perspective(1500px) rotateY(18deg)}
+  to{transform:perspective(1500px) rotateY(88deg);filter:brightness(.84)}
+}
+
+/* Clean navigation controls. */
+.flip-nav{
+  flex:0 0 46px !important;
+  width:46px !important;
+  height:58px !important;
+  border-radius:16px !important;
+  border:1px solid #d8e1ef !important;
+  background:rgba(255,255,255,.96) !important;
+  color:#2450c7 !important;
+  box-shadow:0 8px 20px rgba(31,50,100,.13) !important;
+  font-size:1.8rem !important;
+}
+.flip-nav:not(:disabled):hover{transform:translateY(-1px) scale(1.03)}
+
+@media (max-width:900px){
+  .reading-frame-content{inset:6.4% 8.2% 6.6% 8.2% !important;}
+  .reading-frame-content .flip-audio-bar{
+    grid-template-columns:76px minmax(0,1fr) 96px !important;
+  }
+  .reading-frame-content .flip-audio-bar .btn{
+    width:76px !important;min-width:76px !important;max-width:76px !important;
+  }
+}
+
+@media (max-width:720px){
+  .storybook-spread{
+    display:block !important;
+    max-width:560px !important;
+    padding:7px !important;
+  }
+  .storybook-page{aspect-ratio:4/5 !important;}
+  .illustration-page{margin-bottom:8px !important;}
+  .reading-frame-content{inset:6.5% 8.6% 6.7% 8.6% !important;}
+  .reading-frame-content .flip-audio-bar{
+    grid-template-columns:78px minmax(0,1fr) 100px !important;
+  }
+  .reading-frame-content .flip-audio-bar .btn{
+    width:78px !important;min-width:78px !important;max-width:78px !important;
+  }
+}
+
+@media (max-width:430px){
+  .reading-frame-content{inset:6.2% 7.8% 6.4% 7.8% !important;}
+  .reading-frame-content .book-page-header h2{font-size:1.04rem !important;}
+  .reading-frame-content .book-grade{font-size:.56rem !important;}
+  .reading-frame-content .flip-audio-bar{
+    grid-template-columns:70px minmax(0,1fr) 88px !important;
+    padding:5px 6px !important;
+    gap:5px !important;
+  }
+  .reading-frame-content .flip-audio-bar .btn{
+    width:70px !important;min-width:70px !important;max-width:70px !important;
+    height:32px !important;min-height:32px !important;
+  }
+  .reading-frame-content .flip-audio-bar select{font-size:.58rem !important;}
+}
+
+/* =========================================================
+   CORNER PAGE CURL — FlipHTML5-style interaction
+   Drag the outer corner of the paper to bend/turn the page.
+   ========================================================= */
+.storybook-page{
+  transform-style:preserve-3d;
+  backface-visibility:hidden;
+}
+
+/* Small invisible grab zones on the OUTER page corners. */
+.reading-frame-page::before,
+.illustration-page::before{
+  content:"";
+  position:absolute;
+  z-index:20;
+  width:74px;
+  height:110px;
+  pointer-events:none;
+  opacity:0;
+}
+.reading-frame-page::before{right:0;bottom:0;}
+.illustration-page::before{left:0;bottom:0;}
+
+/* Turning sheet.  Progress is driven live by weekly-reader.js. */
+.storybook-spread.curl-next .reading-frame-page,
+.storybook-spread.curl-prev .illustration-page{
+  transition:none !important;
+  will-change:transform,filter,box-shadow,border-radius;
+}
+
+.storybook-spread.curl-next .reading-frame-page{
+  transform-origin:left center !important;
+  transform:
+    perspective(1800px)
+    translateY(var(--curl-y,0px))
+    rotateZ(var(--curl-z,0deg))
+    rotateY(calc(var(--curl-progress,0) * -88deg)) !important;
+  filter:brightness(calc(1 - var(--curl-progress,0) * .13));
+  box-shadow:
+    calc(var(--curl-progress,0) * -30px) 2px 38px rgba(56,37,16,.28),
+    inset -28px 0 36px rgba(255,255,255,calc(var(--curl-progress,0) * .46)) !important;
+  border-radius:3px calc(16px + var(--curl-progress,0) * 26px) calc(16px + var(--curl-progress,0) * 40px) 3px !important;
+}
+
+.storybook-spread.curl-prev .illustration-page{
+  transform-origin:right center !important;
+  transform:
+    perspective(1800px)
+    translateY(var(--curl-y,0px))
+    rotateZ(var(--curl-z,0deg))
+    rotateY(calc(var(--curl-progress,0) * 88deg)) !important;
+  filter:brightness(calc(1 - var(--curl-progress,0) * .13));
+  box-shadow:
+    calc(var(--curl-progress,0) * 30px) 2px 38px rgba(56,37,16,.28),
+    inset 28px 0 36px rgba(255,255,255,calc(var(--curl-progress,0) * .46)) !important;
+  border-radius:calc(16px + var(--curl-progress,0) * 26px) 3px 3px calc(16px + var(--curl-progress,0) * 40px) !important;
+}
+
+/* The visible folded edge / paper backside. */
+.storybook-spread.curl-next .reading-frame-page::after,
+.storybook-spread.curl-prev .illustration-page::after{
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  width:clamp(10px,calc(var(--curl-progress,0) * 15%),96px);
+  z-index:30;
+  pointer-events:none;
+  opacity:calc(.10 + var(--curl-progress,0) * .90);
+}
+.storybook-spread.curl-next .reading-frame-page::after{
+  right:0;
+  background:linear-gradient(90deg,
+    rgba(112,82,42,0),
+    rgba(88,60,26,.18) 28%,
+    rgba(255,250,232,.96) 64%,
+    rgba(255,255,255,.72));
+  box-shadow:-10px 0 20px rgba(69,45,18,.16);
+}
+.storybook-spread.curl-prev .illustration-page::after{
+  left:0;
+  background:linear-gradient(270deg,
+    rgba(112,82,42,0),
+    rgba(88,60,26,.18) 28%,
+    rgba(255,250,232,.96) 64%,
+    rgba(255,255,255,.72));
+  box-shadow:10px 0 20px rgba(69,45,18,.16);
+}
+
+/* Snap-back and committed turn. */
+.storybook-spread.curl-snap .reading-frame-page,
+.storybook-spread.curl-snap .illustration-page{
+  transition:transform .28s cubic-bezier(.22,.72,.24,1),filter .28s ease,box-shadow .28s ease !important;
+}
+.storybook-spread.curl-finish-next .reading-frame-page{
+  transform-origin:left center !important;
+  animation:cornerCurlNext .34s cubic-bezier(.32,.02,.36,1) forwards !important;
+}
+.storybook-spread.curl-finish-prev .illustration-page{
+  transform-origin:right center !important;
+  animation:cornerCurlPrev .34s cubic-bezier(.32,.02,.36,1) forwards !important;
+}
+@keyframes cornerCurlNext{
+  from{transform:perspective(1800px) translateY(var(--curl-y,0px)) rotateZ(var(--curl-z,0deg)) rotateY(calc(var(--curl-progress,.2) * -88deg));}
+  to{transform:perspective(1800px) translateY(0) rotateZ(0) rotateY(-94deg);filter:brightness(.86);}
+}
+@keyframes cornerCurlPrev{
+  from{transform:perspective(1800px) translateY(var(--curl-y,0px)) rotateZ(var(--curl-z,0deg)) rotateY(calc(var(--curl-progress,.2) * 88deg));}
+  to{transform:perspective(1800px) translateY(0) rotateZ(0) rotateY(94deg);filter:brightness(.86);}
+}
+
+/* Cursor cue on desktop only. */
+@media (hover:hover) and (pointer:fine){
+  .reading-frame-page{cursor:default;}
+  .illustration-page{cursor:default;}
+  .storybook-spread.corner-next-ready .reading-frame-page{cursor:grab;}
+  .storybook-spread.corner-prev-ready .illustration-page{cursor:grab;}
+  .storybook-spread.is-curling .reading-frame-page,
+  .storybook-spread.is-curling .illustration-page{cursor:grabbing !important;}
+}
+
+
+/* =========================================================
+   FINAL ALIGNMENT — MOVE ONLY RIGHT-PAGE CONTENT RIGHT
+   Keeps left illustration, page frame and flip geometry unchanged.
+   ========================================================= */
+.reading-frame-content{
+  transform:translateX(12px) !important;
+}
+
+@media (max-width:720px){
+  .reading-frame-content{
+    transform:translateX(9px) !important;
+  }
+}
+
+@media (max-width:430px){
+  .reading-frame-content{
+    transform:translateX(6px) !important;
+  }
+}
+
+/* =========================================================
+   FINAL WIDTH + SOFT CURL OVERRIDE
+   Wider desktop reading column; curl stays inside book geometry.
+   ========================================================= */
+@media (min-width:721px){
+  .page{
+    width:min(1180px,calc(100% - 28px)) !important;
+  }
+  .storybook-reader{
+    width:min(100%,1120px) !important;
+  }
+  .flip-book-stage{
+    width:100% !important;
+  }
+}
+
+</style>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700;800&display=swap" />
+  <link rel="stylesheet" href="../css/weekly-refresh.css?v=20260927c" />
+</head>
+
+<body class="notranslate">
+  <div class="page">
+
+    <header class="topbar">
+      <a href="../index.html" class="home-link">← Home</a>
+
+      <div class="brand-block">
+        <span class="brand-kicker">Weekly Readings</span>
+        <h1>Read • Listen • Practice • Respond</h1>
+      </div>
+    </header>
+
+    <!-- COMPACT CONTROLS LIKE THE ORIGINAL PROJECT -->
+    <section class="session-bar" aria-label="Reading selection">
+      <div class="field">
+        <label for="weekSelect">Week</label>
+        <select id="weekSelect"></select>
+      </div>
+
+      <div class="field">
+        <label for="gradeSelect">Grade / Level</label>
+        <select id="gradeSelect"></select>
+      </div>
+
+      <div class="session-logo-wrap" aria-label="School logo">
+        <img
+          class="session-logo"
+          src="../assets/images/school_logo.png"
+          alt="School logo"
+        />
+      </div>
+    </section>
+
+    <!-- STEP NAVIGATOR -->
+    <nav class="wr-steps" aria-label="Activity steps">
+      <a href="#stepRead"><b>1</b><span>Read</span></a>
+      <a href="#stepVocab"><b>2</b><span>Vocabulary</span></a>
+      <a href="#stepPractice"><b>3</b><span>Practice</span></a>
+      <a href="#stepQuiz"><b>4</b><span>Quiz</span></a>
+      <a href="#evidenceCard"><b>5</b><span>Evidence</span></a>
+    </nav>
+
+    <!-- DIGITAL STORYBOOK: COVER + ILLUSTRATION/TEXT SPREAD -->
+    <section id="stepRead" class="flip-reader-shell" aria-label="Interactive reading">
+      <div class="flip-book-stage">
+
+        <button id="flipPrev" class="flip-nav flip-prev" type="button" aria-label="Previous page" disabled>
+          ‹
+        </button>
+
+        <article id="flipPage" class="flip-page storybook-reader">
+          <!-- Kept for JS compatibility; the visible cover uses #coverImage. -->
+          <img id="imageDisplay" alt="Reading illustration" hidden aria-hidden="true" />
+
+          <section id="coverView" class="storybook-cover-view" aria-label="Book cover">
+            <img id="coverImage" class="storybook-cover-image" alt="Book cover" />
+            <div class="cover-swipe-hint">Swipe left or press Next to begin</div>
+          </section>
+
+          <section id="spreadView" class="storybook-spread" hidden>
+            <div class="storybook-page illustration-page" aria-label="Illustration page">
+              <div class="illustration-paper">
+                <img id="pageIllustration" class="book-illustration" alt="Reading illustration" />
+              </div>
+            </div>
+
+            <div id="readingFramePage" class="storybook-page reading-frame-page" aria-label="Reading page">
+              <img id="readingFrameImage" class="reading-frame-bg" alt="" aria-hidden="true" />
+
+              <div class="reading-frame-content">
+                <header class="book-page-header">
+                  <div>
+                    <div id="programBadge" class="book-grade">Grades 6–11</div>
+                    <h2 id="readingHeading">Weekly Readings</h2>
+                    <p id="readingSubheading">The selected reading will appear here.</p>
+                  </div>
+                  <div id="readingTitleDisplay" style="display:none;"></div>
+                  <div id="readingMeta" style="display:none;"></div>
+                </header>
+
+                <div class="flip-page-topline">
+                  <div>
+                    <span class="section-kicker">Reading</span>
+                    <div id="flipPageIndicator" class="flip-page-indicator">Page 1</div>
+                  </div>
+                  <span class="hint">Tap blue words • Swipe to change page</span>
+                </div>
+
+                <div id="readingScrollArea" class="reading-scroll-area">
+                  <div id="textContent" class="reading-text flip-reading-text">Loading content...</div>
+                </div>
+
+                <!-- TTS stays part of the reading page, below the text. -->
+                <div id="readingTtsBar" class="flip-audio-bar" aria-label="Text to speech controls">
+                  <button id="ttsPlay" class="btn btn-primary" type="button">▶ Listen</button>
+                  <button id="ttsPause" class="btn btn-warning" type="button" hidden>⏸ Pause</button>
+                  <button id="ttsResume" class="btn btn-success" type="button" hidden>▶ Resume</button>
+                  <button id="ttsStop" class="btn btn-danger" type="button" hidden>⏹ Stop</button>
+
+                  <div class="audio-field">
+                    <label for="voiceSelect">Voice</label>
+                    <select id="voiceSelect"></select>
+                  </div>
+
+                  <div class="speed-field">
+                    <label for="ttsSpeedRange">
+                      <span>Speed</span>
+                      <span id="ttsSpeedLabel">0.95x</span>
+                    </label>
+                    <input id="ttsSpeedRange" type="range" min="0.7" max="1.2" step="0.05" value="0.95" />
+                  </div>
+
+                  <div id="ttsSyncStatus" hidden></div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </article>
+
+        <button id="flipNext" class="flip-nav flip-next" type="button" aria-label="Next page" disabled>
+          ›
+        </button>
+      </div>
+
+      <div class="flip-mobile-nav" aria-label="Page navigation">
+        <button id="flipPrevMobile" class="flip-mobile-btn" type="button" disabled>‹ Previous</button>
+        <span id="flipPageIndicatorMobile">Cover</span>
+        <button id="flipNextMobile" class="flip-mobile-btn" type="button" disabled>Next ›</button>
+      </div>
+
+      <!-- Full screen book -->
+      <div class="wr-book-tools">
+        <button id="bookFullscreen" class="wr-tool-btn" type="button" aria-pressed="false" title="Full screen">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path class="i-open" d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" />
+            <path class="i-close" d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5" />
+          </svg>
+          <span>Full screen</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- VOCAB -->
+    <section id="stepVocab" class="card">
+      <div class="section-head">
+        <div>
+          <span class="section-kicker">Step 2</span>
+          <h2>Vocabulary Review</h2>
+        </div>
+      </div>
+
+      <div id="vocabularyContent" class="vocab-list"></div>
+    </section>
+
+    <!-- PRACTICE -->
+    <section id="stepPractice" class="card">
+      <div class="section-head">
+        <div>
+          <span class="section-kicker">Step 3</span>
+          <h2>Practice Challenge</h2>
+        </div>
+        <span class="hint">Drag or tap</span>
+      </div>
+
+      <p class="section-description">
+        Use the word bank to complete the reading. On phones and tablets, tap a word and then tap the blank.
+      </p>
+
+      <div id="gameScore" class="game-score">Score: 0%</div>
+      <div id="readingGameContainer"></div>
+
+      <div class="button-row">
+        <button id="checkAnswers" class="btn btn-primary" type="button">Check Answers</button>
+        <button id="resetGame" class="btn btn-secondary" type="button">Reset Challenge</button>
+      </div>
+    </section>
+
+    <!-- QUIZ -->
+    <section id="stepQuiz" class="card">
+      <div class="section-head">
+        <div>
+          <span class="section-kicker">Step 4</span>
+          <h2>Quiz</h2>
+        </div>
+        <span class="hint">5 questions</span>
+      </div>
+
+      <div id="quizContent"></div>
+    </section>
+
+    <!-- CLASSIC EVIDENCE -->
+    <section class="old-evidence-box info-box" id="evidenceCard">
+      <div class="old-evidence-title-wrap">
+        <div id="evidenceTitleDisplay" class="old-evidence-title">READING TITLE</div>
+        <ol class="old-evidence-instructions evidence-steps">
+          <li>Fill all information out.</li>
+          <li>Get your score.</li>
+          <li>Take a Screenshot.</li>
+          <li>Send/Show evidence to your teacher.</li>
+        </ol>
+      </div>
+
+      <div class="old-camera-wrap">
+        <div id="cameraBox" class="camera-box">
+          <span>Camera preview</span>
+        </div>
+      </div>
+
+      <div class="old-form-stack">
+        <div class="field">
+          <label for="institutionField">* Institution:</label>
+          <input type="text" id="institutionField" autocomplete="organization" />
+        </div>
+
+        <div class="field">
+          <label for="courseField">* Group/Course:</label>
+          <input type="text" id="courseField" autocomplete="off" />
+        </div>
+
+        <div class="field">
+          <label for="idField">* ID:</label>
+          <input type="text" id="idField" autocomplete="off" inputmode="numeric" />
+        </div>
+
+        <div class="field">
+          <label for="nameField">* Full Name:</label>
+          <input type="text" id="nameField" autocomplete="name" />
+        </div>
+
+        <div class="field evidence-title-input-wrap">
+          <label for="evidenceTitleField">Reading Title:</label>
+          <input type="text" id="evidenceTitleField" readonly />
+        </div>
+      </div>
+
+      <div class="button-row">
+        <button id="scoreButton" class="btn btn-primary" type="button">My Score</button>
+        <button id="clearButton" class="btn btn-secondary" type="button">Clear</button>
+        <button id="screenshotButton" class="btn btn-success" type="button" style="display:none;">Take Screenshot</button>
+      </div>
+
+      <p id="scoreFeedback" class="old-score-feedback" aria-live="polite"></p>
+      <p id="timestamp" class="old-timestamp" style="display:none;"></p>
+    </section>
+
+  </div>
+
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+  <script src="../js/weekly-reader.js?v=20260927b"></script>
+  <script src="../js/page-curl.js?v=20260927d"></script>
+  <script src="../js/weekly-steps.js?v=20260927"></script>
+  <script src="../js/book-fullscreen.js?v=20260927"></script>
+  <script src="../js/security.js"></script>
+
+  <script>
+    // Week availability is controlled exclusively by data/catalog.json.
+    // No secondary date filter is applied here.
+  </script>
+
+</body>
+</html>

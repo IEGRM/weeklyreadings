@@ -1,0 +1,2289 @@
+{
+  "week": 37,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 37",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "A Map for the New Student",
+      "minimumWordTarget": 350,
+      "wordCount": 361,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week37_grade06_page01.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “A Map for the New Student”, page 1. Scene based on: In a bright public school courtyard in Medellín, Sofía, 11, and Nico, 11, talk with a new student, a smiling boy with a backpack named Lucas, who holds a blank paper and looks confused, while other students play in the background. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "There is a new student in Sofía’s class."
+            },
+            {
+              "html": "His name is Lucas, and he is from Cali."
+            },
+            {
+              "html": "He knows the school very well now."
+            },
+            {
+              "html": "He knows the classrooms, the library, and the cafeteria."
+            },
+            {
+              "html": "But he doesn’t know the neighborhood."
+            },
+            {
+              "html": "“Where is the <b>park</b>?” he asks Sofía."
+            },
+            {
+              "html": "“And where is the Metro <b>station</b>?”"
+            },
+            {
+              "html": "“My mom wants me to go to the <b>market</b> too.”"
+            },
+            {
+              "html": "Sofía and Nico look at each other."
+            },
+            {
+              "html": "“Let’s make a <b>map</b> for you!” Nico says."
+            },
+            {
+              "html": "Lucas is very happy with the idea."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week37_grade06_page02.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “A Map for the New Student”, page 2. Scene based on: At a classroom table, Sofía and Nico draw a colorful neighborhood map on a big paper with small drawings of a church, a park with trees, a market with fruit and a Metro station, while Lucas watches with interest. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They take a big paper and colored pencils."
+            },
+            {
+              "html": "First, they draw the school in the middle."
+            },
+            {
+              "html": "“The school is on Fifth <b>Street</b>,” Sofía says."
+            },
+            {
+              "html": "Then they draw the park."
+            },
+            {
+              "html": "“The park is <b>across from</b> the church,” Nico says."
+            },
+            {
+              "html": "“The market is <b>between</b> the bakery and the bank.”"
+            },
+            {
+              "html": "“The station is at the end of the street.”"
+            },
+            {
+              "html": "Sofía draws arrows for the directions."
+            },
+            {
+              "html": "“Go <b>straight</b> for two blocks,” she writes."
+            },
+            {
+              "html": "“Then <b>turn left</b> at the bakery.”"
+            },
+            {
+              "html": "Lucas likes the map a lot."
+            },
+            {
+              "html": "“It’s beautiful,” he says. “Can I keep it?”"
+            },
+            {
+              "html": "“Yes! But first, let’s check it,” Sofía says."
+            }
+          ],
+          "wordCount": 97
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week37_grade06_page03.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “A Map for the New Student”, page 3. Scene based on: On a neighborhood street after school, Sofía, Nico and Lucas walk with the map, and Sofía stops in surprise in front of an empty shop with a \"for rent\" sign shown only as a blank paper, while Nico points across the street at a new bakery. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "After school, they walk together to test the map."
+            },
+            {
+              "html": "They go straight for two blocks."
+            },
+            {
+              "html": "They arrive at the <b>corner</b> with the bakery."
+            },
+            {
+              "html": "But the bakery isn’t there!"
+            },
+            {
+              "html": "There is an empty store with a blank sign."
+            },
+            {
+              "html": "“Where is the bakery?” Nico asks, confused."
+            },
+            {
+              "html": "Sofía looks around carefully."
+            },
+            {
+              "html": "Across the street, there is a new bakery!"
+            },
+            {
+              "html": "“The bakery moved last month,” Sofía says."
+            },
+            {
+              "html": "“Our map is wrong. We need to change it.”"
+            },
+            {
+              "html": "Lucas laughs. “Good thing we checked!”"
+            }
+          ],
+          "wordCount": 78
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week37_grade06_page04.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “A Map for the New Student”, page 4. Scene based on: Sofía erases and redraws part of the map on a clipboard while Lucas holds it, and Nico points to the real new bakery across the street; the Metro station and a park with tall trees are visible at the end of the street. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Sofía changes the map right there."
+            },
+            {
+              "html": "She draws the bakery on the other side of the street."
+            },
+            {
+              "html": "They continue walking."
+            },
+            {
+              "html": "They find the park and the church."
+            },
+            {
+              "html": "The park is across from the church. That’s correct!"
+            },
+            {
+              "html": "The market is between the bank and a pharmacy."
+            },
+            {
+              "html": "They walk to the station at the end of the street."
+            },
+            {
+              "html": "“Now the map is perfect,” Nico says."
+            },
+            {
+              "html": "Lucas smiles. “Thank you! Now I know my new neighborhood.”"
+            },
+            {
+              "html": "“A map is good,” Sofía says. “But walking is better.”"
+            },
+            {
+              "html": "The next day, Lucas walks to the market alone."
+            },
+            {
+              "html": "He buys fruit for his mom and walks home happily."
+            }
+          ],
+          "wordCount": 102
+        }
+      ],
+      "practiceWords": [
+        "map",
+        "street",
+        "park",
+        "station",
+        "market",
+        "corner",
+        "across from",
+        "between",
+        "straight",
+        "turn left"
+      ],
+      "vocabulary": [
+        {
+          "word": "map",
+          "definition": "a drawing that shows where places are (mapa)"
+        },
+        {
+          "word": "street",
+          "definition": "a road in a town or city (calle)"
+        },
+        {
+          "word": "park",
+          "definition": "a public green area with trees (parque)"
+        },
+        {
+          "word": "station",
+          "definition": "a place where trains or buses stop (estación)"
+        },
+        {
+          "word": "market",
+          "definition": "a place where people buy and sell food (mercado)"
+        },
+        {
+          "word": "corner",
+          "definition": "the place where two streets meet (esquina)"
+        },
+        {
+          "word": "across from",
+          "definition": "on the other side of the street (enfrente de)"
+        },
+        {
+          "word": "between",
+          "definition": "in the middle of two things (entre)"
+        },
+        {
+          "word": "straight",
+          "definition": "in a line, without turning (derecho)"
+        },
+        {
+          "word": "turn left",
+          "definition": "to change direction to the left side (girar a la izquierda)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "Where is the park on the map?",
+          "options": [
+            "Between the bakery and the bank",
+            "Next to the school",
+            "At the end of the street",
+            "Across from the church"
+          ],
+          "answer": "Across from the church"
+        },
+        {
+          "skill": "sequence",
+          "question": "What happens AFTER they arrive at the corner?",
+          "options": [
+            "They discover that the bakery moved across the street.",
+            "Sofía and Nico draw the school in the middle of the map.",
+            "Nico says, “Let’s make a map for you!”",
+            "Lucas asks where the Metro station is."
+          ],
+          "answer": "They discover that the bakery moved across the street."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “The market is between the bakery and the bank.” “Between” means…",
+          "options": [
+            "at the end of a street",
+            "in the middle of two things",
+            "behind a building",
+            "on the other side of the street"
+          ],
+          "answer": "in the middle of two things"
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the story mainly about?",
+          "options": [
+            "Two friends open a new bakery on the corner of the neighborhood.",
+            "A new student from Cali gets lost in the city after school.",
+            "Two students make a map for a new classmate and correct it by walking.",
+            "A class draws maps of every big city in Colombia."
+          ],
+          "answer": "Two students make a map for a new classmate and correct it by walking."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why do they need to change the map?",
+          "options": [
+            "Lucas doesn’t like the colors on the map.",
+            "The teacher says the map is too small for the door.",
+            "The park is closed for repairs.",
+            "The bakery moved to the other side of the street."
+          ],
+          "answer": "The bakery moved to the other side of the street."
+        }
+      ],
+      "cover": "../assets/images/week37_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "The Café Order Nobody Expected",
+      "minimumWordTarget": 400,
+      "wordCount": 405,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week37_grade07_page01.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Café Order Nobody Expected”, page 1. Scene based on: In a cozy small café in Medellín after a school museum trip, Tomás, 12, and Lucía, 12, sit at a wooden table with classmates while a young waiter with a notebook stands next to Lucía, who speaks seriously and points at a menu with only food pictures. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Last Thursday, Tomás’s class visited a museum downtown."
+            },
+            {
+              "html": "After the visit, they stopped at a small <b>café</b>."
+            },
+            {
+              "html": "Everybody was hungry."
+            },
+            {
+              "html": "The <b>waiter</b> came to their table with a notebook."
+            },
+            {
+              "html": "Most students ordered sandwiches and cakes."
+            },
+            {
+              "html": "Then it was Lucía’s turn."
+            },
+            {
+              "html": "“Excuse me. I have a food <b>allergy</b>,” she said."
+            },
+            {
+              "html": "“I can’t eat <b>wheat</b>. It makes me very sick.”"
+            },
+            {
+              "html": "“Is there anything without wheat?”"
+            },
+            {
+              "html": "The waiter looked confused."
+            },
+            {
+              "html": "He didn’t write anything in his notebook."
+            },
+            {
+              "html": "“No wheat? What did you say?” he asked."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week37_grade07_page02.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Café Order Nobody Expected”, page 2. Scene based on: The young waiter scratches his head, looking at his notebook, while Lucía repeats her request patiently and Tomás watches; at the next table, a classmate laughs and holds up a sandwich. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Lucía explained again, slowly."
+            },
+            {
+              "html": "“No bread, no cake, and no pasta.”"
+            },
+            {
+              "html": "“Those things have wheat flour.”"
+            },
+            {
+              "html": "The waiter wrote something in his notebook."
+            },
+            {
+              "html": "Then he went to the <b>kitchen</b>."
+            },
+            {
+              "html": "A classmate at the next table laughed."
+            },
+            {
+              "html": "“Why did you make a special order? Just eat a sandwich!”"
+            },
+            {
+              "html": "Lucía felt embarrassed."
+            },
+            {
+              "html": "Tomás didn’t laugh."
+            },
+            {
+              "html": "“Did you understand her allergy?” he asked the classmate."
+            },
+            {
+              "html": "“It isn’t a choice. It’s her health.”"
+            }
+          ],
+          "wordCount": 69
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week37_grade07_page03.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Café Order Nobody Expected”, page 3. Scene based on: The waiter returns with a plate holding a sandwich, and Lucía looks worried and shakes her head, while Tomás raises his hand to stop him from putting the plate down. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Ten minutes later, the waiter came back."
+            },
+            {
+              "html": "He had a plate with a small sandwich."
+            },
+            {
+              "html": "“Here you are. This is our lightest sandwich,” he said."
+            },
+            {
+              "html": "Lucía looked at it. It was made with bread."
+            },
+            {
+              "html": "“Sorry, but I can’t eat this,” she said."
+            },
+            {
+              "html": "The waiter was confused again."
+            },
+            {
+              "html": "“But you asked for something light,” he said."
+            },
+            {
+              "html": "Tomás understood the problem."
+            },
+            {
+              "html": "“What did you understand?” he asked the waiter politely."
+            },
+            {
+              "html": "“I thought she wanted a light meal,” the waiter said."
+            },
+            {
+              "html": "“I didn’t know that wheat is in bread.”"
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week37_grade07_page04.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Café Order Nobody Expected”, page 4. Scene based on: A friendly cook in her fifties with a white apron comes out of the kitchen and talks with Lucía and Tomás at the table, holding a golden corn arepa on a plate and smiling warmly. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The waiter called the <b>cook</b> from the kitchen."
+            },
+            {
+              "html": "She was a kind woman with a white apron."
+            },
+            {
+              "html": "“What did you ask for, dear?” she asked Lucía."
+            },
+            {
+              "html": "Lucía explained her allergy again."
+            },
+            {
+              "html": "“Ah! I understand perfectly,” the cook said."
+            },
+            {
+              "html": "“My nephew has the same allergy.”"
+            },
+            {
+              "html": "“Arepas are made with <b>corn</b>, not wheat.”"
+            },
+            {
+              "html": "“I can make an arepa with cheese for you.”"
+            },
+            {
+              "html": "“And I can give you fresh fruit too.”"
+            },
+            {
+              "html": "Lucía smiled for the first time."
+            },
+            {
+              "html": "“Thank you so much!” she said."
+            }
+          ],
+          "wordCount": 80
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week37_grade07_page05.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Café Order Nobody Expected”, page 5. Scene based on: Weeks later, Tomás and Lucía return to the same café and see a new menu board with small corn icons next to some dishes, while the cook waves at them from the kitchen door and the waiter brings an arepa. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Two weeks later, Tomás and Lucía went back to the café."
+            },
+            {
+              "html": "The menu was different now."
+            },
+            {
+              "html": "Some dishes had a small corn <b>symbol</b>."
+            },
+            {
+              "html": "“This means ‘without wheat,’” the waiter said."
+            },
+            {
+              "html": "“Did you add this because of me?” Lucía asked."
+            },
+            {
+              "html": "“Yes! Other customers asked about it too,” the waiter said."
+            },
+            {
+              "html": "“Now we always <b>explain</b> the ingredients.”"
+            },
+            {
+              "html": "Lucía decided to <b>order</b> an arepa with cheese."
+            },
+            {
+              "html": "Tomás ordered one too."
+            },
+            {
+              "html": "The cook waved at them from the kitchen."
+            },
+            {
+              "html": "“Why did you order an arepa?” Lucía asked."
+            },
+            {
+              "html": "“Because it’s delicious,” Tomás laughed."
+            }
+          ],
+          "wordCount": 88
+        }
+      ],
+      "practiceWords": [
+        "café",
+        "waiter",
+        "allergy",
+        "wheat",
+        "order",
+        "kitchen",
+        "corn",
+        "cook",
+        "explain",
+        "symbol"
+      ],
+      "vocabulary": [
+        {
+          "word": "café",
+          "definition": "a small restaurant for drinks and light food (cafetería)"
+        },
+        {
+          "word": "waiter",
+          "definition": "a person who serves food in a restaurant (mesero)"
+        },
+        {
+          "word": "allergy",
+          "definition": "when your body reacts badly to a food (alergia)"
+        },
+        {
+          "word": "wheat",
+          "definition": "a plant used to make bread and flour (trigo)"
+        },
+        {
+          "word": "order",
+          "definition": "to ask for food in a restaurant (pedir)"
+        },
+        {
+          "word": "kitchen",
+          "definition": "the room where food is cooked (cocina)"
+        },
+        {
+          "word": "corn",
+          "definition": "a yellow plant used to make arepas (maíz)"
+        },
+        {
+          "word": "cook",
+          "definition": "a person who prepares food (cocinero)"
+        },
+        {
+          "word": "explain",
+          "definition": "to make something clear (explicar)"
+        },
+        {
+          "word": "symbol",
+          "definition": "a small picture with a meaning (símbolo)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What can’t Lucía eat?",
+          "options": [
+            "Wheat",
+            "Cheese",
+            "Fruit",
+            "Corn"
+          ],
+          "answer": "Wheat"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "Why did the waiter bring Lucía a sandwich?",
+          "options": [
+            "The café didn’t have any other food without bread that day.",
+            "He thought she wanted a light meal, not food without wheat.",
+            "He wanted to make a joke about her food allergy.",
+            "Tomás asked him to bring a sandwich."
+          ],
+          "answer": "He thought she wanted a light meal, not food without wheat."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main idea of the story?",
+          "options": [
+            "Waiters always understand special orders from their customers.",
+            "Students should only eat arepas and fruit after museum trips.",
+            "Clear communication helped a café understand a customer’s food allergy.",
+            "Cafés should never serve sandwiches with bread to students."
+          ],
+          "answer": "Clear communication helped a café understand a customer’s food allergy."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why did the cook understand Lucía’s allergy immediately?",
+          "options": [
+            "Tomás explained it to her before.",
+            "She has the same allergy too.",
+            "She read about it in a museum.",
+            "Her nephew has the same allergy."
+          ],
+          "answer": "Her nephew has the same allergy."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “Some dishes had a small corn symbol.” A “symbol” is…",
+          "options": [
+            "a small picture with a meaning",
+            "a food made from milk",
+            "a person who serves food",
+            "a list of all the ingredients in a dish"
+          ],
+          "answer": "a small picture with a meaning"
+        }
+      ],
+      "cover": "../assets/images/week37_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "The Fake Discount",
+      "minimumWordTarget": 450,
+      "wordCount": 452,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week37_grade08_page01.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Fake Discount”, page 1. Scene based on: In a busy commercial area in Medellín, Valentina, 13, stands outside a shop holding a phone showing a social media post with headphones and a giant percent icon, excited, while Samuel, 13, eats an ice cream and looks at the screen. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina’s brother has a birthday next week."
+            },
+            {
+              "html": "She’s going to buy him a present."
+            },
+            {
+              "html": "Her <b>budget</b> is one hundred sixty thousand pesos."
+            },
+            {
+              "html": "On Saturday, she sees a post on social media."
+            },
+            {
+              "html": "“Huge <b>discount</b>! Wireless <b>headphones</b>!” it says."
+            },
+            {
+              "html": "“Before: five hundred thousand. Now: one hundred fifty thousand!”"
+            },
+            {
+              "html": "“Only today! Seventy percent off!”"
+            },
+            {
+              "html": "Valentina is very excited."
+            },
+            {
+              "html": "“I’m going to buy these right now!” she says."
+            },
+            {
+              "html": "Her friend Samuel is with her."
+            },
+            {
+              "html": "He looks at the post carefully."
+            }
+          ],
+          "wordCount": 76
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week37_grade08_page02.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Fake Discount”, page 2. Scene based on: Samuel points at the phone screen where the seller's profile shows a blank profile picture and very few posts, while Valentina frowns with her finger ready to tap a \"buy\" button shape. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "“Wait. Who is the <b>seller</b>?” Samuel asks."
+            },
+            {
+              "html": "Valentina clicks on the profile."
+            },
+            {
+              "html": "The account is only two weeks old."
+            },
+            {
+              "html": "It has only three posts."
+            },
+            {
+              "html": "There aren’t any reviews from buyers."
+            },
+            {
+              "html": "“That’s strange,” Samuel says."
+            },
+            {
+              "html": "“Are you going to send money to a stranger?”"
+            },
+            {
+              "html": "“But it’s a great <b>offer</b>!” Valentina says."
+            },
+            {
+              "html": "“Seventy percent off is amazing.”"
+            },
+            {
+              "html": "“Is it?” Samuel asks. “Let’s check the <b>original price</b>.”"
+            }
+          ],
+          "wordCount": 64
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week37_grade08_page03.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Fake Discount”, page 3. Scene based on: Inside an electronics store in the commercial area, Valentina and Samuel look at the same headphones on a shelf with a price tag shown only as a coin icon, both surprised, while a friendly salesperson explains. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They walk into a real electronics store nearby."
+            },
+            {
+              "html": "The same headphones are on a shelf."
+            },
+            {
+              "html": "The price tag says one hundred sixty thousand pesos."
+            },
+            {
+              "html": "“Wait. Not five hundred thousand?” Valentina asks."
+            },
+            {
+              "html": "“No. These are never that expensive,” the salesperson says."
+            },
+            {
+              "html": "“Their normal price is one hundred sixty.”"
+            },
+            {
+              "html": "Samuel smiles. “So the ‘before’ price is <b>fake</b>.”"
+            },
+            {
+              "html": "“The real discount isn’t seventy percent.”"
+            },
+            {
+              "html": "“It’s only ten thousand pesos.”"
+            },
+            {
+              "html": "Valentina feels a little angry and confused."
+            }
+          ],
+          "wordCount": 73
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week37_grade08_page04.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Fake Discount”, page 4. Scene based on: Valentina and Samuel sit on a bench in the commercial area looking at Valentina's phone showing many online reviews with star icons and some red warning triangles about the suspicious seller. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They sit on a bench to think."
+            },
+            {
+              "html": "Samuel searches for the seller’s name online."
+            },
+            {
+              "html": "He finds a <b>review</b> on another website."
+            },
+            {
+              "html": "“I paid, and they never sent the product,” it says."
+            },
+            {
+              "html": "There are three more reviews like that."
+            },
+            {
+              "html": "“They’re going to take your money,” Samuel says."
+            },
+            {
+              "html": "“And you’re not going to get anything.”"
+            },
+            {
+              "html": "Valentina feels her stomach drop."
+            },
+            {
+              "html": "“I almost sent them my money!” she says."
+            },
+            {
+              "html": "“I’m not going to <b>trust</b> posts like that again.”"
+            }
+          ],
+          "wordCount": 75
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week37_grade08_page05.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Fake Discount”, page 5. Scene based on: Back in the electronics store, the salesperson shows Valentina a small paper with a student discount percent icon while Valentina pays at the counter with her savings and Samuel holds the wrapped headphones box. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They go back to the electronics store."
+            },
+            {
+              "html": "The salesperson has a real discount for students."
+            },
+            {
+              "html": "“With your student card, you get ten percent off,” she says."
+            },
+            {
+              "html": "The headphones now cost one hundred forty-four thousand."
+            },
+            {
+              "html": "Valentina shows her student card."
+            },
+            {
+              "html": "She pays and still has sixteen thousand pesos."
+            },
+            {
+              "html": "“This is a real <b>deal</b>,” Samuel says."
+            },
+            {
+              "html": "“And you can return them if they don’t work.”"
+            },
+            {
+              "html": "The salesperson wraps the box with colorful paper."
+            },
+            {
+              "html": "Valentina is very happy."
+            }
+          ],
+          "wordCount": 75
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week37_grade08_page06.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Fake Discount”, page 6. Scene based on: At a family birthday party at home, Valentina's younger brother opens the gift and puts on the new headphones with a huge smile, while Valentina and Samuel watch and the family claps around a cake. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On her brother’s birthday, he opens the present."
+            },
+            {
+              "html": "He puts on the headphones and smiles widely."
+            },
+            {
+              "html": "“These are perfect! Thank you!” he says."
+            },
+            {
+              "html": "Later, Valentina tells her family about the fake discount."
+            },
+            {
+              "html": "“I was going to send money to a stranger,” she says."
+            },
+            {
+              "html": "“Samuel stopped me.”"
+            },
+            {
+              "html": "Her mother is surprised and grateful."
+            },
+            {
+              "html": "“What are you going to do next time?” she asks."
+            },
+            {
+              "html": "“I’m going to check the seller and the real price.”"
+            },
+            {
+              "html": "“And I’m going to ask someone before I pay.”"
+            },
+            {
+              "html": "Samuel takes a piece of cake. “Good plan!”"
+            }
+          ],
+          "wordCount": 89
+        }
+      ],
+      "practiceWords": [
+        "discount",
+        "original price",
+        "headphones",
+        "offer",
+        "seller",
+        "review",
+        "fake",
+        "budget",
+        "deal",
+        "trust"
+      ],
+      "vocabulary": [
+        {
+          "word": "discount",
+          "definition": "a lower price than usual (descuento)"
+        },
+        {
+          "word": "original price",
+          "definition": "the price before a discount (precio original)"
+        },
+        {
+          "word": "headphones",
+          "definition": "a device you put on your ears to listen to sound (audífonos)"
+        },
+        {
+          "word": "offer",
+          "definition": "a special price for a short time (oferta)"
+        },
+        {
+          "word": "seller",
+          "definition": "a person or company that sells something (vendedor)"
+        },
+        {
+          "word": "review",
+          "definition": "an opinion about a product written by a buyer (reseña)"
+        },
+        {
+          "word": "fake",
+          "definition": "not real, made to trick people (falso)"
+        },
+        {
+          "word": "budget",
+          "definition": "the amount of money you plan to spend (presupuesto)"
+        },
+        {
+          "word": "deal",
+          "definition": "a good price or agreement (negocio, ganga)"
+        },
+        {
+          "word": "trust",
+          "definition": "to believe that someone is honest (confiar)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What was the real price of the headphones in the store?",
+          "options": [
+            "One hundred forty-four thousand pesos",
+            "One hundred sixty thousand pesos",
+            "One hundred fifty thousand pesos",
+            "Five hundred thousand pesos"
+          ],
+          "answer": "One hundred sixty thousand pesos"
+        },
+        {
+          "skill": "inference",
+          "question": "Why did Samuel think the seller was suspicious?",
+          "options": [
+            "The headphones were too expensive.",
+            "The seller lived in another country, far from Colombia.",
+            "The account was new, had few posts, and had no reviews.",
+            "The post didn’t show any photo of the headphones."
+          ],
+          "answer": "The account was new, had few posts, and had no reviews."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the visit to the real electronics store?",
+          "options": [
+            "To explain how wireless headphones work.",
+            "To show that electronics stores are always more expensive.",
+            "To introduce the salesperson as a new friend.",
+            "To show that the “before” price in the post was fake."
+          ],
+          "answer": "To show that the “before” price in the post was fake."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main idea of the story?",
+          "options": [
+            "Checking the real price and the seller can protect you from fake offers.",
+            "Students should never buy birthday presents with their savings.",
+            "Electronics stores never give discounts to students with a card.",
+            "Social media posts always have real discounts for young buyers."
+          ],
+          "answer": "Checking the real price and the seller can protect you from fake offers."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “So the ‘before’ price is fake.” “Fake” means…",
+          "options": [
+            "written by a buyer",
+            "not real, made to trick people",
+            "a lower price than usual",
+            "very expensive, new, and hard to find"
+          ],
+          "answer": "not real, made to trick people"
+        }
+      ],
+      "cover": "../assets/images/week37_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "The Place That Disappeared in the Fog",
+      "minimumWordTarget": 500,
+      "wordCount": 506,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week37_grade09_page01.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Place That Disappeared in the Fog”, page 1. Scene based on: On a mountain road above Medellín, a school bus arrives at a viewpoint where students with phones ready step out, but thick white fog covers everything, and Daniela, 14, looks disappointed holding her phone while Tomás, 14, zips his jacket. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniela’s class went on a trip to a mountain <b>viewpoint</b>."
+            },
+            {
+              "html": "It is a place that has the best view of Medellín."
+            },
+            {
+              "html": "Daniela wanted to take photos for her social media."
+            },
+            {
+              "html": "She charged her phone the night before."
+            },
+            {
+              "html": "She also brought a small camera from her uncle."
+            },
+            {
+              "html": "The bus climbed the mountain for one hour."
+            },
+            {
+              "html": "When they arrived, everyone ran to the railing."
+            },
+            {
+              "html": "But there was nothing to see."
+            },
+            {
+              "html": "Thick white <b>fog</b> covered everything."
+            },
+            {
+              "html": "The <b>valley</b> that they expected was completely invisible."
+            },
+            {
+              "html": "“This is terrible,” Daniela said."
+            },
+            {
+              "html": "“We came here for nothing.”"
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week37_grade09_page02.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Place That Disappeared in the Fog”, page 2. Scene based on: At the foggy viewpoint, several students complain and sit on a wooden bench looking at their phones, one throwing his hands up, while Daniela crosses her arms and Tomás looks out at the white fog curiously. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Many students were disappointed too."
+            },
+            {
+              "html": "Some sat down and looked at their phones."
+            },
+            {
+              "html": "Others complained about the cold."
+            },
+            {
+              "html": "“Let’s go back to the bus,” one boy said."
+            },
+            {
+              "html": "Daniela agreed with him."
+            },
+            {
+              "html": "“The view which we wanted is gone,” she said."
+            },
+            {
+              "html": "But Tomás was looking at the fog with interest."
+            },
+            {
+              "html": "“Is it really gone?” he asked."
+            },
+            {
+              "html": "“Or is it only hidden for a while?”"
+            },
+            {
+              "html": "Daniela didn’t know the answer."
+            },
+            {
+              "html": "She was still looking at her phone with no signal."
+            }
+          ],
+          "wordCount": 78
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week37_grade09_page03.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Place That Disappeared in the Fog”, page 3. Scene based on: A friendly mountain guide in his fifties with a wool hat and a scarf gathers the students near the railing, explaining with his hands how warm air and cold air create fog, while Daniela and Tomás listen. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Their <b>guide</b> was a man who lives in the mountains."
+            },
+            {
+              "html": "His name was Don Arturo."
+            },
+            {
+              "html": "“Fog is a <b>cloud</b> that touches the ground,” he explained."
+            },
+            {
+              "html": "“Warm air from the valley rises and becomes cold here.”"
+            },
+            {
+              "html": "“In the morning, this happens almost every day.”"
+            },
+            {
+              "html": "“The <b>visibility</b> can be very low for an hour.”"
+            },
+            {
+              "html": "“Then the sun warms the air, and the fog moves.”"
+            },
+            {
+              "html": "“So the view isn’t gone,” Tomás said."
+            },
+            {
+              "html": "“Exactly. It’s waiting,” Don Arturo said."
+            },
+            {
+              "html": "“But you need <b>patience</b>.”"
+            },
+            {
+              "html": "Some students laughed. Patience wasn’t easy for them."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week37_grade09_page04.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Place That Disappeared in the Fog”, page 4. Scene based on: In the fog, the students stand in a quiet circle with their eyes closed, listening and smelling the air, while Don Arturo guides them; tall pine trees and wet grass are visible close by, and Daniela smiles slightly. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Don Arturo had an idea for the waiting time."
+            },
+            {
+              "html": "“Let’s use the <b>senses</b> which we usually forget,” he said."
+            },
+            {
+              "html": "“Close your eyes. What can you hear?”"
+            },
+            {
+              "html": "Daniela closed her eyes."
+            },
+            {
+              "html": "She heard birds that she couldn’t see."
+            },
+            {
+              "html": "She heard a dog that was barking in a farm below."
+            },
+            {
+              "html": "“What can you smell?” Don Arturo asked."
+            },
+            {
+              "html": "“Wet grass and pine trees,” Tomás said."
+            },
+            {
+              "html": "“And coffee from the small store,” Daniela laughed."
+            },
+            {
+              "html": "For the first time, Daniela wasn’t thinking about photos."
+            },
+            {
+              "html": "She was enjoying the moment that was happening."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week37_grade09_page05.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Place That Disappeared in the Fog”, page 5. Scene based on: The fog slowly opens like a curtain, and the city of Medellín appears below in the valley with buildings shining in the sunlight and green mountains around, while the students point and cheer and Daniela lowers her phone, amazed. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "After forty minutes, the fog started to move."
+            },
+            {
+              "html": "It opened slowly, like a curtain."
+            },
+            {
+              "html": "First, they saw the trees that were near the railing."
+            },
+            {
+              "html": "Then they saw the farms which were on the hills."
+            },
+            {
+              "html": "Finally, the whole city of Medellín started to <b>appear</b>."
+            },
+            {
+              "html": "The buildings were shining in the sun."
+            },
+            {
+              "html": "The students cheered and clapped."
+            },
+            {
+              "html": "Even the boy who wanted to leave was smiling."
+            },
+            {
+              "html": "Daniela took her phone out."
+            },
+            {
+              "html": "Then she stopped for a moment."
+            },
+            {
+              "html": "She looked at the <b>landscape</b> with her own eyes first."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week37_grade09_page06.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Place That Disappeared in the Fog”, page 6. Scene based on: On the bus going back down the mountain, Daniela shows Tomás a single photo of the valley on her phone and talks happily, while through the window the clear valley and blue sky are visible. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On the bus, Daniela showed Tomás one photo."
+            },
+            {
+              "html": "“I only took three photos,” she said."
+            },
+            {
+              "html": "“Usually, I take fifty.”"
+            },
+            {
+              "html": "“Why only three?” Tomás asked."
+            },
+            {
+              "html": "“I was busy looking at the real view,” she said."
+            },
+            {
+              "html": "“The view that I almost missed because of fog.”"
+            },
+            {
+              "html": "“If we left early, we would see nothing.”"
+            },
+            {
+              "html": "Tomás smiled. “Don Arturo was right. It needed patience.”"
+            },
+            {
+              "html": "That night, Daniela posted only one photo."
+            },
+            {
+              "html": "Under it, she wrote: “The view that appears when you wait.”"
+            }
+          ],
+          "wordCount": 78
+        }
+      ],
+      "practiceWords": [
+        "fog",
+        "viewpoint",
+        "valley",
+        "guide",
+        "visibility",
+        "landscape",
+        "cloud",
+        "patience",
+        "senses",
+        "appear"
+      ],
+      "vocabulary": [
+        {
+          "word": "fog",
+          "definition": "a thick cloud near the ground that makes it hard to see (niebla)"
+        },
+        {
+          "word": "viewpoint",
+          "definition": "a high place with a wide view (mirador)"
+        },
+        {
+          "word": "valley",
+          "definition": "low land between mountains (valle)"
+        },
+        {
+          "word": "guide",
+          "definition": "a person who shows visitors a place (guía)"
+        },
+        {
+          "word": "visibility",
+          "definition": "how far you can see (visibilidad)"
+        },
+        {
+          "word": "landscape",
+          "definition": "everything you can see in an area of land (paisaje)"
+        },
+        {
+          "word": "cloud",
+          "definition": "a white or gray mass in the sky (nube)"
+        },
+        {
+          "word": "patience",
+          "definition": "the ability to wait calmly (paciencia)"
+        },
+        {
+          "word": "senses",
+          "definition": "sight, hearing, smell, taste, and touch (sentidos)"
+        },
+        {
+          "word": "appear",
+          "definition": "to become visible (aparecer)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What is fog, according to Don Arturo?",
+          "options": [
+            "Smoke that comes from the city",
+            "A wind that comes from the valley",
+            "A cloud that touches the ground",
+            "Rain that falls very slowly"
+          ],
+          "answer": "A cloud that touches the ground"
+        },
+        {
+          "skill": "inference",
+          "question": "Why did Daniela want to go back to the bus at first?",
+          "options": [
+            "She wanted to buy coffee at the small store.",
+            "She was very cold and wanted to sleep.",
+            "Don Arturo told everyone to return to the bus quickly.",
+            "She thought the view was gone and the trip was useless."
+          ],
+          "answer": "She thought the view was gone and the trip was useless."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "How is Daniela’s attitude different at the end of the trip?",
+          "options": [
+            "She looks at the real view first instead of only taking photos.",
+            "She takes more photos than ever before, more than fifty.",
+            "She decides she never wants to visit viewpoints again.",
+            "She is angry with the guide for the long wait in the fog."
+          ],
+          "answer": "She looks at the real view first instead of only taking photos."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main message of the text?",
+          "options": [
+            "Mountain viewpoints are always covered by fog.",
+            "Patience can turn a disappointing moment into a good one.",
+            "Students should not bring their phones on school trips at all.",
+            "Fog is dangerous for buses in the mountains."
+          ],
+          "answer": "Patience can turn a disappointing moment into a good one."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “The visibility can be very low for an hour.” “Visibility” means…",
+          "options": [
+            "how high a mountain is",
+            "how cold the air is",
+            "how far you can see",
+            "how fast the wind moves"
+          ],
+          "answer": "how far you can see"
+        }
+      ],
+      "cover": "../assets/images/week37_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "If We Plant Shade, What Changes?",
+      "minimumWordTarget": 600,
+      "wordCount": 611,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week37_grade10_page01.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “If We Plant Shade, What Changes?”, page 1. Scene based on: At the front entrance of a public school in Medellín at 12:30 p.m., dozens of students wait for buses under a strong sun with no shade, covering their heads with notebooks, while Juan, 16, and Camila, 16, stand among them squinting. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Every day at 12:30, Juan waits at the school <b>entrance</b>."
+            },
+            {
+              "html": "More than one hundred students wait there for buses."
+            },
+            {
+              "html": "There isn’t any shade at the entrance."
+            },
+            {
+              "html": "The sun is very strong at that hour."
+            },
+            {
+              "html": "Students cover their heads with notebooks."
+            },
+            {
+              "html": "Some younger students feel dizzy in the heat."
+            },
+            {
+              "html": "“If we don’t change this, someone will faint,” Juan says."
+            },
+            {
+              "html": "His friend Camila is waiting next to him."
+            },
+            {
+              "html": "“What can we change?” she asks."
+            },
+            {
+              "html": "“We can plant trees!” Juan says."
+            },
+            {
+              "html": "“If we plant trees, the entrance will be cooler.”"
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week37_grade10_page02.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “If We Plant Shade, What Changes?”, page 2. Scene based on: In a classroom, Juan presents a colorful drawing of big trees at the school entrance to his class, while Camila raises her hand with a thoughtful expression and the teacher listens. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Juan presents his idea to the class."
+            },
+            {
+              "html": "The teacher likes it and asks for a written <b>proposal</b>."
+            },
+            {
+              "html": "“If your plan is good, the <b>principal</b> will listen.”"
+            },
+            {
+              "html": "Camila has a question."
+            },
+            {
+              "html": "“If we plant big trees, will they grow fast enough?”"
+            },
+            {
+              "html": "“Big trees take ten years to give good shade.”"
+            },
+            {
+              "html": "Juan didn’t think about that."
+            },
+            {
+              "html": "“And what’s under the ground at the entrance?” Camila asks."
+            },
+            {
+              "html": "“If there are pipes, roots can break them.”"
+            },
+            {
+              "html": "Juan realizes his idea needs more information."
+            },
+            {
+              "html": "He feels a little frustrated, but Camila is right."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week37_grade10_page03.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “If We Plant Shade, What Changes?”, page 3. Scene based on: Juan and Camila walk along the school entrance with the school maintenance worker, an older man in overalls who points to a small metal cover on the ground marking underground water pipes. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They talk to Don Héctor, the school’s maintenance worker."
+            },
+            {
+              "html": "He shows them a small metal cover on the ground."
+            },
+            {
+              "html": "“There’s a water <b>pipe</b> under the entrance,” he says."
+            },
+            {
+              "html": "“If big roots grow here, they’ll damage it.”"
+            },
+            {
+              "html": "Juan feels disappointed."
+            },
+            {
+              "html": "“So we can’t plant trees?” he asks."
+            },
+            {
+              "html": "“Not big trees in that spot,” Don Héctor says."
+            },
+            {
+              "html": "“But there are other ways to make shade.”"
+            },
+            {
+              "html": "Camila has an idea."
+            },
+            {
+              "html": "“What about a <b>pergola</b> with plants on top?”"
+            },
+            {
+              "html": "Don Héctor smiles. “That could work very well.”"
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week37_grade10_page04.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “If We Plant Shade, What Changes?”, page 4. Scene based on: In the school courtyard, Juan and Camila hand out simple paper surveys with smiley and sad face icons to students of different ages, while younger students draw their answers and older students write. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Before they write the proposal, they want opinions."
+            },
+            {
+              "html": "They make a short <b>survey</b> for students."
+            },
+            {
+              "html": "“Where do you wait after school?”"
+            },
+            {
+              "html": "“How do you feel in the sun?”"
+            },
+            {
+              "html": "“Would you prefer trees, a pergola, or umbrellas?”"
+            },
+            {
+              "html": "Two hundred students answer the survey."
+            },
+            {
+              "html": "Even some teachers answer it."
+            },
+            {
+              "html": "Eighty percent say they feel too hot at the entrance."
+            },
+            {
+              "html": "Most students prefer a pergola with plants."
+            },
+            {
+              "html": "“If we include their opinions, it’ll be stronger.”"
+            },
+            {
+              "html": "Juan agrees. Now they have real data."
+            },
+            {
+              "html": "The survey took them only two days."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week37_grade10_page05.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “If We Plant Shade, What Changes?”, page 5. Scene based on: Juan and Camila sit at a library table with a laptop showing a simple drawing of a wooden pergola covered with green climbing plants and a small price chart with coin icons, Camila calculating with a calculator. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They research how to build a pergola."
+            },
+            {
+              "html": "It is a wooden structure with a roof of plants."
+            },
+            {
+              "html": "A <b>climbing plant</b> can cover it in one year."
+            },
+            {
+              "html": "It will give shade, but it won’t break the pipes."
+            },
+            {
+              "html": "They also calculate the cost."
+            },
+            {
+              "html": "The wood and plants cost about three million pesos."
+            },
+            {
+              "html": "That’s a lot of money for the school’s <b>budget</b>."
+            },
+            {
+              "html": "“If we ask the parents’ association, they might help,” Juan says."
+            },
+            {
+              "html": "“And if students help with the work, it will cost less.”"
+            },
+            {
+              "html": "Camila adds one more idea."
+            },
+            {
+              "html": "“If we collect rainwater, we can water the plants for free.”"
+            }
+          ],
+          "wordCount": 97
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week37_grade10_page06.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “If We Plant Shade, What Changes?”, page 6. Scene based on: In the principal's office, Juan and Camila present their proposal folder and drawings to the school principal, a woman in her fifties who reads carefully, while the maintenance worker stands beside them nodding. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They present the proposal to the principal."
+            },
+            {
+              "html": "They show the survey, the drawings, and the costs."
+            },
+            {
+              "html": "The principal reads everything carefully."
+            },
+            {
+              "html": "“Who will take care of the plants?” she asks."
+            },
+            {
+              "html": "“If nobody does <b>maintenance</b>, the plants will die.”"
+            },
+            {
+              "html": "Juan is ready for that question."
+            },
+            {
+              "html": "“Our environmental club will water them every week.”"
+            },
+            {
+              "html": "“And Don Héctor will check the structure every month.”"
+            },
+            {
+              "html": "Don Héctor nods. “I agree to help.”"
+            },
+            {
+              "html": "The principal smiles."
+            },
+            {
+              "html": "“If the parents’ association pays half, we’ll pay the rest.”"
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week37_grade10_page07.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “If We Plant Shade, What Changes?”, page 7. Scene based on: Months later, the school entrance has a wooden pergola covered with green climbing plants and purple flowers, casting cool shade on students waiting for buses, while Juan and Camila water the plants with a rain barrel nearby. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Four months later, the pergola is finished."
+            },
+            {
+              "html": "Parents and students built it together on two Saturdays."
+            },
+            {
+              "html": "The climbing plants are growing quickly."
+            },
+            {
+              "html": "Now there is shade at the entrance at 12:30."
+            },
+            {
+              "html": "The younger students wait there happily."
+            },
+            {
+              "html": "Juan measures the temperature under the pergola."
+            },
+            {
+              "html": "It’s four degrees cooler than in the sun."
+            },
+            {
+              "html": "“Our first idea was big trees,” Juan says."
+            },
+            {
+              "html": "“But the best idea was the one that fit the place.”"
+            },
+            {
+              "html": "Camila agrees. “Every <b>benefit</b> came from asking questions.”"
+            },
+            {
+              "html": "The principal sends a thank-you message to all the families."
+            }
+          ],
+          "wordCount": 89
+        }
+      ],
+      "practiceWords": [
+        "entrance",
+        "pergola",
+        "survey",
+        "budget",
+        "maintenance",
+        "proposal",
+        "climbing plant",
+        "pipe",
+        "principal",
+        "benefit"
+      ],
+      "vocabulary": [
+        {
+          "word": "entrance",
+          "definition": "the door or place where you go in (entrada)"
+        },
+        {
+          "word": "pergola",
+          "definition": "a structure with a roof of wood and plants for shade (pérgola)"
+        },
+        {
+          "word": "survey",
+          "definition": "a set of questions to learn people’s opinions (encuesta)"
+        },
+        {
+          "word": "budget",
+          "definition": "the amount of money available for something (presupuesto)"
+        },
+        {
+          "word": "maintenance",
+          "definition": "the work of keeping something in good condition (mantenimiento)"
+        },
+        {
+          "word": "proposal",
+          "definition": "a formal plan or suggestion (propuesta)"
+        },
+        {
+          "word": "climbing plant",
+          "definition": "a plant that grows up walls or structures (enredadera)"
+        },
+        {
+          "word": "pipe",
+          "definition": "a tube that carries water underground (tubería)"
+        },
+        {
+          "word": "principal",
+          "definition": "the director of a school (rector)"
+        },
+        {
+          "word": "benefit",
+          "definition": "a good result or advantage (beneficio)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Why can’t the school plant big trees at the entrance?",
+          "options": [
+            "The principal doesn’t like trees at the entrance of the school.",
+            "Trees are too expensive for the school’s budget.",
+            "The students prefer umbrellas to trees.",
+            "There is a water pipe under the ground that roots could damage."
+          ],
+          "answer": "There is a water pipe under the ground that roots could damage."
+        },
+        {
+          "skill": "inference",
+          "question": "Why does Camila ask what is under the ground?",
+          "options": [
+            "She wants to know if roots could cause problems.",
+            "She wants to build a swimming pool.",
+            "She thinks there is treasure under the entrance.",
+            "She doesn’t want Juan’s idea to succeed in the class."
+          ],
+          "answer": "She wants to know if roots could cause problems."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the student survey?",
+          "options": [
+            "To explain how to build a wooden pergola with climbing plants.",
+            "To show that the proposal was based on students’ real opinions and needs.",
+            "To show that most students don’t care about heat.",
+            "To show that the principal designed the survey for the students."
+          ],
+          "answer": "To show that the proposal was based on students’ real opinions and needs."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What is the relationship between the pergola and the water pipe?",
+          "options": [
+            "The pergola is built on top of the pipe to protect it from the sun.",
+            "The pergola was moved because of the pipe.",
+            "The pergola gives shade without roots that could damage the pipe.",
+            "The pipe waters the pergola plants automatically."
+          ],
+          "answer": "The pergola gives shade without roots that could damage the pipe."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which statement best summarizes the text?",
+          "options": [
+            "Big trees are always the best solution for heat.",
+            "Pergolas are always cheaper than any other kind of shade.",
+            "Students should not make proposals to the principal.",
+            "Good solutions adapt the first idea to real conditions."
+          ],
+          "answer": "Good solutions adapt the first idea to real conditions."
+        }
+      ],
+      "cover": "../assets/images/week37_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "He Said the Light Was Green",
+      "minimumWordTarget": 700,
+      "wordCount": 705,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week37_grade11_page01.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “He Said the Light Was Green”, page 1. Scene based on: Near a university campus in Medellín, on a green bike lane, a foreign cyclist in his thirties with a helmet sits on the ground next to his bicycle while a local pedestrian woman holds her elbow; Valentina, 17, and Daniel, 17, walk toward them with backpacks. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Monday, Valentina and Daniel were walking near the university."
+            },
+            {
+              "html": "They were going to a free English conversation club."
+            },
+            {
+              "html": "Suddenly, they saw a small accident on the <b>bike lane</b>."
+            },
+            {
+              "html": "A <b>cyclist</b> and a <b>pedestrian</b> had hit each other."
+            },
+            {
+              "html": "The cyclist was a tourist from Canada."
+            },
+            {
+              "html": "The pedestrian was a woman from Medellín."
+            },
+            {
+              "html": "Nobody was seriously hurt, but both were upset."
+            },
+            {
+              "html": "The woman’s elbow was red, and the bicycle was scratched."
+            },
+            {
+              "html": "A traffic officer arrived a few minutes later."
+            },
+            {
+              "html": "The officer didn’t speak English."
+            },
+            {
+              "html": "The Canadian man didn’t speak Spanish."
+            },
+            {
+              "html": "The officer looked at the crowd. “Does anyone speak English?”"
+            }
+          ],
+          "wordCount": 99
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week37_grade11_page02.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “He Said the Light Was Green”, page 2. Scene based on: The traffic officer, a young man in uniform with a notebook, turns to Valentina, who raises her hand nervously, while Daniel stands beside her encouraging her and the cyclist and the pedestrian wait. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina raised her hand nervously."
+            },
+            {
+              "html": "“I speak English,” she said."
+            },
+            {
+              "html": "“Can you be our <b>interpreter</b>, please?” the officer asked."
+            },
+            {
+              "html": "“I need statements from both people.”"
+            },
+            {
+              "html": "Valentina looked at Daniel."
+            },
+            {
+              "html": "“What if I make a mistake?” she whispered."
+            },
+            {
+              "html": "“Just translate what they say,” Daniel said."
+            },
+            {
+              "html": "“Don’t add anything. Don’t remove anything.”"
+            },
+            {
+              "html": "Valentina took a deep breath."
+            },
+            {
+              "html": "She agreed to help."
+            },
+            {
+              "html": "Her hands were cold, but her voice was clear."
+            }
+          ],
+          "wordCount": 68
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week37_grade11_page03.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “He Said the Light Was Green”, page 3. Scene based on: Valentina stands between the Canadian cyclist and the officer, listening to the cyclist speak while she holds her hands together in concentration, and the officer writes in his notebook. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "First, the officer asked the cyclist what happened."
+            },
+            {
+              "html": "The cyclist spoke quickly in English."
+            },
+            {
+              "html": "“I was riding in the bike lane,” he said."
+            },
+            {
+              "html": "“The woman walked into the lane without looking.”"
+            },
+            {
+              "html": "“I tried to stop, but it was too late.”"
+            },
+            {
+              "html": "Valentina listened carefully."
+            },
+            {
+              "html": "Then she spoke to the officer in Spanish."
+            },
+            {
+              "html": "She said that he had been riding in the bike lane."
+            },
+            {
+              "html": "She said that the woman had walked in without looking."
+            },
+            {
+              "html": "She said that he had tried to stop."
+            },
+            {
+              "html": "The officer wrote everything down."
+            },
+            {
+              "html": "He nodded and thanked her for the clear translation."
+            }
+          ],
+          "wordCount": 94
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week37_grade11_page04.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “He Said the Light Was Green”, page 4. Scene based on: The local pedestrian woman, in her forties, holding her elbow, speaks emotionally to the officer while pointing at the Canadian cyclist, and Valentina listens with a serious face, preparing to translate. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Then the officer asked the woman."
+            },
+            {
+              "html": "She was angry and spoke loudly."
+            },
+            {
+              "html": "“He was going very fast!” she said."
+            },
+            {
+              "html": "“He didn’t ring his bell. Tourists are always careless!”"
+            },
+            {
+              "html": "Valentina had to <b>translate</b> this into English."
+            },
+            {
+              "html": "She felt uncomfortable with the last part."
+            },
+            {
+              "html": "She thought, “Should I translate ‘tourists are careless’?”"
+            },
+            {
+              "html": "Daniel looked at her and nodded slightly."
+            },
+            {
+              "html": "Valentina translated <b>exactly</b> what the woman said."
+            },
+            {
+              "html": "She told the cyclist about the woman’s first complaint."
+            },
+            {
+              "html": "She said that he had been going very fast."
+            },
+            {
+              "html": "She also reported that she said tourists were careless."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week37_grade11_page05.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “He Said the Light Was Green”, page 5. Scene based on: The Canadian cyclist looks surprised and a little hurt, then points at his bicycle bell while explaining calmly, and Valentina translates to the officer, who checks the bicycle carefully. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The cyclist looked surprised."
+            },
+            {
+              "html": "“I did ring my bell,” he said calmly."
+            },
+            {
+              "html": "“Two times. Maybe she didn’t hear it.”"
+            },
+            {
+              "html": "“And I wasn’t going fast. I was going slowly.”"
+            },
+            {
+              "html": "“I’m sorry she’s hurt. I didn’t want that.”"
+            },
+            {
+              "html": "Valentina translated every sentence carefully."
+            },
+            {
+              "html": "She reported that he had rung his bell twice."
+            },
+            {
+              "html": "She said that he was sorry she was hurt."
+            },
+            {
+              "html": "The officer checked the bicycle bell. It worked."
+            },
+            {
+              "html": "Then he asked the woman one more question."
+            },
+            {
+              "html": "“Were you looking at your phone?”"
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week37_grade11_page06.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “He Said the Light Was Green”, page 6. Scene based on: The pedestrian woman looks down at her phone in her hand, now calmer and a little embarrassed, while the officer waits patiently and Valentina and the cyclist listen quietly. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The woman was quiet for a moment."
+            },
+            {
+              "html": "Then she looked at the phone in her hand."
+            },
+            {
+              "html": "“Yes. I was reading a message,” she admitted."
+            },
+            {
+              "html": "“Maybe I didn’t hear the bell.”"
+            },
+            {
+              "html": "Valentina translated this for the cyclist too."
+            },
+            {
+              "html": "She said that the woman had been reading a message."
+            },
+            {
+              "html": "She said that maybe she hadn’t heard the bell."
+            },
+            {
+              "html": "The cyclist nodded. “It was a <b>misunderstanding</b>.”"
+            },
+            {
+              "html": "The officer agreed. “Nobody was totally wrong.”"
+            },
+            {
+              "html": "“But we all need to pay more attention.”"
+            },
+            {
+              "html": "The woman and the cyclist shook hands."
+            },
+            {
+              "html": "The crowd started to leave slowly."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week37_grade11_page07.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “He Said the Light Was Green”, page 7. Scene based on: After the officer leaves, the Canadian cyclist thanks Valentina with a smile and a handshake while the pedestrian woman waves goodbye, and Daniel gives Valentina a proud thumbs up on the sidewalk. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Before he left, the officer thanked Valentina."
+            },
+            {
+              "html": "“Your translation was very <b>accurate</b>,” he said."
+            },
+            {
+              "html": "“You didn’t add your own <b>opinion</b>.”"
+            },
+            {
+              "html": "The cyclist also thanked her."
+            },
+            {
+              "html": "“I was worried nobody could understand me,” he said."
+            },
+            {
+              "html": "Even the woman smiled at Valentina."
+            },
+            {
+              "html": "“You were fair with both of us,” she said."
+            },
+            {
+              "html": "Valentina felt proud but also tired."
+            },
+            {
+              "html": "Translating was harder than she expected."
+            },
+            {
+              "html": "“I almost changed the ‘careless tourists’ part,” she told Daniel."
+            },
+            {
+              "html": "“I wanted to protect the cyclist.”"
+            },
+            {
+              "html": "Daniel said that he understood that feeling."
+            },
+            {
+              "html": "But he said that her honesty had helped everyone."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week37_grade11_page08.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “He Said the Light Was Green”, page 8. Scene based on: At the English conversation club in a university room, Valentina tells the story to a group of students and a teacher in a circle of chairs, while Daniel sits next to her and the group listens with interest. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At the conversation club, Valentina told the story."
+            },
+            {
+              "html": "The teacher was very interested."
+            },
+            {
+              "html": "“An interpreter has a difficult job,” she said."
+            },
+            {
+              "html": "“You must report what people said, not what you think.”"
+            },
+            {
+              "html": "“If you change their words, you change the <b>statement</b>.”"
+            },
+            {
+              "html": "“And that can change the whole decision.”"
+            },
+            {
+              "html": "A student asked Valentina if she was scared."
+            },
+            {
+              "html": "Valentina said that she had been very nervous."
+            },
+            {
+              "html": "But she said that honesty had made it easier."
+            },
+            {
+              "html": "Daniel smiled. “She said exactly what they said.”"
+            },
+            {
+              "html": "“That’s the hardest and the most important part.”"
+            }
+          ],
+          "wordCount": 88
+        }
+      ],
+      "practiceWords": [
+        "interpreter",
+        "translate",
+        "cyclist",
+        "pedestrian",
+        "bike lane",
+        "statement",
+        "exactly",
+        "opinion",
+        "accurate",
+        "misunderstanding"
+      ],
+      "vocabulary": [
+        {
+          "word": "interpreter",
+          "definition": "a person who translates spoken words (intérprete)"
+        },
+        {
+          "word": "translate",
+          "definition": "to change words into another language (traducir)"
+        },
+        {
+          "word": "cyclist",
+          "definition": "a person who rides a bicycle (ciclista)"
+        },
+        {
+          "word": "pedestrian",
+          "definition": "a person who walks in the street (peatón)"
+        },
+        {
+          "word": "bike lane",
+          "definition": "a part of the road only for bicycles (ciclorruta)"
+        },
+        {
+          "word": "statement",
+          "definition": "a formal description of what you saw (declaración)"
+        },
+        {
+          "word": "exactly",
+          "definition": "with no difference at all (exactamente)"
+        },
+        {
+          "word": "opinion",
+          "definition": "what a person thinks about something (opinión)"
+        },
+        {
+          "word": "accurate",
+          "definition": "correct and true in every detail (preciso)"
+        },
+        {
+          "word": "misunderstanding",
+          "definition": "a situation where people understand something wrongly (malentendido)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "Why did the officer need an interpreter?",
+          "options": [
+            "The officer didn’t speak English, and the cyclist didn’t speak Spanish.",
+            "Valentina was a professional interpreter.",
+            "The pedestrian only spoke French, and nobody understood her.",
+            "The officer wanted to practice his English with a tourist."
+          ],
+          "answer": "The officer didn’t speak English, and the cyclist didn’t speak Spanish."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "Why did Valentina feel uncomfortable translating the woman’s words?",
+          "options": [
+            "Valentina didn’t know the words in English for the woman’s complaint.",
+            "The woman said that tourists are always careless, which seemed unfair.",
+            "The woman spoke too quietly to understand.",
+            "The officer asked her not to translate the woman’s angry words."
+          ],
+          "answer": "The woman said that tourists are always careless, which seemed unfair."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include Daniel’s advice, “Don’t add anything. Don’t remove anything”?",
+          "options": [
+            "To show that Daniel doesn’t trust Valentina.",
+            "To explain how the accident happened.",
+            "To show the main rule an interpreter must follow.",
+            "To show that Daniel wanted to translate for the officer himself."
+          ],
+          "answer": "To show the main rule an interpreter must follow."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “It was a misunderstanding.” A “misunderstanding” is…",
+          "options": [
+            "a part of the road only for bicycles and scooters",
+            "a person who translates spoken words",
+            "a formal description of an accident for the police",
+            "a situation where people understand something wrongly"
+          ],
+          "answer": "a situation where people understand something wrongly"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which statement best expresses the central idea of the text?",
+          "options": [
+            "An interpreter must report words accurately, without personal opinions.",
+            "Translating is easy if you know two languages.",
+            "Pedestrians should never walk near bike lanes in the city.",
+            "Tourists are always careless when they ride bicycles in Medellín."
+          ],
+          "answer": "An interpreter must report words accurately, without personal opinions."
+        }
+      ],
+      "cover": "../assets/images/week37_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

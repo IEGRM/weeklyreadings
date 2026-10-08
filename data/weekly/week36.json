@@ -1,0 +1,2256 @@
+{
+  "week": 36,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 36",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "The Hidden Garden Beside the Library",
+      "minimumWordTarget": 350,
+      "wordCount": 361,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week36_grade06_page01.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Hidden Garden Beside the Library”, page 1. Scene based on: On a sunny Saturday in a Medellín neighborhood, Mateo, 11, and Sara, 11, walk toward a small public library with big windows, and Sara points at a green metal gate covered in vines next to the library building. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Every Saturday, Mateo and Sara go to the <b>library</b>."
+            },
+            {
+              "html": "It’s a small library in their neighborhood."
+            },
+            {
+              "html": "There are many books for children on the first floor."
+            },
+            {
+              "html": "There is a big window in front of the reading tables."
+            },
+            {
+              "html": "This Saturday, Sara sees something new."
+            },
+            {
+              "html": "There is a small green <b>gate</b> <b>next to</b> the library."
+            },
+            {
+              "html": "It’s covered with plants and flowers."
+            },
+            {
+              "html": "“What’s behind that gate?” Sara asks."
+            },
+            {
+              "html": "“I don’t know. Maybe it’s private,” Mateo says."
+            },
+            {
+              "html": "Many people walk past the gate every day."
+            },
+            {
+              "html": "Nobody stops to look."
+            },
+            {
+              "html": "Sara walks closer to the gate."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week36_grade06_page02.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Hidden Garden Beside the Library”, page 2. Scene based on: Mateo and Sara peek through the bars of the green gate into a hidden garden with rows of vegetables, colorful flowers, a small stone fountain in the middle and a wooden bench under a tree. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Sara and Mateo look through the gate."
+            },
+            {
+              "html": "<b>Behind</b> the gate, there is a beautiful <b>garden</b>!"
+            },
+            {
+              "html": "There are flowers of many colors."
+            },
+            {
+              "html": "There are rows of <b>vegetables</b>, like carrots and beans."
+            },
+            {
+              "html": "In the middle, there is a small stone <b>fountain</b>."
+            },
+            {
+              "html": "There is a wooden <b>bench</b> under a big tree."
+            },
+            {
+              "html": "There aren’t any people in the garden."
+            },
+            {
+              "html": "“Wow! It’s like a secret place,” Sara says."
+            },
+            {
+              "html": "“Can we go in?” Mateo asks."
+            },
+            {
+              "html": "“I don’t know. Maybe it isn’t for us.”"
+            },
+            {
+              "html": "There is a small lock on the gate."
+            },
+            {
+              "html": "But the lock is open."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week36_grade06_page03.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Hidden Garden Beside the Library”, page 3. Scene based on: Inside the library at the front desk, a friendly librarian in her fifties with a flower in her hair smiles and points through a window toward the garden, while Mateo and Sara stand at the desk with excited faces. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Sara has an idea. “Let’s ask the librarian.”"
+            },
+            {
+              "html": "They go inside the library to the front desk."
+            },
+            {
+              "html": "“Excuse me,” Sara says to the librarian."
+            },
+            {
+              "html": "“Is the garden next to the library private?”"
+            },
+            {
+              "html": "The librarian smiles. “No! It’s for everyone.”"
+            },
+            {
+              "html": "“It’s a community garden. It belongs to the neighborhood.”"
+            },
+            {
+              "html": "“<b>Volunteer</b>s take care of it every Saturday morning.”"
+            },
+            {
+              "html": "“But many people don’t know it’s there.”"
+            },
+            {
+              "html": "“The gate is hidden behind the plants.”"
+            },
+            {
+              "html": "Mateo and Sara are very surprised."
+            },
+            {
+              "html": "“Can we help in the garden?” Mateo asks."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week36_grade06_page04.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Hidden Garden Beside the Library”, page 4. Scene based on: In the community garden, Mateo waters vegetables with a green watering can and Sara draws a colorful map on a big paper on the bench, while two older volunteers in sun hats plant flowers near the fountain. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next Saturday, they help in the garden."
+            },
+            {
+              "html": "Mateo waters the carrots and the beans."
+            },
+            {
+              "html": "Sara pulls out weeds next to the fountain."
+            },
+            {
+              "html": "Two old volunteers teach them about the plants."
+            },
+            {
+              "html": "Then Sara has another idea."
+            },
+            {
+              "html": "“People don’t know about this garden,” she says."
+            },
+            {
+              "html": "“Let’s make a <b>map</b> for the library door!”"
+            },
+            {
+              "html": "She draws the library, the gate, and the garden."
+            },
+            {
+              "html": "She draws arrows: “The garden is next to the library.”"
+            },
+            {
+              "html": "“Go through the green gate behind the plants.”"
+            },
+            {
+              "html": "Now many families visit the garden on Saturdays."
+            },
+            {
+              "html": "The librarian puts the map next to the door."
+            }
+          ],
+          "wordCount": 96
+        }
+      ],
+      "practiceWords": [
+        "library",
+        "garden",
+        "gate",
+        "behind",
+        "next to",
+        "bench",
+        "vegetables",
+        "fountain",
+        "volunteer",
+        "map"
+      ],
+      "vocabulary": [
+        {
+          "word": "library",
+          "definition": "a building with books people can read or borrow (biblioteca)"
+        },
+        {
+          "word": "garden",
+          "definition": "a place where plants and flowers grow (jardín, huerta)"
+        },
+        {
+          "word": "gate",
+          "definition": "a door in a fence or wall (portón)"
+        },
+        {
+          "word": "behind",
+          "definition": "at the back of something (detrás de)"
+        },
+        {
+          "word": "next to",
+          "definition": "very close to, at the side of (al lado de)"
+        },
+        {
+          "word": "bench",
+          "definition": "a long seat for two or more people (banca)"
+        },
+        {
+          "word": "vegetables",
+          "definition": "plants we eat, like carrots and beans (verduras)"
+        },
+        {
+          "word": "fountain",
+          "definition": "a structure that sends water up into the air (fuente)"
+        },
+        {
+          "word": "volunteer",
+          "definition": "a person who helps without being paid (voluntario)"
+        },
+        {
+          "word": "map",
+          "definition": "a drawing that shows where places are (mapa)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "Where is the hidden garden?",
+          "options": [
+            "Inside the library on the first floor",
+            "On the roof of the library building",
+            "Next to the library, behind a green gate",
+            "In front of the big window of the library"
+          ],
+          "answer": "Next to the library, behind a green gate"
+        },
+        {
+          "skill": "sequence",
+          "question": "What happens AFTER the librarian explains that the garden is for everyone?",
+          "options": [
+            "Sara asks, “What’s behind that green gate?”",
+            "Sara sees the green gate for the first time.",
+            "Mateo and Sara look through the green gate together.",
+            "Mateo and Sara help in the garden the next Saturday."
+          ],
+          "answer": "Mateo and Sara help in the garden the next Saturday."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “There is a wooden bench under a big tree.” A “bench” is…",
+          "options": [
+            "a long seat for two or more people",
+            "a door in a fence or wall",
+            "a place where water goes up",
+            "a person who helps in a garden for free"
+          ],
+          "answer": "a long seat for two or more people"
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the story mainly about?",
+          "options": [
+            "A librarian closes the community garden for the whole weekend.",
+            "Two children discover a community garden and help others find it.",
+            "Two children plant a big tree in a park.",
+            "Two children build a new library in their neighborhood."
+          ],
+          "answer": "Two children discover a community garden and help others find it."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why does Sara decide to make a map for the library door?",
+          "options": [
+            "The librarian asks her to draw a picture.",
+            "She wants to win an art contest at the library.",
+            "Many people don’t know where the garden is.",
+            "The garden needs more vegetables."
+          ],
+          "answer": "Many people don’t know where the garden is."
+        }
+      ],
+      "cover": "../assets/images/week36_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "The Midnight Arepa Stop",
+      "minimumWordTarget": 400,
+      "wordCount": 402,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week36_grade07_page01.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Midnight Arepa Stop”, page 1. Scene based on: Late at night outside a public school in Medellín after a talent show, Valeria, 12, in a sparkly costume and Samuel, 12, holding a guitar case walk with Valeria's father toward a car under streetlights. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Last Friday, Valeria’s school had a talent show."
+            },
+            {
+              "html": "Valeria danced, and Samuel played the guitar."
+            },
+            {
+              "html": "The show finished very late, at eleven thirty."
+            },
+            {
+              "html": "Everybody was very tired and very <b>hungry</b>."
+            },
+            {
+              "html": "Valeria’s father drove them home."
+            },
+            {
+              "html": "On the way, he stopped at a small arepa <b>stand</b>."
+            },
+            {
+              "html": "“Let’s eat something quickly,” he said."
+            },
+            {
+              "html": "“It’s almost <b>midnight</b>. You need food.”"
+            },
+            {
+              "html": "The stand had only five things on the <b>menu</b>."
+            },
+            {
+              "html": "“Order fast, please. It’s late,” the father said."
+            }
+          ],
+          "wordCount": 74
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week36_grade07_page02.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Midnight Arepa Stop”, page 2. Scene based on: At a small brightly lit arepa street stand at night, Valeria points quickly at the menu board drawn only with food pictures while a smiling vendor cooks on a griddle, and Samuel looks at the menu carefully. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valeria looked at the menu for two seconds."
+            },
+            {
+              "html": "“I want the special arepa!” she said."
+            },
+            {
+              "html": "She didn’t ask about the <b>ingredients</b>."
+            },
+            {
+              "html": "Samuel looked at the menu carefully."
+            },
+            {
+              "html": "He’s <b>vegetarian</b>. He doesn’t eat meat."
+            },
+            {
+              "html": "“Excuse me,” he said to the vendor."
+            },
+            {
+              "html": "“What did you put in the special arepa?”"
+            },
+            {
+              "html": "“Pork skin, chorizo, and egg,” the vendor said."
+            },
+            {
+              "html": "“Oh. Did you make any arepa without meat?” Samuel asked."
+            },
+            {
+              "html": "“Yes. The arepa with <b>cheese</b> and corn.”"
+            },
+            {
+              "html": "Samuel ordered that one."
+            },
+            {
+              "html": "Valeria watched him, a little surprised."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week36_grade07_page03.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Midnight Arepa Stop”, page 3. Scene based on: Valeria holds a big arepa full of meat and makes a surprised face after the first bite, while Samuel happily eats a simple golden arepa with melted cheese, and Valeria's father laughs. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The arepas arrived quickly."
+            },
+            {
+              "html": "Valeria took a big bite of the special arepa."
+            },
+            {
+              "html": "Her face changed. It was very salty and very heavy."
+            },
+            {
+              "html": "“Did you like it?” Samuel asked."
+            },
+            {
+              "html": "“Not really. I don’t like chorizo,” Valeria said."
+            },
+            {
+              "html": "“Why did you order it?” Samuel asked."
+            },
+            {
+              "html": "“I didn’t think. I wanted to <b>choose</b> quickly.”"
+            },
+            {
+              "html": "Samuel offered her a piece of his arepa."
+            },
+            {
+              "html": "She tried it. “Wow! This one is delicious!”"
+            },
+            {
+              "html": "Valeria’s father laughed."
+            },
+            {
+              "html": "“Fast decisions aren’t always good decisions,” he said."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week36_grade07_page04.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Midnight Arepa Stop”, page 4. Scene based on: Valeria asks the street food vendor a question while pointing at the menu, smiling, and the vendor shows her a new arepa with cheese and corn, while Samuel gives her a thumbs up. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valeria went back to the stand."
+            },
+            {
+              "html": "“Excuse me,” she said with a smile."
+            },
+            {
+              "html": "“What did you put in the cheese arepa?”"
+            },
+            {
+              "html": "“Corn, white cheese, and a little butter,” the vendor said."
+            },
+            {
+              "html": "“Can I <b>order</b> one more, please?”"
+            },
+            {
+              "html": "“Of course!” the vendor said with a smile."
+            },
+            {
+              "html": "Valeria ate the cheese arepa happily."
+            },
+            {
+              "html": "Her father finished her special arepa. He liked it!"
+            },
+            {
+              "html": "“So everybody is happy now,” Samuel said."
+            },
+            {
+              "html": "Valeria thought about her first choice."
+            },
+            {
+              "html": "“I was hungry, so I didn’t ask questions,” she said."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week36_grade07_page05.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Midnight Arepa Stop”, page 5. Scene based on: In the car driving home at midnight through quiet Medellín streets, Valeria and Samuel sit in the back seat talking and laughing, Valeria holding a paper napkin and Samuel holding his guitar case. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "In the car, Samuel and Valeria talked about the night."
+            },
+            {
+              "html": "“What did you learn tonight?” her father asked."
+            },
+            {
+              "html": "“I learned to ask before I order,” Valeria said."
+            },
+            {
+              "html": "“Did you ask questions before you danced?” Samuel joked."
+            },
+            {
+              "html": "“No! I practiced for weeks,” she laughed."
+            },
+            {
+              "html": "“And did you practice your song?” she asked him."
+            },
+            {
+              "html": "“Every day for a month,” Samuel answered."
+            },
+            {
+              "html": "Valeria smiled. “So we prepared for the show.”"
+            },
+            {
+              "html": "“But I didn’t prepare for the food!”"
+            },
+            {
+              "html": "Next time, she will <b>taste</b> the cheese arepa first."
+            }
+          ],
+          "wordCount": 83
+        }
+      ],
+      "practiceWords": [
+        "midnight",
+        "stand",
+        "menu",
+        "order",
+        "vegetarian",
+        "ingredients",
+        "cheese",
+        "taste",
+        "choose",
+        "hungry"
+      ],
+      "vocabulary": [
+        {
+          "word": "midnight",
+          "definition": "twelve o’clock at night (medianoche)"
+        },
+        {
+          "word": "stand",
+          "definition": "a small outdoor place that sells food (puesto)"
+        },
+        {
+          "word": "menu",
+          "definition": "the list of food you can order (menú)"
+        },
+        {
+          "word": "order",
+          "definition": "to ask for food in a restaurant (pedir)"
+        },
+        {
+          "word": "vegetarian",
+          "definition": "a person who doesn’t eat meat (vegetariano)"
+        },
+        {
+          "word": "ingredients",
+          "definition": "the foods used to make a dish (ingredientes)"
+        },
+        {
+          "word": "cheese",
+          "definition": "a food made from milk (queso)"
+        },
+        {
+          "word": "taste",
+          "definition": "to try the flavor of food (probar)"
+        },
+        {
+          "word": "choose",
+          "definition": "to decide which thing you want (escoger)"
+        },
+        {
+          "word": "hungry",
+          "definition": "wanting to eat (hambriento)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What did Samuel order at the arepa stand?",
+          "options": [
+            "An arepa with pork skin and egg",
+            "The special arepa with chorizo",
+            "Two arepas with butter only",
+            "An arepa with cheese and corn"
+          ],
+          "answer": "An arepa with cheese and corn"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "Why didn’t Valeria like her first arepa?",
+          "options": [
+            "It was very salty and heavy, and she doesn’t like chorizo.",
+            "It had cheese, and she doesn’t eat cheese.",
+            "Samuel took the best part of her arepa.",
+            "It was cold because the stand was closing for the night."
+          ],
+          "answer": "It was very salty and heavy, and she doesn’t like chorizo."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main idea of the story?",
+          "options": [
+            "Street food stands only sell special arepas with meat late at night.",
+            "Asking questions before choosing can help you make a better decision.",
+            "Talent shows in Medellín always finish at midnight.",
+            "Vegetarian food is the only good food to eat at night."
+          ],
+          "answer": "Asking questions before choosing can help you make a better decision."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why did Valeria order the special arepa without asking?",
+          "options": [
+            "It was the cheapest and the biggest arepa on the menu.",
+            "Samuel recommended it to her.",
+            "She was very hungry and wanted to choose quickly.",
+            "Her father told her to order it."
+          ],
+          "answer": "She was very hungry and wanted to choose quickly."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “She didn’t ask about the ingredients.” “Ingredients” are…",
+          "options": [
+            "the list of prices on a menu",
+            "the plates used to serve food",
+            "the people who cook in a stand",
+            "the foods used to make a dish"
+          ],
+          "answer": "the foods used to make a dish"
+        }
+      ],
+      "cover": "../assets/images/week36_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "The Shoes I Almost Bought",
+      "minimumWordTarget": 450,
+      "wordCount": 455,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week36_grade08_page01.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Shoes I Almost Bought”, page 1. Scene based on: In a small family apartment in Medellín, Camila, 13, sits on her bed with a phone showing a pair of bright white sneakers with a big price tag icon and a coin jar beside her, while Mateo, 13, sits at the desk doing homework and looks over. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Camila has saved money for five months."
+            },
+            {
+              "html": "She’s going to buy new sneakers."
+            },
+            {
+              "html": "She wants white <b>shoes</b> with blue lines."
+            },
+            {
+              "html": "All her friends have them."
+            },
+            {
+              "html": "On Saturday, she opens a shopping app on her phone."
+            },
+            {
+              "html": "She finds the sneakers <b>online</b>."
+            },
+            {
+              "html": "The <b>price</b> is one hundred eighty thousand pesos."
+            },
+            {
+              "html": "“Perfect! I have two hundred thousand,” she says."
+            },
+            {
+              "html": "“I’m going to buy them right now!”"
+            },
+            {
+              "html": "Her friend Mateo is doing homework at her desk."
+            }
+          ],
+          "wordCount": 72
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week36_grade08_page02.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Shoes I Almost Bought”, page 2. Scene based on: Camila taps a phone screen showing a shopping cart icon with the sneakers, then a checkout page where extra lines appear with coin icons and a plus sign, while her smile turns into a shocked expression. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Camila puts the sneakers in the <b>cart</b>."
+            },
+            {
+              "html": "She clicks the “pay” button."
+            },
+            {
+              "html": "A new page appears with more information."
+            },
+            {
+              "html": "There is a <b>shipping</b> cost of thirty thousand pesos."
+            },
+            {
+              "html": "There is a service <b>fee</b> of twenty thousand pesos."
+            },
+            {
+              "html": "There is also an “insurance” of thirty thousand pesos."
+            },
+            {
+              "html": "The total <b>cost</b> is two hundred sixty thousand pesos!"
+            },
+            {
+              "html": "“What? That’s eighty thousand more!” Camila says."
+            },
+            {
+              "html": "“I don’t have that much money!”"
+            },
+            {
+              "html": "She feels angry and confused."
+            }
+          ],
+          "wordCount": 73
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week36_grade08_page03.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Shoes I Almost Bought”, page 3. Scene based on: Mateo sits next to Camila on the bed and points at the phone screen showing a small checkbox icon next to the insurance line, while Camila looks surprised and a little embarrassed. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mateo looks at the screen with her."
+            },
+            {
+              "html": "“Wait. Are you going to pay for insurance?” he asks."
+            },
+            {
+              "html": "“I don’t know. I didn’t choose it,” Camila says."
+            },
+            {
+              "html": "Mateo points at a small box on the screen."
+            },
+            {
+              "html": "The insurance box is already checked."
+            },
+            {
+              "html": "“The app chose it for you. You can remove it.”"
+            },
+            {
+              "html": "Camila removes it, and the total changes."
+            },
+            {
+              "html": "Now it’s two hundred thirty thousand pesos."
+            },
+            {
+              "html": "“It’s still too much,” she says."
+            },
+            {
+              "html": "“Let’s <b>compare</b> with a real store,” Mateo suggests."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week36_grade08_page04.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Shoes I Almost Bought”, page 4. Scene based on: At a sports shoe store in a Medellín mall, Camila tries on white sneakers with blue lines while a friendly young salesperson shows a small sign with a percent icon, and Mateo holds Camila's coin jar. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Sunday, they go to a sports store in the mall."
+            },
+            {
+              "html": "The same sneakers are there."
+            },
+            {
+              "html": "The price in the store is one hundred ninety thousand."
+            },
+            {
+              "html": "“There’s no shipping fee here,” Mateo says."
+            },
+            {
+              "html": "“And there’s no service fee either.”"
+            },
+            {
+              "html": "Camila tries them on. They fit perfectly!"
+            },
+            {
+              "html": "The salesperson has good news."
+            },
+            {
+              "html": "“Students get a ten percent <b>discount</b> today,” she says."
+            },
+            {
+              "html": "“You only have to show your student card.”"
+            },
+            {
+              "html": "Camila can’t believe it!"
+            }
+          ],
+          "wordCount": 72
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week36_grade08_page05.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Shoes I Almost Bought”, page 5. Scene based on: At the store counter, Camila pays with bills from her coin jar and receives a box of new sneakers, smiling widely, while Mateo calculates on a small notebook and the salesperson hands her a receipt. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "With the discount, the sneakers cost one hundred seventy-one thousand."
+            },
+            {
+              "html": "Camila pays with her own money."
+            },
+            {
+              "html": "She still has twenty-nine thousand pesos."
+            },
+            {
+              "html": "“I’m going to <b>save</b> this money,” she says."
+            },
+            {
+              "html": "“Next month, I’m going to buy a book.”"
+            },
+            {
+              "html": "Mateo calculates the difference on his notebook."
+            },
+            {
+              "html": "“Online, you were going to pay two hundred sixty.”"
+            },
+            {
+              "html": "“Here, you paid one hundred seventy-one.”"
+            },
+            {
+              "html": "“That’s eighty-nine thousand pesos of difference!”"
+            },
+            {
+              "html": "Camila laughs. “That’s almost half my savings!”"
+            }
+          ],
+          "wordCount": 73
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week36_grade08_page06.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Shoes I Almost Bought”, page 6. Scene based on: Back home, Camila writes a short checklist on a sticky note with only icons of a shopping cart, a magnifying glass, a checkbox and a store, and sticks it on her phone case, while her new white sneakers sit on the floor. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "That night, Camila writes a small checklist."
+            },
+            {
+              "html": "“Before I buy online, I’m going to check three things.”"
+            },
+            {
+              "html": "“First, I’m going to read the final total.”"
+            },
+            {
+              "html": "“Second, I’m going to remove extra boxes I didn’t choose.”"
+            },
+            {
+              "html": "“Third, I’m going to compare with a store near me.”"
+            },
+            {
+              "html": "She sticks the checklist on her phone case."
+            },
+            {
+              "html": "The next day, she shows it to her friends."
+            },
+            {
+              "html": "Two of them almost paid extra fees last week."
+            },
+            {
+              "html": "“Online shopping is easy,” Camila says."
+            },
+            {
+              "html": "“But the first price isn’t always the real price.”"
+            }
+          ],
+          "wordCount": 86
+        }
+      ],
+      "practiceWords": [
+        "shoes",
+        "online",
+        "price",
+        "cart",
+        "shipping",
+        "fee",
+        "cost",
+        "discount",
+        "save",
+        "compare"
+      ],
+      "vocabulary": [
+        {
+          "word": "shoes",
+          "definition": "things you wear on your feet (zapatos)"
+        },
+        {
+          "word": "online",
+          "definition": "on the internet (en línea)"
+        },
+        {
+          "word": "price",
+          "definition": "how much money something costs (precio)"
+        },
+        {
+          "word": "cart",
+          "definition": "the place where you keep things you want to buy online (carrito de compras)"
+        },
+        {
+          "word": "shipping",
+          "definition": "the service of sending a product to you (envío)"
+        },
+        {
+          "word": "fee",
+          "definition": "extra money you pay for a service (cargo, tarifa)"
+        },
+        {
+          "word": "cost",
+          "definition": "the total money you have to pay (costo)"
+        },
+        {
+          "word": "discount",
+          "definition": "a lower price than usual (descuento)"
+        },
+        {
+          "word": "save",
+          "definition": "to keep money for later (ahorrar)"
+        },
+        {
+          "word": "compare",
+          "definition": "to look at differences and similarities (comparar)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What was the total cost online at first?",
+          "options": [
+            "Two hundred sixty thousand pesos",
+            "One hundred seventy-one thousand pesos",
+            "Two hundred thousand pesos",
+            "One hundred eighty thousand pesos"
+          ],
+          "answer": "Two hundred sixty thousand pesos"
+        },
+        {
+          "skill": "inference",
+          "question": "Why did the total price online increase so much?",
+          "options": [
+            "Camila chose the most expensive color.",
+            "The app added shipping, a service fee, and insurance.",
+            "The sneakers became more popular that day.",
+            "Camila put two pairs of the same sneakers in the cart."
+          ],
+          "answer": "The app added shipping, a service fee, and insurance."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the insurance box that was already checked?",
+          "options": [
+            "To explain how insurance protects new sneakers from damage at home.",
+            "To show that Mateo works for the shopping app on weekends.",
+            "To show that online stores can add costs that customers didn’t choose.",
+            "To describe how to pay with a student card."
+          ],
+          "answer": "To show that online stores can add costs that customers didn’t choose."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main idea of the story?",
+          "options": [
+            "Online shopping is always more expensive than shopping in stores.",
+            "All stores give students a ten percent discount on sneakers.",
+            "Students should never use their savings to buy expensive sneakers.",
+            "Comparing final prices helps people avoid paying unnecessary extra costs."
+          ],
+          "answer": "Comparing final prices helps people avoid paying unnecessary extra costs."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “There is a service fee of twenty thousand pesos.” A “fee” is…",
+          "options": [
+            "extra money you pay for a service",
+            "the place where you keep products online",
+            "a lower price than usual",
+            "money you keep for later"
+          ],
+          "answer": "extra money you pay for a service"
+        }
+      ],
+      "cover": "../assets/images/week36_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "The Trail After the Storm",
+      "minimumWordTarget": 500,
+      "wordCount": 510,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week36_grade09_page01.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Trail After the Storm”, page 1. Scene based on: At the entrance of Parque Arví, a forest park near Medellín, Santiago, 14, and Laura, 14, with three classmates in hiking clothes and backpacks look at a wooden map board showing only trail lines and icons, gray clouds above the tall pine trees. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Santiago’s class planned a hike for Saturday."
+            },
+            {
+              "html": "They chose a <b>trail</b> which goes through Parque Arví."
+            },
+            {
+              "html": "It’s a big forest park that is above Medellín."
+            },
+            {
+              "html": "But it rained a lot during the week."
+            },
+            {
+              "html": "There was a big <b>storm</b> on Thursday night."
+            },
+            {
+              "html": "On Saturday morning, the sky was gray but dry."
+            },
+            {
+              "html": "“The trail that we chose is easy,” Santiago said."
+            },
+            {
+              "html": "“I walked it last year. It’s perfect.”"
+            },
+            {
+              "html": "Five students met at the park entrance."
+            },
+            {
+              "html": "Everyone had water, snacks, and good shoes."
+            },
+            {
+              "html": "Laura looked at the dark clouds."
+            },
+            {
+              "html": "“Is the trail the same after the storm?” she asked."
+            }
+          ],
+          "wordCount": 96
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week36_grade09_page02.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Trail After the Storm”, page 2. Scene based on: The group walks on a forest path that becomes covered in thick brown mud, one boy slipping and grabbing a tree, while Santiago walks confidently ahead and Laura stops to look at her muddy shoes. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They started walking on the trail."
+            },
+            {
+              "html": "At first, the path was fine."
+            },
+            {
+              "html": "After twenty minutes, it changed completely."
+            },
+            {
+              "html": "There was thick <b>mud</b> everywhere."
+            },
+            {
+              "html": "The rocks which were usually dry were wet now."
+            },
+            {
+              "html": "They were very <b>slippery</b>."
+            },
+            {
+              "html": "One boy, Andrés, slipped and almost fell."
+            },
+            {
+              "html": "“Be careful!” Laura shouted."
+            },
+            {
+              "html": "Santiago continued walking fast."
+            },
+            {
+              "html": "“Don’t worry. The bridge that crosses the creek is close.”"
+            },
+            {
+              "html": "Laura wasn’t sure that was a good idea."
+            },
+            {
+              "html": "The trail that they knew looked very different now."
+            }
+          ],
+          "wordCount": 78
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week36_grade09_page03.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Trail After the Storm”, page 3. Scene based on: The group arrives at a small wooden bridge over a fast, muddy creek; part of the bridge is broken and tilted, with branches stuck on it, while Santiago stops in surprise and Laura holds her friends back. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They arrived at the <b>creek</b>."
+            },
+            {
+              "html": "The water was brown and very fast."
+            },
+            {
+              "html": "The <b>bridge</b> which crossed the creek was damaged."
+            },
+            {
+              "html": "One side was broken, and branches were stuck on it."
+            },
+            {
+              "html": "Santiago stopped. He couldn’t believe it."
+            },
+            {
+              "html": "“This is the bridge that I crossed last year,” he said."
+            },
+            {
+              "html": "“Maybe we can jump to the other side.”"
+            },
+            {
+              "html": "“No!” Laura said. “The water is too fast.”"
+            },
+            {
+              "html": "“We need advice from someone who knows the park.”"
+            },
+            {
+              "html": "Santiago didn’t like it, but he agreed."
+            },
+            {
+              "html": "They turned around carefully, holding the branches."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week36_grade09_page04.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Trail After the Storm”, page 4. Scene based on: The group walks back toward a small wooden ranger station in the forest, where a park ranger in a green uniform and hat speaks on a radio and points at a map board, while Santiago and Laura listen. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They walked back to the ranger station."
+            },
+            {
+              "html": "A <b>ranger</b> who works in the park was there."
+            },
+            {
+              "html": "His name was Don Jairo."
+            },
+            {
+              "html": "Laura explained what they saw."
+            },
+            {
+              "html": "“The bridge which crosses the creek is broken,” she said."
+            },
+            {
+              "html": "Don Jairo nodded. “Yes, the storm damaged it.”"
+            },
+            {
+              "html": "“There was also a small <b>landslide</b> on that trail.”"
+            },
+            {
+              "html": "“That’s why the trail is <b>closed</b> today.”"
+            },
+            {
+              "html": "“Didn’t you see the sign that is at the entrance?”"
+            },
+            {
+              "html": "The students looked at each other, embarrassed."
+            },
+            {
+              "html": "Nobody had read the sign that morning."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week36_grade09_page05.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Trail After the Storm”, page 5. Scene based on: The park ranger shows the students a different trail on a wooden map with only lines and icons, pointing at a path with a viewpoint symbol, while Santiago and Laura look relieved and the other students nod. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Don Jairo showed them a map."
+            },
+            {
+              "html": "“There’s another <b>route</b> which is safer today,” he said."
+            },
+            {
+              "html": "“It’s a trail that goes up through the pine trees.”"
+            },
+            {
+              "html": "“It has a viewpoint where you can see Medellín.”"
+            },
+            {
+              "html": "“The path is wider, and it has stairs.”"
+            },
+            {
+              "html": "“There aren’t any creeks on this route.”"
+            },
+            {
+              "html": "Santiago felt embarrassed."
+            },
+            {
+              "html": "“I was sure my trail was perfect,” he said."
+            },
+            {
+              "html": "“It was perfect last year,” Don Jairo said."
+            },
+            {
+              "html": "“But nature changes after every storm.”"
+            },
+            {
+              "html": "Santiago thanked him for the help."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week36_grade09_page06.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Trail After the Storm”, page 6. Scene based on: At a forest viewpoint among tall pine trees, the group of students looks out over the city of Medellín in the valley below as the clouds open and sunlight appears, Santiago and Laura smiling together. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They walked the new trail for one hour."
+            },
+            {
+              "html": "The path was wide and safe."
+            },
+            {
+              "html": "At the viewpoint, the clouds opened a little."
+            },
+            {
+              "html": "They could see the whole city of Medellín below."
+            },
+            {
+              "html": "“This is better than the creek,” Andrés said."
+            },
+            {
+              "html": "Santiago laughed. “You’re right.”"
+            },
+            {
+              "html": "Then he turned to Laura."
+            },
+            {
+              "html": "“Thank you for the question you asked at the start.”"
+            },
+            {
+              "html": "“The trail that I remembered wasn’t the trail of today.”"
+            },
+            {
+              "html": "“Next time, we’ll ask the rangers before we start.”"
+            },
+            {
+              "html": "Laura smiled. “And we’ll read the signs first!”"
+            }
+          ],
+          "wordCount": 85
+        }
+      ],
+      "practiceWords": [
+        "trail",
+        "ranger",
+        "storm",
+        "mud",
+        "slippery",
+        "creek",
+        "bridge",
+        "landslide",
+        "route",
+        "closed"
+      ],
+      "vocabulary": [
+        {
+          "word": "trail",
+          "definition": "a path in nature for walking (sendero)"
+        },
+        {
+          "word": "ranger",
+          "definition": "a person who takes care of a park (guardabosques)"
+        },
+        {
+          "word": "storm",
+          "definition": "very bad weather with strong rain and wind (tormenta)"
+        },
+        {
+          "word": "mud",
+          "definition": "wet, soft earth (barro)"
+        },
+        {
+          "word": "slippery",
+          "definition": "easy to slide and fall on (resbaloso)"
+        },
+        {
+          "word": "creek",
+          "definition": "a small river (quebrada)"
+        },
+        {
+          "word": "bridge",
+          "definition": "a structure that goes over water (puente)"
+        },
+        {
+          "word": "landslide",
+          "definition": "earth and rocks that fall down a hill (deslizamiento)"
+        },
+        {
+          "word": "route",
+          "definition": "the way from one place to another (ruta)"
+        },
+        {
+          "word": "closed",
+          "definition": "not open (cerrado)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Why was the trail closed?",
+          "options": [
+            "The park was closed because it was Saturday.",
+            "The storm damaged the bridge and caused a small landslide.",
+            "The rangers were planting new pine trees along the trail.",
+            "The trail was too crowded with other hikers."
+          ],
+          "answer": "The storm damaged the bridge and caused a small landslide."
+        },
+        {
+          "skill": "inference",
+          "question": "Why did Santiago want to continue on the trail?",
+          "options": [
+            "He wanted to jump into the creek.",
+            "Laura asked him to walk faster.",
+            "He remembered it as an easy, perfect trail from last year.",
+            "The ranger told him that the trail was safe after the storm."
+          ],
+          "answer": "He remembered it as an easy, perfect trail from last year."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "How was the new route different from the first trail?",
+          "options": [
+            "It crossed the same broken bridge.",
+            "It was closed and full of mud.",
+            "It was shorter and went along the creek to the bridge.",
+            "It was wider, had stairs, and had no creeks."
+          ],
+          "answer": "It was wider, had stairs, and had no creeks."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main message of the text?",
+          "options": [
+            "Conditions in nature change, so we should check information before acting.",
+            "Students should never go hiking in the days after it rains.",
+            "Park rangers always close the trails on weekends for repairs.",
+            "Parque Arví is too dangerous for students, even on sunny days."
+          ],
+          "answer": "Conditions in nature change, so we should check information before acting."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “There was thick mud everywhere… They were very slippery.” “Slippery” means…",
+          "options": [
+            "broken by a storm",
+            "easy to slide and fall on",
+            "very hot and dry",
+            "closed to visitors after a storm"
+          ],
+          "answer": "easy to slide and fall on"
+        }
+      ],
+      "cover": "../assets/images/week36_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "The Street That Gets Hotter Every Year",
+      "minimumWordTarget": 600,
+      "wordCount": 601,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week36_grade10_page01.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Street That Gets Hotter Every Year”, page 1. Scene based on: On a hot sunny street in a Medellín neighborhood with no trees, gray buildings and black asphalt, Valentina, 16, wipes sweat from her forehead while Mateo, 16, holds a small digital thermometer, both carrying school backpacks. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina walks home on Calle 50 every afternoon."
+            },
+            {
+              "html": "There are no trees on that street."
+            },
+            {
+              "html": "The buildings are gray, and the road is black <b>asphalt</b>."
+            },
+            {
+              "html": "The sun is very strong, and the air feels heavy."
+            },
+            {
+              "html": "“This street gets hotter every year,” Valentina says."
+            },
+            {
+              "html": "“If we don’t do something, people will get sick.”"
+            },
+            {
+              "html": "Her friend Mateo is walking with her."
+            },
+            {
+              "html": "“Are you sure it’s hotter? Or does it only feel hotter?”"
+            },
+            {
+              "html": "Valentina stops. She doesn’t have an answer."
+            },
+            {
+              "html": "“How can we know?” she asks."
+            },
+            {
+              "html": "“We need to <b>measure</b> it,” Mateo says."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week36_grade10_page02.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Street That Gets Hotter Every Year”, page 2. Scene based on: In a public school science lab, the science teacher gives Valentina and Mateo two small digital thermometers and a clipboard with a simple table drawn with only clock and sun icons, explaining with a smile. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next day, they talk to their science teacher."
+            },
+            {
+              "html": "She gives them two digital <b>thermometer</b>s."
+            },
+            {
+              "html": "“If you want real <b>data</b>, measure carefully,” she says."
+            },
+            {
+              "html": "“Measure at the same times every day.”"
+            },
+            {
+              "html": "“Measure on two different streets.”"
+            },
+            {
+              "html": "“If you compare streets, you will learn more.”"
+            },
+            {
+              "html": "Valentina chooses Calle 50, with no trees."
+            },
+            {
+              "html": "Mateo chooses Calle 52, which has many big trees."
+            },
+            {
+              "html": "The two streets are only two blocks apart."
+            },
+            {
+              "html": "They will measure at 8 a.m., 12 p.m., and 3 p.m."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week36_grade10_page03.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Street That Gets Hotter Every Year”, page 3. Scene based on: Split scene on two nearby streets: on one sunny street with no trees, Valentina holds a thermometer over hot asphalt; on the other street with big green trees and deep shade, Mateo holds his thermometer while neighbors sit on a bench. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "For two weeks, they measure every day."
+            },
+            {
+              "html": "They write the <b>temperature</b> in a table."
+            },
+            {
+              "html": "At 8 a.m., the two streets are almost the same."
+            },
+            {
+              "html": "At 12 p.m., the difference is big."
+            },
+            {
+              "html": "Calle 50 is four degrees hotter than Calle 52."
+            },
+            {
+              "html": "At 3 p.m., the difference is five degrees!"
+            },
+            {
+              "html": "Mateo also measures the ground."
+            },
+            {
+              "html": "The black asphalt in the sun is very hot."
+            },
+            {
+              "html": "On Calle 52, the trees make a lot of <b>shade</b>."
+            },
+            {
+              "html": "“If there’s shade, the ground stays cooler,” Mateo says."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week36_grade10_page04.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Street That Gets Hotter Every Year”, page 4. Scene based on: Valentina and Mateo sit in the school library with a laptop showing a simple bar chart with two colors and a sun icon, Valentina pointing at a tall bar, while a book about cities and climate lies open next to them. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina reads about the problem in the library."
+            },
+            {
+              "html": "Scientists call it a “<b>heat island</b>.”"
+            },
+            {
+              "html": "Streets with asphalt and no trees store heat all day."
+            },
+            {
+              "html": "At night, they release the heat slowly."
+            },
+            {
+              "html": "“If a city has fewer trees, it will be hotter.”"
+            },
+            {
+              "html": "Mateo makes a simple chart with their data."
+            },
+            {
+              "html": "The chart shows the difference very clearly."
+            },
+            {
+              "html": "“Now we have evidence, not only a feeling,” Mateo says."
+            },
+            {
+              "html": "“If we show this to people, they will understand.”"
+            },
+            {
+              "html": "Valentina has an idea. “Let’s show it to the neighbors.”"
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week36_grade10_page05.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Street That Gets Hotter Every Year”, page 5. Scene based on: In a neighborhood meeting room, Valentina presents the bar chart on a small projector to the community board, a group of adult neighbors sitting in plastic chairs, while Mateo holds the thermometer up and an older woman takes notes. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The neighborhood has a <b>community board</b>."
+            },
+            {
+              "html": "It meets on the first Monday of every month."
+            },
+            {
+              "html": "Valentina and Mateo ask to present their data."
+            },
+            {
+              "html": "They show the chart and the thermometers."
+            },
+            {
+              "html": "“Calle 50 is up to five degrees hotter,” Valentina says."
+            },
+            {
+              "html": "“If we plant trees, the street will be <b>cooler</b>.”"
+            },
+            {
+              "html": "An older woman raises her hand."
+            },
+            {
+              "html": "“If we plant trees, the roots will break the sidewalk.”"
+            },
+            {
+              "html": "Mateo is ready for that question."
+            },
+            {
+              "html": "“If we choose the right trees, that won’t happen.”"
+            },
+            {
+              "html": "“The city has a list of trees for sidewalks.”"
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week36_grade10_page06.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Street That Gets Hotter Every Year”, page 6. Scene based on: The community board members discuss in small groups, some nodding and one man showing a phone with a picture of white-painted roofs, while Valentina and Mateo listen and write ideas on a big paper. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The neighbors discuss many ideas."
+            },
+            {
+              "html": "One man has another suggestion."
+            },
+            {
+              "html": "“If we paint our <b>roof</b>s white, the houses will be cooler.”"
+            },
+            {
+              "html": "“White reflects the sun. Black absorbs it.”"
+            },
+            {
+              "html": "Another neighbor suggests plants on balconies."
+            },
+            {
+              "html": "“If every family puts plants outside, it will help a little.”"
+            },
+            {
+              "html": "Valentina writes every idea on a big paper."
+            },
+            {
+              "html": "“If we combine ideas, the change will be bigger.”"
+            },
+            {
+              "html": "The president of the board makes a decision."
+            },
+            {
+              "html": "“We’ll ask the city for twenty trees for Calle 50.”"
+            },
+            {
+              "html": "“And we’ll paint the community center’s roof white.”"
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week36_grade10_page07.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Street That Gets Hotter Every Year”, page 7. Scene based on: Months later on Calle 50, young trees with protective wooden frames line the sidewalk, a community center has a bright white roof, and Valentina and Mateo measure the temperature again with neighbors watching and smiling. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Six months later, there are twenty young trees on Calle 50."
+            },
+            {
+              "html": "They are still small, but they are growing."
+            },
+            {
+              "html": "The community center has a white roof now."
+            },
+            {
+              "html": "Valentina and Mateo measure the temperature again."
+            },
+            {
+              "html": "The street isn’t as cool as Calle 52 yet."
+            },
+            {
+              "html": "But it’s one degree cooler than before."
+            },
+            {
+              "html": "“If the trees grow, it will be much cooler,” Mateo says."
+            },
+            {
+              "html": "An older neighbor sits on a new bench in the shade."
+            },
+            {
+              "html": "“I can sit outside in the afternoon again,” she says."
+            },
+            {
+              "html": "Valentina smiles. Their data changed something real."
+            }
+          ],
+          "wordCount": 89
+        }
+      ],
+      "practiceWords": [
+        "temperature",
+        "shade",
+        "thermometer",
+        "asphalt",
+        "measure",
+        "data",
+        "heat island",
+        "roof",
+        "community board",
+        "cooler"
+      ],
+      "vocabulary": [
+        {
+          "word": "temperature",
+          "definition": "how hot or cold something is (temperatura)"
+        },
+        {
+          "word": "shade",
+          "definition": "a cool area protected from the sun (sombra)"
+        },
+        {
+          "word": "thermometer",
+          "definition": "a tool that measures temperature (termómetro)"
+        },
+        {
+          "word": "asphalt",
+          "definition": "the black material on roads (asfalto)"
+        },
+        {
+          "word": "measure",
+          "definition": "to find the size or amount of something (medir)"
+        },
+        {
+          "word": "data",
+          "definition": "facts and numbers collected for study (datos)"
+        },
+        {
+          "word": "heat island",
+          "definition": "a city area that is much hotter than nearby areas (isla de calor)"
+        },
+        {
+          "word": "roof",
+          "definition": "the top part of a building (techo)"
+        },
+        {
+          "word": "community board",
+          "definition": "a local group that makes decisions for a neighborhood (junta de acción comunal)"
+        },
+        {
+          "word": "cooler",
+          "definition": "less hot (más fresco)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "How much hotter was Calle 50 than Calle 52 at 3 p.m.?",
+          "options": [
+            "One degree",
+            "Twenty degrees",
+            "Five degrees",
+            "Four degrees"
+          ],
+          "answer": "Five degrees"
+        },
+        {
+          "skill": "inference",
+          "question": "Why did Mateo ask Valentina if the street only “feels hotter”?",
+          "options": [
+            "He didn’t want to walk on Calle 50 anymore.",
+            "He thought Valentina was lying about the weather.",
+            "He wanted to buy a new thermometer.",
+            "He wanted evidence instead of a feeling."
+          ],
+          "answer": "He wanted evidence instead of a feeling."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the older woman’s question about tree roots?",
+          "options": [
+            "To show that good proposals need answers to possible problems.",
+            "To show that the community board ends the meeting early that day.",
+            "To show that most neighbors don’t like trees on their street.",
+            "To explain how roofs are painted white."
+          ],
+          "answer": "To show that good proposals need answers to possible problems."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What is the relationship between the asphalt and the heat on Calle 50?",
+          "options": [
+            "The asphalt has no effect at all on the temperature of the street.",
+            "The black asphalt stores heat from the sun and makes the street hotter.",
+            "The asphalt makes the trees grow faster.",
+            "The asphalt keeps the street cool at night and in the morning."
+          ],
+          "answer": "The black asphalt stores heat from the sun and makes the street hotter."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which statement best summarizes the text?",
+          "options": [
+            "Trees always break the sidewalks in big cities, so they are a bad idea.",
+            "All streets in Medellín have the same temperature in the afternoon.",
+            "Collecting data helped students convince a community to make a street cooler.",
+            "Community boards only meet when there is a serious problem."
+          ],
+          "answer": "Collecting data helped students convince a community to make a street cooler."
+        }
+      ],
+      "cover": "../assets/images/week36_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "The Accident Nobody Saw Clearly",
+      "minimumWordTarget": 700,
+      "wordCount": 704,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week36_grade11_page01.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Accident Nobody Saw Clearly”, page 1. Scene based on: At a busy intersection in the Manrique neighborhood of Medellín, a taxi and a motorcycle have stopped close together after a minor collision, the motorcyclist standing and holding his arm, while Sofía, 17, and Mateo, 17, stand on the sidewalk near a corner shop with surprised faces. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Wednesday afternoon, Sofía and Mateo were walking home in Manrique."
+            },
+            {
+              "html": "They stopped at a corner shop to buy water."
+            },
+            {
+              "html": "Suddenly, they heard a loud noise at the <b>intersection</b>."
+            },
+            {
+              "html": "A taxi and a motorcycle had hit each other."
+            },
+            {
+              "html": "It was a minor <b>accident</b>, but everyone was shocked."
+            },
+            {
+              "html": "The motorcyclist stood up and held his arm."
+            },
+            {
+              "html": "“I’m okay, I think,” he said."
+            },
+            {
+              "html": "The taxi driver got out of his car, very upset."
+            },
+            {
+              "html": "A crowd started to form around them."
+            },
+            {
+              "html": "Some people were taking photos with their phones."
+            },
+            {
+              "html": "Ten minutes later, a police <b>officer</b> arrived."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week36_grade11_page02.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Accident Nobody Saw Clearly”, page 2. Scene based on: A police officer in uniform with a notebook listens to several people talking at once on the sidewalk, each pointing in a different direction, while Sofía and Mateo stand among them looking at each other. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The officer asked who saw the accident."
+            },
+            {
+              "html": "Several people raised their hands."
+            },
+            {
+              "html": "A man in a red shirt spoke first."
+            },
+            {
+              "html": "He said that the taxi had run a red light."
+            },
+            {
+              "html": "A woman with shopping bags disagreed."
+            },
+            {
+              "html": "She said that the motorcyclist had been looking at his phone."
+            },
+            {
+              "html": "A young boy said that both of them were driving fast."
+            },
+            {
+              "html": "The officer wrote every <b>statement</b> in her notebook."
+            },
+            {
+              "html": "Sofía and Mateo looked at each other."
+            },
+            {
+              "html": "Each <b>witness</b> was telling a different story."
+            },
+            {
+              "html": "The officer looked tired but patient."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week36_grade11_page03.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Accident Nobody Saw Clearly”, page 3. Scene based on: The officer turns to Sofía and Mateo and asks them a question, and Sofía honestly shakes her head while Mateo thinks hard, a memory bubble above him showing a blurry image of a traffic light. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Then the officer asked Sofía and Mateo."
+            },
+            {
+              "html": "“Did you see what happened?” she asked."
+            },
+            {
+              "html": "Sofía answered honestly."
+            },
+            {
+              "html": "She said that she hadn’t seen the moment of the crash."
+            },
+            {
+              "html": "She said that she had only heard the noise."
+            },
+            {
+              "html": "Mateo tried to remember."
+            },
+            {
+              "html": "“I think the <b>traffic light</b> was green,” he said."
+            },
+            {
+              "html": "“Green for the taxi, I mean.”"
+            },
+            {
+              "html": "Then he stopped. He wasn’t completely sure."
+            },
+            {
+              "html": "“Actually, I’m not certain,” he added."
+            },
+            {
+              "html": "“My <b>memory</b> might be wrong.”"
+            },
+            {
+              "html": "The officer thanked him for being honest."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week36_grade11_page04.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Accident Nobody Saw Clearly”, page 4. Scene based on: On the sidewalk, Sofía talks quietly to Mateo, pointing at the corner shop where a small security camera is mounted above the door, while the officer continues talking to the taxi driver and the motorcyclist in the background. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "While the officer was talking, Sofía had an idea."
+            },
+            {
+              "html": "She looked at the corner shop."
+            },
+            {
+              "html": "There was a small security <b>camera</b> above the door."
+            },
+            {
+              "html": "It was pointing at the intersection."
+            },
+            {
+              "html": "“Mateo, look,” she said quietly."
+            },
+            {
+              "html": "“That camera might show what really happened.”"
+            },
+            {
+              "html": "Mateo nodded. “Let’s tell the officer.”"
+            },
+            {
+              "html": "Sofía walked to the officer politely."
+            },
+            {
+              "html": "She told her that the shop had a camera."
+            },
+            {
+              "html": "The officer looked up and smiled."
+            },
+            {
+              "html": "“Good observation. Let’s ask the owner.”"
+            }
+          ],
+          "wordCount": 75
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week36_grade11_page05.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Accident Nobody Saw Clearly”, page 5. Scene based on: Inside the small corner shop, the shop owner, an older man with glasses, shows a small computer monitor with a security video frame of the intersection to the police officer, while Sofía and Mateo watch from behind. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The shop owner agreed to show the video."
+            },
+            {
+              "html": "They watched it on a small computer screen."
+            },
+            {
+              "html": "In the video, the traffic light wasn’t red or green."
+            },
+            {
+              "html": "It was blinking yellow."
+            },
+            {
+              "html": "The light was broken that afternoon."
+            },
+            {
+              "html": "The taxi was moving slowly."
+            },
+            {
+              "html": "The motorcyclist was not looking at his phone."
+            },
+            {
+              "html": "He was looking to the left at another car."
+            },
+            {
+              "html": "Neither driver could see the other clearly."
+            },
+            {
+              "html": "The officer wrote the new information in her notebook."
+            },
+            {
+              "html": "She said that she would report the broken light."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week36_grade11_page06.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Accident Nobody Saw Clearly”, page 6. Scene based on: On the sidewalk, the police officer explains the video findings to the taxi driver, the motorcyclist and the witnesses, who look surprised and quiet, while Sofía and Mateo stand to the side listening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The officer returned to the group of witnesses."
+            },
+            {
+              "html": "She said that the video showed a broken traffic light."
+            },
+            {
+              "html": "She explained that neither driver had a red light."
+            },
+            {
+              "html": "The man in the red shirt was surprised."
+            },
+            {
+              "html": "He said that he had been sure about the red light."
+            },
+            {
+              "html": "The woman with the bags was quiet."
+            },
+            {
+              "html": "She admitted that she had only seen a phone."
+            },
+            {
+              "html": "The phone had been in his pocket."
+            },
+            {
+              "html": "The officer was calm and respectful."
+            },
+            {
+              "html": "“People remember what they expect to see,” she said."
+            },
+            {
+              "html": "“That’s why we always look for more evidence.”"
+            }
+          ],
+          "wordCount": 92
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week36_grade11_page07.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Accident Nobody Saw Clearly”, page 7. Scene based on: Later, at a quiet café, Sofía and Mateo sit at a small table with two juices, Mateo writing in a notebook with a drawing of a blinking traffic light, while Sofía talks thoughtfully. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, Sofía and Mateo sat at a café."
+            },
+            {
+              "html": "Mateo was still thinking about his answer."
+            },
+            {
+              "html": "“I almost said the light was green,” he said."
+            },
+            {
+              "html": "“I really believed it for a moment.”"
+            },
+            {
+              "html": "Sofía told him that he had done the right thing."
+            },
+            {
+              "html": "She said that admitting doubt was honest."
+            },
+            {
+              "html": "“Everyone was so sure,” Mateo said."
+            },
+            {
+              "html": "“But everyone was wrong in some way.”"
+            },
+            {
+              "html": "Sofía nodded. “Even with good intentions.”"
+            },
+            {
+              "html": "They drank their juices in silence for a moment."
+            },
+            {
+              "html": "“Memories feel like videos, but they’re more like stories.”"
+            },
+            {
+              "html": "Mateo laughed. “Stories that we edit without knowing.”"
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week36_grade11_page08.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Accident Nobody Saw Clearly”, page 8. Scene based on: The next day in a classroom, Sofía and Mateo tell their English class about the accident, with a simple drawing on the board of a traffic light with a blinking yellow light and several speech bubbles, while the teacher and classmates listen attentively. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next day, they told their English class the story."
+            },
+            {
+              "html": "The teacher was using it to teach <b>report</b>ed speech."
+            },
+            {
+              "html": "“What did the man in the red shirt say?” she asked."
+            },
+            {
+              "html": "A student answered that he had said the light was red."
+            },
+            {
+              "html": "“And what did the video show?” she asked."
+            },
+            {
+              "html": "Mateo said that it had shown a blinking yellow light."
+            },
+            {
+              "html": "The teacher wrote a question on the board."
+            },
+            {
+              "html": "“Why do witnesses <b>claim</b> different things?”"
+            },
+            {
+              "html": "The class discussed it for twenty minutes."
+            },
+            {
+              "html": "Many students shared similar experiences."
+            },
+            {
+              "html": "Sofía wrote one final sentence in her notebook."
+            },
+            {
+              "html": "“When people disagree, look for evidence, not volume.”"
+            }
+          ],
+          "wordCount": 101
+        }
+      ],
+      "practiceWords": [
+        "accident",
+        "intersection",
+        "traffic light",
+        "witness",
+        "statement",
+        "officer",
+        "claim",
+        "memory",
+        "camera",
+        "report"
+      ],
+      "vocabulary": [
+        {
+          "word": "accident",
+          "definition": "something bad that happens by chance (accidente)"
+        },
+        {
+          "word": "intersection",
+          "definition": "a place where two roads cross (intersección)"
+        },
+        {
+          "word": "traffic light",
+          "definition": "a light with colors that controls cars (semáforo)"
+        },
+        {
+          "word": "witness",
+          "definition": "a person who sees something happen (testigo)"
+        },
+        {
+          "word": "statement",
+          "definition": "a formal description of what you saw (declaración)"
+        },
+        {
+          "word": "officer",
+          "definition": "a police officer (agente)"
+        },
+        {
+          "word": "claim",
+          "definition": "to say that something is true (afirmar)"
+        },
+        {
+          "word": "memory",
+          "definition": "something you remember (recuerdo, memoria)"
+        },
+        {
+          "word": "camera",
+          "definition": "a device that records images (cámara)"
+        },
+        {
+          "word": "report",
+          "definition": "to tell what someone said or what happened (reportar)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "What did the security video show about the traffic light?",
+          "options": [
+            "It was red for the taxi driver.",
+            "It was turned off completely by the police.",
+            "It was green for the motorcyclist.",
+            "It was blinking yellow because it was broken."
+          ],
+          "answer": "It was blinking yellow because it was broken."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "Why did Mateo say “My memory might be wrong”?",
+          "options": [
+            "He realized he wasn’t completely sure about what he remembered.",
+            "He knew that the video would show something very different.",
+            "He didn’t want to talk to the police officer.",
+            "He wanted to protect the taxi driver from the police officer."
+          ],
+          "answer": "He realized he wasn’t completely sure about what he remembered."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the officer’s sentence “People remember what they expect to see”?",
+          "options": [
+            "To explain how traffic lights work at intersections in Medellín.",
+            "To explain why witnesses gave different and incorrect statements.",
+            "To show that the officer didn’t believe anyone.",
+            "To show that the man in the red shirt lied on purpose."
+          ],
+          "answer": "To explain why witnesses gave different and incorrect statements."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “Each witness was telling a different story.” A “witness” is…",
+          "options": [
+            "a police officer who writes reports",
+            "a camera that records an intersection",
+            "a person who sees something happen",
+            "a driver who causes an accident"
+          ],
+          "answer": "a person who sees something happen"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which statement best expresses the central idea of the text?",
+          "options": [
+            "Taxi drivers always cause accidents at intersections.",
+            "Witnesses should never talk to police officers.",
+            "Security cameras should be installed in every house and shop.",
+            "Memories can be unreliable, so we need evidence."
+          ],
+          "answer": "Memories can be unreliable, so we need evidence."
+        }
+      ],
+      "cover": "../assets/images/week36_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

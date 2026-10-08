@@ -1,0 +1,1774 @@
+{
+  "week": 10,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 10",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "Going To The Swimming Pool",
+      "minimumWordTarget": 350,
+      "wordCount": 353,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week10_grade06_page01.webp",
+          "artDirection": "11–12-year-old Colombian student context for “Going To The Swimming Pool”. Scene based on: Juan and his sister Maria are excited because it's a hot day in their neighborhood. For a moment, Juan looks around and thinks about what to do next. They put on their swimsuits an. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Juan and his sister Maria are excited because it's a hot day in their <b>neighborhood</b>."
+            },
+            {
+              "html": "For a moment, Juan looks around and thinks about what to do next."
+            },
+            {
+              "html": "They put on their <b>swimsuits</b> and grab their <b>towels</b>."
+            },
+            {
+              "html": "The day continues, and Juan tries to stay calm and pay attention."
+            },
+            {
+              "html": "Their mom gives them a <b>backpack</b> with <b>water</b> and <b>snacks</b>."
+            },
+            {
+              "html": "A small detail helps Juan understand the situation a little better."
+            },
+            {
+              "html": "The <b>pool</b> is small but clean, and it's their favorite place to cool off."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week10_grade06_page02.webp",
+          "artDirection": "11–12-year-old Colombian student context for “Going To The Swimming Pool”. Scene based on: After that, Juan continues carefully instead of rushing. Juan jumps into the water first, and Maria follows. The people nearby also notice what is happening and react in simple way. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "After that, Juan continues carefully instead of rushing."
+            },
+            {
+              "html": "Juan jumps into the water first, and Maria follows."
+            },
+            {
+              "html": "The people nearby also notice what is happening and react in simple ways."
+            },
+            {
+              "html": "They play with a <b>ball</b> and laugh a lot."
+            },
+            {
+              "html": "This gives Juan time to make a better choice and continue the day."
+            },
+            {
+              "html": "When they're tired, they rest on the deck <b>chairs</b>."
+            },
+            {
+              "html": "A few minutes later, the situation feels easier to understand."
+            },
+            {
+              "html": "Their cousin Pedro joins them and splashes water around."
+            },
+            {
+              "html": "Juan remembers that simple choices can make a difficult moment better."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week10_grade06_page03.webp",
+          "artDirection": "11–12-year-old Colombian student context for “Going To The Swimming Pool”. Scene based on: At home, they drink juice and rest on the sofa. The experience is ordinary, but it becomes an important part of the day. By paying attention, Juan learns something useful from the . warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "At home, they drink <b>juice</b> and rest on the sofa."
+            },
+            {
+              "html": "The experience is ordinary, but it becomes an important part of the day."
+            },
+            {
+              "html": "By paying attention, Juan learns something useful from the moment."
+            },
+            {
+              "html": "Juan and his sister Maria are excited because it's a hot day in their neighborhood."
+            },
+            {
+              "html": "For a moment, Juan looks around and thinks about what to do next."
+            },
+            {
+              "html": "They put on their swimsuits and grab their towels."
+            },
+            {
+              "html": "The day continues, and Juan tries to stay calm and pay attention."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week10_grade06_page04.webp",
+          "artDirection": "11–12-year-old Colombian student context for “Going To The Swimming Pool”. Scene based on: Their mom gives them a backpack with water and snacks. A small detail helps Juan understand the situation a little better. The pool is small but clean, and it's their favorite plac. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Their mom gives them a backpack with water and snacks."
+            },
+            {
+              "html": "A small detail helps Juan understand the situation a little better."
+            },
+            {
+              "html": "The pool is small but clean, and it's their favorite place to cool off."
+            },
+            {
+              "html": "After that, Juan continues carefully instead of rushing."
+            },
+            {
+              "html": "Juan jumps into the water first, and Maria follows."
+            },
+            {
+              "html": "The people nearby also notice what is happening and react in simple ways."
+            },
+            {
+              "html": "They play with a ball and laugh a lot."
+            },
+            {
+              "html": "This gives Juan time to make a better choice and continue the day."
+            },
+            {
+              "html": "When they're tired, they rest on the deck chairs."
+            }
+          ],
+          "wordCount": 96
+        }
+      ],
+      "practiceWords": [
+        "neighborhood",
+        "swimsuits",
+        "towels",
+        "backpack",
+        "water",
+        "snacks",
+        "pool",
+        "ball",
+        "chairs",
+        "juice"
+      ],
+      "vocabulary": [
+        {
+          "word": "neighborhood",
+          "definition": "a local area where people live (vecindario)"
+        },
+        {
+          "word": "swimsuits",
+          "definition": "clothing worn for swimming (traje de baño)"
+        },
+        {
+          "word": "towels",
+          "definition": "cloth used for drying (toallas)"
+        },
+        {
+          "word": "backpack",
+          "definition": "a bag carried on the back (mochila)"
+        },
+        {
+          "word": "water",
+          "definition": "a clear liquid for drinking (agua)"
+        },
+        {
+          "word": "snacks",
+          "definition": "small amounts of food (bocadillos)"
+        },
+        {
+          "word": "pool",
+          "definition": "a place for swimming (piscina)"
+        },
+        {
+          "word": "ball",
+          "definition": "a round object for playing (pelota)"
+        },
+        {
+          "word": "chairs",
+          "definition": "furniture for sitting (sillas)"
+        },
+        {
+          "word": "juice",
+          "definition": "a drink made from fruits (jugo)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "Why are Juan and Maria excited?",
+          "options": [
+            "Because it's a hot day",
+            "Because it's Christmas",
+            "Because they're going to school"
+          ],
+          "answer": "Because it's a hot day"
+        },
+        {
+          "skill": "sequence",
+          "question": "What does their mom give them?",
+          "options": [
+            "A backpack with water and snacks",
+            "Money for ice cream",
+            "New swimsuits"
+          ],
+          "answer": "A backpack with water and snacks"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What do they play with in the pool?",
+          "options": [
+            "A ball",
+            "A frisbee",
+            "A toy boat"
+          ],
+          "answer": "A ball"
+        },
+        {
+          "skill": "main idea",
+          "question": "Who joins them at the pool?",
+          "options": [
+            "Their cousin Pedro",
+            "Their teacher",
+            "Their neighbor"
+          ],
+          "answer": "Their cousin Pedro"
+        },
+        {
+          "skill": "simple inference",
+          "question": "Where do they rest at home?",
+          "options": [
+            "On the sofa",
+            "On their beds",
+            "On the floor"
+          ],
+          "answer": "On the sofa"
+        }
+      ],
+      "cover": "../assets/images/week10_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "My Friend Picks Me Up In A Bike",
+      "minimumWordTarget": 400,
+      "wordCount": 400,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week10_grade07_page01.webp",
+          "artDirection": "12–13-year-old Colombian student context for “My Friend Picks Me Up In A Bike”. Scene based on: Today, my friend Camilo is picking me up on his bike. As the situation develops, the main character realizes that a quick decision can create a real consequence. He lives three blo. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Today, my friend Camilo is picking me up on his <b>bike</b>."
+            },
+            {
+              "html": "As the situation develops, the main character realizes that a quick decision can create a real consequence."
+            },
+            {
+              "html": "He lives three blocks away, so I wait in front of my house."
+            },
+            {
+              "html": "The details around the main character make the problem easier to understand."
+            },
+            {
+              "html": "When I see him, I put on my <b>helmet</b> and climb onto the seat behind him."
+            },
+            {
+              "html": "Instead of reacting immediately, the main character takes a moment to think about the next step."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week10_grade07_page02.webp",
+          "artDirection": "12–13-year-old Colombian student context for “My Friend Picks Me Up In A Bike”. Scene based on: Camilo pedals fast, and the wind blows through my hair. The small challenge becomes an opportunity to learn something useful. We pass by shops, people walking their dogs, and a sma. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Camilo pedals fast, and the <b>wind</b> blows through my hair."
+            },
+            {
+              "html": "The small challenge becomes an opportunity to learn something useful."
+            },
+            {
+              "html": "We pass by shops, people walking their dogs, and a small <b>park</b>."
+            },
+            {
+              "html": "Other people influence the moment even when they are not at the center of the story."
+            },
+            {
+              "html": "On the way, Camilo greets the shopkeeper who sells <b>sandwiches</b>."
+            },
+            {
+              "html": "the main character's feelings begin to change as new information appears."
+            },
+            {
+              "html": "He tells me there's a special discount today, so I buy one later."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week10_grade07_page03.webp",
+          "artDirection": "12–13-year-old Colombian student context for “My Friend Picks Me Up In A Bike”. Scene based on: One action leads naturally to another, so the consequence becomes clear. We arrive at the basketball court, where other friends are waiting. The experience encourages the main char. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "One action leads naturally to another, so the consequence becomes clear."
+            },
+            {
+              "html": "We arrive at the <b>basketball</b> court, where other friends are waiting."
+            },
+            {
+              "html": "The experience encourages the main character to be more patient and responsible."
+            },
+            {
+              "html": "We play until it's late afternoon."
+            },
+            {
+              "html": "After reflecting on what happened, the main character understands the situation better."
+            },
+            {
+              "html": "After, we <b>ride</b> to the shop to buy <b>chips</b> and <b>soda</b>."
+            },
+            {
+              "html": "By the end of the moment, the main character has learned something that may help later."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week10_grade07_page04.webp",
+          "artDirection": "12–13-year-old Colombian student context for “My Friend Picks Me Up In A Bike”. Scene based on: Before sunset, Camilo gives me a ride back home. As the situation develops, the main character realizes that a quick decision can create a real consequence. Later, the details arou. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Before sunset, Camilo gives me a ride back home."
+            },
+            {
+              "html": "As the situation develops, the main character realizes that a quick decision can create a real consequence."
+            },
+            {
+              "html": "Later, the details around the main character make the problem easier to understand."
+            },
+            {
+              "html": "Today, my friend Camilo is picking me up on his bike."
+            },
+            {
+              "html": "Instead of reacting immediately, the main character takes a moment to think about the next step."
+            },
+            {
+              "html": "He lives three blocks away, so I wait in front of my house."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week10_grade07_page05.webp",
+          "artDirection": "12–13-year-old Colombian student context for “My Friend Picks Me Up In A Bike”. Scene based on: The small challenge becomes an opportunity to learn something useful. When I see him, I put on my helmet and climb onto the seat behind him. Other people influence the moment even . warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The small challenge becomes an opportunity to learn something useful."
+            },
+            {
+              "html": "When I see him, I put on my helmet and climb onto the seat behind him."
+            },
+            {
+              "html": "Other people influence the moment even when they are not at the center of the story."
+            },
+            {
+              "html": "Camilo pedals fast, and the wind blows through my hair."
+            },
+            {
+              "html": "the main character's feelings begin to change as new information appears."
+            },
+            {
+              "html": "We pass by shops, people walking their dogs, and a small park."
+            }
+          ],
+          "wordCount": 75
+        }
+      ],
+      "practiceWords": [
+        "bike",
+        "helmet",
+        "wind",
+        "park",
+        "sandwiches",
+        "basketball",
+        "chips",
+        "soda",
+        "ride"
+      ],
+      "vocabulary": [
+        {
+          "word": "bike",
+          "definition": "a two-wheeled vehicle (bicicleta)"
+        },
+        {
+          "word": "helmet",
+          "definition": "protective headgear (casco)"
+        },
+        {
+          "word": "wind",
+          "definition": "moving air (viento)"
+        },
+        {
+          "word": "park",
+          "definition": "a public green space (parque)"
+        },
+        {
+          "word": "sandwiches",
+          "definition": "food made with bread and fillings (sandwiches)"
+        },
+        {
+          "word": "basketball",
+          "definition": "a sport played with a ball (baloncesto)"
+        },
+        {
+          "word": "chips",
+          "definition": "thin slices of fried potato (papas fritas)"
+        },
+        {
+          "word": "soda",
+          "definition": "a carbonated drink (refresco)"
+        },
+        {
+          "word": "ride",
+          "definition": "a trip on a vehicle (paseo)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "How does Camilo pick up the narrator?",
+          "options": [
+            "By bike",
+            "By car",
+            "By bus"
+          ],
+          "answer": "By bike"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "What does the narrator put on before riding?",
+          "options": [
+            "A helmet",
+            "A jacket",
+            "Gloves"
+          ],
+          "answer": "A helmet"
+        },
+        {
+          "skill": "main idea",
+          "question": "What do they pass by on their ride?",
+          "options": [
+            "Shops and a park",
+            "A lake",
+            "A school"
+          ],
+          "answer": "Shops and a park"
+        },
+        {
+          "skill": "simple inference",
+          "question": "Where do they meet their friends?",
+          "options": [
+            "At the basketball court",
+            "At the swimming pool",
+            "At the library"
+          ],
+          "answer": "At the basketball court"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What do they buy after playing?",
+          "options": [
+            "Chips and soda",
+            "Ice cream",
+            "Sandwiches"
+          ],
+          "answer": "Chips and soda"
+        }
+      ],
+      "cover": "../assets/images/week10_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "My New Pet",
+      "minimumWordTarget": 450,
+      "wordCount": 457,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week10_grade08_page01.webp",
+          "artDirection": "13–14-year-old Colombian student context for “My New Pet”. Scene based on: My family and I are adopting a dog from the shelter. The situation becomes more complicated because the main character must balance what is wanted with what the moment requires. We. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "My family and I are adopting a <b>dog</b> from the <b>shelter</b>."
+            },
+            {
+              "html": "The situation becomes more complicated because the main character must balance what is wanted with what the moment requires."
+            },
+            {
+              "html": "We chose a friendly <b>puppy</b> with brown fur and white paws."
+            },
+            {
+              "html": "A detail that seemed small at first now helps explain the problem."
+            },
+            {
+              "html": "When we arrive, the <b>volunteers</b> show us his picture and tell us his name is <b>Bruno</b>."
+            },
+            {
+              "html": "Different reactions show that people can understand the same event in different ways."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week10_grade08_page02.webp",
+          "artDirection": "13–14-year-old Colombian student context for “My New Pet”. Scene based on: I hold Bruno's paw, and he wags his tail. The problem affects more than one person and changes how the group responds. We fill out some forms and take him to our home. the main cha. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "I hold Bruno's <b>paw</b>, and he wags his <b>tail</b>."
+            },
+            {
+              "html": "The problem affects more than one person and changes how the group responds."
+            },
+            {
+              "html": "We fill out some forms and take him to our home."
+            },
+            {
+              "html": "the main character begins to see that acting quickly is not always the same as acting wisely."
+            },
+            {
+              "html": "At home, Bruno explores the <b>yard</b>."
+            },
+            {
+              "html": "The setting creates realistic limits that influence what can happen next."
+            },
+            {
+              "html": "He sniffs the <b>flowers</b> and chases a <b>butterfly</b>."
+            }
+          ],
+          "wordCount": 75
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week10_grade08_page03.webp",
+          "artDirection": "13–14-year-old Colombian student context for “My New Pet”. Scene based on: Expressions and actions reveal feelings that are not always stated directly. We give him a toy and some treats. The consequence grows naturally from a decision made only a short ti. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Expressions and actions reveal feelings that are not always stated directly."
+            },
+            {
+              "html": "We give him a toy and some treats."
+            },
+            {
+              "html": "The consequence grows naturally from a decision made only a short time earlier."
+            },
+            {
+              "html": "Later, I teach him to sit and shake hands."
+            },
+            {
+              "html": "A practical response appears when the characters stop and consider another option."
+            },
+            {
+              "html": "He learns quickly because he wants to please us."
+            },
+            {
+              "html": "The experience becomes useful when the main character connects the immediate problem with a larger responsibility."
+            }
+          ],
+          "wordCount": 78
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week10_grade08_page04.webp",
+          "artDirection": "13–14-year-old Colombian student context for “My New Pet”. Scene based on: In the evening, Bruno sleeps in his bed and dreams of running in the park. The situation becomes more complicated because the main character must balance what is wanted with what t. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "In the evening, Bruno sleeps in his bed and dreams of running in the park."
+            },
+            {
+              "html": "The situation becomes more complicated because the main character must balance what is wanted with what the moment requires."
+            },
+            {
+              "html": "Tomorrow, we are going to take Bruno for a walk in the park."
+            },
+            {
+              "html": "A detail that seemed small at first now helps explain the problem."
+            },
+            {
+              "html": "Later, different reactions show that people can understand the same event in different ways."
+            }
+          ],
+          "wordCount": 73
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week10_grade08_page05.webp",
+          "artDirection": "13–14-year-old Colombian student context for “My New Pet”. Scene based on: My family and I are adopting a dog from the shelter. The problem affects more than one person and changes how the group responds. We chose a friendly puppy with brown fur and white. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "My family and I are adopting a dog from the shelter."
+            },
+            {
+              "html": "The problem affects more than one person and changes how the group responds."
+            },
+            {
+              "html": "We chose a friendly puppy with brown fur and white paws."
+            },
+            {
+              "html": "the main character begins to see that acting quickly is not always the same as acting wisely."
+            },
+            {
+              "html": "When we arrive, the volunteers show us his picture and tell us his name is Bruno."
+            },
+            {
+              "html": "The setting creates realistic limits that influence what can happen next."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week10_grade08_page06.webp",
+          "artDirection": "13–14-year-old Colombian student context for “My New Pet”. Scene based on: I hold Bruno's paw, and he wags his tail. Expressions and actions reveal feelings that are not always stated directly. We fill out some forms and take him to our home. The conseque. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "I hold Bruno's paw, and he wags his tail."
+            },
+            {
+              "html": "Expressions and actions reveal feelings that are not always stated directly."
+            },
+            {
+              "html": "We fill out some forms and take him to our home."
+            },
+            {
+              "html": "The consequence grows naturally from a decision made only a short time earlier."
+            },
+            {
+              "html": "At home, Bruno explores the yard."
+            },
+            {
+              "html": "A practical response appears when the characters stop and consider another option."
+            },
+            {
+              "html": "He sniffs the flowers and chases a butterfly."
+            }
+          ],
+          "wordCount": 70
+        }
+      ],
+      "practiceWords": [
+        "dog",
+        "shelter",
+        "puppy",
+        "volunteers",
+        "Bruno",
+        "paw",
+        "tail",
+        "yard",
+        "flowers",
+        "butterfly"
+      ],
+      "vocabulary": [
+        {
+          "word": "dog",
+          "definition": "a common pet (perro)"
+        },
+        {
+          "word": "shelter",
+          "definition": "a place for homeless animals (refugio)"
+        },
+        {
+          "word": "puppy",
+          "definition": "a young dog (cachorro)"
+        },
+        {
+          "word": "volunteers",
+          "definition": "people who work without pay (voluntarios)"
+        },
+        {
+          "word": "Bruno",
+          "definition": "a name for a pet (Bruno)"
+        },
+        {
+          "word": "paw",
+          "definition": "an animal's foot (pata)"
+        },
+        {
+          "word": "tail",
+          "definition": "an animal's rear appendage (cola)"
+        },
+        {
+          "word": "yard",
+          "definition": "an outdoor area (patio)"
+        },
+        {
+          "word": "flowers",
+          "definition": "colorful plant blooms (flores)"
+        },
+        {
+          "word": "butterfly",
+          "definition": "a flying insect with colorful wings (mariposa)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Where does the family get Bruno from?",
+          "options": [
+            "A shelter",
+            "A pet store",
+            "A friend"
+          ],
+          "answer": "A shelter"
+        },
+        {
+          "skill": "inference",
+          "question": "What color is Bruno's fur?",
+          "options": [
+            "Brown with white paws",
+            "Black",
+            "White"
+          ],
+          "answer": "Brown with white paws"
+        },
+        {
+          "skill": "purpose",
+          "question": "What does Bruno do in the yard?",
+          "options": [
+            "Sniffs flowers and chases a butterfly",
+            "Digs holes",
+            "Barks at birds"
+          ],
+          "answer": "Sniffs flowers and chases a butterfly"
+        },
+        {
+          "skill": "main idea",
+          "question": "What does the narrator teach Bruno?",
+          "options": [
+            "To sit and shake hands",
+            "To roll over",
+            "To fetch"
+          ],
+          "answer": "To sit and shake hands"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Where does Bruno sleep?",
+          "options": [
+            "In his bed",
+            "On the couch",
+            "On the floor"
+          ],
+          "answer": "In his bed"
+        }
+      ],
+      "cover": "../assets/images/week10_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "Who Is My Super Hero",
+      "minimumWordTarget": 500,
+      "wordCount": 512,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week10_grade09_page01.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Who Is My Super Hero”. Scene based on: My hero is my older brother, David. The situation requires more than a quick reaction, so David considers responsibilities and possible consequences. He is taller and stronger than. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "My <b>hero</b> is my older brother, David."
+            },
+            {
+              "html": "The situation requires more than a quick reaction, so David considers responsibilities and possible consequences."
+            },
+            {
+              "html": "He is <b>taller</b> and <b>stronger</b> than me."
+            },
+            {
+              "html": "What begins as an ordinary problem gradually reveals a larger issue about judgment and communication."
+            },
+            {
+              "html": "When I was little, David helped me ride my <b>bike</b> without training wheels."
+            },
+            {
+              "html": "David learns that being independent can also mean knowing when to ask for accurate information."
+            },
+            {
+              "html": "At school, he helps me with my <b>homework</b> every day."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week10_grade09_page02.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Who Is My Super Hero”. Scene based on: Several details in the setting influence the decision and make the situation more realistic. He explains math problems step by step until I understand. The experience challenges Da. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Several details in the setting influence the decision and make the situation more realistic."
+            },
+            {
+              "html": "He explains <b>math</b> problems step by step until I understand."
+            },
+            {
+              "html": "The experience challenges David's first assumption and encourages a more careful response."
+            },
+            {
+              "html": "When I feel scared about trying new things, David encourages me to be <b>brave</b>."
+            },
+            {
+              "html": "Earlier choices become connected with later results, making the cause and effect easier to see."
+            },
+            {
+              "html": "He once saved me when a dog chased me near our house."
+            },
+            {
+              "html": "A practical solution appears only after David considers more than one option."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week10_grade09_page03.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Who Is My Super Hero”. Scene based on: I look up to his kindness, his patience, and his work ethic. Respectful communication helps reduce tension even before the whole problem is solved. In our neighborhood, people resp. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "I look up to his <b>kindness</b>, his <b>patience</b>, and his <b>work ethic</b>."
+            },
+            {
+              "html": "Respectful communication helps reduce tension even before the whole problem is solved."
+            },
+            {
+              "html": "In our neighborhood, people respect David because he always helps elders."
+            },
+            {
+              "html": "David's response becomes more mature as emotion gives way to planning."
+            },
+            {
+              "html": "My brother works hard in a part-time job but still makes time for me."
+            },
+            {
+              "html": "By the end of this part, the experience has changed the way David approaches the problem."
+            },
+            {
+              "html": "I want to be like him when I grow up and help others as he does."
+            }
+          ],
+          "wordCount": 92
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week10_grade09_page04.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Who Is My Super Hero”. Scene based on: The situation requires more than a quick reaction, so David considers responsibilities and possible consequences. For now, I admire him and try to make him proud. What begins as an. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The situation requires more than a quick reaction, so David considers responsibilities and possible consequences."
+            },
+            {
+              "html": "For now, I admire him and try to make him proud."
+            },
+            {
+              "html": "What begins as an ordinary problem gradually reveals a larger issue about judgment and communication."
+            },
+            {
+              "html": "Later, david learns that being independent can also mean knowing when to ask for accurate information."
+            },
+            {
+              "html": "My hero is my older brother, David."
+            },
+            {
+              "html": "Several details in the setting influence the decision and make the situation more realistic."
+            }
+          ],
+          "wordCount": 78
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week10_grade09_page05.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Who Is My Super Hero”. Scene based on: He is taller and stronger than me. The experience challenges David's first assumption and encourages a more careful response. When I was little, David helped me ride my bike withou. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "He is taller and stronger than me."
+            },
+            {
+              "html": "The experience challenges David's first assumption and encourages a more careful response."
+            },
+            {
+              "html": "When I was little, David helped me ride my bike without training wheels."
+            },
+            {
+              "html": "Earlier choices become connected with later results, making the cause and effect easier to see."
+            },
+            {
+              "html": "At school, he helps me with my homework every day."
+            },
+            {
+              "html": "A practical solution appears only after David considers more than one option."
+            },
+            {
+              "html": "He explains math problems step by step until I understand."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week10_grade09_page06.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Who Is My Super Hero”. Scene based on: Respectful communication helps reduce tension even before the whole problem is solved. When I feel scared about trying new things, David encourages me to be brave. David's response. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Respectful communication helps reduce tension even before the whole problem is solved."
+            },
+            {
+              "html": "When I feel scared about trying new things, David encourages me to be brave."
+            },
+            {
+              "html": "David's response becomes more mature as emotion gives way to planning."
+            },
+            {
+              "html": "He once saved me when a dog chased me near our house."
+            },
+            {
+              "html": "By the end of this part, the experience has changed the way David approaches the problem."
+            },
+            {
+              "html": "I look up to his kindness, his patience, and his work ethic."
+            },
+            {
+              "html": "The situation requires more than a quick reaction, so David considers responsibilities and possible consequences."
+            }
+          ],
+          "wordCount": 92
+        }
+      ],
+      "practiceWords": [
+        "hero",
+        "taller",
+        "stronger",
+        "bike",
+        "homework",
+        "math",
+        "brave",
+        "kindness",
+        "patience",
+        "work ethic"
+      ],
+      "vocabulary": [
+        {
+          "word": "hero",
+          "definition": "an admired person (héroe)"
+        },
+        {
+          "word": "taller",
+          "definition": "of greater height (más alto)"
+        },
+        {
+          "word": "stronger",
+          "definition": "having more strength (más fuerte)"
+        },
+        {
+          "word": "bike",
+          "definition": "a two-wheeled vehicle (bicicleta)"
+        },
+        {
+          "word": "homework",
+          "definition": "school assignments (tarea)"
+        },
+        {
+          "word": "math",
+          "definition": "a subject involving numbers (matemáticas)"
+        },
+        {
+          "word": "brave",
+          "definition": "showing courage (valiente)"
+        },
+        {
+          "word": "kindness",
+          "definition": "quality of being friendly (amabilidad)"
+        },
+        {
+          "word": "patience",
+          "definition": "ability to wait calmly (paciencia)"
+        },
+        {
+          "word": "work ethic",
+          "definition": "moral principles about work (ética laboral)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Who is the narrator's hero?",
+          "options": [
+            "His older brother David",
+            "His father",
+            "His teacher"
+          ],
+          "answer": "His older brother David"
+        },
+        {
+          "skill": "inference",
+          "question": "What did David help the narrator learn?",
+          "options": [
+            "To ride a bike",
+            "To swim",
+            "To read"
+          ],
+          "answer": "To ride a bike"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "How does David help at school?",
+          "options": [
+            "With homework",
+            "By talking to teachers",
+            "By carrying books"
+          ],
+          "answer": "With homework"
+        },
+        {
+          "skill": "main idea",
+          "question": "What did David protect the narrator from?",
+          "options": [
+            "A dog",
+            "A bully",
+            "A storm"
+          ],
+          "answer": "A dog"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Why do people respect David?",
+          "options": [
+            "Because he helps elders and children",
+            "Because he's rich",
+            "Because he's famous"
+          ],
+          "answer": "Because he helps elders and children"
+        }
+      ],
+      "cover": "../assets/images/week10_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "Controlling My Celphone Time",
+      "minimumWordTarget": 600,
+      "wordCount": 602,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week10_grade10_page01.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Controlling My Celphone Time”. Scene based on: I spend too much time on my phone, and my grades are dropping. The conflict becomes more significant when the main character realizes that the easiest option may not be the most re. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "I spend too much time on my <b>phone</b>, and my <b>grades</b> are dropping."
+            },
+            {
+              "html": "The conflict becomes more significant when the main character realizes that the easiest option may not be the most responsible one."
+            },
+            {
+              "html": "Every morning, I check <b>social media</b> before getting ready."
+            },
+            {
+              "html": "The situation requires comparing alternatives, anticipating consequences, and communicating clearly."
+            },
+            {
+              "html": "In class, I sneak my phone under the desk to watch <b>videos</b>."
+            },
+            {
+              "html": "Personal decisions affect other people, so the main character has to think beyond the immediate goal."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week10_grade10_page02.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Controlling My Celphone Time”. Scene based on: My teacher noticed, and she told me to leave it in my backpack. A detail introduced earlier becomes relevant again and changes how the problem is understood. I feel anxious without. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "My <b>teacher</b> noticed, and she told me to leave it in my <b>backpack</b>."
+            },
+            {
+              "html": "A detail introduced earlier becomes relevant again and changes how the problem is understood."
+            },
+            {
+              "html": "I feel <b>anxious</b> without it, but I want to improve my grades."
+            },
+            {
+              "html": "Progress comes through effort, negotiation, and a willingness to adjust the original plan."
+            },
+            {
+              "html": "I decide to set a daily <b>limit</b>: no more than one hour of <b>screen time</b> after homework."
+            },
+            {
+              "html": "Information becomes useful only after the main character checks it carefully instead of accepting it immediately."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week10_grade10_page03.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Controlling My Celphone Time”. Scene based on: My mom agrees to help: she hides my charger at night. As pressure increases, the main character separates emotional reactions from the practical facts of the situation. At school, . mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "My mom agrees to help: she hides my <b>charger</b> at night."
+            },
+            {
+              "html": "As pressure increases, the main character separates emotional reactions from the practical facts of the situation."
+            },
+            {
+              "html": "At school, I focus on my books and write notes by hand."
+            },
+            {
+              "html": "The way the main character asks questions and considers other perspectives shows growing maturity."
+            },
+            {
+              "html": "After a week, my teacher says she sees more effort."
+            },
+            {
+              "html": "Responsibility becomes visible through preparation, listening, correction, and follow-through."
+            },
+            {
+              "html": "Good job!"
+            },
+            {
+              "html": "The final choice matters because it considers both immediate needs and longer-term consequences."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week10_grade10_page04.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Controlling My Celphone Time”. Scene based on: I feel proud because I'm doing better in math and English. The conflict becomes more significant when the main character realizes that the easiest option may not be the most respon. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "I feel proud because I'm doing better in math and English."
+            },
+            {
+              "html": "The conflict becomes more significant when the main character realizes that the easiest option may not be the most responsible one."
+            },
+            {
+              "html": "My friends notice I'm less distracted, and they ask for study tips."
+            },
+            {
+              "html": "The situation requires comparing alternatives, anticipating consequences, and communicating clearly."
+            },
+            {
+              "html": "If I succeed, my mom will let me keep my phone."
+            },
+            {
+              "html": "Personal decisions affect other people, so the main character has to think beyond the immediate goal."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week10_grade10_page05.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Controlling My Celphone Time”. Scene based on: Later, a detail introduced earlier becomes relevant again and changes how the problem is understood. I spend too much time on my phone, and my grades are dropping. Progress comes t. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Later, a detail introduced earlier becomes relevant again and changes how the problem is understood."
+            },
+            {
+              "html": "I spend too much time on my phone, and my grades are dropping."
+            },
+            {
+              "html": "Progress comes through effort, negotiation, and a willingness to adjust the original plan."
+            },
+            {
+              "html": "Every morning, I check social media before getting ready."
+            },
+            {
+              "html": "Information becomes useful only after the main character checks it carefully instead of accepting it immediately."
+            },
+            {
+              "html": "In class, I sneak my phone under the desk to watch videos."
+            },
+            {
+              "html": "As pressure increases, the main character separates emotional reactions from the practical facts of the situation."
+            }
+          ],
+          "wordCount": 94
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week10_grade10_page06.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Controlling My Celphone Time”. Scene based on: My teacher noticed, and she told me to leave it in my backpack. The way the main character asks questions and considers other perspectives shows growing maturity. I feel anxious wi. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "My teacher noticed, and she told me to leave it in my backpack."
+            },
+            {
+              "html": "The way the main character asks questions and considers other perspectives shows growing maturity."
+            },
+            {
+              "html": "I feel anxious without it, but I want to improve my grades."
+            },
+            {
+              "html": "Responsibility becomes visible through preparation, listening, correction, and follow-through."
+            },
+            {
+              "html": "I decide to set a daily limit: no more than one hour of screen time after homework."
+            },
+            {
+              "html": "The final choice matters because it considers both immediate needs and longer-term consequences."
+            },
+            {
+              "html": "My mom agrees to help: she hides my charger at night."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week10_grade10_page07.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Controlling My Celphone Time”. Scene based on: The conflict becomes more significant when the main character realizes that the easiest option may not be the most responsible one. At school, I focus on my books and write notes b. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The conflict becomes more significant when the main character realizes that the easiest option may not be the most responsible one."
+            },
+            {
+              "html": "At school, I focus on my books and write notes by hand."
+            },
+            {
+              "html": "The situation requires comparing alternatives, anticipating consequences, and communicating clearly."
+            },
+            {
+              "html": "After a week, my teacher says she sees more effort."
+            },
+            {
+              "html": "Personal decisions affect other people, so the main character has to think beyond the immediate goal."
+            },
+            {
+              "html": "Good job!"
+            },
+            {
+              "html": "A detail introduced earlier becomes relevant again and changes how the problem is understood."
+            }
+          ],
+          "wordCount": 85
+        }
+      ],
+      "practiceWords": [
+        "phone",
+        "grades",
+        "social media",
+        "videos",
+        "teacher",
+        "backpack",
+        "anxious",
+        "limit",
+        "screen time",
+        "charger"
+      ],
+      "vocabulary": [
+        {
+          "word": "phone",
+          "definition": "a mobile device (teléfono)"
+        },
+        {
+          "word": "grades",
+          "definition": "academic scores (calificaciones)"
+        },
+        {
+          "word": "social media",
+          "definition": "online platforms (redes sociales)"
+        },
+        {
+          "word": "videos",
+          "definition": "moving visual content (videos)"
+        },
+        {
+          "word": "teacher",
+          "definition": "an educator (profesor)"
+        },
+        {
+          "word": "backpack",
+          "definition": "a bag carried on the back (mochila)"
+        },
+        {
+          "word": "anxious",
+          "definition": "feeling nervous (ansioso)"
+        },
+        {
+          "word": "limit",
+          "definition": "a restriction (límite)"
+        },
+        {
+          "word": "screen time",
+          "definition": "time spent on devices (tiempo de pantalla)"
+        },
+        {
+          "word": "charger",
+          "definition": "device for charging batteries (cargador)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Why is the narrator's mom upset?",
+          "options": [
+            "Because of too much phone time",
+            "Because of bad grades",
+            "Because of a messy room"
+          ],
+          "answer": "Because of too much phone time"
+        },
+        {
+          "skill": "inference",
+          "question": "What does the narrator do in class with the phone?",
+          "options": [
+            "Watches videos under the desk",
+            "Texts friends",
+            "Plays games"
+          ],
+          "answer": "Watches videos under the desk"
+        },
+        {
+          "skill": "purpose",
+          "question": "What limit does the narrator set?",
+          "options": [
+            "One hour of screen time after homework",
+            "No phone on weekends",
+            "Only social media in the evening"
+          ],
+          "answer": "One hour of screen time after homework"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "How does the mom help?",
+          "options": [
+            "Hides the charger at night",
+            "Takes the phone away",
+            "Sets parental controls"
+          ],
+          "answer": "Hides the charger at night"
+        },
+        {
+          "skill": "main idea",
+          "question": "What improves after a week?",
+          "options": [
+            "The teacher notices more effort",
+            "The phone battery lasts longer",
+            "The mom stops worrying"
+          ],
+          "answer": "The teacher notices more effort"
+        }
+      ],
+      "cover": "../assets/images/week10_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "Planing My Future In Logistics",
+      "minimumWordTarget": 700,
+      "wordCount": 704,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week10_grade11_page01.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Planing My Future In Logistics”. Scene based on: I need to decide what to study after high school. The episode becomes more complex because the main character must interpret not only what happened but why people respond different. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "I need to decide what to study after <b>high school</b>."
+            },
+            {
+              "html": "The episode becomes more complex because the main character must interpret not only what happened but why people respond differently."
+            },
+            {
+              "html": "<b>Logistics</b> seems interesting because I like organizing things."
+            },
+            {
+              "html": "A personal <b>decision</b> can have broader implications when trust, safety, reputation, or future plans are involved."
+            },
+            {
+              "html": "My cousin works in a <b>warehouse</b>, and he says the pay is decent."
+            },
+            {
+              "html": "the main character's first interpretation is understandable, but later details encourage a more nuanced view."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week10_grade11_page02.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Planing My Future In Logistics”. Scene based on: I must improve my math skills because it's essential for logistics. Mature decision-making sometimes requires changing an initial assumption when better evidence appears. Next mont. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "I must improve my <b>math</b> skills because it's essential for logistics."
+            },
+            {
+              "html": "Mature decision-making sometimes requires changing an initial assumption when better evidence appears."
+            },
+            {
+              "html": "Next month, I am visiting a <b>campus</b> to learn more."
+            },
+            {
+              "html": "The social environment influences the main character, although personal agency still matters in the final choice."
+            },
+            {
+              "html": "The <b>application</b> process may be <b>competitive</b>, but I'll try my best."
+            },
+            {
+              "html": "Earlier experiences influence later behavior and make the character's development more coherent."
+            },
+            {
+              "html": "My parents want me to succeed, so they support my decision."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week10_grade11_page03.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Planing My Future In Logistics”. Scene based on: The story shows that consequences can include both difficulties and opportunities for growth. I will attend workshops to prepare for the entrance exam. Communication becomes a form. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The story shows that consequences can include both difficulties and opportunities for growth."
+            },
+            {
+              "html": "I will attend <b>workshops</b> to prepare for the <b>entrance exam</b>."
+            },
+            {
+              "html": "Communication becomes a form of responsibility when the main character explains intentions or verifies information."
+            },
+            {
+              "html": "By next year, I hope to be accepted into a good program."
+            },
+            {
+              "html": "The setting shapes the pressures, resources, and alternatives that are realistically available."
+            },
+            {
+              "html": "This career might open doors to better opportunities for my family."
+            },
+            {
+              "html": "By the end, the main character responds in a more deliberate and informed way, even if every problem is not completely solved."
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week10_grade11_page04.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Planing My Future In Logistics”. Scene based on: Later, the episode becomes more complex because the main character must interpret not only what happened but why people respond differently. I need to decide what to study after hi. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Later, the episode becomes more complex because the main character must interpret not only what happened but why people respond differently."
+            },
+            {
+              "html": "I need to decide what to study after high school."
+            },
+            {
+              "html": "A personal decision can have broader implications when trust, safety, reputation, or future plans are involved."
+            },
+            {
+              "html": "Logistics seems interesting because I like organizing things."
+            },
+            {
+              "html": "the main character's first interpretation is understandable, but later details encourage a more nuanced view."
+            },
+            {
+              "html": "My cousin works in a warehouse, and he says the pay is decent."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week10_grade11_page05.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Planing My Future In Logistics”. Scene based on: Mature decision-making sometimes requires changing an initial assumption when better evidence appears. I must improve my math skills because it's essential for logistics. The socia. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Mature decision-making sometimes requires changing an initial assumption when better evidence appears."
+            },
+            {
+              "html": "I must improve my math skills because it's essential for logistics."
+            },
+            {
+              "html": "The social environment influences the main character, although personal agency still matters in the final choice."
+            },
+            {
+              "html": "Next month, I am visiting a campus to learn more."
+            },
+            {
+              "html": "Earlier experiences influence later behavior and make the character's development more coherent."
+            },
+            {
+              "html": "The application process may be competitive, but I'll try my best."
+            },
+            {
+              "html": "The story shows that consequences can include both difficulties and opportunities for growth."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week10_grade11_page06.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Planing My Future In Logistics”. Scene based on: My parents want me to succeed, so they support my decision. Communication becomes a form of responsibility when the main character explains intentions or verifies information. I wi. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "My parents want me to succeed, so they support my decision."
+            },
+            {
+              "html": "Communication becomes a form of responsibility when the main character explains intentions or verifies information."
+            },
+            {
+              "html": "I will attend workshops to prepare for the entrance exam."
+            },
+            {
+              "html": "The setting shapes the pressures, resources, and alternatives that are realistically available."
+            },
+            {
+              "html": "By next year, I hope to be accepted into a good program."
+            },
+            {
+              "html": "By the end, the main character responds in a more deliberate and informed way, even if every problem is not completely solved."
+            },
+            {
+              "html": "This career might open doors to better opportunities for my family."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week10_grade11_page07.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Planing My Future In Logistics”. Scene based on: The episode becomes more complex because the main character must interpret not only what happened but why people respond differently. Later, a personal decision can have broader im. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The episode becomes more complex because the main character must interpret not only what happened but why people respond differently."
+            },
+            {
+              "html": "Later, a personal decision can have broader implications when trust, safety, reputation, or future plans are involved."
+            },
+            {
+              "html": "I need to decide what to study after high school."
+            },
+            {
+              "html": "the main character's first interpretation is understandable, but later details encourage a more nuanced view."
+            },
+            {
+              "html": "Logistics seems interesting because I like organizing things."
+            },
+            {
+              "html": "Mature decision-making sometimes requires changing an initial assumption when better evidence appears."
+            },
+            {
+              "html": "My cousin works in a warehouse, and he says the pay is decent."
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week10_grade11_page08.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Planing My Future In Logistics”. Scene based on: The social environment influences the main character, although personal agency still matters in the final choice. I must improve my math skills because it's essential for logistics. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The social environment influences the main character, although personal agency still matters in the final choice."
+            },
+            {
+              "html": "I must improve my math skills because it's essential for logistics."
+            },
+            {
+              "html": "Earlier experiences influence later behavior and make the character's development more coherent."
+            },
+            {
+              "html": "Next month, I am visiting a campus to learn more."
+            },
+            {
+              "html": "The story shows that consequences can include both difficulties and opportunities for growth."
+            },
+            {
+              "html": "The application process may be competitive, but I'll try my best."
+            },
+            {
+              "html": "Communication becomes a form of responsibility when the main character explains intentions or verifies information."
+            }
+          ],
+          "wordCount": 88
+        }
+      ],
+      "practiceWords": [
+        "high school",
+        "logistics",
+        "warehouse",
+        "math",
+        "campus",
+        "application",
+        "competitive",
+        "decision",
+        "workshops",
+        "entrance exam"
+      ],
+      "vocabulary": [
+        {
+          "word": "high school",
+          "definition": "secondary education (colegio)"
+        },
+        {
+          "word": "logistics",
+          "definition": "management of goods (logística)"
+        },
+        {
+          "word": "warehouse",
+          "definition": "a storage facility (almacén)"
+        },
+        {
+          "word": "math",
+          "definition": "a subject involving numbers (matemáticas)"
+        },
+        {
+          "word": "campus",
+          "definition": "university grounds (campus)"
+        },
+        {
+          "word": "application",
+          "definition": "a formal request (solicitud)"
+        },
+        {
+          "word": "competitive",
+          "definition": "involving rivalry (competitivo)"
+        },
+        {
+          "word": "decision",
+          "definition": "a choice (decisión)"
+        },
+        {
+          "word": "workshops",
+          "definition": "training sessions (talleres)"
+        },
+        {
+          "word": "entrance exam",
+          "definition": "test for admission (examen de admisión)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "What career is the narrator considering?",
+          "options": [
+            "Logistics",
+            "Medicine",
+            "Teaching"
+          ],
+          "answer": "Logistics"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "Why does logistics interest the narrator?",
+          "options": [
+            "Because they like organizing things",
+            "Because it's easy",
+            "Because their parents suggested it"
+          ],
+          "answer": "Because they like organizing things"
+        },
+        {
+          "skill": "purpose",
+          "question": "What skills need improvement?",
+          "options": [
+            "Math skills",
+            "Writing skills",
+            "Art skills"
+          ],
+          "answer": "Math skills"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Where is the narrator visiting next month?",
+          "options": [
+            "A campus",
+            "A warehouse",
+            "A library"
+          ],
+          "answer": "A campus"
+        },
+        {
+          "skill": "main idea",
+          "question": "What will help prepare for the entrance exam?",
+          "options": [
+            "Workshops",
+            "Online courses",
+            "Private tutoring"
+          ],
+          "answer": "Workshops"
+        }
+      ],
+      "cover": "../assets/images/week10_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

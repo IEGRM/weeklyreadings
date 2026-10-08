@@ -1,0 +1,188 @@
+WEEKLY READINGS — WEEK 18 — PROMPTS PARA CHATGPT (UNA IMAGEN POR PROMPT)
+==============================================================================
+
+CÓMO FUNCIONA (resumen exacto del método usado en Weeks 12–17)
+1. Un chat NUEVO de ChatGPT por cada imagen (evita que se trabe a partir del 2.º prompt).
+2. En cada chat adjunto las fotos de referencia del grado (portada + page1 base) y pego UN solo prompt de este archivo.
+3. Cada prompt empieza con "Generate the image now:" y contiene, en este orden: formato 4:5 vertical -> estilo del grado (ver bloque de estilo) -> escena concreta con los personajes bloqueados -> regla de texto.
+4. Páginas interiores: CERO texto visible (sin letras, números ni logos). Portadas: SOLO el título exacto y, abajo, dos líneas: "Jony Rojas Ochoa" / "Reading Project shared by IEGRM".
+5. Reviso cada imagen (personajes consistentes, sin texto, sin duplicados) y la convierto en el navegador a WEBP 1122x1402 con el nombre exacto del JSON (week18_gradeXX_cover.webp / week18_gradeXX_pageNN.webp).
+6. Al terminar los 6 grados: ZIP por grado (Week18_Grade06_READY.zip ... Week18_Grade11_READY.zip) con solo las WEBP de ese grado, guardados en C:\xampp\htdocs\weeklyreadings.com\public\assets\images
+NOTA HONESTA: ChatGPT no puede descargar archivos en tu disco por sí mismo; las descargas las hago yo desde el navegador (con retraso de varios minutos hasta que aparecen en la carpeta) y yo armo los ZIP.
+
+CÓMO CONSTRUYO CADA PROMPT A PARTIR DEL JSON
+- "artDirection" del JSON da el ESTILO por grado (Pixar-like 3D / painterly / semi-realista / realista). Lo condenso en un "bloque de estilo" fijo y lo repito idéntico en TODAS las imágenes del grado.
+- "Scene based on:" del JSON da el ARGUMENTO por página (situación, presión, pistas, acción, comparación Nueva York, consecuencia, reflexión, reto de lectura). Lo traduzco a UNA escena visual concreta con los personajes del grado, sin palabras escritas.
+- Personajes del JSON (p. ej. Juan/María) se bloquean con edad, peinado y ropa fija; se repiten textualmente en cada prompt.
+- Se elimina cualquier concepto abstracto que ChatGPT pintaría como texto (chats, carteles, pantallas): las pantallas muestran solo íconos/formas.
+
+REGLAS ANTI-RECHAZO APRENDIDAS
+- No escribir "Pixar" ni "Disney": ChatGPT lo rechaza a veces (mensaje de "medidas de protección"). Usar "original 3D-rendered ... storybook illustration".
+- Adolescentes: vocabulario escolar y neutro; evitar "sad eyes", "empty classroom", ángulos bajos.
+- Si el chat se traba (sin imagen en ~90 s) -> chat nuevo y reenviar. Si repite una composición ya usada -> pedir otra composición.
+- Si se adjuntan las fotos base, añadir a cada prompt la línea: "Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes."
+
+
+##############################################################################
+GRADO 6 — "The Saturday Plan Changed" — 6° Grade / A1 Beginner — portada + 4 páginas = 5 imágenes
+##############################################################################
+BLOQUE DE ESTILO (fijo): original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream), cute rounded big-eyed child characters, soft subsurface lighting, gentle bright daylight, cozy sets, shallow depth of field
+PERSONAJES (fijos): Juan (11, short black hair, orange t-shirt) and Maria (11, two braids, lilac dress)
+
+--- week18_grade06_cover.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5 book cover, original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream), cute rounded big-eyed child characters, soft subsurface lighting, gentle bright daylight, cozy sets, shallow depth of field. At a Medellin Metro station platform, Juan (11, short black hair, orange t-shirt) looks at a plain paper note with a small calendar-and-star drawing, surprised, while Maria (11, two braids, lilac dress) watches him closely from beside a station pillar. The ONLY text: the title "The Saturday Plan Changed" in bubbly hand-lettered orange and deep blue letters with tiny sun and heart doodles; and at the bottom two lines of white/pale yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No other text, no logos.
+
+--- week18_grade06_page01.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream), cute rounded big-eyed child characters, soft subsurface lighting, gentle bright daylight, cozy sets, shallow depth of field. At a Medellin Metro station platform, Juan (11, short black hair, orange t-shirt) looks at a plain paper note with a small calendar-and-star drawing, surprised, while Maria (11, two braids, lilac dress) watches him closely from beside a station pillar. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade06_page02.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream), cute rounded big-eyed child characters, soft subsurface lighting, gentle bright daylight, cozy sets, shallow depth of field. On the Metro platform, Juan looks worried while a small group of classmates around him gesture and talk at the same time, each saying something different; Maria stands calmly at the edge. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade06_page03.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream), cute rounded big-eyed child characters, soft subsurface lighting, gentle bright daylight, cozy sets, shallow depth of field. Juan (11, short black hair, orange t-shirt) politely asks a friendly smiling Metro employee in a uniform for information at a help desk, Maria beside him; Juan makes a calm 'asking clearly' open-hand gesture. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade06_page04.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream), cute rounded big-eyed child characters, soft subsurface lighting, gentle bright daylight, cozy sets, shallow depth of field. Evening in a small cozy Medellin family apartment: Juan sits on his bed writing in a small notebook with a pencil, calm and thoughtful, a backpack and a school poster-free wall around him. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+##############################################################################
+GRADO 7 — "We Had To Change The Trip" — 7° Grade / A1 Advanced — portada + 5 páginas = 6 imágenes
+##############################################################################
+BLOQUE DE ESTILO (fijo): painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors
+PERSONAJES (fijos): Valeria (12, long wavy brown hair, yellow jacket) and Samuel (12, short dark hair, green hoodie)
+
+--- week18_grade07_cover.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5 book cover, painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors. Inside a Medellin library near the school, Valeria (12, long wavy brown hair, yellow jacket) holds a closed planner and a small paper note, looking surprised, while Samuel (12, short dark hair, green hoodie) watches her attentively from the next table. The ONLY text: the title "We Had To Change The Trip" in navy (first line) and green (second line) letters on a cream torn brush-stroke banner at the top, small leaf sprigs in the corners; and at the bottom two lines of navy text inside a cream rounded box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No other text, no logos.
+
+--- week18_grade07_page01.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors. Inside a Medellin library near the school, Valeria (12, long wavy brown hair, yellow jacket) holds a closed planner and a small paper note, looking surprised, while Samuel (12, short dark hair, green hoodie) watches her attentively from the next table. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade07_page02.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors. In the library, Valeria stands with a worried look while three students whisper-chat around her, each pointing a different way; Samuel listens quietly; bookshelves behind. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade07_page03.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors. At a library table, Valeria and Samuel lay out a notebook, a pencil and a simple hand-drawn map (no letters) and compare two clues with thoughtful faces. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade07_page04.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors. Valeria (12) calmly asks a kind librarian at the front desk to confirm a detail, Samuel next to her holding his backpack straps. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade07_page05.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors. Late afternoon outside the library: Valeria hands Samuel a small paper note to apologize and agree on a new plan; both smile with relief, golden sunlight on the street. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+##############################################################################
+GRADO 8 — "The Event Changed At The Last Minute" — 8° Grade / A2 Beginner — portada + 6 páginas = 7 imágenes
+##############################################################################
+BLOQUE DE ESTILO (fijo): original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses
+PERSONAJES (fijos): Camila (13, dark ponytail, red sports jersey) and Lucia (13, curly light-brown hair, teal hoodie)
+
+--- week18_grade08_cover.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5 book cover, original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses. On a Medellin hillside sports court at golden hour, Camila (13, dark ponytail, red sports jersey) holds a ball under one arm and looks at a coach who gestures toward the empty bleachers, while Lucia (13, curly light-brown hair, teal hoodie) watches Camila closely. The ONLY text: the title "The Event Changed At The Last Minute" in thick hand-lettered navy, green and orange letters with small ray accents; and at the bottom two lines of white/pale yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No other text, no logos.
+
+--- week18_grade08_page01.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses. On a Medellin hillside sports court at golden hour, Camila (13, dark ponytail, red sports jersey) holds a ball under one arm and looks at a coach who gestures toward the empty bleachers, while Lucia (13, curly light-brown hair, teal hoodie) watches Camila closely. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade08_page02.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses. On the sports court, Camila looks tense as teammates in a loose circle talk and gesture at the same time, each telling a different version; Lucia stays beside her. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade08_page03.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses. Camila and Lucia crouch over a clipboard-free hand-drawn schedule sketch on a bench (no letters), tapping two clues and weighing them with serious faces. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade08_page04.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses. Camila (13) walks up to the friendly coach and asks clearly with an open hand, Lucia backing her up; the court and hillside city glow behind them. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade08_page05.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses. In a bright Medellin classroom, Camila, Lucia and classmates watch a video call on a big screen with friendly teenagers from Brooklyn, New York, who smile and wave; the screen shows faces only. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade08_page06.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses. At sunset on the court, Camila sincerely apologizes to a teammate and they shake hands; Lucia smiles supportively; the changed plan feels settled. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+##############################################################################
+GRADO 9 — "The Plan That Cost More" — 9° Grade / A2 Advanced — portada + 6 páginas = 7 imágenes
+##############################################################################
+BLOQUE DE ESTILO (fijo): glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field
+PERSONAJES (fijos): Daniela (14, long straight dark hair, mustard sweater) and Mateo (14, short wavy dark hair, gray hoodie)
+
+--- week18_grade09_cover.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5 book cover, glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. In a small Medellin family apartment kitchen, Daniela (14, long straight dark hair, mustard sweater) holds a family planner and a small paper receipt with only icons, surprised, while Mateo (14, short wavy dark hair, gray hoodie) watches her closely from the doorway. The ONLY text: the title "The Plan That Cost More" in bold navy, green and orange hand-lettered letters with a soft white glow; and at the bottom two lines of white/pale yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No other text, no logos.
+
+--- week18_grade09_page01.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. In a small Medellin family apartment kitchen, Daniela (14, long straight dark hair, mustard sweater) holds a family planner and a small paper receipt with only icons, surprised, while Mateo (14, short wavy dark hair, gray hoodie) watches her closely from the doorway. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade09_page02.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. In the apartment living room, Daniela looks pressured as her mother and Mateo talk at once, each with a different version; open hands, a calculator on the table. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade09_page03.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. At the dining table, Daniela and Mateo compare two price sheets drawn as colored bars and icons (no letters) with a notebook and calculator, thinking carefully. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade09_page04.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Daniela (14) calmly calls a relative on her phone and asks a clear question, Mateo listening; warm evening window light. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade09_page05.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. In a Medellin classroom, Daniela, Mateo and classmates watch a video call on a big screen with friendly teenagers in a Manhattan subway-station setting, faces only; shared concern, no letters. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade09_page06.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. At the apartment door, Daniela sincerely apologizes to her mother, who hugs her gently; Mateo smiles; the plan has been changed together. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+##############################################################################
+GRADO 10 — "When The Route Changed" — 10° Grade / B1 Beginner — portada + 7 páginas = 8 imágenes
+##############################################################################
+BLOQUE DE ESTILO (fijo): painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere
+PERSONAJES (fijos): Mateo (16, short dark hair, school hoodie) and Isabella (16, long braid, denim jacket)
+
+--- week18_grade10_cover.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5 book cover, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. At a Medellin community center hall, Mateo (16, short dark hair, school hoodie) reads a notice-board paper drawn only with arrows and icons, looking surprised, while Isabella (16, long braid, denim jacket) notices him from across a table. The ONLY text: the title "When The Route Changed" in navy and green hand-lettered letters with a golden underline swoosh; and at the bottom two lines of white/pale yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No other text, no logos.
+
+--- week18_grade10_page01.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. At a Medellin community center hall, Mateo (16, short dark hair, school hoodie) reads a notice-board paper drawn only with arrows and icons, looking surprised, while Isabella (16, long braid, denim jacket) notices him from across a table. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade10_page02.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. In the hall, Mateo looks tense as several volunteers and teens argue softly with different gestures; Isabella stands near him, listening. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade10_page03.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Mateo and Isabella study a hand-drawn city route sketch on a table with a bus toy and two colored pins (no letters), reconsidering their first assumption. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade10_page04.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Mateo (16) speaks directly and respectfully to the center coordinator at a desk, asking to confirm the new route; Isabella nods. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade10_page05.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. In a Medellin classroom, Mateo, Isabella and classmates watch a video call on a big screen with friendly teenagers from a youth exchange in New York City, faces only. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade10_page06.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. At golden hour outside the center, Mateo sincerely apologizes to Isabella and they agree on the new route; both relieved. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade10_page07.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. In a Medellin classroom the next morning, a friendly teacher at a whiteboard drawn only with arrows and shapes (no letters) while Mateo and Isabella take notes in notebooks among attentive students. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+##############################################################################
+GRADO 11 — "The Schedule We Had To Renegotiate" — 11° Grade / B1+ — portada + 8 páginas = 9 imágenes
+##############################################################################
+BLOQUE DE ESTILO (fijo): realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors
+PERSONAJES (fijos): Daniela (17, long straight dark hair, casual outfit) and Nicolas (18, short dark hair, denim jacket)
+
+--- week18_grade11_cover.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5 book cover, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. In a busy local Medellin shopping area, Daniela (17, long straight dark hair, casual outfit) checks a printed work-shift sheet drawn only with colored blocks, surprised, while Nicolas (18, short dark hair, denim jacket) notices her from a nearby cafe table. The ONLY text: the title "The Schedule We Had To Renegotiate" in navy and green letters with an orange underline; and at the bottom two lines of white/pale yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No other text, no logos.
+
+--- week18_grade11_page01.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. In a busy local Medellin shopping area, Daniela (17, long straight dark hair, casual outfit) checks a printed work-shift sheet drawn only with colored blocks, surprised, while Nicolas (18, short dark hair, denim jacket) notices her from a nearby cafe table. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade11_page02.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. In the shopping area, Daniela looks pressured as three coworkers talk around her with different gestures; Nicolas stands calmly at her side. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade11_page03.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. At a cafe table, Daniela and Nicolas compare two schedule layouts as colored blocks on a notebook page (no letters) with a phone calendar showing only abstract icons, thinking carefully. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade11_page04.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. Daniela (17) politely asks the store manager, a friendly adult in a blouse, to renegotiate the shift, calm and clear, Nicolas waiting behind her. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade11_page05.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. In a Medellin classroom, Daniela, Nicolas and classmates join an online class with New York students on a big screen, faces only, friendly and attentive. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade11_page06.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. Golden hour on a Medellin street: Daniela sincerely apologizes to Nicolas for the last-minute change, and he responds with a forgiving nod. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade11_page07.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. At night in her bedroom, Daniela sits on her bed writing a reflection in a notebook, phone face-down beside her, warm lamp light. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week18_grade11_page08.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. In a Medellin high-school classroom, Daniela presents her ideas to attentive classmates and a friendly teacher, whiteboard behind her with simple shapes and arrows only. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+FIN. Total: 6 portadas + 36 páginas = 42 imágenes.

@@ -1,0 +1,2304 @@
+{
+  "week": 29,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 29",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "The Snack for the New Neighbor",
+      "minimumWordTarget": 350,
+      "wordCount": 365,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week29_grade06_page01.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Snack for the New Neighbor”, page 1. Scene based on: At the door of a small family home in Medellín after school, Sofía, 11, in her school uniform opens the door to a smiling woman and a shy girl of 10 holding a small bag of bread, while Sofía's brother Nico, 11, peeks from behind her. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "It is Wednesday, and school is over."
+            },
+            {
+              "html": "Sofía and her brother Nico are at home."
+            },
+            {
+              "html": "Their mother is in the <b>kitchen</b>."
+            },
+            {
+              "html": "Somebody knocks on the door."
+            },
+            {
+              "html": "Sofía opens it, and there is a woman with a girl."
+            },
+            {
+              "html": "“Hello! We are your new <b>neighbor</b>s,” the woman says."
+            },
+            {
+              "html": "“My name is Carmen, and this is my daughter, Mía.”"
+            },
+            {
+              "html": "“We live in the blue house next door.”"
+            },
+            {
+              "html": "Mía is ten, and she is very shy."
+            },
+            {
+              "html": "She is holding a small bag of bread."
+            },
+            {
+              "html": "“Come in, please!” Sofía’s mother says."
+            },
+            {
+              "html": "Carmen and Mía sit on the sofa in the living room."
+            },
+            {
+              "html": "Mía looks at the pictures on the wall."
+            }
+          ],
+          "wordCount": 105
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week29_grade06_page02.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Snack for the New Neighbor”, page 2. Scene based on: In a small kitchen, Sofía opens a nearly empty fridge showing only two arepas, one banana and a small juice box, while Nico looks worried and their mother puts four plates on the counter. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Sofía’s mother wants to offer a <b>snack</b>."
+            },
+            {
+              "html": "Sofía opens the <b>fridge</b> and looks inside."
+            },
+            {
+              "html": "There are only two arepas and one banana."
+            },
+            {
+              "html": "There is a small box of juice too."
+            },
+            {
+              "html": "“Mom, there is not much food,” Sofía whispers."
+            },
+            {
+              "html": "“Today is Wednesday. We buy food on Thursday.”"
+            },
+            {
+              "html": "Nico counts the people in the house."
+            },
+            {
+              "html": "There are five people, but there are only two arepas."
+            },
+            {
+              "html": "“It is not enough,” Sofía says, worried."
+            },
+            {
+              "html": "“Maybe we can say we are not <b>hungry</b>.”"
+            },
+            {
+              "html": "Nico shakes his head. “That is not true.”"
+            },
+            {
+              "html": "“We are hungry, and they are hungry too.”"
+            }
+          ],
+          "wordCount": 94
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week29_grade06_page03.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Snack for the New Neighbor”, page 3. Scene based on: In the kitchen, Nico cuts two arepas into small pieces on a big blue plate while Sofía slices a banana, and Mía shyly places her bag of fresh bread next to the plate; the two mothers smile in the doorway. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Nico has an idea."
+            },
+            {
+              "html": "“We can cut the arepas into small pieces.”"
+            },
+            {
+              "html": "“And we can cut the banana too.”"
+            },
+            {
+              "html": "Sofía puts everything on a big blue <b>plate</b>."
+            },
+            {
+              "html": "It looks like a small party snack."
+            },
+            {
+              "html": "Then Mía comes into the kitchen."
+            },
+            {
+              "html": "She opens her bag of bread."
+            },
+            {
+              "html": "“This is for your family,” she says quietly."
+            },
+            {
+              "html": "“My mom bought it this morning.”"
+            },
+            {
+              "html": "Now there are arepas, banana, and fresh bread."
+            },
+            {
+              "html": "“Let’s <b>share</b> everything,” Sofía says."
+            }
+          ],
+          "wordCount": 73
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week29_grade06_page04.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Snack for the New Neighbor”, page 4. Scene based on: Around a wooden table in the small living room, Sofía, Nico, Mía and the two mothers sit and eat small pieces of arepa, banana and bread from one blue plate, laughing together, juice in small glasses. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Everybody sits at the <b>table</b> together."
+            },
+            {
+              "html": "Nico brings one more <b>chair</b> from his room."
+            },
+            {
+              "html": "The juice is not much, so everyone gets half a glass."
+            },
+            {
+              "html": "Mía is not shy now. She is laughing."
+            },
+            {
+              "html": "“Your arepas are delicious,” she says."
+            },
+            {
+              "html": "“Your bread is delicious too,” Sofía answers."
+            },
+            {
+              "html": "Carmen and Sofía’s mother talk about the neighborhood."
+            },
+            {
+              "html": "After the snack, Mía and Sofía play together."
+            },
+            {
+              "html": "That night, Sofía thinks about the afternoon."
+            },
+            {
+              "html": "Two arepas were not enough for five people."
+            },
+            {
+              "html": "But together, it was a good snack."
+            },
+            {
+              "html": "“We can <b>welcome</b> people with a little,” she writes."
+            }
+          ],
+          "wordCount": 93
+        }
+      ],
+      "practiceWords": [
+        "neighbor",
+        "snack",
+        "kitchen",
+        "fridge",
+        "plate",
+        "hungry",
+        "share",
+        "table",
+        "chair",
+        "welcome"
+      ],
+      "vocabulary": [
+        {
+          "word": "neighbor",
+          "definition": "a person who lives near you (vecino)"
+        },
+        {
+          "word": "snack",
+          "definition": "a small amount of food between meals (refrigerio)"
+        },
+        {
+          "word": "kitchen",
+          "definition": "the room where people cook (cocina)"
+        },
+        {
+          "word": "fridge",
+          "definition": "a cold box for keeping food fresh (nevera)"
+        },
+        {
+          "word": "plate",
+          "definition": "a flat dish for food (plato)"
+        },
+        {
+          "word": "hungry",
+          "definition": "wanting to eat (hambriento)"
+        },
+        {
+          "word": "share",
+          "definition": "to give part of something to others (compartir)"
+        },
+        {
+          "word": "table",
+          "definition": "furniture with a flat top and legs (mesa)"
+        },
+        {
+          "word": "chair",
+          "definition": "a seat for one person (silla)"
+        },
+        {
+          "word": "welcome",
+          "definition": "to greet a new person in a friendly way (dar la bienvenida)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "Who are Carmen and Mía?",
+          "options": [
+            "Two women who sell bread in the neighborhood",
+            "Sofía’s aunt and cousin who are visiting from another city",
+            "Nico’s teacher and her daughter from school",
+            "The new neighbors who live in the blue house next door"
+          ],
+          "answer": "The new neighbors who live in the blue house next door"
+        },
+        {
+          "skill": "sequence",
+          "question": "What happens AFTER Nico cuts the arepas into pieces?",
+          "options": [
+            "Mía opens her bag of bread to share it.",
+            "Sofía opens the fridge and looks inside.",
+            "Carmen says that they are new neighbors.",
+            "Somebody knocks on the door of the house."
+          ],
+          "answer": "Mía opens her bag of bread to share it."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “Let’s share everything,” Sofía says. Here, “share” means…",
+          "options": [
+            "to buy more food at the big store on Thursday",
+            "to give part of something to other people",
+            "to cut food into very big pieces",
+            "to keep something only for yourself"
+          ],
+          "answer": "to give part of something to other people"
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the story mainly about?",
+          "options": [
+            "A boy cooks a big dinner for five people.",
+            "A family goes to the supermarket to buy food on Thursday.",
+            "A family welcomes new neighbors by sharing a small snack.",
+            "Two girls fight about a bag of bread."
+          ],
+          "answer": "A family welcomes new neighbors by sharing a small snack."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why does Sofía first want to say “we are not hungry”?",
+          "options": [
+            "She ate a very big lunch at school earlier that day.",
+            "She does not like arepas or bananas.",
+            "She wants the neighbors to leave quickly.",
+            "She feels embarrassed that there is not much food."
+          ],
+          "answer": "She feels embarrassed that there is not much food."
+        }
+      ],
+      "cover": "../assets/images/week29_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "The Suitcase That Was Too Heavy",
+      "minimumWordTarget": 400,
+      "wordCount": 429,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week29_grade07_page01.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Suitcase That Was Too Heavy”, page 1. Scene based on: In a messy bedroom in a Medellín family home, Tomás, 12, sits on top of an overfilled red suitcase trying to close the zipper, surrounded by shirts, a big speaker, board games and shoes, while Lucía, 12, stands at the door laughing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Tomás’s class is going on a two-day <b>trip</b>."
+            },
+            {
+              "html": "They are going to Jardín, a town in Antioquia."
+            },
+            {
+              "html": "The teacher gave everyone a short list of things."
+            },
+            {
+              "html": "Tomás likes to be ready for everything."
+            },
+            {
+              "html": "On Thursday night, he starts to <b>pack</b>."
+            },
+            {
+              "html": "He puts six T-shirts in his <b>suitcase</b>."
+            },
+            {
+              "html": "Then he adds three pairs of shoes."
+            },
+            {
+              "html": "He adds a big speaker, two games, and a pillow."
+            },
+            {
+              "html": "Now the suitcase can’t close."
+            },
+            {
+              "html": "Tomás sits on top of it and pulls the zipper."
+            },
+            {
+              "html": "His friend Lucía arrives to bring a book."
+            },
+            {
+              "html": "She looks at him and starts laughing."
+            }
+          ],
+          "wordCount": 94
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week29_grade07_page02.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Suitcase That Was Too Heavy”, page 2. Scene based on: In the same bedroom, Tomás tries to lift the bulging red suitcase with both hands, red-faced and struggling, while Lucía holds a printed teacher's list with only simple icons and points at it. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Tomás finally closes the suitcase."
+            },
+            {
+              "html": "He tries to lift it with both hands."
+            },
+            {
+              "html": "“It’s so <b>heavy</b>!” he says, red in the face."
+            },
+            {
+              "html": "“You can’t carry that up the hills in Jardín,” Lucía says."
+            },
+            {
+              "html": "“The streets there are very steep.”"
+            },
+            {
+              "html": "“The bus also has a rule,” she says."
+            },
+            {
+              "html": "“Bags can’t weigh more than eight kilos.”"
+            },
+            {
+              "html": "Tomás puts the suitcase on the bathroom scale."
+            },
+            {
+              "html": "It weighs fourteen kilos!"
+            },
+            {
+              "html": "“Oh no. What can I do?” he asks."
+            }
+          ],
+          "wordCount": 74
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week29_grade07_page03.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Suitcase That Was Too Heavy”, page 3. Scene based on: Tomás and Lucía kneel on the bedroom floor next to the open suitcase, sorting items into two piles, one marked by a green check card and one marked by a red X card, the big speaker in the red pile. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Lucía takes the teacher’s <b>list</b> from his desk."
+            },
+            {
+              "html": "“Let’s check. Do you <b>need</b> six T-shirts?” she asks."
+            },
+            {
+              "html": "“The trip is only two days.”"
+            },
+            {
+              "html": "Tomás thinks. “No, I don’t need six. I need three.”"
+            },
+            {
+              "html": "“Do you need three pairs of shoes?”"
+            },
+            {
+              "html": "“No. I need my sneakers and my sandals.”"
+            },
+            {
+              "html": "“Do you need a big speaker?”"
+            },
+            {
+              "html": "“I want it, but I don’t need it,” he admits."
+            },
+            {
+              "html": "They make two piles on the floor."
+            },
+            {
+              "html": "One pile is for things he needs."
+            },
+            {
+              "html": "The other pile is for things he only wants."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week29_grade07_page04.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Suitcase That Was Too Heavy”, page 4. Scene based on: Tomás holds up a folded yellow raincoat with a surprised face, while Lucía checks the teacher's list with a pencil; the suitcase is now half full and neatly organized. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Lucía reads the list again."
+            },
+            {
+              "html": "“Wait. Do you have a <b>raincoat</b>?” she asks."
+            },
+            {
+              "html": "Tomás looks surprised. “No. Do I need one?”"
+            },
+            {
+              "html": "“Yes! It rains a lot in Jardín in the afternoon.”"
+            },
+            {
+              "html": "“It’s on the list, number four.”"
+            },
+            {
+              "html": "Tomás laughs. His suitcase had a speaker but no raincoat."
+            },
+            {
+              "html": "He finds his yellow raincoat in the closet."
+            },
+            {
+              "html": "Now the suitcase is organized and much lighter."
+            },
+            {
+              "html": "He weighs it again on the scale."
+            },
+            {
+              "html": "It weighs only six kilos now."
+            },
+            {
+              "html": "“Now it’s <b>light</b> and useful,” Lucía says."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week29_grade07_page05.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Suitcase That Was Too Heavy”, page 5. Scene based on: On a rainy afternoon in the colorful town square of Jardín with a big church, Tomás in a yellow raincoat easily carries his small red suitcase toward a hostel, while a classmate struggles with a huge bag behind him and Lucía walks beside him. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Saturday, the class arrives in Jardín."
+            },
+            {
+              "html": "The town has colorful balconies and a beautiful church."
+            },
+            {
+              "html": "Their <b>hostel</b> is up a steep street."
+            },
+            {
+              "html": "Tomás carries his suitcase easily."
+            },
+            {
+              "html": "Behind him, a classmate is pulling a huge bag."
+            },
+            {
+              "html": "“Why is your bag so light?” the boy asks."
+            },
+            {
+              "html": "“I packed what I need, not what I want,” Tomás says."
+            },
+            {
+              "html": "In the afternoon, it starts to rain hard."
+            },
+            {
+              "html": "Tomás puts on his yellow raincoat and smiles."
+            },
+            {
+              "html": "Many students are wet, but he is dry."
+            },
+            {
+              "html": "Later he writes, “Next time, I will <b>travel</b> light again.”"
+            }
+          ],
+          "wordCount": 91
+        }
+      ],
+      "practiceWords": [
+        "trip",
+        "pack",
+        "suitcase",
+        "heavy",
+        "list",
+        "need",
+        "travel",
+        "raincoat",
+        "hostel",
+        "light"
+      ],
+      "vocabulary": [
+        {
+          "word": "trip",
+          "definition": "a journey to a place and back (viaje)"
+        },
+        {
+          "word": "pack",
+          "definition": "to put things in a bag for a trip (empacar)"
+        },
+        {
+          "word": "suitcase",
+          "definition": "a bag with a handle for travel clothes (maleta)"
+        },
+        {
+          "word": "heavy",
+          "definition": "difficult to lift or carry (pesado)"
+        },
+        {
+          "word": "list",
+          "definition": "words written one under the other (lista)"
+        },
+        {
+          "word": "need",
+          "definition": "to have to do something important (necesitar)"
+        },
+        {
+          "word": "travel",
+          "definition": "to go from one place to another (viajar)"
+        },
+        {
+          "word": "raincoat",
+          "definition": "a coat that protects you from rain (impermeable)"
+        },
+        {
+          "word": "hostel",
+          "definition": "a cheap place to stay for travelers (hostal)"
+        },
+        {
+          "word": "light",
+          "definition": "not heavy (liviano)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "How much does Tomás’s suitcase weigh the first time?",
+          "options": [
+            "Fourteen kilos",
+            "Eight kilos",
+            "Two kilos",
+            "Sixteen kilos"
+          ],
+          "answer": "Fourteen kilos"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "Why does Tomás need to take things out of his suitcase?",
+          "options": [
+            "His old suitcase is broken and needs a new, stronger zipper.",
+            "The bus rule says bags can’t weigh more than eight kilos.",
+            "The teacher says students can’t bring T-shirts.",
+            "Lucía wants to borrow his big speaker."
+          ],
+          "answer": "The bus rule says bags can’t weigh more than eight kilos."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main idea of the story?",
+          "options": [
+            "Jardín is a beautiful town with colorful balconies.",
+            "Students should never take big speakers or games on school trips.",
+            "Packing what you need, not what you want, makes travel easier.",
+            "It always rains in the afternoon in every town."
+          ],
+          "answer": "Packing what you need, not what you want, makes travel easier."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why is Tomás dry when many students are wet in Jardín?",
+          "options": [
+            "He arrived in Jardín after the rain stopped.",
+            "He bought a new yellow umbrella in the town square at noon.",
+            "He stayed inside the hostel all afternoon.",
+            "He packed the raincoat that was on the teacher’s list."
+          ],
+          "answer": "He packed the raincoat that was on the teacher’s list."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “Do you need three pairs of shoes?” In this question, “need” means…",
+          "options": [
+            "to have to have something important",
+            "to carry something heavy",
+            "to want something for fun",
+            "to put something at the top of a list"
+          ],
+          "answer": "to have to have something important"
+        }
+      ],
+      "cover": "../assets/images/week29_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "Why Is Everyone Running?",
+      "minimumWordTarget": 450,
+      "wordCount": 475,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week29_grade08_page01.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “Why Is Everyone Running?”, page 1. Scene based on: On a quiet Sunday morning street in a Medellín neighborhood, Valentina, 13, and Samuel, 13, hold a bag of fresh bread outside a bakery and stare in surprise as dozens of people in matching numbered T-shirts run past them. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "It is Sunday morning, and the street is usually quiet."
+            },
+            {
+              "html": "Valentina and Samuel are walking to the bakery."
+            },
+            {
+              "html": "Suddenly, they are hearing music and loud voices."
+            },
+            {
+              "html": "Dozens of people are running down the street."
+            },
+            {
+              "html": "They are wearing the same orange T-shirts."
+            },
+            {
+              "html": "Each <b>runner</b> has a number on the front."
+            },
+            {
+              "html": "“Why is everyone running?” Valentina asks."
+            },
+            {
+              "html": "“Maybe something bad is happening,” Samuel says."
+            },
+            {
+              "html": "“Maybe someone is chasing a thief!”"
+            },
+            {
+              "html": "Valentina is looking around nervously."
+            }
+          ],
+          "wordCount": 73
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week29_grade08_page02.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “Why Is Everyone Running?”, page 2. Scene based on: On the sidewalk, a growing crowd of neighbors watches the runners pass; some people point and talk at the same time, while Valentina and Samuel look confused in the middle, holding their bag of bread. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "A <b>crowd</b> is forming on the sidewalk."
+            },
+            {
+              "html": "People are pointing and talking at the same time."
+            },
+            {
+              "html": "“It’s a protest!” a man says."
+            },
+            {
+              "html": "“No, it’s a fire drill,” a woman says."
+            },
+            {
+              "html": "“They are running to catch a bus,” a boy laughs."
+            },
+            {
+              "html": "Valentina is feeling confused."
+            },
+            {
+              "html": "Everybody is guessing, and nobody really knows."
+            },
+            {
+              "html": "Samuel is reading the T-shirts carefully now."
+            },
+            {
+              "html": "There is a small heart on every shirt."
+            },
+            {
+              "html": "“Wait. Those shirts are all the same,” he says."
+            },
+            {
+              "html": "“Nobody is running away. They are running together.”"
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week29_grade08_page03.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “Why Is Everyone Running?”, page 3. Scene based on: At a table with water cups on the corner of the street, a smiling volunteer in a green vest explains something to Valentina and Samuel, pointing at a hand-painted banner showing only a heart and a running shoe. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On the corner, there is a table with water cups."
+            },
+            {
+              "html": "A <b>volunteer</b> in a green vest is standing there."
+            },
+            {
+              "html": "“Excuse me, what is happening?” Valentina asks."
+            },
+            {
+              "html": "The volunteer smiles. “It’s a community <b>race</b>!”"
+            },
+            {
+              "html": "“It’s five kilometers long, through the neighborhood.”"
+            },
+            {
+              "html": "“We are raising money for the children’s <b>hospital</b>.”"
+            },
+            {
+              "html": "“Every runner paid ten thousand pesos to run.”"
+            },
+            {
+              "html": "Samuel laughs. “So it isn’t a thief!”"
+            },
+            {
+              "html": "“No,” the volunteer laughs. “Only very healthy people.”"
+            },
+            {
+              "html": "Valentina feels a little silly about her guess."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week29_grade08_page04.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “Why Is Everyone Running?”, page 4. Scene based on: Valentina and Samuel, wearing borrowed green volunteer vests, hand out cups of water to tired runners passing the table, while the volunteer refills a big water jug behind them. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "“We need more help at the water station,” the volunteer says."
+            },
+            {
+              "html": "“Are you two busy?”"
+            },
+            {
+              "html": "Valentina and Samuel look at each other."
+            },
+            {
+              "html": "“We are only buying bread,” Samuel says."
+            },
+            {
+              "html": "“We can help!” Valentina says."
+            },
+            {
+              "html": "Now they are wearing green vests."
+            },
+            {
+              "html": "They are holding cups of water for the runners."
+            },
+            {
+              "html": "The runners are sweating and breathing hard."
+            },
+            {
+              "html": "Some are smiling, and some are very tired."
+            },
+            {
+              "html": "“Thank you!” an old man says, taking a cup."
+            },
+            {
+              "html": "He is seventy years old, and he is still running."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week29_grade08_page05.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “Why Is Everyone Running?”, page 5. Scene based on: Near a colorful arch at the finish line, Valentina and Samuel clap and cheer loudly as a smiling older man and a mother pushing a baby stroller cross the line, while other runners receive small medals. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, they are walking to the <b>finish line</b>."
+            },
+            {
+              "html": "A crowd is waiting there with music and balloons."
+            },
+            {
+              "html": "People are clapping for every runner."
+            },
+            {
+              "html": "Valentina and Samuel <b>cheer</b> loudly too."
+            },
+            {
+              "html": "A mother is running with a baby stroller."
+            },
+            {
+              "html": "A boy in a wheelchair is crossing the line."
+            },
+            {
+              "html": "The seventy-year-old man is finishing too."
+            },
+            {
+              "html": "A girl gives every runner a small <b>medal</b>."
+            },
+            {
+              "html": "“It doesn’t matter who is first,” the volunteer says."
+            },
+            {
+              "html": "“Today everybody is winning.”"
+            },
+            {
+              "html": "Valentina feels happy and full of energy."
+            }
+          ],
+          "wordCount": 80
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week29_grade08_page06.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “Why Is Everyone Running?”, page 6. Scene based on: Back home, Valentina and Samuel sit on the front steps eating their bread and looking at a printed flyer showing only a running shoe and a calendar icon, both excited and smiling. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They are finally walking home with the bread."
+            },
+            {
+              "html": "The bread is cold now, but they don’t care."
+            },
+            {
+              "html": "“This morning, we guessed wrong,” Samuel says."
+            },
+            {
+              "html": "“We are learning to ask before we decide.”"
+            },
+            {
+              "html": "Valentina is reading a flyer from the volunteer."
+            },
+            {
+              "html": "The next community race is in four months."
+            },
+            {
+              "html": "“We can <b>train</b> together for it,” she says."
+            },
+            {
+              "html": "“Every Sunday morning, before the bakery.”"
+            },
+            {
+              "html": "Samuel agrees. “Running is a good <b>exercise</b>.”"
+            },
+            {
+              "html": "“And this time, we are running, not guessing!”"
+            }
+          ],
+          "wordCount": 77
+        }
+      ],
+      "practiceWords": [
+        "runner",
+        "race",
+        "crowd",
+        "volunteer",
+        "cheer",
+        "exercise",
+        "finish line",
+        "medal",
+        "train",
+        "hospital"
+      ],
+      "vocabulary": [
+        {
+          "word": "runner",
+          "definition": "a person who runs, often in a race (corredor)"
+        },
+        {
+          "word": "race",
+          "definition": "a competition to see who is fastest (carrera)"
+        },
+        {
+          "word": "crowd",
+          "definition": "a large group of people together (multitud)"
+        },
+        {
+          "word": "volunteer",
+          "definition": "a person who helps without being paid (voluntario)"
+        },
+        {
+          "word": "cheer",
+          "definition": "to shout to support someone (animar)"
+        },
+        {
+          "word": "exercise",
+          "definition": "physical activity to stay healthy (ejercicio)"
+        },
+        {
+          "word": "finish line",
+          "definition": "the line at the end of a race (línea de meta)"
+        },
+        {
+          "word": "medal",
+          "definition": "a metal prize for winners or finishers (medalla)"
+        },
+        {
+          "word": "train",
+          "definition": "to practice a sport to get better (entrenar)"
+        },
+        {
+          "word": "hospital",
+          "definition": "a place where sick people get medical care (hospital)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Why are so many people running in the street?",
+          "options": [
+            "They are running away from a thief who is stealing in the neighborhood.",
+            "They are participating in a community race for a children’s hospital.",
+            "They are practicing a fire drill with their neighbors.",
+            "They are trying to catch a bus to the city center."
+          ],
+          "answer": "They are participating in a community race for a children’s hospital."
+        },
+        {
+          "skill": "inference",
+          "question": "Why does Samuel stop guessing about the runners?",
+          "options": [
+            "He sees a police officer near the bakery.",
+            "The volunteer tells him to stop talking.",
+            "He notices that all the runners wear the same T-shirts.",
+            "Valentina asks him to buy the bread quickly and go home."
+          ],
+          "answer": "He notices that all the runners wear the same T-shirts."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author describe the different people in the crowd guessing?",
+          "options": [
+            "To describe the music and the balloons.",
+            "To explain the rules and the route of a five-kilometer race.",
+            "To show that the neighborhood is very dangerous.",
+            "To show how quickly people make assumptions without facts."
+          ],
+          "answer": "To show how quickly people make assumptions without facts."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main idea of the story?",
+          "options": [
+            "Asking questions can turn confusion into a chance to help others.",
+            "Bakeries in Medellín close early on Sundays.",
+            "Volunteers always need more water at races.",
+            "Community races are only for very young and very fast runners."
+          ],
+          "answer": "Asking questions can turn confusion into a chance to help others."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “Valentina and Samuel cheer loudly too.” “Cheer” means…",
+          "options": [
+            "to give water to tired people",
+            "to shout to support someone",
+            "to run very fast in a race",
+            "to buy bread at the bakery"
+          ],
+          "answer": "to shout to support someone"
+        }
+      ],
+      "cover": "../assets/images/week29_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "The Small Store That Beat the Mall",
+      "minimumWordTarget": 500,
+      "wordCount": 512,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week29_grade09_page01.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Small Store That Beat the Mall”, page 1. Scene based on: Inside a large, bright shopping mall in Medellín, Daniela, 14, waits in a long line at an electronics store holding a broken calculator, looking at her watch, while Tomás, 14, leans on a glass display, bored. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniela’s calculator broke on Monday."
+            },
+            {
+              "html": "She has a math exam on Friday."
+            },
+            {
+              "html": "On Tuesday, she goes to a big shopping <b>mall</b> with Tomás."
+            },
+            {
+              "html": "The mall is bigger and brighter than her neighborhood."
+            },
+            {
+              "html": "There is an electronics store on the second floor."
+            },
+            {
+              "html": "It has the biggest <b>variety</b> of calculators in town."
+            },
+            {
+              "html": "But the line is the longest Daniela has ever seen."
+            },
+            {
+              "html": "They wait for forty minutes."
+            },
+            {
+              "html": "Finally, a young employee helps her."
+            },
+            {
+              "html": "He doesn’t know which calculator is best for school."
+            },
+            {
+              "html": "“All of them are good,” he says, looking at his phone."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week29_grade09_page02.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Small Store That Beat the Mall”, page 2. Scene based on: At the mall electronics counter, a distracted young employee looks at his phone while Daniela holds up an expensive calculator in a box with a surprised face, and Tomás points at a price tag shown only as a coin icon. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniela picks a scientific calculator."
+            },
+            {
+              "html": "The <b>price</b> is higher than she expected."
+            },
+            {
+              "html": "“It’s ninety thousand pesos,” the employee says."
+            },
+            {
+              "html": "“Is there a cheaper model?” Daniela asks."
+            },
+            {
+              "html": "“Maybe. I’m not sure,” he answers."
+            },
+            {
+              "html": "Daniela feels frustrated."
+            },
+            {
+              "html": "“In the mall, everything should be easier,” she thinks."
+            },
+            {
+              "html": "Tomás has a different idea."
+            },
+            {
+              "html": "“My uncle has a small <b>store</b> near school,” he says."
+            },
+            {
+              "html": "“Let’s ask him before you buy this.”"
+            },
+            {
+              "html": "“He has sold calculators for twenty years.”"
+            },
+            {
+              "html": "Daniela isn’t sure. “A small store? Is it better?”"
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week29_grade09_page03.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Small Store That Beat the Mall”, page 3. Scene based on: Inside a tiny neighborhood stationery and electronics store with crowded shelves, a friendly older man with glasses, Don Jorge, tests a calculator on the counter while Daniela and Tomás watch closely. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Wednesday, they visit Don Jorge’s small store."
+            },
+            {
+              "html": "It is smaller and older than the mall store."
+            },
+            {
+              "html": "The shelves are full of notebooks and cables."
+            },
+            {
+              "html": "There is no line at all."
+            },
+            {
+              "html": "Don Jorge asks Daniela about her math class."
+            },
+            {
+              "html": "“Which grade are you in? What topics are you studying?”"
+            },
+            {
+              "html": "Then he takes out two calculators."
+            },
+            {
+              "html": "“This one is cheaper and enough for ninth grade.”"
+            },
+            {
+              "html": "He tests every button in front of her."
+            },
+            {
+              "html": "“It costs sixty thousand pesos,” he says."
+            },
+            {
+              "html": "It is thirty thousand pesos cheaper than the mall."
+            },
+            {
+              "html": "Daniela can’t believe the difference."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week29_grade09_page04.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Small Store That Beat the Mall”, page 4. Scene based on: Daniela and Tomás sit at a school library table comparing two columns in a notebook with simple icons for coins, a clock, a smiling face and a shield, while Daniela holds the new calculator. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniela is surprised, but she wants to compare carefully."
+            },
+            {
+              "html": "She and Tomás make a table in her notebook."
+            },
+            {
+              "html": "The mall has more variety and a nicer building."
+            },
+            {
+              "html": "The small store has a lower price."
+            },
+            {
+              "html": "The mall store is farther from her house."
+            },
+            {
+              "html": "The small store is closer and faster."
+            },
+            {
+              "html": "Don Jorge’s <b>service</b> is friendlier and more patient."
+            },
+            {
+              "html": "Both stores give a one-year <b>warranty</b>."
+            },
+            {
+              "html": "“So which one is the best?” Tomás asks."
+            },
+            {
+              "html": "Daniela thinks. “For this calculator, the small store.”"
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week29_grade09_page05.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Small Store That Beat the Mall”, page 5. Scene based on: Daniela happily uses her new calculator during a math exam in a bright classroom, while Tomás, at the next desk, gives her a small thumbs-up and the teacher walks between the rows. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniela buys the calculator from Don Jorge."
+            },
+            {
+              "html": "On Friday, she uses it in her exam."
+            },
+            {
+              "html": "It works perfectly, and she feels confident."
+            },
+            {
+              "html": "After the exam, Tomás asks her opinion."
+            },
+            {
+              "html": "“So, is the small store better than the mall?”"
+            },
+            {
+              "html": "Daniela thinks carefully before answering."
+            },
+            {
+              "html": "“Not always. The mall is <b>better</b> for some things.”"
+            },
+            {
+              "html": "“If you want many choices, the mall is good.”"
+            },
+            {
+              "html": "“But today, I needed advice, not just products.”"
+            },
+            {
+              "html": "“I was a person, not only a <b>customer</b>.”"
+            },
+            {
+              "html": "Tomás nods. That is a fair opinion."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week29_grade09_page06.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Small Store That Beat the Mall”, page 6. Scene based on: At the counter of the small neighborhood store, Daniela hands Don Jorge a handwritten thank-you card decorated with a drawing of a calculator, while Tomás and a new young customer wait smiling. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Saturday, Daniela returns to Don Jorge’s store."
+            },
+            {
+              "html": "She brings him a thank-you card."
+            },
+            {
+              "html": "“Your calculator saved my exam,” she says."
+            },
+            {
+              "html": "Don Jorge laughs. “Your hard work saved it.”"
+            },
+            {
+              "html": "“I only gave you the right tool.”"
+            },
+            {
+              "html": "Daniela tells her friends about the store."
+            },
+            {
+              "html": "Two classmates buy their calculators there too."
+            },
+            {
+              "html": "Tomás jokes, “My uncle needs to pay me now.”"
+            },
+            {
+              "html": "Daniela writes a short <b>opinion</b> in her journal."
+            },
+            {
+              "html": "“The <b>best</b> store isn’t always the biggest one.”"
+            },
+            {
+              "html": "“It’s the one that listens to its customers.”"
+            }
+          ],
+          "wordCount": 83
+        }
+      ],
+      "practiceWords": [
+        "store",
+        "mall",
+        "customer",
+        "service",
+        "price",
+        "warranty",
+        "variety",
+        "better",
+        "best",
+        "opinion"
+      ],
+      "vocabulary": [
+        {
+          "word": "store",
+          "definition": "a place where people buy things (tienda)"
+        },
+        {
+          "word": "mall",
+          "definition": "a large building with many stores (centro comercial)"
+        },
+        {
+          "word": "customer",
+          "definition": "a person who buys something (cliente)"
+        },
+        {
+          "word": "service",
+          "definition": "the help a store gives to its customers (servicio)"
+        },
+        {
+          "word": "price",
+          "definition": "how much money something costs (precio)"
+        },
+        {
+          "word": "warranty",
+          "definition": "a promise to repair or change a product (garantía)"
+        },
+        {
+          "word": "variety",
+          "definition": "many different kinds of things (variedad)"
+        },
+        {
+          "word": "better",
+          "definition": "of a higher quality than another (mejor)"
+        },
+        {
+          "word": "best",
+          "definition": "better than all the others (el mejor)"
+        },
+        {
+          "word": "opinion",
+          "definition": "what a person thinks about something (opinión)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "How much does the calculator from Don Jorge’s store cost?",
+          "options": [
+            "Ninety thousand pesos",
+            "Forty thousand pesos",
+            "Sixty thousand pesos",
+            "Ten thousand pesos"
+          ],
+          "answer": "Sixty thousand pesos"
+        },
+        {
+          "skill": "inference",
+          "question": "Why does Daniela feel frustrated at the mall store?",
+          "options": [
+            "Her math teacher told her not to buy calculators at the mall.",
+            "Tomás wants to leave before she buys anything.",
+            "The mall does not sell any scientific calculators.",
+            "The employee cannot give her advice and the line is very long."
+          ],
+          "answer": "The employee cannot give her advice and the line is very long."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "How are the mall store and Don Jorge’s store similar?",
+          "options": [
+            "Both stores give a one-year warranty.",
+            "Both stores have long lines of customers.",
+            "Both stores have the same prices.",
+            "Both stores are near Daniela’s school."
+          ],
+          "answer": "Both stores give a one-year warranty."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main message of the text?",
+          "options": [
+            "Big malls do not offer warranties for electronic products.",
+            "The best store is the one that understands its customers.",
+            "Small stores are always cheaper than shopping malls.",
+            "Students should never buy calculators at malls."
+          ],
+          "answer": "The best store is the one that understands its customers."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “Both stores give a one-year warranty.” A “warranty” is…",
+          "options": [
+            "a lower price for students",
+            "a long line of customers waiting in a store",
+            "a promise to repair or change a product",
+            "a small card to say thank you"
+          ],
+          "answer": "a promise to repair or change a product"
+        }
+      ],
+      "cover": "../assets/images/week29_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "The Elevator That Stopped Between Floors",
+      "minimumWordTarget": 600,
+      "wordCount": 612,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week29_grade10_page01.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Elevator That Stopped Between Floors”, page 1. Scene based on: In the bright glass lobby of a modern office building in Medellín, a group of uniformed public school students including Juan, 16, and Camila, 16, wait in front of elevators with their teacher, looking up at the tall atrium. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Thursday, Juan’s class visits a technology company."
+            },
+            {
+              "html": "The company is in a tall glass <b>building</b> in El Poblado."
+            },
+            {
+              "html": "Juan is excited. He wants to study engineering."
+            },
+            {
+              "html": "His friend Camila is next to him in the lobby."
+            },
+            {
+              "html": "The visit is on the twelfth <b>floor</b>."
+            },
+            {
+              "html": "The teacher divides the class into small groups."
+            },
+            {
+              "html": "Juan, Camila, and four classmates enter the first <b>elevator</b>."
+            },
+            {
+              "html": "The doors close, and the elevator goes up."
+            },
+            {
+              "html": "Third floor. Fifth floor. Seventh floor."
+            },
+            {
+              "html": "Then, between seven and eight, it stops."
+            },
+            {
+              "html": "The lights flicker, and the elevator is silent."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week29_grade10_page02.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Elevator That Stopped Between Floors”, page 2. Scene based on: Inside a stopped stainless-steel elevator with dim lights, four teenage students react in different ways: one bangs on the door, one presses all the buttons, one holds a phone with no signal, while Juan freezes and Camila raises a calm hand. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "For a moment, nobody says anything."
+            },
+            {
+              "html": "Then everybody talks at the same time."
+            },
+            {
+              "html": "“We’re stuck! We should break the door!” Pedro shouts."
+            },
+            {
+              "html": "He pushes the doors with both hands."
+            },
+            {
+              "html": "Another student presses every button again and again."
+            },
+            {
+              "html": "“There’s no signal on my phone,” Laura says, scared."
+            },
+            {
+              "html": "Juan feels his heart beating very fast."
+            },
+            {
+              "html": "He doesn’t know what to do."
+            },
+            {
+              "html": "The small space suddenly feels much smaller."
+            },
+            {
+              "html": "Laura starts to cry quietly in the corner."
+            },
+            {
+              "html": "Camila takes a slow breath."
+            },
+            {
+              "html": "“Wait. We shouldn’t <b>panic</b>. Let’s think,” she says."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week29_grade10_page03.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Elevator That Stopped Between Floors”, page 3. Scene based on: Camila, 16, points to a red bell button and a small speaker grille on the elevator control panel, while Juan reads a small safety sticker with only icons of a bell, a phone and a hand saying stop. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Camila looks at the control panel."
+            },
+            {
+              "html": "“There’s a red button with a bell. That’s the <b>alarm</b>.”"
+            },
+            {
+              "html": "Juan reads the small safety sign next to it."
+            },
+            {
+              "html": "The sign has three simple pictures."
+            },
+            {
+              "html": "A bell, a speaker, and a hand that says stop."
+            },
+            {
+              "html": "“We should press the alarm once and wait,” Juan says."
+            },
+            {
+              "html": "“We shouldn’t force the doors. That’s dangerous.”"
+            },
+            {
+              "html": "Pedro stops pushing the door."
+            },
+            {
+              "html": "“But what if nobody comes?” he asks."
+            },
+            {
+              "html": "“Then we should use the <b>intercom</b>,” Camila says."
+            },
+            {
+              "html": "She points to a small speaker under the buttons."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week29_grade10_page04.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Elevator That Stopped Between Floors”, page 4. Scene based on: Juan presses the red alarm button and speaks clearly into the elevator intercom speaker, while the other students listen quietly, Camila standing beside him with an encouraging nod. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Juan presses the alarm button once."
+            },
+            {
+              "html": "A bell rings somewhere in the building."
+            },
+            {
+              "html": "After thirty seconds, a voice comes from the speaker."
+            },
+            {
+              "html": "“This is building security. Is everyone okay?”"
+            },
+            {
+              "html": "Juan answers clearly. “Yes. We are six students.”"
+            },
+            {
+              "html": "“We are between floors seven and eight.”"
+            },
+            {
+              "html": "“Nobody is hurt, but one student is scared.”"
+            },
+            {
+              "html": "“Thank you. Stay calm and don’t open the doors.”"
+            },
+            {
+              "html": "“Our <b>staff</b> are coming with a technician.”"
+            },
+            {
+              "html": "“You should sit down and breathe slowly.”"
+            },
+            {
+              "html": "The students sit on the floor and wait."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week29_grade10_page05.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Elevator That Stopped Between Floors”, page 5. Scene based on: The students sit calmly on the elevator floor talking; Laura breathes slowly with Camila's help, Pedro tells a story with his hands, and Juan looks at his watch showing only a small clock face. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Camila helps Laura breathe slowly."
+            },
+            {
+              "html": "“In for four seconds, out for four seconds,” she says."
+            },
+            {
+              "html": "Pedro tells a funny story about his dog."
+            },
+            {
+              "html": "Everybody laughs a little, even Laura."
+            },
+            {
+              "html": "Juan looks at his watch. Five minutes pass."
+            },
+            {
+              "html": "He thinks about his first reaction."
+            },
+            {
+              "html": "He wanted to do something fast, but not something smart."
+            },
+            {
+              "html": "“Camila, how did you stay so calm?” he asks."
+            },
+            {
+              "html": "“My mom works in a hospital,” she says."
+            },
+            {
+              "html": "“She always says the first minute is the most dangerous.”"
+            },
+            {
+              "html": "“People make bad decisions when they’re scared.”"
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week29_grade10_page06.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Elevator That Stopped Between Floors”, page 6. Scene based on: The elevator doors open on the eighth floor and a smiling technician in a blue uniform and a security guard greet the students, who walk out relieved, while their teacher hurries toward them with open arms. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "After eight minutes, the elevator moves again."
+            },
+            {
+              "html": "It goes slowly up to the eighth floor."
+            },
+            {
+              "html": "The doors open, and two men are waiting."
+            },
+            {
+              "html": "One is a security guard, and one is a <b>technician</b>."
+            },
+            {
+              "html": "“Is everybody okay?” the technician asks."
+            },
+            {
+              "html": "“Yes, thank you!” the students answer together."
+            },
+            {
+              "html": "Their teacher runs to them, very relieved."
+            },
+            {
+              "html": "The technician explains the problem."
+            },
+            {
+              "html": "“There was a short power drop in the building.”"
+            },
+            {
+              "html": "“The elevator stopped for safety. That’s normal.”"
+            },
+            {
+              "html": "“You did everything right. Many adults don’t.”"
+            },
+            {
+              "html": "Pedro looks at the floor, a little embarrassed."
+            },
+            {
+              "html": "“I wanted to break the door,” he admits."
+            }
+          ],
+          "wordCount": 97
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week29_grade10_page07.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Elevator That Stopped Between Floors”, page 7. Scene based on: In a bright meeting room on the twelfth floor with a view of Medellín, Juan stands next to a whiteboard showing only three simple icons: a bell, a speaker and a hand stop sign, while Camila and classmates listen and an engineer smiles. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Finally, the class arrives at the twelfth floor."
+            },
+            {
+              "html": "A company engineer welcomes them warmly."
+            },
+            {
+              "html": "“I heard about the elevator,” she says."
+            },
+            {
+              "html": "“Can you share what you learned with the group?”"
+            },
+            {
+              "html": "Juan stands up, still a little nervous."
+            },
+            {
+              "html": "“In an <b>emergency</b>, you should press the alarm first.”"
+            },
+            {
+              "html": "“You should use the intercom and give clear information.”"
+            },
+            {
+              "html": "“You shouldn’t force the doors or panic.”"
+            },
+            {
+              "html": "“And you should listen to calm people,” he adds, smiling."
+            },
+            {
+              "html": "Camila laughs. “That’s the best <b>advice</b> of the day.”"
+            }
+          ],
+          "wordCount": 81
+        }
+      ],
+      "practiceWords": [
+        "building",
+        "elevator",
+        "floor",
+        "panic",
+        "alarm",
+        "intercom",
+        "staff",
+        "technician",
+        "advice",
+        "emergency"
+      ],
+      "vocabulary": [
+        {
+          "word": "building",
+          "definition": "a structure with walls, floors, and a roof (edificio)"
+        },
+        {
+          "word": "elevator",
+          "definition": "a machine that moves people between floors (ascensor)"
+        },
+        {
+          "word": "floor",
+          "definition": "a level of a building (piso)"
+        },
+        {
+          "word": "panic",
+          "definition": "sudden strong fear that stops clear thinking (pánico)"
+        },
+        {
+          "word": "alarm",
+          "definition": "a signal that warns about a problem (alarma)"
+        },
+        {
+          "word": "intercom",
+          "definition": "a speaker system to talk with another room (intercomunicador)"
+        },
+        {
+          "word": "staff",
+          "definition": "the people who work for an organization (personal)"
+        },
+        {
+          "word": "technician",
+          "definition": "a person who repairs machines (técnico)"
+        },
+        {
+          "word": "advice",
+          "definition": "an opinion about what someone should do (consejo)"
+        },
+        {
+          "word": "emergency",
+          "definition": "a serious situation that needs fast action (emergencia)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Where does the elevator stop?",
+          "options": [
+            "Between the eleventh and twelfth floors",
+            "On the first floor in the lobby",
+            "On the fifth floor near the stairs",
+            "Between the seventh and eighth floors"
+          ],
+          "answer": "Between the seventh and eighth floors"
+        },
+        {
+          "skill": "inference",
+          "question": "Why does Camila say, “We shouldn’t panic”?",
+          "options": [
+            "She knows fear can lead to bad decisions in an emergency.",
+            "She thinks the elevator is not really stopped between floors.",
+            "She is angry with the teacher for the visit.",
+            "She wants Pedro to break the doors faster."
+          ],
+          "answer": "She knows fear can lead to bad decisions in an emergency."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include Camila’s explanation about her mother’s job?",
+          "options": [
+            "To explain why the elevator stopped.",
+            "To explain why she knows how to stay calm in an emergency.",
+            "To show that Camila wants to be a nurse.",
+            "To introduce the technology company that the class visits."
+          ],
+          "answer": "To explain why she knows how to stay calm in an emergency."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What is the relationship between the power drop and the elevator stopping?",
+          "options": [
+            "The technician stopped the elevator to repair the old motor.",
+            "The students pressed too many buttons and broke it.",
+            "The power drop caused the elevator to stop for safety.",
+            "The elevator stopped because Pedro pushed the doors."
+          ],
+          "answer": "The power drop caused the elevator to stop for safety."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which statement best summarizes the text?",
+          "options": [
+            "Elevators in tall buildings are always dangerous.",
+            "Security guards should always repair broken elevators themselves.",
+            "Students should never visit companies in tall glass buildings.",
+            "Calm, clear actions are safer than fast reactions in an emergency."
+          ],
+          "answer": "Calm, clear actions are safer than fast reactions in an emergency."
+        }
+      ],
+      "cover": "../assets/images/week29_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "The Résumé Without Experience",
+      "minimumWordTarget": 700,
+      "wordCount": 714,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week29_grade11_page01.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Résumé Without Experience”, page 1. Scene based on: In a public school library in Medellín, Valentina, 17, sits in front of a laptop showing only a mostly empty document with a gray outline, her head in her hands, while Daniel, 17, sits beside her with a cup of coffee. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina wants a summer job at a bookstore café."
+            },
+            {
+              "html": "The café needs a part-time assistant for December."
+            },
+            {
+              "html": "She has to send a <b>résumé</b> by Friday."
+            },
+            {
+              "html": "On Monday, she opens a blank document in the library."
+            },
+            {
+              "html": "She writes her name, phone number, and email."
+            },
+            {
+              "html": "Then she stops, and she looks at the screen."
+            },
+            {
+              "html": "“I have no job <b>experience</b>,” she says to Daniel."
+            },
+            {
+              "html": "“I’ve never had a real job. My résumé is empty.”"
+            },
+            {
+              "html": "Daniel is working on his own application."
+            },
+            {
+              "html": "“Are you sure it’s empty?” he asks."
+            },
+            {
+              "html": "“You don’t have to be paid to have experience.”"
+            },
+            {
+              "html": "Valentina looks at him, confused."
+            },
+            {
+              "html": "“What do you mean?” she asks."
+            }
+          ],
+          "wordCount": 105
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week29_grade11_page02.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Résumé Without Experience”, page 2. Scene based on: Valentina sits with crossed arms in the library looking frustrated while Daniel counts things on his fingers, a small notebook open between them showing only bullet points as dots. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina crosses her arms, frustrated."
+            },
+            {
+              "html": "“The café wants people who know customer service.”"
+            },
+            {
+              "html": "“I’ve never worked in a café or a store.”"
+            },
+            {
+              "html": "Daniel thinks for a moment."
+            },
+            {
+              "html": "“What do you do on Saturdays?” he asks."
+            },
+            {
+              "html": "“I help at the reading club in the public library.”"
+            },
+            {
+              "html": "“I read stories to kids and organize the books.”"
+            },
+            {
+              "html": "“For how long?” Daniel asks."
+            },
+            {
+              "html": "“About two years,” she says."
+            },
+            {
+              "html": "Daniel smiles. “That’s experience, Valentina.”"
+            },
+            {
+              "html": "“You <b>volunteer</b> every week, with real responsibilities.”"
+            }
+          ],
+          "wordCount": 76
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week29_grade11_page03.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Résumé Without Experience”, page 3. Scene based on: In the library, Daniel writes a list in a notebook while Valentina, now interested, points at it; small icons in the notebook show a book, a child, a newspaper and a laptop. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They make a list together."
+            },
+            {
+              "html": "Valentina has helped at the library for two years."
+            },
+            {
+              "html": "She has tutored her neighbor’s son in math."
+            },
+            {
+              "html": "She writes articles for the school newspaper."
+            },
+            {
+              "html": "She can speak English at an intermediate level."
+            },
+            {
+              "html": "She knows how to use spreadsheets for the club’s inventory."
+            },
+            {
+              "html": "Each item shows a real <b>skill</b>."
+            },
+            {
+              "html": "“Organization, communication, patience, and teamwork,” Daniel reads."
+            },
+            {
+              "html": "“Cafés need all of that.”"
+            },
+            {
+              "html": "Valentina looks at the list, surprised."
+            },
+            {
+              "html": "“I didn’t think these things counted.”"
+            },
+            {
+              "html": "“You have to see your work differently,” Daniel says."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week29_grade11_page04.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Résumé Without Experience”, page 4. Scene based on: In a school counselor's office with bookshelves and plants, a friendly career counselor woman in her fifties shows Valentina and Daniel a one-page résumé example with only gray lines and boxes, explaining with an open hand. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next day, they visit the school counselor."
+            },
+            {
+              "html": "Mrs. Restrepo helps students with résumés every year."
+            },
+            {
+              "html": "She gives them some important rules."
+            },
+            {
+              "html": "“A student résumé must be clear and short.”"
+            },
+            {
+              "html": "“One page is enough. It doesn’t have to be long.”"
+            },
+            {
+              "html": "“You must be <b>honest</b> about everything you write.”"
+            },
+            {
+              "html": "“You mustn’t invent jobs or skills.”"
+            },
+            {
+              "html": "“Employers often check the information.”"
+            },
+            {
+              "html": "“You don’t have to include your ID number.”"
+            },
+            {
+              "html": "“But you must include a way to contact you.”"
+            },
+            {
+              "html": "Daniel writes every rule in his notebook."
+            },
+            {
+              "html": "He needs these rules for his own résumé too."
+            }
+          ],
+          "wordCount": 92
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week29_grade11_page05.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Résumé Without Experience”, page 5. Scene based on: Valentina types at a library computer, now with a full one-page résumé on screen shown as neat gray blocks and small icons, while Daniel reads over her shoulder and gives a thumbs-up. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mrs. Restrepo has one more idea."
+            },
+            {
+              "html": "“Write an <b>achievement</b> for each activity,” she says."
+            },
+            {
+              "html": "“Don’t only write what you did. Write the result.”"
+            },
+            {
+              "html": "Valentina thinks about the reading club."
+            },
+            {
+              "html": "“I organized two hundred books by age level.”"
+            },
+            {
+              "html": "“Now the kids find books faster.”"
+            },
+            {
+              "html": "“That’s an achievement!” Mrs. Restrepo says."
+            },
+            {
+              "html": "Valentina adds it to her résumé."
+            },
+            {
+              "html": "She also adds her newspaper articles and tutoring."
+            },
+            {
+              "html": "Now the page isn’t empty at all."
+            },
+            {
+              "html": "It’s full, honest, and organized."
+            },
+            {
+              "html": "She reads it again and feels more confident."
+            },
+            {
+              "html": "For the first time, her experience feels real."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week29_grade11_page06.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Résumé Without Experience”, page 6. Scene based on: In the public library, Valentina talks with the friendly librarian, a man in his forties with glasses, who nods and writes his phone number on a small card for her. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The café also asks for one <b>reference</b>."
+            },
+            {
+              "html": "“Who can describe my work?” Valentina wonders."
+            },
+            {
+              "html": "“The librarian at the reading club,” Daniel suggests."
+            },
+            {
+              "html": "On Saturday, she asks Mr. Ospina, the librarian."
+            },
+            {
+              "html": "“Of course. You’re one of our best volunteers,” he says."
+            },
+            {
+              "html": "“You never miss a Saturday.”"
+            },
+            {
+              "html": "“And the kids love your stories.”"
+            },
+            {
+              "html": "He gives her his phone number for the café."
+            },
+            {
+              "html": "Valentina feels proud of her work."
+            },
+            {
+              "html": "She didn’t realize anyone noticed it."
+            },
+            {
+              "html": "On Thursday night, she sends her <b>application</b>."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week29_grade11_page07.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Résumé Without Experience”, page 7. Scene based on: In a cozy bookstore café in Medellín with shelves of books and coffee cups, Valentina, 17, sits across from a friendly café manager woman for a job interview, speaking confidently with a printed résumé on the table. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next Tuesday, the café calls her."
+            },
+            {
+              "html": "They want to meet her for an <b>interview</b>."
+            },
+            {
+              "html": "The manager asks about her experience."
+            },
+            {
+              "html": "Valentina doesn’t panic."
+            },
+            {
+              "html": "“I haven’t worked in a café yet,” she says honestly."
+            },
+            {
+              "html": "“But I’ve volunteered with children for two years.”"
+            },
+            {
+              "html": "“I organize, I communicate, and I’m responsible.”"
+            },
+            {
+              "html": "The manager smiles and reads her résumé."
+            },
+            {
+              "html": "“Organizing two hundred books is impressive,” she says."
+            },
+            {
+              "html": "“Our café has a bookstore too.”"
+            },
+            {
+              "html": "Valentina can’t stop smiling."
+            },
+            {
+              "html": "The interview lasts only twenty minutes."
+            },
+            {
+              "html": "But for Valentina, it feels like a big step."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week29_grade11_page08.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Résumé Without Experience”, page 8. Scene based on: Back in the school library, Valentina and Daniel high-five next to a laptop showing only an envelope icon with a green check mark, while Daniel's own résumé is open on the table. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Friday, Valentina gets an email from the café."
+            },
+            {
+              "html": "She got the job for December!"
+            },
+            {
+              "html": "She runs to the library to tell Daniel."
+            },
+            {
+              "html": "“You were right,” she says. “I had experience.”"
+            },
+            {
+              "html": "“I just didn’t call it experience.”"
+            },
+            {
+              "html": "Daniel is still working on his résumé."
+            },
+            {
+              "html": "“Now you have to help me,” he laughs."
+            },
+            {
+              "html": "“I play in a band and fix my grandma’s computer.”"
+            },
+            {
+              "html": "“That’s technical support and teamwork!” Valentina says."
+            },
+            {
+              "html": "Many young people think they have no experience."
+            },
+            {
+              "html": "But first <b>employment</b> often starts with honest volunteer work."
+            },
+            {
+              "html": "Valentina prints her résumé and puts it on her wall."
+            }
+          ],
+          "wordCount": 96
+        }
+      ],
+      "practiceWords": [
+        "résumé",
+        "experience",
+        "volunteer",
+        "skill",
+        "achievement",
+        "reference",
+        "honest",
+        "application",
+        "interview",
+        "employment"
+      ],
+      "vocabulary": [
+        {
+          "word": "résumé",
+          "definition": "a document that lists your education and experience (hoja de vida)"
+        },
+        {
+          "word": "experience",
+          "definition": "knowledge you get from doing something (experiencia)"
+        },
+        {
+          "word": "volunteer",
+          "definition": "to work without being paid (hacer voluntariado)"
+        },
+        {
+          "word": "skill",
+          "definition": "an ability you develop with practice (habilidad)"
+        },
+        {
+          "word": "achievement",
+          "definition": "something good you did with effort (logro)"
+        },
+        {
+          "word": "reference",
+          "definition": "a person who can describe your work (referencia)"
+        },
+        {
+          "word": "honest",
+          "definition": "telling the truth (honesto)"
+        },
+        {
+          "word": "application",
+          "definition": "a formal request for a job or a place (solicitud)"
+        },
+        {
+          "word": "interview",
+          "definition": "a meeting where an employer asks you questions (entrevista)"
+        },
+        {
+          "word": "employment",
+          "definition": "paid work (empleo)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "Why does Valentina first think her résumé is empty?",
+          "options": [
+            "She believes only paid jobs count as experience.",
+            "She forgot her email address and phone number.",
+            "The café does not accept student applications.",
+            "Daniel tells her that she has no useful skills for a café."
+          ],
+          "answer": "She believes only paid jobs count as experience."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "How does the list of activities change Valentina’s opinion of herself?",
+          "options": [
+            "It makes her decide not to apply to the café.",
+            "It shows her that her unpaid work includes real skills.",
+            "It shows that she needs to find a paid job first in a store.",
+            "It proves that she is better than Daniel."
+          ],
+          "answer": "It shows her that her unpaid work includes real skills."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include Mrs. Restrepo’s rules?",
+          "options": [
+            "To show that counselors write résumés for students.",
+            "To explain why the bookstore café needs a new assistant in December.",
+            "To show what a professional and honest student résumé needs.",
+            "To show that résumés must always be very long."
+          ],
+          "answer": "To show what a professional and honest student résumé needs."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “Write an achievement for each activity.” An “achievement” is…",
+          "options": [
+            "a person who can describe your work",
+            "a formal request for a job",
+            "a meeting to answer an employer’s questions",
+            "something good you did with effort"
+          ],
+          "answer": "something good you did with effort"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which statement best expresses the central idea of the text?",
+          "options": [
+            "Volunteer work can be real experience for a first job.",
+            "A good résumé must include many achievements, even invented ones.",
+            "Bookstore cafés only hire people with university degrees.",
+            "Students must have paid jobs before they apply to work."
+          ],
+          "answer": "Volunteer work can be real experience for a first job."
+        }
+      ],
+      "cover": "../assets/images/week29_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

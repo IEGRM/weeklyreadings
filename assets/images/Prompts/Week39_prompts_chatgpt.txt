@@ -1,0 +1,853 @@
+WEEKLY READINGS — WEEK 39 — PROMPTS PARA CHATGPT (UNA IMAGEN POR PROMPT)
+==========================================================================================
+
+CÓMO SE USA ESTE ARCHIVO (método probado en Weeks 12–18)
+1. Un chat NUEVO de ChatGPT por cada imagen (evita que se trabe y que copie la composición anterior).
+2. ORDEN POR GRADO: primero la PORTADA, después page01, page02… La portada fija las caras de los personajes de esta semana.
+3. Adjuntos en cada chat:
+   - PORTADA: solo las 2 fotos base de estilo del grado (week01_gradeXX_cover.webp + week01_gradeXX_page01.webp).
+   - PÁGINAS: las 2 fotos base de estilo + la portada YA GENERADA de ese grado y esta semana (weekNN_gradeXX_cover.webp).
+4. Pegar UN solo prompt completo (todo el bloque debajo de la línea "--- archivo.webp ---"). Cada prompt es autónomo: repite estilo, historia, hora, lugar, personajes, escena, ánimo, cámara y reglas, porque cada chat es nuevo.
+5. Revisar cada imagen: mismas caras y ropa dentro del grado, edad correcta, sin texto en páginas interiores, escena fiel a la página.
+6. Convertir a WEBP 1122x1402 con el nombre EXACTO del archivo (weekNN_gradeXX_cover.webp / weekNN_gradeXX_pageNN.webp).
+
+FOTOS BASE = SOLO ESTILO
+Las fotos base del proyecto (week01) tienen OTROS actores. Se adjuntan únicamente para copiar estilo, renderizado, luz y paleta. Los personajes de cada semana son NUEVOS: cada prompt los describe completos (sexo, edad, grado, piel, rasgo, peinado y ropa). Un mismo nombre en otra semana es OTRA cara y OTRA ropa.
+
+EDADES FIJAS POR GRADO (deben verse en la imagen)
+6° = 11 años | 7° = 12 años | 8° = 13 años | 9° = 14 años | 10° = 15–16 años | 11° = 17–18 años.
+6° y 7° se ven niños; 8° y 9° adolescentes jóvenes; 10° adolescentes maduros; 11° casi adultos. Cada grado conserva su estilo: 6° 3D pastel → 7° pictórico → 8° 3D vivo → 9° semi-realista brillante → 10° pictórico semi-realista → 11° realista cinematográfico.
+
+IMÁGENES ÚNICAS
+- Cada prompt corresponde a UNA página concreta de la lectura: su hora, su lugar, sus personas y su acción. Ninguna escena se repite (ni dentro del grado, ni entre grados, ni entre semanas).
+- La portada es un momento y una composición propios; NO es la page01.
+- La cámara cambia en cada página del grado (plano medio, general, sobre el hombro, cenital suave, detalle de manos, etc.).
+
+REGLAS ANTI-ERROR / ANTI-RECHAZO (aprendidas)
+- No escribir nombres de estudios ni marcas (ni "Pixar" ni "Disney"); el estilo se describe con palabras propias.
+- Adolescentes: vocabulario escolar y neutro; sin ángulos bajos; expresiones naturales; nada que parezca peligro real.
+- Páginas interiores: CERO texto (ni letras, ni números, ni logos), incluso en pantallas, tableros, buses, relojes, ropa o libros: solo íconos, bloques de color o líneas en blanco.
+- Portadas: SOLO el título exacto + las 2 líneas "Jony Rojas Ochoa" / "Reading Project shared by IEGRM".
+- Si el chat se traba (sin imagen en ~90 s): chat nuevo y reenviar el mismo prompt con los mismos adjuntos.
+- Si sale texto o letras: responder "Same image, but remove every letter, word and number."
+- Si se parece demasiado a otra imagen ya hecha: "Same scene, but a clearly different composition and camera angle."
+- Si cambia una cara o la ropa: "Keep the characters exactly as in the attached cover: same faces, hair and clothes."
+- Si la edad no se ve bien: "Make the students look exactly their stated age."
+
+******************************************************************************
+VOCABULARIO INTERACTIVO — OBLIGATORIO, NO SE PUEDE OMITIR (funciona EXACTAMENTE como en week15.json)
+******************************************************************************
+Las imágenes NO llevan texto, pero la lectura sí lleva el vocabulario interactivo, y eso NO se toca ni se olvida.
+1. Cada grado tiene EXACTAMENTE 10 entradas en "vocabulary": {"word": "...", "definition": "definición en inglés (traducción)"}.
+2. "practiceWords" contiene las MISMAS 10 palabras, en el MISMO orden que "vocabulary".
+3. Cada palabra aparece UNA vez marcada con <b>palabra</b> dentro de "sentences[].html". Esa marca es la que la vuelve interactiva (clic → resalta, muestra la definición y la pronuncia).
+4. NO quitar, renombrar ni mover las etiquetas <b>; NO convertir "html" en texto plano; NO volver al esquema viejo (legacySentenceSchema: false).
+5. Respetar todo el código base del audio: tts "Web Speech API / SpeechSynthesis", manualAudioFiles: false. Frases de máximo 11 palabras para que el resaltado siga al audio.
+6. Las rutas de imagen del JSON NO cambian: ../assets/images/week39_gradeXX_cover.webp y ../assets/images/week39_gradeXX_pageNN.webp.
+Checklist por grado: [ ] 10 vocabulary  [ ] practiceWords = vocabulary  [ ] 10 <b> en las oraciones  [ ] audio intacto  [ ] imágenes con nombre exacto.
+
+
+##########################################################################################
+GRADO 6 — "The Market With No Plastic Bags" — 6° Grade / A1 Beginner — portada + 4 páginas = 5 imágenes
+##########################################################################################
+EDAD VISUAL OBLIGATORIA: 11 years old, a sixth grader: small child body, round young face, clearly a child.
+BLOQUE DE ESTILO (fijo en todo el grado): original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream, sky blue), cute rounded characters with big expressive eyes, soft subsurface lighting, cozy detailed sets, shallow depth of field.
+FOTOS BASE DE ESTILO A ADJUNTAR (solo estilo, otros actores): week01_grade06_cover.webp + week01_grade06_page01.webp
+DESDE LA PAGE01: adjuntar también week39_grade06_cover.webp ya generada (fija las caras de esta semana).
+HISTORIA: On Saturday at the neighborhood market, sixth grader Laura and her mother find signs announcing "an afternoon without plastic bags"; some shoppers complain, but Laura and her neighbor Tomás see plastic bags caught by the creek behind the market, and at home they make reusable bags from old T-shirts with his grandmother.
+PERSONAJES FIJOS (NUEVOS esta semana; caras distintas a otros grados y semanas):
+   - Laura — girl, 11 years old, a sixth grader: small child body, round young face, clearly a child; light-brown skin, a round face and dimples, long straight black hair; wearing a light-blue button shirt, with jeans (same outfit in every image unless the scene says otherwise)
+   - Tomás — boy, 11 years old, a sixth grader: small child body, round young face, clearly a child; warm brown skin, thick dark eyebrows, thick straight hair with a cowlick; wearing a red zip jacket, with black jeans (same outfit in every image unless the scene says otherwise)
+   - Laura's mother, about 38, a long dark ponytail, a straw sun hat and a coral blouse
+   - Tomás's grandmother, about 72, short white hair, a flowered dress, a shawl and an old wicker basket
+   - shoppers: a frustrated man about 50 with a mustache holding loose oranges, and an annoyed woman about 45 with sunglasses on her head
+   - the fruit seller, a patient woman about 45, a colorful apron and a headscarf
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - market — a place where people buy and sell food (mercado)  [<b> en página 1]
+   - stall — a small table or stand in a market (puesto)  [<b> en página 1]
+   - plastic — a light material used for bags and bottles (plástico)  [<b> en página 1]
+   - bag — a container for carrying things (bolsa)  [<b> en página 1]
+   - basket — a container made of thin pieces of wood (canasta)  [<b> en página 1]
+   - cloth — material made from cotton or wool (tela)  [<b> en página 3]
+   - carry — to hold something and take it with you (cargar)  [<b> en página 2]
+   - box — a container with flat sides (caja)  [<b> en página 3]
+   - reuse — to use something again (reutilizar)  [<b> en página 4]
+   - T-shirt — a simple shirt with short sleeves (camiseta)  [<b> en página 4]
+
+--- week39_grade06_cover.webp ---
+Attached images: STYLE REFERENCES ONLY. They show OTHER students; copy only their art style, rendering, lighting and color palette. Do NOT copy their faces, hair or clothes: the characters below are new people.
+Generate the image now: one vertical 4:5 BOOK COVER illustration.
+STYLE: original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream, sky blue), cute rounded characters with big expressive eyes, soft subsurface lighting, cozy detailed sets, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY (for understanding only; never write it in the image): On Saturday at the neighborhood market, sixth grader Laura and her mother find signs announcing "an afternoon without plastic bags"; some shoppers complain, but Laura and her neighbor Tomás see plastic bags caught by the creek behind the market, and at home they make reusable bags from old T-shirts with his grandmother.
+CHARACTERS (draw exactly like this): Laura — girl, 11 years old, a sixth grader: small child body, round young face, clearly a child; light-brown skin, a round face and dimples, long straight black hair; wearing a light-blue button shirt, with jeans (same outfit in every image unless the scene says otherwise) | Tomás — boy, 11 years old, a sixth grader: small child body, round young face, clearly a child; warm brown skin, thick dark eyebrows, thick straight hair with a cowlick; wearing a red zip jacket, with black jeans (same outfit in every image unless the scene says otherwise).
+COVER SCENE: At a colorful outdoor market full of fruit stalls, Laura proudly holds up a bright handmade bag made from an old striped T-shirt and filled with oranges, while Tomás beside her raises another T-shirt bag full of bananas, both grinning; rainbow-colored fruit, flowers and stall umbrellas fill the sunny scene.
+COMPOSITION: poster-like book-cover composition: the main characters large in the lower two-thirds, turned toward the viewer with faces clearly visible (unlike the interior pages, which show side-view action); the upper third is a calm, simple area of sky, wall or soft light for the title. This cover must not copy any interior page.
+AGE CHECK: every student must look exactly the age stated above; they are children.
+TEXT — the ONLY text allowed: the title "The Market With No Plastic Bags" at the top in bubbly hand-lettered orange and deep blue letters with tiny sun and heart doodles. At the bottom, two lines of white/pale-yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No subtitles, grade labels, numbers, captions, speech bubbles, logos or watermarks. Any screen, paper or sign in the scene shows only simple icons or blank shapes.
+
+--- week39_grade06_page01.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 1 of the story "The Market With No Plastic Bags".
+STYLE: original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream, sky blue), cute rounded characters with big expressive eyes, soft subsurface lighting, cozy detailed sets, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): On Saturday at the neighborhood market, sixth grader Laura and her mother find signs announcing "an afternoon without plastic bags"; some shoppers complain, but Laura and her neighbor Tomás see plastic bags caught by the creek behind the market, and at home they make reusable bags from old T-shirts with his grandmother.
+TIME: Saturday at nine in the morning, bright sunny light.
+PLACE: a colorful neighborhood street market in Medellín with stalls of fruit, vegetables and flowers.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Laura — girl, 11 years old, a sixth grader: small child body, round young face, clearly a child; light-brown skin, a round face and dimples, long straight black hair; wearing a light-blue button shirt, with jeans (same outfit in every image unless the scene says otherwise) | Tomás — boy, 11 years old, a sixth grader: small child body, round young face, clearly a child; warm brown skin, thick dark eyebrows, thick straight hair with a cowlick; wearing a red zip jacket, with black jeans (same outfit in every image unless the scene says otherwise) | Laura's mother, about 38, a long dark ponytail, a straw sun hat and a coral blouse | Tomás's grandmother, about 72, short white hair, a flowered dress, a shawl and an old wicker basket.
+SCENE (illustrate exactly this moment): At a colorful neighborhood market in Medellín, Laura, 11, and her mother stand in front of a fruit stall where a hand-painted sign shows a plastic bag with a red X, while Tomás, 11, and his grandmother arrive with an old wicker basket.
+MOOD AND EXPRESSIONS: surprise, curiosity; natural, believable body language.
+CAMERA: eye-level side view, the setting visible behind the characters.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade06_page02.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 2 of the story "The Market With No Plastic Bags".
+STYLE: original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream, sky blue), cute rounded characters with big expressive eyes, soft subsurface lighting, cozy detailed sets, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): On Saturday at the neighborhood market, sixth grader Laura and her mother find signs announcing "an afternoon without plastic bags"; some shoppers complain, but Laura and her neighbor Tomás see plastic bags caught by the creek behind the market, and at home they make reusable bags from old T-shirts with his grandmother.
+TIME: Saturday morning, a few minutes later.
+PLACE: in front of a fruit stall at the market.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Laura — girl, 11 years old, a sixth grader: small child body, round young face, clearly a child; light-brown skin, a round face and dimples, long straight black hair; wearing a light-blue button shirt, with jeans (same outfit in every image unless the scene says otherwise) | Tomás — boy, 11 years old, a sixth grader: small child body, round young face, clearly a child; warm brown skin, thick dark eyebrows, thick straight hair with a cowlick; wearing a red zip jacket, with black jeans (same outfit in every image unless the scene says otherwise) | Tomás's grandmother, about 72, short white hair, a flowered dress, a shawl and an old wicker basket | shoppers: a frustrated man about 50 with a mustache holding loose oranges, and an annoyed woman about 45 with sunglasses on her head | the fruit seller, a patient woman about 45, a colorful apron and a headscarf.
+SCENE (illustrate exactly this moment): At the market, several shoppers complain to a fruit seller with crossed arms and frustrated faces, one man holding many loose oranges in his hands, while Laura watches and Tomás's grandmother smiles calmly with her basket.
+MOOD AND EXPRESSIONS: complaints, patience, calm grandmother; natural, believable body language.
+CAMERA: layered depth composition: a relevant object softly blurred in the foreground, characters in the middle, setting behind.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade06_page03.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 3 of the story "The Market With No Plastic Bags".
+STYLE: original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream, sky blue), cute rounded characters with big expressive eyes, soft subsurface lighting, cozy detailed sets, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): On Saturday at the neighborhood market, sixth grader Laura and her mother find signs announcing "an afternoon without plastic bags"; some shoppers complain, but Laura and her neighbor Tomás see plastic bags caught by the creek behind the market, and at home they make reusable bags from old T-shirts with his grandmother.
+TIME: Saturday morning.
+PLACE: the end of the market street with free cardboard boxes, a cloth bag stall and a small creek behind the stalls.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Laura — girl, 11 years old, a sixth grader: small child body, round young face, clearly a child; light-brown skin, a round face and dimples, long straight black hair; wearing a light-blue button shirt, with jeans (same outfit in every image unless the scene says otherwise) | Tomás — boy, 11 years old, a sixth grader: small child body, round young face, clearly a child; warm brown skin, thick dark eyebrows, thick straight hair with a cowlick; wearing a red zip jacket, with black jeans (same outfit in every image unless the scene says otherwise) | Laura's mother, about 38, a long dark ponytail, a straw sun hat and a coral blouse | the fruit seller, a patient woman about 45, a colorful apron and a headscarf.
+SCENE (illustrate exactly this moment): At the end of the market street, there is a pile of free cardboard boxes and a small stall selling colorful cloth bags, and Laura holds a cardboard box full of fruit while Tomás points at the creek behind the market with some plastic bags caught in the bushes; mother and seller are also there, as described.
+MOOD AND EXPRESSIONS: discovery, concern; natural, believable body language.
+CAMERA: medium-wide frontal shot, characters slightly off-center following the rule of thirds, open space around them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade06_page04.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 4 of the story "The Market With No Plastic Bags".
+STYLE: original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream, sky blue), cute rounded characters with big expressive eyes, soft subsurface lighting, cozy detailed sets, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): On Saturday at the neighborhood market, sixth grader Laura and her mother find signs announcing "an afternoon without plastic bags"; some shoppers complain, but Laura and her neighbor Tomás see plastic bags caught by the creek behind the market, and at home they make reusable bags from old T-shirts with his grandmother.
+TIME: Saturday afternoon, warm window light.
+PLACE: the kitchen table in Laura's family home with old T-shirts and scissors.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Laura — girl, 11 years old, a sixth grader: small child body, round young face, clearly a child; light-brown skin, a round face and dimples, long straight black hair; wearing a light-blue button shirt, with jeans (same outfit in every image unless the scene says otherwise) | Tomás — boy, 11 years old, a sixth grader: small child body, round young face, clearly a child; warm brown skin, thick dark eyebrows, thick straight hair with a cowlick; wearing a red zip jacket, with black jeans (same outfit in every image unless the scene says otherwise) | Laura's mother, about 38, a long dark ponytail, a straw sun hat and a coral blouse | Tomás's grandmother, about 72, short white hair, a flowered dress, a shawl and an old wicker basket.
+SCENE (illustrate exactly this moment): At Laura's home kitchen table, Laura and her mother cut old T-shirts and tie the bottoms to make simple reusable bags, while Tomás and his grandmother help, and a finished colorful bag full of oranges sits on the table.
+MOOD AND EXPRESSIONS: creativity, teamwork, pride; natural, believable body language.
+CAMERA: eye-level medium shot, the main characters in the foreground and the place clearly recognizable behind them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+##########################################################################################
+GRADO 7 — "The Restaurant Review That Went Viral" — 7° Grade / A1 Advanced — portada + 5 páginas = 6 imágenes
+##########################################################################################
+EDAD VISUAL OBLIGATORIA: 12 years old, a seventh grader: early-teen body, still a young, childlike face.
+BLOQUE DE ESTILO (fijo en todo el grado): painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors, warm storybook atmosphere.
+FOTOS BASE DE ESTILO A ADJUNTAR (solo estilo, otros actores): week01_grade07_cover.webp + week01_grade07_page01.webp
+DESDE LA PAGE01: adjuntar también week39_grade07_cover.webp ya generada (fija las caras de esta semana).
+HISTORIA: Seventh grader Julián writes an honest food-blog review of Doña Rosa's small family restaurant: the sancocho is the best in the neighborhood but the single waiter is overwhelmed; the review goes viral at school and classmates say he destroyed the restaurant, so his friend Sara checks the exact words with him and they visit Doña Rosa, who is grateful.
+PERSONAJES FIJOS (NUEVOS esta semana; caras distintas a otros grados y semanas):
+   - Julián — boy, 12 years old, a seventh grader: early-teen body, still a young, childlike face; light-brown skin, thick dark eyebrows, neat dark hair combed back; wearing a pink striped shirt, with navy pants (same outfit in every image unless the scene says otherwise)
+   - Sara — girl, 12 years old, a seventh grader: early-teen body, still a young, childlike face; medium-brown skin, a round face and dimples, a low ponytail of thick curly hair; wearing a cobalt-blue track jacket, with khaki pants (same outfit in every image unless the scene says otherwise)
+   - the waiter, a tired but kind young man about 22, a black apron, carrying many plates
+   - Doña Rosa, the restaurant owner and cook, a warm woman about 60, gray hair in a bun, an apron with flowers, rosy cheeks
+   - two waiters: the first waiter (a kind young man about 22 with a black apron) and a new waiter (a woman about 25 with short hair and a black apron)
+   - 12-year-old classmates
+   - families and students eating at the tables
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - restaurant — a place where you buy and eat meals (restaurante)  [<b> en página 1]
+   - review — a written opinion about a place or product (reseña)  [<b> en página 1]
+   - blog — a website where people write posts (blog)  [<b> en página 1]
+   - owner — the person something belongs to (dueño)  [<b> en página 4]
+   - service — the help that workers give to customers (servicio)  [<b> en página 1]
+   - delicious — very good to eat (delicioso)  [<b> en página 1]
+   - slow — not fast (lento)  [<b> en página 1]
+   - honest — telling the truth (honesto)  [<b> en página 3]
+   - viral — spread quickly to many people online (viral)  [<b> en página 2]
+   - customer — a person who buys something (cliente)  [<b> en página 4]
+
+--- week39_grade07_cover.webp ---
+Attached images: STYLE REFERENCES ONLY. They show OTHER students; copy only their art style, rendering, lighting and color palette. Do NOT copy their faces, hair or clothes: the characters below are new people.
+Generate the image now: one vertical 4:5 BOOK COVER illustration.
+STYLE: painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors, warm storybook atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY (for understanding only; never write it in the image): Seventh grader Julián writes an honest food-blog review of Doña Rosa's small family restaurant: the sancocho is the best in the neighborhood but the single waiter is overwhelmed; the review goes viral at school and classmates say he destroyed the restaurant, so his friend Sara checks the exact words with him and they visit Doña Rosa, who is grateful.
+CHARACTERS (draw exactly like this): Julián — boy, 12 years old, a seventh grader: early-teen body, still a young, childlike face; light-brown skin, thick dark eyebrows, neat dark hair combed back; wearing a pink striped shirt, with navy pants (same outfit in every image unless the scene says otherwise) | Sara — girl, 12 years old, a seventh grader: early-teen body, still a young, childlike face; medium-brown skin, a round face and dimples, a low ponytail of thick curly hair; wearing a cobalt-blue track jacket, with khaki pants (same outfit in every image unless the scene says otherwise) | Doña Rosa, the restaurant owner and cook, a warm woman about 60, gray hair in a bun, an apron with flowers, rosy cheeks.
+COVER SCENE: In a cozy family restaurant full of steam and warm light, Julián sits at a small table with a notebook and a pencil in front of a big bowl of sancocho, raising his spoon with a delighted face toward the viewer, while Doña Rosa peeks from the open kitchen with a big smile and Sara looks in curiously through the restaurant window.
+COMPOSITION: poster-like book-cover composition: the main characters large in the lower two-thirds, turned toward the viewer with faces clearly visible (unlike the interior pages, which show side-view action); the upper third is a calm, simple area of sky, wall or soft light for the title. This cover must not copy any interior page.
+AGE CHECK: every student must look exactly the age stated above; they are children.
+TEXT — the ONLY text allowed: the title "The Restaurant Review That Went Viral" at the top in navy (first line) and green (second line) letters on a cream torn brush-stroke banner at the top, small leaf sprigs in the corners. At the bottom, two lines of navy text inside a cream rounded box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No subtitles, grade labels, numbers, captions, speech bubbles, logos or watermarks. Any screen, paper or sign in the scene shows only simple icons or blank shapes.
+
+--- week39_grade07_page01.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 1 of the story "The Restaurant Review That Went Viral".
+STYLE: painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors, warm storybook atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Seventh grader Julián writes an honest food-blog review of Doña Rosa's small family restaurant: the sancocho is the best in the neighborhood but the single waiter is overwhelmed; the review goes viral at school and classmates say he destroyed the restaurant, so his friend Sara checks the exact words with him and they visit Doña Rosa, who is grateful.
+TIME: last Saturday at one in the afternoon, warm indoor light.
+PLACE: a small family restaurant in a Medellín neighborhood with wooden tables, an open kitchen and plants.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Julián — boy, 12 years old, a seventh grader: early-teen body, still a young, childlike face; light-brown skin, thick dark eyebrows, neat dark hair combed back; wearing a pink striped shirt, with navy pants (same outfit in every image unless the scene says otherwise) | the waiter, a tired but kind young man about 22, a black apron, carrying many plates | Doña Rosa, the restaurant owner and cook, a warm woman about 60, gray hair in a bun, an apron with flowers, rosy cheeks.
+SCENE (illustrate exactly this moment): In a small family restaurant in a Medellín neighborhood, Julián, 12, writes in a notebook at a table with a plate of sancocho, while a single tired waiter carries many plates and the owner cooks in an open kitchen behind.
+MOOD AND EXPRESSIONS: delicious food, slow service; natural, believable body language.
+CAMERA: layered depth composition: a relevant object softly blurred in the foreground, characters in the middle, setting behind.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade07_page02.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 2 of the story "The Restaurant Review That Went Viral".
+STYLE: painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors, warm storybook atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Seventh grader Julián writes an honest food-blog review of Doña Rosa's small family restaurant: the sancocho is the best in the neighborhood but the single waiter is overwhelmed; the review goes viral at school and classmates say he destroyed the restaurant, so his friend Sara checks the exact words with him and they visit Doña Rosa, who is grateful.
+TIME: Monday at break.
+PLACE: a public school courtyard in Medellín.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Julián — boy, 12 years old, a seventh grader: early-teen body, still a young, childlike face; light-brown skin, thick dark eyebrows, neat dark hair combed back; wearing a pink striped shirt, with navy pants (same outfit in every image unless the scene says otherwise) | Sara — girl, 12 years old, a seventh grader: early-teen body, still a young, childlike face; medium-brown skin, a round face and dimples, a low ponytail of thick curly hair; wearing a cobalt-blue track jacket, with khaki pants (same outfit in every image unless the scene says otherwise) | 12-year-old classmates.
+SCENE (illustrate exactly this moment): At school, a group of students crowd around a phone showing a blog post with a soup icon and many share icons, some laughing and some frowning, while Julián looks surprised and Sara stands beside him with crossed arms.
+MOOD AND EXPRESSIONS: shock, guilt, criticism; natural, believable body language.
+CAMERA: medium-wide frontal shot, characters slightly off-center following the rule of thirds, open space around them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade07_page03.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 3 of the story "The Restaurant Review That Went Viral".
+STYLE: painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors, warm storybook atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Seventh grader Julián writes an honest food-blog review of Doña Rosa's small family restaurant: the sancocho is the best in the neighborhood but the single waiter is overwhelmed; the review goes viral at school and classmates say he destroyed the restaurant, so his friend Sara checks the exact words with him and they visit Doña Rosa, who is grateful.
+TIME: Monday at lunchtime.
+PLACE: a table in the school library with a laptop.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Julián — boy, 12 years old, a seventh grader: early-teen body, still a young, childlike face; light-brown skin, thick dark eyebrows, neat dark hair combed back; wearing a pink striped shirt, with navy pants (same outfit in every image unless the scene says otherwise) | Sara — girl, 12 years old, a seventh grader: early-teen body, still a young, childlike face; medium-brown skin, a round face and dimples, a low ponytail of thick curly hair; wearing a cobalt-blue track jacket, with khaki pants (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): Julián and Sara sit in the school library reading the review together on a laptop, Sara pointing at specific lines on the screen shown as gray lines with a soup icon, a clock icon and a heart icon.
+MOOD AND EXPRESSIONS: careful rereading, relief; natural, believable body language.
+CAMERA: eye-level medium shot, the main characters in the foreground and the place clearly recognizable behind them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade07_page04.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 4 of the story "The Restaurant Review That Went Viral".
+STYLE: painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors, warm storybook atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Seventh grader Julián writes an honest food-blog review of Doña Rosa's small family restaurant: the sancocho is the best in the neighborhood but the single waiter is overwhelmed; the review goes viral at school and classmates say he destroyed the restaurant, so his friend Sara checks the exact words with him and they visit Doña Rosa, who is grateful.
+TIME: Monday afternoon.
+PLACE: the entrance and counter of the small restaurant.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Julián — boy, 12 years old, a seventh grader: early-teen body, still a young, childlike face; light-brown skin, thick dark eyebrows, neat dark hair combed back; wearing a pink striped shirt, with navy pants (same outfit in every image unless the scene says otherwise) | Sara — girl, 12 years old, a seventh grader: early-teen body, still a young, childlike face; medium-brown skin, a round face and dimples, a low ponytail of thick curly hair; wearing a cobalt-blue track jacket, with khaki pants (same outfit in every image unless the scene says otherwise) | the waiter, a tired but kind young man about 22, a black apron, carrying many plates | Doña Rosa, the restaurant owner and cook, a warm woman about 60, gray hair in a bun, an apron with flowers, rosy cheeks.
+SCENE (illustrate exactly this moment): Julián and Sara nervously enter the small restaurant, where Doña Rosa, an older woman in an apron, comes out of the kitchen holding a phone and smiling at them, while the waiter watches from the counter.
+MOOD AND EXPRESSIONS: nervousness turning into surprise; natural, believable body language.
+CAMERA: wide establishing shot that shows the whole place, characters at full body in the middle ground.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade07_page05.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 5 of the story "The Restaurant Review That Went Viral".
+STYLE: painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors, warm storybook atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Seventh grader Julián writes an honest food-blog review of Doña Rosa's small family restaurant: the sancocho is the best in the neighborhood but the single waiter is overwhelmed; the review goes viral at school and classmates say he destroyed the restaurant, so his friend Sara checks the exact words with him and they visit Doña Rosa, who is grateful.
+TIME: two weeks later, Saturday at one in the afternoon.
+PLACE: the same small restaurant, now full of customers.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Julián — boy, 12 years old, a seventh grader: early-teen body, still a young, childlike face; light-brown skin, thick dark eyebrows, neat dark hair combed back; wearing a pink striped shirt, with navy pants (same outfit in every image unless the scene says otherwise) | Sara — girl, 12 years old, a seventh grader: early-teen body, still a young, childlike face; medium-brown skin, a round face and dimples, a low ponytail of thick curly hair; wearing a cobalt-blue track jacket, with khaki pants (same outfit in every image unless the scene says otherwise) | Doña Rosa, the restaurant owner and cook, a warm woman about 60, gray hair in a bun, an apron with flowers, rosy cheeks | two waiters: the first waiter (a kind young man about 22 with a black apron) and a new waiter (a woman about 25 with short hair and a black apron) | 12-year-old classmates | families and students eating at the tables.
+SCENE (illustrate exactly this moment): Weeks later, the small restaurant is full of customers including students from Julián's school, and two waiters serve plates of soup quickly, while Doña Rosa waves happily at Julián and Sara from the kitchen.
+MOOD AND EXPRESSIONS: happiness, success, gratitude; natural, believable body language.
+CAMERA: three-quarter view from a slightly raised camera, showing everyone involved and the key object.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+##########################################################################################
+GRADO 8 — "The Shopping Cart Test" — 8° Grade / A2 Beginner — portada + 6 páginas = 7 imágenes
+##########################################################################################
+EDAD VISUAL OBLIGATORIA: 13 years old, an eighth grader: young teenager, slim growing body, youthful face.
+BLOQUE DE ESTILO (fijo en todo el grado): original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition.
+FOTOS BASE DE ESTILO A ADJUNTAR (solo estilo, otros actores): week01_grade08_cover.webp + week01_grade08_page01.webp
+DESDE LA PAGE01: adjuntar también week39_grade08_cover.webp ya generada (fija las caras de esta semana).
+HISTORIA: In a school challenge, each group has a pretend budget of one hundred thousand pesos to fill an online shopping cart with a week of snacks; eighth grader Diego clicks thirty cheap small items and goes over the budget, while his partner Sara makes a list of needs and wants first, and they rebuild the cart and stay in budget.
+PERSONAJES FIJOS (NUEVOS esta semana; caras distintas a otros grados y semanas):
+   - Diego — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; warm tan skin, thick dark eyebrows, short curly dark hair; wearing a black-and-white checked overshirt, with khaki pants (same outfit in every image unless the scene says otherwise)
+   - Sara — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; golden-tan skin, freckles across the nose, a short chin-length bob; wearing a turquoise blouse, with black jeans (same outfit in every image unless the scene says otherwise)
+   - the teacher, a woman about 40, a long wavy ponytail, glasses and a green cardigan
+   - 13-year-old classmates
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - cart — the place where you keep things you want to buy online (carrito)  [<b> en página 1]
+   - item — one thing in a list or group (artículo)  [<b> en página 3]
+   - total — the whole amount (total)  [<b> en página 3]
+   - add up — to become a large amount little by little (sumar)  [<b> en página 3]
+   - cheap — not expensive (barato)  [<b> en página 2]
+   - list — words written one under the other (lista)  [<b> en página 1]
+   - need — to require something important (necesitar)  [<b> en página 4]
+   - want — to wish for something (querer)  [<b> en página 4]
+   - checkout — the final step to pay when shopping (pago final)  [<b> en página 3]
+   - challenge — a difficult task that tests your skills (reto)  [<b> en página 1]
+
+--- week39_grade08_cover.webp ---
+Attached images: STYLE REFERENCES ONLY. They show OTHER students; copy only their art style, rendering, lighting and color palette. Do NOT copy their faces, hair or clothes: the characters below are new people.
+Generate the image now: one vertical 4:5 BOOK COVER illustration.
+STYLE: original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY (for understanding only; never write it in the image): In a school challenge, each group has a pretend budget of one hundred thousand pesos to fill an online shopping cart with a week of snacks; eighth grader Diego clicks thirty cheap small items and goes over the budget, while his partner Sara makes a list of needs and wants first, and they rebuild the cart and stay in budget.
+CHARACTERS (draw exactly like this): Diego — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; warm tan skin, thick dark eyebrows, short curly dark hair; wearing a black-and-white checked overshirt, with khaki pants (same outfit in every image unless the scene says otherwise) | Sara — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; golden-tan skin, freckles across the nose, a short chin-length bob; wearing a turquoise blouse, with black jeans (same outfit in every image unless the scene says otherwise).
+COVER SCENE: In a school computer room, Diego sits surrounded by a funny avalanche of tiny floating candy, gum and sticker icons pouring out of a computer screen, his eyes wide, while Sara stands calmly beside him holding up a short notebook list with only a banana, bread and a water bottle drawn on it, smiling.
+COMPOSITION: poster-like book-cover composition: the main characters large in the lower two-thirds, turned toward the viewer with faces clearly visible (unlike the interior pages, which show side-view action); the upper third is a calm, simple area of sky, wall or soft light for the title. This cover must not copy any interior page.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate, school-safe, natural expressions.
+TEXT — the ONLY text allowed: the title "The Shopping Cart Test" at the top in thick hand-lettered navy, green and orange letters with small ray accents. At the bottom, two lines of white/pale-yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No subtitles, grade labels, numbers, captions, speech bubbles, logos or watermarks. Any screen, paper or sign in the scene shows only simple icons or blank shapes.
+
+--- week39_grade08_page01.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 1 of the story "The Shopping Cart Test".
+STYLE: original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): In a school challenge, each group has a pretend budget of one hundred thousand pesos to fill an online shopping cart with a week of snacks; eighth grader Diego clicks thirty cheap small items and goes over the budget, while his partner Sara makes a list of needs and wants first, and they rebuild the cart and stay in budget.
+TIME: Tuesday morning, soft screen light.
+PLACE: a public school computer room in Medellín with a projector.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Diego — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; warm tan skin, thick dark eyebrows, short curly dark hair; wearing a black-and-white checked overshirt, with khaki pants (same outfit in every image unless the scene says otherwise) | Sara — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; golden-tan skin, freckles across the nose, a short chin-length bob; wearing a turquoise blouse, with black jeans (same outfit in every image unless the scene says otherwise) | the teacher, a woman about 40, a long wavy ponytail, glasses and a green cardigan.
+SCENE (illustrate exactly this moment): In a public school computer room in Medellín, the teacher stands next to a projected screen showing a shopping cart icon and a coin icon with a big glowing star, while Diego, 13, and Sara, 13, sit together at a computer, excited.
+MOOD AND EXPRESSIONS: excitement, competition; natural, believable body language.
+CAMERA: medium-wide frontal shot, characters slightly off-center following the rule of thirds, open space around them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade08_page02.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 2 of the story "The Shopping Cart Test".
+STYLE: original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): In a school challenge, each group has a pretend budget of one hundred thousand pesos to fill an online shopping cart with a week of snacks; eighth grader Diego clicks thirty cheap small items and goes over the budget, while his partner Sara makes a list of needs and wants first, and they rebuild the cart and stay in budget.
+TIME: Tuesday, ten minutes later.
+PLACE: the computer desk.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Diego — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; warm tan skin, thick dark eyebrows, short curly dark hair; wearing a black-and-white checked overshirt, with khaki pants (same outfit in every image unless the scene says otherwise) | Sara — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; golden-tan skin, freckles across the nose, a short chin-length bob; wearing a turquoise blouse, with black jeans (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): Diego quickly clicks on many small cheap items on the screen, like candy, gum, small chips and stickers, each shown as a small picture with a tiny coin icon, while the cart icon fills up and Sara watches with concern.
+MOOD AND EXPRESSIONS: fast clicking, overconfidence; natural, believable body language.
+CAMERA: eye-level medium shot, the main characters in the foreground and the place clearly recognizable behind them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade08_page03.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 3 of the story "The Shopping Cart Test".
+STYLE: original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): In a school challenge, each group has a pretend budget of one hundred thousand pesos to fill an online shopping cart with a week of snacks; eighth grader Diego clicks thirty cheap small items and goes over the budget, while his partner Sara makes a list of needs and wants first, and they rebuild the cart and stay in budget.
+TIME: Tuesday, a few minutes later.
+PLACE: the computer desk.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Diego — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; warm tan skin, thick dark eyebrows, short curly dark hair; wearing a black-and-white checked overshirt, with khaki pants (same outfit in every image unless the scene says otherwise) | Sara — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; golden-tan skin, freckles across the nose, a short chin-length bob; wearing a turquoise blouse, with black jeans (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): The computer screen shows a checkout page with a very long red total bar with no digits and a red warning triangle, Diego's mouth open in shock, while Sara leans toward the screen and calmly counts the many small items on her fingers.
+MOOD AND EXPRESSIONS: shock; natural, believable body language.
+CAMERA: wide establishing shot that shows the whole place, characters at full body in the middle ground.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade08_page04.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 4 of the story "The Shopping Cart Test".
+STYLE: original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): In a school challenge, each group has a pretend budget of one hundred thousand pesos to fill an online shopping cart with a week of snacks; eighth grader Diego clicks thirty cheap small items and goes over the budget, while his partner Sara makes a list of needs and wants first, and they rebuild the cart and stay in budget.
+TIME: Tuesday, a few minutes later.
+PLACE: the computer desk with a notebook.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Diego — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; warm tan skin, thick dark eyebrows, short curly dark hair; wearing a black-and-white checked overshirt, with khaki pants (same outfit in every image unless the scene says otherwise) | Sara — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; golden-tan skin, freckles across the nose, a short chin-length bob; wearing a turquoise blouse, with black jeans (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): Sara and Diego sit with the notebook between them, drawing two columns with icons: a banana, a water bottle and bread in one, and candy, stickers and a toy in the other, Diego scratching his head.
+MOOD AND EXPRESSIONS: learning, reflection; natural, believable body language.
+CAMERA: three-quarter view from a slightly raised camera, showing everyone involved and the key object.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade08_page05.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 5 of the story "The Shopping Cart Test".
+STYLE: original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): In a school challenge, each group has a pretend budget of one hundred thousand pesos to fill an online shopping cart with a week of snacks; eighth grader Diego clicks thirty cheap small items and goes over the budget, while his partner Sara makes a list of needs and wants first, and they rebuild the cart and stay in budget.
+TIME: Tuesday, later in class.
+PLACE: the computer desk.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Diego — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; warm tan skin, thick dark eyebrows, short curly dark hair; wearing a black-and-white checked overshirt, with khaki pants (same outfit in every image unless the scene says otherwise) | Sara — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; golden-tan skin, freckles across the nose, a short chin-length bob; wearing a turquoise blouse, with black jeans (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): Diego and Sara rebuild their online cart together, now showing bananas, bread, water bottles and two small treats, and the total on the screen is a short total bar with a green check mark, both smiling.
+MOOD AND EXPRESSIONS: success, teamwork; natural, believable body language.
+CAMERA: over-the-shoulder view from behind one character, keeping the other faces clearly visible.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade08_page06.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 6 of the story "The Shopping Cart Test".
+STYLE: original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): In a school challenge, each group has a pretend budget of one hundred thousand pesos to fill an online shopping cart with a week of snacks; eighth grader Diego clicks thirty cheap small items and goes over the budget, while his partner Sara makes a list of needs and wants first, and they rebuild the cart and stay in budget.
+TIME: at the end of the class.
+PLACE: the front of the classroom with the board.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Diego — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; warm tan skin, thick dark eyebrows, short curly dark hair; wearing a black-and-white checked overshirt, with khaki pants (same outfit in every image unless the scene says otherwise) | Sara — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; golden-tan skin, freckles across the nose, a short chin-length bob; wearing a turquoise blouse, with black jeans (same outfit in every image unless the scene says otherwise) | the teacher, a woman about 40, a long wavy ponytail, glasses and a green cardigan | 13-year-old classmates.
+SCENE (illustrate exactly this moment): In the classroom, the teacher shows a bar chart on the board comparing groups' carts, with Diego and Sara's group bar below the budget line in green, while classmates clap and Diego raises his hand to speak.
+MOOD AND EXPRESSIONS: pride, honesty; natural, believable body language.
+CAMERA: closer medium shot on faces, hands and the important object, everyone in the scene still visible, background softly blurred.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+##########################################################################################
+GRADO 9 — "The Bridge That Moves in the Wind" — 9° Grade / A2 Advanced — portada + 6 páginas = 7 imágenes
+##########################################################################################
+EDAD VISUAL OBLIGATORIA: 14 years old, a ninth grader: teenager with teen proportions, youthful face.
+BLOQUE DE ESTILO (fijo en todo el grado): glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field.
+FOTOS BASE DE ESTILO A ADJUNTAR (solo estilo, otros actores): week01_grade09_cover.webp + week01_grade09_page01.webp
+DESDE LA PAGE01: adjuntar también week39_grade09_cover.webp ya generada (fija las caras de esta semana).
+HISTORIA: On a class visit to a park with a long pedestrian suspension bridge over a deep green valley, ninth grader Mariana panics when the bridge sways in the wind and classmates say moving bridges are dangerous; Felipe asks the park engineer, who explains flexible design, maximum load and wind sensors, and Mariana crosses again calmly.
+PERSONAJES FIJOS (NUEVOS esta semana; caras distintas a otros grados y semanas):
+   - Mariana — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; warm tan skin, a heart-shaped face, a high dark ponytail; wearing a green polo shirt, with jeans (same outfit in every image unless the scene says otherwise)
+   - Felipe — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; medium-brown skin, freckles across the nose, short spiky black hair; wearing an olive cargo jacket, with khaki pants (same outfit in every image unless the scene says otherwise)
+   - 14-year-old classmates in casual clothes
+   - the park engineer, a man about 45, a white helmet, a reflective vest, a tablet and a short beard
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - bridge — a structure that goes over a river or road (puente)  [<b> en página 1]
+   - wind — air that moves fast outside (viento)  [<b> en página 1]
+   - sway — to move slowly from side to side (balancearse)  [<b> en página 1]
+   - engineer — a person who designs structures (ingeniero)  [<b> en página 3]
+   - cable — a thick, strong wire (cable)  [<b> en página 3]
+   - flexible — able to bend without breaking (flexible)  [<b> en página 4]
+   - structure — something that is built, like a bridge (estructura)  [<b> en página 6]
+   - design — to plan how something will be built (diseñar)  [<b> en página 4]
+   - load — the weight that something carries (carga)  [<b> en página 5]
+   - safe — protected from danger (seguro)  [<b> en página 5]
+
+--- week39_grade09_cover.webp ---
+Attached images: STYLE REFERENCES ONLY. They show OTHER students; copy only their art style, rendering, lighting and color palette. Do NOT copy their faces, hair or clothes: the characters below are new people.
+Generate the image now: one vertical 4:5 BOOK COVER illustration.
+STYLE: glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY (for understanding only; never write it in the image): On a class visit to a park with a long pedestrian suspension bridge over a deep green valley, ninth grader Mariana panics when the bridge sways in the wind and classmates say moving bridges are dangerous; Felipe asks the park engineer, who explains flexible design, maximum load and wind sensors, and Mariana crosses again calmly.
+CHARACTERS (draw exactly like this): Mariana — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; warm tan skin, a heart-shaped face, a high dark ponytail; wearing a green polo shirt, with jeans (same outfit in every image unless the scene says otherwise) | Felipe — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; medium-brown skin, freckles across the nose, short spiky black hair; wearing an olive cargo jacket, with khaki pants (same outfit in every image unless the scene says otherwise).
+COVER SCENE: At the entrance platform of a long suspension bridge, Mariana and Felipe stand facing the viewer beside a tall steel tower, Mariana resting one hand on a thick cable and looking up in wonder, Felipe pointing at the cables, the bridge curving away over a deep green valley.
+COMPOSITION: poster-like book-cover composition: the main characters large in the lower two-thirds, turned toward the viewer with faces clearly visible (unlike the interior pages, which show side-view action); the upper third is a calm, simple area of sky, wall or soft light for the title. This cover must not copy any interior page.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate, school-safe, natural expressions.
+TEXT — the ONLY text allowed: the title "The Bridge That Moves in the Wind" at the top in bold navy, green and orange hand-lettered letters with a soft white glow. At the bottom, two lines of white/pale-yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No subtitles, grade labels, numbers, captions, speech bubbles, logos or watermarks. Any screen, paper or sign in the scene shows only simple icons or blank shapes.
+
+--- week39_grade09_page01.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 1 of the story "The Bridge That Moves in the Wind".
+STYLE: glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): On a class visit to a park with a long pedestrian suspension bridge over a deep green valley, ninth grader Mariana panics when the bridge sways in the wind and classmates say moving bridges are dangerous; Felipe asks the park engineer, who explains flexible design, maximum load and wind sensors, and Mariana crosses again calmly.
+TIME: Thursday at two in the afternoon, sunny with strong wind.
+PLACE: a long pedestrian suspension bridge over a deep green valley in a park near Medellín.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Mariana — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; warm tan skin, a heart-shaped face, a high dark ponytail; wearing a green polo shirt, with jeans (same outfit in every image unless the scene says otherwise) | Felipe — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; medium-brown skin, freckles across the nose, short spiky black hair; wearing an olive cargo jacket, with khaki pants (same outfit in every image unless the scene says otherwise) | 14-year-old classmates in casual clothes.
+SCENE (illustrate exactly this moment): On a long pedestrian suspension bridge over a green valley near Medellín, Mariana, 14, holds the side cable tightly with a scared face as the bridge moves in the wind, while Felipe, 14, walks next to her calmly and other students walk ahead.
+MOOD AND EXPRESSIONS: fear, unease; natural, believable body language.
+CAMERA: eye-level medium shot, the main characters in the foreground and the place clearly recognizable behind them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade09_page02.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 2 of the story "The Bridge That Moves in the Wind".
+STYLE: glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): On a class visit to a park with a long pedestrian suspension bridge over a deep green valley, ninth grader Mariana panics when the bridge sways in the wind and classmates say moving bridges are dangerous; Felipe asks the park engineer, who explains flexible design, maximum load and wind sensors, and Mariana crosses again calmly.
+TIME: a minute later, windy.
+PLACE: the middle of the swaying bridge.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Mariana — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; warm tan skin, a heart-shaped face, a high dark ponytail; wearing a green polo shirt, with jeans (same outfit in every image unless the scene says otherwise) | Felipe — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; medium-brown skin, freckles across the nose, short spiky black hair; wearing an olive cargo jacket, with khaki pants (same outfit in every image unless the scene says otherwise) | 14-year-old classmates in casual clothes.
+SCENE (illustrate exactly this moment): Mariana stands frozen in the middle of the swaying bridge holding on with both hands, some classmates running back toward the start, while Felipe stays calm and looks at the thick cables above.
+MOOD AND EXPRESSIONS: panic among some, Felipe calm and curious; natural, believable body language.
+CAMERA: wide establishing shot that shows the whole place, characters at full body in the middle ground.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade09_page03.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 3 of the story "The Bridge That Moves in the Wind".
+STYLE: glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): On a class visit to a park with a long pedestrian suspension bridge over a deep green valley, ninth grader Mariana panics when the bridge sways in the wind and classmates say moving bridges are dangerous; Felipe asks the park engineer, who explains flexible design, maximum load and wind sensors, and Mariana crosses again calmly.
+TIME: a few minutes later.
+PLACE: the end of the bridge near a steel tower and cables.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Mariana — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; warm tan skin, a heart-shaped face, a high dark ponytail; wearing a green polo shirt, with jeans (same outfit in every image unless the scene says otherwise) | Felipe — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; medium-brown skin, freckles across the nose, short spiky black hair; wearing an olive cargo jacket, with khaki pants (same outfit in every image unless the scene says otherwise) | the park engineer, a man about 45, a white helmet, a reflective vest, a tablet and a short beard.
+SCENE (illustrate exactly this moment): At the end of the bridge, a park engineer in his forties with a helmet and a tablet talks to Mariana, Felipe and the class, pointing up at the steel cables and the towers that hold the bridge.
+MOOD AND EXPRESSIONS: explanation, interest; natural, believable body language.
+CAMERA: three-quarter view from a slightly raised camera, showing everyone involved and the key object.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade09_page04.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 4 of the story "The Bridge That Moves in the Wind".
+STYLE: glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): On a class visit to a park with a long pedestrian suspension bridge over a deep green valley, ninth grader Mariana panics when the bridge sways in the wind and classmates say moving bridges are dangerous; Felipe asks the park engineer, who explains flexible design, maximum load and wind sensors, and Mariana crosses again calmly.
+TIME: a few minutes later.
+PLACE: at the bridge entrance platform.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Mariana — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; warm tan skin, a heart-shaped face, a high dark ponytail; wearing a green polo shirt, with jeans (same outfit in every image unless the scene says otherwise) | Felipe — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; medium-brown skin, freckles across the nose, short spiky black hair; wearing an olive cargo jacket, with khaki pants (same outfit in every image unless the scene says otherwise) | 14-year-old classmates in casual clothes | the park engineer, a man about 45, a white helmet, a reflective vest, a tablet and a short beard.
+SCENE (illustrate exactly this moment): The engineer shows the students a simple model on a tablet of a straight rigid bar cracking in the wind next to a curved flexible bar bending safely, while Mariana and Felipe look closely with interest.
+MOOD AND EXPRESSIONS: understanding, curiosity; natural, believable body language.
+CAMERA: over-the-shoulder view from behind one character, keeping the other faces clearly visible.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade09_page05.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 5 of the story "The Bridge That Moves in the Wind".
+STYLE: glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): On a class visit to a park with a long pedestrian suspension bridge over a deep green valley, ninth grader Mariana panics when the bridge sways in the wind and classmates say moving bridges are dangerous; Felipe asks the park engineer, who explains flexible design, maximum load and wind sensors, and Mariana crosses again calmly.
+TIME: a few minutes later.
+PLACE: the entrance of the bridge with an icon-only sign.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Mariana — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; warm tan skin, a heart-shaped face, a high dark ponytail; wearing a green polo shirt, with jeans (same outfit in every image unless the scene says otherwise) | Felipe — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; medium-brown skin, freckles across the nose, short spiky black hair; wearing an olive cargo jacket, with khaki pants (same outfit in every image unless the scene says otherwise) | the park engineer, a man about 45, a white helmet, a reflective vest, a tablet and a short beard.
+SCENE (illustrate exactly this moment): The engineer points to a sign at the entrance of the bridge showing only icons of ten people and a wind symbol, explaining the maximum number of people, while Felipe takes notes and Mariana nods.
+MOOD AND EXPRESSIONS: learning about rules and safety; natural, believable body language.
+CAMERA: closer medium shot on faces, hands and the important object, everyone in the scene still visible, background softly blurred.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade09_page06.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 6 of the story "The Bridge That Moves in the Wind".
+STYLE: glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): On a class visit to a park with a long pedestrian suspension bridge over a deep green valley, ninth grader Mariana panics when the bridge sways in the wind and classmates say moving bridges are dangerous; Felipe asks the park engineer, who explains flexible design, maximum load and wind sensors, and Mariana crosses again calmly.
+TIME: half an hour later, sunny and windy.
+PLACE: the middle of the bridge over the valley.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Mariana — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; warm tan skin, a heart-shaped face, a high dark ponytail; wearing a green polo shirt, with jeans (same outfit in every image unless the scene says otherwise) | Felipe — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; medium-brown skin, freckles across the nose, short spiky black hair; wearing an olive cargo jacket, with khaki pants (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): Mariana walks across the bridge again with confidence, holding the cable lightly and smiling, while Felipe walks beside her and the green valley stretches below, the wind moving her hair.
+MOOD AND EXPRESSIONS: confidence, peace; natural, believable body language.
+CAMERA: eye-level side view, the setting visible behind the characters.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+##########################################################################################
+GRADO 10 — "The Bus Lane Debate" — 10° Grade / B1 Beginner — portada + 7 páginas = 8 imágenes
+##########################################################################################
+EDAD VISUAL OBLIGATORIA: 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face.
+BLOQUE DE ESTILO (fijo en todo el grado): painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere.
+FOTOS BASE DE ESTILO A ADJUNTAR (solo estilo, otros actores): week01_grade10_cover.webp + week01_grade10_page01.webp
+DESDE LA PAGE01: adjuntar también week39_grade10_cover.webp ya generada (fija las caras de esta semana).
+HISTORIA: Tenth grader Daniel's five-kilometer bus trip takes forty-five minutes because of car traffic, and the city proposes a bus lane; in a class debate everyone is sure, so Daniel and Sofía count vehicles and people, interview a shop owner and a nurse, and propose a fair compromise: a bus lane only at rush hour.
+PERSONAJES FIJOS (NUEVOS esta semana; caras distintas a otros grados y semanas):
+   - Daniel — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; light-brown skin, a square jaw and a wide smile, a dark buzz cut; wearing a white T-shirt and a blue denim jacket, with navy pants (same outfit in every image unless the scene says otherwise)
+   - Sofía — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; golden-tan skin, a heart-shaped face, a long side braid; wearing a yellow raincoat-style windbreaker, with jeans (same outfit in every image unless the scene says otherwise)
+   - tired commuters of all ages: workers, students, older adults
+   - 16-year-old classmates
+   - the teacher, a woman about 45, a short curly haircut, a mustard blouse
+   - the hardware shop owner, a man about 65, a gray mustache, glasses and a brown work apron
+   - the nurse, a tired woman about 35 in a light-blue hospital uniform with a cardigan
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - bus lane — a part of the road only for buses (carril exclusivo de buses)  [<b> en página 1]
+   - proposal — a formal plan or suggestion (propuesta)  [<b> en página 1]
+   - commuter — a person who travels to work or school every day (pasajero diario)  [<b> en página 5]
+   - rush hour — the time when traffic is heaviest (hora pico)  [<b> en página 1]
+   - parking — places where cars can stop and stay (parqueo)  [<b> en página 2]
+   - debate — a formal discussion with different opinions (debate)  [<b> en página 1]
+   - compromise — an agreement where each side gives a little (punto medio)  [<b> en página 7]
+   - benefit — a good result or advantage (beneficio)  [<b> en página 5]
+   - drawback — a disadvantage or problem (desventaja)  [<b> en página 4]
+   - count — to find the total number (contar)  [<b> en página 3]
+
+--- week39_grade10_cover.webp ---
+Attached images: STYLE REFERENCES ONLY. They show OTHER students; copy only their art style, rendering, lighting and color palette. Do NOT copy their faces, hair or clothes: the characters below are new people.
+Generate the image now: one vertical 4:5 BOOK COVER illustration.
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY (for understanding only; never write it in the image): Tenth grader Daniel's five-kilometer bus trip takes forty-five minutes because of car traffic, and the city proposes a bus lane; in a class debate everyone is sure, so Daniel and Sofía count vehicles and people, interview a shop owner and a nurse, and propose a fair compromise: a bus lane only at rush hour.
+CHARACTERS (draw exactly like this): Daniel — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; light-brown skin, a square jaw and a wide smile, a dark buzz cut; wearing a white T-shirt and a blue denim jacket, with navy pants (same outfit in every image unless the scene says otherwise) | Sofía — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; golden-tan skin, a heart-shaped face, a long side braid; wearing a yellow raincoat-style windbreaker, with jeans (same outfit in every image unless the scene says otherwise).
+COVER SCENE: Daniel and Sofía stand facing the viewer at a busy Medellín bus stop at sunrise, Sofía holding a small toy bus and Daniel a small toy car as if weighing them, both thinking seriously, a crowded avenue and green hills behind them.
+COMPOSITION: poster-like book-cover composition: the main characters large in the lower two-thirds, turned toward the viewer with faces clearly visible (unlike the interior pages, which show side-view action); the upper third is a calm, simple area of sky, wall or soft light for the title. This cover must not copy any interior page.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate, school-safe, natural expressions.
+TEXT — the ONLY text allowed: the title "The Bus Lane Debate" at the top in navy and green hand-lettered letters with a golden underline swoosh. At the bottom, two lines of white/pale-yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No subtitles, grade labels, numbers, captions, speech bubbles, logos or watermarks. Any screen, paper or sign in the scene shows only simple icons or blank shapes.
+
+--- week39_grade10_page01.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 1 of the story "The Bus Lane Debate".
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Tenth grader Daniel's five-kilometer bus trip takes forty-five minutes because of car traffic, and the city proposes a bus lane; in a class debate everyone is sure, so Daniel and Sofía count vehicles and people, interview a shop owner and a nurse, and propose a fair compromise: a bus lane only at rush hour.
+TIME: a weekday at 6:30 in the morning, rush hour, early golden light.
+PLACE: a busy bus stop on a wide avenue in Medellín with heavy car traffic.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Daniel — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; light-brown skin, a square jaw and a wide smile, a dark buzz cut; wearing a white T-shirt and a blue denim jacket, with navy pants (same outfit in every image unless the scene says otherwise) | tired commuters of all ages: workers, students, older adults.
+SCENE (illustrate exactly this moment): At a busy bus stop on a wide avenue in Medellín at rush hour, Daniel stands alone among many tired commuters waiting for a crowded bus stuck in heavy car traffic, while a city poster shows a bus icon in a red lane.
+MOOD AND EXPRESSIONS: tiredness, frustration; natural, believable body language.
+CAMERA: wide establishing shot that shows the whole place, characters at full body in the middle ground.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade10_page02.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 2 of the story "The Bus Lane Debate".
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Tenth grader Daniel's five-kilometer bus trip takes forty-five minutes because of car traffic, and the city proposes a bus lane; in a class debate everyone is sure, so Daniel and Sofía count vehicles and people, interview a shop owner and a nurse, and propose a fair compromise: a bus lane only at rush hour.
+TIME: Monday morning.
+PLACE: a public school classroom in Medellín set up for a debate.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Daniel — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; light-brown skin, a square jaw and a wide smile, a dark buzz cut; wearing a white T-shirt and a blue denim jacket, with navy pants (same outfit in every image unless the scene says otherwise) | Sofía — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; golden-tan skin, a heart-shaped face, a long side braid; wearing a yellow raincoat-style windbreaker, with jeans (same outfit in every image unless the scene says otherwise) | 16-year-old classmates | the teacher, a woman about 45, a short curly haircut, a mustard blouse.
+SCENE (illustrate exactly this moment): In a public school classroom set up for a debate, students in two groups hold signs with only icons, one group with a bus icon and the other with a car and a shop icon, arguing passionately while the teacher moderates; Daniel and Sofía are also there, as described.
+MOOD AND EXPRESSIONS: passionate arguing; natural, believable body language.
+CAMERA: three-quarter view from a slightly raised camera, showing everyone involved and the key object.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade10_page03.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 3 of the story "The Bus Lane Debate".
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Tenth grader Daniel's five-kilometer bus trip takes forty-five minutes because of car traffic, and the city proposes a bus lane; in a class debate everyone is sure, so Daniel and Sofía count vehicles and people, interview a shop owner and a nurse, and propose a fair compromise: a bus lane only at rush hour.
+TIME: Tuesday at seven in the morning, rush hour.
+PLACE: the sidewalk next to the busy avenue.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Daniel — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; light-brown skin, a square jaw and a wide smile, a dark buzz cut; wearing a white T-shirt and a blue denim jacket, with navy pants (same outfit in every image unless the scene says otherwise) | Sofía — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; golden-tan skin, a heart-shaped face, a long side braid; wearing a yellow raincoat-style windbreaker, with jeans (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): Daniel and Sofía stand on a sidewalk of the busy avenue during morning rush hour with clipboards, counting buses, cars and passengers with tally marks, while a crowded bus and many single-driver cars pass by.
+MOOD AND EXPRESSIONS: careful counting; natural, believable body language.
+CAMERA: over-the-shoulder view from behind one character, keeping the other faces clearly visible.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade10_page04.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 4 of the story "The Bus Lane Debate".
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Tenth grader Daniel's five-kilometer bus trip takes forty-five minutes because of car traffic, and the city proposes a bus lane; in a class debate everyone is sure, so Daniel and Sofía count vehicles and people, interview a shop owner and a nurse, and propose a fair compromise: a bus lane only at rush hour.
+TIME: Tuesday afternoon.
+PLACE: in front of a small hardware shop on the avenue.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Daniel — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; light-brown skin, a square jaw and a wide smile, a dark buzz cut; wearing a white T-shirt and a blue denim jacket, with navy pants (same outfit in every image unless the scene says otherwise) | Sofía — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; golden-tan skin, a heart-shaped face, a long side braid; wearing a yellow raincoat-style windbreaker, with jeans (same outfit in every image unless the scene says otherwise) | the hardware shop owner, a man about 65, a gray mustache, glasses and a brown work apron.
+SCENE (illustrate exactly this moment): Daniel and Sofía interview a shop owner, an older man standing in front of a small hardware store with two parked cars outside, who gestures with worry, while Sofía writes notes on her clipboard.
+MOOD AND EXPRESSIONS: listening to the other side; natural, believable body language.
+CAMERA: closer medium shot on faces, hands and the important object, everyone in the scene still visible, background softly blurred.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade10_page05.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 5 of the story "The Bus Lane Debate".
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Tenth grader Daniel's five-kilometer bus trip takes forty-five minutes because of car traffic, and the city proposes a bus lane; in a class debate everyone is sure, so Daniel and Sofía count vehicles and people, interview a shop owner and a nurse, and propose a fair compromise: a bus lane only at rush hour.
+TIME: Wednesday at six in the morning, early light.
+PLACE: the bus stop on the avenue.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Daniel — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; light-brown skin, a square jaw and a wide smile, a dark buzz cut; wearing a white T-shirt and a blue denim jacket, with navy pants (same outfit in every image unless the scene says otherwise) | Sofía — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; golden-tan skin, a heart-shaped face, a long side braid; wearing a yellow raincoat-style windbreaker, with jeans (same outfit in every image unless the scene says otherwise) | the nurse, a tired woman about 35 in a light-blue hospital uniform with a cardigan.
+SCENE (illustrate exactly this moment): Daniel and Sofía interview a tired nurse in a uniform waiting at the bus stop at dawn, who explains with her hands how long her trip takes, while a crowded bus approaches in the background.
+MOOD AND EXPRESSIONS: empathy, understanding; natural, believable body language.
+CAMERA: eye-level side view, the setting visible behind the characters.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade10_page06.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 6 of the story "The Bus Lane Debate".
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Tenth grader Daniel's five-kilometer bus trip takes forty-five minutes because of car traffic, and the city proposes a bus lane; in a class debate everyone is sure, so Daniel and Sofía count vehicles and people, interview a shop owner and a nurse, and propose a fair compromise: a bus lane only at rush hour.
+TIME: Friday morning.
+PLACE: the classroom during the debate.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Daniel — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; light-brown skin, a square jaw and a wide smile, a dark buzz cut; wearing a white T-shirt and a blue denim jacket, with navy pants (same outfit in every image unless the scene says otherwise) | Sofía — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; golden-tan skin, a heart-shaped face, a long side braid; wearing a yellow raincoat-style windbreaker, with jeans (same outfit in every image unless the scene says otherwise) | 16-year-old classmates.
+SCENE (illustrate exactly this moment): In the classroom debate, Daniel and Sofía present a simple chart on the board showing people per bus and per car with icons, and a wall clock with plain hands and no numbers, while classmates from both groups listen quietly; students is also there, as described.
+MOOD AND EXPRESSIONS: clear data, calm attention; natural, believable body language.
+CAMERA: layered depth composition: a relevant object softly blurred in the foreground, characters in the middle, setting behind.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade10_page07.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 7 of the story "The Bus Lane Debate".
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Tenth grader Daniel's five-kilometer bus trip takes forty-five minutes because of car traffic, and the city proposes a bus lane; in a class debate everyone is sure, so Daniel and Sofía count vehicles and people, interview a shop owner and a nurse, and propose a fair compromise: a bus lane only at rush hour.
+TIME: Friday, after the debate.
+PLACE: the classroom.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Daniel — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; light-brown skin, a square jaw and a wide smile, a dark buzz cut; wearing a white T-shirt and a blue denim jacket, with navy pants (same outfit in every image unless the scene says otherwise) | Sofía — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; golden-tan skin, a heart-shaped face, a long side braid; wearing a yellow raincoat-style windbreaker, with jeans (same outfit in every image unless the scene says otherwise) | 16-year-old classmates | the teacher, a woman about 45, a short curly haircut, a mustard blouse.
+SCENE (illustrate exactly this moment): After the debate, the teacher shakes hands with Daniel and Sofía while classmates from both sides talk together calmly; on the board, a drawing shows a bus lane with a clock icon and a happy shop icon; students is also there, as described.
+MOOD AND EXPRESSIONS: compromise, respect; natural, believable body language.
+CAMERA: medium-wide frontal shot, characters slightly off-center following the rule of thirds, open space around them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+##########################################################################################
+GRADO 11 — "The Mistake That Became a Job Interview Story" — 11° Grade / B1+ — portada + 8 páginas = 9 imágenes
+##########################################################################################
+EDAD VISUAL OBLIGATORIA: 17 years old, a final-year high-school student (17–18): young-adult look and proportions.
+BLOQUE DE ESTILO (fijo en todo el grado): realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors.
+FOTOS BASE DE ESTILO A ADJUNTAR (solo estilo, otros actores): week01_grade11_cover.webp + week01_grade11_page01.webp
+DESDE LA PAGE01: adjuntar también week39_grade11_cover.webp ya generada (fija las caras de esta semana).
+HISTORIA: At his first job interview at a tourism company in Medellín, final-year student Andrés is asked about a mistake; instead of inventing a perfect story, he tells the truth: at a food bank he mislabeled two boxes, admitted it to his supervisor, fixed the delivery and created a color label system, and the interviewer Mrs. Ríos values his honesty.
+PERSONAJES FIJOS (NUEVOS esta semana; caras distintas a otros grados y semanas):
+   - Andrés — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; fair skin with rosy cheeks, thick dark eyebrows, straight black hair with a fringe; wearing a clean light-blue button shirt, dark trousers and black shoes (same outfit in every image unless the scene says otherwise)
+   - Camila — young woman, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; light-brown skin, small stud earrings, two puff buns; wearing a mint-green sweater, with navy pants (same outfit in every image unless the scene says otherwise)
+   - Mrs. Ríos, the interviewer, a friendly woman about 45, glasses, a sleek dark bob, a white blouse and a navy blazer
+   - the food bank supervisor, an older man about 60, gray hair, a beard and a green volunteer vest
+   - other young volunteers in green vests
+   - Andrés's mother, about 48, short wavy hair, a red blouse
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - interview — a meeting where an employer asks you questions (entrevista)  [<b> en página 1]
+   - interviewer — the person who asks questions in an interview (entrevistador)  [<b> en página 2]
+   - mistake — something done in the wrong way (error)  [<b> en página 2]
+   - volunteer — a person who helps without being paid (voluntario)  [<b> en página 3]
+   - donation — something given to help others (donación)  [<b> en página 3]
+   - deliver — to take something to a person or place (entregar)  [<b> en página 4]
+   - admit — to say that something is true, often a mistake (admitir)  [<b> en página 4]
+   - fix — to repair or correct something (corregir)  [<b> en página 5]
+   - lesson — something you learn from experience (lección)  [<b> en página 8]
+   - employer — a person or company that gives you a job (empleador)  [<b> en página 8]
+
+--- week39_grade11_cover.webp ---
+Attached images: STYLE REFERENCES ONLY. They show OTHER students; copy only their art style, rendering, lighting and color palette. Do NOT copy their faces, hair or clothes: the characters below are new people.
+Generate the image now: one vertical 4:5 BOOK COVER illustration.
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY (for understanding only; never write it in the image): At his first job interview at a tourism company in Medellín, final-year student Andrés is asked about a mistake; instead of inventing a perfect story, he tells the truth: at a food bank he mislabeled two boxes, admitted it to his supervisor, fixed the delivery and created a color label system, and the interviewer Mrs. Ríos values his honesty.
+CHARACTERS (draw exactly like this): Andrés — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; fair skin with rosy cheeks, thick dark eyebrows, straight black hair with a fringe; wearing a clean light-blue button shirt, dark trousers and black shoes (same outfit in every image unless the scene says otherwise).
+COVER SCENE: Andrés stands in a bright modern office hallway facing the viewer, holding a folder to his chest with a calm, honest smile, while a big glass window behind him softly reflects a food bank warehouse with boxes marked only by green, blue and yellow color stickers.
+COMPOSITION: poster-like book-cover composition: the main characters large in the lower two-thirds, turned toward the viewer with faces clearly visible (unlike the interior pages, which show side-view action); the upper third is a calm, simple area of sky, wall or soft light for the title. This cover must not copy any interior page.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate, school-safe, natural expressions.
+TEXT — the ONLY text allowed: the title "The Mistake That Became a Job Interview Story" at the top in navy and green letters with an orange underline. At the bottom, two lines of white/pale-yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No subtitles, grade labels, numbers, captions, speech bubbles, logos or watermarks. Any screen, paper or sign in the scene shows only simple icons or blank shapes.
+
+--- week39_grade11_page01.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 1 of the story "The Mistake That Became a Job Interview Story".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): At his first job interview at a tourism company in Medellín, final-year student Andrés is asked about a mistake; instead of inventing a perfect story, he tells the truth: at a food bank he mislabeled two boxes, admitted it to his supervisor, fixed the delivery and created a color label system, and the interviewer Mrs. Ríos values his honesty.
+TIME: Tuesday at nine in the morning, bright office light.
+PLACE: the waiting area of a small tourism company office in Medellín with plants and chairs.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Andrés — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; fair skin with rosy cheeks, thick dark eyebrows, straight black hair with a fringe; wearing a clean light-blue button shirt, dark trousers and black shoes (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): In the waiting area of a small tourism company office in Medellín, Andrés in a clean shirt holds a folder with his résumé and looks nervous, while on his phone screen Camila appears only as a small face on a video call, giving him an encouraging smile.
+MOOD AND EXPRESSIONS: nerves, encouragement; natural, believable body language.
+CAMERA: three-quarter view from a slightly raised camera, showing everyone involved and the key object.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade11_page02.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 2 of the story "The Mistake That Became a Job Interview Story".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): At his first job interview at a tourism company in Medellín, final-year student Andrés is asked about a mistake; instead of inventing a perfect story, he tells the truth: at a food bank he mislabeled two boxes, admitted it to his supervisor, fixed the delivery and created a color label system, and the interviewer Mrs. Ríos values his honesty.
+TIME: Tuesday morning, a few minutes later.
+PLACE: a bright small office with a desk and a window.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Andrés — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; fair skin with rosy cheeks, thick dark eyebrows, straight black hair with a fringe; wearing a clean light-blue button shirt, dark trousers and black shoes (same outfit in every image unless the scene says otherwise) | Mrs. Ríos, the interviewer, a friendly woman about 45, glasses, a sleek dark bob, a white blouse and a navy blazer.
+SCENE (illustrate exactly this moment): In a bright small office, a friendly interviewer woman in her forties with glasses asks Andrés a question across a desk, while Andrés sits straight, thinking carefully, his folder on the desk.
+MOOD AND EXPRESSIONS: thinking carefully; natural, believable body language.
+CAMERA: over-the-shoulder view from behind one character, keeping the other faces clearly visible.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade11_page03.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 3 of the story "The Mistake That Became a Job Interview Story".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): At his first job interview at a tourism company in Medellín, final-year student Andrés is asked about a mistake; instead of inventing a perfect story, he tells the truth: at a food bank he mislabeled two boxes, admitted it to his supervisor, fixed the delivery and created a color label system, and the interviewer Mrs. Ríos values his honesty.
+TIME: last year, a Saturday morning, memory scene with warm light.
+PLACE: a food bank warehouse with shelves of rice and canned food, a van at the door.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Andrés — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; fair skin with rosy cheeks, thick dark eyebrows, straight black hair with a fringe; wearing a clean light-blue button shirt, dark trousers and black shoes (same outfit in every image unless the scene says otherwise) | the food bank supervisor, an older man about 60, gray hair, a beard and a green volunteer vest.
+SCENE (illustrate exactly this moment): A memory scene shows a food bank warehouse with shelves of rice and canned food, where a younger Andrés in a volunteer vest loads boxes into a van with a worried face, while a supervisor checks a list.
+MOOD AND EXPRESSIONS: hurry, a mistake; natural, believable body language.
+CAMERA: closer medium shot on faces, hands and the important object, everyone in the scene still visible, background softly blurred.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade11_page04.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 4 of the story "The Mistake That Became a Job Interview Story".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): At his first job interview at a tourism company in Medellín, final-year student Andrés is asked about a mistake; instead of inventing a perfect story, he tells the truth: at a food bank he mislabeled two boxes, admitted it to his supervisor, fixed the delivery and created a color label system, and the interviewer Mrs. Ríos values his honesty.
+TIME: last year, the same Saturday, memory scene.
+PLACE: next to the food bank van at the warehouse door.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Andrés — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; fair skin with rosy cheeks, thick dark eyebrows, straight black hair with a fringe; wearing a clean light-blue button shirt, dark trousers and black shoes (same outfit in every image unless the scene says otherwise) | the food bank supervisor, an older man about 60, gray hair, a beard and a green volunteer vest.
+SCENE (illustrate exactly this moment): In a warm memory scene at a food bank warehouse, Andrés, one year younger, in a green volunteer vest, talks seriously to the food bank supervisor next to an open van, admitting his error, while they load the correct boxes into the van together.
+MOOD AND EXPRESSIONS: honesty, responsibility; natural, believable body language.
+CAMERA: eye-level side view, the setting visible behind the characters.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade11_page05.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 5 of the story "The Mistake That Became a Job Interview Story".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): At his first job interview at a tourism company in Medellín, final-year student Andrés is asked about a mistake; instead of inventing a perfect story, he tells the truth: at a food bank he mislabeled two boxes, admitted it to his supervisor, fixed the delivery and created a color label system, and the interviewer Mrs. Ríos values his honesty.
+TIME: last year, weeks later, memory scene.
+PLACE: the food bank warehouse with boxes on shelves.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Andrés — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; fair skin with rosy cheeks, thick dark eyebrows, straight black hair with a fringe; wearing a clean light-blue button shirt, dark trousers and black shoes (same outfit in every image unless the scene says otherwise) | the food bank supervisor, an older man about 60, gray hair, a beard and a green volunteer vest | other young volunteers in green vests.
+SCENE (illustrate exactly this moment): In the memory scene, Andrés designs a simple color-coded label system with green, blue and yellow stickers on boxes at the food bank, while other volunteers use it and the supervisor nods approvingly.
+MOOD AND EXPRESSIONS: problem solving, pride; natural, believable body language.
+CAMERA: layered depth composition: a relevant object softly blurred in the foreground, characters in the middle, setting behind.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade11_page06.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 6 of the story "The Mistake That Became a Job Interview Story".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): At his first job interview at a tourism company in Medellín, final-year student Andrés is asked about a mistake; instead of inventing a perfect story, he tells the truth: at a food bank he mislabeled two boxes, admitted it to his supervisor, fixed the delivery and created a color label system, and the interviewer Mrs. Ríos values his honesty.
+TIME: Tuesday morning, back in the office.
+PLACE: the bright office.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Andrés — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; fair skin with rosy cheeks, thick dark eyebrows, straight black hair with a fringe; wearing a clean light-blue button shirt, dark trousers and black shoes (same outfit in every image unless the scene says otherwise) | Mrs. Ríos, the interviewer, a friendly woman about 45, glasses, a sleek dark bob, a white blouse and a navy blazer.
+SCENE (illustrate exactly this moment): Back in the office, the interviewer Mrs. Ríos closes her notebook and smiles at Andrés, leaning forward with interest, while Andrés looks relieved and a little surprised.
+MOOD AND EXPRESSIONS: relief, respect; natural, believable body language.
+CAMERA: medium-wide frontal shot, characters slightly off-center following the rule of thirds, open space around them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade11_page07.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 7 of the story "The Mistake That Became a Job Interview Story".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): At his first job interview at a tourism company in Medellín, final-year student Andrés is asked about a mistake; instead of inventing a perfect story, he tells the truth: at a food bank he mislabeled two boxes, admitted it to his supervisor, fixed the delivery and created a color label system, and the interviewer Mrs. Ríos values his honesty.
+TIME: Tuesday, late morning, sunny.
+PLACE: the street outside the office building.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Andrés — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; fair skin with rosy cheeks, thick dark eyebrows, straight black hair with a fringe; wearing a clean light-blue button shirt, dark trousers and black shoes (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): Outside the office building, Andrés walks out into the sunny street smiling and calls Camila on his phone, while a bus passes and the Medellín hills are visible in the distance.
+MOOD AND EXPRESSIONS: joy, relief; natural, believable body language.
+CAMERA: eye-level medium shot, the main characters in the foreground and the place clearly recognizable behind them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week39_grade11_page08.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 8 of the story "The Mistake That Became a Job Interview Story".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): At his first job interview at a tourism company in Medellín, final-year student Andrés is asked about a mistake; instead of inventing a perfect story, he tells the truth: at a food bank he mislabeled two boxes, admitted it to his supervisor, fixed the delivery and created a color label system, and the interviewer Mrs. Ríos values his honesty.
+TIME: a week later, evening, warm lamp light.
+PLACE: Andrés's bedroom at home.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Andrés — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; fair skin with rosy cheeks, thick dark eyebrows, straight black hair with a fringe; wearing a clean light-blue button shirt, dark trousers and black shoes (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): A week later at home, Andrés reads a phone message showing an envelope icon with a green check mark, celebrating with his arms raised, while on his laptop screen Camila appears only as a small face on a video call, clapping.
+MOOD AND EXPRESSIONS: celebration; natural, believable body language.
+CAMERA: wide establishing shot that shows the whole place, characters at full body in the middle ground.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+==========================================================================================
+FIN. Total: 6 portadas + 36 páginas = 42 imágenes.

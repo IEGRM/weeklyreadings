@@ -1,0 +1,1809 @@
+{
+  "week": 9,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 9",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "How Juan Improved In Class",
+      "minimumWordTarget": 350,
+      "wordCount": 352,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week09_grade06_page01.webp",
+          "artDirection": "11–12-year-old Colombian student context for “How Juan Improved In Class”. Scene based on: Juan never listens in class. For a moment, Juan looks around and thinks about what to do next. His teacher asks, “Do you pay attention, Juan?” but he looks at his phone. The day co. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Juan never listens in class."
+            },
+            {
+              "html": "For a moment, Juan looks around and thinks about what to do next."
+            },
+            {
+              "html": "His <b>teacher</b> asks, “Do you pay attention, Juan?” but he looks at his <b>phone</b>."
+            },
+            {
+              "html": "The day continues, and Juan tries to stay calm and pay attention."
+            },
+            {
+              "html": "He talks to <b>Miguel</b>, jokes with <b>Sara</b>, and never takes <b>notes</b>."
+            },
+            {
+              "html": "A small detail helps Juan understand the situation a little better."
+            },
+            {
+              "html": "The teacher gets angry."
+            },
+            {
+              "html": "After that, Juan continues carefully instead of rushing."
+            },
+            {
+              "html": "Juan’s <b>grades</b> are low."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week09_grade06_page02.webp",
+          "artDirection": "11–12-year-old Colombian student context for “How Juan Improved In Class”. Scene based on: The people nearby also notice what is happening and react in simple ways. His mom is worried. This gives Juan time to make a better choice and continue the day. She says, “You have. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The people nearby also notice what is happening and react in simple ways."
+            },
+            {
+              "html": "His <b>mom</b> is worried."
+            },
+            {
+              "html": "This gives Juan time to make a better choice and continue the day."
+            },
+            {
+              "html": "She says, “You have a <b>problem</b>, Juan."
+            },
+            {
+              "html": "A few minutes later, the situation feels easier to understand."
+            },
+            {
+              "html": "You don’t listen in class.” Juan promises to <b>change</b>."
+            },
+            {
+              "html": "Juan remembers that simple choices can make a difficult moment better."
+            },
+            {
+              "html": "He tries to stay quiet, write in his <b>notebook</b>, and stop using his phone."
+            },
+            {
+              "html": "The experience is ordinary, but it becomes an important part of the day."
+            }
+          ],
+          "wordCount": 94
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week09_grade06_page03.webp",
+          "artDirection": "11–12-year-old Colombian student context for “How Juan Improved In Class”. Scene based on: After some days, the teacher smiles. By paying attention, Juan learns something useful from the moment. “You are better now,” she says. For a moment, Juan looks around and thinks a. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "After some days, the teacher smiles."
+            },
+            {
+              "html": "By paying attention, Juan learns something useful from the moment."
+            },
+            {
+              "html": "“You are better now,” she says."
+            },
+            {
+              "html": "For a moment, Juan looks around and thinks about what to do next."
+            },
+            {
+              "html": "Juan feels proud."
+            },
+            {
+              "html": "The day continues, and Juan tries to stay calm and pay attention."
+            },
+            {
+              "html": "He sees how much his discipline helps."
+            },
+            {
+              "html": "A small detail helps Juan understand the situation a little better."
+            },
+            {
+              "html": "He wants to do more."
+            },
+            {
+              "html": "After that, Juan continues carefully instead of rushing."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week09_grade06_page04.webp",
+          "artDirection": "11–12-year-old Colombian student context for “How Juan Improved In Class”. Scene based on: Later, the people nearby also notice what is happening and react in simple ways. Juan never listens in class. This gives Juan time to make a better choice and continue the day. His. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Later, the people nearby also notice what is happening and react in simple ways."
+            },
+            {
+              "html": "Juan never listens in class."
+            },
+            {
+              "html": "This gives Juan time to make a better choice and continue the day."
+            },
+            {
+              "html": "His teacher asks, “Do you pay attention, Juan?” but he looks at his phone."
+            },
+            {
+              "html": "A few minutes later, the situation feels easier to understand."
+            },
+            {
+              "html": "He talks to Miguel, jokes with Sara, and never takes notes."
+            },
+            {
+              "html": "Juan remembers that simple choices can make a difficult moment better."
+            },
+            {
+              "html": "The teacher gets angry."
+            },
+            {
+              "html": "The experience is ordinary, but it becomes an important part of the day."
+            }
+          ],
+          "wordCount": 95
+        }
+      ],
+      "practiceWords": [
+        "teacher",
+        "phone",
+        "Miguel",
+        "Sara",
+        "notes",
+        "grades",
+        "mom",
+        "problem",
+        "change",
+        "notebook"
+      ],
+      "vocabulary": [
+        {
+          "word": "teacher",
+          "definition": "educator (profesor)"
+        },
+        {
+          "word": "phone",
+          "definition": "mobile device (teléfono)"
+        },
+        {
+          "word": "Miguel",
+          "definition": "male name (nombre de hombre)"
+        },
+        {
+          "word": "Sara",
+          "definition": "female name (nombre de mujer)"
+        },
+        {
+          "word": "notes",
+          "definition": "written records (apuntes)"
+        },
+        {
+          "word": "grades",
+          "definition": "academic scores (notas)"
+        },
+        {
+          "word": "mom",
+          "definition": "mother (mamá)"
+        },
+        {
+          "word": "problem",
+          "definition": "difficulty (problema)"
+        },
+        {
+          "word": "change",
+          "definition": "alter behavior (cambiar)"
+        },
+        {
+          "word": "notebook",
+          "definition": "writing pad (cuaderno)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "What does Juan fail to do in class?",
+          "options": [
+            "Listen",
+            "Eat",
+            "Sleep"
+          ],
+          "answer": "Listen"
+        },
+        {
+          "skill": "sequence",
+          "question": "Who asks Juan if he pays attention?",
+          "options": [
+            "His mom",
+            "His teacher",
+            "His friend"
+          ],
+          "answer": "His teacher"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What does Juan promise to change?",
+          "options": [
+            "His clothes",
+            "His behavior",
+            "His phone"
+          ],
+          "answer": "His behavior"
+        },
+        {
+          "skill": "main idea",
+          "question": "What does Juan stop using to improve?",
+          "options": [
+            "His notebook",
+            "His phone",
+            "His backpack"
+          ],
+          "answer": "His phone"
+        },
+        {
+          "skill": "simple inference",
+          "question": "How does Juan feel at the end?",
+          "options": [
+            "Angry",
+            "Proud",
+            "Sad"
+          ],
+          "answer": "Proud"
+        }
+      ],
+      "cover": "../assets/images/week09_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "Travel Plans To Santa Marta",
+      "minimumWordTarget": 400,
+      "wordCount": 404,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week09_grade07_page01.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Travel Plans To Santa Marta”. Scene based on: Sofia and her cousin Jhon want to go to Santa Marta. As the situation develops, Marta realizes that a quick decision can create a real consequence. They like the beach and the soun. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Sofia and her <b>cousin</b> Jhon want to go to <b>Santa Marta</b>."
+            },
+            {
+              "html": "As the situation develops, Marta realizes that a quick decision can create a real consequence."
+            },
+            {
+              "html": "They like the <b>beach</b> and the sound of the <b>sea</b>."
+            },
+            {
+              "html": "The details around Marta make the problem easier to understand."
+            },
+            {
+              "html": "“We have to buy a <b>ticket</b>,” says Sofia."
+            },
+            {
+              "html": "Instead of reacting immediately, Marta takes a moment to think about the next step."
+            },
+            {
+              "html": "“Yes, and we need a <b>hotel</b>,” says Jhon."
+            }
+          ],
+          "wordCount": 76
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week09_grade07_page02.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Travel Plans To Santa Marta”. Scene based on: The small challenge becomes an opportunity to learn something useful. They pack a small bag with clothes and snacks. Other people influence the moment even when they are not at the. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The small challenge becomes an opportunity to learn something useful."
+            },
+            {
+              "html": "They pack a small <b>bag</b> with <b>clothes</b> and <b>snacks</b>."
+            },
+            {
+              "html": "Other people influence the moment even when they are not at the center of the story."
+            },
+            {
+              "html": "Their mom helps them plan the trip."
+            },
+            {
+              "html": "Marta's feelings begin to change as new information appears."
+            },
+            {
+              "html": "“You need <b>sunscreen</b>,” she says."
+            },
+            {
+              "html": "One action leads naturally to another, so the consequence becomes clear."
+            },
+            {
+              "html": "At the bus station, they wait in line."
+            },
+            {
+              "html": "The experience encourages Marta to be more patient and responsible."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week09_grade07_page03.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Travel Plans To Santa Marta”. Scene based on: “I have to use the bathroom,” says Jhon. After reflecting on what happened, Marta understands the situation better. “We want this trip to be fun,” Sofia adds. By the end of the mom. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "“I have to use the bathroom,” says Jhon."
+            },
+            {
+              "html": "After reflecting on what happened, Marta understands the situation better."
+            },
+            {
+              "html": "“We want this trip to be fun,” Sofia adds."
+            },
+            {
+              "html": "By the end of the moment, Marta has learned something that may help later."
+            },
+            {
+              "html": "On the way, they laugh, listen to music, and take pictures of the mountains and sea."
+            },
+            {
+              "html": "As the situation develops, Marta realizes that a quick decision can create a real consequence."
+            },
+            {
+              "html": "Later, the details around Marta make the problem easier to understand."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week09_grade07_page04.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Travel Plans To Santa Marta”. Scene based on: Sofia and her cousin Jhon want to go to Santa Marta. Instead of reacting immediately, Marta takes a moment to think about the next step. They like the beach and the sound of the se. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Sofia and her cousin Jhon want to go to Santa Marta."
+            },
+            {
+              "html": "Instead of reacting immediately, Marta takes a moment to think about the next step."
+            },
+            {
+              "html": "They like the beach and the sound of the sea."
+            },
+            {
+              "html": "The small challenge becomes an opportunity to learn something useful."
+            },
+            {
+              "html": "“We have to buy a ticket,” says Sofia."
+            },
+            {
+              "html": "Other people influence the moment even when they are not at the center of the story."
+            },
+            {
+              "html": "“Yes, and we need a hotel,” says Jhon."
+            }
+          ],
+          "wordCount": 77
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week09_grade07_page05.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Travel Plans To Santa Marta”. Scene based on: Marta's feelings begin to change as new information appears. They pack a small bag with clothes and snacks. One action leads naturally to another, so the consequence becomes clear.. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Marta's feelings begin to change as new information appears."
+            },
+            {
+              "html": "They pack a small bag with clothes and snacks."
+            },
+            {
+              "html": "One action leads naturally to another, so the consequence becomes clear."
+            },
+            {
+              "html": "Their mom helps them plan the trip."
+            },
+            {
+              "html": "The experience encourages Marta to be more patient and responsible."
+            },
+            {
+              "html": "“You need sunscreen,” she says."
+            },
+            {
+              "html": "After reflecting on what happened, Marta understands the situation better."
+            },
+            {
+              "html": "At the bus station, they wait in line."
+            },
+            {
+              "html": "By the end of the moment, Marta has learned something that may help later."
+            }
+          ],
+          "wordCount": 83
+        }
+      ],
+      "practiceWords": [
+        "cousin",
+        "Santa Marta",
+        "beach",
+        "sea",
+        "ticket",
+        "hotel",
+        "bag",
+        "clothes",
+        "snacks",
+        "sunscreen"
+      ],
+      "vocabulary": [
+        {
+          "word": "cousin",
+          "definition": "family relative (primo/a)"
+        },
+        {
+          "word": "Santa Marta",
+          "definition": "city in Colombia (ciudad)"
+        },
+        {
+          "word": "beach",
+          "definition": "sandy shore (playa)"
+        },
+        {
+          "word": "sea",
+          "definition": "ocean (mar)"
+        },
+        {
+          "word": "ticket",
+          "definition": "travel pass (boleto)"
+        },
+        {
+          "word": "hotel",
+          "definition": "lodging place (hotel)"
+        },
+        {
+          "word": "bag",
+          "definition": "carry container (bolsa)"
+        },
+        {
+          "word": "clothes",
+          "definition": "garments (ropa)"
+        },
+        {
+          "word": "snacks",
+          "definition": "small meals (refrigerios)"
+        },
+        {
+          "word": "sunscreen",
+          "definition": "sun protection (protector solar)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Where do Sofia and Jhon want to go?",
+          "options": [
+            "Santa Marta",
+            "Bogotá",
+            "Medellín"
+          ],
+          "answer": "Santa Marta"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "What do they pack for the trip?",
+          "options": [
+            "Toys",
+            "Clothes and snacks",
+            "Books"
+          ],
+          "answer": "Clothes and snacks"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which item does Jhon forget?",
+          "options": [
+            "Sunscreen",
+            "Umbrella",
+            "Jacket"
+          ],
+          "answer": "Sunscreen"
+        },
+        {
+          "skill": "simple inference",
+          "question": "What do they do on the beach?",
+          "options": [
+            "Sleep",
+            "Laugh and take pictures",
+            "Argue"
+          ],
+          "answer": "Laugh and take pictures"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What scenery do they enjoy most?",
+          "options": [
+            "Mountains",
+            "Beach",
+            "City life"
+          ],
+          "answer": "Beach"
+        }
+      ],
+      "cover": "../assets/images/week09_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "Practicing Sports And Exercise",
+      "minimumWordTarget": 450,
+      "wordCount": 463,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week09_grade08_page01.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Practicing Sports And Exercise”. Scene based on: Nicolás goes to the local gym after school. The situation becomes more complicated because Nicolás must balance what is wanted with what the moment requires. He loves to run and pl. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Nicolás goes to the local <b>gym</b> after school."
+            },
+            {
+              "html": "The situation becomes more complicated because Nicolás must balance what is wanted with what the moment requires."
+            },
+            {
+              "html": "He loves to <b>run</b> and play <b>soccer</b> with his <b>friends</b> in the <b>neighborhood</b>."
+            },
+            {
+              "html": "A detail that seemed small at first now helps explain the problem."
+            },
+            {
+              "html": "Every afternoon, they <b>practice</b> before their big <b>game</b> on Sunday."
+            },
+            {
+              "html": "Different reactions show that people can understand the same event in different ways."
+            }
+          ],
+          "wordCount": 73
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week09_grade08_page02.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Practicing Sports And Exercise”. Scene based on: “It’s good for your health,” his coach says. The problem affects more than one person and changes how the group responds. Nicolás wants to be strong and fast, like his older brothe. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "“It’s good for your <b>health</b>,” his <b>coach</b> says."
+            },
+            {
+              "html": "The problem affects more than one person and changes how the group responds."
+            },
+            {
+              "html": "Nicolás wants to be <b>strong</b> and fast, like his older brother."
+            },
+            {
+              "html": "Nicolás begins to see that acting quickly is not always the same as acting wisely."
+            },
+            {
+              "html": "He drinks water, eats fruit, and rests well."
+            },
+            {
+              "html": "The setting creates realistic limits that influence what can happen next."
+            },
+            {
+              "html": "“I feel more energy now,” he says."
+            }
+          ],
+          "wordCount": 73
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week09_grade08_page03.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Practicing Sports And Exercise”. Scene based on: Expressions and actions reveal feelings that are not always stated directly. After running, he is full of sweat, but he smiles. The consequence grows naturally from a decision made. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Expressions and actions reveal feelings that are not always stated directly."
+            },
+            {
+              "html": "After running, he is full of sweat, but he smiles."
+            },
+            {
+              "html": "The consequence grows naturally from a decision made only a short time earlier."
+            },
+            {
+              "html": "His legs and arms are getting bigger—his muscles are growing."
+            },
+            {
+              "html": "A practical response appears when the characters stop and consider another option."
+            },
+            {
+              "html": "Sports help Nicolás stay focused in school and away from problems in the barrio."
+            },
+            {
+              "html": "The experience becomes useful when Nicolás connects the immediate problem with a larger responsibility."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week09_grade08_page04.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Practicing Sports And Exercise”. Scene based on: Later, the situation becomes more complicated because Nicolás must balance what is wanted with what the moment requires. Nicolás goes to the local gym after school. A detail that s. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Later, the situation becomes more complicated because Nicolás must balance what is wanted with what the moment requires."
+            },
+            {
+              "html": "Nicolás goes to the local gym after school."
+            },
+            {
+              "html": "A detail that seemed small at first now helps explain the problem."
+            },
+            {
+              "html": "He loves to run and play soccer with his friends in the neighborhood."
+            },
+            {
+              "html": "Different reactions show that people can understand the same event in different ways."
+            },
+            {
+              "html": "Every afternoon, they practice before their big game on Sunday."
+            }
+          ],
+          "wordCount": 74
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week09_grade08_page05.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Practicing Sports And Exercise”. Scene based on: The problem affects more than one person and changes how the group responds. “It’s good for your health,” his coach says. Nicolás begins to see that acting quickly is not always th. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The problem affects more than one person and changes how the group responds."
+            },
+            {
+              "html": "“It’s good for your health,” his coach says."
+            },
+            {
+              "html": "Nicolás begins to see that acting quickly is not always the same as acting wisely."
+            },
+            {
+              "html": "Nicolás wants to be strong and fast, like his older brother."
+            },
+            {
+              "html": "The setting creates realistic limits that influence what can happen next."
+            },
+            {
+              "html": "He drinks water, eats fruit, and rests well."
+            },
+            {
+              "html": "Expressions and actions reveal feelings that are not always stated directly."
+            }
+          ],
+          "wordCount": 77
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week09_grade08_page06.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Practicing Sports And Exercise”. Scene based on: “I feel more energy now,” he says. The consequence grows naturally from a decision made only a short time earlier. After running, he is full of sweat, but he smiles. A practical re. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "“I feel more energy now,” he says."
+            },
+            {
+              "html": "The consequence grows naturally from a decision made only a short time earlier."
+            },
+            {
+              "html": "After running, he is full of sweat, but he smiles."
+            },
+            {
+              "html": "A practical response appears when the characters stop and consider another option."
+            },
+            {
+              "html": "His legs and arms are getting bigger—his muscles are growing."
+            },
+            {
+              "html": "The experience becomes useful when Nicolás connects the immediate problem with a larger responsibility."
+            },
+            {
+              "html": "Sports help Nicolás stay focused in school and away from problems in the barrio."
+            }
+          ],
+          "wordCount": 81
+        }
+      ],
+      "practiceWords": [
+        "gym",
+        "run",
+        "soccer",
+        "friends",
+        "neighborhood",
+        "practice",
+        "game",
+        "health",
+        "coach",
+        "strong"
+      ],
+      "vocabulary": [
+        {
+          "word": "gym",
+          "definition": "exercise place (gimnasio)"
+        },
+        {
+          "word": "run",
+          "definition": "move quickly (correr)"
+        },
+        {
+          "word": "soccer",
+          "definition": "ball sport (fútbol)"
+        },
+        {
+          "word": "friends",
+          "definition": "close companions (amigos)"
+        },
+        {
+          "word": "neighborhood",
+          "definition": "local area (barrio)"
+        },
+        {
+          "word": "practice",
+          "definition": "training (práctica)"
+        },
+        {
+          "word": "game",
+          "definition": "sport match (partido)"
+        },
+        {
+          "word": "health",
+          "definition": "physical well-being (salud)"
+        },
+        {
+          "word": "coach",
+          "definition": "sports trainer (entrenador)"
+        },
+        {
+          "word": "strong",
+          "definition": "physically powerful (fuerte)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Where does Andrés go to exercise?",
+          "options": [
+            "Library",
+            "Gym",
+            "Mall"
+          ],
+          "answer": "Gym"
+        },
+        {
+          "skill": "inference",
+          "question": "Which sport does he play?",
+          "options": [
+            "Basketball",
+            "Soccer",
+            "Tennis"
+          ],
+          "answer": "Soccer"
+        },
+        {
+          "skill": "purpose",
+          "question": "What does he do after school?",
+          "options": [
+            "Eating junk food",
+            "Practicing sports",
+            "Watching TV"
+          ],
+          "answer": "Practicing sports"
+        },
+        {
+          "skill": "main idea",
+          "question": "What is happening to his body?",
+          "options": [
+            "His muscles are growing",
+            "He's losing weight",
+            "He's getting taller"
+          ],
+          "answer": "His muscles are growing"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What does Andrés decide to do?",
+          "options": [
+            "Stay focused",
+            "Make money",
+            "Avoid school"
+          ],
+          "answer": "Stay focused"
+        }
+      ],
+      "cover": "../assets/images/week09_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "Comparing People In Photos",
+      "minimumWordTarget": 500,
+      "wordCount": 501,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week09_grade09_page01.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Comparing People In Photos”. Scene based on: In the photo, Andrea is standing next to her cousin, Camila. The situation requires more than a quick reaction, so Camila considers responsibilities and possible consequences. Andr. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "In the <b>photo</b>, Andrea is standing next to her <b>cousin</b>, Camila."
+            },
+            {
+              "html": "The situation requires more than a quick reaction, so Camila considers responsibilities and possible consequences."
+            },
+            {
+              "html": "Andrea is wearing a <b>yellow shirt</b> and smiling."
+            },
+            {
+              "html": "What begins as an ordinary problem gradually reveals a larger issue about judgment and communication."
+            },
+            {
+              "html": "Camila is looking at her <b>phone</b> and holding a <b>drink</b>."
+            },
+            {
+              "html": "Camila learns that being independent can also mean knowing when to ask for accurate information."
+            },
+            {
+              "html": "Andrea is <b>taller</b> than Camila."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week09_grade09_page02.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Comparing People In Photos”. Scene based on: Several details in the setting influence the decision and make the situation more realistic. Camila looks younger, even though she is older. The experience challenges Camila's firs. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Several details in the setting influence the decision and make the situation more realistic."
+            },
+            {
+              "html": "Camila looks younger, even though she is older."
+            },
+            {
+              "html": "The experience challenges Camila's first assumption and encourages a more careful response."
+            },
+            {
+              "html": "They both wear <b>jeans</b>, but Camila’s are <b>ripped</b>."
+            },
+            {
+              "html": "Earlier choices become connected with later results, making the cause and effect easier to see."
+            },
+            {
+              "html": "Andrea’s <b>hair</b> is curly and short, while Camila has long, straight hair."
+            },
+            {
+              "html": "A practical solution appears only after Camila considers more than one option."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week09_grade09_page03.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Comparing People In Photos”. Scene based on: Camila wears glasses, but Andrea doesn’t. Respectful communication helps reduce tension even before the whole problem is solved. “Who’s the girl on the left?” asks their aunt. Cami. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Camila wears <b>glasses</b>, but Andrea doesn’t."
+            },
+            {
+              "html": "Respectful communication helps reduce tension even before the whole problem is solved."
+            },
+            {
+              "html": "“Who’s the girl on the left?” asks their aunt."
+            },
+            {
+              "html": "Camila's response becomes more mature as emotion gives way to planning."
+            },
+            {
+              "html": "“That’s Camila,” says Andrea."
+            },
+            {
+              "html": "By the end of this part, the experience has changed the way Camila approaches the problem."
+            },
+            {
+              "html": "“She looks different in every picture.” They laugh."
+            },
+            {
+              "html": "The situation requires more than a quick reaction, so Camila considers responsibilities and possible consequences."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week09_grade09_page04.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Comparing People In Photos”. Scene based on: Comparing photos helps Andrea see how her family changes with time. What begins as an ordinary problem gradually reveals a larger issue about judgment and communication. Later, cam. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Comparing photos helps Andrea see how her family changes with time."
+            },
+            {
+              "html": "What begins as an ordinary problem gradually reveals a larger issue about judgment and communication."
+            },
+            {
+              "html": "Later, camila learns that being independent can also mean knowing when to ask for accurate information."
+            },
+            {
+              "html": "In the photo, Andrea is standing next to her cousin, Camila."
+            },
+            {
+              "html": "Several details in the setting influence the decision and make the situation more realistic."
+            },
+            {
+              "html": "Andrea is wearing a yellow shirt and smiling."
+            },
+            {
+              "html": "The experience challenges Camila's first assumption and encourages a more careful response."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week09_grade09_page05.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Comparing People In Photos”. Scene based on: Camila is looking at her phone and holding a drink. Earlier choices become connected with later results, making the cause and effect easier to see. Andrea is taller than Camila. A . mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Camila is looking at her phone and holding a drink."
+            },
+            {
+              "html": "Earlier choices become connected with later results, making the cause and effect easier to see."
+            },
+            {
+              "html": "Andrea is taller than Camila."
+            },
+            {
+              "html": "A practical solution appears only after Camila considers more than one option."
+            },
+            {
+              "html": "Camila looks younger, even though she is older."
+            },
+            {
+              "html": "Respectful communication helps reduce tension even before the whole problem is solved."
+            },
+            {
+              "html": "They both wear jeans, but Camila’s are ripped."
+            },
+            {
+              "html": "Camila's response becomes more mature as emotion gives way to planning."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week09_grade09_page06.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Comparing People In Photos”. Scene based on: Andrea’s hair is curly and short, while Camila has long, straight hair. By the end of this part, the experience has changed the way Camila approaches the problem. Camila wears glas. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Andrea’s hair is curly and short, while Camila has long, straight hair."
+            },
+            {
+              "html": "By the end of this part, the experience has changed the way Camila approaches the problem."
+            },
+            {
+              "html": "Camila wears glasses, but Andrea doesn’t."
+            },
+            {
+              "html": "The situation requires more than a quick reaction, so Camila considers responsibilities and possible consequences."
+            },
+            {
+              "html": "“Who’s the girl on the left?” asks their aunt."
+            },
+            {
+              "html": "What begins as an ordinary problem gradually reveals a larger issue about judgment and communication."
+            },
+            {
+              "html": "“That’s Camila,” says Andrea."
+            },
+            {
+              "html": "Camila learns that being independent can also mean knowing when to ask for accurate information."
+            }
+          ],
+          "wordCount": 92
+        }
+      ],
+      "practiceWords": [
+        "photo",
+        "cousin",
+        "yellow shirt",
+        "phone",
+        "drink",
+        "taller",
+        "jeans",
+        "ripped",
+        "hair",
+        "glasses"
+      ],
+      "vocabulary": [
+        {
+          "word": "photo",
+          "definition": "picture (foto)"
+        },
+        {
+          "word": "cousin",
+          "definition": "family relative (primo/a)"
+        },
+        {
+          "word": "yellow shirt",
+          "definition": "garment (camisa amarilla)"
+        },
+        {
+          "word": "phone",
+          "definition": "mobile device (teléfono)"
+        },
+        {
+          "word": "drink",
+          "definition": "beverage (bebida)"
+        },
+        {
+          "word": "taller",
+          "definition": "greater height (más alto)"
+        },
+        {
+          "word": "jeans",
+          "definition": "denim pants (pantalones)"
+        },
+        {
+          "word": "ripped",
+          "definition": "torn (rasgado)"
+        },
+        {
+          "word": "hair",
+          "definition": "head strands (cabello)"
+        },
+        {
+          "word": "glasses",
+          "definition": "vision aid (gafas)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Who helps Camila with her homework?",
+          "options": [
+            "Her sister",
+            "Her cousin",
+            "Her friend"
+          ],
+          "answer": "Her cousin"
+        },
+        {
+          "skill": "inference",
+          "question": "What color is the book?",
+          "options": [
+            "Blue",
+            "Yellow",
+            "Red"
+          ],
+          "answer": "Yellow"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What does Camila ask for?",
+          "options": [
+            "A book",
+            "A drink",
+            "A phone"
+          ],
+          "answer": "A drink"
+        },
+        {
+          "skill": "main idea",
+          "question": "Who finds the missing notebook?",
+          "options": [
+            "Their mom",
+            "Their aunt",
+            "Their teacher"
+          ],
+          "answer": "Their aunt"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What surprises Andrea?",
+          "options": [
+            "Camila's glasses",
+            "Camila looking different",
+            "Andrea's hair"
+          ],
+          "answer": "Camila looking different"
+        }
+      ],
+      "cover": "../assets/images/week09_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "How To Get From One Place To Another",
+      "minimumWordTarget": 600,
+      "wordCount": 607,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week09_grade10_page01.webp",
+          "artDirection": "15–16-year-old Colombian student context for “How To Get From One Place To Another”. Scene based on: Carlos needs directions to his job interview. The conflict becomes more significant when Carlos realizes that the easiest option may not be the most responsible one. He asks a man,. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Carlos needs <b>directions</b> to his <b>job interview</b>."
+            },
+            {
+              "html": "The conflict becomes more significant when Carlos realizes that the easiest option may not be the most responsible one."
+            },
+            {
+              "html": "He asks a <b>man</b>, “Which way to the <b>bus station</b>?” The man says, “You should take the <b>60B route</b>, but you must leave now—there’s <b>traffic</b>.” Carlos checks the <b>map</b> on his phone and sees a faster route if he <b>walks</b>."
+            },
+            {
+              "html": "The situation requires comparing alternatives, anticipating consequences, and communicating clearly."
+            },
+            {
+              "html": "He thinks, “I could avoid <b>delays</b> if I go by foot.” A <b>lady</b> nearby says, “My advice is: don’t wait for the bus—walk three blocks and turn left.” Carlos follows the advice, arrives early, and feels ready."
+            }
+          ],
+          "wordCount": 115
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week09_grade10_page02.webp",
+          "artDirection": "15–16-year-old Colombian student context for “How To Get From One Place To Another”. Scene based on: Personal decisions affect other people, so Carlos has to think beyond the immediate goal. “You must be smart in this city,” he tells himself. A detail introduced earlier becomes re. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Personal decisions affect other people, so Carlos has to think beyond the immediate goal."
+            },
+            {
+              "html": "“You must be smart in this city,” he tells himself."
+            },
+            {
+              "html": "A detail introduced earlier becomes relevant again and changes how the problem is understood."
+            },
+            {
+              "html": "Getting there the right way matters."
+            },
+            {
+              "html": "Progress comes through effort, negotiation, and a willingness to adjust the original plan."
+            },
+            {
+              "html": "Information becomes useful only after Carlos checks it carefully instead of accepting it immediately."
+            },
+            {
+              "html": "Carlos needs directions to his job interview."
+            }
+          ],
+          "wordCount": 78
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week09_grade10_page03.webp",
+          "artDirection": "15–16-year-old Colombian student context for “How To Get From One Place To Another”. Scene based on: As pressure increases, Carlos separates emotional reactions from the practical facts of the situation. He asks a man, “Which way to the bus station?” The man says, “You should take. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "As pressure increases, Carlos separates emotional reactions from the practical facts of the situation."
+            },
+            {
+              "html": "He asks a man, “Which way to the bus station?” The man says, “You should take the 60B route, but you must leave now—there’s traffic.” Carlos checks the map on his phone and sees a faster route if he walks."
+            },
+            {
+              "html": "The way Carlos asks questions and considers other perspectives shows growing maturity."
+            },
+            {
+              "html": "He thinks, “I could avoid delays if I go by foot.” A lady nearby says, “My advice is: don’t wait for the bus—walk three blocks and turn left.” Carlos follows the advice, arrives early, and feels ready."
+            }
+          ],
+          "wordCount": 105
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week09_grade10_page04.webp",
+          "artDirection": "15–16-year-old Colombian student context for “How To Get From One Place To Another”. Scene based on: Responsibility becomes visible through preparation, listening, correction, and follow-through. “You must be smart in this city,” he tells himself. The final choice matters because . mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Responsibility becomes visible through preparation, listening, correction, and follow-through."
+            },
+            {
+              "html": "“You must be smart in this city,” he tells himself."
+            },
+            {
+              "html": "The final choice matters because it considers both immediate needs and longer-term consequences."
+            },
+            {
+              "html": "Getting there the right way matters."
+            },
+            {
+              "html": "The conflict becomes more significant when Carlos realizes that the easiest option may not be the most responsible one."
+            },
+            {
+              "html": "Later, the situation requires comparing alternatives, anticipating consequences, and communicating clearly."
+            },
+            {
+              "html": "Carlos needs directions to his job interview."
+            }
+          ],
+          "wordCount": 75
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week09_grade10_page05.webp",
+          "artDirection": "15–16-year-old Colombian student context for “How To Get From One Place To Another”. Scene based on: Personal decisions affect other people, so Carlos has to think beyond the immediate goal. He asks a man, “Which way to the bus station?” The man says, “You should take the 60B rout. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Personal decisions affect other people, so Carlos has to think beyond the immediate goal."
+            },
+            {
+              "html": "He asks a man, “Which way to the bus station?” The man says, “You should take the 60B route, but you must leave now—there’s traffic.” Carlos checks the map on his phone and sees a faster route if he walks."
+            },
+            {
+              "html": "A detail introduced earlier becomes relevant again and changes how the problem is understood."
+            },
+            {
+              "html": "He thinks, “I could avoid delays if I go by foot.” A lady nearby says, “My advice is: don’t wait for the bus—walk three blocks and turn left.” Carlos follows the advice, arrives early, and feels ready."
+            }
+          ],
+          "wordCount": 107
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week09_grade10_page06.webp",
+          "artDirection": "15–16-year-old Colombian student context for “How To Get From One Place To Another”. Scene based on: Progress comes through effort, negotiation, and a willingness to adjust the original plan. “You must be smart in this city,” he tells himself. Information becomes useful only after. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Progress comes through effort, negotiation, and a willingness to adjust the original plan."
+            },
+            {
+              "html": "“You must be smart in this city,” he tells himself."
+            },
+            {
+              "html": "Information becomes useful only after Carlos checks it carefully instead of accepting it immediately."
+            },
+            {
+              "html": "Getting there the right way matters."
+            },
+            {
+              "html": "As pressure increases, Carlos separates emotional reactions from the practical facts of the situation."
+            },
+            {
+              "html": "Later, the way Carlos asks questions and considers other perspectives shows growing maturity."
+            }
+          ],
+          "wordCount": 70
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week09_grade10_page07.webp",
+          "artDirection": "15–16-year-old Colombian student context for “How To Get From One Place To Another”. Scene based on: Carlos needs directions to his job interview. Responsibility becomes visible through preparation, listening, correction, and follow-through. He asks a man, “Which way to the bus st. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Carlos needs directions to his job interview."
+            },
+            {
+              "html": "Responsibility becomes visible through preparation, listening, correction, and follow-through."
+            },
+            {
+              "html": "He asks a man, “Which way to the bus station?” The man says, “You should take the 60B route, but you must leave now—there’s traffic.” Carlos checks the map on his phone and sees a faster route if he walks."
+            }
+          ],
+          "wordCount": 57
+        }
+      ],
+      "practiceWords": [
+        "directions",
+        "job interview",
+        "man",
+        "bus station",
+        "60B route",
+        "traffic",
+        "map",
+        "walks",
+        "delays",
+        "lady"
+      ],
+      "vocabulary": [
+        {
+          "word": "directions",
+          "definition": "instructions (direcciones)"
+        },
+        {
+          "word": "job interview",
+          "definition": "employment meeting (entrevista de trabajo)"
+        },
+        {
+          "word": "man",
+          "definition": "male adult (hombre)"
+        },
+        {
+          "word": "bus station",
+          "definition": "transport hub (estación de buses)"
+        },
+        {
+          "word": "60B route",
+          "definition": "bus line (ruta 60B)"
+        },
+        {
+          "word": "traffic",
+          "definition": "vehicle congestion (tráfico)"
+        },
+        {
+          "word": "map",
+          "definition": "location guide (mapa)"
+        },
+        {
+          "word": "walks",
+          "definition": "moves on foot (caminar)"
+        },
+        {
+          "word": "delays",
+          "definition": "time setbacks (retrasos)"
+        },
+        {
+          "word": "lady",
+          "definition": "female adult (señora)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Why does María leave early?",
+          "options": [
+            "A job interview",
+            "A party",
+            "A store"
+          ],
+          "answer": "A job interview"
+        },
+        {
+          "skill": "inference",
+          "question": "Which route does she take?",
+          "options": [
+            "A taxi",
+            "The 60B route",
+            "A bike"
+          ],
+          "answer": "The 60B route"
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does she choose that route?",
+          "options": [
+            "To avoid traffic",
+            "To save money",
+            "To exercise"
+          ],
+          "answer": "To avoid traffic"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "How does she get to work?",
+          "options": [
+            "Wait for the bus",
+            "Walk three blocks",
+            "Take a taxi"
+          ],
+          "answer": "Walk three blocks"
+        },
+        {
+          "skill": "main idea",
+          "question": "How does María feel when she arrives?",
+          "options": [
+            "Tired",
+            "Ready",
+            "Lost"
+          ],
+          "answer": "Ready"
+        }
+      ],
+      "cover": "../assets/images/week09_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "Schedule Time For Studies And Learning About Duties",
+      "minimumWordTarget": 700,
+      "wordCount": 704,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week09_grade11_page01.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Schedule Time For Studies And Learning About Duties”. Scene based on: Valeria has to wake up at 5 a.m. every day. The episode becomes more complex because the main character must interpret not only what happened but why people respond differently. Sh. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Valeria has to wake up at <b>5 a.m.</b> every day."
+            },
+            {
+              "html": "The episode becomes more complex because the main character must interpret not only what happened but why people respond differently."
+            },
+            {
+              "html": "She needs to prepare <b>breakfast</b>, finish <b>school tasks</b>, and help at her <b>family’s bakery</b>."
+            },
+            {
+              "html": "A personal decision can have broader implications when trust, safety, reputation, or future plans are involved."
+            },
+            {
+              "html": "Her <b>assistance</b> to mom starts at 7 a.m., and she finishes by noon."
+            },
+            {
+              "html": "the main character's first interpretation is understandable, but later details encourage a more nuanced view."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week09_grade11_page02.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Schedule Time For Studies And Learning About Duties”. Scene based on: Then she must go to school. Mature decision-making sometimes requires changing an initial assumption when better evidence appears. She brings her study materials and lunch. The soc. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Then she must go to school."
+            },
+            {
+              "html": "Mature decision-making sometimes requires changing an initial assumption when better evidence appears."
+            },
+            {
+              "html": "She brings her <b>study materials</b> and <b>lunch</b>."
+            },
+            {
+              "html": "The social environment influences the main character, although personal agency still matters in the final choice."
+            },
+            {
+              "html": "“I need to make a better <b>schedule</b>,” she says."
+            },
+            {
+              "html": "Earlier experiences influence later behavior and make the character's development more coherent."
+            },
+            {
+              "html": "In the afternoon, she studies and finishes <b>homework</b>."
+            },
+            {
+              "html": "The story shows that consequences can include both difficulties and opportunities for growth."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week09_grade11_page03.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Schedule Time For Studies And Learning About Duties”. Scene based on: At night, she tries to sleep early. Communication becomes a form of responsibility when the main character explains intentions or verifies information. “You must find balance,” her. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "At night, she tries to <b>sleep</b> early."
+            },
+            {
+              "html": "Communication becomes a form of responsibility when the main character explains intentions or verifies information."
+            },
+            {
+              "html": "“You must find balance,” her mom says."
+            },
+            {
+              "html": "The setting shapes the pressures, resources, and alternatives that are realistically available."
+            },
+            {
+              "html": "So, Valeria writes a weekly plan."
+            },
+            {
+              "html": "By the end, the main character responds in a more deliberate and informed way, even if every problem is not completely solved."
+            },
+            {
+              "html": "She learns to prioritize time: family, school, work."
+            },
+            {
+              "html": "The episode becomes more complex because the main character must interpret not only what happened but why people respond differently."
+            }
+          ],
+          "wordCount": 97
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week09_grade11_page04.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Schedule Time For Studies And Learning About Duties”. Scene based on: Life in the barrio is not easy, but she manages it with strength. A personal decision can have broader implications when trust, safety, reputation, or future plans are involved. La. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Life in the barrio is not easy, but she manages it with strength."
+            },
+            {
+              "html": "A personal decision can have broader implications when trust, safety, reputation, or future plans are involved."
+            },
+            {
+              "html": "Later, the main character's first interpretation is understandable, but later details encourage a more nuanced view."
+            },
+            {
+              "html": "Valeria has to wake up at 5 a.m. every day."
+            },
+            {
+              "html": "Mature decision-making sometimes requires changing an initial assumption when better evidence appears."
+            },
+            {
+              "html": "She needs to prepare breakfast, finish school tasks, and help at her family’s bakery."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week09_grade11_page05.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Schedule Time For Studies And Learning About Duties”. Scene based on: The social environment influences the main character, although personal agency still matters in the final choice. Her assistance to mom starts at 7 a.m., and she finishes by noon. . mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The social environment influences the main character, although personal agency still matters in the final choice."
+            },
+            {
+              "html": "Her assistance to mom starts at 7 a.m., and she finishes by noon."
+            },
+            {
+              "html": "Earlier experiences influence later behavior and make the character's development more coherent."
+            },
+            {
+              "html": "Then she must go to school."
+            },
+            {
+              "html": "The story shows that consequences can include both difficulties and opportunities for growth."
+            },
+            {
+              "html": "She brings her study materials and lunch."
+            },
+            {
+              "html": "Communication becomes a form of responsibility when the main character explains intentions or verifies information."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week09_grade11_page06.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Schedule Time For Studies And Learning About Duties”. Scene based on: “I need to make a better schedule,” she says. The setting shapes the pressures, resources, and alternatives that are realistically available. In the afternoon, she studies and fini. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "“I need to make a better schedule,” she says."
+            },
+            {
+              "html": "The setting shapes the pressures, resources, and alternatives that are realistically available."
+            },
+            {
+              "html": "In the afternoon, she studies and finishes homework."
+            },
+            {
+              "html": "By the end, the main character responds in a more deliberate and informed way, even if every problem is not completely solved."
+            },
+            {
+              "html": "At night, she tries to sleep early."
+            },
+            {
+              "html": "The episode becomes more complex because the main character must interpret not only what happened but why people respond differently."
+            },
+            {
+              "html": "“You must find balance,” her mom says."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week09_grade11_page07.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Schedule Time For Studies And Learning About Duties”. Scene based on: A personal decision can have broader implications when trust, safety, reputation, or future plans are involved. So, Valeria writes a weekly plan. the main character's first interpr. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "A personal decision can have broader implications when trust, safety, reputation, or future plans are involved."
+            },
+            {
+              "html": "So, Valeria writes a weekly plan."
+            },
+            {
+              "html": "the main character's first interpretation is understandable, but later details encourage a more nuanced view."
+            },
+            {
+              "html": "She learns to prioritize time: family, school, work."
+            },
+            {
+              "html": "Mature decision-making sometimes requires changing an initial assumption when better evidence appears."
+            },
+            {
+              "html": "Life in the barrio is not easy, but she manages it with strength."
+            },
+            {
+              "html": "The social environment influences the main character, although personal agency still matters in the final choice."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week09_grade11_page08.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Schedule Time For Studies And Learning About Duties”. Scene based on: Later, earlier experiences influence later behavior and make the character's development more coherent. Valeria has to wake up at 5 a.m. every day. The story shows that consequence. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Later, earlier experiences influence later behavior and make the character's development more coherent."
+            },
+            {
+              "html": "Valeria has to wake up at 5 a.m. every day."
+            },
+            {
+              "html": "The story shows that consequences can include both difficulties and opportunities for growth."
+            },
+            {
+              "html": "She needs to prepare breakfast, finish school tasks, and help at her family’s bakery."
+            },
+            {
+              "html": "Communication becomes a form of responsibility when the main character explains intentions or verifies information."
+            },
+            {
+              "html": "Her assistance to mom starts at 7 a.m., and she finishes by noon."
+            },
+            {
+              "html": "The setting shapes the pressures, resources, and alternatives that are realistically available."
+            },
+            {
+              "html": "Then she must go to school."
+            }
+          ],
+          "wordCount": 98
+        }
+      ],
+      "practiceWords": [
+        "5 a.m.",
+        "breakfast",
+        "school tasks",
+        "family’s bakery",
+        "assistance",
+        "study materials",
+        "lunch",
+        "schedule",
+        "homework",
+        "sleep"
+      ],
+      "vocabulary": [
+        {
+          "word": "5 a.m.",
+          "definition": "early hour (5 de la mañana)"
+        },
+        {
+          "word": "breakfast",
+          "definition": "morning meal (desayuno)"
+        },
+        {
+          "word": "school tasks",
+          "definition": "academic work (tareas escolares)"
+        },
+        {
+          "word": "family’s bakery",
+          "definition": "bread shop (panadería familiar)"
+        },
+        {
+          "word": "assistance",
+          "definition": "helping(apoyo)"
+        },
+        {
+          "word": "study materials",
+          "definition": "learning resources (materiales de estudio)"
+        },
+        {
+          "word": "lunch",
+          "definition": "midday meal (almuerzo)"
+        },
+        {
+          "word": "schedule",
+          "definition": "time plan (horario)"
+        },
+        {
+          "word": "homework",
+          "definition": "school assignments (tarea)"
+        },
+        {
+          "word": "sleep",
+          "definition": "rest (dormir)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "What time does Valeria wake up?",
+          "options": [
+            "5 a.m.",
+            "6 a.m.",
+            "7 a.m."
+          ],
+          "answer": "5 a.m."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "Where does Valeria work?",
+          "options": [
+            "At a bakery",
+            "At a school",
+            "At a store"
+          ],
+          "answer": "At a bakery"
+        },
+        {
+          "skill": "purpose",
+          "question": "What does Valeria bring to school?",
+          "options": [
+            "Study materials",
+            "Toys",
+            "Clothes"
+          ],
+          "answer": "Study materials"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What does Valeria's mom advise her to find?",
+          "options": [
+            "A new job",
+            "Balance",
+            "A friend"
+          ],
+          "answer": "Balance"
+        },
+        {
+          "skill": "main idea",
+          "question": "What does Valeria learn to prioritize?",
+          "options": [
+            "Family, school, work",
+            "Hobbies",
+            "Sleep"
+          ],
+          "answer": "Family, school, work"
+        }
+      ],
+      "cover": "../assets/images/week09_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

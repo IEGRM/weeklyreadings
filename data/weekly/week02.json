@@ -1,0 +1,1939 @@
+{
+  "week": 2,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 2",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "My First School Day",
+      "minimumWordTarget": 350,
+      "wordCount": 360,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week02_grade06_page01.webp",
+          "artDirection": "11–12-year-old Colombian student context for “My First School Day”. Scene based on: Juan walks into the school. For a moment, Juan looks around and thinks about what to do next. The walls are old and covered in graffiti. The day continues, and Juan tries to stay c. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Juan walks into the <b>school</b>."
+            },
+            {
+              "html": "For a moment, Juan looks around and thinks about what to do <b>next</b>."
+            },
+            {
+              "html": "The walls are old and covered in <b>graffiti</b>."
+            },
+            {
+              "html": "The day continues, and Juan tries to stay calm and pay attention."
+            },
+            {
+              "html": "He looks around."
+            },
+            {
+              "html": "A small detail helps Juan understand the situation a little better."
+            },
+            {
+              "html": "There are many <b>students</b>."
+            },
+            {
+              "html": "After that, Juan continues carefully instead of rushing."
+            },
+            {
+              "html": "Some talk loudly."
+            },
+            {
+              "html": "The people nearby also notice what is happening and react in simple ways."
+            },
+            {
+              "html": "Others sit quietly."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week02_grade06_page02.webp",
+          "artDirection": "11–12-year-old Colombian student context for “My First School Day”. Scene based on: This gives Juan time to make a better choice and continue the day. He feels nervous. A few minutes later, the situation feels easier to understand. He finds an empty seat in the ba. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "This gives Juan time to make a better choice and continue the day."
+            },
+            {
+              "html": "He feels <b>nervous</b>."
+            },
+            {
+              "html": "A few minutes later, the situation feels easier to understand."
+            },
+            {
+              "html": "He finds an <b>empty</b> <b>seat</b> in the back and sits down."
+            },
+            {
+              "html": "Juan remembers that simple choices can make a difficult moment better."
+            },
+            {
+              "html": "A boy next to him says, 'Hi.' Juan <b>smiles</b>."
+            },
+            {
+              "html": "The experience is ordinary, but it becomes an important part of the day."
+            },
+            {
+              "html": "The <b>teacher</b> enters."
+            },
+            {
+              "html": "By paying attention, Juan learns something useful from the moment."
+            },
+            {
+              "html": "She <b>closes</b> the door."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week02_grade06_page03.webp",
+          "artDirection": "11–12-year-old Colombian student context for “My First School Day”. Scene based on: For a moment, Juan looks around and thinks about what to do next. Everyone is silent. The day continues, and Juan tries to stay calm and pay attention. She writes on the board. A s. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "For a moment, Juan looks around and thinks about what to do next."
+            },
+            {
+              "html": "Everyone is silent."
+            },
+            {
+              "html": "The day continues, and Juan tries to stay calm and pay attention."
+            },
+            {
+              "html": "She writes on the board."
+            },
+            {
+              "html": "A small detail helps Juan understand the situation a little better."
+            },
+            {
+              "html": "She says, 'Welcome to class.' Juan takes out his notebook."
+            },
+            {
+              "html": "After that, Juan continues carefully instead of rushing."
+            },
+            {
+              "html": "The first day of school begins."
+            },
+            {
+              "html": "The people nearby also notice what is happening and react in simple ways."
+            },
+            {
+              "html": "Later, this gives Juan time to make a better choice and continue the day."
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week02_grade06_page04.webp",
+          "artDirection": "11–12-year-old Colombian student context for “My First School Day”. Scene based on: Juan walks into the school. A few minutes later, the situation feels easier to understand. The walls are old and covered in graffiti. Juan remembers that simple choices can make a . warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Juan walks into the school."
+            },
+            {
+              "html": "A few minutes later, the situation feels easier to understand."
+            },
+            {
+              "html": "The walls are old and covered in graffiti."
+            },
+            {
+              "html": "Juan remembers that simple choices can make a difficult moment better."
+            },
+            {
+              "html": "He looks around."
+            },
+            {
+              "html": "The experience is ordinary, but it becomes an important part of the day."
+            },
+            {
+              "html": "There are many students."
+            },
+            {
+              "html": "By paying attention, Juan learns something useful from the moment."
+            },
+            {
+              "html": "Some talk loudly."
+            },
+            {
+              "html": "For a moment, Juan looks around and thinks about what to do next."
+            },
+            {
+              "html": "Others sit quietly."
+            },
+            {
+              "html": "The day continues, and Juan tries to stay calm and pay attention."
+            }
+          ],
+          "wordCount": 95
+        }
+      ],
+      "practiceWords": [
+        "school",
+        "graffiti",
+        "students",
+        "nervous",
+        "empty",
+        "seat",
+        "next",
+        "smiles",
+        "teacher",
+        "closes"
+      ],
+      "vocabulary": [
+        {
+          "word": "school",
+          "definition": "a place where students learn (escuela)"
+        },
+        {
+          "word": "graffiti",
+          "definition": "writing or drawings on walls (grafiti)"
+        },
+        {
+          "word": "students",
+          "definition": "people who attend school (estudiantes)"
+        },
+        {
+          "word": "nervous",
+          "definition": "feeling anxious or worried (nervioso)"
+        },
+        {
+          "word": "empty",
+          "definition": "having nothing inside (vacío)"
+        },
+        {
+          "word": "seat",
+          "definition": "a place to sit (asiento)"
+        },
+        {
+          "word": "next",
+          "definition": "immediately beside (al lado de)"
+        },
+        {
+          "word": "smiles",
+          "definition": "shows happiness with the mouth (sonríe)"
+        },
+        {
+          "word": "teacher",
+          "definition": "a person who teaches (maestro/a)"
+        },
+        {
+          "word": "closes",
+          "definition": "shuts something (cierra)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "Where does Juan walk into?",
+          "options": [
+            "A store",
+            "A park",
+            "A school"
+          ],
+          "answer": "A school"
+        },
+        {
+          "skill": "sequence",
+          "question": "What do the walls have on them?",
+          "options": [
+            "Posters",
+            "Graffiti",
+            "Paintings"
+          ],
+          "answer": "Graffiti"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "How does Juan feel when he arrives?",
+          "options": [
+            "Happy",
+            "Nervous",
+            "Excited"
+          ],
+          "answer": "Nervous"
+        },
+        {
+          "skill": "main idea",
+          "question": "Who sits next to Juan?",
+          "options": [
+            "A girl",
+            "A boy",
+            "The teacher"
+          ],
+          "answer": "A boy"
+        },
+        {
+          "skill": "simple inference",
+          "question": "What does the teacher do first?",
+          "options": [
+            "She writes on the board",
+            "She closes the door",
+            "She talks to Juan"
+          ],
+          "answer": "She closes the door"
+        }
+      ],
+      "cover": "../assets/images/week02_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "Time To Sleep",
+      "minimumWordTarget": 400,
+      "wordCount": 404,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week02_grade07_page01.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Time To Sleep”. Scene based on: Marta came home late from work. As the situation develops, Marta realizes that a quick decision can create a real consequence. She looked at the clock and sighed. The details aroun. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Marta came home late from work."
+            },
+            {
+              "html": "As the situation develops, Marta realizes that a quick decision can create a real consequence."
+            },
+            {
+              "html": "She looked at the clock and sighed."
+            },
+            {
+              "html": "The details around Marta make the problem easier to understand."
+            },
+            {
+              "html": "It was eleven o'clock."
+            },
+            {
+              "html": "Instead of reacting immediately, Marta takes a moment to think about the next step."
+            },
+            {
+              "html": "She went to her small bedroom and put on her <b>pajamas</b>."
+            },
+            {
+              "html": "The small challenge becomes an opportunity to learn something useful."
+            }
+          ],
+          "wordCount": 77
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week02_grade07_page02.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Time To Sleep”. Scene based on: She grabbed her old blanket and lay down. Other people influence the moment even when they are not at the center of the story. The night air was cold. Marta's feelings begin to cha. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "She grabbed her old <b>blanket</b> and lay down."
+            },
+            {
+              "html": "Other people influence the moment even when they are not at the center of the story."
+            },
+            {
+              "html": "The night air was cold."
+            },
+            {
+              "html": "Marta's feelings begin to change as new information appears."
+            },
+            {
+              "html": "She got up, opened her <b>closet</b>, and took an <b>extra</b> blanket."
+            },
+            {
+              "html": "One action leads naturally to another, so the consequence becomes clear."
+            },
+            {
+              "html": "She <b>covered</b> herself and closed her eyes."
+            },
+            {
+              "html": "The experience encourages Marta to be more patient and responsible."
+            }
+          ],
+          "wordCount": 77
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week02_grade07_page03.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Time To Sleep”. Scene based on: In the middle of the night, she woke up thirsty. After reflecting on what happened, Marta understands the situation better. She walked to the kitchen and poured a glass of water. B. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "In the middle of the night, she woke up thirsty."
+            },
+            {
+              "html": "After reflecting on what happened, Marta understands the situation better."
+            },
+            {
+              "html": "She walked to the kitchen and poured a <b>glass</b> of water."
+            },
+            {
+              "html": "By the end of the moment, Marta has learned something that may help later."
+            },
+            {
+              "html": "She drank it quickly."
+            },
+            {
+              "html": "As the situation develops, Marta realizes that a quick decision can create a real consequence."
+            },
+            {
+              "html": "On her way back, she heard a <b>noise</b> outside."
+            },
+            {
+              "html": "The details around Marta make the problem easier to understand."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week02_grade07_page04.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Time To Sleep”. Scene based on: She peeked through the window. Instead of reacting immediately, Marta takes a moment to think about the next step. A stray dog was climbing a trash pile. The small challenge become. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "She peeked through the window."
+            },
+            {
+              "html": "Instead of reacting immediately, Marta takes a moment to think about the next step."
+            },
+            {
+              "html": "A stray dog was <b>climbing</b> a trash pile."
+            },
+            {
+              "html": "The small challenge becomes an opportunity to learn something useful."
+            },
+            {
+              "html": "She <b>hushed</b> the dog, but it didn't leave."
+            },
+            {
+              "html": "Other people influence the moment even when they are not at the center of the story."
+            },
+            {
+              "html": "She sighed and went to bed."
+            },
+            {
+              "html": "Marta's feelings begin to change as new information appears."
+            },
+            {
+              "html": "She lay down and turned to the wall."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week02_grade07_page05.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Time To Sleep”. Scene based on: One action leads naturally to another, so the consequence becomes clear. The noise outside continued, but she was too tired to care. The experience encourages Marta to be more pati. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "One action leads naturally to another, so the consequence becomes clear."
+            },
+            {
+              "html": "The noise outside continued, but she was too tired to care."
+            },
+            {
+              "html": "The experience encourages Marta to be more patient and responsible."
+            },
+            {
+              "html": "Slowly, she <b>fell</b> asleep again."
+            },
+            {
+              "html": "After reflecting on what happened, Marta understands the situation better."
+            },
+            {
+              "html": "Later, by the end of the moment, Marta has learned something that may help later."
+            },
+            {
+              "html": "Marta came home late from work."
+            },
+            {
+              "html": "As the situation develops, Marta realizes that a quick decision can create a real consequence."
+            }
+          ],
+          "wordCount": 83
+        }
+      ],
+      "practiceWords": [
+        "pajamas",
+        "blanket",
+        "closet",
+        "extra",
+        "covered",
+        "glass",
+        "noise",
+        "climbing",
+        "hushed",
+        "fell"
+      ],
+      "vocabulary": [
+        {
+          "word": "pajamas",
+          "definition": "clothes worn for sleeping (pijama)"
+        },
+        {
+          "word": "blanket",
+          "definition": "a thick cover for warmth (cobija)"
+        },
+        {
+          "word": "closet",
+          "definition": "a storage space for clothes (armario)"
+        },
+        {
+          "word": "extra",
+          "definition": "additional (extra)"
+        },
+        {
+          "word": "covered",
+          "definition": "placed something over (cubrió)"
+        },
+        {
+          "word": "glass",
+          "definition": "a drinking container (vaso)"
+        },
+        {
+          "word": "noise",
+          "definition": "a loud sound (ruido)"
+        },
+        {
+          "word": "climbing",
+          "definition": "moving upward (trepando)"
+        },
+        {
+          "word": "hushed",
+          "definition": "made quiet (silenciado)"
+        },
+        {
+          "word": "fell",
+          "definition": "went to sleep (se durmió)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What time did Marta come home?",
+          "options": [
+            "Nine o'clock",
+            "Eleven o'clock",
+            "Ten o'clock"
+          ],
+          "answer": "Eleven o'clock"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "What did Marta do before going to bed?",
+          "options": [
+            "She ate dinner.",
+            "She put on her pajamas.",
+            "She watched TV."
+          ],
+          "answer": "She put on her pajamas."
+        },
+        {
+          "skill": "main idea",
+          "question": "Why did Marta wake up in the middle of the night?",
+          "options": [
+            "She was cold.",
+            "She was thirsty.",
+            "She heard a loud noise."
+          ],
+          "answer": "She was thirsty."
+        },
+        {
+          "skill": "simple inference",
+          "question": "What did Marta see outside the window?",
+          "options": [
+            "A black cat",
+            "A stray dog",
+            "A noisy bird"
+          ],
+          "answer": "A stray dog"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Did Marta sleep well that night?",
+          "options": [
+            "Yes, she slept all night.",
+            "No, she kept waking up.",
+            "She did not sleep at all."
+          ],
+          "answer": "No, she kept waking up."
+        }
+      ],
+      "cover": "../assets/images/week02_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "Grandmother'S Love For Sewing Shirts",
+      "minimumWordTarget": 450,
+      "wordCount": 460,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week02_grade08_page01.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Grandmother'S Love For Sewing Shirts”. Scene based on: Juan loved almost everything about his grandma. The situation becomes more complicated because Juan must balance what is wanted with what the moment requires. There was only one th. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Juan loved almost everything about his <b>grandma</b>."
+            },
+            {
+              "html": "The situation becomes more complicated because Juan must balance what is wanted with what the moment requires."
+            },
+            {
+              "html": "There was only one thing he did not like."
+            },
+            {
+              "html": "A detail that seemed small at first now helps explain the problem."
+            },
+            {
+              "html": "She always sewed <b>shirts</b> for him."
+            },
+            {
+              "html": "Different reactions show that people can understand the same event in different ways."
+            },
+            {
+              "html": "Juan knew she did it with <b>love</b>."
+            }
+          ],
+          "wordCount": 71
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week02_grade08_page02.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Grandmother'S Love For Sewing Shirts”. Scene based on: The problem affects more than one person and changes how the group responds. However, all the shirts were too big. Juan begins to see that acting quickly is not always the same as . warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The problem affects more than one person and changes how the group responds."
+            },
+            {
+              "html": "However, all the shirts were too big."
+            },
+            {
+              "html": "Juan begins to see that acting quickly is not always the same as acting wisely."
+            },
+            {
+              "html": "Juan lived in a small <b>apartment</b> in Medellin."
+            },
+            {
+              "html": "The setting creates realistic limits that influence what can happen next."
+            },
+            {
+              "html": "He had no <b>room</b> to <b>keep</b> them all."
+            },
+            {
+              "html": "Expressions and actions reveal feelings that are not always stated directly."
+            }
+          ],
+          "wordCount": 73
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week02_grade08_page03.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Grandmother'S Love For Sewing Shirts”. Scene based on: He had to give them away. The consequence grows naturally from a decision made only a short time earlier. \"Grandma will never know,\" he thought. A practical response appears when t. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "He had to <b>give</b> them away."
+            },
+            {
+              "html": "The consequence grows naturally from a decision made only a short time earlier."
+            },
+            {
+              "html": "\"Grandma will never <b>know</b>,\" he thought."
+            },
+            {
+              "html": "A practical response appears when the characters stop and consider another option."
+            },
+            {
+              "html": "One day, his grandma <b>visited</b> by surprise."
+            },
+            {
+              "html": "The experience becomes useful when Juan connects the immediate problem with a larger responsibility."
+            },
+            {
+              "html": "She asked to see his shirts."
+            },
+            {
+              "html": "The situation becomes more complicated because Juan must balance what is wanted with what the moment requires."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week02_grade08_page04.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Grandmother'S Love For Sewing Shirts”. Scene based on: \"Someone stole them!\" he said. A detail that seemed small at first now helps explain the problem. \"They were too nice.\" She made him ten more. Different reactions show that people . warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "\"Someone stole them!\" he said."
+            },
+            {
+              "html": "A detail that seemed small at first now helps explain the problem."
+            },
+            {
+              "html": "\"They were too nice.\" She made him ten more."
+            },
+            {
+              "html": "Different reactions show that people can understand the same event in different ways."
+            },
+            {
+              "html": "Later, the problem affects more than one person and changes how the group responds."
+            },
+            {
+              "html": "Juan loved almost everything about his grandma."
+            },
+            {
+              "html": "Juan begins to see that acting quickly is not always the same as acting wisely."
+            }
+          ],
+          "wordCount": 75
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week02_grade08_page05.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Grandmother'S Love For Sewing Shirts”. Scene based on: There was only one thing he did not like. The setting creates realistic limits that influence what can happen next. She always sewed shirts for him. Expressions and actions reveal . warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "There was only one thing he did not like."
+            },
+            {
+              "html": "The setting creates realistic limits that influence what can happen next."
+            },
+            {
+              "html": "She always sewed shirts for him."
+            },
+            {
+              "html": "Expressions and actions reveal feelings that are not always stated directly."
+            },
+            {
+              "html": "Juan knew she did it with love."
+            },
+            {
+              "html": "The consequence grows naturally from a decision made only a short time earlier."
+            },
+            {
+              "html": "However, all the shirts were too big."
+            },
+            {
+              "html": "A practical response appears when the characters stop and consider another option."
+            }
+          ],
+          "wordCount": 76
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week02_grade08_page06.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Grandmother'S Love For Sewing Shirts”. Scene based on: Juan lived in a small apartment in Medellin. The experience becomes useful when Juan connects the immediate problem with a larger responsibility. He had no room to keep them all. T. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Juan lived in a small apartment in Medellin."
+            },
+            {
+              "html": "The experience becomes useful when Juan connects the immediate problem with a larger responsibility."
+            },
+            {
+              "html": "He had no room to keep them all."
+            },
+            {
+              "html": "The situation becomes more complicated because Juan must balance what is wanted with what the moment requires."
+            },
+            {
+              "html": "He had to give them away."
+            },
+            {
+              "html": "A detail that seemed small at first now helps explain the problem."
+            },
+            {
+              "html": "\"Grandma will never know,\" he thought."
+            },
+            {
+              "html": "Different reactions show that people can understand the same event in different ways."
+            }
+          ],
+          "wordCount": 84
+        }
+      ],
+      "practiceWords": [
+        "grandma",
+        "love",
+        "sewing",
+        "shirts",
+        "apartment",
+        "room",
+        "keep",
+        "give",
+        "know",
+        "visited"
+      ],
+      "vocabulary": [
+        {
+          "word": "grandma",
+          "definition": "mother of one's parent (abuela)"
+        },
+        {
+          "word": "love",
+          "definition": "strong affection (amor)"
+        },
+        {
+          "word": "sewing",
+          "definition": "making clothes with needle/thread (costura)"
+        },
+        {
+          "word": "shirts",
+          "definition": "upper-body garments (camisas)"
+        },
+        {
+          "word": "apartment",
+          "definition": "a set of living rooms (apartamento)"
+        },
+        {
+          "word": "room",
+          "definition": "space that can be occupied (espacio)"
+        },
+        {
+          "word": "keep",
+          "definition": "to retain (guardar)"
+        },
+        {
+          "word": "give",
+          "definition": "to hand to someone (dar)"
+        },
+        {
+          "word": "know",
+          "definition": "to have knowledge (saber)"
+        },
+        {
+          "word": "visited",
+          "definition": "went to see (visitó)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What did Juan's grandma always make for him?",
+          "options": [
+            "Sweaters",
+            "Shirts",
+            "Hats"
+          ],
+          "answer": "Shirts"
+        },
+        {
+          "skill": "inference",
+          "question": "Why did Juan not like the shirts?",
+          "options": [
+            "They were too small.",
+            "They were too big.",
+            "They were ugly."
+          ],
+          "answer": "They were too big."
+        },
+        {
+          "skill": "purpose",
+          "question": "Where did Juan live?",
+          "options": [
+            "In Bogotá",
+            "In a big house",
+            "In a small apartment in Medellín"
+          ],
+          "answer": "In a small apartment in Medellín"
+        },
+        {
+          "skill": "main idea",
+          "question": "What did Juan do with the shirts?",
+          "options": [
+            "He kept them all.",
+            "He gave them away.",
+            "He lost them."
+          ],
+          "answer": "He gave them away."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What did Juan tell his grandma happened to the shirts?",
+          "options": [
+            "They got stolen.",
+            "He lost them.",
+            "He gave them to his friends."
+          ],
+          "answer": "They got stolen."
+        }
+      ],
+      "cover": "../assets/images/week02_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "The Sale'S Clerk",
+      "minimumWordTarget": 500,
+      "wordCount": 501,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week02_grade09_page01.webp",
+          "artDirection": "14–15-year-old Colombian student context for “The Sale'S Clerk”. Scene based on: Juan works in a small store in Medellin. The situation requires more than a quick reaction, so Juan considers responsibilities and possible consequences. He has many duties. What b. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Juan works in a small store in Medellin."
+            },
+            {
+              "html": "The situation requires more than a quick reaction, so Juan considers responsibilities and possible consequences."
+            },
+            {
+              "html": "He has many <b>duties</b>."
+            },
+            {
+              "html": "What begins as an ordinary problem gradually reveals a larger issue about judgment and communication."
+            },
+            {
+              "html": "He helps customers find <b>products</b>."
+            },
+            {
+              "html": "Juan learns that being independent can also mean knowing when to ask for accurate information."
+            },
+            {
+              "html": "Customers can be <b>annoying</b>."
+            },
+            {
+              "html": "Several details in the setting influence the decision and make the situation more realistic."
+            }
+          ],
+          "wordCount": 80
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week02_grade09_page02.webp",
+          "artDirection": "14–15-year-old Colombian student context for “The Sale'S Clerk”. Scene based on: They always want discounts. The experience challenges Juan's first assumption and encourages a more careful response. Juan always has to be polite. Earlier choices become connected. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "They always want discounts."
+            },
+            {
+              "html": "The experience challenges Juan's first assumption and encourages a more careful response."
+            },
+            {
+              "html": "Juan always has to be polite."
+            },
+            {
+              "html": "Earlier choices become connected with later results, making the cause and effect easier to see."
+            },
+            {
+              "html": "He also answers phone calls."
+            },
+            {
+              "html": "A practical solution appears only after Juan considers more than one option."
+            },
+            {
+              "html": "People ask about products they cannot afford."
+            },
+            {
+              "html": "Respectful communication helps reduce tension even before the whole problem is solved."
+            },
+            {
+              "html": "Juan cleans the storage <b>room</b>."
+            }
+          ],
+          "wordCount": 78
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week02_grade09_page03.webp",
+          "artDirection": "14–15-year-old Colombian student context for “The Sale'S Clerk”. Scene based on: Juan's response becomes more mature as emotion gives way to planning. That is the worst part. By the end of this part, the experience has changed the way Juan approaches the proble. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Juan's response becomes more mature as emotion gives way to planning."
+            },
+            {
+              "html": "That is the worst part."
+            },
+            {
+              "html": "By the end of this part, the experience has changed the way Juan approaches the problem."
+            },
+            {
+              "html": "It is very <b>dirty</b>."
+            },
+            {
+              "html": "The situation requires more than a quick reaction, so Juan considers responsibilities and possible consequences."
+            },
+            {
+              "html": "He has to move heavy boxes."
+            },
+            {
+              "html": "What begins as an ordinary problem gradually reveals a larger issue about judgment and communication."
+            },
+            {
+              "html": "He has to sweep the floor."
+            },
+            {
+              "html": "Juan learns that being independent can also mean knowing when to ask for accurate information."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week02_grade09_page04.webp",
+          "artDirection": "14–15-year-old Colombian student context for “The Sale'S Clerk”. Scene based on: Juan also works at the cash register. Several details in the setting influence the decision and make the situation more realistic. He scans items. The experience challenges Juan's . mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Juan also works at the <b>cash register</b>."
+            },
+            {
+              "html": "Several details in the setting influence the decision and make the situation more realistic."
+            },
+            {
+              "html": "He <b>scans</b> <b>items</b>."
+            },
+            {
+              "html": "The experience challenges Juan's first assumption and encourages a more careful response."
+            },
+            {
+              "html": "He gives people change."
+            },
+            {
+              "html": "Earlier choices become connected with later results, making the cause and effect easier to see."
+            },
+            {
+              "html": "He refunds money for <b>returns</b>."
+            },
+            {
+              "html": "A practical solution appears only after Juan considers more than one option."
+            },
+            {
+              "html": "He thinks his job is exhausting, but he hopes to <b>quit</b> and open his own business."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week02_grade09_page05.webp",
+          "artDirection": "14–15-year-old Colombian student context for “The Sale'S Clerk”. Scene based on: Respectful communication helps reduce tension even before the whole problem is solved. Later, juan's response becomes more mature as emotion gives way to planning. Juan works in a . mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Respectful communication helps reduce tension even before the whole problem is solved."
+            },
+            {
+              "html": "Later, juan's response becomes more mature as emotion gives way to planning."
+            },
+            {
+              "html": "Juan works in a small store in Medellin."
+            },
+            {
+              "html": "By the end of this part, the experience has changed the way Juan approaches the problem."
+            },
+            {
+              "html": "He has many duties."
+            },
+            {
+              "html": "The situation requires more than a quick reaction, so Juan considers responsibilities and possible consequences."
+            },
+            {
+              "html": "He helps customers find products."
+            },
+            {
+              "html": "What begins as an ordinary problem gradually reveals a larger issue about judgment and communication."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week02_grade09_page06.webp",
+          "artDirection": "14–15-year-old Colombian student context for “The Sale'S Clerk”. Scene based on: Customers can be annoying. Juan learns that being independent can also mean knowing when to ask for accurate information. They always want discounts. Several details in the setting. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Customers can be annoying."
+            },
+            {
+              "html": "Juan learns that being independent can also mean knowing when to ask for accurate information."
+            },
+            {
+              "html": "They always want discounts."
+            },
+            {
+              "html": "Several details in the setting influence the decision and make the situation more realistic."
+            },
+            {
+              "html": "Juan always has to be polite."
+            },
+            {
+              "html": "The experience challenges Juan's first assumption and encourages a more careful response."
+            },
+            {
+              "html": "He also answers phone calls."
+            },
+            {
+              "html": "Earlier choices become connected with later results, making the cause and effect easier to see."
+            }
+          ],
+          "wordCount": 75
+        }
+      ],
+      "practiceWords": [
+        "duties",
+        "products",
+        "annoying",
+        "room",
+        "dirty",
+        "cash register",
+        "scans",
+        "items",
+        "returns",
+        "quit"
+      ],
+      "vocabulary": [
+        {
+          "word": "duties",
+          "definition": "responsibilities (deberes)"
+        },
+        {
+          "word": "products",
+          "definition": "items sold (productos)"
+        },
+        {
+          "word": "annoying",
+          "definition": "causing irritation (molesto)"
+        },
+        {
+          "word": "room",
+          "definition": "a part of a building (cuarto)"
+        },
+        {
+          "word": "dirty",
+          "definition": "not clean (sucio)"
+        },
+        {
+          "word": "cash register",
+          "definition": "machine for transactions (caja registradora)"
+        },
+        {
+          "word": "scans",
+          "definition": "reads barcodes (escanea)"
+        },
+        {
+          "word": "items",
+          "definition": "objects or products (artículos)"
+        },
+        {
+          "word": "returns",
+          "definition": "giving back purchased goods (devoluciones)"
+        },
+        {
+          "word": "quit",
+          "definition": "to leave a job (renunciar)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Where does Juan work?",
+          "options": [
+            "In a factory",
+            "In a small store",
+            "In a restaurant"
+          ],
+          "answer": "In a small store"
+        },
+        {
+          "skill": "inference",
+          "question": "What do customers always want?",
+          "options": [
+            "Free products",
+            "Discounts",
+            "Better service"
+          ],
+          "answer": "Discounts"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What is the worst part of Juan's job?",
+          "options": [
+            "Answering phone calls",
+            "Cleaning the storage room",
+            "Working at the cash register"
+          ],
+          "answer": "Cleaning the storage room"
+        },
+        {
+          "skill": "main idea",
+          "question": "What does Juan do at the cash register?",
+          "options": [
+            "He cleans it",
+            "He scans items",
+            "He fixes broken machines"
+          ],
+          "answer": "He scans items"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What does Juan hope to do in the future?",
+          "options": [
+            "Get a promotion",
+            "Open his own business",
+            "Work fewer hours"
+          ],
+          "answer": "Open his own business"
+        }
+      ],
+      "cover": "../assets/images/week02_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "School/College Admission",
+      "minimumWordTarget": 600,
+      "wordCount": 601,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week02_grade10_page01.webp",
+          "artDirection": "15–16-year-old Colombian student context for “School/College Admission”. Scene based on: Getting into college is difficult for many students. The conflict becomes more significant when the main character realizes that the easiest option may not be the most responsible . mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Getting into college is difficult for many students."
+            },
+            {
+              "html": "The conflict becomes more significant when the main character realizes that the easiest option may not be the most responsible one."
+            },
+            {
+              "html": "It used to be easier."
+            },
+            {
+              "html": "The situation requires comparing alternatives, anticipating consequences, and communicating clearly."
+            },
+            {
+              "html": "Now, good grades are not enough."
+            },
+            {
+              "html": "Personal decisions affect other people, so the main character has to think beyond the immediate goal."
+            },
+            {
+              "html": "Students need good grades in <b>advanced</b> <b>subjects</b>."
+            },
+            {
+              "html": "A detail introduced earlier becomes relevant again and changes how the problem is understood."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week02_grade10_page02.webp",
+          "artDirection": "15–16-year-old Colombian student context for “School/College Admission”. Scene based on: They also need extracurricular activities. Progress comes through effort, negotiation, and a willingness to adjust the original plan. Extracurricular activities include sports, dan. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "They also need <b>extracurricular activities</b>."
+            },
+            {
+              "html": "Progress comes through effort, negotiation, and a willingness to adjust the original plan."
+            },
+            {
+              "html": "Extracurricular activities include sports, dance, and music."
+            },
+            {
+              "html": "Information becomes useful only after the main character checks it carefully instead of accepting it immediately."
+            },
+            {
+              "html": "Many students join <b>clubs</b>."
+            },
+            {
+              "html": "As pressure increases, the main character separates emotional reactions from the practical facts of the situation."
+            },
+            {
+              "html": "Colleges like <b>leadership</b>."
+            },
+            {
+              "html": "The way the main character asks questions and considers other perspectives shows growing maturity."
+            },
+            {
+              "html": "They prefer students who are club presidents or team captains."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week02_grade10_page03.webp",
+          "artDirection": "15–16-year-old Colombian student context for “School/College Admission”. Scene based on: Responsibility becomes visible through preparation, listening, correction, and follow-through. Students also need high scores on exams. The final choice matters because it consider. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Responsibility becomes visible through preparation, listening, correction, and follow-through."
+            },
+            {
+              "html": "Students also need high scores on exams."
+            },
+            {
+              "html": "The final choice matters because it considers both immediate needs and longer-term consequences."
+            },
+            {
+              "html": "Exams test knowledge in different subjects."
+            },
+            {
+              "html": "The conflict becomes more significant when the main character realizes that the easiest option may not be the most responsible one."
+            },
+            {
+              "html": "Teachers and <b>principals</b> write <b>recommendation</b> letters."
+            },
+            {
+              "html": "The situation requires comparing alternatives, anticipating consequences, and communicating clearly."
+            },
+            {
+              "html": "These letters describe the student's <b>personality</b> and skills."
+            }
+          ],
+          "wordCount": 80
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week02_grade10_page04.webp",
+          "artDirection": "15–16-year-old Colombian student context for “School/College Admission”. Scene based on: Personal decisions affect other people, so the main character has to think beyond the immediate goal. Colleges also ask for essays. A detail introduced earlier becomes relevant aga. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Personal decisions affect other people, so the main character has to think beyond the immediate goal."
+            },
+            {
+              "html": "Colleges also ask for essays."
+            },
+            {
+              "html": "A detail introduced earlier becomes relevant again and changes how the problem is understood."
+            },
+            {
+              "html": "Essays help colleges understand students better."
+            },
+            {
+              "html": "Progress comes through effort, negotiation, and a willingness to adjust the original plan."
+            },
+            {
+              "html": "If a student has great grades but a boring essay, they may not get in."
+            },
+            {
+              "html": "Information becomes useful only after the main character checks it carefully instead of accepting it immediately."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week02_grade10_page05.webp",
+          "artDirection": "15–16-year-old Colombian student context for “School/College Admission”. Scene based on: Admission gets harder every year. As pressure increases, the main character separates emotional reactions from the practical facts of the situation. Later, the way the main charact. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "<b>Admission</b> gets harder every year."
+            },
+            {
+              "html": "As pressure increases, the main character separates emotional reactions from the practical facts of the situation."
+            },
+            {
+              "html": "Later, the way the main character asks questions and considers other perspectives shows growing maturity."
+            },
+            {
+              "html": "Getting into college is difficult for many students."
+            },
+            {
+              "html": "Responsibility becomes visible through preparation, listening, correction, and follow-through."
+            },
+            {
+              "html": "It used to be easier."
+            },
+            {
+              "html": "The final choice matters because it considers both immediate needs and longer-term consequences."
+            },
+            {
+              "html": "Now, good grades are not enough."
+            },
+            {
+              "html": "The conflict becomes more significant when the main character realizes that the easiest option may not be the most responsible one."
+            }
+          ],
+          "wordCount": 98
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week02_grade10_page06.webp",
+          "artDirection": "15–16-year-old Colombian student context for “School/College Admission”. Scene based on: Students need good grades in advanced subjects. The situation requires comparing alternatives, anticipating consequences, and communicating clearly. They also need extracurricular . mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Students need good grades in advanced subjects."
+            },
+            {
+              "html": "The situation requires comparing alternatives, anticipating consequences, and communicating clearly."
+            },
+            {
+              "html": "They also need extracurricular activities."
+            },
+            {
+              "html": "Personal decisions affect other people, so the main character has to think beyond the immediate goal."
+            },
+            {
+              "html": "Extracurricular activities include sports, dance, and music."
+            },
+            {
+              "html": "A detail introduced earlier becomes relevant again and changes how the problem is understood."
+            },
+            {
+              "html": "Many students join clubs."
+            },
+            {
+              "html": "Progress comes through effort, negotiation, and a willingness to adjust the original plan."
+            }
+          ],
+          "wordCount": 76
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week02_grade10_page07.webp",
+          "artDirection": "15–16-year-old Colombian student context for “School/College Admission”. Scene based on: Colleges like leadership. Information becomes useful only after the main character checks it carefully instead of accepting it immediately. They prefer students who are club presid. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Colleges like leadership."
+            },
+            {
+              "html": "Information becomes useful only after the main character checks it carefully instead of accepting it immediately."
+            },
+            {
+              "html": "They prefer students who are club presidents or team captains."
+            },
+            {
+              "html": "As pressure increases, the main character separates emotional reactions from the practical facts of the situation."
+            },
+            {
+              "html": "Students also need high scores on exams."
+            },
+            {
+              "html": "The way the main character asks questions and considers other perspectives shows growing maturity."
+            },
+            {
+              "html": "Exams test knowledge in different subjects."
+            },
+            {
+              "html": "Responsibility becomes visible through preparation, listening, correction, and follow-through."
+            },
+            {
+              "html": "Teachers and principals write recommendation letters."
+            }
+          ],
+          "wordCount": 87
+        }
+      ],
+      "practiceWords": [
+        "advanced",
+        "subjects",
+        "extracurricular activities",
+        "clubs",
+        "leadership",
+        "principals",
+        "recommendation",
+        "personality",
+        "admission"
+      ],
+      "vocabulary": [
+        {
+          "word": "advanced",
+          "definition": "higher level (avanzado)"
+        },
+        {
+          "word": "subjects",
+          "definition": "fields of study (materias)"
+        },
+        {
+          "word": "extracurricular activities",
+          "definition": "activities outside class (actividades extracurriculares)"
+        },
+        {
+          "word": "clubs",
+          "definition": "groups with shared interests (clubes)"
+        },
+        {
+          "word": "leadership",
+          "definition": "ability to lead (liderazgo)"
+        },
+        {
+          "word": "principals",
+          "definition": "school heads (directores)"
+        },
+        {
+          "word": "recommendation",
+          "definition": "letter of support (recomendación)"
+        },
+        {
+          "word": "personality",
+          "definition": "individual character (personalidad)"
+        },
+        {
+          "word": "admission",
+          "definition": "process of entering (admisión)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Why is getting into college difficult?",
+          "options": [
+            "Because schools are closing",
+            "Because students need more than good grades",
+            "Because it is expensive"
+          ],
+          "answer": "Because students need more than good grades"
+        },
+        {
+          "skill": "inference",
+          "question": "What do students need besides good grades?",
+          "options": [
+            "Advanced subjects",
+            "Extracurricular activities",
+            "New uniforms"
+          ],
+          "answer": "Extracurricular activities"
+        },
+        {
+          "skill": "purpose",
+          "question": "Who writes recommendation letters?",
+          "options": [
+            "Parents and friends",
+            "Teachers and principals",
+            "Famous people"
+          ],
+          "answer": "Teachers and principals"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "Why are essays important?",
+          "options": [
+            "They help students get better grades",
+            "They help colleges understand students",
+            "They replace exams"
+          ],
+          "answer": "They help colleges understand students"
+        },
+        {
+          "skill": "main idea",
+          "question": "What happens if a student has great grades but a boring essay?",
+          "options": [
+            "They might not get into college",
+            "They get a scholarship",
+            "They automatically pass"
+          ],
+          "answer": "They might not get into college"
+        }
+      ],
+      "cover": "../assets/images/week02_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "October 31St",
+      "minimumWordTarget": 700,
+      "wordCount": 706,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week02_grade11_page01.webp",
+          "artDirection": "16–17-year-old Colombian student context for “October 31St”. Scene based on: This October 31st, Camilo was excited. The episode becomes more complex because Andrés must interpret not only what happened but why people respond differently. He was spending the. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "This October 31st, Camilo was excited."
+            },
+            {
+              "html": "The episode becomes more complex because Andrés must interpret not only what happened but why people respond differently."
+            },
+            {
+              "html": "He was spending the evening with his younger brother Andrés and his friends."
+            },
+            {
+              "html": "A personal decision can have broader implications when trust, safety, reputation, or future plans are involved."
+            },
+            {
+              "html": "Camilo dressed as a <b>vampire</b>, while the kids wore <b>ghost</b> costumes."
+            },
+            {
+              "html": "Andrés's first interpretation is understandable, but later details encourage a more nuanced view."
+            },
+            {
+              "html": "They decided to make <b>pumpkin</b> <b>pie</b>."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week02_grade11_page02.webp",
+          "artDirection": "16–17-year-old Colombian student context for “October 31St”. Scene based on: Mature decision-making sometimes requires changing an initial assumption when better evidence appears. The smell of cinnamon and spice filled the kitchen. The social environment in. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Mature decision-making sometimes requires changing an initial assumption when better evidence appears."
+            },
+            {
+              "html": "The smell of <b>cinnamon</b> and <b>spice</b> filled the kitchen."
+            },
+            {
+              "html": "The social environment influences Andrés, although personal agency still matters in the final choice."
+            },
+            {
+              "html": "Andrés <b>sprinkled</b> sugar on top."
+            },
+            {
+              "html": "Earlier experiences influence later behavior and make the character's development more coherent."
+            },
+            {
+              "html": "Then, they lit <b>candles</b> and told ghost stories."
+            },
+            {
+              "html": "The story shows that consequences can include both difficulties and opportunities for growth."
+            },
+            {
+              "html": "Andrés whispered, \"Should we go <b>trick-or-treating</b>?\" \"It's too dangerous in our neighborhood,\" Camilo said."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week02_grade11_page03.webp",
+          "artDirection": "16–17-year-old Colombian student context for “October 31St”. Scene based on: Communication becomes a form of responsibility when Andrés explains intentions or verifies information. \"Let's visit my aunt instead!\" At his aunt's house, they rang the bell. The . mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Communication becomes a form of responsibility when Andrés explains intentions or verifies information."
+            },
+            {
+              "html": "\"Let's visit my aunt instead!\" At his aunt's house, they rang the bell."
+            },
+            {
+              "html": "The setting shapes the pressures, resources, and alternatives that are realistically available."
+            },
+            {
+              "html": "She laughed and gave them <b>candy</b>."
+            },
+            {
+              "html": "By the end, Andrés responds in a more deliberate and informed way, even if every problem is not completely solved."
+            },
+            {
+              "html": "On the way home, a group of grown-ups handed them gummy bars."
+            },
+            {
+              "html": "The episode becomes more complex because Andrés must interpret not only what happened but why people respond differently."
+            }
+          ],
+          "wordCount": 94
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week02_grade11_page04.webp",
+          "artDirection": "16–17-year-old Colombian student context for “October 31St”. Scene based on: Back home, they sat and ate their treats. A personal decision can have broader implications when trust, safety, reputation, or future plans are involved. Camilo smiled. Andrés's fi. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Back home, they sat and ate their treats."
+            },
+            {
+              "html": "A personal decision can have broader implications when trust, safety, reputation, or future plans are involved."
+            },
+            {
+              "html": "Camilo smiled."
+            },
+            {
+              "html": "Andrés's first interpretation is understandable, but later details encourage a more nuanced view."
+            },
+            {
+              "html": "It was the best Halloween ever."
+            },
+            {
+              "html": "Mature decision-making sometimes requires changing an initial assumption when better evidence appears."
+            },
+            {
+              "html": "Later, the social environment influences Andrés, although personal agency still matters in the final choice."
+            },
+            {
+              "html": "This October 31st, Camilo was excited."
+            },
+            {
+              "html": "Earlier experiences influence later behavior and make the character's development more coherent."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week02_grade11_page05.webp",
+          "artDirection": "16–17-year-old Colombian student context for “October 31St”. Scene based on: He was spending the evening with his younger brother Andrés and his friends. The story shows that consequences can include both difficulties and opportunities for growth. Camilo dr. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "He was spending the evening with his younger brother Andrés and his friends."
+            },
+            {
+              "html": "The story shows that consequences can include both difficulties and opportunities for growth."
+            },
+            {
+              "html": "Camilo dressed as a vampire, while the kids wore ghost costumes."
+            },
+            {
+              "html": "Communication becomes a form of responsibility when Andrés explains intentions or verifies information."
+            },
+            {
+              "html": "They decided to make pumpkin pie."
+            },
+            {
+              "html": "The setting shapes the pressures, resources, and alternatives that are realistically available."
+            },
+            {
+              "html": "The smell of cinnamon and spice filled the kitchen."
+            },
+            {
+              "html": "By the end, Andrés responds in a more deliberate and informed way, even if every problem is not completely solved."
+            }
+          ],
+          "wordCount": 97
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week02_grade11_page06.webp",
+          "artDirection": "16–17-year-old Colombian student context for “October 31St”. Scene based on: Andrés sprinkled sugar on top. The episode becomes more complex because Andrés must interpret not only what happened but why people respond differently. Then, they lit candles and . mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Andrés sprinkled sugar on top."
+            },
+            {
+              "html": "The episode becomes more complex because Andrés must interpret not only what happened but why people respond differently."
+            },
+            {
+              "html": "Then, they lit candles and told ghost stories."
+            },
+            {
+              "html": "A personal decision can have broader implications when trust, safety, reputation, or future plans are involved."
+            },
+            {
+              "html": "Andrés whispered, \"Should we go trick-or-treating?\" \"It's too dangerous in our neighborhood,\" Camilo said."
+            },
+            {
+              "html": "Andrés's first interpretation is understandable, but later details encourage a more nuanced view."
+            },
+            {
+              "html": "\"Let's visit my aunt instead!\" At his aunt's house, they rang the bell."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week02_grade11_page07.webp",
+          "artDirection": "16–17-year-old Colombian student context for “October 31St”. Scene based on: Mature decision-making sometimes requires changing an initial assumption when better evidence appears. She laughed and gave them candy. The social environment influences Andrés, al. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Mature decision-making sometimes requires changing an initial assumption when better evidence appears."
+            },
+            {
+              "html": "She laughed and gave them candy."
+            },
+            {
+              "html": "The social environment influences Andrés, although personal agency still matters in the final choice."
+            },
+            {
+              "html": "On the way home, a group of grown-ups handed them gummy bars."
+            },
+            {
+              "html": "Earlier experiences influence later behavior and make the character's development more coherent."
+            },
+            {
+              "html": "Back home, they sat and ate their treats."
+            },
+            {
+              "html": "The story shows that consequences can include both difficulties and opportunities for growth."
+            },
+            {
+              "html": "Camilo smiled."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week02_grade11_page08.webp",
+          "artDirection": "16–17-year-old Colombian student context for “October 31St”. Scene based on: Communication becomes a form of responsibility when Andrés explains intentions or verifies information. It was the best Halloween ever. The setting shapes the pressures, resources,. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Communication becomes a form of responsibility when Andrés explains intentions or verifies information."
+            },
+            {
+              "html": "It was the best Halloween ever."
+            },
+            {
+              "html": "The setting shapes the pressures, resources, and alternatives that are realistically available."
+            },
+            {
+              "html": "Later, by the end, Andrés responds in a more deliberate and informed way, even if every problem is not completely solved."
+            },
+            {
+              "html": "This October 31st, Camilo was excited."
+            },
+            {
+              "html": "The episode becomes more complex because Andrés must interpret not only what happened but why people respond differently."
+            },
+            {
+              "html": "He was spending the evening with his younger brother Andrés and his friends."
+            }
+          ],
+          "wordCount": 89
+        }
+      ],
+      "practiceWords": [
+        "vampire",
+        "ghost",
+        "pumpkin",
+        "pie",
+        "cinnamon",
+        "spice",
+        "sprinkled",
+        "candles",
+        "trick-or-treating",
+        "candy"
+      ],
+      "vocabulary": [
+        {
+          "word": "vampire",
+          "definition": "mythical blood-drinking creature (vampiro)"
+        },
+        {
+          "word": "ghost",
+          "definition": "spirit of a dead person (fantasma)"
+        },
+        {
+          "word": "pumpkin",
+          "definition": "large orange vegetable (calabaza)"
+        },
+        {
+          "word": "pie",
+          "definition": "baked dessert with filling (pastel)"
+        },
+        {
+          "word": "cinnamon",
+          "definition": "sweet spice (canela)"
+        },
+        {
+          "word": "spice",
+          "definition": "seasoning for food (especia)"
+        },
+        {
+          "word": "sprinkled",
+          "definition": "scattered small pieces (espolvoreó)"
+        },
+        {
+          "word": "candles",
+          "definition": "wax sticks for light (velas)"
+        },
+        {
+          "word": "trick-or-treating",
+          "definition": "asking for candy on Halloween (pedir dulces)"
+        },
+        {
+          "word": "candy",
+          "definition": "sweet treats (dulces)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "Why was Camilo excited?",
+          "options": [
+            "Because he had a new bike",
+            "Because he was spending Halloween with Andrés",
+            "Because he was going to a concert"
+          ],
+          "answer": "Because he was spending Halloween with Andrés"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What costume did Camilo wear?",
+          "options": [
+            "A ghost",
+            "A pirate",
+            "A vampire"
+          ],
+          "answer": "A vampire"
+        },
+        {
+          "skill": "purpose",
+          "question": "What did they decide to make?",
+          "options": [
+            "Chocolate cake",
+            "Pumpkin pie",
+            "Gummy bars"
+          ],
+          "answer": "Pumpkin pie"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What did Andrés sprinkle on the pie?",
+          "options": [
+            "Salt",
+            "Sugar",
+            "Chocolate"
+          ],
+          "answer": "Sugar"
+        },
+        {
+          "skill": "main idea",
+          "question": "Why didn't they go trick-or-treating?",
+          "options": [
+            "Because it was too dangerous",
+            "Because they didn't like candy",
+            "Because they forgot their costumes"
+          ],
+          "answer": "Because it was too dangerous"
+        }
+      ],
+      "cover": "../assets/images/week02_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

@@ -1,0 +1,1632 @@
+{
+  "week": 8,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 8",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "What'S On Tiktok?",
+      "minimumWordTarget": 350,
+      "wordCount": 353,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week08_grade06_page01.webp",
+          "artDirection": "11–12-year-old Colombian student context for “What'S On Tiktok?”. Scene based on: Juan loves watching TikTok videos on his mom’s old phone, even if the screen is cracked. For a moment, Juan looks around and thinks about what to do next. He laughs out loud when h. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Juan loves watching <b>TikTok</b> <b>videos</b> on his mom’s old <b>phone</b>, even if the screen is cracked."
+            },
+            {
+              "html": "For a moment, Juan looks around and thinks about what to do next."
+            },
+            {
+              "html": "He laughs out loud when he sees videos of little dogs dancing to <b>reggaeton</b> beats."
+            },
+            {
+              "html": "The day continues, and Juan tries to stay calm and pay attention."
+            },
+            {
+              "html": "His <b>sister</b> Maria is more creative; she records silly <b>skits</b> about life in their <b>neighborhood</b>, often using their pet chicken as a star."
+            },
+            {
+              "html": "A small detail helps Juan understand the situation a little better."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week08_grade06_page02.webp",
+          "artDirection": "11–12-year-old Colombian student context for “What'S On Tiktok?”. Scene based on: Their absolute favorite creator is Carlos, a local teen who makes raps about street life in Bogotá. After that, Juan continues carefully instead of rushing. Even though their mom c. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Their absolute <b>favorite</b> creator is <b>Carlos</b>, a local teen who makes raps about <b>street</b> life in Bogotá."
+            },
+            {
+              "html": "After that, Juan continues carefully instead of rushing."
+            },
+            {
+              "html": "Even though their mom complains and tells them to stop wasting time, Juan secretly dreams of becoming famous like Carlos one day."
+            },
+            {
+              "html": "The people nearby also notice what is happening and react in simple ways."
+            },
+            {
+              "html": "This gives Juan time to make a better choice and continue the day."
+            },
+            {
+              "html": "Juan loves watching TikTok videos on his mom’s old phone, even if the screen is cracked."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week08_grade06_page03.webp",
+          "artDirection": "11–12-year-old Colombian student context for “What'S On Tiktok?”. Scene based on: A few minutes later, the situation feels easier to understand. He laughs out loud when he sees videos of little dogs dancing to reggaeton beats. Juan remembers that simple choices . warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "A few minutes later, the situation feels easier to understand."
+            },
+            {
+              "html": "He laughs out loud when he sees videos of little dogs dancing to reggaeton beats."
+            },
+            {
+              "html": "Juan remembers that simple choices can make a difficult moment better."
+            },
+            {
+              "html": "His sister Maria is more creative; she records silly skits about life in their neighborhood, often using their pet chicken as a star."
+            },
+            {
+              "html": "The experience is ordinary, but it becomes an important part of the day."
+            },
+            {
+              "html": "Their absolute favorite creator is Carlos, a local teen who makes raps about street life in Bogotá."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week08_grade06_page04.webp",
+          "artDirection": "11–12-year-old Colombian student context for “What'S On Tiktok?”. Scene based on: By paying attention, Juan learns something useful from the moment. Even though their mom complains and tells them to stop wasting time, Juan secretly dreams of becoming famous like. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "By paying attention, Juan learns something useful from the moment."
+            },
+            {
+              "html": "Even though their mom complains and tells them to stop wasting time, Juan secretly dreams of becoming famous like Carlos one day."
+            },
+            {
+              "html": "For a moment, Juan looks around and thinks about what to do next."
+            },
+            {
+              "html": "Later, the day continues, and Juan tries to stay calm and pay attention."
+            },
+            {
+              "html": "Juan loves watching TikTok videos on his mom’s old phone, even if the screen is cracked."
+            },
+            {
+              "html": "A small detail helps Juan understand the situation a little better."
+            }
+          ],
+          "wordCount": 85
+        }
+      ],
+      "practiceWords": [
+        "TikTok",
+        "phone",
+        "videos",
+        "reggaeton",
+        "sister",
+        "skits",
+        "neighborhood",
+        "favorite",
+        "Carlos",
+        "street"
+      ],
+      "vocabulary": [
+        {
+          "word": "TikTok",
+          "definition": "social media app (red social)"
+        },
+        {
+          "word": "phone",
+          "definition": "mobile device (teléfono)"
+        },
+        {
+          "word": "videos",
+          "definition": "recorded clips (videos)"
+        },
+        {
+          "word": "reggaeton",
+          "definition": "music genre (género musical)"
+        },
+        {
+          "word": "sister",
+          "definition": "female sibling (hermana)"
+        },
+        {
+          "word": "skits",
+          "definition": "short comedy acts (actos cómicos)"
+        },
+        {
+          "word": "neighborhood",
+          "definition": "local area (barrio)"
+        },
+        {
+          "word": "favorite",
+          "definition": "most liked (favorito)"
+        },
+        {
+          "word": "Carlos",
+          "definition": "male name (nombre de hombre)"
+        },
+        {
+          "word": "street",
+          "definition": "road (calle)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "What does Juan watch on TikTok?",
+          "options": [
+            "Cooking shows",
+            "Dancing dogs",
+            "News reports"
+          ],
+          "answer": "Dancing dogs"
+        },
+        {
+          "skill": "sequence",
+          "question": "Who makes skits about their neighborhood?",
+          "options": [
+            "Juan",
+            "Maria",
+            "Carlos"
+          ],
+          "answer": "Maria"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What does Juan’s mom tell him?",
+          "options": [
+            "Buy a phone",
+            "Don’t waste time",
+            "Make a video"
+          ],
+          "answer": "Don’t waste time"
+        },
+        {
+          "skill": "main idea",
+          "question": "What does Juan dream of?",
+          "options": [
+            "Becoming famous",
+            "Being a chef",
+            "Moving away"
+          ],
+          "answer": "Becoming famous"
+        },
+        {
+          "skill": "simple inference",
+          "question": "What music genre is mentioned?",
+          "options": [
+            "Salsa",
+            "Reggaeton",
+            "Vallenato"
+          ],
+          "answer": "Reggaeton"
+        }
+      ],
+      "cover": "../assets/images/week08_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "Making A Lunchbox For School",
+      "minimumWordTarget": 400,
+      "wordCount": 401,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week08_grade07_page01.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Making A Lunchbox For School”. Scene based on: Every morning, Luisa carefully packs her lunchbox with a scoop of white rice, soft beans, and a warm arepa that her mom makes before leaving for work. As the situation develops, So. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Every morning, Luisa carefully packs her <b>lunchbox</b> with a scoop of white <b>rice</b>, soft <b>beans</b>, and a warm <b>arepa</b> that her mom makes before leaving for work."
+            },
+            {
+              "html": "As the situation develops, Sofia realizes that a quick decision can create a real consequence."
+            },
+            {
+              "html": "Her <b>family</b> doesn’t have much money, so she uses a washed-out <b>container</b> from an old margarine tub."
+            },
+            {
+              "html": "The details around Sofia make the problem easier to understand."
+            },
+            {
+              "html": "Her little <b>brother</b>, always hungry, sometimes sneaks into her bag and takes her only <b>banana</b>, making her cry in frustration."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week08_grade07_page02.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Making A Lunchbox For School”. Scene based on: Instead of reacting immediately, Sofia takes a moment to think about the next step. At school, her best friend Sofia notices and gives Luisa half of her sandwich without hesitation. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Instead of reacting immediately, Sofia takes a moment to think about the next step."
+            },
+            {
+              "html": "At <b>school</b>, her best friend Sofia notices and gives Luisa half of her <b>sandwich</b> without hesitation."
+            },
+            {
+              "html": "The small challenge becomes an opportunity to learn something useful."
+            },
+            {
+              "html": "Grateful, Luisa promises to help her mom cook dinner that night as a way to pay forward the kindness."
+            },
+            {
+              "html": "Other people influence the moment even when they are not at the center of the story."
+            }
+          ],
+          "wordCount": 75
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week08_grade07_page03.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Making A Lunchbox For School”. Scene based on: Sofia's feelings begin to change as new information appears. Every morning, Luisa carefully packs her lunchbox with a scoop of white rice, soft beans, and a warm arepa that her mom. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Sofia's feelings begin to change as new information appears."
+            },
+            {
+              "html": "Every morning, Luisa carefully packs her lunchbox with a scoop of white rice, soft beans, and a warm arepa that her mom makes before leaving for work."
+            },
+            {
+              "html": "One action leads naturally to another, so the consequence becomes clear."
+            },
+            {
+              "html": "Her family doesn’t have much money, so she uses a washed-out container from an old margarine tub."
+            },
+            {
+              "html": "The experience encourages Sofia to be more patient and responsible."
+            }
+          ],
+          "wordCount": 74
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week08_grade07_page04.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Making A Lunchbox For School”. Scene based on: Her little brother, always hungry, sometimes sneaks into her bag and takes her only banana, making her cry in frustration. After reflecting on what happened, Sofia understands the . warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Her little brother, always hungry, sometimes sneaks into her bag and takes her only banana, making her cry in frustration."
+            },
+            {
+              "html": "After reflecting on what happened, Sofia understands the situation better."
+            },
+            {
+              "html": "At school, her best friend Sofia notices and gives Luisa half of her sandwich without hesitation."
+            },
+            {
+              "html": "By the end of the moment, Sofia has learned something that may help later."
+            },
+            {
+              "html": "Grateful, Luisa promises to help her mom cook dinner that night as a way to pay forward the kindness."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week08_grade07_page05.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Making A Lunchbox For School”. Scene based on: As the situation develops, Sofia realizes that a quick decision can create a real consequence. Later, the details around Sofia make the problem easier to understand. Every morning,. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "As the situation develops, Sofia realizes that a quick decision can create a real consequence."
+            },
+            {
+              "html": "Later, the details around Sofia make the problem easier to understand."
+            },
+            {
+              "html": "Every morning, Luisa carefully packs her lunchbox with a scoop of white rice, soft beans, and a warm arepa that her mom makes before leaving for work."
+            },
+            {
+              "html": "Instead of reacting immediately, Sofia takes a moment to think about the next step."
+            },
+            {
+              "html": "Her family doesn’t have much money, so she uses a washed-out container from an old margarine tub."
+            }
+          ],
+          "wordCount": 84
+        }
+      ],
+      "practiceWords": [
+        "lunchbox",
+        "rice",
+        "beans",
+        "arepa",
+        "family",
+        "container",
+        "brother",
+        "banana",
+        "school",
+        "sandwich"
+      ],
+      "vocabulary": [
+        {
+          "word": "lunchbox",
+          "definition": "meal container (lonchera)"
+        },
+        {
+          "word": "rice",
+          "definition": "grain food (arroz)"
+        },
+        {
+          "word": "beans",
+          "definition": "protein food (frijoles)"
+        },
+        {
+          "word": "arepa",
+          "definition": "corn cake (arepa)"
+        },
+        {
+          "word": "family",
+          "definition": "parents and children (familia)"
+        },
+        {
+          "word": "container",
+          "definition": "storage box (recipiente)"
+        },
+        {
+          "word": "brother",
+          "definition": "male sibling (hermano)"
+        },
+        {
+          "word": "banana",
+          "definition": "yellow fruit (banano)"
+        },
+        {
+          "word": "school",
+          "definition": "place of learning (escuela)"
+        },
+        {
+          "word": "sandwich",
+          "definition": "bread meal (sándwich)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What does Luisa pack in her lunchbox?",
+          "options": [
+            "Pizza",
+            "Rice and beans",
+            "Hamburgers"
+          ],
+          "answer": "Rice and beans"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "Why does Luisa reuse a container?",
+          "options": [
+            "She’s poor",
+            "She likes it",
+            "Her teacher says to"
+          ],
+          "answer": "She’s poor"
+        },
+        {
+          "skill": "main idea",
+          "question": "Who steals Luisa’s banana?",
+          "options": [
+            "Her brother",
+            "Her friend",
+            "Her teacher"
+          ],
+          "answer": "Her brother"
+        },
+        {
+          "skill": "simple inference",
+          "question": "What does Sofia share?",
+          "options": [
+            "A sandwich",
+            "A book",
+            "Money"
+          ],
+          "answer": "A sandwich"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "How does Luisa repay Sofia?",
+          "options": [
+            "With money",
+            "By helping her mom",
+            "By ignoring her"
+          ],
+          "answer": "By helping her mom"
+        }
+      ],
+      "cover": "../assets/images/week08_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "No Paying Attention In Class",
+      "minimumWordTarget": 450,
+      "wordCount": 453,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week08_grade08_page01.webp",
+          "artDirection": "13–14-year-old Colombian student context for “No Paying Attention In Class”. Scene based on: Diego can’t concentrate in math class because his eyes keep drifting toward the window, where he imagines playing soccer in the dusty street after school. The situation becomes mor. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Diego can’t concentrate in <b>math</b> class because his eyes keep drifting toward the <b>window</b>, where he imagines playing <b>soccer</b> in the dusty <b>street</b> after school."
+            },
+            {
+              "html": "The situation becomes more complicated because Valentina must balance what is wanted with what the moment requires."
+            },
+            {
+              "html": "His <b>teacher</b> notices and calls out, “<b>Focus</b>, Diego!” But at that moment, his <b>phone</b> buzzes with a <b>message</b> from Valentina, the <b>crush</b> he’s too nervous to talk to in person."
+            }
+          ],
+          "wordCount": 72
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week08_grade08_page02.webp",
+          "artDirection": "13–14-year-old Colombian student context for “No Paying Attention In Class”. Scene based on: A detail that seemed small at first now helps explain the problem. Caught in his daydreams, Diego doesn’t hear the instructions and completely fails the quiz. Different reactions s. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "A detail that seemed small at first now helps explain the problem."
+            },
+            {
+              "html": "Caught in his daydreams, Diego doesn’t hear the instructions and completely fails the <b>quiz</b>."
+            },
+            {
+              "html": "Different reactions show that people can understand the same event in different ways."
+            },
+            {
+              "html": "As punishment, he gets detention and has to stay late, which means missing the game he was so excited about."
+            },
+            {
+              "html": "The problem affects more than one person and changes how the group responds."
+            }
+          ],
+          "wordCount": 72
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week08_grade08_page03.webp",
+          "artDirection": "13–14-year-old Colombian student context for “No Paying Attention In Class”. Scene based on: Valentina begins to see that acting quickly is not always the same as acting wisely. Diego can’t concentrate in math class because his eyes keep drifting toward the window, where h. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Valentina begins to see that acting quickly is not always the same as acting wisely."
+            },
+            {
+              "html": "Diego can’t concentrate in math class because his eyes keep drifting toward the window, where he imagines playing soccer in the dusty street after school."
+            },
+            {
+              "html": "The setting creates realistic limits that influence what can happen next."
+            },
+            {
+              "html": "His teacher notices and calls out, “Focus, Diego!” But at that moment, his phone buzzes with a message from Valentina, the crush he’s too nervous to talk to in person."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week08_grade08_page04.webp",
+          "artDirection": "13–14-year-old Colombian student context for “No Paying Attention In Class”. Scene based on: Expressions and actions reveal feelings that are not always stated directly. Caught in his daydreams, Diego doesn’t hear the instructions and completely fails the quiz. The consequ. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Expressions and actions reveal feelings that are not always stated directly."
+            },
+            {
+              "html": "Caught in his daydreams, Diego doesn’t hear the instructions and completely fails the quiz."
+            },
+            {
+              "html": "The consequence grows naturally from a decision made only a short time earlier."
+            },
+            {
+              "html": "As punishment, he gets detention and has to stay late, which means missing the game he was so excited about."
+            },
+            {
+              "html": "A practical response appears when the characters stop and consider another option."
+            }
+          ],
+          "wordCount": 70
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week08_grade08_page05.webp",
+          "artDirection": "13–14-year-old Colombian student context for “No Paying Attention In Class”. Scene based on: The experience becomes useful when Valentina connects the immediate problem with a larger responsibility. Diego can’t concentrate in math class because his eyes keep drifting towar. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The experience becomes useful when Valentina connects the immediate problem with a larger responsibility."
+            },
+            {
+              "html": "Diego can’t concentrate in math class because his eyes keep drifting toward the window, where he imagines playing soccer in the dusty street after school."
+            },
+            {
+              "html": "The situation becomes more complicated because Valentina must balance what is wanted with what the moment requires."
+            },
+            {
+              "html": "His teacher notices and calls out, “Focus, Diego!” But at that moment, his phone buzzes with a message from Valentina, the crush he’s too nervous to talk to in person."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week08_grade08_page06.webp",
+          "artDirection": "13–14-year-old Colombian student context for “No Paying Attention In Class”. Scene based on: A detail that seemed small at first now helps explain the problem. Caught in his daydreams, Diego doesn’t hear the instructions and completely fails the quiz. Different reactions s. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "A detail that seemed small at first now helps explain the problem."
+            },
+            {
+              "html": "Caught in his daydreams, Diego doesn’t hear the instructions and completely fails the quiz."
+            },
+            {
+              "html": "Different reactions show that people can understand the same event in different ways."
+            },
+            {
+              "html": "As punishment, he gets detention and has to stay late, which means missing the game he was so excited about."
+            },
+            {
+              "html": "The problem affects more than one person and changes how the group responds."
+            }
+          ],
+          "wordCount": 72
+        }
+      ],
+      "practiceWords": [
+        "window",
+        "math",
+        "soccer",
+        "street",
+        "teacher",
+        "focus",
+        "phone",
+        "message",
+        "crush",
+        "quiz"
+      ],
+      "vocabulary": [
+        {
+          "word": "window",
+          "definition": "glass pane (ventana)"
+        },
+        {
+          "word": "math",
+          "definition": "numbers subject (matemáticas)"
+        },
+        {
+          "word": "soccer",
+          "definition": "ball sport (fútbol)"
+        },
+        {
+          "word": "street",
+          "definition": "road (calle)"
+        },
+        {
+          "word": "teacher",
+          "definition": "educator (profesor)"
+        },
+        {
+          "word": "focus",
+          "definition": "concentrate (concentrarse)"
+        },
+        {
+          "word": "phone",
+          "definition": "mobile device (teléfono)"
+        },
+        {
+          "word": "message",
+          "definition": "text (mensaje)"
+        },
+        {
+          "word": "crush",
+          "definition": "romantic interest (enamorado)"
+        },
+        {
+          "word": "quiz",
+          "definition": "short test (prueba)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What does Diego think about in class?",
+          "options": [
+            "Math",
+            "Soccer",
+            "Food"
+          ],
+          "answer": "Soccer"
+        },
+        {
+          "skill": "inference",
+          "question": "Who scolds Diego?",
+          "options": [
+            "His mom",
+            "His teacher",
+            "His crush"
+          ],
+          "answer": "His teacher"
+        },
+        {
+          "skill": "purpose",
+          "question": "What buzzes in Diego’s pocket?",
+          "options": [
+            "A bee",
+            "His phone",
+            "A toy"
+          ],
+          "answer": "His phone"
+        },
+        {
+          "skill": "main idea",
+          "question": "What does Diego fail?",
+          "options": [
+            "A quiz",
+            "A game",
+            "A test"
+          ],
+          "answer": "A quiz"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What punishment does Diego get?",
+          "options": [
+            "Detention",
+            "No soccer",
+            "Extra homework"
+          ],
+          "answer": "Detention"
+        }
+      ],
+      "cover": "../assets/images/week08_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "Ana Lost Her School Allowance: 5 Thousand Pesos",
+      "minimumWordTarget": 500,
+      "wordCount": 515,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week08_grade09_page01.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Ana Lost Her School Allowance: 5 Thousand Pesos”. Scene based on: Ana rummages through her messy backpack, panic rising in her chest—the small allowance her mom gave her is missing. The situation requires more than a quick reaction, so Camila con. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Ana rummages through her messy <b>backpack</b>, panic rising in her chest—the small <b>allowance</b> her <b>mom</b> gave her is missing."
+            },
+            {
+              "html": "The situation requires more than a quick reaction, so Camila considers responsibilities and possible consequences."
+            },
+            {
+              "html": "She had planned to buy <b>notebooks</b> and a quick <b>snack</b> before heading home."
+            },
+            {
+              "html": "What begins as an ordinary problem gradually reveals a larger issue about judgment and communication."
+            },
+            {
+              "html": "Her loyal <b>friend</b> Camila suggests they go back to the <b>bus</b> they took earlier to retrace her steps."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week08_grade09_page02.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Ana Lost Her School Allowance: 5 Thousand Pesos”. Scene based on: Camila learns that being independent can also mean knowing when to ask for accurate information. The driver just shrugs and says, “No one turns in money here, niña.” Feeling defeat. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Camila learns that being independent can also mean knowing when to ask for accurate information."
+            },
+            {
+              "html": "The <b>driver</b> just shrugs and says, “No one turns in <b>money</b> here, niña.” Feeling defeated, Ana walks home and cries."
+            },
+            {
+              "html": "Several details in the setting influence the decision and make the situation more realistic."
+            },
+            {
+              "html": "Her mom isn’t angry but tells her, “Next time, <b>hide</b> it better.” Until next week, Ana will have to borrow supplies from classmates to get by."
+            },
+            {
+              "html": "The experience challenges Camila's first assumption and encourages a more careful response."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week08_grade09_page03.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Ana Lost Her School Allowance: 5 Thousand Pesos”. Scene based on: Earlier choices become connected with later results, making the cause and effect easier to see. Ana rummages through her messy backpack, panic rising in her chest—the small allowan. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Earlier choices become connected with later results, making the cause and effect easier to see."
+            },
+            {
+              "html": "Ana rummages through her messy backpack, panic rising in her chest—the small allowance her mom gave her is missing."
+            },
+            {
+              "html": "A practical solution appears only after Camila considers more than one option."
+            },
+            {
+              "html": "She had planned to buy notebooks and a quick snack before heading home."
+            },
+            {
+              "html": "Respectful communication helps reduce tension even before the whole problem is solved."
+            },
+            {
+              "html": "Her loyal friend Camila suggests they go back to the bus they took earlier to retrace her steps."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week08_grade09_page04.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Ana Lost Her School Allowance: 5 Thousand Pesos”. Scene based on: Camila's response becomes more mature as emotion gives way to planning. The driver just shrugs and says, “No one turns in money here, niña.” Feeling defeated, Ana walks home and cr. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Camila's response becomes more mature as emotion gives way to planning."
+            },
+            {
+              "html": "The driver just shrugs and says, “No one turns in money here, niña.” Feeling defeated, Ana walks home and cries."
+            },
+            {
+              "html": "By the end of this part, the experience has changed the way Camila approaches the problem."
+            },
+            {
+              "html": "Her mom isn’t angry but tells her, “Next time, hide it better.” Until next week, Ana will have to borrow supplies from classmates to get by."
+            },
+            {
+              "html": "The situation requires more than a quick reaction, so Camila considers responsibilities and possible consequences."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week08_grade09_page05.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Ana Lost Her School Allowance: 5 Thousand Pesos”. Scene based on: Later, what begins as an ordinary problem gradually reveals a larger issue about judgment and communication. Ana rummages through her messy backpack, panic rising in her chest—the . mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Later, what begins as an ordinary problem gradually reveals a larger issue about judgment and communication."
+            },
+            {
+              "html": "Ana rummages through her messy backpack, panic rising in her chest—the small allowance her mom gave her is missing."
+            },
+            {
+              "html": "Camila learns that being independent can also mean knowing when to ask for accurate information."
+            },
+            {
+              "html": "She had planned to buy notebooks and a quick snack before heading home."
+            },
+            {
+              "html": "Several details in the setting influence the decision and make the situation more realistic."
+            }
+          ],
+          "wordCount": 78
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week08_grade09_page06.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Ana Lost Her School Allowance: 5 Thousand Pesos”. Scene based on: Her loyal friend Camila suggests they go back to the bus they took earlier to retrace her steps. The experience challenges Camila's first assumption and encourages a more careful r. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Her loyal friend Camila suggests they go back to the bus they took earlier to retrace her steps."
+            },
+            {
+              "html": "The experience challenges Camila's first assumption and encourages a more careful response."
+            },
+            {
+              "html": "The driver just shrugs and says, “No one turns in money here, niña.” Feeling defeated, Ana walks home and cries."
+            },
+            {
+              "html": "Earlier choices become connected with later results, making the cause and effect easier to see."
+            },
+            {
+              "html": "Her mom isn’t angry but tells her, “Next time, hide it better.” Until next week, Ana will have to borrow supplies from classmates to get by."
+            }
+          ],
+          "wordCount": 91
+        }
+      ],
+      "practiceWords": [
+        "backpack",
+        "allowance",
+        "notebooks",
+        "snack",
+        "friend",
+        "bus",
+        "driver",
+        "money",
+        "mom",
+        "hide"
+      ],
+      "vocabulary": [
+        {
+          "word": "backpack",
+          "definition": "school bag (mochila)"
+        },
+        {
+          "word": "allowance",
+          "definition": "pocket money (mesada)"
+        },
+        {
+          "word": "notebooks",
+          "definition": "writing pads (cuadernos)"
+        },
+        {
+          "word": "snack",
+          "definition": "small meal (refrigerio)"
+        },
+        {
+          "word": "friend",
+          "definition": "close companion (amigo)"
+        },
+        {
+          "word": "bus",
+          "definition": "public transport (autobús)"
+        },
+        {
+          "word": "driver",
+          "definition": "vehicle operator (conductor)"
+        },
+        {
+          "word": "money",
+          "definition": "currency (dinero)"
+        },
+        {
+          "word": "mom",
+          "definition": "mother (mamá)"
+        },
+        {
+          "word": "hide",
+          "definition": "conceal (esconder)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What does Ana lose?",
+          "options": [
+            "Her phone",
+            "Her allowance",
+            "Her backpack"
+          ],
+          "answer": "Her allowance"
+        },
+        {
+          "skill": "inference",
+          "question": "What did Ana plan to buy?",
+          "options": [
+            "A dress",
+            "Notebooks",
+            "A phone"
+          ],
+          "answer": "Notebooks"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "Where does Camila suggest looking?",
+          "options": [
+            "The bus",
+            "The school",
+            "The park"
+          ],
+          "answer": "The bus"
+        },
+        {
+          "skill": "main idea",
+          "question": "What does the driver say?",
+          "options": [
+            "He found it",
+            "No one turns in money",
+            "Check lost and found"
+          ],
+          "answer": "No one turns in money"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What will Ana do next week?",
+          "options": [
+            "Quit school",
+            "Buy supplies",
+            "Hide money better"
+          ],
+          "answer": "Hide money better"
+        }
+      ],
+      "cover": "../assets/images/week08_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "Ethics: Using Ai To Cheat On My Homework",
+      "minimumWordTarget": 600,
+      "wordCount": 604,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week08_grade10_page01.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Ethics: Using Ai To Cheat On My Homework”. Scene based on: Miguel was desperate the night before his ethics class, so he copied an essay from an online AI tool instead of writing his own. The conflict becomes more significant when Miguel r. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Miguel was desperate the night before his <b>ethics</b> class, so he copied an <b>essay</b> from an online <b>AI</b> tool instead of writing his own."
+            },
+            {
+              "html": "The conflict becomes more significant when Miguel realizes that the easiest option may not be the most responsible one."
+            },
+            {
+              "html": "The next day, his <b>teacher</b> praises his ideas, but his best <b>friend</b> Lucia doesn’t look happy."
+            },
+            {
+              "html": "The situation requires comparing alternatives, anticipating consequences, and communicating clearly."
+            },
+            {
+              "html": "“That’s <b>cheating</b>,” she says."
+            },
+            {
+              "html": "Personal decisions affect other people, so Miguel has to think beyond the immediate goal."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week08_grade10_page02.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Ethics: Using Ai To Cheat On My Homework”. Scene based on: “You didn’t really learn anything.” Miguel tries to defend himself, saying that everyone uses technology now, but later that night he feels guilty. A detail introduced earlier beco. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "“You didn’t really <b>learn</b> anything.” Miguel tries to defend himself, saying that everyone uses <b>technology</b> now, but later that night he feels <b>guilty</b>."
+            },
+            {
+              "html": "A detail introduced earlier becomes relevant again and changes how the problem is understood."
+            },
+            {
+              "html": "He stays up late and rewrites the <b>assignment</b> in his own words."
+            },
+            {
+              "html": "Progress comes through effort, negotiation, and a willingness to adjust the original plan."
+            },
+            {
+              "html": "His grade drops a little, but his conscience feels clean for the first time in days."
+            },
+            {
+              "html": "Information becomes useful only after Miguel checks it carefully instead of accepting it immediately."
+            }
+          ],
+          "wordCount": 92
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week08_grade10_page03.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Ethics: Using Ai To Cheat On My Homework”. Scene based on: As pressure increases, Miguel separates emotional reactions from the practical facts of the situation. Miguel was desperate the night before his ethics class, so he copied an essay. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "As pressure increases, Miguel separates emotional reactions from the practical facts of the situation."
+            },
+            {
+              "html": "Miguel was desperate the night before his ethics class, so he copied an essay from an online AI tool instead of writing his own."
+            },
+            {
+              "html": "The way Miguel asks questions and considers other perspectives shows growing maturity."
+            },
+            {
+              "html": "The next day, his teacher praises his ideas, but his best friend Lucia doesn’t look happy."
+            },
+            {
+              "html": "Responsibility becomes visible through preparation, listening, correction, and follow-through."
+            },
+            {
+              "html": "“That’s cheating,” she says."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week08_grade10_page04.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Ethics: Using Ai To Cheat On My Homework”. Scene based on: The final choice matters because it considers both immediate needs and longer-term consequences. “You didn’t really learn anything.” Miguel tries to defend himself, saying that eve. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The final choice matters because it considers both immediate needs and longer-term consequences."
+            },
+            {
+              "html": "“You didn’t really learn anything.” Miguel tries to defend himself, saying that everyone uses technology now, but later that night he feels guilty."
+            },
+            {
+              "html": "The conflict becomes more significant when Miguel realizes that the easiest option may not be the most responsible one."
+            },
+            {
+              "html": "He stays up late and rewrites the assignment in his own words."
+            },
+            {
+              "html": "The situation requires comparing alternatives, anticipating consequences, and communicating clearly."
+            },
+            {
+              "html": "His grade drops a little, but his conscience feels clean for the first time in days."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week08_grade10_page05.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Ethics: Using Ai To Cheat On My Homework”. Scene based on: Personal decisions affect other people, so Miguel has to think beyond the immediate goal. Later, a detail introduced earlier becomes relevant again and changes how the problem is u. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Personal decisions affect other people, so Miguel has to think beyond the immediate goal."
+            },
+            {
+              "html": "Later, a detail introduced earlier becomes relevant again and changes how the problem is understood."
+            },
+            {
+              "html": "Miguel was desperate the night before his ethics class, so he copied an essay from an online AI tool instead of writing his own."
+            },
+            {
+              "html": "Progress comes through effort, negotiation, and a willingness to adjust the original plan."
+            },
+            {
+              "html": "The next day, his teacher praises his ideas, but his best friend Lucia doesn’t look happy."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week08_grade10_page06.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Ethics: Using Ai To Cheat On My Homework”. Scene based on: Information becomes useful only after Miguel checks it carefully instead of accepting it immediately. “That’s cheating,” she says. As pressure increases, Miguel separates emotional. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Information becomes useful only after Miguel checks it carefully instead of accepting it immediately."
+            },
+            {
+              "html": "“That’s cheating,” she says."
+            },
+            {
+              "html": "As pressure increases, Miguel separates emotional reactions from the practical facts of the situation."
+            },
+            {
+              "html": "“You didn’t really learn anything.” Miguel tries to defend himself, saying that everyone uses technology now, but later that night he feels guilty."
+            },
+            {
+              "html": "The way Miguel asks questions and considers other perspectives shows growing maturity."
+            },
+            {
+              "html": "He stays up late and rewrites the assignment in his own words."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week08_grade10_page07.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Ethics: Using Ai To Cheat On My Homework”. Scene based on: Responsibility becomes visible through preparation, listening, correction, and follow-through. His grade drops a little, but his conscience feels clean for the first time in days. . mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Responsibility becomes visible through preparation, listening, correction, and follow-through."
+            },
+            {
+              "html": "His grade drops a little, but his conscience feels clean for the first time in days."
+            },
+            {
+              "html": "The final choice matters because it considers both immediate needs and longer-term consequences."
+            },
+            {
+              "html": "Later, the conflict becomes more significant when Miguel realizes that the easiest option may not be the most responsible one."
+            },
+            {
+              "html": "Miguel was desperate the night before his ethics class, so he copied an essay from an online AI tool instead of writing his own."
+            },
+            {
+              "html": "The situation requires comparing alternatives, anticipating consequences, and communicating clearly."
+            }
+          ],
+          "wordCount": 92
+        }
+      ],
+      "practiceWords": [
+        "essay",
+        "AI",
+        "ethics",
+        "teacher",
+        "friend",
+        "cheating",
+        "learn",
+        "technology",
+        "guilty",
+        "assignment"
+      ],
+      "vocabulary": [
+        {
+          "word": "essay",
+          "definition": "written composition (ensayo)"
+        },
+        {
+          "word": "AI",
+          "definition": "artificial intelligence (inteligencia artificial)"
+        },
+        {
+          "word": "ethics",
+          "definition": "moral principles (ética)"
+        },
+        {
+          "word": "teacher",
+          "definition": "educator (profesor)"
+        },
+        {
+          "word": "friend",
+          "definition": "close companion (amigo)"
+        },
+        {
+          "word": "cheating",
+          "definition": "acting dishonestly (hacer trampa)"
+        },
+        {
+          "word": "learn",
+          "definition": "gain knowledge (aprender)"
+        },
+        {
+          "word": "technology",
+          "definition": "scientific tools (tecnología)"
+        },
+        {
+          "word": "guilty",
+          "definition": "feeling blame (culpable)"
+        },
+        {
+          "word": "assignment",
+          "definition": "school task (tarea)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What does Miguel use to cheat?",
+          "options": [
+            "A book",
+            "AI",
+            "A friend"
+          ],
+          "answer": "AI"
+        },
+        {
+          "skill": "inference",
+          "question": "Who criticizes Miguel?",
+          "options": [
+            "His teacher",
+            "Lucia",
+            "His mom"
+          ],
+          "answer": "Lucia"
+        },
+        {
+          "skill": "purpose",
+          "question": "How does Miguel feel later?",
+          "options": [
+            "Guilty",
+            "Proud",
+            "Angry"
+          ],
+          "answer": "Guilty"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What does Miguel rewrite?",
+          "options": [
+            "A poem",
+            "The assignment",
+            "A note"
+          ],
+          "answer": "The assignment"
+        },
+        {
+          "skill": "main idea",
+          "question": "What is clear at the end?",
+          "options": [
+            "His desk",
+            "His conscience",
+            "His phone"
+          ],
+          "answer": "His conscience"
+        }
+      ],
+      "cover": "../assets/images/week08_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "Dealing With School Demands",
+      "minimumWordTarget": 700,
+      "wordCount": 709,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week08_grade11_page01.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Dealing With School Demands”. Scene based on: David struggles to balance his college applications, part-time job at the bakery, and his upcoming exams. The episode becomes more complex because David must interpret not only wha. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "David struggles to balance his <b>college</b> applications, <b>part-time</b> job at the bakery, and his upcoming <b>exams</b>."
+            },
+            {
+              "html": "The episode becomes more complex because David must interpret not only what happened but why people respond differently."
+            },
+            {
+              "html": "Last night, he stayed up late <b>studying</b>, so he was late to work and got yelled at by his <b>boss</b>."
+            },
+            {
+              "html": "A personal decision can have broader implications when trust, safety, reputation, or future plans are involved."
+            },
+            {
+              "html": "At home, his <b>parents</b> are too busy worrying about <b>bills</b> to offer much help."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week08_grade11_page02.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Dealing With School Demands”. Scene based on: David's first interpretation is understandable, but later details encourage a more nuanced view. Things hit a breaking point when his old computer crashes just hours before an impo. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "David's first interpretation is understandable, but later details encourage a more nuanced view."
+            },
+            {
+              "html": "Things hit a breaking point when his old <b>computer</b> crashes just hours before an important <b>deadline</b>."
+            },
+            {
+              "html": "Mature decision-making sometimes requires changing an initial assumption when better evidence appears."
+            },
+            {
+              "html": "Overwhelmed by <b>stress</b>, David finally goes to see the school counselor, who teaches him time management strategies."
+            },
+            {
+              "html": "The social environment influences David, although personal agency still matters in the final choice."
+            },
+            {
+              "html": "He learns to plan breaks and prioritizes what matters."
+            },
+            {
+              "html": "Earlier experiences influence later behavior and make the character's development more coherent."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week08_grade11_page03.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Dealing With School Demands”. Scene based on: Life is still hard, but at least now he feels more organized. The story shows that consequences can include both difficulties and opportunities for growth. Communication becomes a . mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Life is still hard, but at least now he feels more organized."
+            },
+            {
+              "html": "The story shows that consequences can include both difficulties and opportunities for growth."
+            },
+            {
+              "html": "Communication becomes a form of responsibility when David explains intentions or verifies information."
+            },
+            {
+              "html": "David struggles to balance his college applications, part-time job at the bakery, and his upcoming exams."
+            },
+            {
+              "html": "The setting shapes the pressures, resources, and alternatives that are realistically available."
+            },
+            {
+              "html": "Last night, he stayed up late studying, so he was late to work and got yelled at by his boss."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week08_grade11_page04.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Dealing With School Demands”. Scene based on: By the end, David responds in a more deliberate and informed way, even if every problem is not completely solved. At home, his parents are too busy worrying about bills to offer mu. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "By the end, David responds in a more deliberate and informed way, even if every problem is not completely solved."
+            },
+            {
+              "html": "At home, his parents are too busy worrying about bills to offer much help."
+            },
+            {
+              "html": "The episode becomes more complex because David must interpret not only what happened but why people respond differently."
+            },
+            {
+              "html": "Things hit a breaking point when his old computer crashes just hours before an important deadline."
+            },
+            {
+              "html": "A personal decision can have broader implications when trust, safety, reputation, or future plans are involved."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week08_grade11_page05.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Dealing With School Demands”. Scene based on: Overwhelmed by stress, David finally goes to see the school counselor, who teaches him time management strategies. David's first interpretation is understandable, but later details. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Overwhelmed by stress, David finally goes to see the school counselor, who teaches him time management strategies."
+            },
+            {
+              "html": "David's first interpretation is understandable, but later details encourage a more nuanced view."
+            },
+            {
+              "html": "He learns to plan breaks and prioritizes what matters."
+            },
+            {
+              "html": "Mature decision-making sometimes requires changing an initial assumption when better evidence appears."
+            },
+            {
+              "html": "Life is still hard, but at least now he feels more organized."
+            },
+            {
+              "html": "The social environment influences David, although personal agency still matters in the final choice."
+            },
+            {
+              "html": "Later, earlier experiences influence later behavior and make the character's development more coherent."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week08_grade11_page06.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Dealing With School Demands”. Scene based on: David struggles to balance his college applications, part-time job at the bakery, and his upcoming exams. The story shows that consequences can include both difficulties and opport. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "David struggles to balance his college applications, part-time job at the bakery, and his upcoming exams."
+            },
+            {
+              "html": "The story shows that consequences can include both difficulties and opportunities for growth."
+            },
+            {
+              "html": "Last night, he stayed up late studying, so he was late to work and got yelled at by his boss."
+            },
+            {
+              "html": "Communication becomes a form of responsibility when David explains intentions or verifies information."
+            },
+            {
+              "html": "At home, his parents are too busy worrying about bills to offer much help."
+            },
+            {
+              "html": "The setting shapes the pressures, resources, and alternatives that are realistically available."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week08_grade11_page07.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Dealing With School Demands”. Scene based on: Things hit a breaking point when his old computer crashes just hours before an important deadline. By the end, David responds in a more deliberate and informed way, even if every p. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Things hit a breaking point when his old computer crashes just hours before an important deadline."
+            },
+            {
+              "html": "By the end, David responds in a more deliberate and informed way, even if every problem is not completely solved."
+            },
+            {
+              "html": "Overwhelmed by stress, David finally goes to see the school counselor, who teaches him time management strategies."
+            },
+            {
+              "html": "The episode becomes more complex because David must interpret not only what happened but why people respond differently."
+            },
+            {
+              "html": "He learns to plan breaks and prioritizes what matters."
+            },
+            {
+              "html": "A personal decision can have broader implications when trust, safety, reputation, or future plans are involved."
+            }
+          ],
+          "wordCount": 96
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week08_grade11_page08.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Dealing With School Demands”. Scene based on: Life is still hard, but at least now he feels more organized. David's first interpretation is understandable, but later details encourage a more nuanced view. Later, mature decisio. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Life is still hard, but at least now he feels more organized."
+            },
+            {
+              "html": "David's first interpretation is understandable, but later details encourage a more nuanced view."
+            },
+            {
+              "html": "Later, mature decision-making sometimes requires changing an initial assumption when better evidence appears."
+            },
+            {
+              "html": "David struggles to balance his college applications, part-time job at the bakery, and his upcoming exams."
+            },
+            {
+              "html": "The social environment influences David, although personal agency still matters in the final choice."
+            },
+            {
+              "html": "Last night, he stayed up late studying, so he was late to work and got yelled at by his boss."
+            }
+          ],
+          "wordCount": 88
+        }
+      ],
+      "practiceWords": [
+        "college",
+        "part-time",
+        "exams",
+        "boss",
+        "studying",
+        "parents",
+        "bills",
+        "stress",
+        "computer",
+        "deadline"
+      ],
+      "vocabulary": [
+        {
+          "word": "college",
+          "definition": "higher education (universidad)"
+        },
+        {
+          "word": "part-time",
+          "definition": "partial work (medio tiempo)"
+        },
+        {
+          "word": "exams",
+          "definition": "academic tests (exámenes)"
+        },
+        {
+          "word": "boss",
+          "definition": "supervisor (jefe)"
+        },
+        {
+          "word": "studying",
+          "definition": "learning (estudiar)"
+        },
+        {
+          "word": "parents",
+          "definition": "mother and father (padres)"
+        },
+        {
+          "word": "bills",
+          "definition": "payment notices (cuentas)"
+        },
+        {
+          "word": "stress",
+          "definition": "mental pressure (estrés)"
+        },
+        {
+          "word": "computer",
+          "definition": "electronic device (computadora)"
+        },
+        {
+          "word": "deadline",
+          "definition": "due date (fecha límite)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "What does David juggle?",
+          "options": [
+            "Sports",
+            "College applications",
+            "Video games"
+          ],
+          "answer": "College applications"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "Why is David late to work?",
+          "options": [
+            "He overslept",
+            "He was studying",
+            "He missed the bus"
+          ],
+          "answer": "He was studying"
+        },
+        {
+          "skill": "purpose",
+          "question": "What crashes before a deadline?",
+          "options": [
+            "His car",
+            "His computer",
+            "His phone"
+          ],
+          "answer": "His computer"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Who helps David?",
+          "options": [
+            "His boss",
+            "His counselor",
+            "His friend"
+          ],
+          "answer": "His counselor"
+        },
+        {
+          "skill": "main idea",
+          "question": "What does David learn?",
+          "options": [
+            "Time management",
+            "Cooking",
+            "Driving"
+          ],
+          "answer": "Time management"
+        }
+      ],
+      "cover": "../assets/images/week08_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

@@ -1,0 +1,1614 @@
+{
+  "week": 16,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 16",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "The Missing Charger",
+      "minimumWordTarget": 350,
+      "wordCount": 396,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week16_grade06_page01.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, Medellín family setting. One single 4:5 vertical scene for “The Missing Charger”, page 1. Scene based on: On Friday afternoon, Mateo gets home from school and puts his backpack beside the sofa. He wants to finish a game on his tablet before dinner. His younger sister, Sara, is in their room doing homework at the small desk. Her notebook is open, and her pencil case is next to the lamp. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Friday afternoon, Mateo gets home from school and puts his backpack beside the sofa. He wants to finish a game on his <b>tablet</b> before dinner."
+            },
+            {
+              "html": "His younger sister, Sara, is in their <b>room</b> doing homework at the small desk. Her notebook is open, and her pencil case is next to the lamp."
+            },
+            {
+              "html": "Mateo looks for his <b>charger</b>, but it is not on the <b>shelf</b>, under the bed, or behind the chair."
+            },
+            {
+              "html": "He asks, “Sara, is this your charger?” She looks at the cable and says, “No, mine is white. That black one is Dad’s.”"
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week16_grade06_page02.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, Medellín family setting. One single 4:5 vertical scene for “The Missing Charger”, page 2. Scene based on: In the living room, his mother is making arepas while her phone is charging near the television. Mateo asks if she has seen his cable. She says, “I don’t use your charger. Check the kitchen table. You sometimes leave your things there when you watch videos.” Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "In the living room, his mother is making arepas while her phone is charging near the television. Mateo asks if she has seen his cable."
+            },
+            {
+              "html": "She says, “I don’t use your charger. Check the kitchen table. You sometimes leave your things there when you watch videos.”"
+            },
+            {
+              "html": "Then he sees his cousin Nico using a similar charger near the window. Mateo quickly says, “That is mine!”"
+            },
+            {
+              "html": "Nico looks surprised and answers, “I brought this one from my house. Look at the blue sticker.”"
+            },
+            {
+              "html": "Mateo notices the sticker and feels embarrassed. The charger is not his, so he apologizes instead of arguing."
+            },
+            {
+              "html": "The final decision shows <b>respect</b> for other people and their belongings."
+            }
+          ],
+          "wordCount": 111
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week16_grade06_page03.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, Medellín family setting. One single 4:5 vertical scene for “The Missing Charger”, page 3. Scene based on: Now Mateo needs another plan. He cannot play for long, but he can finish his science homework on the family computer. He sits at the desk and opens a document. Sara says, “You can use my headphones if you need them.” Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Now Mateo needs another plan. He cannot play for long, but he can finish his science homework on the family <b>computer</b>."
+            },
+            {
+              "html": "He sits at the desk and opens a document. Sara says, “You can use my <b>headphones</b> if you need them.”"
+            },
+            {
+              "html": "Mateo thanks her. While he works, he remembers that he used his tablet in the kitchen before school that morning."
+            },
+            {
+              "html": "He goes back to the kitchen and looks behind the fruit bowl. There, next to the wall, is his black charger."
+            },
+            {
+              "html": "They agree to <b>share</b> information only when it is useful and respectful."
+            }
+          ],
+          "wordCount": 94
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week16_grade06_page04.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, Medellín family setting. One single 4:5 vertical scene for “The Missing Charger”, page 4. Scene based on: That evening, Mateo makes a simple family rule. Chargers, headphones, and tablets now have a place in the living room cabinet. He puts a small basket on one shelf for shared cables and keeps personal devices in another space. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "That evening, Mateo makes a simple family rule. Chargers, headphones, and tablets now have a place in the living room <b>cabinet</b>."
+            },
+            {
+              "html": "He puts a small basket on one shelf for shared cables and keeps personal devices in another space."
+            },
+            {
+              "html": "The next morning, he finds his charger immediately. He smiles and tells Sara, “This system really works.”"
+            },
+            {
+              "html": "She replies, “Yes, and now you don’t have to accuse me every time your battery is low.” They both laugh."
+            },
+            {
+              "html": "Mateo writes his name on a small label because <b>possessions</b> are easier to find when everyone knows whose they are."
+            }
+          ],
+          "wordCount": 96
+        }
+      ],
+      "practiceWords": [
+        "tablet",
+        "room",
+        "charger",
+        "shelf",
+        "headphones",
+        "computer",
+        "share",
+        "possessions",
+        "cabinet",
+        "respect"
+      ],
+      "vocabulary": [
+        {
+          "word": "tablet",
+          "definition": "a portable touchscreen computer (tableta)"
+        },
+        {
+          "word": "room",
+          "definition": "a part of a home with a specific use (habitación)"
+        },
+        {
+          "word": "charger",
+          "definition": "a device used to give power to a battery (cargador)"
+        },
+        {
+          "word": "shelf",
+          "definition": "a flat surface used to hold objects (repisa)"
+        },
+        {
+          "word": "headphones",
+          "definition": "devices worn on the ears to listen to sound (audífonos)"
+        },
+        {
+          "word": "computer",
+          "definition": "an electronic device for work, study, or entertainment (computador)"
+        },
+        {
+          "word": "share",
+          "definition": "to use something together with other people (compartir)"
+        },
+        {
+          "word": "possessions",
+          "definition": "things that belong to a person (pertenencias)"
+        },
+        {
+          "word": "cabinet",
+          "definition": "a piece of furniture used for storage (gabinete)"
+        },
+        {
+          "word": "respect",
+          "definition": "care and consideration for people and their things (respeto)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "What was Mateo looking for after school?",
+          "options": [
+            "His notebook",
+            "His charger",
+            "His jacket",
+            "His lunchbox"
+          ],
+          "answer": "His charger"
+        },
+        {
+          "skill": "sequence",
+          "question": "What did Mateo do after he saw Nico with a similar charger?",
+          "options": [
+            "He left the apartment",
+            "He bought a new tablet",
+            "He accused Nico and then noticed the blue sticker",
+            "He called his teacher"
+          ],
+          "answer": "He accused Nico and then noticed the blue sticker"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "In the story, what are “possessions”?",
+          "options": [
+            "Shared meals",
+            "Rooms in a house",
+            "School subjects",
+            "Things that belong to someone"
+          ],
+          "answer": "Things that belong to someone"
+        },
+        {
+          "skill": "main idea",
+          "question": "What problem does Mateo finally understand?",
+          "options": [
+            "He forgot where he put his charger and blamed others too quickly",
+            "His tablet is broken",
+            "His family dislikes technology",
+            "Nico took his charger"
+          ],
+          "answer": "He forgot where he put his charger and blamed others too quickly"
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why does the family create a place for cables and devices?",
+          "options": [
+            "To make the apartment look larger",
+            "To avoid losing things and unnecessary arguments",
+            "To stop using technology",
+            "To hide the devices from visitors"
+          ],
+          "answer": "To avoid losing things and unnecessary arguments"
+        }
+      ],
+      "cover": "../assets/images/week16_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "The Trip We Almost Missed",
+      "minimumWordTarget": 400,
+      "wordCount": 455,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week16_grade07_page01.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, realistic Colombian preteen proportions. One single 4:5 vertical scene for “The Trip We Almost Missed”, page 1. Scene based on: Valeria, a twelve-year-old student from Medellín, is excited because her family is going to visit Guatapé on Saturday. She has never climbed the big rock, and she wants to take photos of the colorful streets and the lake. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valeria, a twelve-year-old student from Medellín, is excited because her family is going to <b>visit</b> Guatapé on Saturday."
+            },
+            {
+              "html": "She has never climbed the big rock, and she wants to take photos of the colorful streets and the lake."
+            },
+            {
+              "html": "On Friday night, she puts a jacket, a water bottle, and snacks in her backpack. Her mother says, “You <b>have to</b> <b>pack</b> light because we are traveling by bus.”"
+            },
+            {
+              "html": "She chooses one comfortable pair and leaves the other shoes at home."
+            },
+            {
+              "html": "Valeria loves to <b>travel</b>, but she knows that a good trip starts with good organization."
+            }
+          ],
+          "wordCount": 94
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week16_grade07_page02.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, realistic Colombian preteen proportions. One single 4:5 vertical scene for “The Trip We Almost Missed”, page 2. Scene based on: At 6:10 the next morning, the family is getting ready, but Valeria cannot find her small purple bag. That bag has her ID card, a little money, and the printed reservation. She says, “We need to find it before we leave.” Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At 6:10 the next morning, the family is getting ready, but Valeria cannot find her small purple bag."
+            },
+            {
+              "html": "That bag has her ID card, a little money, and the printed reservation. She says, “We <b>need to</b> find it before we leave.”"
+            },
+            {
+              "html": "Her father checks the kitchen, her mother looks near the sofa, and her brother searches the bedroom."
+            },
+            {
+              "html": "She runs to her room and sees two bags on a chair. “Is this mine?” she asks, holding the first one."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week16_grade07_page03.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, realistic Colombian preteen proportions. One single 4:5 vertical scene for “The Trip We Almost Missed”, page 3. Scene based on: The purple bag is behind Valeria’s school backpack. She finds it at 6:25, and everyone feels relieved. They leave the apartment and walk quickly to the bus stop. Traffic on the avenue is already getting heavier. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The purple bag is behind Valeria’s school backpack. She finds it at 6:25, and everyone feels relieved."
+            },
+            {
+              "html": "They leave the apartment and walk quickly to the bus stop. Traffic on the avenue is already getting heavier."
+            },
+            {
+              "html": "Valeria worries that they are going to miss the bus, but her father says they still have time."
+            },
+            {
+              "html": "At the terminal, a worker explains that they have to show their tickets before entering the platform."
+            },
+            {
+              "html": "When a tourist asks where the Guatapé buses leave, Valeria points to the correct <b>gate</b> and proudly says, “You need to go over there.”"
+            },
+            {
+              "html": "They check the <b>ticket</b> before deciding where they need to go."
+            }
+          ],
+          "wordCount": 106
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week16_grade07_page04.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, realistic Colombian preteen proportions. One single 4:5 vertical scene for “The Trip We Almost Missed”, page 4. Scene based on: During the trip, rain begins to fall over the mountains. Valeria looks at the gray sky and asks, “Are we still going to climb the rock?” Her mother answers, “Maybe later. We don’t have to do everything exactly as planned.” Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "During the trip, <b>rain</b> begins to fall over the mountains. Valeria looks at the gray sky and asks, “Are we still going to climb the rock?”"
+            },
+            {
+              "html": "Her mother answers, “Maybe later. We don’t have to do everything exactly as planned.”"
+            },
+            {
+              "html": "The family decides they are going to explore the town first and wait for safer weather."
+            },
+            {
+              "html": "By noon, the rain stops, the streets shine in the sunlight, and the family decides to continue their original <b>plan</b>."
+            }
+          ],
+          "wordCount": 76
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week16_grade07_page05.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, realistic Colombian preteen proportions. One single 4:5 vertical scene for “The Trip We Almost Missed”, page 5. Scene based on: At the rock, Valeria looks up at the long staircase and suddenly feels nervous. It seems much higher than it did in the photos. Her brother says, “You can stop if you are tired. We can take breaks.” Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At the rock, Valeria looks up at the long staircase and suddenly feels nervous. It seems much higher than it did in the photos."
+            },
+            {
+              "html": "Her brother says, “You can stop if you are tired. We can take breaks.”"
+            },
+            {
+              "html": "Valeria does not need to prove anything, but she wants to try. She climbs slowly, drinks water, and rests several times."
+            },
+            {
+              "html": "On the bus back to Medellín, Valeria writes in her notes: plans are useful, but travelers also have to <b>adapt</b>."
+            },
+            {
+              "html": "She smiles because the best part of the day was not following a perfect schedule. It was solving small problems together."
+            }
+          ],
+          "wordCount": 100
+        }
+      ],
+      "practiceWords": [
+        "visit",
+        "pack",
+        "ticket",
+        "need to",
+        "have to",
+        "travel",
+        "gate",
+        "rain",
+        "plan",
+        "adapt"
+      ],
+      "vocabulary": [
+        {
+          "word": "visit",
+          "definition": "to go to a place for a short time (visitar)"
+        },
+        {
+          "word": "pack",
+          "definition": "to put things into a bag for a trip (empacar)"
+        },
+        {
+          "word": "ticket",
+          "definition": "a document that allows travel or entry (tiquete)"
+        },
+        {
+          "word": "need to",
+          "definition": "used to say something is necessary (necesitar)"
+        },
+        {
+          "word": "have to",
+          "definition": "used to express obligation (tener que)"
+        },
+        {
+          "word": "travel",
+          "definition": "to go from one place to another (viajar)"
+        },
+        {
+          "word": "gate",
+          "definition": "an entrance used to reach a departure area (puerta de embarque)"
+        },
+        {
+          "word": "rain",
+          "definition": "water that falls from clouds (lluvia)"
+        },
+        {
+          "word": "plan",
+          "definition": "an arrangement for what you are going to do (plan)"
+        },
+        {
+          "word": "adapt",
+          "definition": "to change your actions when a situation changes (adaptarse)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Where is Valeria’s family going to travel?",
+          "options": [
+            "Cartagena",
+            "Bogotá",
+            "Guatapé",
+            "New York"
+          ],
+          "answer": "Guatapé"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "Why does the family search for Valeria’s purple bag?",
+          "options": [
+            "It has her ID, money, and reservation",
+            "It has food for the bus driver",
+            "It belongs to her brother",
+            "It is too heavy"
+          ],
+          "answer": "It has her ID, money, and reservation"
+        },
+        {
+          "skill": "main idea",
+          "question": "What does Valeria learn about travel plans?",
+          "options": [
+            "Every plan must stay exactly the same",
+            "Good trips require expensive clothes",
+            "Travel is easier without instructions",
+            "Plans are useful, but travelers may need to adapt"
+          ],
+          "answer": "Plans are useful, but travelers may need to adapt"
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why does Valeria leave two pairs of shoes at home?",
+          "options": [
+            "She dislikes shoes",
+            "Her mother says they must pack light",
+            "The bus does not allow shoes",
+            "Her brother takes them"
+          ],
+          "answer": "Her mother says they must pack light"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What does “adapt” mean in the story?",
+          "options": [
+            "Cancel every trip",
+            "Buy more things",
+            "Change when the situation changes",
+            "Arrive without a ticket"
+          ],
+          "answer": "Change when the situation changes"
+        }
+      ],
+      "cover": "../assets/images/week16_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "More Than A Goalkeeper",
+      "minimumWordTarget": 450,
+      "wordCount": 519,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week16_grade08_page01.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, Medellín setting. One single 4:5 vertical scene for “More Than A Goalkeeper”, page 1. Scene based on: On Monday, eighth-grade students at a Medellín school are talking about Friday’s interclass soccer match. Samuel is usually the goalkeeper, but this week he is training with a new student named Kevin. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Monday, eighth-grade students at a Medellín school are talking about Friday’s interclass soccer match."
+            },
+            {
+              "html": "Samuel is usually the <b>goalkeeper</b>, but this week he is <b>training</b> with a new student named Kevin."
+            },
+            {
+              "html": "Kevin is fast and confident, and some classmates are already saying that he should replace Samuel."
+            },
+            {
+              "html": "The coach blows the whistle and says, “We are practicing as a team, not competing against our own teammates.”"
+            }
+          ],
+          "wordCount": 67
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week16_grade08_page02.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, Medellín setting. One single 4:5 vertical scene for “More Than A Goalkeeper”, page 2. Scene based on: During practice, Kevin is running toward the goal when he slips on the wet court and falls. Samuel immediately stops the play and helps him stand up. Kevin says his ankle hurts, but he can walk slowly. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "During practice, Kevin is running toward the goal when he slips on the wet court and falls."
+            },
+            {
+              "html": "Samuel immediately stops the play and helps him stand up. Kevin says his ankle hurts, but he can walk slowly."
+            },
+            {
+              "html": "Some students are filming the practice because they are making a short video for the school sports page."
+            },
+            {
+              "html": "The coach agrees and sends Kevin to the nurse. Then he tells the group that <b>respect</b> is part of sportsmanship."
+            },
+            {
+              "html": "Samuel begins to understand that being a good player is more than defending a goal."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week16_grade08_page03.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, Medellín setting. One single 4:5 vertical scene for “More Than A Goalkeeper”, page 3. Scene based on: The next day, Kevin returns with a light ankle support. He is not playing, but he is watching practice from the bench. Samuel is working on quick passes and better communication with the defenders. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next day, Kevin returns with a light ankle <b>support</b>. He is not playing, but he is watching practice from the bench."
+            },
+            {
+              "html": "Samuel is working on quick passes and better communication with the defenders."
+            },
+            {
+              "html": "Kevin calls him over and says, “When the striker moves left, you are standing too close to the first post.”"
+            },
+            {
+              "html": "Samuel smiles and thanks Kevin. Their <b>competition</b> is slowly becoming cooperation."
+            },
+            {
+              "html": "Samuel understands that a good <b>teammate</b> listens, even when the advice comes from a rival."
+            }
+          ],
+          "wordCount": 80
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week16_grade08_page04.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, Medellín setting. One single 4:5 vertical scene for “More Than A Goalkeeper”, page 4. Scene based on: At lunch, the class group chat is full of messages about the match. One student posts, “Samuel is starting; Kevin is finished.” Samuel does not like the message. He answers, “Kevin is injured, not finished. Please don’t make fun of him.” Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At lunch, the class group chat is full of messages about the match. One student posts, “Samuel is starting; Kevin is finished.”"
+            },
+            {
+              "html": "Samuel does not like the message. He answers, “Kevin is <b>injured</b>, not finished. Please don’t make fun of him.”"
+            },
+            {
+              "html": "Later, the coach announces that Samuel is starting on Friday and Kevin is going to help from the <b>sideline</b>."
+            },
+            {
+              "html": "Samuel realizes that social media can make rivalry worse, but people can also use it to stop disrespect."
+            }
+          ],
+          "wordCount": 78
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week16_grade08_page05.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, Medellín setting. One single 4:5 vertical scene for “More Than A Goalkeeper”, page 5. Scene based on: Friday afternoon arrives, and the gym is full. Students are cheering, teachers are watching, and both teams are warming up. Samuel feels nervous during the first minutes because the other team is attacking constantly. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Friday afternoon arrives, and the gym is full. Students are cheering, teachers are watching, and both teams are warming up."
+            },
+            {
+              "html": "Samuel feels nervous during the first minutes because the other team is attacking constantly."
+            },
+            {
+              "html": "From the sideline, Kevin shouts, “Watch number seven!” Samuel sees the striker moving behind a defender."
+            },
+            {
+              "html": "The match remains close. Samuel is not playing perfectly, but he is communicating better and making calmer decisions."
+            },
+            {
+              "html": "Samuel remembers the day Kevin fell, when he asked classmates to stop recording because Kevin deserved <b>privacy</b> while he was hurt."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week16_grade08_page06.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, Medellín setting. One single 4:5 vertical scene for “More Than A Goalkeeper”, page 6. Scene based on: The final whistle ends the match with a one-goal victory. Samuel’s classmates run toward him, but he first walks to Kevin. He says, “You helped us win too.” Kevin answers, “Next time, maybe we are both playing.” Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The final whistle ends the match with a one-goal victory. Samuel’s classmates run toward him, but he first walks to Kevin."
+            },
+            {
+              "html": "He says, “You helped us win too.” Kevin answers, “Next time, maybe we are both playing.”"
+            },
+            {
+              "html": "The coach tells the team that the strongest moment was not the final goal. It was the way they supported one another."
+            },
+            {
+              "html": "He is still training hard, and Kevin is still recovering, but now they are planning the next match together."
+            },
+            {
+              "html": "For Samuel, the week changes the meaning of competition: good athletes try to improve, while good teammates help others improve too."
+            },
+            {
+              "html": "Next week, they want to practice a new <b>strategy</b> to defend corner kicks as a team."
+            }
+          ],
+          "wordCount": 115
+        }
+      ],
+      "practiceWords": [
+        "goalkeeper",
+        "training",
+        "teammate",
+        "injured",
+        "privacy",
+        "strategy",
+        "sideline",
+        "support",
+        "competition",
+        "respect"
+      ],
+      "vocabulary": [
+        {
+          "word": "goalkeeper",
+          "definition": "the player who protects the goal (arquero)"
+        },
+        {
+          "word": "training",
+          "definition": "practice to improve a skill or sport (entrenamiento)"
+        },
+        {
+          "word": "teammate",
+          "definition": "a person who plays on the same team (compañero de equipo)"
+        },
+        {
+          "word": "injured",
+          "definition": "hurt physically (lesionado)"
+        },
+        {
+          "word": "privacy",
+          "definition": "the right to keep personal moments from public attention (privacidad)"
+        },
+        {
+          "word": "strategy",
+          "definition": "a plan designed to reach a goal (estrategia)"
+        },
+        {
+          "word": "sideline",
+          "definition": "the area beside a sports field or court (línea lateral)"
+        },
+        {
+          "word": "support",
+          "definition": "help or encouragement (apoyo)"
+        },
+        {
+          "word": "competition",
+          "definition": "a situation in which people try to win or perform better (competencia)"
+        },
+        {
+          "word": "respect",
+          "definition": "consideration for another person (respeto)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What position does Samuel usually play?",
+          "options": [
+            "Striker",
+            "Coach",
+            "Referee",
+            "Goalkeeper"
+          ],
+          "answer": "Goalkeeper"
+        },
+        {
+          "skill": "inference",
+          "question": "Why does Samuel ask classmates to stop recording Kevin?",
+          "options": [
+            "He wants the phone",
+            "He thinks Kevin needs privacy while he is hurt",
+            "He wants to cancel the match",
+            "He is angry with the coach"
+          ],
+          "answer": "He thinks Kevin needs privacy while he is hurt"
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does Kevin give Samuel advice during practice?",
+          "options": [
+            "To help the team and Samuel improve",
+            "To make him fail",
+            "To leave the team",
+            "To become the coach"
+          ],
+          "answer": "To help the team and Samuel improve"
+        },
+        {
+          "skill": "main idea",
+          "question": "What does Samuel learn about competition?",
+          "options": [
+            "Only the best player matters",
+            "Social media decides who should play",
+            "A good teammate helps others improve",
+            "Injured players are not useful"
+          ],
+          "answer": "A good teammate helps others improve"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What is a “strategy” in the story?",
+          "options": [
+            "A sports uniform",
+            "A social media video",
+            "A medical problem",
+            "A plan for how to play"
+          ],
+          "answer": "A plan for how to play"
+        }
+      ],
+      "cover": "../assets/images/week16_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "The Shoes Everyone Wanted",
+      "minimumWordTarget": 500,
+      "wordCount": 546,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week16_grade09_page01.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field. One single 4:5 vertical scene for “The Shoes Everyone Wanted”, page 1. Scene based on: Camila has been saving money for three months because almost everyone in her class is talking about a new pair of sneakers. The shoes are brighter, newer, and much more expensive than the pair she wears to school. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Camila has been saving money for three months because almost everyone in her class is talking about a new pair of sneakers."
+            },
+            {
+              "html": "The shoes are brighter, newer, and much more <b>expensive</b> than the pair she wears to school."
+            },
+            {
+              "html": "Several influencers call them “the coolest sneakers of the year,” and one classmate says they are the best shoes anyone can buy."
+            },
+            {
+              "html": "Camila likes their design, but the price is close to what her mother spends on groceries for many days."
+            },
+            {
+              "html": "She does not tell her friends this. She only says, “I’m still deciding.”"
+            }
+          ],
+          "wordCount": 92
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week16_grade09_page02.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field. One single 4:5 vertical scene for “The Shoes Everyone Wanted”, page 2. Scene based on: On Saturday, Camila goes to a shopping center with her cousin Juliana. The first store has the famous sneakers in the window. A salesperson says the newest model is lighter and more comfortable than last year’s version. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Saturday, Camila goes to a shopping center with her cousin Juliana. The first store has the famous sneakers in the window."
+            },
+            {
+              "html": "A salesperson says the newest model is lighter and more <b>comfortable</b> than last year’s version."
+            },
+            {
+              "html": "Camila tries them on and looks at herself in the mirror. They fit well, but the price makes her nervous."
+            },
+            {
+              "html": "Juliana notices and says, “We can <b>compare</b> other stores. Expensive does not always mean better.”"
+            },
+            {
+              "html": "Camila walks around in both styles and realizes that the <b>cheaper</b> pair feels just as comfortable."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week16_grade09_page03.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field. One single 4:5 vertical scene for “The Shoes Everyone Wanted”, page 3. Scene based on: While they are comparing prices, Camila receives a message from a classmate: “Did you buy them? Everyone is getting them.” She almost buys the famous pair immediately. Then she asks herself why the opinion of other students feels so important. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "While they are comparing prices, Camila receives a message from a classmate: “Did you buy them? Everyone is getting them.”"
+            },
+            {
+              "html": "She almost buys the famous pair immediately. Then she asks herself why the opinion of other students feels so important."
+            },
+            {
+              "html": "Juliana suggests making a list: price, comfort, quality, and how often Camila will actually use the shoes."
+            },
+            {
+              "html": "The famous pair wins for popularity, but the other pair is more <b>practical</b> for daily use."
+            },
+            {
+              "html": "Camila also remembers that she wants to save money for a school trip later in the year."
+            },
+            {
+              "html": "Camila notices that the shoes became a <b>trend</b> after a famous influencer wore them in a video."
+            }
+          ],
+          "wordCount": 107
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week16_grade09_page04.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field. One single 4:5 vertical scene for “The Shoes Everyone Wanted”, page 4. Scene based on: Near the food court, they meet Julián, a young employee from their neighborhood who works weekends at an electronics store. He tells them he once spent almost all his first salary on a trendy jacket because he wanted to impress friends. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Near the food court, they meet Julián, a young employee from their neighborhood who works weekends at an electronics store."
+            },
+            {
+              "html": "He tells them he once spent almost all his first <b>salary</b> on a trendy jacket because he wanted to impress friends."
+            },
+            {
+              "html": "“It was the most expensive thing in my closet, but I hardly used it,” he says."
+            },
+            {
+              "html": "His story makes Camila consider what her own purchase might mean one month later."
+            },
+            {
+              "html": "He admits that the jacket was <b>popular</b> for only a few months, and then nobody talked about it."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week16_grade09_page05.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field. One single 4:5 vertical scene for “The Shoes Everyone Wanted”, page 5. Scene based on: Camila goes back to the shoe store and asks more questions about materials, return policy, and durability. The salesperson explains that both pairs are designed for everyday walking, although the famous model has a special limited-edition color. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Camila goes back to the shoe store and asks more questions about materials, return policy, and <b>durability</b>."
+            },
+            {
+              "html": "The salesperson explains that both pairs are designed for everyday walking, although the famous model has a special limited-edition color."
+            },
+            {
+              "html": "Camila chooses the cheaper pair and keeps the rest of her savings."
+            },
+            {
+              "html": "When she sends a photo to the class chat, one student writes, “Those aren’t the new ones.”"
+            },
+            {
+              "html": "Another student replies that they look good, and the conversation quickly moves to another topic."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week16_grade09_page06.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field. One single 4:5 vertical scene for “The Shoes Everyone Wanted”, page 6. Scene based on: On Monday, Camila wears her new sneakers to school. They are comfortable on the long walk from the bus stop. No one studies them as closely as she imagined. Most students are busy thinking about their own day. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Monday, Camila wears her new sneakers to school. They are comfortable on the long walk from the bus stop."
+            },
+            {
+              "html": "No one studies them as closely as she imagined. Most students are busy thinking about their own day."
+            },
+            {
+              "html": "Camila realizes that online trends can make a choice seem bigger and more urgent than it really is."
+            },
+            {
+              "html": "For her, the smartest purchase is the one that fits her needs, <b>budget</b>, and plans."
+            },
+            {
+              "html": "The experience does not make fashion unimportant; it simply gives Camila a stronger reason to choose for herself."
+            }
+          ],
+          "wordCount": 89
+        }
+      ],
+      "practiceWords": [
+        "expensive",
+        "cheaper",
+        "comfortable",
+        "popular",
+        "practical",
+        "compare",
+        "salary",
+        "durability",
+        "trend",
+        "budget"
+      ],
+      "vocabulary": [
+        {
+          "word": "expensive",
+          "definition": "costing a lot of money (costoso)"
+        },
+        {
+          "word": "cheaper",
+          "definition": "costing less money (más barato)"
+        },
+        {
+          "word": "comfortable",
+          "definition": "pleasant and easy to wear or use (cómodo)"
+        },
+        {
+          "word": "popular",
+          "definition": "liked or used by many people (popular)"
+        },
+        {
+          "word": "practical",
+          "definition": "useful and suitable for real needs (práctico)"
+        },
+        {
+          "word": "compare",
+          "definition": "to examine similarities and differences (comparar)"
+        },
+        {
+          "word": "salary",
+          "definition": "money regularly paid for work (salario)"
+        },
+        {
+          "word": "durability",
+          "definition": "the ability to last for a long time (durabilidad)"
+        },
+        {
+          "word": "trend",
+          "definition": "a style or behavior that becomes popular (tendencia)"
+        },
+        {
+          "word": "budget",
+          "definition": "the amount of money available for spending (presupuesto)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Why has Camila been saving money?",
+          "options": [
+            "For popular sneakers",
+            "For a new phone",
+            "For a bicycle",
+            "For a concert ticket"
+          ],
+          "answer": "For popular sneakers"
+        },
+        {
+          "skill": "inference",
+          "question": "Why does Camila hesitate to buy the famous sneakers?",
+          "options": [
+            "They are the wrong color",
+            "They are not available",
+            "Her cousin dislikes shoes",
+            "Their price conflicts with other priorities"
+          ],
+          "answer": "Their price conflicts with other priorities"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "How does Julián’s story affect Camila’s decision?",
+          "options": [
+            "It encourages her to spend all her savings",
+            "It helps her think about value beyond popularity",
+            "It convinces her to stop shopping forever",
+            "It makes her buy the most expensive pair"
+          ],
+          "answer": "It helps her think about value beyond popularity"
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the central lesson of Camila’s experience?",
+          "options": [
+            "Popular products are always better",
+            "Friends should choose your clothes",
+            "A smart purchase should fit needs, budget, and plans",
+            "Cheap products are always best"
+          ],
+          "answer": "A smart purchase should fit needs, budget, and plans"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What does “durability” refer to?",
+          "options": [
+            "How long something can last",
+            "How fashionable something looks",
+            "How many people own it",
+            "How quickly it is sold"
+          ],
+          "answer": "How long something can last"
+        }
+      ],
+      "cover": "../assets/images/week16_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "The Last Metro Home",
+      "minimumWordTarget": 600,
+      "wordCount": 660,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week16_grade10_page01.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic Medellín atmosphere. One single 4:5 vertical scene for “The Last Metro Home”, page 1. Scene based on: At 6:20 on a rainy Thursday evening, Daniel leaves a robotics workshop near the center of Medellín. He usually takes the Metro home, but construction has closed one entrance, and a crowd is moving toward another station gate. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At 6:20 on a rainy Thursday evening, Daniel leaves a robotics workshop near the center of Medellín."
+            },
+            {
+              "html": "He usually takes the Metro home, but construction has closed one <b>entrance</b>, and a crowd is moving toward another station gate."
+            },
+            {
+              "html": "Near the ticket machines, he sees Maya, a sixteen-year-old exchange student from Queens, New York, looking at a transit map on her phone."
+            },
+            {
+              "html": "She asks in English, “Do you know how I can get to the north side? My host family told me to take the train and then a bus.”"
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week16_grade10_page02.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic Medellín atmosphere. One single 4:5 vertical scene for “The Last Metro Home”, page 2. Scene based on: They walk to an information point, where an employee explains that passengers must use the eastern entrance and that one bus connection has changed. Daniel repeats the details to Maya: “We need to enter through that gate, take the train two stops, and then change.” Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They walk to an information point, where an employee explains that passengers must use the eastern entrance and that one bus connection has changed."
+            },
+            {
+              "html": "Daniel repeats the details to Maya: “We need to enter through that gate, take the train two stops, and then change.”"
+            },
+            {
+              "html": "Maya says New York’s subway feels different because she recognizes the lines there, but an unfamiliar system makes every sign more important."
+            },
+            {
+              "html": "He also tells her that she shouldn’t follow a <b>route</b> from an old screenshot because service information can change."
+            },
+            {
+              "html": "Another <b>passenger</b> hears them and confirms that the old connection is closed this week."
+            }
+          ],
+          "wordCount": 100
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week16_grade10_page03.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic Medellín atmosphere. One single 4:5 vertical scene for “The Last Metro Home”, page 3. Scene based on: Inside the station, the platform is busy. Daniel and Maya stand away from the edge while they wait. A man nearby asks Daniel which train goes toward a hospital, and Daniel gives a short answer after checking the map. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Inside the station, the <b>platform</b> is busy. Daniel and Maya stand away from the edge while they wait."
+            },
+            {
+              "html": "A man nearby asks Daniel which train goes toward a hospital, and Daniel gives a short answer after checking the map."
+            },
+            {
+              "html": "Maya notices that Daniel verifies information before speaking. She says, “In New York, my mother always tells me to do that too.”"
+            },
+            {
+              "html": "Daniel explains that visitors should watch station names and keep personal belongings secure in crowded areas."
+            },
+            {
+              "html": "He is not trying to scare Maya; he is helping her travel with the same practical awareness he uses every day."
+            },
+            {
+              "html": "To reach her host family's neighborhood, Maya has to <b>transfer</b> to another line at the next station."
+            }
+          ],
+          "wordCount": 115
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week16_grade10_page04.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic Medellín atmosphere. One single 4:5 vertical scene for “The Last Metro Home”, page 4. Scene based on: Two stops later, they leave the train, but the connecting bus is delayed by heavy traffic. Maya’s host mother sends a message asking where she is. Maya feels embarrassed because she thinks being late makes her look irresponsible. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Two stops later, they leave the train, but the connecting bus is delayed by heavy traffic."
+            },
+            {
+              "html": "Maya’s host mother sends a message asking where she is. Maya feels embarrassed because she thinks being late makes her look irresponsible."
+            },
+            {
+              "html": "Daniel says, “You should tell her exactly what happened and send the name of the station. Clear information is better than a vague excuse.”"
+            },
+            {
+              "html": "Maya sends the message, and her host mother replies that everything is fine as long as she stays in a safe public place."
+            },
+            {
+              "html": "Daniel explains two possible bus routes and why one is simpler even though it is slightly longer."
+            },
+            {
+              "html": "Daniel tells her to use a big shopping mall as a <b>landmark</b> when she leaves the station."
+            }
+          ],
+          "wordCount": 119
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week16_grade10_page05.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic Medellín atmosphere. One single 4:5 vertical scene for “The Last Metro Home”, page 5. Scene based on: While they wait, Maya compares Medellín and New York transportation. In both cities, she says, people depend on signs, transfers, and real-time information. Daniel says Medellín feels easier to him only because he knows the system. A tourist in his city can feel exactly as confused as he would in Manhattan. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "While they wait, Maya compares Medellín and New York <b>transportation</b>. In both cities, she says, people depend on signs, transfers, and real-time information."
+            },
+            {
+              "html": "Daniel says Medellín feels easier to him only because he knows the system. A tourist in his city can feel exactly as confused as he would in Manhattan."
+            },
+            {
+              "html": "The conversation changes his perspective. <b>Directions</b> are not just grammar exercises; they are a way to help someone make decisions in a real place."
+            },
+            {
+              "html": "He practices phrases with Maya: “Go past the entrance,” “turn right after the bridge,” and “get off at the next stop.”"
+            },
+            {
+              "html": "They both see that useful communication depends more on clarity than on a perfect accent."
+            }
+          ],
+          "wordCount": 111
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week16_grade10_page06.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic Medellín atmosphere. One single 4:5 vertical scene for “The Last Metro Home”, page 6. Scene based on: The bus finally arrives. Daniel checks the route number with the driver before Maya gets on. He tells her, “You should get off near the sports complex. Your host family can meet you there.” Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The bus finally arrives. Daniel checks the route number with the driver before Maya gets on."
+            },
+            {
+              "html": "He tells her, “You should get off near the sports complex. Your host family can meet you there.”"
+            },
+            {
+              "html": "Maya repeats the destination so the driver can confirm it. Then she thanks Daniel for staying."
+            },
+            {
+              "html": "Daniel smiles and replies, “Deal. But I’m still checking the map.”"
+            }
+          ],
+          "wordCount": 61
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week16_grade10_page07.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic Medellín atmosphere. One single 4:5 vertical scene for “The Last Metro Home”, page 7. Scene based on: Later that night, Daniel receives a message saying Maya arrived safely. He thinks about the choices they made: asking an employee, checking the current route, using visible landmarks, and communicating a delay. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later that night, Daniel receives a message saying Maya arrived safely."
+            },
+            {
+              "html": "He thinks about the choices they made: asking an employee, checking the current route, using visible landmarks, and communicating a <b>delay</b>."
+            },
+            {
+              "html": "He includes one main recommendation: travelers should <b>verify</b> information instead of pretending they understand."
+            },
+            {
+              "html": "The experience gives him a practical lesson in city vocabulary, advice, and responsibility—skills that matter far beyond a classroom."
+            }
+          ],
+          "wordCount": 65
+        }
+      ],
+      "practiceWords": [
+        "entrance",
+        "route",
+        "transfer",
+        "landmark",
+        "platform",
+        "delay",
+        "directions",
+        "verify",
+        "passenger",
+        "transportation"
+      ],
+      "vocabulary": [
+        {
+          "word": "entrance",
+          "definition": "a place used to enter a building or station (entrada)"
+        },
+        {
+          "word": "route",
+          "definition": "the path used to travel from one place to another (ruta)"
+        },
+        {
+          "word": "transfer",
+          "definition": "a change from one line or type of transport to another (transbordo)"
+        },
+        {
+          "word": "landmark",
+          "definition": "a recognizable place used to identify a location (punto de referencia)"
+        },
+        {
+          "word": "platform",
+          "definition": "the area where passengers wait for a train (plataforma)"
+        },
+        {
+          "word": "delay",
+          "definition": "a situation in which something happens later than expected (retraso)"
+        },
+        {
+          "word": "directions",
+          "definition": "instructions for reaching a place (indicaciones)"
+        },
+        {
+          "word": "verify",
+          "definition": "to check that information is correct (verificar)"
+        },
+        {
+          "word": "passenger",
+          "definition": "a person traveling in a vehicle (pasajero)"
+        },
+        {
+          "word": "transportation",
+          "definition": "systems or methods used to move people (transporte)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Why is Maya confused at the Metro station?",
+          "options": [
+            "She lost her passport",
+            "An entrance is closed and a connection has changed",
+            "She does not have money",
+            "Daniel gives her the wrong map"
+          ],
+          "answer": "An entrance is closed and a connection has changed"
+        },
+        {
+          "skill": "inference",
+          "question": "Why does Daniel verify information before giving directions?",
+          "options": [
+            "He does not know any English",
+            "He wants Maya to miss the bus",
+            "He dislikes public transportation",
+            "He wants to avoid creating a bigger problem"
+          ],
+          "answer": "He wants to avoid creating a bigger problem"
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does Daniel tell Maya to message her host mother?",
+          "options": [
+            "To ask for money",
+            "To cancel the exchange program",
+            "To communicate the delay clearly and reduce concern",
+            "To complain about the weather"
+          ],
+          "answer": "To communicate the delay clearly and reduce concern"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "How does the New York comparison affect Daniel’s perspective?",
+          "options": [
+            "It shows him that unfamiliar transit systems can confuse anyone",
+            "It proves Medellín has no signs",
+            "It makes him want to stop using the Metro",
+            "It shows New York transportation is identical"
+          ],
+          "answer": "It shows him that unfamiliar transit systems can confuse anyone"
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the strongest lesson from the story?",
+          "options": [
+            "Travelers should memorize every route",
+            "Clear directions require checking information and communicating responsibly",
+            "Only local people can use public transport",
+            "A perfect accent is necessary to help someone"
+          ],
+          "answer": "Clear directions require checking information and communicating responsibly"
+        }
+      ],
+      "cover": "../assets/images/week16_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "The Job Offer I Had To Think About",
+      "minimumWordTarget": 700,
+      "wordCount": 769,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week16_grade11_page01.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere. One single 4:5 vertical scene for “The Job Offer I Had To Think About”, page 1. Scene based on: Laura is seventeen and finishing her last year of high school in Medellín. She wants to study graphic design, but her family cannot pay every university expense. When a local printing company advertises a part-time position for students, she decides to apply. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura is seventeen and finishing her last year of high school in Medellín. She wants to study graphic design, but her family cannot pay every university expense."
+            },
+            {
+              "html": "When a local printing company advertises a part-time position for students, she decides to apply."
+            },
+            {
+              "html": "The job would not solve everything, but it could help her save for transportation, materials, and application fees."
+            },
+            {
+              "html": "The teacher says, “You need to describe what you can actually do. You don’t have to sound like someone with ten years of experience.”"
+            },
+            {
+              "html": "Laura updates her <b>résumé</b> with her school projects and volunteer work before the interview."
+            },
+            {
+              "html": "The <b>deadline</b> matters, but it does not justify ignoring an important rule."
+            }
+          ],
+          "wordCount": 110
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week16_grade11_page02.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere. One single 4:5 vertical scene for “The Job Offer I Had To Think About”, page 2. Scene based on: Two days later, the company invites her to an interview after class. The email lists several rules for visitors. Applicants have to arrive with identification, they must sign in at reception, and they cannot enter the production area without permission. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Two days later, the company invites her to an interview after class. The email lists several rules for visitors."
+            },
+            {
+              "html": "Applicants have to arrive with identification, they must sign in at reception, and they cannot enter the production area without <b>permission</b>."
+            },
+            {
+              "html": "Laura reads the message twice because she does not want nervousness to make her miss a detail."
+            },
+            {
+              "html": "At home, her mother asks whether working will interfere with school. Laura admits that this is her biggest concern."
+            },
+            {
+              "html": "Her mother supports the idea but reminds her that earning money should not quietly become more important than finishing school."
+            },
+            {
+              "html": "Each <b>applicant</b> receives a short form with the rules of the workshop."
+            }
+          ],
+          "wordCount": 108
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week16_grade11_page03.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere. One single 4:5 vertical scene for “The Job Offer I Had To Think About”, page 3. Scene based on: At the interview, the manager asks Laura why she wants the position. She could simply say that she needs money, but she gives a fuller answer. She explains that she wants work experience, enjoys design, and hopes to understand how printed products move from an idea to a customer. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At the interview, the manager asks Laura why she wants the position. She could simply say that she needs money, but she gives a fuller answer."
+            },
+            {
+              "html": "She explains that she wants work experience, enjoys design, and hopes to understand how printed products move from an idea to a customer."
+            },
+            {
+              "html": "The manager asks whether she can work every evening until 9:00 p.m."
+            },
+            {
+              "html": "Laura pauses. Students her age must follow legal and family restrictions, and she also has academic responsibilities."
+            },
+            {
+              "html": "The manager says the company values honest availability because unreliable schedules create problems for the whole team."
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week16_grade11_page04.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere. One single 4:5 vertical scene for “The Job Offer I Had To Think About”, page 4. Scene based on: Then the manager shows her a small design station separated from the machines. Employees may use the computers after training, but visitors must not operate cutting equipment. He explains that safety rules are not suggestions. Workers have to wear the required protection in designated areas and report hazards immediately. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Then the manager shows her a small design station separated from the machines. Employees may use the computers after <b>training</b>, but visitors must not operate cutting equipment."
+            },
+            {
+              "html": "He explains that safety rules are not suggestions. Workers have to wear the required protection in designated areas and report hazards immediately."
+            },
+            {
+              "html": "Laura likes that the rules are clear. She has seen social media videos where young workers laugh about ignoring safety instructions."
+            },
+            {
+              "html": "Here, the message is different: confidence does not mean taking unnecessary risks."
+            },
+            {
+              "html": "The manager gives a detailed answer and says questions are expected during the first weeks."
+            }
+          ],
+          "wordCount": 97
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week16_grade11_page05.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere. One single 4:5 vertical scene for “The Job Offer I Had To Think About”, page 5. Scene based on: Before Laura leaves, the manager describes the schedule: three afternoons during the week and a short Saturday shift. He says she may request changes during exam weeks if she gives enough notice. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Before Laura leaves, the manager describes the <b>schedule</b>: three afternoons during the week and a short Saturday <b>shift</b>."
+            },
+            {
+              "html": "He says she may request changes during exam weeks if she gives enough notice."
+            },
+            {
+              "html": "Laura realizes that employment involves negotiation as well as obligation. A worker has duties, but a responsible <b>employer</b> also has rules to follow."
+            },
+            {
+              "html": "On the bus home, she compares the offer with what she imagined before the interview."
+            },
+            {
+              "html": "She decides she needs to discuss the complete situation with her family before accepting anything."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week16_grade11_page06.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere. One single 4:5 vertical scene for “The Job Offer I Had To Think About”, page 6. Scene based on: That evening, Laura makes two columns in her notebook: opportunities and risks. Under opportunities, she writes experience, savings, references, and learning new software. Under risks, she writes less study time, fatigue, and transportation after dark. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "That evening, Laura makes two columns in her notebook: opportunities and risks."
+            },
+            {
+              "html": "Under opportunities, she writes experience, savings, references, and learning new software. Under risks, she writes less study time, fatigue, and transportation after dark."
+            },
+            {
+              "html": "Her older cousin, who studies and works in New York, calls her that night. He says his first job taught him a similar lesson."
+            },
+            {
+              "html": "“A job can open doors,” he says, “but you have to know what you can promise before you promise it.”"
+            },
+            {
+              "html": "The cities are different, but the problem of balancing time is familiar in both places."
+            }
+          ],
+          "wordCount": 94
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week16_grade11_page07.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere. One single 4:5 vertical scene for “The Job Offer I Had To Think About”, page 7. Scene based on: The next morning, the company offers Laura the position. She does not answer immediately. She asks whether the Saturday shift can start one hour later because of a preparation course she attends. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next morning, the company offers Laura the position. She does not answer immediately."
+            },
+            {
+              "html": "She asks whether the Saturday shift can start one hour later because of a preparation course she attends."
+            },
+            {
+              "html": "The manager checks the schedule and agrees. He also explains that Laura will have a two-week training period before handling customer orders."
+            },
+            {
+              "html": "She knows she will have to organize her week carefully, arrive on time, communicate problems early, and continue meeting school deadlines."
+            }
+          ],
+          "wordCount": 75
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week16_grade11_page08.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere. One single 4:5 vertical scene for “The Job Offer I Had To Think About”, page 8. Scene based on: During her first week, Laura makes one small mistake in a print order but reports it immediately. Her supervisor helps her correct the file and says hiding an error would have been more serious than making it. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "During her first week, Laura makes one small mistake in a print order but reports it immediately."
+            },
+            {
+              "html": "Her supervisor helps her correct the file and says hiding an error would have been more serious than making it."
+            },
+            {
+              "html": "Laura begins to see employment differently. <b>Professionalism</b> is not acting perfect; it is following procedures, communicating clearly, and taking <b>responsibility</b>."
+            },
+            {
+              "html": "By the end of the month, she has saved a little money and learned far more about work than she expected."
+            },
+            {
+              "html": "The experience does not give Laura an easy future, but it gives her something useful: evidence that careful decisions can protect both her goals and her well-being."
+            }
+          ],
+          "wordCount": 105
+        }
+      ],
+      "practiceWords": [
+        "résumé",
+        "applicant",
+        "schedule",
+        "permission",
+        "training",
+        "responsibility",
+        "employer",
+        "shift",
+        "deadline",
+        "professionalism"
+      ],
+      "vocabulary": [
+        {
+          "word": "résumé",
+          "definition": "a document summarizing education, skills, and experience (hoja de vida)"
+        },
+        {
+          "word": "applicant",
+          "definition": "a person who applies for a job or opportunity (aspirante)"
+        },
+        {
+          "word": "schedule",
+          "definition": "a plan showing times for activities or work (horario)"
+        },
+        {
+          "word": "permission",
+          "definition": "authorization to do something (permiso)"
+        },
+        {
+          "word": "training",
+          "definition": "instruction and practice for a job or skill (capacitación)"
+        },
+        {
+          "word": "responsibility",
+          "definition": "a duty or obligation a person must manage (responsabilidad)"
+        },
+        {
+          "word": "employer",
+          "definition": "a person or organization that gives people work (empleador)"
+        },
+        {
+          "word": "shift",
+          "definition": "a scheduled period of work (turno)"
+        },
+        {
+          "word": "deadline",
+          "definition": "the latest time by which something must be completed (fecha límite)"
+        },
+        {
+          "word": "professionalism",
+          "definition": "responsible and appropriate behavior at work (profesionalismo)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "Why does Laura avoid saying yes to every possible work hour?",
+          "options": [
+            "She is not interested in the job",
+            "She plans to leave Medellín immediately",
+            "She wants a schedule she can realistically balance with school",
+            "She dislikes graphic design"
+          ],
+          "answer": "She wants a schedule she can realistically balance with school"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "How does Laura’s cousin in New York influence her decision?",
+          "options": [
+            "He tells her to reject all work",
+            "His experience reinforces the need to protect study time and make realistic promises",
+            "He offers her a job in New York",
+            "He tells her school is unimportant"
+          ],
+          "answer": "His experience reinforces the need to protect study time and make realistic promises"
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the manager explain safety and access rules?",
+          "options": [
+            "To frighten Laura",
+            "To test her memory of English vocabulary",
+            "To stop her from applying",
+            "To show the obligations and limits connected to the job"
+          ],
+          "answer": "To show the obligations and limits connected to the job"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What does “shift” mean in the story?",
+          "options": [
+            "A scheduled period of work",
+            "A change of opinion",
+            "A school subject",
+            "A transportation route"
+          ],
+          "answer": "A scheduled period of work"
+        },
+        {
+          "skill": "main idea",
+          "question": "What does Laura learn about beginning a job?",
+          "options": [
+            "Professionalism means never making mistakes",
+            "Workers should accept every request",
+            "A good decision considers money, study, safety, time, and responsibility",
+            "Employment is mainly about earning money"
+          ],
+          "answer": "A good decision considers money, study, safety, time, and responsibility"
+        }
+      ],
+      "cover": "../assets/images/week16_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

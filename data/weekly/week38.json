@@ -1,0 +1,2268 @@
+{
+  "week": 38,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 38",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "The Creek Behind Our School",
+      "minimumWordTarget": 350,
+      "wordCount": 358,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week38_grade06_page01.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Creek Behind Our School”, page 1. Scene based on: Behind a public school in Medellín, Juan, 11, and María, 11, stand on a small wooden bridge looking down at a creek with brown water, plastic bottles and a bag caught between the rocks, green trees around them after the rain. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "There is a small <b>creek</b> behind Juan’s school."
+            },
+            {
+              "html": "Usually, the water is clear, and there are small fish."
+            },
+            {
+              "html": "Last weekend, there was a lot of <b>rain</b>."
+            },
+            {
+              "html": "On Monday, Juan and María go to the creek."
+            },
+            {
+              "html": "It is break time, and the sun is out."
+            },
+            {
+              "html": "They stand on the little wooden <b>bridge</b>."
+            },
+            {
+              "html": "They look down, and they are very surprised."
+            },
+            {
+              "html": "The <b>water</b> is brown, not clear."
+            },
+            {
+              "html": "There are many plastic bottles in the creek."
+            },
+            {
+              "html": "There is a big bag between the <b>rocks</b>."
+            },
+            {
+              "html": "There is <b>trash</b> under the bridge too."
+            },
+            {
+              "html": "“Where are the fish?” María asks sadly."
+            },
+            {
+              "html": "Juan looks under the bridge, but there are no fish."
+            }
+          ],
+          "wordCount": 105
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week38_grade06_page02.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Creek Behind Our School”, page 2. Scene based on: Juan and María walk along a path next to the creek, following it upstream past houses, and María points at a big green trash bin without a lid next to the street, with trash falling out onto the ground near the water. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "María has a question."
+            },
+            {
+              "html": "“Where does this trash come from?” she asks."
+            },
+            {
+              "html": "“Let’s follow the creek and see,” Juan says."
+            },
+            {
+              "html": "After school, they walk next to the creek."
+            },
+            {
+              "html": "They walk up the street, behind some houses."
+            },
+            {
+              "html": "After ten minutes, María stops."
+            },
+            {
+              "html": "“Look! There’s a big trash <b>bin</b> next to the street.”"
+            },
+            {
+              "html": "The bin is very close to the creek."
+            },
+            {
+              "html": "But the bin doesn’t have a <b>lid</b>."
+            },
+            {
+              "html": "There is trash on the ground around it."
+            },
+            {
+              "html": "“When it rains, the water takes the trash,” Juan says."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week38_grade06_page03.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Creek Behind Our School”, page 3. Scene based on: In the school office, Juan and María talk to the principal, a friendly man with glasses, showing a drawing of the creek, the bin without a lid and arrows of rain, while the principal listens and nods. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next day, they talk to the principal."
+            },
+            {
+              "html": "They draw a picture of the creek and the bin."
+            },
+            {
+              "html": "“The bin is next to the creek,” María explains."
+            },
+            {
+              "html": "“It doesn’t have a lid.”"
+            },
+            {
+              "html": "“When it rains, the trash goes into the water.”"
+            },
+            {
+              "html": "The principal is surprised."
+            },
+            {
+              "html": "“Thank you for this information,” he says."
+            },
+            {
+              "html": "“I’m going to call the neighborhood leaders.”"
+            },
+            {
+              "html": "“And maybe we can <b>clean</b> the creek together.”"
+            },
+            {
+              "html": "Juan and María smile."
+            },
+            {
+              "html": "They are proud of their work."
+            }
+          ],
+          "wordCount": 77
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week38_grade06_page04.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Creek Behind Our School”, page 4. Scene based on: On a sunny Saturday, children from the school, parents and neighbors wearing gloves pick up bottles and bags from the creek, a new trash bin with a green lid stands next to the street, and Juan holds up a full bag while María points at a small fish in the clear water. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Saturday, there is a big clean-up day."
+            },
+            {
+              "html": "Students, parents, and neighbors come with gloves."
+            },
+            {
+              "html": "They take the bottles and bags out of the creek."
+            },
+            {
+              "html": "Juan finds one <b>bottle</b> under the bridge."
+            },
+            {
+              "html": "María finds a shoe between the rocks!"
+            },
+            {
+              "html": "The neighborhood leaders bring a new trash bin."
+            },
+            {
+              "html": "It has a strong green lid."
+            },
+            {
+              "html": "Now the rain can’t take the trash."
+            },
+            {
+              "html": "Two weeks later, the water is clear again."
+            },
+            {
+              "html": "María sees a small fish next to the rocks."
+            },
+            {
+              "html": "“The fish are back!” she shouts happily."
+            },
+            {
+              "html": "Juan runs to the bridge to see them."
+            }
+          ],
+          "wordCount": 92
+        }
+      ],
+      "practiceWords": [
+        "creek",
+        "rain",
+        "trash",
+        "water",
+        "bridge",
+        "rocks",
+        "bottle",
+        "bin",
+        "lid",
+        "clean"
+      ],
+      "vocabulary": [
+        {
+          "word": "creek",
+          "definition": "a small river (quebrada)"
+        },
+        {
+          "word": "rain",
+          "definition": "water that falls from clouds (lluvia)"
+        },
+        {
+          "word": "trash",
+          "definition": "things people throw away (basura)"
+        },
+        {
+          "word": "water",
+          "definition": "the clear liquid in rivers and the rain (agua)"
+        },
+        {
+          "word": "bridge",
+          "definition": "a structure that goes over water (puente)"
+        },
+        {
+          "word": "rocks",
+          "definition": "hard pieces of stone (rocas)"
+        },
+        {
+          "word": "bottle",
+          "definition": "a container for drinks (botella)"
+        },
+        {
+          "word": "bin",
+          "definition": "a container for trash (caneca)"
+        },
+        {
+          "word": "lid",
+          "definition": "the top part that covers a container (tapa)"
+        },
+        {
+          "word": "clean",
+          "definition": "to remove dirt or trash (limpiar)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "Where is the creek?",
+          "options": [
+            "Behind Juan’s school",
+            "In front of the principal’s office",
+            "Next to Juan’s house",
+            "Inside a big park"
+          ],
+          "answer": "Behind Juan’s school"
+        },
+        {
+          "skill": "sequence",
+          "question": "What happens AFTER Juan and María find the bin without a lid?",
+          "options": [
+            "They see bottles and a big bag in the creek again.",
+            "They talk to the principal and show him a drawing.",
+            "There is a lot of rain on the weekend.",
+            "They stand on the little wooden bridge."
+          ],
+          "answer": "They talk to the principal and show him a drawing."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “But the bin doesn’t have a lid.” A “lid” is…",
+          "options": [
+            "a small river behind a school",
+            "a hard piece of stone in a creek",
+            "the top part that covers a container",
+            "a container for drinks"
+          ],
+          "answer": "the top part that covers a container"
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the story mainly about?",
+          "options": [
+            "Two children catch fish in a creek after the rain.",
+            "A principal builds a new wooden bridge over the creek.",
+            "Neighbors buy new shoes for the students.",
+            "Two children find the cause of the trash in a creek."
+          ],
+          "answer": "Two children find the cause of the trash in a creek."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why does trash go into the creek when it rains?",
+          "options": [
+            "The bin next to the creek has no lid, so the rain carries the trash.",
+            "The fish bring trash from other rivers when the water is high.",
+            "People throw trash from the bridge every day.",
+            "The students throw their bottles in the creek at break time."
+          ],
+          "answer": "The bin next to the creek has no lid, so the rain carries the trash."
+        }
+      ],
+      "cover": "../assets/images/week38_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "The Snack Budget Challenge",
+      "minimumWordTarget": 400,
+      "wordCount": 409,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week38_grade07_page01.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Snack Budget Challenge”, page 1. Scene based on: At a small neighborhood corner store in Medellín after soccer practice, Camila, 12, Daniel, 12, and two friends in sports clothes stand at the counter looking at a few coins and bills in Camila's hand, a shelf of colorful snacks behind them. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Every Wednesday, Camila and Daniel go to soccer practice."
+            },
+            {
+              "html": "Two other friends, Juli and Pipe, go with them."
+            },
+            {
+              "html": "After practice, they’re always very hungry."
+            },
+            {
+              "html": "They share money to buy a <b>snack</b> together."
+            },
+            {
+              "html": "Every week, each friend gives five thousand pesos."
+            },
+            {
+              "html": "Their total <b>budget</b> is twenty thousand pesos."
+            },
+            {
+              "html": "Last Wednesday, they went to the corner store."
+            },
+            {
+              "html": "They bought four bags of <b>chips</b> and four sodas."
+            },
+            {
+              "html": "They spent all the money in two minutes."
+            },
+            {
+              "html": "The chips were salty, and the sodas were very sweet."
+            },
+            {
+              "html": "But one hour later, they were hungry again."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week38_grade07_page02.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Snack Budget Challenge”, page 2. Scene based on: The four friends sit on the sidewalk outside the store holding empty chip bags and soda cans, looking tired and hungry, while Daniel looks at a small paper receipt with only coin icons and lines. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "This Wednesday, they were at the store again."
+            },
+            {
+              "html": "“Let’s buy chips and sodas,” Juli said."
+            },
+            {
+              "html": "Daniel had a question first."
+            },
+            {
+              "html": "“What did we buy last week?” he asked."
+            },
+            {
+              "html": "“Chips and sodas,” Pipe answered."
+            },
+            {
+              "html": "“How much did we <b>spend</b>?” Daniel asked."
+            },
+            {
+              "html": "“All of it. Twenty thousand pesos,” Camila said."
+            },
+            {
+              "html": "“And did we feel full after?”"
+            },
+            {
+              "html": "Everyone was quiet. “No. We were hungry again.”"
+            },
+            {
+              "html": "Juli laughed. “And we were thirsty too!”"
+            },
+            {
+              "html": "Daniel showed them last week’s <b>receipt</b>."
+            }
+          ],
+          "wordCount": 75
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week38_grade07_page03.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Snack Budget Challenge”, page 3. Scene based on: Inside the corner store, Daniel and Camila look at the prices on small handwritten cards next to empanadas, bananas, mangoes and chips, drawn only with coin icons, while the friendly store owner smiles behind the counter. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniel looked at the prices in the store."
+            },
+            {
+              "html": "“Each bag of chips costs two thousand five hundred,” he said."
+            },
+            {
+              "html": "“Each soda costs two thousand five hundred too.”"
+            },
+            {
+              "html": "Camila looked at other food."
+            },
+            {
+              "html": "“What’s the <b>price</b> of an <b>empanada</b>?” she asked the owner."
+            },
+            {
+              "html": "“One thousand five hundred each,” the owner said."
+            },
+            {
+              "html": "“And the mangoes are one thousand each.”"
+            },
+            {
+              "html": "“Bananas are five hundred each.”"
+            },
+            {
+              "html": "Daniel did some math in his head."
+            },
+            {
+              "html": "“With empanadas and <b>fruit</b>, we can eat much more!”"
+            }
+          ],
+          "wordCount": 78
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week38_grade07_page04.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Snack Budget Challenge”, page 4. Scene based on: At the store counter, the four friends happily choose eight empanadas, four mangoes and four bananas, and the owner gives Camila a few coins back, while Juli holds a big bottle of water. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They decided to try something new."
+            },
+            {
+              "html": "They bought eight empanadas, four mangoes, and four bananas."
+            },
+            {
+              "html": "They also bought a big bottle of water."
+            },
+            {
+              "html": "The <b>total</b> was eighteen thousand pesos."
+            },
+            {
+              "html": "The owner gave Camila two thousand pesos in <b>change</b>."
+            },
+            {
+              "html": "“What did you buy today?” the owner asked, smiling."
+            },
+            {
+              "html": "“Real food!” Pipe laughed."
+            },
+            {
+              "html": "They sat in the park and ate everything."
+            },
+            {
+              "html": "The empanadas were hot and delicious."
+            },
+            {
+              "html": "The mangoes were sweet and juicy."
+            }
+          ],
+          "wordCount": 71
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week38_grade07_page05.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Snack Budget Challenge”, page 5. Scene based on: In a sunny park, the four friends sit on the grass eating empanadas and mangoes and laughing, while Daniel puts two thousand pesos into a small jar labelled only with a soccer ball drawing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "One hour later, nobody was hungry."
+            },
+            {
+              "html": "“Why didn’t we do this before?” Juli asked."
+            },
+            {
+              "html": "“We didn’t think about it,” Camila said."
+            },
+            {
+              "html": "“We only bought what we always bought.”"
+            },
+            {
+              "html": "Daniel put the two thousand pesos in a small jar."
+            },
+            {
+              "html": "“What did you do with the change?” Pipe asked."
+            },
+            {
+              "html": "“I saved it for the team,” Daniel said."
+            },
+            {
+              "html": "“In ten weeks, we can buy a new ball!”"
+            },
+            {
+              "html": "Everybody liked that idea."
+            },
+            {
+              "html": "Pipe wanted a blue ball, and Juli wanted a white one."
+            },
+            {
+              "html": "Now they ask two questions every Wednesday."
+            },
+            {
+              "html": "“What did we buy last time? Did it work?”"
+            }
+          ],
+          "wordCount": 95
+        }
+      ],
+      "practiceWords": [
+        "snack",
+        "budget",
+        "spend",
+        "price",
+        "chips",
+        "empanada",
+        "fruit",
+        "change",
+        "total",
+        "receipt"
+      ],
+      "vocabulary": [
+        {
+          "word": "snack",
+          "definition": "a small amount of food between meals (refrigerio)"
+        },
+        {
+          "word": "budget",
+          "definition": "the amount of money you plan to spend (presupuesto)"
+        },
+        {
+          "word": "spend",
+          "definition": "to use money to buy things (gastar)"
+        },
+        {
+          "word": "price",
+          "definition": "how much money something costs (precio)"
+        },
+        {
+          "word": "chips",
+          "definition": "thin, crispy fried potatoes in a bag (papitas)"
+        },
+        {
+          "word": "empanada",
+          "definition": "a fried pastry filled with meat or potato (empanada)"
+        },
+        {
+          "word": "fruit",
+          "definition": "sweet food from plants, like mangoes and bananas (fruta)"
+        },
+        {
+          "word": "change",
+          "definition": "the money you get back after paying (vueltas)"
+        },
+        {
+          "word": "total",
+          "definition": "the whole amount (total)"
+        },
+        {
+          "word": "receipt",
+          "definition": "a paper that shows what you paid (recibo)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "How much money do the four friends have for snacks?",
+          "options": [
+            "Five thousand pesos",
+            "Twenty thousand pesos",
+            "Eighteen thousand pesos",
+            "Two thousand pesos"
+          ],
+          "answer": "Twenty thousand pesos"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "Why were the friends hungry again after last week’s snack?",
+          "options": [
+            "They gave their chips and sodas to another team.",
+            "The store didn’t have any food that day.",
+            "Chips and sodas didn’t make them feel full.",
+            "They didn’t buy anything at the store."
+          ],
+          "answer": "Chips and sodas didn’t make them feel full."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main idea of the story?",
+          "options": [
+            "Chips are the best snack after soccer practice.",
+            "Corner stores only sell empanadas and mangoes to soccer players.",
+            "Soccer players should never eat anything after their practice.",
+            "Thinking about past choices helped four friends spend their money better."
+          ],
+          "answer": "Thinking about past choices helped four friends spend their money better."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why did Daniel save the two thousand pesos?",
+          "options": [
+            "He wanted to buy a new ball for the team in ten weeks.",
+            "He wanted to buy more chips and sodas the next week.",
+            "The owner asked him to keep the change.",
+            "Camila asked him to buy her a soda."
+          ],
+          "answer": "He wanted to buy a new ball for the team in ten weeks."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “The owner gave Camila two thousand pesos in change.” “Change” means…",
+          "options": [
+            "the amount of money you plan to spend",
+            "the money you get back after paying",
+            "a paper that shows what you paid",
+            "a fried pastry with meat or potato"
+          ],
+          "answer": "the money you get back after paying"
+        }
+      ],
+      "cover": "../assets/images/week38_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "We Are Going to Save for It",
+      "minimumWordTarget": 450,
+      "wordCount": 505,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week38_grade08_page01.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “We Are Going to Save for It”, page 1. Scene based on: In a small public school classroom in Medellín used by the media club, Andrés, 13, Laura, 13, and two classmates sit around an old laptop recording with a phone, while Andrés holds a picture of a professional microphone with a big price tag icon. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Andrés and Laura are in the school media <b>club</b>."
+            },
+            {
+              "html": "They’re going to start a school <b>podcast</b>."
+            },
+            {
+              "html": "The podcast is going to have interviews and school news."
+            },
+            {
+              "html": "But they have a problem."
+            },
+            {
+              "html": "They record with an old phone, and the sound is bad."
+            },
+            {
+              "html": "Andrés finds a professional <b>microphone</b> online."
+            },
+            {
+              "html": "“We need this, and a tripod too,” he says."
+            },
+            {
+              "html": "“The <b>equipment</b> costs three hundred thousand pesos.”"
+            },
+            {
+              "html": "The club has only forty thousand pesos."
+            },
+            {
+              "html": "“We’re never going to have that much money,” a boy says."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week38_grade08_page02.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “We Are Going to Save for It”, page 2. Scene based on: The media club members sit around a table looking at a whiteboard where Laura has drawn a simple goal thermometer with coin icons, while Andrés crosses his arms looking discouraged. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura doesn’t give up easily."
+            },
+            {
+              "html": "“Let’s make a <b>plan</b>,” she says."
+            },
+            {
+              "html": "She draws a big thermometer on the whiteboard."
+            },
+            {
+              "html": "“Our <b>goal</b> is three hundred thousand pesos,” she says."
+            },
+            {
+              "html": "“We’re going to color the thermometer every week.”"
+            },
+            {
+              "html": "“How are we going to get the money?” Andrés asks."
+            },
+            {
+              "html": "“We’re going to <b>save</b>, and we’re going to <b>earn</b> money too.”"
+            },
+            {
+              "html": "“But first, a question,” Laura says."
+            },
+            {
+              "html": "“Are we going to buy the most expensive microphone?”"
+            },
+            {
+              "html": "“Is it really the best one for us?”"
+            }
+          ],
+          "wordCount": 80
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week38_grade08_page03.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “We Are Going to Save for It”, page 3. Scene based on: Laura and Andrés sit in front of a laptop in the school library comparing three microphones shown as pictures with star icons and coin icons, Laura pointing at a smaller, cheaper one with high stars. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They decide to <b>compare</b> different microphones."
+            },
+            {
+              "html": "They watch reviews and read about podcast equipment."
+            },
+            {
+              "html": "The expensive microphone is for professional studios."
+            },
+            {
+              "html": "“We’re not going to record in a studio,” Laura says."
+            },
+            {
+              "html": "“We’re going to record in a classroom.”"
+            },
+            {
+              "html": "They find a smaller microphone with very good reviews."
+            },
+            {
+              "html": "It costs one hundred twenty thousand pesos."
+            },
+            {
+              "html": "They also find a simple tripod for thirty thousand."
+            },
+            {
+              "html": "“So we’re going to need one hundred fifty thousand,” Andrés says."
+            },
+            {
+              "html": "“That’s half of the first price!”"
+            },
+            {
+              "html": "The goal is suddenly much smaller."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week38_grade08_page04.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “We Are Going to Save for It”, page 4. Scene based on: In the school courtyard during a school event, the media club runs a small stand selling homemade empanadas and lemonade, Andrés taking coins from students and Laura pouring lemonade, a colorful hand-drawn banner with a microphone drawing above them. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Now they have a new plan."
+            },
+            {
+              "html": "Every member is going to save five thousand pesos a week."
+            },
+            {
+              "html": "They’re also going to organize a <b>fundraiser</b>."
+            },
+            {
+              "html": "At the school fair, they’re going to sell empanadas and lemonade."
+            },
+            {
+              "html": "Laura’s grandmother is going to teach them her empanada recipe."
+            },
+            {
+              "html": "On fair day, the stand is very busy."
+            },
+            {
+              "html": "Students and teachers buy empanadas and lemonade."
+            },
+            {
+              "html": "Andrés is taking money, and Laura is serving drinks."
+            },
+            {
+              "html": "At the end of the day, they count the money."
+            },
+            {
+              "html": "They earned sixty thousand pesos!"
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week38_grade08_page05.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “We Are Going to Save for It”, page 5. Scene based on: In the media club room, Laura colors the goal thermometer on the whiteboard almost to the top while the club members cheer, and Andrés holds an envelope with bills and coins, smiling. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "After three weeks, they count everything again."
+            },
+            {
+              "html": "They have forty thousand from the beginning."
+            },
+            {
+              "html": "They saved sixty thousand from weekly savings."
+            },
+            {
+              "html": "They earned sixty thousand at the fair."
+            },
+            {
+              "html": "“That’s one hundred sixty thousand pesos!” Laura says."
+            },
+            {
+              "html": "She colors the thermometer to the top."
+            },
+            {
+              "html": "“We’re going to have ten thousand pesos extra,” Andrés says."
+            },
+            {
+              "html": "“What are we going to do with it?” a boy asks."
+            },
+            {
+              "html": "“We’re going to buy a cable,” Laura says."
+            },
+            {
+              "html": "“And a foam cover for the microphone.”"
+            },
+            {
+              "html": "“The cover is going to make the sound clearer.”"
+            },
+            {
+              "html": "Everyone cheers."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week38_grade08_page06.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “We Are Going to Save for It”, page 6. Scene based on: In a quiet classroom, Andrés and Laura record the first episode of the school podcast with the new microphone on a small tripod and headphones on, smiling, while two classmates wait to be interviewed. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "One week later, the new microphone arrives."
+            },
+            {
+              "html": "They’re going to record their first episode today."
+            },
+            {
+              "html": "Andrés puts on the headphones and tests the sound."
+            },
+            {
+              "html": "“Wow. It’s so clear!” he says."
+            },
+            {
+              "html": "Their first guest is the school cook."
+            },
+            {
+              "html": "She’s going to talk about her famous empanada recipe."
+            },
+            {
+              "html": "Laura asks the questions, and Andrés controls the sound."
+            },
+            {
+              "html": "After the recording, Andrés is thoughtful."
+            },
+            {
+              "html": "“I almost gave up on the first day,” he says."
+            },
+            {
+              "html": "“A big goal looked impossible.”"
+            },
+            {
+              "html": "“Small steps made it possible,” Laura answers."
+            }
+          ],
+          "wordCount": 83
+        }
+      ],
+      "practiceWords": [
+        "club",
+        "equipment",
+        "microphone",
+        "podcast",
+        "save",
+        "goal",
+        "earn",
+        "fundraiser",
+        "compare",
+        "plan"
+      ],
+      "vocabulary": [
+        {
+          "word": "club",
+          "definition": "a group of people who meet to do an activity (club)"
+        },
+        {
+          "word": "equipment",
+          "definition": "the tools you need for an activity (equipo)"
+        },
+        {
+          "word": "microphone",
+          "definition": "a device that records your voice (micrófono)"
+        },
+        {
+          "word": "podcast",
+          "definition": "an audio program you can listen to online (pódcast)"
+        },
+        {
+          "word": "save",
+          "definition": "to keep money for later (ahorrar)"
+        },
+        {
+          "word": "goal",
+          "definition": "something you want to achieve (meta)"
+        },
+        {
+          "word": "earn",
+          "definition": "to get money for work (ganar)"
+        },
+        {
+          "word": "fundraiser",
+          "definition": "an event to collect money for a project (actividad para recaudar fondos)"
+        },
+        {
+          "word": "compare",
+          "definition": "to look at differences and similarities (comparar)"
+        },
+        {
+          "word": "plan",
+          "definition": "a list of steps to reach a goal (plan)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "How much did the club finally need for the new equipment?",
+          "options": [
+            "Sixty thousand pesos",
+            "Three hundred sixty thousand pesos",
+            "One hundred fifty thousand pesos",
+            "Three hundred thousand pesos"
+          ],
+          "answer": "One hundred fifty thousand pesos"
+        },
+        {
+          "skill": "inference",
+          "question": "Why did Laura ask if they were going to buy the most expensive microphone?",
+          "options": [
+            "She wanted to keep the club’s money for herself and her friends.",
+            "She thought that the expensive microphone in the store was broken.",
+            "She didn’t want the club to have a podcast.",
+            "She wanted to check if they really needed professional studio equipment."
+          ],
+          "answer": "She wanted to check if they really needed professional studio equipment."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the comparison of microphones?",
+          "options": [
+            "To show that comparing options made the goal smaller and possible.",
+            "To show that cheap microphones are always bad for school podcasts.",
+            "To show that Andrés knows a lot about technology.",
+            "To explain how professional studios record music and podcasts."
+          ],
+          "answer": "To show that comparing options made the goal smaller and possible."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main idea of the story?",
+          "options": [
+            "Students should always buy the most expensive equipment possible.",
+            "A clear plan and small steps helped a club reach its goal.",
+            "School podcasts should only interview cooks.",
+            "Fundraisers are the only way to get money for clubs."
+          ],
+          "answer": "A clear plan and small steps helped a club reach its goal."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “They’re also going to organize a fundraiser.” A “fundraiser” is…",
+          "options": [
+            "a device that records your voice",
+            "an audio program you can listen to",
+            "an event to collect money for a project",
+            "the tools and things you need for an activity"
+          ],
+          "answer": "an event to collect money for a project"
+        }
+      ],
+      "cover": "../assets/images/week38_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "The Route Which Saved Us Time",
+      "minimumWordTarget": 500,
+      "wordCount": 510,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week38_grade09_page01.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Route Which Saved Us Time”, page 1. Scene based on: In a Medellín family apartment on Saturday night, Samuel, 14, and Valeria, 14, sit at a desk looking at a laptop map with two colored route lines of almost the same length leading to a stadium icon, Samuel pointing confidently at the blue route. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Samuel’s cousin was playing in a youth soccer final on Sunday."
+            },
+            {
+              "html": "The final was at the big <b>stadium</b> in Medellín."
+            },
+            {
+              "html": "It was starting at nine in the morning."
+            },
+            {
+              "html": "Samuel and Valeria wanted to watch it together."
+            },
+            {
+              "html": "On Saturday night, they planned the <b>route</b>."
+            },
+            {
+              "html": "The map showed two routes which looked very similar."
+            },
+            {
+              "html": "The blue route used a bus on a big <b>avenue</b>."
+            },
+            {
+              "html": "The green route used the Metro and then a short walk."
+            },
+            {
+              "html": "“The blue route is faster. It’s only thirty minutes,” Samuel said."
+            },
+            {
+              "html": "“The bus that stops near my house goes directly there.”"
+            },
+            {
+              "html": "Valeria looked at the map more carefully."
+            }
+          ],
+          "wordCount": 101
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week38_grade09_page02.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Route Which Saved Us Time”, page 2. Scene based on: Valeria zooms in on the laptop map and points at a small icon of a bicycle on the avenue, while Samuel leans back with his arms crossed, unconvinced. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valeria noticed a small <b>detail</b> on the map."
+            },
+            {
+              "html": "There was a tiny bicycle icon on the avenue."
+            },
+            {
+              "html": "“What’s this little symbol?” she asked."
+            },
+            {
+              "html": "Samuel shrugged. “It’s nothing. Maybe a bike shop.”"
+            },
+            {
+              "html": "Valeria clicked on it."
+            },
+            {
+              "html": "A message appeared on the screen."
+            },
+            {
+              "html": "“Sundays: avenue closed to cars, 7 a.m. to 1 p.m.”"
+            },
+            {
+              "html": "“It’s the <b>cycle route</b>,” Valeria said."
+            },
+            {
+              "html": "“On Sundays, the avenue which the bus uses is closed.”"
+            },
+            {
+              "html": "Samuel didn’t believe it. “The bus always goes there.”"
+            },
+            {
+              "html": "“On weekdays, yes. On Sundays, maybe not,” she said."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week38_grade09_page03.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Route Which Saved Us Time”, page 3. Scene based on: Samuel and Valeria look at the bus company's website on the laptop showing only a bus icon, an arrow taking a long curved path and a clock, Samuel's face changing from confident to surprised. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They checked the bus company’s website."
+            },
+            {
+              "html": "There was a special Sunday schedule."
+            },
+            {
+              "html": "On Sundays, that bus takes a <b>detour</b>."
+            },
+            {
+              "html": "It uses smaller streets which have a lot of <b>traffic</b>."
+            },
+            {
+              "html": "The trip takes almost one hour on Sundays."
+            },
+            {
+              "html": "“So the route which looked faster is slower,” Samuel said."
+            },
+            {
+              "html": "“Only on Sundays,” Valeria said with a smile."
+            },
+            {
+              "html": "They looked at the green route again."
+            },
+            {
+              "html": "The Metro isn’t affected by the <b>closure</b>."
+            },
+            {
+              "html": "The station which is near the stadium is very close."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week38_grade09_page04.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Route Which Saved Us Time”, page 4. Scene based on: On Sunday morning, Samuel and Valeria ride a clean Medellín Metro train with families in soccer jerseys, then walk from a station toward the stadium, which is visible in the morning sun. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Sunday, they took the green route."
+            },
+            {
+              "html": "They walked to the Metro station that is near Valeria’s house."
+            },
+            {
+              "html": "The train was full of families in soccer jerseys."
+            },
+            {
+              "html": "The trip was fast and easy."
+            },
+            {
+              "html": "They got off at the station which is near the stadium."
+            },
+            {
+              "html": "They walked for five minutes."
+            },
+            {
+              "html": "They arrived at 8:35, before the game started."
+            },
+            {
+              "html": "“Twenty-five minutes early,” Valeria said."
+            },
+            {
+              "html": "“Perfect time to find good seats.”"
+            },
+            {
+              "html": "Samuel was happy, but he was thinking."
+            },
+            {
+              "html": "He was thinking about the plan which he almost chose."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week38_grade09_page05.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Route Which Saved Us Time”, page 5. Scene based on: From a window of the stadium seats, Samuel and Valeria look down at the avenue outside, which is full of cyclists, runners and families walking on the closed road, with no buses, under a sunny sky. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "From their seats, they could see the avenue."
+            },
+            {
+              "html": "It was full of cyclists, runners, and families."
+            },
+            {
+              "html": "There weren’t any cars or buses on it."
+            },
+            {
+              "html": "“If we took the bus, we’d be stuck,” Samuel said."
+            },
+            {
+              "html": "“We would <b>arrive</b> after the first half.”"
+            },
+            {
+              "html": "Then Samuel’s phone buzzed."
+            },
+            {
+              "html": "It was a message from another cousin."
+            },
+            {
+              "html": "“I’m on the bus. It took a long detour. I’m late!”"
+            },
+            {
+              "html": "Samuel showed Valeria the message."
+            },
+            {
+              "html": "She laughed and shook her head."
+            },
+            {
+              "html": "“That’s the problem which we avoided,” she said."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week38_grade09_page06.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Route Which Saved Us Time”, page 6. Scene based on: After the game, Samuel's cousin, a teenager in a sweaty soccer uniform with a medal, celebrates with Samuel and Valeria outside the stadium, while families walk toward the Metro station in the background. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The final was exciting."
+            },
+            {
+              "html": "Samuel’s cousin’s team won two to one!"
+            },
+            {
+              "html": "After the game, they celebrated outside the stadium."
+            },
+            {
+              "html": "Samuel thanked Valeria on the way home."
+            },
+            {
+              "html": "“You saw the detail which I ignored,” he said."
+            },
+            {
+              "html": "“I only looked at the time on the map.”"
+            },
+            {
+              "html": "“You looked at the information which was hidden.”"
+            },
+            {
+              "html": "“Routes can <b>connect</b> the same places,” Valeria said."
+            },
+            {
+              "html": "“But the best route changes with the day.”"
+            },
+            {
+              "html": "Samuel laughed. “Next time, I’ll click on every little icon.”"
+            }
+          ],
+          "wordCount": 78
+        }
+      ],
+      "practiceWords": [
+        "route",
+        "stadium",
+        "avenue",
+        "closure",
+        "detail",
+        "cycle route",
+        "detour",
+        "connect",
+        "arrive",
+        "traffic"
+      ],
+      "vocabulary": [
+        {
+          "word": "route",
+          "definition": "the way from one place to another (ruta)"
+        },
+        {
+          "word": "stadium",
+          "definition": "a big place for sports games (estadio)"
+        },
+        {
+          "word": "avenue",
+          "definition": "a wide street in a city (avenida)"
+        },
+        {
+          "word": "closure",
+          "definition": "the act of closing a road (cierre)"
+        },
+        {
+          "word": "detail",
+          "definition": "a small fact or part (detalle)"
+        },
+        {
+          "word": "cycle route",
+          "definition": "streets closed to cars for bikes on Sundays (ciclovía)"
+        },
+        {
+          "word": "detour",
+          "definition": "a different, longer route (desvío)"
+        },
+        {
+          "word": "connect",
+          "definition": "to join two places or things (conectar)"
+        },
+        {
+          "word": "arrive",
+          "definition": "to reach a place (llegar)"
+        },
+        {
+          "word": "traffic",
+          "definition": "the cars and buses on the road (tráfico)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Why does the bus take a detour on Sundays?",
+          "options": [
+            "The bus company changes its drivers on Sundays.",
+            "There is construction on the avenue every weekend.",
+            "The stadium is closed on Sunday mornings.",
+            "The avenue is closed to cars for the cycle route."
+          ],
+          "answer": "The avenue is closed to cars for the cycle route."
+        },
+        {
+          "skill": "inference",
+          "question": "Why did Samuel first prefer the blue route?",
+          "options": [
+            "The map showed it was faster and the bus stopped near his house.",
+            "He wanted to see the cyclists and runners on the avenue.",
+            "Valeria told him that the bus was faster on Sunday mornings.",
+            "He didn’t like taking the Metro."
+          ],
+          "answer": "The map showed it was faster and the bus stopped near his house."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "How is the green route different from the blue route on Sundays?",
+          "options": [
+            "The green route uses the avenue that is closed.",
+            "The Metro is not affected by the closure, so it is faster.",
+            "The green route is only for cyclists and runners on Sunday.",
+            "The green route takes almost one hour."
+          ],
+          "answer": "The Metro is not affected by the closure, so it is faster."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main message of the text?",
+          "options": [
+            "Buses are always slower than the Metro in Medellín.",
+            "People should never use maps to plan a trip.",
+            "Small details can change which route is really better.",
+            "Soccer finals should not happen on Sunday mornings."
+          ],
+          "answer": "Small details can change which route is really better."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “On Sundays, that bus takes a detour.” A “detour” is…",
+          "options": [
+            "a big place for sports games",
+            "a small bicycle icon on a map",
+            "the cars and buses on the road",
+            "a different, longer route"
+          ],
+          "answer": "a different, longer route"
+        }
+      ],
+      "cover": "../assets/images/week38_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "The Noise Map of Our Neighborhood",
+      "minimumWordTarget": 600,
+      "wordCount": 609,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week38_grade10_page01.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Noise Map of Our Neighborhood”, page 1. Scene based on: In a public school classroom in Medellín facing a busy street, students cover their ears during an exam as loud construction noise comes through the open windows, while Laura, 16, frowns at her exam paper and Andrés, 16, looks at the window. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Tuesday, Laura’s class had a math exam."
+            },
+            {
+              "html": "The windows were open because it was hot."
+            },
+            {
+              "html": "Outside, a <b>construction</b> machine started drilling."
+            },
+            {
+              "html": "The <b>noise</b> was terrible."
+            },
+            {
+              "html": "Buses and motorcycles were passing on the street too."
+            },
+            {
+              "html": "Laura couldn’t <b>concentrate</b> on her exam."
+            },
+            {
+              "html": "After the exam, many students complained."
+            },
+            {
+              "html": "“If this continues, our grades will go down,” Laura said."
+            },
+            {
+              "html": "Andrés agreed, but he had a question."
+            },
+            {
+              "html": "“Is the noise always this bad? Or only sometimes?”"
+            },
+            {
+              "html": "Nobody knew the answer."
+            }
+          ],
+          "wordCount": 77
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week38_grade10_page02.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Noise Map of Our Neighborhood”, page 2. Scene based on: Laura and Andrés sit in the school science lab with their science teacher, who shows them a phone app with a sound level meter icon and a needle, explaining how to use it. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They decided to investigate."
+            },
+            {
+              "html": "Their science teacher showed them a phone app."
+            },
+            {
+              "html": "It can <b>measure</b> sound in <b>decibel</b>s."
+            },
+            {
+              "html": "“Above seventy decibels, it’s hard to study,” she said."
+            },
+            {
+              "html": "“If it’s above eighty-five for hours, it hurts ears.”"
+            },
+            {
+              "html": "“If you measure at different times, you will see patterns.”"
+            },
+            {
+              "html": "Laura and Andrés made a plan."
+            },
+            {
+              "html": "They chose five places around the school."
+            },
+            {
+              "html": "They measured four times each day."
+            },
+            {
+              "html": "They measured early, mid-morning, at noon, and after lunch."
+            },
+            {
+              "html": "They measured every day for two weeks."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week38_grade10_page03.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Noise Map of Our Neighborhood”, page 3. Scene based on: Laura holds up a phone with a sound meter app near the school entrance next to a busy bus stop, while Andrés writes numbers in a notebook; buses, motorcycles and a construction site with a drilling machine are visible behind them. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They collected a lot of <b>data</b>."
+            },
+            {
+              "html": "At 7 a.m., the bus stop was the loudest place."
+            },
+            {
+              "html": "Buses and motorcycles made eighty decibels there."
+            },
+            {
+              "html": "At 10 a.m., the construction site was the loudest."
+            },
+            {
+              "html": "The drilling machine made ninety decibels!"
+            },
+            {
+              "html": "At 12 p.m., the <b>traffic</b> was loud again."
+            },
+            {
+              "html": "At 3 p.m., the school was much quieter."
+            },
+            {
+              "html": "They drew a “noise map” with colors."
+            },
+            {
+              "html": "Red was very loud, and green was quiet."
+            },
+            {
+              "html": "The classrooms which faced the street were red."
+            },
+            {
+              "html": "The classrooms near the garden were green."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week38_grade10_page04.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Noise Map of Our Neighborhood”, page 4. Scene based on: Laura and Andrés present their colorful noise map, with red and green areas around a drawing of the school, to the principal and a few teachers in a meeting room, while the principal studies it carefully. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They presented the noise map to the principal."
+            },
+            {
+              "html": "“If we use the red rooms, students will suffer.”"
+            },
+            {
+              "html": "Laura pointed at the map as she spoke."
+            },
+            {
+              "html": "“If we move exams to the green rooms, it will help.”"
+            },
+            {
+              "html": "The principal looked at the map carefully."
+            },
+            {
+              "html": "“That’s a simple <b>solution</b>,” she said."
+            },
+            {
+              "html": "“But the green rooms are small.”"
+            },
+            {
+              "html": "Andrés had another idea."
+            },
+            {
+              "html": "“If we change the exam <b>schedule</b>, we can use the afternoons.”"
+            },
+            {
+              "html": "“At 3 p.m., the whole school is quieter.”"
+            },
+            {
+              "html": "The principal liked both ideas."
+            },
+            {
+              "html": "She asked the teachers to discuss them the next day."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week38_grade10_page05.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Noise Map of Our Neighborhood”, page 5. Scene based on: At the edge of the construction site next to the school, Laura and Andrés speak with the construction foreman, a man in his forties with a yellow helmet and a clipboard, showing him the noise map, while machines rest behind him. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura had one more idea."
+            },
+            {
+              "html": "“If we talk to the construction workers, maybe they will help.”"
+            },
+            {
+              "html": "The principal agreed to go with them."
+            },
+            {
+              "html": "They walked to the construction site and met the <b>foreman</b>."
+            },
+            {
+              "html": "Laura showed him the noise map."
+            },
+            {
+              "html": "“Your drilling is loudest at 10 a.m.,” she said."
+            },
+            {
+              "html": "“That’s when we have our main classes.”"
+            },
+            {
+              "html": "The foreman was surprised. He didn’t know about the school’s schedule."
+            },
+            {
+              "html": "“If you give us your dates, we’ll drill later.”"
+            },
+            {
+              "html": "He said it with a friendly smile."
+            },
+            {
+              "html": "“We can do the loud work during your break.”"
+            },
+            {
+              "html": "Laura couldn’t believe it was so easy."
+            },
+            {
+              "html": "The foreman wrote the exam dates on his clipboard."
+            }
+          ],
+          "wordCount": 107
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week38_grade10_page06.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Noise Map of Our Neighborhood”, page 6. Scene based on: Weeks later in a quiet classroom near the garden, students take an exam calmly while the windows show green plants, and Laura checks the sound meter app showing a low green needle, smiling at Andrés. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Two weeks later, the class had another exam."
+            },
+            {
+              "html": "It was in a green room near the garden."
+            },
+            {
+              "html": "The construction workers were drilling only during the break."
+            },
+            {
+              "html": "Laura measured the sound during the exam."
+            },
+            {
+              "html": "It was only fifty decibels."
+            },
+            {
+              "html": "Everyone was calm and focused."
+            },
+            {
+              "html": "Nobody covered their ears this time."
+            },
+            {
+              "html": "After the exam, students felt much better."
+            },
+            {
+              "html": "“If we didn’t measure, we would only complain,” Andrés said."
+            },
+            {
+              "html": "“The data made people listen,” Laura said."
+            },
+            {
+              "html": "“And the foreman was kind. We only needed to ask.”"
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week38_grade10_page07.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Noise Map of Our Neighborhood”, page 7. Scene based on: Laura and Andrés stand next to a school bulletin board where their colorful noise map is displayed with a small bar chart, while younger students look at it and a teacher points at the red and green areas. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The principal put the noise map on the bulletin board."
+            },
+            {
+              "html": "Other teachers started using it for their schedules."
+            },
+            {
+              "html": "A group of younger students asked Laura a question."
+            },
+            {
+              "html": "“Can we measure noise at our homes too?”"
+            },
+            {
+              "html": "“Yes! If you measure, you’ll understand your space better,” Laura said."
+            },
+            {
+              "html": "Andrés added one more idea."
+            },
+            {
+              "html": "“If we plant trees, they will block some noise.”"
+            },
+            {
+              "html": "The principal smiled. “That’s next semester’s project.”"
+            },
+            {
+              "html": "Laura and Andrés laughed."
+            },
+            {
+              "html": "They had a new project already."
+            },
+            {
+              "html": "This time, the data would come first."
+            }
+          ],
+          "wordCount": 84
+        }
+      ],
+      "practiceWords": [
+        "noise",
+        "decibel",
+        "measure",
+        "construction",
+        "concentrate",
+        "data",
+        "schedule",
+        "solution",
+        "traffic",
+        "foreman"
+      ],
+      "vocabulary": [
+        {
+          "word": "noise",
+          "definition": "a loud or unpleasant sound (ruido)"
+        },
+        {
+          "word": "decibel",
+          "definition": "a unit to measure how loud a sound is (decibel)"
+        },
+        {
+          "word": "measure",
+          "definition": "to find the size or amount of something (medir)"
+        },
+        {
+          "word": "construction",
+          "definition": "the work of building something (construcción)"
+        },
+        {
+          "word": "concentrate",
+          "definition": "to give all your attention to something (concentrarse)"
+        },
+        {
+          "word": "data",
+          "definition": "facts and numbers collected for study (datos)"
+        },
+        {
+          "word": "schedule",
+          "definition": "a plan with times for activities (horario)"
+        },
+        {
+          "word": "solution",
+          "definition": "a way to solve a problem (solución)"
+        },
+        {
+          "word": "traffic",
+          "definition": "the cars and buses on the road (tráfico)"
+        },
+        {
+          "word": "foreman",
+          "definition": "the person in charge of workers at a construction site (capataz)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What was the loudest noise they measured?",
+          "options": [
+            "The drilling machine at ninety decibels",
+            "The garden at fifty decibels",
+            "The traffic at noon at seventy decibels",
+            "The buses at eighty decibels"
+          ],
+          "answer": "The drilling machine at ninety decibels"
+        },
+        {
+          "skill": "inference",
+          "question": "Why did Andrés ask if the noise was “always this bad”?",
+          "options": [
+            "He wanted to change his math exam grade.",
+            "He wanted to find patterns with data instead of guessing.",
+            "He didn’t believe that the noise was a real problem for students.",
+            "He wanted to stop the construction immediately."
+          ],
+          "answer": "He wanted to find patterns with data instead of guessing."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the conversation with the foreman?",
+          "options": [
+            "To show that the principal is afraid of the foreman.",
+            "To show that construction workers don’t care about schools near them.",
+            "To show that sharing data can lead to cooperation and simple solutions.",
+            "To explain how drilling machines work."
+          ],
+          "answer": "To show that sharing data can lead to cooperation and simple solutions."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What is the relationship between the noise map and the new exam room?",
+          "options": [
+            "The map showed that the red rooms were better for important exams.",
+            "The exam room was used to draw and present the colorful noise map.",
+            "The map had no effect on where exams happened.",
+            "The map showed that the green rooms were quieter, so exams moved there."
+          ],
+          "answer": "The map showed that the green rooms were quieter, so exams moved there."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which statement best summarizes the text?",
+          "options": [
+            "Measuring the problem helped students find practical solutions.",
+            "Construction near schools should always be stopped by the city.",
+            "Students should only take their exams in the afternoon after lunch.",
+            "Noise has no effect on students’ concentration."
+          ],
+          "answer": "Measuring the problem helped students find practical solutions."
+        }
+      ],
+      "cover": "../assets/images/week38_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "The Night Hike That Taught Us Something",
+      "minimumWordTarget": 700,
+      "wordCount": 703,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week38_grade11_page01.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Night Hike That Taught Us Something”, page 1. Scene based on: In a meeting room of a public library in Medellín in the evening, a youth group of teenagers including Samuel, 17, and Laura, 17, sit in a circle with backpacks and flashlights while an experienced mountain guide in her forties explains rules with a simple drawn map of a trail. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Friday evening, Samuel’s youth group met at a public library."
+            },
+            {
+              "html": "They were preparing for a night <b>hike</b> on Saturday."
+            },
+            {
+              "html": "The hike was in the mountains of Santa Elena."
+            },
+            {
+              "html": "Twelve young people and two adults were going."
+            },
+            {
+              "html": "The <b>guide</b>, Marta, explained the rules carefully."
+            },
+            {
+              "html": "She told them that they had to stay together."
+            },
+            {
+              "html": "She said that each person needed a <b>flashlight</b>."
+            },
+            {
+              "html": "She explained that they would <b>count</b> everyone every twenty minutes."
+            },
+            {
+              "html": "“If you want to stop, tell the group first,” she said."
+            },
+            {
+              "html": "Samuel was excited, but he thought the rules were too strict."
+            },
+            {
+              "html": "“We’re seventeen, not seven,” he whispered to Laura."
+            },
+            {
+              "html": "Laura shook her head and smiled."
+            },
+            {
+              "html": "“Maybe the rules have a reason,” she said."
+            }
+          ],
+          "wordCount": 115
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week38_grade11_page02.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Night Hike That Taught Us Something”, page 2. Scene based on: On a dark forest trail at night in Santa Elena, the youth group walks in a line with flashlights shining on the path, the guide at the front and a second adult at the back, stars visible above the tall trees. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Saturday night, they started walking at eight."
+            },
+            {
+              "html": "The <b>trail</b> was dark, and the air was cold."
+            },
+            {
+              "html": "The flashlights made small circles of light."
+            },
+            {
+              "html": "The stars were bright above the trees."
+            },
+            {
+              "html": "Everyone was happy and quiet."
+            },
+            {
+              "html": "After twenty minutes, Marta stopped the group."
+            },
+            {
+              "html": "“Count off, please!” she said."
+            },
+            {
+              "html": "Everyone said a number, from one to fourteen."
+            },
+            {
+              "html": "Samuel rolled his eyes a little."
+            },
+            {
+              "html": "“Every twenty minutes?” he said quietly. “It’s boring.”"
+            }
+          ],
+          "wordCount": 70
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week38_grade11_page03.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Night Hike That Taught Us Something”, page 3. Scene based on: The group stops in a clearing at night, and the guide holds up her hand looking worried while teenagers shine flashlights around, and Laura points at an empty space in the line; one flashlight beam is missing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "One hour later, they stopped again to count."
+            },
+            {
+              "html": "“One, two, three...” The numbers continued."
+            },
+            {
+              "html": "But the last number was thirteen, not fourteen."
+            },
+            {
+              "html": "“Someone is missing,” Marta said."
+            },
+            {
+              "html": "Everyone looked around with their flashlights."
+            },
+            {
+              "html": "“Where’s Pablo?” Laura asked."
+            },
+            {
+              "html": "Pablo was a quiet boy who loved photography."
+            },
+            {
+              "html": "Nobody had seen him for several minutes."
+            },
+            {
+              "html": "Samuel felt his stomach drop."
+            },
+            {
+              "html": "The forest was very dark and very big."
+            },
+            {
+              "html": "Suddenly, the rule didn’t seem boring."
+            }
+          ],
+          "wordCount": 71
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week38_grade11_page04.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Night Hike That Taught Us Something”, page 4. Scene based on: The guide speaks calmly into a handheld radio while the group stays together in a tight circle with flashlights, and Samuel and Laura stand close to her, listening seriously in the dark forest. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Marta didn’t panic."
+            },
+            {
+              "html": "She took out her <b>radio</b> and called the second adult."
+            },
+            {
+              "html": "He was walking at the back of the group."
+            },
+            {
+              "html": "She told him that a boy was missing."
+            },
+            {
+              "html": "She asked him to check the last part of the trail."
+            },
+            {
+              "html": "Then she gave the group clear <b>instructions</b>."
+            },
+            {
+              "html": "She told them not to <b>separate</b> from each other."
+            },
+            {
+              "html": "She said that nobody should go into the forest alone."
+            },
+            {
+              "html": "She asked everyone to shout Pablo’s name together."
+            },
+            {
+              "html": "“Pablo! Pablo!” they shouted."
+            },
+            {
+              "html": "After a few seconds, a small light appeared between the trees."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week38_grade11_page05.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Night Hike That Taught Us Something”, page 5. Scene based on: A teenage boy with a camera around his neck, Pablo, walks out of the trees back to the trail with an embarrassed face, holding his flashlight, while the guide and the group shine their lights on him with relief. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "It was Pablo, with his camera around his neck."
+            },
+            {
+              "html": "He walked back to the trail slowly."
+            },
+            {
+              "html": "“I’m sorry,” he said. “I wanted a photo of the stars.”"
+            },
+            {
+              "html": "“I saw a perfect place, only fifty meters away.”"
+            },
+            {
+              "html": "“I thought I could come back in two minutes.”"
+            },
+            {
+              "html": "“But then I couldn’t find the trail in the dark.”"
+            },
+            {
+              "html": "Marta was calm but serious."
+            },
+            {
+              "html": "She told him that fifty meters at night is very far."
+            },
+            {
+              "html": "She explained that the forest looks the same in every direction."
+            },
+            {
+              "html": "Pablo looked at the ground, embarrassed."
+            },
+            {
+              "html": "He said that he hadn’t thought about the danger."
+            }
+          ],
+          "wordCount": 97
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week38_grade11_page06.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Night Hike That Taught Us Something”, page 6. Scene based on: In the forest clearing, the group sits on logs around the guide, who explains with a serious face, while Samuel looks thoughtful and Pablo sits next to Laura, and the night sky full of stars shines above. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Marta asked everyone to sit down for a moment."
+            },
+            {
+              "html": "She said that she wasn’t angry."
+            },
+            {
+              "html": "She told them that the rules weren’t about age."
+            },
+            {
+              "html": "She explained that even experienced hikers get lost at night."
+            },
+            {
+              "html": "“The count isn’t for children,” she said."
+            },
+            {
+              "html": "“It’s for the dark.”"
+            },
+            {
+              "html": "Samuel thought about his comment on Friday."
+            },
+            {
+              "html": "He said that he had thought the rules were unnecessary."
+            },
+            {
+              "html": "He admitted that he understood them now."
+            },
+            {
+              "html": "Marta smiled. “That’s why we practice them.”"
+            }
+          ],
+          "wordCount": 76
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week38_grade11_page07.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Night Hike That Taught Us Something”, page 7. Scene based on: Back at the trail entrance late at night, the whole group counts off one more time in a line under a single lamp post, everyone smiling and tired, while Pablo shows Laura one photo of the stars on his camera. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They continued the hike, closer together this time."
+            },
+            {
+              "html": "At the end of the trail, they counted one last time."
+            },
+            {
+              "html": "“Fourteen!” said the last person."
+            },
+            {
+              "html": "Everyone clapped."
+            },
+            {
+              "html": "Pablo showed Laura one photo on his camera."
+            },
+            {
+              "html": "It was a beautiful picture of the stars."
+            },
+            {
+              "html": "“Was it worth it?” Laura asked."
+            },
+            {
+              "html": "“No,” Pablo said. “I scared everyone.”"
+            },
+            {
+              "html": "“Next time, I’ll ask the group to stop with me.”"
+            },
+            {
+              "html": "Marta said that they could all stop for photos next time."
+            },
+            {
+              "html": "Pablo smiled for the first time since he came back."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week38_grade11_page08.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Night Hike That Taught Us Something”, page 8. Scene based on: Days later at the library meeting room, Samuel stands next to a whiteboard with a simple drawing of a line of people, a flashlight and a number count, presenting a short report to the youth group while Laura and Pablo listen. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next week, the youth group met again."
+            },
+            {
+              "html": "Each member had to write a short <b>report</b> about the hike."
+            },
+            {
+              "html": "Samuel read his report to the group."
+            },
+            {
+              "html": "He said that the most important lesson was about <b>safety</b>."
+            },
+            {
+              "html": "He explained that he had thought the rules were too strict."
+            },
+            {
+              "html": "He said that he had learned they had a purpose."
+            },
+            {
+              "html": "He reported that Pablo had separated for a photo."
+            },
+            {
+              "html": "He also said that Marta had stayed calm and organized."
+            },
+            {
+              "html": "“Rules can feel boring when nothing goes wrong,” he read."
+            },
+            {
+              "html": "“But they’re made for the moment when something does.”"
+            },
+            {
+              "html": "Everyone applauded, including Pablo."
+            }
+          ],
+          "wordCount": 99
+        }
+      ],
+      "practiceWords": [
+        "hike",
+        "guide",
+        "flashlight",
+        "instructions",
+        "count",
+        "separate",
+        "radio",
+        "trail",
+        "report",
+        "safety"
+      ],
+      "vocabulary": [
+        {
+          "word": "hike",
+          "definition": "a long walk in nature (caminata)"
+        },
+        {
+          "word": "guide",
+          "definition": "a person who leads visitors (guía)"
+        },
+        {
+          "word": "flashlight",
+          "definition": "a small light you carry in your hand (linterna)"
+        },
+        {
+          "word": "instructions",
+          "definition": "information about how to do something (instrucciones)"
+        },
+        {
+          "word": "count",
+          "definition": "to say numbers to know how many there are (contar)"
+        },
+        {
+          "word": "separate",
+          "definition": "to move apart from a group (separarse)"
+        },
+        {
+          "word": "radio",
+          "definition": "a device to talk with people far away (radio)"
+        },
+        {
+          "word": "trail",
+          "definition": "a path in nature for walking (sendero)"
+        },
+        {
+          "word": "report",
+          "definition": "a description of what happened (informe)"
+        },
+        {
+          "word": "safety",
+          "definition": "being protected from danger (seguridad)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "Why did Pablo leave the group?",
+          "options": [
+            "He wanted to walk faster than the group.",
+            "He wanted to take a photo of the stars.",
+            "He was tired and wanted to go home.",
+            "He heard a strange animal in the forest."
+          ],
+          "answer": "He wanted to take a photo of the stars."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "Why did Samuel think the rules were too strict at first?",
+          "options": [
+            "The guide was rude to the group at the library on Friday.",
+            "He didn’t want to bring a flashlight.",
+            "He thought the rules were for young children, not for him.",
+            "He was afraid of walking in the dark."
+          ],
+          "answer": "He thought the rules were for young children, not for him."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the guide’s sentence “The count isn’t for children. It’s for the dark”?",
+          "options": [
+            "To show that the guide wants to stop the hike and go home early.",
+            "To explain how to take good photos of the stars at night.",
+            "To show that the guide thinks the group is childish.",
+            "To explain that the rules exist because of the dark, not age."
+          ],
+          "answer": "To explain that the rules exist because of the dark, not age."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “She told them not to separate from each other.” “Separate” means…",
+          "options": [
+            "to move apart from a group",
+            "to talk on a radio",
+            "to shine a light in the dark",
+            "to count people in a line"
+          ],
+          "answer": "to move apart from a group"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which statement best expresses the central idea of the text?",
+          "options": [
+            "Guides should not give strict rules to older teenagers on hikes.",
+            "Safety rules may feel unnecessary until a real problem shows their purpose.",
+            "Photographers should never go on group hikes at night in the mountains.",
+            "Night hikes in the mountains are too dangerous for teenagers."
+          ],
+          "answer": "Safety rules may feel unnecessary until a real problem shows their purpose."
+        }
+      ],
+      "cover": "../assets/images/week38_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

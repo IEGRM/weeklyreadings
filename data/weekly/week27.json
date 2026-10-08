@@ -1,0 +1,2334 @@
+{
+  "week": 27,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 27",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "The Key Under the Flowerpot",
+      "minimumWordTarget": 350,
+      "wordCount": 440,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week27_grade06_page01.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Key Under the Flowerpot”, page 1. Scene based on: On the front steps of a small family home in Medellín, Laura, 11, kneels and lifts a red flowerpot, discovering a small silver key with a blue ribbon; her neighbor Tomás, 11, leans over the low wall, curious. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "It is Monday afternoon in Medellín."
+            },
+            {
+              "html": "Laura comes home from school at four."
+            },
+            {
+              "html": "Her mother is at work, and her grandmother is inside."
+            },
+            {
+              "html": "There is a red <b>flowerpot</b> next to the front steps."
+            },
+            {
+              "html": "The flowerpot is a little crooked today."
+            },
+            {
+              "html": "Laura moves it, and something shines under it."
+            },
+            {
+              "html": "It is a small silver <b>key</b> with a blue bow."
+            },
+            {
+              "html": "“Is this our key?” Laura asks herself."
+            },
+            {
+              "html": "Her family’s keys are always in a bowl inside."
+            },
+            {
+              "html": "Tomás, her friend from next door, looks over the wall."
+            },
+            {
+              "html": "“Hi, Laura! What is that?” he asks."
+            },
+            {
+              "html": "“It is a key, but it is not mine,” she says."
+            },
+            {
+              "html": "“My key is in my backpack.”"
+            },
+            {
+              "html": "Tomás is curious, so he comes over."
+            }
+          ],
+          "wordCount": 115
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week27_grade06_page02.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Key Under the Flowerpot”, page 2. Scene based on: In the bright kitchen of the family home, Laura and Tomás place five family keys in a row on the kitchen table next to the silver key, while Laura's grandmother in an apron watches with a smile, arepas on the stove. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura and Tomás go into the <b>kitchen</b>."
+            },
+            {
+              "html": "Grandma is making arepas for the afternoon."
+            },
+            {
+              "html": "Laura puts the silver key on the <b>table</b>."
+            },
+            {
+              "html": "“Grandma, is this your key?” she asks."
+            },
+            {
+              "html": "Grandma looks at it carefully."
+            },
+            {
+              "html": "“No, it is not my key,” she says."
+            },
+            {
+              "html": "“My key has a red ribbon.”"
+            },
+            {
+              "html": "Laura brings the family keys from the bowl."
+            },
+            {
+              "html": "This is Mom’s key, and this is Dad’s key."
+            },
+            {
+              "html": "This is Laura’s key, and this is Grandma’s key."
+            },
+            {
+              "html": "The silver key is different from all of them."
+            },
+            {
+              "html": "“So who does it <b>belong</b> to?” Tomás asks."
+            },
+            {
+              "html": "“Maybe it is your cousin’s key,” Grandma says."
+            },
+            {
+              "html": "Laura calls her cousin Ana, but the answer is no."
+            },
+            {
+              "html": "“My key is in my pocket,” Ana says."
+            }
+          ],
+          "wordCount": 117
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week27_grade06_page03.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Key Under the Flowerpot”, page 3. Scene based on: At the kitchen table, Laura and Tomás look closely at the silver key and its blue ribbon with a tiny cat keychain; through the window, a house across the street has a red flowerpot and a gray cat sitting on the windowsill. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Tomás looks at the key again."
+            },
+            {
+              "html": "There is a tiny cat on the blue <b>ribbon</b>."
+            },
+            {
+              "html": "“Wait, I know this cat!” Tomás says."
+            },
+            {
+              "html": "“Mrs. Rosa has a gray cat,” he says."
+            },
+            {
+              "html": "“Her cat’s name is Pelusa.”"
+            },
+            {
+              "html": "Mrs. Rosa is their <b>neighbor</b> across the street."
+            },
+            {
+              "html": "She is old, kind, and a little forgetful."
+            },
+            {
+              "html": "Laura remembers something important."
+            },
+            {
+              "html": "Mrs. Rosa’s house has a red flowerpot too."
+            },
+            {
+              "html": "“Maybe she put her key under the wrong pot.”"
+            },
+            {
+              "html": "Grandma nods. “That is possible. Let’s ask her.”"
+            },
+            {
+              "html": "Grandma takes her shawl, and they go together."
+            },
+            {
+              "html": "They do not cross the street alone."
+            },
+            {
+              "html": "Laura knocks on Mrs. Rosa’s green <b>door</b>."
+            }
+          ],
+          "wordCount": 102
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week27_grade06_page04.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Key Under the Flowerpot”, page 4. Scene based on: At a green front door across the street, smiling elderly Mrs. Rosa holds her gray cat and receives the silver key from Laura, while Tomás and Laura's grandmother stand beside them; a small plate of cookies sits on a little table by the door. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mrs. Rosa opens the door with Pelusa in her arms."
+            },
+            {
+              "html": "“Is this your key, Mrs. Rosa?” Laura asks."
+            },
+            {
+              "html": "Mrs. Rosa’s eyes open wide."
+            },
+            {
+              "html": "“Yes! It is my key! Thank you!”"
+            },
+            {
+              "html": "“I put it under your flowerpot by mistake.”"
+            },
+            {
+              "html": "“My pot and your pot are the same color.”"
+            },
+            {
+              "html": "Everybody laughs, even Grandma."
+            },
+            {
+              "html": "Mrs. Rosa gives them a <b>snack</b> of cookies and juice."
+            },
+            {
+              "html": "Then Grandma says something important."
+            },
+            {
+              "html": "“A key under a flowerpot is not very <b>safe</b>.”"
+            },
+            {
+              "html": "“Everybody can find it there.”"
+            },
+            {
+              "html": "Mrs. Rosa agrees and puts the key in her bag."
+            },
+            {
+              "html": "That night, Laura writes in her notebook."
+            },
+            {
+              "html": "“Keys are for people we trust, not for flowerpots.”"
+            }
+          ],
+          "wordCount": 106
+        }
+      ],
+      "practiceWords": [
+        "key",
+        "flowerpot",
+        "kitchen",
+        "table",
+        "belong",
+        "ribbon",
+        "neighbor",
+        "door",
+        "snack",
+        "safe"
+      ],
+      "vocabulary": [
+        {
+          "word": "key",
+          "definition": "a small metal object that opens a lock (llave)"
+        },
+        {
+          "word": "flowerpot",
+          "definition": "a container for growing plants (maceta)"
+        },
+        {
+          "word": "kitchen",
+          "definition": "the room where people cook (cocina)"
+        },
+        {
+          "word": "table",
+          "definition": "furniture with a flat top and legs (mesa)"
+        },
+        {
+          "word": "belong",
+          "definition": "to be the property of a person (pertenecer)"
+        },
+        {
+          "word": "ribbon",
+          "definition": "a thin, colorful strip of cloth (cinta)"
+        },
+        {
+          "word": "neighbor",
+          "definition": "a person who lives near you (vecino)"
+        },
+        {
+          "word": "door",
+          "definition": "the part you open to go in or out (puerta)"
+        },
+        {
+          "word": "snack",
+          "definition": "a small amount of food between meals (refrigerio)"
+        },
+        {
+          "word": "safe",
+          "definition": "protected from danger or loss (seguro)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "Where does Laura find the silver key?",
+          "options": [
+            "Inside her school backpack, next to her own key",
+            "Under the red flowerpot next to the front steps",
+            "In the bowl with the family keys",
+            "On the kitchen table next to the arepas"
+          ],
+          "answer": "Under the red flowerpot next to the front steps"
+        },
+        {
+          "skill": "sequence",
+          "question": "What happens AFTER Tomás sees the tiny cat on the ribbon?",
+          "options": [
+            "Laura calls her cousin Ana on the phone.",
+            "Laura finds the key under the flowerpot.",
+            "They go across the street to ask Mrs. Rosa.",
+            "Grandma shows them her key with a red ribbon."
+          ],
+          "answer": "They go across the street to ask Mrs. Rosa."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “So who does it belong to?” In this question, “belong” means…",
+          "options": [
+            "to be different from other things",
+            "to be very old and forgetful",
+            "to be in the wrong place",
+            "to be the property of a person"
+          ],
+          "answer": "to be the property of a person"
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the story mainly about?",
+          "options": [
+            "A girl finds a lost key and returns it to its owner.",
+            "A girl loses her own house key on the way home from school.",
+            "A neighbor teaches two children how to cook arepas.",
+            "A family buys a new red flowerpot for the door."
+          ],
+          "answer": "A girl finds a lost key and returns it to its owner."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why does Tomás think of Mrs. Rosa when he sees the ribbon?",
+          "options": [
+            "Mrs. Rosa sells keys in a small neighborhood store.",
+            "The keychain is a cat, and Mrs. Rosa has a gray cat.",
+            "Mrs. Rosa always wears a blue ribbon in her long gray hair.",
+            "Tomás saw Mrs. Rosa near the flowerpot that morning."
+          ],
+          "answer": "The keychain is a cat, and Mrs. Rosa has a gray cat."
+        }
+      ],
+      "cover": "../assets/images/week27_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "The Bus Ticket to Guatapé",
+      "minimumWordTarget": 400,
+      "wordCount": 474,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week27_grade07_page01.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Bus Ticket to Guatapé”, page 1. Scene based on: In the living room of a family home in Medellín early in the morning, Julián, 12, holds a printed bus ticket next to a small blue suitcase while his cousin Sara, 12, compares it with a ticket on her phone screen that shows only icons. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "It is Saturday, and Julián is very excited."
+            },
+            {
+              "html": "His family is taking a <b>trip</b> to Guatapé today."
+            },
+            {
+              "html": "They like to travel early because the roads are quiet."
+            },
+            {
+              "html": "Julián’s mother printed the bus tickets last night."
+            },
+            {
+              "html": "His cousin Sara is coming with them."
+            },
+            {
+              "html": "At six in the morning, Julián closes his <b>suitcase</b>."
+            },
+            {
+              "html": "Sara checks the tickets on her phone."
+            },
+            {
+              "html": "“Julián, can you read your paper <b>ticket</b>?” she asks."
+            },
+            {
+              "html": "“Sure. Bus 214, gate five, at seven,” he says."
+            },
+            {
+              "html": "Sara looks at her screen again."
+            },
+            {
+              "html": "“That is strange. My ticket says gate nine.”"
+            },
+            {
+              "html": "Julián frowns. “Which ticket is correct?”"
+            }
+          ],
+          "wordCount": 96
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week27_grade07_page02.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Bus Ticket to Guatapé”, page 2. Scene based on: Inside the busy North Bus Terminal of Medellín, Julián's family pulls suitcases through the crowd while Julián points down one hallway and Sara points down another; travelers rush around them under big hanging signs shown only as arrows. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The family takes a taxi to the North <b>terminal</b>."
+            },
+            {
+              "html": "The terminal is big, noisy, and full of people."
+            },
+            {
+              "html": "Julián’s father walks fast toward gate five."
+            },
+            {
+              "html": "“We <b>need</b> to hurry,” he says."
+            },
+            {
+              "html": "But Sara stops. “Wait! We must check first.”"
+            },
+            {
+              "html": "Julián’s mother is worried about the time."
+            },
+            {
+              "html": "“The bus leaves in twenty minutes,” she says."
+            },
+            {
+              "html": "Gate five and gate nine are far apart."
+            },
+            {
+              "html": "They cannot run to both gates."
+            },
+            {
+              "html": "Julián looks at both tickets in his hands."
+            },
+            {
+              "html": "The paper ticket is from last night."
+            },
+            {
+              "html": "The phone ticket has a new update."
+            },
+            {
+              "html": "“Maybe the company changed the <b>gate</b>,” Julián says."
+            }
+          ],
+          "wordCount": 98
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week27_grade07_page03.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Bus Ticket to Guatapé”, page 3. Scene based on: At an information desk in the bus terminal, Julián, 12, politely talks to a smiling employee in a uniform, holding up his paper ticket, while Sara shows her phone; a large departure board with only bus icons and arrows hangs behind them. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "There is an information desk near the entrance."
+            },
+            {
+              "html": "Julián decides to ask an employee."
+            },
+            {
+              "html": "“Excuse me. Can you help us, please?” he asks."
+            },
+            {
+              "html": "“Our tickets show different gates.”"
+            },
+            {
+              "html": "The employee smiles and looks at the tickets."
+            },
+            {
+              "html": "She checks her computer carefully."
+            },
+            {
+              "html": "“Your <b>departure</b> gate changed this morning,” she says."
+            },
+            {
+              "html": "“Bus 214 now leaves from gate nine.”"
+            },
+            {
+              "html": "“The phone ticket has the new information.”"
+            },
+            {
+              "html": "Julián does not understand everything the first time."
+            },
+            {
+              "html": "“Can you <b>repeat</b> that, please?” he asks politely."
+            },
+            {
+              "html": "“Gate nine, at seven o’clock,” she says slowly."
+            },
+            {
+              "html": "“Thank you very much!” Julián and Sara say."
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week27_grade07_page04.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Bus Ticket to Guatapé”, page 4. Scene based on: At gate nine of the bus terminal, Julián's family climbs into a colorful intercity bus with their suitcases just in time, Sara giving Julián a high-five, green mountains visible through the terminal windows. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The family walks quickly to gate nine."
+            },
+            {
+              "html": "Bus 214 is there, with its engine on."
+            },
+            {
+              "html": "The driver checks every ticket at the door."
+            },
+            {
+              "html": "“You are just in time,” he says."
+            },
+            {
+              "html": "Julián puts his suitcase under the bus."
+            },
+            {
+              "html": "Then he finds his seat next to Sara."
+            },
+            {
+              "html": "“Good idea to check first,” Julián tells her."
+            },
+            {
+              "html": "“You did the hard part,” Sara says."
+            },
+            {
+              "html": "“You asked the question at the desk.”"
+            },
+            {
+              "html": "His father laughs and shakes his head."
+            },
+            {
+              "html": "“Next time, I need to read the updates too.”"
+            },
+            {
+              "html": "The bus leaves the city at seven exactly."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week27_grade07_page05.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Bus Ticket to Guatapé”, page 5. Scene based on: At the top of the tall Peñol rock in Guatapé, Julián and Sara look out at a wide view of blue lakes and green islands, Julián holding a small notebook, the family resting on a bench behind them. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Two hours later, they arrive in Guatapé."
+            },
+            {
+              "html": "The town has colorful houses and bright streets."
+            },
+            {
+              "html": "The family has a <b>reservation</b> at a small hotel."
+            },
+            {
+              "html": "After lunch, they climb the big rock."
+            },
+            {
+              "html": "It has more than seven hundred steps!"
+            },
+            {
+              "html": "Julián is tired, but he does not stop."
+            },
+            {
+              "html": "At the top, the <b>view</b> is amazing."
+            },
+            {
+              "html": "There are blue lakes and green islands everywhere."
+            },
+            {
+              "html": "Sara takes a photo of Julián."
+            },
+            {
+              "html": "“Remember this trip,” she says."
+            },
+            {
+              "html": "That night, Julián writes a short note."
+            },
+            {
+              "html": "“When two tickets say different things, ask.”"
+            },
+            {
+              "html": "“A short question can save a whole trip.”"
+            }
+          ],
+          "wordCount": 94
+        }
+      ],
+      "practiceWords": [
+        "trip",
+        "suitcase",
+        "ticket",
+        "terminal",
+        "need",
+        "gate",
+        "departure",
+        "repeat",
+        "reservation",
+        "view"
+      ],
+      "vocabulary": [
+        {
+          "word": "trip",
+          "definition": "a journey to a place and back (viaje)"
+        },
+        {
+          "word": "suitcase",
+          "definition": "a bag with a handle for travel clothes (maleta)"
+        },
+        {
+          "word": "ticket",
+          "definition": "a paper or digital pass to travel (tiquete)"
+        },
+        {
+          "word": "terminal",
+          "definition": "a big building where buses arrive and leave (terminal)"
+        },
+        {
+          "word": "need",
+          "definition": "to have to do something important (necesitar)"
+        },
+        {
+          "word": "gate",
+          "definition": "the door where passengers get on a bus (puerta de embarque)"
+        },
+        {
+          "word": "departure",
+          "definition": "the moment a bus or plane leaves (salida)"
+        },
+        {
+          "word": "repeat",
+          "definition": "to say something again (repetir)"
+        },
+        {
+          "word": "reservation",
+          "definition": "a place you book before you arrive (reserva)"
+        },
+        {
+          "word": "view",
+          "definition": "what you can see from a high place (vista)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Which gate does bus 214 finally leave from?",
+          "options": [
+            "Gate five",
+            "Gate seven",
+            "Gate nine",
+            "Gate two"
+          ],
+          "answer": "Gate nine"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "Why do the two tickets show different gates?",
+          "options": [
+            "Julián’s mother printed the tickets for the wrong day.",
+            "The employee made a mistake on her computer.",
+            "Sara bought a ticket for a different bus.",
+            "The bus company changed the gate that morning."
+          ],
+          "answer": "The bus company changed the gate that morning."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main idea of the story?",
+          "options": [
+            "Checking unclear information can save a trip.",
+            "Families should always travel very early in the morning.",
+            "Guatapé has more than seven hundred steps.",
+            "Paper tickets are better than phone tickets."
+          ],
+          "answer": "Checking unclear information can save a trip."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why does Julián ask the employee to repeat the information?",
+          "options": [
+            "He forgot the name of the town they are visiting.",
+            "He wants to be sure he understood correctly.",
+            "He thinks the employee is not telling the truth.",
+            "He wants to practice talking with a stranger."
+          ],
+          "answer": "He wants to be sure he understood correctly."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “Your departure gate changed this morning.” Here, “departure” means…",
+          "options": [
+            "the price of the bus ticket",
+            "the person who drives the bus",
+            "the moment when the bus leaves",
+            "the place where the family sleeps"
+          ],
+          "answer": "the moment when the bus leaves"
+        }
+      ],
+      "cover": "../assets/images/week27_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "The Game That Stopped at Halftime",
+      "minimumWordTarget": 450,
+      "wordCount": 489,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week27_grade08_page01.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Game That Stopped at Halftime”, page 1. Scene based on: On a sunny school soccer field in Medellín, Diego, 13, in a blue team jersey runs with the ball while his teammate Kevin slows down behind him, holding his head; Sara, 13, watches from the sideline holding a big water bottle. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "It is Friday afternoon at Diego’s school."
+            },
+            {
+              "html": "Diego’s class is playing a <b>game</b> against 8B."
+            },
+            {
+              "html": "The sun is shining, and it is very hot."
+            },
+            {
+              "html": "The score is one to one."
+            },
+            {
+              "html": "Diego is running fast with the ball."
+            },
+            {
+              "html": "His friend Sara is watching from the sideline."
+            },
+            {
+              "html": "She is holding a big bottle of water."
+            },
+            {
+              "html": "Kevin, another <b>player</b>, is running behind Diego."
+            },
+            {
+              "html": "Suddenly, Kevin is walking slowly."
+            },
+            {
+              "html": "He is touching his head with one hand."
+            },
+            {
+              "html": "“Kevin, are you okay?” Diego is shouting."
+            },
+            {
+              "html": "Kevin is not answering."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week27_grade08_page02.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Game That Stopped at Halftime”, page 2. Scene based on: At the edge of the school field, Kevin, 13, sits on the grass looking pale and tired while teammates in blue jerseys stand around him arguing with quick gestures; Diego kneels next to Kevin, confused. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The referee is blowing the whistle for <b>halftime</b>."
+            },
+            {
+              "html": "The players are walking to the side of the field."
+            },
+            {
+              "html": "Kevin is sitting on the grass now."
+            },
+            {
+              "html": "His face is pale, and he is sweating a lot."
+            },
+            {
+              "html": "“I feel <b>dizzy</b>,” Kevin says quietly."
+            },
+            {
+              "html": "Some players are talking at the same time."
+            },
+            {
+              "html": "“He is just tired. He can play,” one says."
+            },
+            {
+              "html": "“He is faking it,” another player says."
+            },
+            {
+              "html": "“We are losing time!” a third boy complains."
+            },
+            {
+              "html": "Diego is feeling nervous."
+            },
+            {
+              "html": "He does not know what is true."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week27_grade08_page03.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Game That Stopped at Halftime”, page 3. Scene based on: Sara, 13, kneels beside Kevin in the cool shade of a big tree at the edge of the school field, calmly asking him questions, while Diego listens closely and the other players wait quietly behind them. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Sara is walking over with her water bottle."
+            },
+            {
+              "html": "“Stop guessing. Let’s ask Kevin,” she says."
+            },
+            {
+              "html": "“Kevin, what are you feeling right now?”"
+            },
+            {
+              "html": "“My head is spinning, and my legs are weak.”"
+            },
+            {
+              "html": "“Did you eat breakfast today?” Sara asks."
+            },
+            {
+              "html": "Kevin shakes his head. “No, I was late.”"
+            },
+            {
+              "html": "“Are you drinking water during the game?”"
+            },
+            {
+              "html": "“Not really. I forgot my bottle,” he says."
+            },
+            {
+              "html": "Now the <b>team</b> has real facts, not opinions."
+            },
+            {
+              "html": "Diego understands that guessing was a mistake."
+            },
+            {
+              "html": "The other players are quiet now."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week27_grade08_page04.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Game That Stopped at Halftime”, page 4. Scene based on: The school coach in a tracksuit and a school nurse in a white coat walk quickly across the field toward Kevin, who sits in the shade drinking water; Diego points them toward Kevin with an open hand. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Diego is running to the <b>coach</b>."
+            },
+            {
+              "html": "“Coach, Kevin is dizzy, and he didn’t eat breakfast.”"
+            },
+            {
+              "html": "The coach is calling the school nurse immediately."
+            },
+            {
+              "html": "Meanwhile, Diego and Sara are moving Kevin to the <b>shade</b>."
+            },
+            {
+              "html": "Kevin is drinking small sips of water."
+            },
+            {
+              "html": "The <b>nurse</b> is arriving with a small bag."
+            },
+            {
+              "html": "She is checking Kevin’s pulse and asking questions."
+            },
+            {
+              "html": "“He is dehydrated and hungry,” she explains."
+            },
+            {
+              "html": "“He needs water, food, and rest today.”"
+            },
+            {
+              "html": "Kevin is not playing the second half."
+            }
+          ],
+          "wordCount": 77
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week27_grade08_page05.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Game That Stopped at Halftime”, page 5. Scene based on: During the second half of the school soccer game, Diego plays hard in his blue jersey while Kevin, recovering, sits on the bench eating a banana and cheering with raised arms, the nurse sitting beside him. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The second half is starting now."
+            },
+            {
+              "html": "Diego’s team is playing with only ten players."
+            },
+            {
+              "html": "Kevin is sitting on the <b>bench</b> with the nurse."
+            },
+            {
+              "html": "He is eating a banana and drinking juice."
+            },
+            {
+              "html": "He is cheering for his team with a smile."
+            },
+            {
+              "html": "The players are working together and passing well."
+            },
+            {
+              "html": "Diego is defending with all his energy."
+            },
+            {
+              "html": "In the last minute, 8B is scoring a goal."
+            },
+            {
+              "html": "The game ends two to one for 8B."
+            },
+            {
+              "html": "Diego is disappointed, but he is not angry."
+            }
+          ],
+          "wordCount": 80
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week27_grade08_page06.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Game That Stopped at Halftime”, page 6. Scene based on: After the game, Diego's team stands in a circle around Kevin on the school field at sunset, everyone holding water bottles and smiling, the coach in the middle giving a short talk. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "After the game, the coach is calling everyone together."
+            },
+            {
+              "html": "“We lost the game, but we did something right.”"
+            },
+            {
+              "html": "“We listened to facts, not to fast opinions.”"
+            },
+            {
+              "html": "Kevin is feeling much better now."
+            },
+            {
+              "html": "He is thanking Sara and Diego for their help."
+            },
+            {
+              "html": "The boy who said “faking” is apologizing to Kevin."
+            },
+            {
+              "html": "Now the team has a new <b>rule</b>."
+            },
+            {
+              "html": "Everyone is bringing water and eating before games."
+            },
+            {
+              "html": "Diego is writing the rule in his notebook tonight."
+            },
+            {
+              "html": "He is learning that good teams care first."
+            }
+          ],
+          "wordCount": 82
+        }
+      ],
+      "practiceWords": [
+        "game",
+        "player",
+        "halftime",
+        "dizzy",
+        "team",
+        "coach",
+        "shade",
+        "nurse",
+        "bench",
+        "rule"
+      ],
+      "vocabulary": [
+        {
+          "word": "game",
+          "definition": "a match between two teams (partido)"
+        },
+        {
+          "word": "player",
+          "definition": "a person who plays a sport (jugador)"
+        },
+        {
+          "word": "halftime",
+          "definition": "the break in the middle of a game (medio tiempo)"
+        },
+        {
+          "word": "dizzy",
+          "definition": "feeling that everything is spinning (mareado)"
+        },
+        {
+          "word": "team",
+          "definition": "a group of players who play together (equipo)"
+        },
+        {
+          "word": "coach",
+          "definition": "a person who trains a sports team (entrenador)"
+        },
+        {
+          "word": "shade",
+          "definition": "a cool, dark area away from the sun (sombra)"
+        },
+        {
+          "word": "nurse",
+          "definition": "a person who takes care of sick people (enfermero)"
+        },
+        {
+          "word": "bench",
+          "definition": "a long seat for players who are waiting (banca)"
+        },
+        {
+          "word": "rule",
+          "definition": "something everyone must do or follow (regla)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "According to the nurse, why is Kevin dizzy?",
+          "options": [
+            "He is very nervous about losing the game.",
+            "He has a cold because of the rain.",
+            "He hit his head when he fell on the field at halftime.",
+            "He is dehydrated, and he did not eat breakfast."
+          ],
+          "answer": "He is dehydrated, and he did not eat breakfast."
+        },
+        {
+          "skill": "inference",
+          "question": "Why does Diego feel nervous at halftime?",
+          "options": [
+            "His teammates give different opinions, and he does not know what is true.",
+            "He thinks the referee will cancel the game because of the heat.",
+            "His team is losing the game, and the coach is very angry.",
+            "The coach is angry with him for a bad pass, and the team agrees with the coach."
+          ],
+          "answer": "His teammates give different opinions, and he does not know what is true."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the scene where Sara asks Kevin questions?",
+          "options": [
+            "To show that Sara wants to play in the second half of the game.",
+            "To show how real facts can replace fast opinions.",
+            "To explain the rules of soccer to the reader.",
+            "To describe the weather during the afternoon."
+          ],
+          "answer": "To show how real facts can replace fast opinions."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which sentence best expresses the main idea of the story?",
+          "options": [
+            "A school soccer team wins an important final game against 8B.",
+            "Students should never play soccer on hot days.",
+            "A team takes care of a player before thinking about winning.",
+            "Coaches should make all the decisions for their players during games."
+          ],
+          "answer": "A team takes care of a player before thinking about winning."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “Diego and Sara are moving Kevin to the shade.” “Shade” is…",
+          "options": [
+            "a short break in the middle of a game",
+            "a long seat for players",
+            "a small bag for medicine",
+            "a cool area protected from the sun"
+          ],
+          "answer": "a cool area protected from the sun"
+        }
+      ],
+      "cover": "../assets/images/week27_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "The Jacket Everyone Rated",
+      "minimumWordTarget": 500,
+      "wordCount": 530,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week27_grade09_page01.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Jacket Everyone Rated”, page 1. Scene based on: In a public school classroom in Medellín during break, Mariana, 14, looks at a phone showing a photo of a bright orange jacket with many star icons below it, while Felipe, 14, sits on the desk next to her, frowning slightly. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Tuesday morning, Mariana’s phone is buzzing a lot."
+            },
+            {
+              "html": "Someone posted a <b>photo</b> in the class group chat."
+            },
+            {
+              "html": "It shows Isabel’s new orange <b>jacket</b>."
+            },
+            {
+              "html": "Isabel is quieter than most students in the class."
+            },
+            {
+              "html": "Under the photo, classmates are giving the jacket stars."
+            },
+            {
+              "html": "“Three stars. Her old jacket was nicer,” one writes."
+            },
+            {
+              "html": "“One star. It’s the ugliest jacket in school.”"
+            },
+            {
+              "html": "Mariana laughs a little and starts typing a comment."
+            },
+            {
+              "html": "Her friend Felipe is sitting next to her."
+            },
+            {
+              "html": "“Wait. Who took that photo?” he asks."
+            },
+            {
+              "html": "Mariana stops, with her thumb above the screen."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week27_grade09_page02.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Jacket Everyone Rated”, page 2. Scene based on: In the school hallway, Mariana and Felipe walk past a group of students laughing at a phone, while in the background Isabel, 14, in a bright orange jacket, stands alone by a window looking down at her own phone. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "“I don’t know. Someone in our class,” she says."
+            },
+            {
+              "html": "“Does Isabel know about the photo?” Felipe asks."
+            },
+            {
+              "html": "Mariana is not sure."
+            },
+            {
+              "html": "In the hallway, a group is laughing at a phone."
+            },
+            {
+              "html": "Isabel is standing near the window, alone."
+            },
+            {
+              "html": "She is wearing the orange jacket."
+            },
+            {
+              "html": "She is looking at her phone too."
+            },
+            {
+              "html": "Her face is serious, and her shoulders are tense."
+            },
+            {
+              "html": "Mariana suddenly feels uncomfortable."
+            },
+            {
+              "html": "“It’s just an <b>opinion</b>,” she says to Felipe."
+            },
+            {
+              "html": "“Maybe. But is it a kind opinion?” he answers."
+            },
+            {
+              "html": "Mariana has no answer for that question."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week27_grade09_page03.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Jacket Everyone Rated”, page 3. Scene based on: In a quiet corner of the school library, Mariana and Felipe sit at a table comparing pictures of three jackets on a laptop screen, with only simple icons for warmth, rain and coins next to each one, both looking serious and focused. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At lunch, Mariana and Felipe go to the library."
+            },
+            {
+              "html": "“Why do people <b>rate</b> other people’s clothes?” Felipe asks."
+            },
+            {
+              "html": "“Because it feels like a game,” Mariana says."
+            },
+            {
+              "html": "“But this game isn’t funny for Isabel.”"
+            },
+            {
+              "html": "Felipe has an idea for their English project."
+            },
+            {
+              "html": "They will compare three jackets in a fairer way."
+            },
+            {
+              "html": "They look at warmth, rain protection, and <b>price</b>."
+            },
+            {
+              "html": "They don’t look at faces, bodies, or popularity."
+            },
+            {
+              "html": "The orange jacket is warmer than the black one."
+            },
+            {
+              "html": "It is also cheaper than the white one."
+            },
+            {
+              "html": "In fact, it is the most practical of the three."
+            },
+            {
+              "html": "Mariana is surprised by the result."
+            }
+          ],
+          "wordCount": 99
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week27_grade09_page04.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Jacket Everyone Rated”, page 4. Scene based on: Outside a small secondhand clothing store in a Medellín neighborhood, Isabel shows Mariana and Felipe racks of colorful jackets, smiling for the first time, while the friendly owner waves from the doorway. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "After school, Mariana decides to talk to Isabel."
+            },
+            {
+              "html": "“I saw the photo. I’m sorry. It wasn’t fair.”"
+            },
+            {
+              "html": "Isabel looks surprised, then relieved."
+            },
+            {
+              "html": "“My jacket is from a small <b>store</b> near home.”"
+            },
+            {
+              "html": "“It’s secondhand, but it’s very warm.”"
+            },
+            {
+              "html": "“My bus leaves at five in the morning.”"
+            },
+            {
+              "html": "“The mornings are colder than the afternoons.”"
+            },
+            {
+              "html": "On Saturday, Isabel takes them to the store."
+            },
+            {
+              "html": "The owner is friendly and explains every <b>style</b>."
+            },
+            {
+              "html": "Some jackets are older, but they are stronger."
+            },
+            {
+              "html": "Mariana buys a green one for half the price."
+            },
+            {
+              "html": "It is the cheapest jacket she has ever bought."
+            }
+          ],
+          "wordCount": 94
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week27_grade09_page05.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Jacket Everyone Rated”, page 5. Scene based on: In the classroom, Mariana stands at the front showing a simple chart on the board with only icons of jackets, a sun, rain drops and coins, while Felipe holds the laptop and Isabel listens from her desk with a small smile. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Friday, Mariana and Felipe present their project."
+            },
+            {
+              "html": "“We rated jackets, not people,” Mariana says."
+            },
+            {
+              "html": "“The <b>best</b> jacket isn’t the most expensive.”"
+            },
+            {
+              "html": "“It’s the warmest and the most practical.”"
+            },
+            {
+              "html": "Then Felipe talks about <b>appearance</b>."
+            },
+            {
+              "html": "“Comments about appearance can hurt more than we think.”"
+            },
+            {
+              "html": "“They are louder online than in person.”"
+            },
+            {
+              "html": "The class is quiet for a moment."
+            },
+            {
+              "html": "Then the student who took the photo raises his hand."
+            },
+            {
+              "html": "“I deleted it. It was a bad idea,” he says."
+            },
+            {
+              "html": "Isabel smiles at Mariana from her desk."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week27_grade09_page06.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Jacket Everyone Rated”, page 6. Scene based on: On a cool foggy morning at the school entrance, Isabel in her orange jacket and Mariana in a green secondhand jacket walk in together laughing, while Felipe waves at them from the steps. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next week, the mornings are colder than before."
+            },
+            {
+              "html": "Mariana is wearing her green secondhand jacket."
+            },
+            {
+              "html": "Isabel is wearing her orange jacket again."
+            },
+            {
+              "html": "They walk into school together, talking and laughing."
+            },
+            {
+              "html": "Nobody posts stars or comments this time."
+            },
+            {
+              "html": "Mariana thinks about her almost-comment."
+            },
+            {
+              "html": "One message can make someone feel <b>better</b>."
+            },
+            {
+              "html": "Another message can make someone feel much worse."
+            },
+            {
+              "html": "“I want to be the friend who asks first.”"
+            },
+            {
+              "html": "Felipe smiles. “That is a better rating.”"
+            }
+          ],
+          "wordCount": 74
+        }
+      ],
+      "practiceWords": [
+        "photo",
+        "jacket",
+        "opinion",
+        "rate",
+        "price",
+        "store",
+        "style",
+        "best",
+        "appearance",
+        "better"
+      ],
+      "vocabulary": [
+        {
+          "word": "photo",
+          "definition": "a picture taken with a camera or phone (foto)"
+        },
+        {
+          "word": "jacket",
+          "definition": "a short coat you wear on cool days (chaqueta)"
+        },
+        {
+          "word": "opinion",
+          "definition": "what a person thinks about something (opinión)"
+        },
+        {
+          "word": "rate",
+          "definition": "to give something a score or stars (calificar)"
+        },
+        {
+          "word": "price",
+          "definition": "how much money something costs (precio)"
+        },
+        {
+          "word": "store",
+          "definition": "a place where people buy things (tienda)"
+        },
+        {
+          "word": "style",
+          "definition": "a particular way of dressing or designing (estilo)"
+        },
+        {
+          "word": "best",
+          "definition": "better than all the others (el mejor)"
+        },
+        {
+          "word": "appearance",
+          "definition": "the way a person or thing looks (apariencia)"
+        },
+        {
+          "word": "better",
+          "definition": "of a higher quality than another (mejor)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Where did Isabel get her orange jacket?",
+          "options": [
+            "At a small secondhand store near her home",
+            "From a classmate in the group chat",
+            "From an online store with fast, free delivery",
+            "In a big shopping mall downtown"
+          ],
+          "answer": "At a small secondhand store near her home"
+        },
+        {
+          "skill": "inference",
+          "question": "Why does Mariana stop typing her comment?",
+          "options": [
+            "She decides the jacket deserves five stars.",
+            "Felipe’s question makes her think about Isabel’s feelings.",
+            "The teacher takes her phone away during the English class.",
+            "Her phone battery dies during the break."
+          ],
+          "answer": "Felipe’s question makes her think about Isabel’s feelings."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "How is the jacket comparison in the library different from the ratings in the group chat?",
+          "options": [
+            "It uses more stars and more funny comments.",
+            "It only includes the most expensive jackets.",
+            "It compares practical features instead of people’s looks.",
+            "It is done in secret so that Isabel cannot see the results."
+          ],
+          "answer": "It compares practical features instead of people’s looks."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main message of the text?",
+          "options": [
+            "Orange is the most popular color in Medellín.",
+            "Group chats are the best place to share photos for class projects.",
+            "Secondhand jackets are always better and cheaper than new ones.",
+            "Rating people’s appearance online can hurt, so we should think first."
+          ],
+          "answer": "Rating people’s appearance online can hurt, so we should think first."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “Comments about appearance can hurt more than we think.” “Appearance” means…",
+          "options": [
+            "the way a person looks",
+            "a person’s opinion of others",
+            "a photo in a group chat",
+            "the price of clothes"
+          ],
+          "answer": "the way a person looks"
+        }
+      ],
+      "cover": "../assets/images/week27_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "The Metro Route No App Suggested",
+      "minimumWordTarget": 600,
+      "wordCount": 619,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week27_grade10_page01.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Metro Route No App Suggested”, page 1. Scene based on: On a crowded Medellín Metro platform in the afternoon, Daniel, 16, wearing a volunteer T-shirt and a backpack, frowns at his phone showing only a map icon with a red X, while Sofía, 16, stands beside him looking up at a station screen with a red warning symbol. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniel is volunteering at a reading festival on Saturday."
+            },
+            {
+              "html": "The festival is at a library up on the hills."
+            },
+            {
+              "html": "He should arrive at three o’clock to help children."
+            },
+            {
+              "html": "His friend Sofía is volunteering with him."
+            },
+            {
+              "html": "They meet at Parque Berrío station at two."
+            },
+            {
+              "html": "Daniel opens his transport <b>app</b> to plan the trip."
+            },
+            {
+              "html": "The app shows the same <b>route</b> as always."
+            },
+            {
+              "html": "“Take the cable car line,” it says."
+            },
+            {
+              "html": "But the station screen shows a red warning."
+            },
+            {
+              "html": "The cable car line is closed today."
+            },
+            {
+              "html": "“The app should know that,” Daniel says, annoyed."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week27_grade10_page02.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Metro Route No App Suggested”, page 2. Scene based on: Daniel and Sofía stand in front of a closed cable car station entrance with a yellow barrier and a maintenance worker in an orange vest repairing a door, Daniel showing his phone in frustration while Sofía looks around carefully. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They decide to go and check anyway."
+            },
+            {
+              "html": "At the cable car station, there is a yellow barrier."
+            },
+            {
+              "html": "A worker in an orange vest is repairing a door."
+            },
+            {
+              "html": "“Closed for <b>maintenance</b> until Monday,” he explains."
+            },
+            {
+              "html": "Daniel refreshes the app three times."
+            },
+            {
+              "html": "Every time, it suggests the closed line again."
+            },
+            {
+              "html": "“We should just take a taxi,” Daniel says."
+            },
+            {
+              "html": "“Taxis are expensive, and traffic is terrible now.”"
+            },
+            {
+              "html": "Sofía shakes her head calmly."
+            },
+            {
+              "html": "“We shouldn’t guess. We should ask someone who knows.”"
+            },
+            {
+              "html": "Daniel looks at the clock. It is 2:20."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week27_grade10_page03.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Metro Route No App Suggested”, page 3. Scene based on: At a Metro customer service window, Sofía and Daniel speak with a friendly Metro staff member in uniform who points to a wall map made only of colored lines and dots, explaining another route. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They walk to the customer service window."
+            },
+            {
+              "html": "A woman from the Metro <b>staff</b> is working there."
+            },
+            {
+              "html": "Sofía explains the problem clearly and politely."
+            },
+            {
+              "html": "“We need to reach the library by three.”"
+            },
+            {
+              "html": "The woman smiles and points to the wall map."
+            },
+            {
+              "html": "“You shouldn’t wait for the cable car today.”"
+            },
+            {
+              "html": "“You should take Line A north to Acevedo.”"
+            },
+            {
+              "html": "“Then <b>transfer</b> to the feeder bus outside the station.”"
+            },
+            {
+              "html": "“The bus goes up the hill every ten minutes.”"
+            },
+            {
+              "html": "Daniel writes the steps in his notes."
+            },
+            {
+              "html": "Sofía repeats them to check them."
+            },
+            {
+              "html": "“Thank you. That’s very useful <b>advice</b>,” Daniel says."
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week27_grade10_page04.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Metro Route No App Suggested”, page 4. Scene based on: Inside a moving Metro train on Line A, Daniel and Sofía stand holding a pole, Daniel reading a handwritten list of steps in a notebook, families in soccer jerseys around them and the city and hills passing by the window. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The train arrives quickly, and they get on."
+            },
+            {
+              "html": "It is full of families going to the stadium."
+            },
+            {
+              "html": "A street musician is playing guitar near the doors."
+            },
+            {
+              "html": "Daniel feels calmer now."
+            },
+            {
+              "html": "He reads the steps again, one by one."
+            },
+            {
+              "html": "“Why didn’t the app show this?” he asks."
+            },
+            {
+              "html": "“Apps use data, but data can be old,” Sofía says."
+            },
+            {
+              "html": "“People at the station see the real situation.”"
+            },
+            {
+              "html": "Daniel agrees, but he feels a little embarrassed."
+            },
+            {
+              "html": "He almost took an expensive taxi into traffic."
+            },
+            {
+              "html": "At Acevedo, they follow the signs carefully."
+            },
+            {
+              "html": "They check the <b>direction</b> of the exit twice."
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week27_grade10_page05.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Metro Route No App Suggested”, page 5. Scene based on: Outside Acevedo station, Daniel and Sofía climb onto a green feeder bus with other passengers, including a kind grandmother pointing to a seat, the steep red-brick hillside neighborhoods of Medellín rising behind the bus. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Outside the station, there is a long line."
+            },
+            {
+              "html": "“Is this the bus to the library?” Daniel asks."
+            },
+            {
+              "html": "A grandmother in the line nods kindly."
+            },
+            {
+              "html": "“Yes, mijo. You should sit on the left side.”"
+            },
+            {
+              "html": "“The view of the city is beautiful from there.”"
+            },
+            {
+              "html": "The green bus climbs the steep streets slowly."
+            },
+            {
+              "html": "The houses on the hills are red and orange."
+            },
+            {
+              "html": "Daniel looks at the time. It is 2:50."
+            },
+            {
+              "html": "There is a short <b>delay</b> because of a truck."
+            },
+            {
+              "html": "Sofía calls the festival coordinator to explain."
+            },
+            {
+              "html": "“No problem. Thanks for telling us,” the coordinator says."
+            }
+          ],
+          "wordCount": 92
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week27_grade10_page06.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Metro Route No App Suggested”, page 6. Scene based on: At the colorful entrance of a hillside library park in Medellín, Daniel and Sofía in volunteer T-shirts run up the steps while a coordinator with a clipboard waves at them; inside, children sit on bright cushions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The bus stops near the library at 3:05."
+            },
+            {
+              "html": "Daniel and Sofía run to the main <b>entrance</b>."
+            },
+            {
+              "html": "The coordinator is waiting with their name tags."
+            },
+            {
+              "html": "“Five minutes late, but you called. That’s professional.”"
+            },
+            {
+              "html": "Daniel smiles, still breathing fast."
+            },
+            {
+              "html": "Inside, fifty children are sitting on colorful cushions."
+            },
+            {
+              "html": "Daniel reads them a story about a lost dog."
+            },
+            {
+              "html": "Sofía helps the children draw the dog’s route home."
+            },
+            {
+              "html": "One boy draws a cable car with a red X."
+            },
+            {
+              "html": "Everybody laughs, including Daniel."
+            }
+          ],
+          "wordCount": 77
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week27_grade10_page07.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Metro Route No App Suggested”, page 7. Scene based on: In the evening at a small desk at home, Daniel, 16, writes a list in a notebook beside his phone, which shows only a small map icon; through the window, the lights of Medellín's hillsides glow. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "That night, Daniel writes advice for other volunteers."
+            },
+            {
+              "html": "First, you should check official <b>Metro</b> information before leaving."
+            },
+            {
+              "html": "Second, you shouldn’t trust only one app."
+            },
+            {
+              "html": "Third, you should ask staff when something looks wrong."
+            },
+            {
+              "html": "Fourth, you should call people if you will be late."
+            },
+            {
+              "html": "He shares the list in the volunteer group chat."
+            },
+            {
+              "html": "The coordinator adds it to the festival guide."
+            },
+            {
+              "html": "Daniel realizes something important about technology."
+            },
+            {
+              "html": "Apps are useful tools, but they can’t see everything."
+            },
+            {
+              "html": "Sometimes the best route starts with a simple question."
+            }
+          ],
+          "wordCount": 84
+        }
+      ],
+      "practiceWords": [
+        "app",
+        "route",
+        "maintenance",
+        "staff",
+        "transfer",
+        "advice",
+        "direction",
+        "delay",
+        "entrance",
+        "Metro"
+      ],
+      "vocabulary": [
+        {
+          "word": "app",
+          "definition": "a program on a phone or tablet (aplicación)"
+        },
+        {
+          "word": "route",
+          "definition": "the way you travel from one place to another (ruta)"
+        },
+        {
+          "word": "maintenance",
+          "definition": "work to repair or check a machine or place (mantenimiento)"
+        },
+        {
+          "word": "staff",
+          "definition": "the people who work for an organization (personal)"
+        },
+        {
+          "word": "transfer",
+          "definition": "to change from one train or bus to another (transbordar)"
+        },
+        {
+          "word": "advice",
+          "definition": "an opinion about what someone should do (consejo)"
+        },
+        {
+          "word": "direction",
+          "definition": "the way something goes or points (dirección)"
+        },
+        {
+          "word": "delay",
+          "definition": "time when something is later than expected (retraso)"
+        },
+        {
+          "word": "entrance",
+          "definition": "the door or place where you go in (entrada)"
+        },
+        {
+          "word": "Metro",
+          "definition": "the train system of a city (metro)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What route does the Metro staff member recommend?",
+          "options": [
+            "A taxi from Parque Berrío to the library",
+            "Line A to Acevedo, then the feeder bus up the hill",
+            "Walking from Acevedo station to the library",
+            "The cable car line, because it is always the fastest option"
+          ],
+          "answer": "Line A to Acevedo, then the feeder bus up the hill"
+        },
+        {
+          "skill": "inference",
+          "question": "Why does Sofía say, “We shouldn’t guess”?",
+          "options": [
+            "She wants to arrive late to the festival.",
+            "She does not want to travel to the library with Daniel.",
+            "She thinks reliable information is better than a quick decision.",
+            "She is afraid of taking the Metro without any adults on Saturday."
+          ],
+          "answer": "She thinks reliable information is better than a quick decision."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the grandmother at the bus stop?",
+          "options": [
+            "To show that the feeder bus is only for older passengers.",
+            "To explain why the cable car is closed that day.",
+            "To introduce a new main character in the story.",
+            "To show that local people can give useful, real information."
+          ],
+          "answer": "To show that local people can give useful, real information."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What is the relationship between the app and the closed cable car line?",
+          "options": [
+            "The app keeps suggesting a route that is not working that day.",
+            "The app closed the cable car line for maintenance.",
+            "The app and the station screen show the same warning.",
+            "The app shows the closure much earlier than the station screen does."
+          ],
+          "answer": "The app keeps suggesting a route that is not working that day."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which statement best summarizes the text?",
+          "options": [
+            "Children enjoy stories about lost dogs at festivals.",
+            "Technology helps, but asking people can solve unexpected problems.",
+            "The cable car is always the best way to reach the hillside library.",
+            "Volunteers should always arrive at events at least one hour early."
+          ],
+          "answer": "Technology helps, but asking people can solve unexpected problems."
+        }
+      ],
+      "cover": "../assets/images/week27_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "The Rule Behind My First Remote Job",
+      "minimumWordTarget": 700,
+      "wordCount": 730,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week27_grade11_page01.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Rule Behind My First Remote Job”, page 1. Scene based on: In a small study corner of a family home in Medellín, Andrés, 17, sits at a laptop with headphones around his neck, reading a long document shown only as gray lines and a shield icon, while Camila, 17, looks over his shoulder holding a cup of coffee. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Andrés got his first <b>internship</b> last week."
+            },
+            {
+              "html": "It is with a small tourism company in Medellín."
+            },
+            {
+              "html": "The job is <b>remote</b>, so he works from home."
+            },
+            {
+              "html": "He works two hours every afternoon after school."
+            },
+            {
+              "html": "On Monday, the company sends him a document."
+            },
+            {
+              "html": "It is a list of twelve rules for interns."
+            },
+            {
+              "html": "His friend Camila is visiting to study for an exam."
+            },
+            {
+              "html": "“Look at this,” Andrés says, scrolling down."
+            },
+            {
+              "html": "“I have to turn on my camera in meetings.”"
+            },
+            {
+              "html": "“I mustn’t use my personal email for work.”"
+            },
+            {
+              "html": "“I have to save files only in the company folder.”"
+            },
+            {
+              "html": "Camila raises her eyebrows, interested."
+            }
+          ],
+          "wordCount": 99
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week27_grade11_page02.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Rule Behind My First Remote Job”, page 2. Scene based on: Andrés leans back in his desk chair with crossed arms, frustrated, pointing at the laptop screen full of gray lines, while Camila sits on the edge of the bed with her exam notes, listening calmly. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Andrés leans back in his chair and sighs."
+            },
+            {
+              "html": "“It feels like they don’t trust me,” he says."
+            },
+            {
+              "html": "“I’m only an intern. Why so many rules?”"
+            },
+            {
+              "html": "Camila reads the list quietly."
+            },
+            {
+              "html": "Some rules are strict, but others are surprising."
+            },
+            {
+              "html": "“Look at rule seven,” she says."
+            },
+            {
+              "html": "“You don’t have to answer messages after six.”"
+            },
+            {
+              "html": "“That rule protects you, not the company.”"
+            },
+            {
+              "html": "Andrés hadn’t noticed that rule."
+            },
+            {
+              "html": "He read the list too fast and too angrily."
+            },
+            {
+              "html": "“Maybe every <b>rule</b> has a reason,” Camila suggests."
+            },
+            {
+              "html": "“Do you know the reasons, or are you guessing?”"
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week27_grade11_page03.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Rule Behind My First Remote Job”, page 3. Scene based on: On a video call shown on Andrés's laptop, a friendly supervisor woman in her thirties smiles and explains with open hands, while Andrés, 17, sits at his desk taking notes in a notebook. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Andrés decides to ask his <b>supervisor</b>, Mrs. Gómez."
+            },
+            {
+              "html": "On Tuesday, he joins their weekly video call."
+            },
+            {
+              "html": "He is nervous, but he asks politely."
+            },
+            {
+              "html": "“Could you explain the reasons for some rules?”"
+            },
+            {
+              "html": "Mrs. Gómez smiles. “Of course. Good question.”"
+            },
+            {
+              "html": "“We work with our clients’ personal information.”"
+            },
+            {
+              "html": "“Passports, phone numbers, and travel dates are private.”"
+            },
+            {
+              "html": "“In Colombia, companies must protect personal data by law.”"
+            },
+            {
+              "html": "“That’s why you mustn’t use your personal email.”"
+            },
+            {
+              "html": "“And that’s why files have to stay in our folder.”"
+            },
+            {
+              "html": "Andrés writes every reason in his notebook."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week27_grade11_page04.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Rule Behind My First Remote Job”, page 4. Scene based on: Still on the video call, Mrs. Gómez continues explaining while Andrés nods and writes; a sticky note on his desk shows only a clock icon and a moon icon, and his school backpack leans against the chair. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Then Andrés asks about the camera rule."
+            },
+            {
+              "html": "“You have to turn it on during team meetings.”"
+            },
+            {
+              "html": "“We want to see who we are working with.”"
+            },
+            {
+              "html": "“But you don’t have to use it during tasks.”"
+            },
+            {
+              "html": "Andrés asks about the six o’clock rule too."
+            },
+            {
+              "html": "“You are seventeen, and school comes first,” she says."
+            },
+            {
+              "html": "“Your <b>permission</b> form says two hours a day.”"
+            },
+            {
+              "html": "“Your parents and your school signed it with us.”"
+            },
+            {
+              "html": "“If we message you at night, ignore it.”"
+            },
+            {
+              "html": "“You don’t have to answer until the next afternoon.”"
+            },
+            {
+              "html": "Andrés feels his frustration turning into respect."
+            }
+          ],
+          "wordCount": 92
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week27_grade11_page05.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Rule Behind My First Remote Job”, page 5. Scene based on: Late afternoon, Andrés sits tense at his desk in front of a laptop showing a folder icon and an email icon with an arrow between them, his hand hovering over the mouse; a wall clock shows almost six. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Thursday, Andrés has a <b>deadline</b> at six."
+            },
+            {
+              "html": "He has to translate a tour description into English."
+            },
+            {
+              "html": "His home internet is slow, and the folder won’t open."
+            },
+            {
+              "html": "He has an idea."
+            },
+            {
+              "html": "He can send the file to his personal email."
+            },
+            {
+              "html": "Then he can work on his mother’s faster laptop."
+            },
+            {
+              "html": "His mouse is over the “send” button."
+            },
+            {
+              "html": "Then he remembers Mrs. Gómez’s words about the law."
+            },
+            {
+              "html": "The file has a <b>client</b>’s name and passport number."
+            },
+            {
+              "html": "He stops, takes a breath, and closes the email."
+            },
+            {
+              "html": "His heart is beating fast."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week27_grade11_page06.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Rule Behind My First Remote Job”, page 6. Scene based on: Andrés talks on the phone at his desk, calm and clear, while his laptop shows only a check-mark icon; Camila stands in the doorway with her backpack, giving him a thumbs-up. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Instead, he calls Mrs. Gómez and explains the problem."
+            },
+            {
+              "html": "“My connection is slow. I might miss the deadline.”"
+            },
+            {
+              "html": "“Thank you for telling me first,” she says."
+            },
+            {
+              "html": "“Don’t send files outside. Finish it tomorrow morning.”"
+            },
+            {
+              "html": "“The deadline isn’t urgent. Honesty is more important.”"
+            },
+            {
+              "html": "Andrés feels relieved and a little proud."
+            },
+            {
+              "html": "Camila is at the door with her backpack."
+            },
+            {
+              "html": "“So, did the rules ruin your life?” she jokes."
+            },
+            {
+              "html": "“No. One rule saved me from a big mistake.”"
+            },
+            {
+              "html": "“The information is <b>confidential</b>, and I almost forgot.”"
+            },
+            {
+              "html": "Camila laughs and sits down to study again."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week27_grade11_page07.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Rule Behind My First Remote Job”, page 7. Scene based on: In a school classroom in Medellín, Andrés presents to his classmates beside a whiteboard showing only simple icons of a shield, a clock and a house, while Camila sits in the front row with a notebook and the teacher listens at the side. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next week, Andrés tells his English class about it."
+            },
+            {
+              "html": "“Many rules look strange when you read them alone.”"
+            },
+            {
+              "html": "“But each one protects someone.”"
+            },
+            {
+              "html": "“Some protect clients. Some protect the company.”"
+            },
+            {
+              "html": "“And some protect young workers like me.”"
+            },
+            {
+              "html": "A classmate asks if the internship pays him."
+            },
+            {
+              "html": "“A little. But the <b>experience</b> is more valuable.”"
+            },
+            {
+              "html": "“I’m learning how professional teams really work.”"
+            },
+            {
+              "html": "“I’m also learning a new <b>skill</b>: asking before acting.”"
+            },
+            {
+              "html": "The class laughs, but the teacher writes it down."
+            },
+            {
+              "html": "She asks everyone to find a rule and its reason."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week27_grade11_page08.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Rule Behind My First Remote Job”, page 8. Scene based on: In the evening at the family dining table, Andrés writes a short list of team rules in a notebook, while Camila and two classmates appear as small faces on his phone in a video call, all smiling. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "That evening, Andrés’s project group starts a new task."
+            },
+            {
+              "html": "The group chat is noisy, and nobody knows the plan."
+            },
+            {
+              "html": "Andrés writes a short list of team rules."
+            },
+            {
+              "html": "Everyone has to save files in one shared folder."
+            },
+            {
+              "html": "We don’t have to answer after nine at night."
+            },
+            {
+              "html": "We mustn’t share other people’s photos without asking."
+            },
+            {
+              "html": "Under each rule, he writes the reason."
+            },
+            {
+              "html": "Camila reads it and sends a thumbs-up."
+            },
+            {
+              "html": "“Now I understand why rules need reasons,” she writes."
+            },
+            {
+              "html": "Andrés agrees. A rule with a reason is easier to follow."
+            },
+            {
+              "html": "He closes his laptop at nine exactly."
+            }
+          ],
+          "wordCount": 94
+        }
+      ],
+      "practiceWords": [
+        "internship",
+        "remote",
+        "rule",
+        "supervisor",
+        "permission",
+        "deadline",
+        "client",
+        "confidential",
+        "experience",
+        "skill"
+      ],
+      "vocabulary": [
+        {
+          "word": "internship",
+          "definition": "a short job to get work experience (pasantía)"
+        },
+        {
+          "word": "remote",
+          "definition": "done from home, not in an office (remoto)"
+        },
+        {
+          "word": "rule",
+          "definition": "a statement about what you must or must not do (regla)"
+        },
+        {
+          "word": "supervisor",
+          "definition": "the person who directs your work (supervisor)"
+        },
+        {
+          "word": "permission",
+          "definition": "official agreement to do something (permiso)"
+        },
+        {
+          "word": "deadline",
+          "definition": "the time when work must be finished (fecha límite)"
+        },
+        {
+          "word": "client",
+          "definition": "a person who pays a company for a service (cliente)"
+        },
+        {
+          "word": "confidential",
+          "definition": "private and not for sharing (confidencial)"
+        },
+        {
+          "word": "experience",
+          "definition": "knowledge you get from doing something (experiencia)"
+        },
+        {
+          "word": "skill",
+          "definition": "an ability you develop with practice (habilidad)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "Why does Andrés first think the company does not trust him?",
+          "options": [
+            "The company refuses to pay him for his work.",
+            "His supervisor tells him that he is not a good intern yet.",
+            "He reads the rules quickly without knowing their reasons.",
+            "Camila tells him that the company is unfair."
+          ],
+          "answer": "He reads the rules quickly without knowing their reasons."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "How does the data protection explanation connect to Andrés’s decision on Thursday?",
+          "options": [
+            "It makes him finish the translation quickly on his mother’s faster laptop.",
+            "It makes him turn off his camera during the weekly team meeting.",
+            "It makes him decide to leave the internship.",
+            "It makes him stop before sending a client’s file to his personal email."
+          ],
+          "answer": "It makes him stop before sending a client’s file to his personal email."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include rule seven about messages after six?",
+          "options": [
+            "To show that some rules protect the young worker, not only the company.",
+            "To show that Camila is stricter than the company.",
+            "To explain why Andrés misses his translation deadline on Thursday evening.",
+            "To show that the company never works or answers messages in the evening."
+          ],
+          "answer": "To show that some rules protect the young worker, not only the company."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “The information is confidential, and I almost forgot.” “Confidential” means…",
+          "options": [
+            "saved in a slow folder",
+            "private and not to be shared",
+            "urgent and finished quickly",
+            "translated into another language"
+          ],
+          "answer": "private and not to be shared"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which statement best expresses the central idea of the text?",
+          "options": [
+            "Teenagers should not accept remote internships before finishing school.",
+            "Remote internships are always easier and more relaxed than office jobs.",
+            "Understanding the reasons behind rules helps people follow them responsibly.",
+            "Companies create long lists of rules mainly to control their workers."
+          ],
+          "answer": "Understanding the reasons behind rules helps people follow them responsibly."
+        }
+      ],
+      "cover": "../assets/images/week27_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

@@ -1,0 +1,1746 @@
+{
+  "week": 33,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 33",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "The Snack We Shared",
+      "minimumWordTarget": 350,
+      "wordCount": 423,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week33_grade06_page01.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “The Snack We Shared”, page 1. Scene based on: Juan is 11 years old and studies in Medellín. One ordinary day at the Medellín Metro, a situation involving a shared meal begins to change the plans for the afternoon. María is nearby and notices that Juan is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Juan is 11 years old and studies in Medellín. One ordinary day at the Medellín Metro, a situation involving a shared meal begins to change the plans for the afternoon."
+            },
+            {
+              "html": "María is nearby and notices that Juan is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about food, culture and inclusion."
+            },
+            {
+              "html": "Juan brings a <b>snack</b> to share."
+            },
+            {
+              "html": "María reminds Juan that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "A new student looks <b>hungry</b> and alone."
+            },
+            {
+              "html": "They put the food on one big <b>plate</b>."
+            }
+          ],
+          "wordCount": 102
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week33_grade06_page02.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “The Snack We Shared”, page 2. Scene based on: The situation becomes harder when a simple meal becomes a meaningful social moment. Juan feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a simple meal becomes a meaningful social moment. Juan feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "María suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "They <b>eat</b> together at break time."
+            },
+            {
+              "html": "Juan listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Juan decides to <b>share</b> the arepas."
+            },
+            {
+              "html": "The empanadas are <b>delicious</b>."
+            },
+            {
+              "html": "They <b>welcome</b> the new classmate."
+            }
+          ],
+          "wordCount": 104
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week33_grade06_page03.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “The Snack We Shared”, page 3. Scene based on: Juan decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Juan decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "María explains that being responsible is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "Everyone sits at the same <b>table</b>."
+            },
+            {
+              "html": "By the end of the day, the immediate problem has a result. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Juan feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "<b>Lunch</b> is the best moment of the day."
+            }
+          ],
+          "wordCount": 117
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week33_grade06_page04.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “The Snack We Shared”, page 4. Scene based on: At home, Juan thinks about what could have happened if the group had reacted without checking anything. The student writes a short reflection: a responsible choice is not always the fastest or most popular choice. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At home, Juan thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "The student writes a short reflection: a responsible choice is not always the fastest or most popular choice."
+            },
+            {
+              "html": "Next time, Juan plans to ask a clearer question, confirm important information, and explain the reason for the decision."
+            },
+            {
+              "html": "The experience becomes part of how Juan understands school, family, technology, travel, and life in a larger world."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "María wants to <b>invite</b> the new student."
+            }
+          ],
+          "wordCount": 100
+        }
+      ],
+      "practiceWords": [
+        "snack",
+        "eat",
+        "share",
+        "table",
+        "hungry",
+        "delicious",
+        "lunch",
+        "invite",
+        "plate",
+        "welcome"
+      ],
+      "vocabulary": [
+        {
+          "word": "snack",
+          "definition": "a small amount of food (merienda)"
+        },
+        {
+          "word": "eat",
+          "definition": "to put food in your mouth (comer)"
+        },
+        {
+          "word": "share",
+          "definition": "to give part to others (compartir)"
+        },
+        {
+          "word": "table",
+          "definition": "furniture to eat on (mesa)"
+        },
+        {
+          "word": "hungry",
+          "definition": "wanting food (hambriento)"
+        },
+        {
+          "word": "delicious",
+          "definition": "very good to eat (delicioso)"
+        },
+        {
+          "word": "lunch",
+          "definition": "the meal at midday (almuerzo)"
+        },
+        {
+          "word": "invite",
+          "definition": "to ask someone to join (invitar)"
+        },
+        {
+          "word": "plate",
+          "definition": "a flat dish (plato)"
+        },
+        {
+          "word": "welcome",
+          "definition": "to receive someone kindly (dar la bienvenida)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "Which statement is TRUE according to the text?",
+          "options": [
+            "The students have all the facts from the beginning.",
+            "María wants Juan to react immediately.",
+            "Juan eats alone and ignores the new student.",
+            "María suggests checking the information before blaming anyone."
+          ],
+          "answer": "María suggests checking the information before blaming anyone."
+        },
+        {
+          "skill": "sequence",
+          "question": "Which event happens at the END of the story?",
+          "options": [
+            "Juan writes a short reflection at home.",
+            "María notices that Juan is paying attention.",
+            "Juan notices the problem at the Medellín Metro.",
+            "The situation becomes harder because a simple meal becomes a meaningful social moment."
+          ],
+          "answer": "Juan writes a short reflection at home."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Complete the sentence from the text: “Juan brings a _____ to share.”",
+          "options": [
+            "snack",
+            "invite",
+            "delicious",
+            "welcome"
+          ],
+          "answer": "snack"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which option is the best summary of the text?",
+          "options": [
+            "Juan laughs at the food of another family and the problem disappears.",
+            "María solves the problem alone while Juan watches.",
+            "Juan faces a problem because a simple meal becomes a meaningful social moment, checks the facts with María and makes a responsible decision.",
+            "Juan and María travel to New York to solve the problem."
+          ],
+          "answer": "Juan faces a problem because a simple meal becomes a meaningful social moment, checks the facts with María and makes a responsible decision."
+        },
+        {
+          "skill": "simple inference",
+          "question": "What can be inferred about María?",
+          "options": [
+            "She is not interested in the problem.",
+            "She helps Juan think carefully before acting.",
+            "She wants Juan to react as fast as possible.",
+            "She created the problem on purpose."
+          ],
+          "answer": "She helps Juan think carefully before acting."
+        }
+      ],
+      "cover": "../assets/images/week33_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "The Restaurant From My Childhood",
+      "minimumWordTarget": 400,
+      "wordCount": 513,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week33_grade07_page01.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Restaurant From My Childhood”, page 1. Scene based on: Valeria is 12 years old and studies in Medellín. One ordinary day at a library near the school, a situation involving a shared meal begins to change the plans for the afternoon. Samuel is nearby and notices that Valeria is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valeria is 12 years old and studies in Medellín. One ordinary day at a library near the school, a situation involving a shared meal begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Samuel is nearby and notices that Valeria is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about food, culture and inclusion."
+            },
+            {
+              "html": "Valeria brings a <b>snack</b> to share."
+            },
+            {
+              "html": "Valeria listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "They <b>eat</b> together at break time."
+            },
+            {
+              "html": "Samuel wants to <b>invite</b> the new student."
+            }
+          ],
+          "wordCount": 102
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week33_grade07_page02.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Restaurant From My Childhood”, page 2. Scene based on: The situation becomes harder when a simple meal becomes a meaningful social moment. Valeria feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a simple meal becomes a meaningful social moment. Valeria feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Samuel suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "Valeria decides to <b>share</b> the arepas."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "Everyone sits at the same <b>table</b>."
+            },
+            {
+              "html": "They put the food on one big <b>plate</b>."
+            }
+          ],
+          "wordCount": 107
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week33_grade07_page03.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Restaurant From My Childhood”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Valeria has to think about the first idea again. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Valeria has to think about the first idea again."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "A new student looks <b>hungry</b> and alone."
+            },
+            {
+              "html": "They <b>welcome</b> the new classmate."
+            }
+          ],
+          "wordCount": 111
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week33_grade07_page04.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Restaurant From My Childhood”, page 4. Scene based on: Valeria decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valeria decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Samuel explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "“Did you visit this place before?” one friend asks."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "The empanadas are <b>delicious</b>."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week33_grade07_page05.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Restaurant From My Childhood”, page 5. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Valeria feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Valeria feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about food, culture and inclusion."
+            },
+            {
+              "html": "At home, Valeria thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "<b>Lunch</b> is the best moment of the day."
+            }
+          ],
+          "wordCount": 103
+        }
+      ],
+      "practiceWords": [
+        "snack",
+        "eat",
+        "share",
+        "table",
+        "hungry",
+        "delicious",
+        "lunch",
+        "invite",
+        "plate",
+        "welcome"
+      ],
+      "vocabulary": [
+        {
+          "word": "snack",
+          "definition": "a small amount of food (merienda)"
+        },
+        {
+          "word": "eat",
+          "definition": "to put food in your mouth (comer)"
+        },
+        {
+          "word": "share",
+          "definition": "to give part to others (compartir)"
+        },
+        {
+          "word": "table",
+          "definition": "furniture to eat on (mesa)"
+        },
+        {
+          "word": "hungry",
+          "definition": "wanting food (hambriento)"
+        },
+        {
+          "word": "delicious",
+          "definition": "very good to eat (delicioso)"
+        },
+        {
+          "word": "lunch",
+          "definition": "the meal at midday (almuerzo)"
+        },
+        {
+          "word": "invite",
+          "definition": "to ask someone to join (invitar)"
+        },
+        {
+          "word": "plate",
+          "definition": "a flat dish (plato)"
+        },
+        {
+          "word": "welcome",
+          "definition": "to receive someone kindly (dar la bienvenida)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "According to the text, what is the problem really about?",
+          "options": [
+            "Health, safety and speaking up",
+            "Trust and digital boundaries",
+            "Food, culture and inclusion",
+            "Cooperation and priorities"
+          ],
+          "answer": "Food, culture and inclusion"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "What happens because the students do not have all the facts?",
+          "options": [
+            "They hear different versions of what happened.",
+            "They immediately find the solution.",
+            "They stop talking to each other.",
+            "They decide to go home early."
+          ],
+          "answer": "They hear different versions of what happened."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which word best represents the central topic of the text?",
+          "options": [
+            "community",
+            "budget",
+            "independence",
+            "inclusion"
+          ],
+          "answer": "inclusion"
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why does Valeria listen carefully before answering?",
+          "options": [
+            "Because the teacher prohibits talking.",
+            "Because nobody else is paying attention.",
+            "Because she does not understand Spanish.",
+            "Because one missing detail can change the meaning of the situation."
+          ],
+          "answer": "Because one missing detail can change the meaning of the situation."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read this sentence from page 1: “Valeria brings a snack to share.” In this sentence, the word “snack” means…",
+          "options": [
+            "a small amount of food",
+            "a flat dish",
+            "very good to eat",
+            "wanting food"
+          ],
+          "answer": "a small amount of food"
+        }
+      ],
+      "cover": "../assets/images/week33_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "The Table With One Empty Seat",
+      "minimumWordTarget": 450,
+      "wordCount": 504,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week33_grade08_page01.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Table With One Empty Seat”, page 1. Scene based on: Camila is 13 years old and studies in Medellín. One ordinary day at a sports court on a Medellín hillside, a situation involving a shared meal begins to change the plans for the afternoon. Lucía is nearby and notices that Camila is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Camila is 13 years old and studies in Medellín. One ordinary day at a sports court on a Medellín hillside, a situation involving a shared meal begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Lucía is nearby and notices that Camila is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about food, culture and inclusion."
+            },
+            {
+              "html": "Grandma's <b>recipe</b> is a family secret."
+            },
+            {
+              "html": "The <b>ingredients</b> are simple but fresh."
+            },
+            {
+              "html": "There is one empty <b>seat</b> at the table."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week33_grade08_page02.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Table With One Empty Seat”, page 2. Scene based on: The situation becomes harder when a simple meal becomes a meaningful social moment. Camila feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a simple meal becomes a meaningful social moment. Camila feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Lucía suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "They are going to compare prices before the next purchase."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "Bandeja paisa is a <b>traditional</b> dish."
+            },
+            {
+              "html": "They want to <b>include</b> everyone at the table."
+            },
+            {
+              "html": "Camila asks if anyone has an <b>allergy</b>."
+            }
+          ],
+          "wordCount": 101
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week33_grade08_page03.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Table With One Empty Seat”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Camila has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Camila has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Lucía is <b>generous</b> with the food."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week33_grade08_page04.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Table With One Empty Seat”, page 4. Scene based on: Camila decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Camila decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Lucía explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "Every region has its own <b>flavor</b>."
+            },
+            {
+              "html": "Lucía reminds Camila that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "The old <b>restaurant</b> is still open."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week33_grade08_page05.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Table With One Empty Seat”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in Brooklyn, New York. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in Brooklyn, New York."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Camila realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            }
+          ],
+          "wordCount": 78
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week33_grade08_page06.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Table With One Empty Seat”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Camila feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Sharing food is an important <b>custom</b>."
+            },
+            {
+              "html": "Camila feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about food, culture and inclusion."
+            },
+            {
+              "html": "At home, Camila thinks about what could have happened if the group had reacted without checking anything."
+            }
+          ],
+          "wordCount": 69
+        }
+      ],
+      "practiceWords": [
+        "recipe",
+        "ingredients",
+        "traditional",
+        "include",
+        "flavor",
+        "restaurant",
+        "custom",
+        "seat",
+        "allergy",
+        "generous"
+      ],
+      "vocabulary": [
+        {
+          "word": "recipe",
+          "definition": "instructions to cook something (receta)"
+        },
+        {
+          "word": "ingredients",
+          "definition": "foods used to make a dish (ingredientes)"
+        },
+        {
+          "word": "traditional",
+          "definition": "following old customs (tradicional)"
+        },
+        {
+          "word": "include",
+          "definition": "to make someone part of a group (incluir)"
+        },
+        {
+          "word": "flavor",
+          "definition": "the taste of food (sabor)"
+        },
+        {
+          "word": "restaurant",
+          "definition": "a place where you buy and eat meals (restaurante)"
+        },
+        {
+          "word": "custom",
+          "definition": "a usual way of doing things (costumbre)"
+        },
+        {
+          "word": "seat",
+          "definition": "a place to sit (asiento)"
+        },
+        {
+          "word": "allergy",
+          "definition": "a bad reaction to some food (alergia)"
+        },
+        {
+          "word": "generous",
+          "definition": "happy to give (generoso)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "According to the text, where does Camila's situation begin?",
+          "options": [
+            "A small family apartment",
+            "A library near the school",
+            "A school courtyard",
+            "A sports court on a Medellín hillside"
+          ],
+          "answer": "A sports court on a Medellín hillside"
+        },
+        {
+          "skill": "inference",
+          "question": "Which action would go AGAINST what Camila learns in the story?",
+          "options": [
+            "Explaining the reason for a decision.",
+            "Asking a clear question.",
+            "Verifying a detail first.",
+            "Keeping the best food only for close friends without thinking."
+          ],
+          "answer": "Keeping the best food only for close friends without thinking."
+        },
+        {
+          "skill": "purpose",
+          "question": "What is the author's main purpose in this text?",
+          "options": [
+            "To describe the history of Medellín.",
+            "To sell a product to students.",
+            "To show, through a story, how to act responsibly when a simple meal becomes a meaningful social moment.",
+            "To give scientific data about teenagers in Colombia."
+          ],
+          "answer": "To show, through a story, how to act responsibly when a simple meal becomes a meaningful social moment."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which sentence best expresses the main lesson of the text?",
+          "options": [
+            "Good decisions come from evidence, not from pressure.",
+            "It is better to stay silent when there is a problem.",
+            "Popular opinions are usually correct.",
+            "The fastest reaction is always the best one."
+          ],
+          "answer": "Good decisions come from evidence, not from pressure."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Complete the sentence from the text: “Bandeja paisa is a _____ dish.”",
+          "options": [
+            "traditional",
+            "include",
+            "flavor",
+            "custom"
+          ],
+          "answer": "traditional"
+        }
+      ],
+      "cover": "../assets/images/week33_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "The Restaurant Bill",
+      "minimumWordTarget": 500,
+      "wordCount": 578,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week33_grade09_page01.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Restaurant Bill”, page 1. Scene based on: Daniela is 14 years old and studies in Medellín. One ordinary day at a small family apartment, a situation involving a shared meal begins to change the plans for the afternoon. Mateo is nearby and notices that Daniela is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniela is 14 years old and studies in Medellín. One ordinary day at a small family apartment, a situation involving a shared meal begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Mateo is nearby and notices that Daniela is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about food, culture and inclusion."
+            },
+            {
+              "html": "Grandma's <b>recipe</b> is a family secret."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "The <b>ingredients</b> are simple but fresh."
+            },
+            {
+              "html": "Mateo is <b>generous</b> with the food."
+            }
+          ],
+          "wordCount": 104
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week33_grade09_page02.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Restaurant Bill”, page 2. Scene based on: The situation becomes harder when a simple meal becomes a meaningful social moment. Daniela feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a simple meal becomes a meaningful social moment. Daniela feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Mateo suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "Bandeja paisa is a <b>traditional</b> dish."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Mateo reminds Daniela that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "They want to <b>include</b> everyone at the table."
+            }
+          ],
+          "wordCount": 100
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week33_grade09_page03.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Restaurant Bill”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Daniela has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Daniela has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Mateo reminds Daniela that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Every region has its own <b>flavor</b>."
+            }
+          ],
+          "wordCount": 99
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week33_grade09_page04.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Restaurant Bill”, page 4. Scene based on: Daniela decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniela decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Mateo explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "The old <b>restaurant</b> is still open."
+            },
+            {
+              "html": "Daniela listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "Sharing food is an important <b>custom</b>."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week33_grade09_page05.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Restaurant Bill”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in a subway station in Manhattan. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in a subway station in Manhattan."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Daniela realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "There is one empty <b>seat</b> at the table."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Daniela asks if anyone has an <b>allergy</b>."
+            }
+          ],
+          "wordCount": 94
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week33_grade09_page06.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Restaurant Bill”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Daniela feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Daniela feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about food, culture and inclusion."
+            },
+            {
+              "html": "At home, Daniela thinks about what could have happened if the group had reacted without checking anything."
+            }
+          ],
+          "wordCount": 95
+        }
+      ],
+      "practiceWords": [
+        "recipe",
+        "ingredients",
+        "traditional",
+        "include",
+        "flavor",
+        "restaurant",
+        "custom",
+        "seat",
+        "allergy",
+        "generous"
+      ],
+      "vocabulary": [
+        {
+          "word": "recipe",
+          "definition": "instructions to cook something (receta)"
+        },
+        {
+          "word": "ingredients",
+          "definition": "foods used to make a dish (ingredientes)"
+        },
+        {
+          "word": "traditional",
+          "definition": "following old customs (tradicional)"
+        },
+        {
+          "word": "include",
+          "definition": "to make someone part of a group (incluir)"
+        },
+        {
+          "word": "flavor",
+          "definition": "the taste of food (sabor)"
+        },
+        {
+          "word": "restaurant",
+          "definition": "a place where you buy and eat meals (restaurante)"
+        },
+        {
+          "word": "custom",
+          "definition": "a usual way of doing things (costumbre)"
+        },
+        {
+          "word": "seat",
+          "definition": "a place to sit (asiento)"
+        },
+        {
+          "word": "allergy",
+          "definition": "a bad reaction to some food (alergia)"
+        },
+        {
+          "word": "generous",
+          "definition": "happy to give (generoso)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What makes the situation harder for Daniela?",
+          "options": [
+            "A short video begins spreading among students",
+            "A simple meal becomes a meaningful social moment",
+            "A student must guide someone through an unfamiliar area",
+            "Someone gets off public transport in the wrong place"
+          ],
+          "answer": "A simple meal becomes a meaningful social moment"
+        },
+        {
+          "skill": "inference",
+          "question": "Which action would go AGAINST what Daniela learns in the story?",
+          "options": [
+            "Keeping the best food only for close friends without thinking.",
+            "Explaining the reason for a decision.",
+            "Asking a clear question.",
+            "Verifying a detail first."
+          ],
+          "answer": "Keeping the best food only for close friends without thinking."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In “…another clue points in a different direction, so Daniela has to reconsider the first assumption,” the word “so” introduces…",
+          "options": [
+            "a result",
+            "a contrast",
+            "an example",
+            "a condition"
+          ],
+          "answer": "a result"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which word best represents the central topic of the text?",
+          "options": [
+            "budget",
+            "independence",
+            "inclusion",
+            "safety"
+          ],
+          "answer": "inclusion"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Which word from the text means “a bad reaction to some food”?",
+          "options": [
+            "flavor",
+            "allergy",
+            "traditional",
+            "recipe"
+          ],
+          "answer": "allergy"
+        }
+      ],
+      "cover": "../assets/images/week33_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "The Meal That Changed The Conversation",
+      "minimumWordTarget": 600,
+      "wordCount": 665,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week33_grade10_page01.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Meal That Changed The Conversation”, page 1. Scene based on: Mateo is 15–16 years old and studies in Medellín. One ordinary day at a community center, a situation involving a shared meal begins to change the plans for the afternoon. Isabella is nearby and notices that Mateo is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mateo is 15–16 years old and studies in Medellín. One ordinary day at a community center, a situation involving a shared meal begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Isabella is nearby and notices that Mateo is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about food, culture and inclusion."
+            },
+            {
+              "html": "The meal becomes a lesson in <b>inclusion</b>."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "The <b>communal</b> table has space for everyone."
+            }
+          ],
+          "wordCount": 98
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week33_grade10_page02.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Meal That Changed The Conversation”, page 2. Scene based on: The situation becomes harder when a simple meal becomes a meaningful social moment. Mateo feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a simple meal becomes a meaningful social moment. Mateo feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Isabella suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "If people check reliable information, they usually make safer decisions."
+            },
+            {
+              "html": "Isabella reminds Mateo that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Food is part of a family's <b>heritage</b>."
+            },
+            {
+              "html": "It is <b>customary</b> to offer food to visitors."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week33_grade10_page03.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Meal That Changed The Conversation”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Mateo has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Mateo has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Mateo listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week33_grade10_page04.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Meal That Changed The Conversation”, page 4. Scene based on: Mateo decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mateo decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Isabella explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "Colombian <b>cuisine</b> changes from region to region."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Offering a seat is a small but powerful <b>gesture</b>."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week33_grade10_page05.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Meal That Changed The Conversation”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in a youth exchange in New York City. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in a youth exchange in New York City."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Mateo realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "The group respects everyone's <b>dietary</b> needs."
+            }
+          ],
+          "wordCount": 109
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week33_grade10_page06.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Meal That Changed The Conversation”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Mateo feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "A shared meal creates a sense of <b>belonging</b>."
+            },
+            {
+              "html": "Mateo feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about food, culture and inclusion."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Mateo's family is famous for its <b>hospitality</b>."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week33_grade10_page07.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Meal That Changed The Conversation”, page 7. Scene based on: The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another. They also discuss the author’s purpose and decide which detail best supports the final lesson. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another."
+            },
+            {
+              "html": "They also discuss the author’s purpose and decide which detail best supports the final lesson."
+            },
+            {
+              "html": "Mateo notices that strong reading is not only translating words. It means connecting evidence, sequence, intention, and consequences."
+            },
+            {
+              "html": "That habit will be useful in future exams because a difficult question often depends on a small but meaningful detail."
+            },
+            {
+              "html": "Isabella reminds Mateo that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "<b>Exclusion</b> can happen without words."
+            }
+          ],
+          "wordCount": 103
+        }
+      ],
+      "practiceWords": [
+        "inclusion",
+        "heritage",
+        "cuisine",
+        "gesture",
+        "dietary",
+        "belonging",
+        "hospitality",
+        "exclusion",
+        "communal",
+        "customary"
+      ],
+      "vocabulary": [
+        {
+          "word": "inclusion",
+          "definition": "making everyone feel part of a group (inclusión)"
+        },
+        {
+          "word": "heritage",
+          "definition": "traditions from the past (herencia, patrimonio)"
+        },
+        {
+          "word": "cuisine",
+          "definition": "a style of cooking (gastronomía, cocina)"
+        },
+        {
+          "word": "gesture",
+          "definition": "an action that shows a feeling (gesto)"
+        },
+        {
+          "word": "dietary",
+          "definition": "related to what people can eat (alimentario)"
+        },
+        {
+          "word": "belonging",
+          "definition": "feeling accepted in a group (pertenencia)"
+        },
+        {
+          "word": "hospitality",
+          "definition": "friendly treatment of guests (hospitalidad)"
+        },
+        {
+          "word": "exclusion",
+          "definition": "leaving someone out (exclusión)"
+        },
+        {
+          "word": "communal",
+          "definition": "shared by a group (comunitario)"
+        },
+        {
+          "word": "customary",
+          "definition": "usual or traditional (habitual, acostumbrado)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Which statement is TRUE according to the text?",
+          "options": [
+            "Mateo eats alone and ignores the new student.",
+            "Isabella suggests checking the information before blaming anyone.",
+            "Isabella wants Mateo to react immediately.",
+            "The students have all the facts from the beginning."
+          ],
+          "answer": "Isabella suggests checking the information before blaming anyone."
+        },
+        {
+          "skill": "inference",
+          "question": "Imagine you are in Mateo's situation. Which action follows the message of the text?",
+          "options": [
+            "Eat alone and ignores the new student.",
+            "Keep the best food only for close friends.",
+            "Laugh at the food of another family.",
+            "Invite the person sitting alone to share the meal."
+          ],
+          "answer": "Invite the person sitting alone to share the meal."
+        },
+        {
+          "skill": "purpose",
+          "question": "What is the author's main purpose in this text?",
+          "options": [
+            "To show, through a story, how to act responsibly when a simple meal becomes a meaningful social moment.",
+            "To give scientific data about teenagers in Colombia.",
+            "To sell a product to students.",
+            "To describe the history of Medellín."
+          ],
+          "answer": "To show, through a story, how to act responsibly when a simple meal becomes a meaningful social moment."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In the sentence “The action does not solve everything immediately, but it prevents the problem from growing,” the word “but” introduces…",
+          "options": [
+            "a time sequence",
+            "a contrast",
+            "an example",
+            "a reason"
+          ],
+          "answer": "a contrast"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which sentence best expresses the main lesson of the text?",
+          "options": [
+            "Good decisions come from evidence, not from pressure.",
+            "The fastest reaction is always the best one.",
+            "Popular opinions are usually correct.",
+            "It is better to stay silent when there is a problem."
+          ],
+          "answer": "Good decisions come from evidence, not from pressure."
+        }
+      ],
+      "cover": "../assets/images/week33_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "The Meal That Carried A History",
+      "minimumWordTarget": 700,
+      "wordCount": 774,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week33_grade11_page01.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Meal That Carried A History”, page 1. Scene based on: Daniela is 17–18 years old and studies in Medellín. One ordinary day at a local shopping area, a situation involving a shared meal begins to change the plans for the afternoon. Nicolás is nearby and notices that Daniela is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniela is 17–18 years old and studies in Medellín. One ordinary day at a local shopping area, a situation involving a shared meal begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Nicolás is nearby and notices that Daniela is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about food, culture and inclusion."
+            },
+            {
+              "html": "The meal becomes a lesson in <b>inclusion</b>."
+            },
+            {
+              "html": "Nicolás reminds Daniela that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "It is <b>customary</b> to offer food to visitors."
+            }
+          ],
+          "wordCount": 97
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week33_grade11_page02.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Meal That Carried A History”, page 2. Scene based on: The situation becomes harder when a simple meal becomes a meaningful social moment. Daniela feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a simple meal becomes a meaningful social moment. Daniela feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Nicolás suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "Food is part of a family's <b>heritage</b>."
+            },
+            {
+              "html": "Daniela listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Colombian <b>cuisine</b> changes from region to region."
+            }
+          ],
+          "wordCount": 97
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week33_grade11_page03.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Meal That Carried A History”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Daniela has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Daniela has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week33_grade11_page04.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Meal That Carried A History”, page 4. Scene based on: Daniela decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniela decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Nicolás explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "Offering a seat is a small but powerful <b>gesture</b>."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week33_grade11_page05.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Meal That Carried A History”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in an online classroom shared with New York students. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in an online classroom shared with New York students."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Daniela realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "The group respects everyone's <b>dietary</b> needs."
+            }
+          ],
+          "wordCount": 109
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week33_grade11_page06.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Meal That Carried A History”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Daniela feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Daniela feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about food, culture and inclusion."
+            },
+            {
+              "html": "Nicolás reminds Daniela that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "A shared meal creates a sense of <b>belonging</b>."
+            }
+          ],
+          "wordCount": 103
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week33_grade11_page07.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Meal That Carried A History”, page 7. Scene based on: At home, Daniela thinks about what could have happened if the group had reacted without checking anything. The student writes a short reflection: a responsible choice is not always the fastest or most popular choice. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At home, Daniela thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "Daniela's family is famous for its <b>hospitality</b>."
+            },
+            {
+              "html": "Next time, Daniela plans to ask a clearer question, confirm important information, and explain the reason for the decision."
+            },
+            {
+              "html": "The experience becomes part of how Daniela understands school, family, technology, travel, and life in a larger world."
+            },
+            {
+              "html": "Daniela listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "<b>Exclusion</b> can happen without words."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week33_grade11_page08.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Meal That Carried A History”, page 8. Scene based on: The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another. They also discuss the author’s purpose and decide which detail best supports the final lesson. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another."
+            },
+            {
+              "html": "They also discuss the author’s purpose and decide which detail best supports the final lesson."
+            },
+            {
+              "html": "Daniela notices that strong reading is not only translating words. It means connecting evidence, sequence, intention, and consequences."
+            },
+            {
+              "html": "That habit will be useful in future exams because a difficult question often depends on a small but meaningful detail."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "The <b>communal</b> table has space for everyone."
+            }
+          ],
+          "wordCount": 105
+        }
+      ],
+      "practiceWords": [
+        "inclusion",
+        "heritage",
+        "cuisine",
+        "gesture",
+        "dietary",
+        "belonging",
+        "hospitality",
+        "exclusion",
+        "communal",
+        "customary"
+      ],
+      "vocabulary": [
+        {
+          "word": "inclusion",
+          "definition": "making everyone feel part of a group (inclusión)"
+        },
+        {
+          "word": "heritage",
+          "definition": "traditions from the past (herencia, patrimonio)"
+        },
+        {
+          "word": "cuisine",
+          "definition": "a style of cooking (gastronomía, cocina)"
+        },
+        {
+          "word": "gesture",
+          "definition": "an action that shows a feeling (gesto)"
+        },
+        {
+          "word": "dietary",
+          "definition": "related to what people can eat (alimentario)"
+        },
+        {
+          "word": "belonging",
+          "definition": "feeling accepted in a group (pertenencia)"
+        },
+        {
+          "word": "hospitality",
+          "definition": "friendly treatment of guests (hospitalidad)"
+        },
+        {
+          "word": "exclusion",
+          "definition": "leaving someone out (exclusión)"
+        },
+        {
+          "word": "communal",
+          "definition": "shared by a group (comunitario)"
+        },
+        {
+          "word": "customary",
+          "definition": "usual or traditional (habitual, acostumbrado)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "According to the text, what could happen if the group reacted without checking anything?",
+          "options": [
+            "The problem would disappear immediately.",
+            "The teacher would cancel the class.",
+            "Everybody would agree on the facts.",
+            "The problem could become bigger and hurt someone."
+          ],
+          "answer": "The problem could become bigger and hurt someone."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In the sentence “The action does not solve everything immediately, but it prevents the problem from growing,” the word “but” introduces…",
+          "options": [
+            "a reason",
+            "a contrast",
+            "a time sequence",
+            "an example"
+          ],
+          "answer": "a contrast"
+        },
+        {
+          "skill": "purpose",
+          "question": "What is the purpose of the question “What do you know for sure, and what are you only assuming?”",
+          "options": [
+            "To blame one student for the problem.",
+            "To end the conversation quickly.",
+            "To give the students a grammar exercise.",
+            "To help the students separate evidence from emotion."
+          ],
+          "answer": "To help the students separate evidence from emotion."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Which word from the text means “making everyone feel part of a group”?",
+          "options": [
+            "heritage",
+            "inclusion",
+            "hospitality",
+            "dietary"
+          ],
+          "answer": "inclusion"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which word best represents the central topic of the text?",
+          "options": [
+            "future",
+            "environment",
+            "limits",
+            "inclusion"
+          ],
+          "answer": "inclusion"
+        }
+      ],
+      "cover": "../assets/images/week33_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

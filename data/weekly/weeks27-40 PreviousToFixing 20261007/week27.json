@@ -1,0 +1,1782 @@
+{
+  "week": 27,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 27",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "My New Jacket",
+      "minimumWordTarget": 350,
+      "wordCount": 449,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week27_grade06_page01.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “My New Jacket”, page 1. Scene based on: Laura is 11 years old and studies in Medellín. One ordinary day at a public school in Medellín, a situation involving a clothes and appearance begins to change the plans for the afternoon. Tomás is nearby and notices that Laura is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura is 11 years old and studies in Medellín. One ordinary day at a public school in Medellín, a situation involving a clothes and appearance begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Tomás is nearby and notices that Laura is paying close attention to what is happening."
+            },
+            {
+              "html": "Laura wears a new <b>jacket</b> to school."
+            },
+            {
+              "html": "“This is my choice, but that is our shared space,” the student says."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Everyone has different <b>clothes</b> and styles."
+            },
+            {
+              "html": "The <b>color</b> of the jacket is very bright."
+            },
+            {
+              "html": "Tomás says, “Your style is <b>beautiful</b> because it is yours.”"
+            },
+            {
+              "html": "Every person has a unique <b>style</b>."
+            }
+          ],
+          "wordCount": 118
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week27_grade06_page02.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “My New Jacket”, page 2. Scene based on: The situation becomes harder when appearance becomes the center of unwanted attention. Laura feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when appearance becomes the center of unwanted attention. Laura feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Tomás suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "The family asks, “Is it yours?” and checks before moving anything."
+            },
+            {
+              "html": "Tomás reminds Laura that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Laura listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "It is OK to look <b>different</b>."
+            },
+            {
+              "html": "Some students <b>laugh at</b> the jacket."
+            }
+          ],
+          "wordCount": 105
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week27_grade06_page03.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “My New Jacket”, page 3. Scene based on: Laura decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Tomás explains that being responsible is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "At home, they use technology every day, but they also set simple rules."
+            },
+            {
+              "html": "By the end of the day, the immediate problem has a result. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Laura feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "Nobody should judge you for your <b>shoes</b>."
+            },
+            {
+              "html": "“You <b>look</b> great,” Tomás says sincerely."
+            }
+          ],
+          "wordCount": 129
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week27_grade06_page04.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “My New Jacket”, page 4. Scene based on: At home, Laura thinks about what could have happened if the group had reacted without checking anything. The student writes a short reflection: a responsible choice is not always the fastest or most popular choice. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At home, Laura thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "The student writes a short reflection: a responsible choice is not always the fastest or most popular choice."
+            },
+            {
+              "html": "Next time, Laura plans to ask a clearer question, confirm important information, and explain the reason for the decision."
+            },
+            {
+              "html": "The experience becomes part of how Laura understands school, family, technology, travel, and life in a larger world."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Laura does not <b>feel</b> comfortable with the comments."
+            }
+          ],
+          "wordCount": 97
+        }
+      ],
+      "practiceWords": [
+        "jacket",
+        "clothes",
+        "color",
+        "beautiful",
+        "different",
+        "laugh at",
+        "shoes",
+        "look",
+        "feel",
+        "style"
+      ],
+      "vocabulary": [
+        {
+          "word": "jacket",
+          "definition": "a short coat (chaqueta)"
+        },
+        {
+          "word": "clothes",
+          "definition": "things people wear (ropa)"
+        },
+        {
+          "word": "color",
+          "definition": "red, blue, green, etc. (color)"
+        },
+        {
+          "word": "beautiful",
+          "definition": "very nice to look at (hermoso)"
+        },
+        {
+          "word": "different",
+          "definition": "not the same (diferente)"
+        },
+        {
+          "word": "laugh at",
+          "definition": "to make fun of someone (burlarse de)"
+        },
+        {
+          "word": "shoes",
+          "definition": "things you wear on your feet (zapatos)"
+        },
+        {
+          "word": "look",
+          "definition": "to seem (verse, parecer)"
+        },
+        {
+          "word": "feel",
+          "definition": "to have an emotion (sentir)"
+        },
+        {
+          "word": "style",
+          "definition": "a personal way of dressing (estilo)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "Which statement is TRUE according to the text?",
+          "options": [
+            "Tomás wants Laura to react immediately.",
+            "Laura laughs at the clothes of other classmates.",
+            "The students have all the facts from the beginning.",
+            "Tomás suggests checking the information before blaming anyone."
+          ],
+          "answer": "Tomás suggests checking the information before blaming anyone."
+        },
+        {
+          "skill": "sequence",
+          "question": "What happens FIRST in the story?",
+          "options": [
+            "Laura notices a situation at a public school in Medellín.",
+            "Laura writes a short reflection at home.",
+            "Laura takes one small, concrete action.",
+            "The students hear different versions of what happened."
+          ],
+          "answer": "Laura notices a situation at a public school in Medellín."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Complete the sentence from the text: “Laura does not _____ comfortable with the comments.”",
+          "options": [
+            "feel",
+            "jacket",
+            "laugh at",
+            "shoes"
+          ],
+          "answer": "feel"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which sentence best expresses the main lesson of the text?",
+          "options": [
+            "Good decisions come from evidence, not from pressure.",
+            "It is better to stay silent when there is a problem.",
+            "The fastest reaction is always the best one.",
+            "Popular opinions are usually correct."
+          ],
+          "answer": "Good decisions come from evidence, not from pressure."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Based on the text, what will Laura probably do in a similar situation in the future?",
+          "options": [
+            "Avoid all situations with other people.",
+            "Laugh at the clothes of other classmates.",
+            "Ask a clearer question and confirm important information first.",
+            "React immediately without asking anyone."
+          ],
+          "answer": "Ask a clearer question and confirm important information first."
+        }
+      ],
+      "cover": "../assets/images/week27_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "The Clothes For The Trip",
+      "minimumWordTarget": 400,
+      "wordCount": 510,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week27_grade07_page01.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Clothes For The Trip”, page 1. Scene based on: Nicolás is 12 years old and studies in Medellín. One ordinary day at a neighborhood in Manrique, a situation involving a clothes and appearance begins to change the plans for the afternoon. Paula is nearby and notices that Nicolás is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Nicolás is 12 years old and studies in Medellín. One ordinary day at a neighborhood in Manrique, a situation involving a clothes and appearance begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Paula is nearby and notices that Nicolás is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about identity, comparison and respect."
+            },
+            {
+              "html": "Nicolás wears a new <b>jacket</b> to school."
+            },
+            {
+              "html": "Everyone has different <b>clothes</b> and styles."
+            },
+            {
+              "html": "The <b>color</b> of the jacket is very bright."
+            },
+            {
+              "html": "“You <b>look</b> great,” Paula says sincerely."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week27_grade07_page02.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Clothes For The Trip”, page 2. Scene based on: The situation becomes harder when appearance becomes the center of unwanted attention. Nicolás feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when appearance becomes the center of unwanted attention. Nicolás feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Paula suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "“Are we going to change the plan?” one student asks."
+            },
+            {
+              "html": "Nicolás listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Paula says, “Your style is <b>beautiful</b> because it is yours.”"
+            },
+            {
+              "html": "It is OK to look <b>different</b>."
+            },
+            {
+              "html": "Nicolás does not <b>feel</b> comfortable with the comments."
+            }
+          ],
+          "wordCount": 116
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week27_grade07_page03.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Clothes For The Trip”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Nicolás has to think about the first idea again. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Nicolás has to think about the first idea again."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Some students <b>laugh at</b> the jacket."
+            },
+            {
+              "html": "Every person has a unique <b>style</b>."
+            }
+          ],
+          "wordCount": 107
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week27_grade07_page04.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Clothes For The Trip”, page 4. Scene based on: Nicolás decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Nicolás decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Paula explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "They point to the options: “This route is shorter, but these tickets are cheaper.”"
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            }
+          ],
+          "wordCount": 92
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week27_grade07_page05.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Clothes For The Trip”, page 5. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Nicolás feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Nicolás feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about identity, comparison and respect."
+            },
+            {
+              "html": "At home, Nicolás thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "Nobody should judge you for your <b>shoes</b>."
+            }
+          ],
+          "wordCount": 102
+        }
+      ],
+      "practiceWords": [
+        "jacket",
+        "clothes",
+        "color",
+        "beautiful",
+        "different",
+        "laugh at",
+        "shoes",
+        "look",
+        "feel",
+        "style"
+      ],
+      "vocabulary": [
+        {
+          "word": "jacket",
+          "definition": "a short coat (chaqueta)"
+        },
+        {
+          "word": "clothes",
+          "definition": "things people wear (ropa)"
+        },
+        {
+          "word": "color",
+          "definition": "red, blue, green, etc. (color)"
+        },
+        {
+          "word": "beautiful",
+          "definition": "very nice to look at (hermoso)"
+        },
+        {
+          "word": "different",
+          "definition": "not the same (diferente)"
+        },
+        {
+          "word": "laugh at",
+          "definition": "to make fun of someone (burlarse de)"
+        },
+        {
+          "word": "shoes",
+          "definition": "things you wear on your feet (zapatos)"
+        },
+        {
+          "word": "look",
+          "definition": "to seem (verse, parecer)"
+        },
+        {
+          "word": "feel",
+          "definition": "to have an emotion (sentir)"
+        },
+        {
+          "word": "style",
+          "definition": "a personal way of dressing (estilo)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "According to the text, where does Nicolás's situation begin?",
+          "options": [
+            "A school courtyard",
+            "A sports court on a Medellín hillside",
+            "A neighborhood in Manrique",
+            "A community center"
+          ],
+          "answer": "A neighborhood in Manrique"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "Why does Nicolás feel more confident at the end?",
+          "options": [
+            "Because everybody agreed from the beginning.",
+            "Because Paula made the decision for him.",
+            "Because the problem was never real.",
+            "Because the decision came from evidence rather than pressure."
+          ],
+          "answer": "Because the decision came from evidence rather than pressure."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which option is the best summary of the text?",
+          "options": [
+            "Paula solves the problem alone while Nicolás watches.",
+            "Nicolás faces a problem because appearance becomes the center of unwanted attention, checks the facts with Paula and makes a responsible decision.",
+            "Nicolás and Paula travel to New York to solve the problem.",
+            "Nicolás changes the outfit to please the group and the problem disappears."
+          ],
+          "answer": "Nicolás faces a problem because appearance becomes the center of unwanted attention, checks the facts with Paula and makes a responsible decision."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why does Nicolás listen carefully before answering?",
+          "options": [
+            "Because the teacher prohibits talking.",
+            "Because one missing detail can change the meaning of the situation.",
+            "Because he does not understand Spanish.",
+            "Because nobody else is paying attention."
+          ],
+          "answer": "Because one missing detail can change the meaning of the situation."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read this sentence from page 2: “It is OK to look different.” In this sentence, the word “different” means…",
+          "options": [
+            "to have an emotion",
+            "things you wear on your feet",
+            "a short coat",
+            "not the same"
+          ],
+          "answer": "not the same"
+        }
+      ],
+      "cover": "../assets/images/week27_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "The Outfit For The Festival",
+      "minimumWordTarget": 450,
+      "wordCount": 541,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week27_grade08_page01.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Outfit For The Festival”, page 1. Scene based on: Samuel is 13 years old and studies in Medellín. One ordinary day at the Medellín Metro, a situation involving a clothes and appearance begins to change the plans for the afternoon. Kevin is nearby and notices that Samuel is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Samuel is 13 years old and studies in Medellín. One ordinary day at the Medellín Metro, a situation involving a clothes and appearance begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Kevin is nearby and notices that Samuel is paying close attention to what is happening."
+            },
+            {
+              "html": "<b>Appearance</b> becomes the topic of the whole group."
+            },
+            {
+              "html": "The <b>outfit</b> for the festival is colorful and original."
+            },
+            {
+              "html": "Some classmates <b>compare</b> brands instead of talking."
+            }
+          ],
+          "wordCount": 70
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week27_grade08_page02.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Outfit For The Festival”, page 2. Scene based on: The situation becomes harder when appearance becomes the center of unwanted attention. Samuel feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when appearance becomes the center of unwanted attention. Samuel feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Kevin suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "They are meeting again on Friday, so the plan already feels real."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "One <b>comment</b> about clothes hurts more than people think."
+            },
+            {
+              "html": "Samuel wants to feel <b>confident</b> again."
+            }
+          ],
+          "wordCount": 92
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week27_grade08_page03.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Outfit For The Festival”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Samuel has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Samuel has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "We should not <b>judge</b> people by their clothes."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week27_grade08_page04.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Outfit For The Festival”, page 4. Scene based on: Samuel decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Samuel decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Kevin explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "The teacher gives them time to discuss the problem and asks the group to listen."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "<b>Fashion</b> changes every year, but respect should not."
+            },
+            {
+              "html": "The attention makes Samuel feel <b>uncomfortable</b>."
+            }
+          ],
+          "wordCount": 106
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week27_grade08_page05.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Outfit For The Festival”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in Queens, New York. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in Queens, New York."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Samuel realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "Kevin reminds Samuel that being <b>unique</b> is a strength."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week27_grade08_page06.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Outfit For The Festival”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Samuel feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Samuel feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about identity, comparison and respect."
+            },
+            {
+              "html": "At home, Samuel thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "Kind words can protect a person's <b>self-esteem</b>."
+            }
+          ],
+          "wordCount": 102
+        }
+      ],
+      "practiceWords": [
+        "appearance",
+        "outfit",
+        "compare",
+        "comment",
+        "confident",
+        "judge",
+        "fashion",
+        "uncomfortable",
+        "unique",
+        "self-esteem"
+      ],
+      "vocabulary": [
+        {
+          "word": "appearance",
+          "definition": "the way someone looks (apariencia)"
+        },
+        {
+          "word": "outfit",
+          "definition": "a set of clothes worn together (atuendo)"
+        },
+        {
+          "word": "compare",
+          "definition": "to look at differences and similarities (comparar)"
+        },
+        {
+          "word": "comment",
+          "definition": "a spoken or written opinion (comentario)"
+        },
+        {
+          "word": "confident",
+          "definition": "sure of yourself (seguro de sí mismo)"
+        },
+        {
+          "word": "judge",
+          "definition": "to form an opinion about someone (juzgar)"
+        },
+        {
+          "word": "fashion",
+          "definition": "popular styles of clothes (moda)"
+        },
+        {
+          "word": "uncomfortable",
+          "definition": "not feeling relaxed (incómodo)"
+        },
+        {
+          "word": "unique",
+          "definition": "different from all others (único)"
+        },
+        {
+          "word": "self-esteem",
+          "definition": "how much you value yourself (autoestima)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Who notices that Samuel is paying close attention to what is happening?",
+          "options": [
+            "Kevin",
+            "Andrés",
+            "María",
+            "Esteban"
+          ],
+          "answer": "Kevin"
+        },
+        {
+          "skill": "inference",
+          "question": "Which action would go AGAINST what Samuel learns in the story?",
+          "options": [
+            "Verifying a detail first.",
+            "Posting a photo to compare appearances without thinking.",
+            "Explaining the reason for a decision.",
+            "Asking a clear question."
+          ],
+          "answer": "Posting a photo to compare appearances without thinking."
+        },
+        {
+          "skill": "purpose",
+          "question": "What is the purpose of the question “What do you know for sure, and what are you only assuming?”",
+          "options": [
+            "To give the students a grammar exercise.",
+            "To end the conversation quickly.",
+            "To help the students separate evidence from emotion.",
+            "To blame one student for the problem."
+          ],
+          "answer": "To help the students separate evidence from emotion."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which could be another good title for the text?",
+          "options": [
+            "“Silence Is Not Always Anger”",
+            "“Evidence Before Accusations”",
+            "“Respect Is Always In Style”",
+            "“Helping Without Taking Over”"
+          ],
+          "answer": "“Respect Is Always In Style”"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Complete the sentence from the text: “_____ becomes the topic of the whole group.”",
+          "options": [
+            "appearance",
+            "unique",
+            "confident",
+            "outfit"
+          ],
+          "answer": "appearance"
+        }
+      ],
+      "cover": "../assets/images/week27_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "Looking Good For Whom?",
+      "minimumWordTarget": 500,
+      "wordCount": 618,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week27_grade09_page01.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “Looking Good For Whom?”, page 1. Scene based on: Andrés is 14 years old and studies in Medellín. One ordinary day at a library near the school, a situation involving a clothes and appearance begins to change the plans for the afternoon. Valeria is nearby and notices that Andrés is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Andrés is 14 years old and studies in Medellín. One ordinary day at a library near the school, a situation involving a clothes and appearance begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Valeria is nearby and notices that Andrés is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about identity, comparison and respect."
+            },
+            {
+              "html": "<b>Appearance</b> becomes the topic of the whole group."
+            },
+            {
+              "html": "The <b>outfit</b> for the festival is colorful and original."
+            },
+            {
+              "html": "Some classmates <b>compare</b> brands instead of talking."
+            },
+            {
+              "html": "The attention makes Andrés feel <b>uncomfortable</b>."
+            }
+          ],
+          "wordCount": 97
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week27_grade09_page02.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “Looking Good For Whom?”, page 2. Scene based on: The situation becomes harder when appearance becomes the center of unwanted attention. Andrés feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when appearance becomes the center of unwanted attention. Andrés feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Valeria suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "The students have to consider safety before making a decision."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Valeria reminds Andrés that being <b>unique</b> is a strength."
+            }
+          ],
+          "wordCount": 108
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week27_grade09_page03.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “Looking Good For Whom?”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Andrés has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Andrés has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "One <b>comment</b> about clothes hurts more than people think."
+            },
+            {
+              "html": "Kind words can protect a person's <b>self-esteem</b>."
+            }
+          ],
+          "wordCount": 112
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week27_grade09_page04.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “Looking Good For Whom?”, page 4. Scene based on: Andrés decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Andrés decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Valeria explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "The situation might improve, but it may also become harder if nobody checks the facts."
+            },
+            {
+              "html": "Valeria reminds Andrés that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Andrés wants to feel <b>confident</b> again."
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week27_grade09_page05.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “Looking Good For Whom?”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in Brooklyn, New York. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in Brooklyn, New York."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Andrés realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "Andrés listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "We should not <b>judge</b> people by their clothes."
+            }
+          ],
+          "wordCount": 103
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week27_grade09_page06.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “Looking Good For Whom?”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Andrés feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Andrés feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about identity, comparison and respect."
+            },
+            {
+              "html": "At home, Andrés thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "<b>Fashion</b> changes every year, but respect should not."
+            }
+          ],
+          "wordCount": 103
+        }
+      ],
+      "practiceWords": [
+        "appearance",
+        "outfit",
+        "compare",
+        "comment",
+        "confident",
+        "judge",
+        "fashion",
+        "uncomfortable",
+        "unique",
+        "self-esteem"
+      ],
+      "vocabulary": [
+        {
+          "word": "appearance",
+          "definition": "the way someone looks (apariencia)"
+        },
+        {
+          "word": "outfit",
+          "definition": "a set of clothes worn together (atuendo)"
+        },
+        {
+          "word": "compare",
+          "definition": "to look at differences and similarities (comparar)"
+        },
+        {
+          "word": "comment",
+          "definition": "a spoken or written opinion (comentario)"
+        },
+        {
+          "word": "confident",
+          "definition": "sure of yourself (seguro de sí mismo)"
+        },
+        {
+          "word": "judge",
+          "definition": "to form an opinion about someone (juzgar)"
+        },
+        {
+          "word": "fashion",
+          "definition": "popular styles of clothes (moda)"
+        },
+        {
+          "word": "uncomfortable",
+          "definition": "not feeling relaxed (incómodo)"
+        },
+        {
+          "word": "unique",
+          "definition": "different from all others (único)"
+        },
+        {
+          "word": "self-esteem",
+          "definition": "how much you value yourself (autoestima)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Which New York setting is mentioned in the text?",
+          "options": [
+            "A youth exchange in New York City",
+            "An online classroom shared with New York students",
+            "Queens, New York",
+            "Brooklyn, New York"
+          ],
+          "answer": "Brooklyn, New York"
+        },
+        {
+          "skill": "inference",
+          "question": "Which action would go AGAINST what Andrés learns in the story?",
+          "options": [
+            "Posting a photo to compare appearances without thinking.",
+            "Verifying a detail first.",
+            "Asking a clear question.",
+            "Explaining the reason for a decision."
+          ],
+          "answer": "Posting a photo to compare appearances without thinking."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What is the relationship between the Medellín situation and the New York example?",
+          "options": [
+            "The Medellín situation solves the New York problem.",
+            "Both show the same basic problem in different places.",
+            "The New York example causes the Medellín problem.",
+            "They are completely unrelated situations."
+          ],
+          "answer": "Both show the same basic problem in different places."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which option is the best summary of the text?",
+          "options": [
+            "Andrés faces a problem because appearance becomes the center of unwanted attention, checks the facts with Valeria and makes a responsible decision.",
+            "Andrés and Valeria travel to New York to solve the problem.",
+            "Andrés changes the outfit to please the group and the problem disappears.",
+            "Valeria solves the problem alone while Andrés watches."
+          ],
+          "answer": "Andrés faces a problem because appearance becomes the center of unwanted attention, checks the facts with Valeria and makes a responsible decision."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Which word from the text means “the way someone looks”?",
+          "options": [
+            "appearance",
+            "comment",
+            "fashion",
+            "judge"
+          ],
+          "answer": "appearance"
+        }
+      ],
+      "cover": "../assets/images/week27_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "What We Wear And What People Assume",
+      "minimumWordTarget": 600,
+      "wordCount": 752,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week27_grade10_page01.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “What We Wear And What People Assume”, page 1. Scene based on: Laura is 15–16 years old and studies in Medellín. One ordinary day at a sports court on a Medellín hillside, a situation involving a clothes and appearance begins to change the plans for the afternoon. Kevin is nearby and notices that Laura is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura is 15–16 years old and studies in Medellín. One ordinary day at a sports court on a Medellín hillside, a situation involving a clothes and appearance begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Kevin is nearby and notices that Laura is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about identity, comparison and respect."
+            },
+            {
+              "html": "Clothes can express <b>identity</b>, but they do not define it."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "The comments are based on a <b>stereotype</b>."
+            },
+            {
+              "html": "For Laura, the outfit is a form of <b>self-expression</b>."
+            }
+          ],
+          "wordCount": 116
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week27_grade10_page02.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “What We Wear And What People Assume”, page 2. Scene based on: The situation becomes harder when appearance becomes the center of unwanted attention. Laura feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when appearance becomes the center of unwanted attention. Laura feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Kevin suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "The group is meeting after class, and they are going to compare several options."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Kevin reminds Laura that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Being under constant <b>scrutiny</b> is exhausting."
+            }
+          ],
+          "wordCount": 105
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week27_grade10_page03.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “What We Wear And What People Assume”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Laura has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Laura has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Kevin reminds Laura that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "The <b>unwanted</b> attention continues online."
+            }
+          ],
+          "wordCount": 98
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week27_grade10_page04.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “What We Wear And What People Assume”, page 4. Scene based on: Laura decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Kevin explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "One student says, “I will call if the plan changes.”"
+            },
+            {
+              "html": "Laura listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Constant comparison can affect <b>body image</b>."
+            },
+            {
+              "html": "Every person deserves <b>dignity</b>, whatever they wear."
+            }
+          ],
+          "wordCount": 114
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week27_grade10_page05.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “What We Wear And What People Assume”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in a subway station in Manhattan. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in a subway station in Manhattan."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Laura realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "<b>Peer pressure</b> pushes some students to dress the same."
+            },
+            {
+              "html": "Kevin questions the pressure toward <b>conformity</b>."
+            }
+          ],
+          "wordCount": 112
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week27_grade10_page06.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “What We Wear And What People Assume”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Laura feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Laura feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about identity, comparison and respect."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            }
+          ],
+          "wordCount": 99
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week27_grade10_page07.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “What We Wear And What People Assume”, page 7. Scene based on: The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another. They also discuss the author’s purpose and decide which detail best supports the final lesson. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another."
+            },
+            {
+              "html": "They also discuss the author’s purpose and decide which detail best supports the final lesson."
+            },
+            {
+              "html": "Laura notices that strong reading is not only translating words. It means connecting evidence, sequence, intention, and consequences."
+            },
+            {
+              "html": "That habit will be useful in future exams because a difficult question often depends on a small but meaningful detail."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Comments that <b>objectify</b> someone are never acceptable."
+            }
+          ],
+          "wordCount": 108
+        }
+      ],
+      "practiceWords": [
+        "identity",
+        "stereotype",
+        "body image",
+        "peer pressure",
+        "objectify",
+        "self-expression",
+        "scrutiny",
+        "unwanted",
+        "dignity",
+        "conformity"
+      ],
+      "vocabulary": [
+        {
+          "word": "identity",
+          "definition": "who a person is (identidad)"
+        },
+        {
+          "word": "stereotype",
+          "definition": "a fixed, simple idea about a group (estereotipo)"
+        },
+        {
+          "word": "body image",
+          "definition": "how a person sees their own body (imagen corporal)"
+        },
+        {
+          "word": "peer pressure",
+          "definition": "influence from people your age (presión de grupo)"
+        },
+        {
+          "word": "objectify",
+          "definition": "to treat a person like an object (cosificar)"
+        },
+        {
+          "word": "self-expression",
+          "definition": "showing your personality (autoexpresión)"
+        },
+        {
+          "word": "scrutiny",
+          "definition": "careful and critical observation (escrutinio)"
+        },
+        {
+          "word": "unwanted",
+          "definition": "not desired (no deseado)"
+        },
+        {
+          "word": "dignity",
+          "definition": "the right to be respected (dignidad)"
+        },
+        {
+          "word": "conformity",
+          "definition": "behaving like others to fit in (conformismo)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "According to the text, what is the problem really about?",
+          "options": [
+            "Identity, comparison and respect",
+            "Needs, wants and financial judgment",
+            "Evidence, honesty and problem solving",
+            "Intercultural communication and global perspective"
+          ],
+          "answer": "Identity, comparison and respect"
+        },
+        {
+          "skill": "inference",
+          "question": "What can be inferred about Kevin?",
+          "options": [
+            "He is not interested in the problem.",
+            "He helps Laura think carefully before acting.",
+            "He wants Laura to react as fast as possible.",
+            "He created the problem on purpose."
+          ],
+          "answer": "He helps Laura think carefully before acting."
+        },
+        {
+          "skill": "purpose",
+          "question": "What is the purpose of the question “What do you know for sure, and what are you only assuming?”",
+          "options": [
+            "To end the conversation quickly.",
+            "To blame one student for the problem.",
+            "To give the students a grammar exercise.",
+            "To help the students separate evidence from emotion."
+          ],
+          "answer": "To help the students separate evidence from emotion."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In “Instead of having all the facts, the students hear different versions of what happened,” the expression “instead of” shows that…",
+          "options": [
+            "the students get rumors in place of complete information",
+            "the facts arrive after a long time",
+            "the versions are all exactly the same",
+            "the students have all the information they need"
+          ],
+          "answer": "the students get rumors in place of complete information"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which could be another good title for the text?",
+          "options": [
+            "“Check The Sky Before You Go”",
+            "“When Home Needs You”",
+            "“When Plans Change, Talk First”",
+            "“Respect Is Always In Style”"
+          ],
+          "answer": "“Respect Is Always In Style”"
+        }
+      ],
+      "cover": "../assets/images/week27_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "Appearance, Assumptions And Opportunity",
+      "minimumWordTarget": 700,
+      "wordCount": 831,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week27_grade11_page01.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “Appearance, Assumptions And Opportunity”, page 1. Scene based on: Valentina is 17–18 years old and studies in Medellín. One ordinary day at a small family apartment, a situation involving a clothes and appearance begins to change the plans for the afternoon. Samuel is nearby and notices that Valentina is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina is 17–18 years old and studies in Medellín. One ordinary day at a small family apartment, a situation involving a clothes and appearance begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Samuel is nearby and notices that Valentina is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about identity, comparison and respect."
+            },
+            {
+              "html": "Students must follow the safety rules, but they do not have to accept every suggestion."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Clothes can express <b>identity</b>, but they do not define it."
+            },
+            {
+              "html": "The comments are based on a <b>stereotype</b>."
+            },
+            {
+              "html": "Samuel questions the pressure toward <b>conformity</b>."
+            }
+          ],
+          "wordCount": 124
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week27_grade11_page02.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “Appearance, Assumptions And Opportunity”, page 2. Scene based on: The situation becomes harder when appearance becomes the center of unwanted attention. Valentina feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when appearance becomes the center of unwanted attention. Valentina feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Samuel suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "Constant comparison can affect <b>body image</b>."
+            },
+            {
+              "html": "Samuel reminds Valentina that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Valentina listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week27_grade11_page03.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “Appearance, Assumptions And Opportunity”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Valentina has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Valentina has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Valentina listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "<b>Peer pressure</b> pushes some students to dress the same."
+            }
+          ],
+          "wordCount": 102
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week27_grade11_page04.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “Appearance, Assumptions And Opportunity”, page 4. Scene based on: Valentina decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Samuel explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "Comments that <b>objectify</b> someone are never acceptable."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "For Valentina, the outfit is a form of <b>self-expression</b>."
+            }
+          ],
+          "wordCount": 111
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week27_grade11_page05.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “Appearance, Assumptions And Opportunity”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in a youth exchange in New York City. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in a youth exchange in New York City."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Valentina realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            }
+          ],
+          "wordCount": 103
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week27_grade11_page06.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “Appearance, Assumptions And Opportunity”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Valentina feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Valentina feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about identity, comparison and respect."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Being under constant <b>scrutiny</b> is exhausting."
+            }
+          ],
+          "wordCount": 104
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week27_grade11_page07.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “Appearance, Assumptions And Opportunity”, page 7. Scene based on: At home, Valentina thinks about what could have happened if the group had reacted without checking anything. The student writes a short reflection: a responsible choice is not always the fastest or most popular choice. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At home, Valentina thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "The student writes a short reflection: a responsible choice is not always the fastest or most popular choice."
+            },
+            {
+              "html": "Next time, Valentina plans to ask a clearer question, confirm important information, and explain the reason for the decision."
+            },
+            {
+              "html": "The experience becomes part of how Valentina understands school, family, technology, travel, and life in a larger world."
+            },
+            {
+              "html": "Samuel reminds Valentina that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "The <b>unwanted</b> attention continues online."
+            }
+          ],
+          "wordCount": 94
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week27_grade11_page08.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “Appearance, Assumptions And Opportunity”, page 8. Scene based on: The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another. They also discuss the author’s purpose and decide which detail best supports the final lesson. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another."
+            },
+            {
+              "html": "They also discuss the author’s purpose and decide which detail best supports the final lesson."
+            },
+            {
+              "html": "Valentina notices that strong reading is not only translating words. It means connecting evidence, sequence, intention, and consequences."
+            },
+            {
+              "html": "That habit will be useful in future exams because a difficult question often depends on a small but meaningful detail."
+            },
+            {
+              "html": "Valentina listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "Every person deserves <b>dignity</b>, whatever they wear."
+            }
+          ],
+          "wordCount": 105
+        }
+      ],
+      "practiceWords": [
+        "identity",
+        "stereotype",
+        "body image",
+        "peer pressure",
+        "objectify",
+        "self-expression",
+        "scrutiny",
+        "unwanted",
+        "dignity",
+        "conformity"
+      ],
+      "vocabulary": [
+        {
+          "word": "identity",
+          "definition": "who a person is (identidad)"
+        },
+        {
+          "word": "stereotype",
+          "definition": "a fixed, simple idea about a group (estereotipo)"
+        },
+        {
+          "word": "body image",
+          "definition": "how a person sees their own body (imagen corporal)"
+        },
+        {
+          "word": "peer pressure",
+          "definition": "influence from people your age (presión de grupo)"
+        },
+        {
+          "word": "objectify",
+          "definition": "to treat a person like an object (cosificar)"
+        },
+        {
+          "word": "self-expression",
+          "definition": "showing your personality (autoexpresión)"
+        },
+        {
+          "word": "scrutiny",
+          "definition": "careful and critical observation (escrutinio)"
+        },
+        {
+          "word": "unwanted",
+          "definition": "not desired (no deseado)"
+        },
+        {
+          "word": "dignity",
+          "definition": "the right to be respected (dignidad)"
+        },
+        {
+          "word": "conformity",
+          "definition": "behaving like others to fit in (conformismo)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "What can be inferred about Samuel?",
+          "options": [
+            "He wants Valentina to react as fast as possible.",
+            "He helps Valentina think carefully before acting.",
+            "He created the problem on purpose.",
+            "He is not interested in the problem."
+          ],
+          "answer": "He helps Valentina think carefully before acting."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In “Instead of having all the facts, the students hear different versions of what happened,” the expression “instead of” shows that…",
+          "options": [
+            "the facts arrive after a long time",
+            "the students get rumors in place of complete information",
+            "the versions are all exactly the same",
+            "the students have all the information they need"
+          ],
+          "answer": "the students get rumors in place of complete information"
+        },
+        {
+          "skill": "purpose",
+          "question": "What is the author's main purpose in this text?",
+          "options": [
+            "To give scientific data about teenagers in Colombia.",
+            "To sell a product to students.",
+            "To describe the history of Medellín.",
+            "To show, through a story, how to act responsibly when appearance becomes the center of unwanted attention."
+          ],
+          "answer": "To show, through a story, how to act responsibly when appearance becomes the center of unwanted attention."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Which word from the text means “how a person sees their own body”?",
+          "options": [
+            "body image",
+            "dignity",
+            "stereotype",
+            "objectify"
+          ],
+          "answer": "body image"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which option is the best summary of the text?",
+          "options": [
+            "Samuel solves the problem alone while Valentina watches.",
+            "Valentina changes the outfit to please the group and the problem disappears.",
+            "Valentina and Samuel travel to New York to solve the problem.",
+            "Valentina faces a problem because appearance becomes the center of unwanted attention, checks the facts with Samuel and makes a responsible decision."
+          ],
+          "answer": "Valentina faces a problem because appearance becomes the center of unwanted attention, checks the facts with Samuel and makes a responsible decision."
+        }
+      ],
+      "cover": "../assets/images/week27_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google" content="notranslate" />
+  <title>English Reading Project</title>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    :root{
+      --ink:#162038;
+      --muted:#667085;
+      --blue:#4263ff;
+      --blue-2:#2847d8;
+      --cyan:#31b7e8;
+      --mint:#1cbf8b;
+      --gold:#ffb52e;
+      --white:#fff;
+      --line:#e9edf5;
+      --shadow:0 24px 70px rgba(39,59,115,.14);
+      --radius:28px;
+    }
+
+    html { scroll-behavior:smooth; }
+
+    body{
+      margin:0;
+      min-height:100vh;
+      font-family:Inter,"Segoe UI",Arial,sans-serif;
+      color:var(--ink);
+      background:
+        radial-gradient(circle at 8% 12%, rgba(66,99,255,.16), transparent 27%),
+        radial-gradient(circle at 92% 18%, rgba(49,183,232,.12), transparent 24%),
+        linear-gradient(180deg,#f7f9ff 0%,#fbfdff 52%,#f8fbff 100%);
+    }
+
+    a { text-decoration:none; color:inherit; }
+
+    .wrap{
+      width:min(1220px,calc(100% - 34px));
+      margin:0 auto;
+    }
+
+    .topbar{
+      min-height:76px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:20px;
+    }
+
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      font-weight:900;
+      letter-spacing:.04em;
+    }
+
+    .brand-mark{
+      width:42px;
+      height:42px;
+      border-radius:14px;
+      display:grid;
+      place-items:center;
+      color:#fff;
+      font-weight:900;
+      background:linear-gradient(135deg,var(--blue),var(--cyan));
+      box-shadow:0 10px 26px rgba(66,99,255,.28);
+    }
+
+    .brand-text{
+      display:flex;
+      flex-direction:column;
+      line-height:1.08;
+    }
+
+    .brand-text small{
+      color:var(--muted);
+      font-weight:700;
+      letter-spacing:.02em;
+      margin-top:4px;
+    }
+
+    .top-note{
+      padding:9px 14px;
+      border:1px solid #dfe6fa;
+      background:rgba(255,255,255,.78);
+      border-radius:999px;
+      color:#40517a;
+      font-size:.88rem;
+      font-weight:700;
+    }
+
+    .hero{
+      display:grid;
+      grid-template-columns:1.05fr .95fr;
+      gap:54px;
+      align-items:center;
+      padding:66px 0 42px;
+    }
+
+    .eyebrow{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      color:var(--blue-2);
+      font-size:.8rem;
+      font-weight:900;
+      letter-spacing:.14em;
+      text-transform:uppercase;
+    }
+
+    .eyebrow::before{
+      content:"";
+      width:28px;
+      height:3px;
+      border-radius:999px;
+      background:linear-gradient(90deg,var(--blue),var(--cyan));
+    }
+
+    h1{
+      font-size:clamp(3rem,5.6vw,5.3rem);
+      line-height:.98;
+      letter-spacing:-.055em;
+      margin:18px 0 20px;
+      max-width:760px;
+    }
+
+    .accent{
+      background:linear-gradient(90deg,var(--blue),#6b5cff 45%,var(--cyan));
+      -webkit-background-clip:text;
+      background-clip:text;
+      color:transparent;
+    }
+
+    .lead{
+      margin:0;
+      max-width:690px;
+      font-size:1.12rem;
+      line-height:1.76;
+      color:var(--muted);
+    }
+
+    .hero-actions{
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+      margin-top:28px;
+    }
+
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-height:52px;
+      padding:0 20px;
+      border-radius:16px;
+      font-weight:900;
+      transition:.2s ease;
+    }
+
+    .btn:hover{
+      transform:translateY(-2px);
+    }
+
+    .btn-primary{
+      color:#fff;
+      background:linear-gradient(135deg,var(--blue),#5d67ff);
+      box-shadow:0 14px 34px rgba(66,99,255,.28);
+    }
+
+    .btn-soft{
+      color:#2e449d;
+      background:#edf1ff;
+      border:1px solid #dfe6ff;
+    }
+
+    /* RIGHT SIDE: useful, not decorative */
+    .path-preview{
+      position:relative;
+      min-height:500px;
+    }
+
+    .path-preview::before{
+      content:"";
+      position:absolute;
+      inset:34px 28px 14px 46px;
+      background:linear-gradient(145deg,rgba(66,99,255,.13),rgba(49,183,232,.06));
+      border-radius:36px;
+      filter:blur(2px);
+    }
+
+    .preview-panel{
+      position:relative;
+      z-index:2;
+      padding:20px;
+      border-radius:32px;
+      background:rgba(255,255,255,.84);
+      border:1px solid rgba(255,255,255,.9);
+      box-shadow:var(--shadow);
+      backdrop-filter:blur(12px);
+    }
+
+    .preview-title{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:16px;
+      margin-bottom:14px;
+      padding:2px 4px 10px;
+    }
+
+    .preview-title strong{
+      font-size:1.08rem;
+    }
+
+    .preview-title span{
+      color:var(--muted);
+      font-size:.84rem;
+      font-weight:700;
+    }
+
+    .mini-path{
+      position:relative;
+      overflow:hidden;
+      display:grid;
+      grid-template-columns:58px 1fr auto;
+      align-items:center;
+      gap:15px;
+      padding:17px 18px;
+      margin-top:12px;
+      border-radius:22px;
+      border:1px solid var(--line);
+      background:#fff;
+      transition:.2s ease;
+    }
+
+    .mini-path:hover{
+      transform:translateX(-4px);
+      box-shadow:0 16px 34px rgba(37,55,108,.11);
+    }
+
+    .mini-icon{
+      width:52px;
+      height:52px;
+      border-radius:17px;
+      display:grid;
+      place-items:center;
+      font-size:1.4rem;
+      font-weight:900;
+    }
+
+    .mini-path.kids .mini-icon{ background:#fff1c8; }
+    .mini-path.teens .mini-icon{ background:#e4eaff; }
+    .mini-path.adults .mini-icon{ background:#dff8ef; }
+
+    .mini-copy h3{
+      margin:0 0 5px;
+      font-size:1rem;
+    }
+
+    .mini-copy p{
+      margin:0;
+      color:var(--muted);
+      font-size:.88rem;
+      line-height:1.45;
+    }
+
+    .mini-level{
+      white-space:nowrap;
+      padding:8px 11px;
+      border-radius:999px;
+      font-size:.76rem;
+      font-weight:900;
+    }
+
+    .kids .mini-level{ background:#fff7dc; color:#9a6800; }
+    .teens .mini-level{ background:#edf0ff; color:#3953cc; }
+    .adults .mini-level{ background:#e8fbf4; color:#177554; }
+
+    .preview-footer{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:10px;
+      margin-top:16px;
+    }
+
+    .metric{
+      padding:13px 10px;
+      text-align:center;
+      border-radius:17px;
+      background:#f6f8fd;
+      border:1px solid #edf0f7;
+    }
+
+    .metric b{
+      display:block;
+      font-size:.94rem;
+      margin-bottom:3px;
+    }
+
+    .metric span{
+      color:var(--muted);
+      font-size:.76rem;
+    }
+
+    .section{
+      padding:58px 0 72px;
+    }
+
+    .section-heading{
+      display:flex;
+      justify-content:space-between;
+      gap:20px;
+      align-items:end;
+      margin-bottom:24px;
+    }
+
+    .section-heading h2{
+      margin:8px 0 0;
+      font-size:clamp(2rem,3.4vw,3.3rem);
+      letter-spacing:-.035em;
+    }
+
+    .section-heading p{
+      max-width:470px;
+      color:var(--muted);
+      line-height:1.65;
+      margin:0;
+    }
+
+    .paths{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:20px;
+    }
+
+    .path-card{
+      min-height:360px;
+      padding:26px;
+      border-radius:28px;
+      background:#fff;
+      border:1px solid #edf0f7;
+      box-shadow:0 18px 44px rgba(32,48,94,.09);
+      display:flex;
+      flex-direction:column;
+      transition:.22s ease;
+    }
+
+    .path-card:hover{
+      transform:translateY(-6px);
+      box-shadow:0 24px 54px rgba(32,48,94,.14);
+    }
+
+    .path-card .tag{
+      align-self:flex-start;
+      padding:8px 11px;
+      border-radius:999px;
+      font-size:.76rem;
+      font-weight:900;
+      letter-spacing:.05em;
+      text-transform:uppercase;
+      margin-bottom:22px;
+    }
+
+    .path-card h3{
+      font-size:1.65rem;
+      margin:0 0 10px;
+    }
+
+    .path-card p{
+      color:var(--muted);
+      line-height:1.66;
+      margin:0;
+    }
+
+    .feature-list{
+      display:grid;
+      gap:10px;
+      margin:22px 0 24px;
+    }
+
+    .feature{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      color:#39435b;
+      font-size:.94rem;
+      font-weight:700;
+    }
+
+    .feature::before{
+      content:"✓";
+      width:24px;
+      height:24px;
+      border-radius:50%;
+      display:grid;
+      place-items:center;
+      font-size:.75rem;
+      font-weight:900;
+    }
+
+    .kids-card .tag,
+    .kids-card .feature::before{
+      background:#fff1bf;
+      color:#9b6500;
+    }
+
+    .teens-card{
+      border:2px solid rgba(66,99,255,.18);
+      background:linear-gradient(180deg,#fff 0%,#f8f9ff 100%);
+    }
+
+    .teens-card .tag,
+    .teens-card .feature::before{
+      background:#e6ebff;
+      color:#3651c8;
+    }
+
+    .adults-card .tag,
+    .adults-card .feature::before{
+      background:#e0f8ef;
+      color:#187454;
+    }
+
+    .card-link{
+      margin-top:auto;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+      font-weight:900;
+      padding-top:8px;
+    }
+
+    .card-link span:last-child{
+      width:38px;
+      height:38px;
+      display:grid;
+      place-items:center;
+      border-radius:12px;
+      background:#f0f3fa;
+    }
+
+    .bottom-strip{
+      margin-bottom:58px;
+      padding:22px 24px;
+      border-radius:24px;
+      background:#162038;
+      color:#fff;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:20px;
+      flex-wrap:wrap;
+    }
+
+    .bottom-strip strong{
+      font-size:1.08rem;
+    }
+
+    .bottom-strip span{
+      color:#cbd3e8;
+      font-size:.94rem;
+    }
+
+    @media (max-width:980px){
+      .hero{ grid-template-columns:1fr; gap:30px; padding-top:42px; }
+      .path-preview{ min-height:auto; }
+      .paths{ grid-template-columns:1fr; }
+      .section-heading{ align-items:flex-start; flex-direction:column; }
+    }
+
+    @media (max-width:620px){
+      .wrap{ width:min(100% - 22px,1220px); }
+      .top-note{ display:none; }
+      .hero{ padding-top:26px; }
+      h1{ font-size:clamp(2.55rem,13vw,4rem); }
+      .mini-path{ grid-template-columns:50px 1fr; }
+      .mini-level{ grid-column:2; justify-self:start; }
+      .preview-footer{ grid-template-columns:1fr; }
+      .hero-actions .btn{ width:100%; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark">ER</div>
+        <div class="brand-text">
+          <span>ENGLISH READING PROJECT</span>
+          <small>Read • Listen • Understand • Grow</small>
+        </div>
+      </div>
+
+      <div class="top-note">Learning paths for every stage</div>
+    </header>
+
+    <main>
+      <section class="hero">
+
+        <div class="hero-copy">
+          <span class="eyebrow">English Reading Project</span>
+
+          <h1>
+            Reading that grows
+            <span class="accent">with you.</span>
+          </h1>
+
+          <p class="lead">
+            Choose the experience that matches your stage. Young learners, teens, and academic readers
+            each get an interface designed for the way they learn best.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="weekly-readings/index.html">
+              Start Weekly Readings
+            </a>
+
+            <a class="btn btn-soft" href="#learning-paths">
+              Explore all reading paths
+            </a>
+          </div>
+        </div>
+
+        <!-- Useful content on the right: no decorative empty blocks -->
+        <div class="path-preview">
+          <div class="preview-panel">
+
+            <div class="preview-title">
+              <strong>Choose your reading experience</strong>
+              <span>3 learning paths</span>
+            </div>
+
+            <a class="mini-path kids" href="little-readers/index.html">
+              <div class="mini-icon">★</div>
+              <div class="mini-copy">
+                <h3>Little Readers</h3>
+                <p>Stories, pictures, listening, and simple activities.</p>
+              </div>
+              <span class="mini-level">Grades 1–5</span>
+            </a>
+
+            <a class="mini-path teens" href="weekly-readings/index.html">
+              <div class="mini-icon">▶</div>
+              <div class="mini-copy">
+                <h3>Weekly Readings</h3>
+                <p>Read, listen, practice vocabulary, and complete the quiz.</p>
+              </div>
+              <span class="mini-level">Grades 6–11</span>
+            </a>
+
+            <a class="mini-path adults" href="academic-readers/index.html">
+              <div class="mini-icon">A+</div>
+              <div class="mini-copy">
+                <h3>Academic Readers</h3>
+                <p>Academic English organized by CEFR proficiency level.</p>
+              </div>
+              <span class="mini-level">A1–C1</span>
+            </a>
+
+            <div class="preview-footer">
+              <div class="metric">
+                <b>Listen</b>
+                <span>TTS reading support</span>
+              </div>
+              <div class="metric">
+                <b>Practice</b>
+                <span>Vocabulary & skills</span>
+              </div>
+              <div class="metric">
+                <b>Progress</b>
+                <span>Weekly learning</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+      <section class="section" id="learning-paths">
+
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Choose your path</span>
+            <h2>One platform. Three learning experiences.</h2>
+          </div>
+
+          <p>
+            Each area has its own age-appropriate design and reading experience while remaining part of the same project.
+          </p>
+        </div>
+
+        <div class="paths">
+
+          <a class="path-card kids-card" href="little-readers/index.html">
+            <span class="tag">Grades 1–5</span>
+            <h3>Little Readers</h3>
+            <p>
+              A visual and friendly space for children beginning their English reading journey.
+            </p>
+
+            <div class="feature-list">
+              <div class="feature">Illustrated stories</div>
+              <div class="feature">Listen and read support</div>
+              <div class="feature">Simple comprehension</div>
+            </div>
+
+            <div class="card-link">
+              <span>Enter Little Readers</span>
+              <span>→</span>
+            </div>
+          </a>
+
+          <a class="path-card teens-card" href="weekly-readings/index.html">
+            <span class="tag">Grades 6–11</span>
+            <h3>Weekly Readings</h3>
+            <p>
+              A modern reading experience for teens with synchronized listening, vocabulary, practice, and quizzes.
+            </p>
+
+            <div class="feature-list">
+              <div class="feature">TTS + word highlighting</div>
+              <div class="feature">Vocabulary practice</div>
+              <div class="feature">Weekly reading challenge</div>
+            </div>
+
+            <div class="card-link">
+              <span>Start Weekly Readings</span>
+              <span>→</span>
+            </div>
+          </a>
+
+          <a class="path-card adults-card" href="academic-readers/index.html">
+            <span class="tag">A1–C1 / University</span>
+            <h3>Academic Readers</h3>
+            <p>
+              A cleaner academic environment for university students and adult English learners.
+            </p>
+
+            <div class="feature-list">
+              <div class="feature">CEFR progression</div>
+              <div class="feature">Academic vocabulary</div>
+              <div class="feature">Professional reading skills</div>
+            </div>
+
+            <div class="card-link">
+              <span>Enter Academic Readers</span>
+              <span>→</span>
+            </div>
+          </a>
+
+        </div>
+      </section>
+
+      <section class="bottom-strip">
+        <strong>Read at your level. Practice at your pace.</strong>
+        <span>English Reading Project • Little Readers • Weekly Readings • Academic Readers</span>
+      </section>
+
+    </main>
+  </div>
+</body>
+</html>

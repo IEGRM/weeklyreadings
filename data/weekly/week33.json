@@ -1,0 +1,2289 @@
+{
+  "week": 33,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 33",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "The Morning I Missed the Bus",
+      "minimumWordTarget": 350,
+      "wordCount": 355,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week33_grade06_page01.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Morning I Missed the Bus”, page 1. Scene based on: In a small bedroom of a family home in Medellín at dawn, Sofía, 11, sleeps peacefully in bed while her phone lies dark on the nightstand with an empty battery icon, and a wall clock shows six o'clock. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Sofía has the same <b>routine</b> every school day."
+            },
+            {
+              "html": "Her <b>alarm</b> rings at 5:30 in the morning."
+            },
+            {
+              "html": "She gets up and takes a shower."
+            },
+            {
+              "html": "At six <b>o’clock</b>, she eats <b>breakfast</b> with her brother, Nico."
+            },
+            {
+              "html": "At a <b>quarter</b> past six, the school bus arrives."
+            },
+            {
+              "html": "The bus stops at the corner of her street."
+            },
+            {
+              "html": "School starts at seven."
+            },
+            {
+              "html": "But on Tuesday, something is different."
+            },
+            {
+              "html": "Sofía opens her eyes, and the room is bright."
+            },
+            {
+              "html": "She looks at the wall clock."
+            },
+            {
+              "html": "It’s six o’clock! Her alarm didn’t ring!"
+            },
+            {
+              "html": "Usually, at six, she is already eating breakfast."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week33_grade06_page02.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Morning I Missed the Bus”, page 2. Scene based on: In the kitchen of the family home, Sofía runs with one shoe on and her backpack open, papers falling out, while Nico, 11, eats an arepa calmly at the table and points at the clock showing 6:14. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Sofía jumps out of bed."
+            },
+            {
+              "html": "She looks at her phone. The screen is black."
+            },
+            {
+              "html": "“Oh no! My phone has no battery!” she says."
+            },
+            {
+              "html": "Last night, she forgot to <b>charge</b> it."
+            },
+            {
+              "html": "She doesn’t take a shower today."
+            },
+            {
+              "html": "She puts on her uniform in two minutes."
+            },
+            {
+              "html": "She runs to the kitchen with one shoe on."
+            },
+            {
+              "html": "Nico is eating an arepa calmly."
+            },
+            {
+              "html": "“What time is it?” Sofía asks."
+            },
+            {
+              "html": "“It’s 6:14,” Nico says. “The bus comes at 6:15!”"
+            },
+            {
+              "html": "They run out of the house together."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week33_grade06_page03.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Morning I Missed the Bus”, page 3. Scene based on: At the corner of a hilly Medellín street, Sofía and Nico run with their backpacks toward a yellow school bus that is driving away, Sofía waving her arms, while a neighbor waters plants on a balcony. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They run to the <b>bus stop</b> at the corner."
+            },
+            {
+              "html": "But the yellow bus is leaving."
+            },
+            {
+              "html": "Sofía waves her arms. “Stop! Please stop!”"
+            },
+            {
+              "html": "The driver doesn’t see her. The bus goes away."
+            },
+            {
+              "html": "Sofía is very sad and a little angry."
+            },
+            {
+              "html": "“We’re <b>late</b>! What can we do now?” she asks."
+            },
+            {
+              "html": "Nico thinks for a moment."
+            },
+            {
+              "html": "“Let’s not panic. What time does school start?”"
+            },
+            {
+              "html": "“At seven,” Sofía answers."
+            },
+            {
+              "html": "“And what time is it now?”"
+            },
+            {
+              "html": "“It’s twenty past six. We have forty minutes.”"
+            },
+            {
+              "html": "“Forty minutes is enough time,” Nico says."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week33_grade06_page04.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Morning I Missed the Bus”, page 4. Scene based on: Sofía, Nico and their mother walk quickly down the stairs into a Medellín Metro station, the mother holding Sofía's hand, a station clock showing 6:30, then the children arrive at the school gate as a guard opens it. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Nico has a good idea."
+            },
+            {
+              "html": "“Mom takes the Metro at half past six,” he says."
+            },
+            {
+              "html": "“The school is near the Metro station.”"
+            },
+            {
+              "html": "They run back home and tell Mom."
+            },
+            {
+              "html": "At half past six, they go to the Metro with her."
+            },
+            {
+              "html": "At five to seven, they arrive at the school gate."
+            },
+            {
+              "html": "“Just in time!” the guard says with a smile."
+            },
+            {
+              "html": "That night, Sofía charges her phone at eight o’clock."
+            },
+            {
+              "html": "She prepares her backpack before she goes to bed."
+            },
+            {
+              "html": "She puts an old alarm clock next to her bed too."
+            },
+            {
+              "html": "“Tomorrow, I <b>wake up</b> <b>early</b>,” she says to Nico."
+            }
+          ],
+          "wordCount": 97
+        }
+      ],
+      "practiceWords": [
+        "routine",
+        "alarm",
+        "wake up",
+        "o’clock",
+        "breakfast",
+        "quarter",
+        "bus stop",
+        "late",
+        "charge",
+        "early"
+      ],
+      "vocabulary": [
+        {
+          "word": "routine",
+          "definition": "the things you do every day in the same order (rutina)"
+        },
+        {
+          "word": "alarm",
+          "definition": "a sound that wakes you up at a set time (alarma)"
+        },
+        {
+          "word": "wake up",
+          "definition": "to stop sleeping (despertarse)"
+        },
+        {
+          "word": "o’clock",
+          "definition": "used to say an exact hour (en punto)"
+        },
+        {
+          "word": "breakfast",
+          "definition": "the first meal of the day (desayuno)"
+        },
+        {
+          "word": "quarter",
+          "definition": "fifteen minutes (cuarto de hora)"
+        },
+        {
+          "word": "bus stop",
+          "definition": "the place where a bus stops for passengers (paradero)"
+        },
+        {
+          "word": "late",
+          "definition": "after the correct time (tarde)"
+        },
+        {
+          "word": "charge",
+          "definition": "to put energy into a phone battery (cargar)"
+        },
+        {
+          "word": "early",
+          "definition": "before the usual time (temprano)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "What time does the school bus usually arrive?",
+          "options": [
+            "At half past six",
+            "At six o’clock",
+            "At a quarter to seven",
+            "At a quarter past six"
+          ],
+          "answer": "At a quarter past six"
+        },
+        {
+          "skill": "sequence",
+          "question": "What happens FIRST on Tuesday?",
+          "options": [
+            "Sofía wakes up at six because her alarm didn’t ring.",
+            "They take the Metro with their mother.",
+            "Sofía and Nico run to the bus stop at the corner.",
+            "Sofía puts an old alarm clock next to her bed at night."
+          ],
+          "answer": "Sofía wakes up at six because her alarm didn’t ring."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “Last night, she forgot to charge it.” “Charge” means…",
+          "options": [
+            "to run very fast to the bus",
+            "to put energy into a phone battery",
+            "to wake up early in the morning",
+            "to eat breakfast with your family at six"
+          ],
+          "answer": "to put energy into a phone battery"
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the story mainly about?",
+          "options": [
+            "A mother takes her two children to a new school on the Metro.",
+            "A boy doesn’t want to go to school on a rainy Tuesday.",
+            "A girl misses the bus because of a small change in her routine.",
+            "A girl learns to drive a yellow school bus."
+          ],
+          "answer": "A girl misses the bus because of a small change in her routine."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why doesn’t Sofía’s alarm ring on Tuesday?",
+          "options": [
+            "The old alarm clock in her room is broken.",
+            "Her brother turned off her alarm as a joke.",
+            "She set the alarm on her phone for the wrong day.",
+            "Her phone has no battery because she didn’t charge it."
+          ],
+          "answer": "Her phone has no battery because she didn’t charge it."
+        }
+      ],
+      "cover": "../assets/images/week33_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "The Blue Bicycle in the Photo",
+      "minimumWordTarget": 400,
+      "wordCount": 407,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week33_grade07_page01.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Blue Bicycle in the Photo”, page 1. Scene based on: In the living room of a grandmother's old house in Medellín, Tomás, 12, and his sister Lucía, 12, sit on the floor opening an old photo album, holding up a faded photo of a boy with a shiny blue bicycle in front of an old train station. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Last Sunday, Tomás and Lucía visited their grandmother."
+            },
+            {
+              "html": "They helped her clean her old closet."
+            },
+            {
+              "html": "In a box, they found an old photo <b>album</b>."
+            },
+            {
+              "html": "The pages were yellow, and the photos were small."
+            },
+            {
+              "html": "Tomás opened it on the floor."
+            },
+            {
+              "html": "On one page, there was a strange <b>photo</b>."
+            },
+            {
+              "html": "A boy was standing next to a blue <b>bicycle</b>."
+            },
+            {
+              "html": "Behind him, there was an old train <b>station</b>."
+            },
+            {
+              "html": "“Who is that boy?” Lucía asked."
+            },
+            {
+              "html": "Grandma looked at it. “That’s your father!”"
+            },
+            {
+              "html": "“He was only twelve years old then.”"
+            },
+            {
+              "html": "Tomás and Lucía looked at the photo again, surprised."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week33_grade07_page02.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Blue Bicycle in the Photo”, page 2. Scene based on: That evening at their family dinner table, the children show the old photo to their father, a man in his forties, who frowns and shakes his head, while their mother leans over to look at it curiously. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "That evening, they showed the photo to their father."
+            },
+            {
+              "html": "“Dad, was this your bicycle?” Tomás asked."
+            },
+            {
+              "html": "Their father looked at it for a long time."
+            },
+            {
+              "html": "“No. I never had a bicycle,” he said."
+            },
+            {
+              "html": "“We didn’t have money for bicycles.”"
+            },
+            {
+              "html": "“Then why were you with it?” Lucía asked."
+            },
+            {
+              "html": "Dad didn’t <b>remember</b>. He was confused."
+            },
+            {
+              "html": "Mom laughed. “Maybe you stole it!”"
+            },
+            {
+              "html": "Everybody laughed, but Tomás was curious now."
+            },
+            {
+              "html": "He wanted to know the true story."
+            },
+            {
+              "html": "“Who did the bicycle belong to?” he wondered."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week33_grade07_page03.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Blue Bicycle in the Photo”, page 3. Scene based on: Tomás and Lucía look closely at the back of the old photo with a magnifying glass, finding faded handwritten marks shown only as small scribbles and a date shape, while a lamp lights the table. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Lucía turned the photo over."
+            },
+            {
+              "html": "On the back, there was some old writing."
+            },
+            {
+              "html": "It was a date: March 1995."
+            },
+            {
+              "html": "There were also two words: “Station” and “Contest.”"
+            },
+            {
+              "html": "“Contest? What contest?” Tomás asked."
+            },
+            {
+              "html": "Lucía looked at the front of the photo again."
+            },
+            {
+              "html": "In the background, there was an old man."
+            },
+            {
+              "html": "He was smiling and holding a newspaper."
+            },
+            {
+              "html": "“Look! Grandma’s <b>neighbor</b>, Don Alberto!” Lucía said."
+            },
+            {
+              "html": "“He still lives next to Grandma!”"
+            }
+          ],
+          "wordCount": 69
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week33_grade07_page04.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Blue Bicycle in the Photo”, page 4. Scene based on: On the porch of an old house, a friendly white-haired man in his eighties, Don Alberto, holds the old photo and laughs warmly while Tomás and Lucía listen, and an old blue bicycle leans against the wall behind him. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next Sunday, they visited Don Alberto."
+            },
+            {
+              "html": "He looked at the photo and laughed loudly."
+            },
+            {
+              "html": "“That was my bicycle!” he said."
+            },
+            {
+              "html": "“In 1995, the city had a photo <b>contest</b>.”"
+            },
+            {
+              "html": "“The theme was ‘Our Old Station.’”"
+            },
+            {
+              "html": "“Your father wanted to participate.”"
+            },
+            {
+              "html": "“He asked to <b>borrow</b> my blue bicycle for his photo.”"
+            },
+            {
+              "html": "“His photo won second prize!”"
+            },
+            {
+              "html": "Tomás and Lucía couldn’t believe it."
+            },
+            {
+              "html": "Then Don Alberto pointed to the wall."
+            },
+            {
+              "html": "The old blue bicycle was still there!"
+            }
+          ],
+          "wordCount": 75
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week33_grade07_page05.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Blue Bicycle in the Photo”, page 5. Scene based on: In front of a restored old train station building in Medellín, the father, now in his forties, rides the old blue bicycle and laughs while Tomás takes a photo and Lucía holds the old photo up for comparison. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They told their father the story."
+            },
+            {
+              "html": "Suddenly, he remembered everything."
+            },
+            {
+              "html": "“Yes! I was so nervous that day!” he said."
+            },
+            {
+              "html": "“I didn’t know how to <b>ride</b> a bicycle well.”"
+            },
+            {
+              "html": "“I only stood next to it for the photo!”"
+            },
+            {
+              "html": "Don Alberto lent them the bicycle again."
+            },
+            {
+              "html": "Their father stood in front of the old station."
+            },
+            {
+              "html": "This time, he rode the bicycle slowly."
+            },
+            {
+              "html": "Tomás took a new photo, in the same place."
+            },
+            {
+              "html": "“You were <b>young</b> then, and now you’re old,” Lucía joked."
+            },
+            {
+              "html": "Dad laughed. “Old, but I can ride a bicycle now!”"
+            }
+          ],
+          "wordCount": 89
+        }
+      ],
+      "practiceWords": [
+        "photo",
+        "bicycle",
+        "remember",
+        "album",
+        "station",
+        "young",
+        "borrow",
+        "neighbor",
+        "contest",
+        "ride"
+      ],
+      "vocabulary": [
+        {
+          "word": "photo",
+          "definition": "a picture taken with a camera (foto)"
+        },
+        {
+          "word": "bicycle",
+          "definition": "a vehicle with two wheels that you pedal (bicicleta)"
+        },
+        {
+          "word": "remember",
+          "definition": "to have something in your mind from the past (recordar)"
+        },
+        {
+          "word": "album",
+          "definition": "a book for keeping photos (álbum)"
+        },
+        {
+          "word": "station",
+          "definition": "a building where trains stop (estación)"
+        },
+        {
+          "word": "young",
+          "definition": "not old, in an early part of life (joven)"
+        },
+        {
+          "word": "borrow",
+          "definition": "to use something that belongs to another person (pedir prestado)"
+        },
+        {
+          "word": "neighbor",
+          "definition": "a person who lives near you (vecino)"
+        },
+        {
+          "word": "contest",
+          "definition": "a competition with a prize (concurso)"
+        },
+        {
+          "word": "ride",
+          "definition": "to travel on a bicycle or a horse (montar)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "When was the old photo taken?",
+          "options": [
+            "In March 1995",
+            "In March 2015",
+            "Last Sunday",
+            "When Grandma was twelve"
+          ],
+          "answer": "In March 1995"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "Why did the father have Don Alberto’s bicycle in the photo?",
+          "options": [
+            "He stole it from Don Alberto’s porch.",
+            "He borrowed it for a city photo contest.",
+            "He found it next to the old train station.",
+            "He bought it with his own money."
+          ],
+          "answer": "He borrowed it for a city photo contest."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main idea of the story?",
+          "options": [
+            "A father won an important bicycle race in Medellín in 1995.",
+            "Grandma’s neighbor sold his old blue bicycle to the family.",
+            "Two children solved a family mystery by following clues in an old photo.",
+            "The old train station in Medellín was destroyed in 1995."
+          ],
+          "answer": "Two children solved a family mystery by following clues in an old photo."
+        },
+        {
+          "skill": "simple inference",
+          "question": "How did Lucía know that Don Alberto could help them?",
+          "options": [
+            "Their father remembered Don Alberto immediately.",
+            "She read his name on the back of the photo.",
+            "Grandma told them he had a blue bicycle.",
+            "She saw him in the background of the photo."
+          ],
+          "answer": "She saw him in the background of the photo."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “He asked to borrow my blue bicycle for his photo.” “Borrow” means…",
+          "options": [
+            "to use something that belongs to another person",
+            "to win a prize in a contest",
+            "to ride a bicycle very fast in front of a station",
+            "to remember something from the past clearly"
+          ],
+          "answer": "to use something that belongs to another person"
+        }
+      ],
+      "cover": "../assets/images/week33_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "My First Day in a New Team",
+      "minimumWordTarget": 450,
+      "wordCount": 453,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week33_grade08_page01.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “My First Day in a New Team”, page 1. Scene based on: In a public school gym in Medellín, Valentina, 13, a new student in a basketball uniform, stands nervously at the edge of the court holding a ball, while the team stretches and Samuel, 13, waves to her with a friendly smile. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina moved to a new school last month."
+            },
+            {
+              "html": "She didn’t know anyone there."
+            },
+            {
+              "html": "On Monday, she joined the basketball <b>team</b>."
+            },
+            {
+              "html": "She was very <b>nervous</b> before her first <b>practice</b>."
+            },
+            {
+              "html": "At her old school, she was a good player."
+            },
+            {
+              "html": "But here, everybody looked tall and strong."
+            },
+            {
+              "html": "The <b>coach</b> introduced her to the team."
+            },
+            {
+              "html": "“This is Valentina. Please welcome her,” she said."
+            },
+            {
+              "html": "A boy named Samuel waved and smiled."
+            },
+            {
+              "html": "Valentina smiled back, but her hands were cold."
+            },
+            {
+              "html": "She wanted to make a good first impression."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week33_grade08_page02.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “My First Day in a New Team”, page 2. Scene based on: During a basketball drill on the court, Valentina throws a pass that goes wide past a teammate's hands, and the ball rolls away, while some players on the bench laugh and turn their heads, and Valentina covers her face. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The practice started with a passing drill."
+            },
+            {
+              "html": "Valentina tried to <b>pass</b> the ball to a teammate."
+            },
+            {
+              "html": "The ball went too high and rolled away."
+            },
+            {
+              "html": "She tried again, and it happened again."
+            },
+            {
+              "html": "Then she heard the players on the bench <b>laugh</b>."
+            },
+            {
+              "html": "Her face became red and hot."
+            },
+            {
+              "html": "“They’re laughing at me,” she thought."
+            },
+            {
+              "html": "She made two more mistakes in the next drill."
+            },
+            {
+              "html": "After practice, she sat alone on the bench."
+            },
+            {
+              "html": "She wanted to quit the team."
+            }
+          ],
+          "wordCount": 75
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week33_grade08_page03.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “My First Day in a New Team”, page 3. Scene based on: Valentina sits alone on a bench in the empty gym looking down, while Samuel sits next to her holding a water bottle and talking kindly, the coach putting balls into a net bag in the background. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Samuel sat next to her with a water bottle."
+            },
+            {
+              "html": "“Are you okay?” he asked."
+            },
+            {
+              "html": "“No. Everybody laughed at my <b>mistake</b>s,” she said."
+            },
+            {
+              "html": "Samuel looked surprised."
+            },
+            {
+              "html": "“Did they really laugh at you?” he asked."
+            },
+            {
+              "html": "“Tell me exactly what happened.”"
+            },
+            {
+              "html": "Valentina thought about it carefully."
+            },
+            {
+              "html": "“I threw the ball badly, and then they laughed.”"
+            },
+            {
+              "html": "“Did you see their faces?” Samuel asked."
+            },
+            {
+              "html": "Valentina was quiet. She didn’t look at them."
+            }
+          ],
+          "wordCount": 67
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week33_grade08_page04.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “My First Day in a New Team”, page 4. Scene based on: Samuel laughs and points to the gym door where a small brown street dog with floppy ears stands with a basketball between its paws, while Valentina's face changes from sad to surprised. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Samuel started laughing too."
+            },
+            {
+              "html": "“They didn’t laugh at you!” he said."
+            },
+            {
+              "html": "“A small dog ran onto the <b>court</b>.”"
+            },
+            {
+              "html": "“It took the ball and ran to the door!”"
+            },
+            {
+              "html": "“That’s why the bench laughed. It was so funny.”"
+            },
+            {
+              "html": "Valentina covered her mouth. “Really? A dog?”"
+            },
+            {
+              "html": "“Yes! The coach chased it for one minute.”"
+            },
+            {
+              "html": "Valentina started laughing too."
+            },
+            {
+              "html": "She didn’t see the dog. She only saw her mistake."
+            },
+            {
+              "html": "“I thought everyone was looking at me,” she said."
+            }
+          ],
+          "wordCount": 74
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week33_grade08_page05.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “My First Day in a New Team”, page 5. Scene based on: The coach, a woman in her thirties with a whistle, talks to Valentina and Samuel by the bench, showing a passing technique with her hands, while Valentina listens carefully and nods. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The coach walked over to them."
+            },
+            {
+              "html": "“Valentina, your passes were a little high today,” she said."
+            },
+            {
+              "html": "“That’s normal on a new court. The lights are different.”"
+            },
+            {
+              "html": "“But your effort was excellent.”"
+            },
+            {
+              "html": "Valentina was surprised by her kind words."
+            },
+            {
+              "html": "“Can you help me with my passes?” she asked."
+            },
+            {
+              "html": "“Of course. Come ten minutes early on Wednesday.”"
+            },
+            {
+              "html": "On Wednesday, Valentina arrived early."
+            },
+            {
+              "html": "The coach showed her a simple technique."
+            },
+            {
+              "html": "Samuel practiced with her too."
+            },
+            {
+              "html": "He threw the ball, and she passed it back."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week33_grade08_page06.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “My First Day in a New Team”, page 6. Scene based on: A week later, during a basketball game in the school gym, Valentina makes a perfect pass to Samuel, who scores, and the whole team cheers, including a small brown dog sitting by the door. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "After one week, Valentina’s passes were better."
+            },
+            {
+              "html": "She practiced every day after school."
+            },
+            {
+              "html": "She began to <b>improve</b> quickly."
+            },
+            {
+              "html": "On Friday, the team played a friendly game."
+            },
+            {
+              "html": "Valentina passed the ball to Samuel."
+            },
+            {
+              "html": "It was a perfect pass, and he scored!"
+            },
+            {
+              "html": "Her new <b>teammate</b>s cheered for her."
+            },
+            {
+              "html": "After the game, she talked to Samuel."
+            },
+            {
+              "html": "“Thank you for asking me what really happened,” she said."
+            },
+            {
+              "html": "“On my first day, I almost quit because of a dog.”"
+            }
+          ],
+          "wordCount": 74
+        }
+      ],
+      "practiceWords": [
+        "team",
+        "practice",
+        "coach",
+        "nervous",
+        "mistake",
+        "pass",
+        "court",
+        "teammate",
+        "laugh",
+        "improve"
+      ],
+      "vocabulary": [
+        {
+          "word": "team",
+          "definition": "a group of players who play together (equipo)"
+        },
+        {
+          "word": "practice",
+          "definition": "a training session for a sport (entrenamiento)"
+        },
+        {
+          "word": "coach",
+          "definition": "a person who trains a sports team (entrenador)"
+        },
+        {
+          "word": "nervous",
+          "definition": "worried and a little afraid (nervioso)"
+        },
+        {
+          "word": "mistake",
+          "definition": "something done in the wrong way (error)"
+        },
+        {
+          "word": "pass",
+          "definition": "to throw the ball to a teammate (pasar)"
+        },
+        {
+          "word": "court",
+          "definition": "the area where people play basketball (cancha)"
+        },
+        {
+          "word": "teammate",
+          "definition": "a person on the same team (compañero de equipo)"
+        },
+        {
+          "word": "laugh",
+          "definition": "to make sounds when something is funny (reír)"
+        },
+        {
+          "word": "improve",
+          "definition": "to become better (mejorar)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Why did the players on the bench laugh?",
+          "options": [
+            "The coach told a funny joke during the passing drill.",
+            "A small dog ran onto the court and took the ball.",
+            "Valentina threw the ball too high two times.",
+            "Samuel fell down during the passing drill."
+          ],
+          "answer": "A small dog ran onto the court and took the ball."
+        },
+        {
+          "skill": "inference",
+          "question": "Why did Valentina think everyone was laughing at her?",
+          "options": [
+            "The players told her she was a bad player.",
+            "Samuel told her that the team didn’t like her passes.",
+            "She only saw her mistake and didn’t look at their faces.",
+            "The coach said her passes were terrible."
+          ],
+          "answer": "She only saw her mistake and didn’t look at their faces."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include Samuel’s question, “Tell me exactly what happened”?",
+          "options": [
+            "To show that Samuel wants to be the captain of the team.",
+            "To explain the rules of a passing drill in basketball practice.",
+            "To show that Valentina didn’t like basketball.",
+            "To show how checking the facts can change a person’s feelings."
+          ],
+          "answer": "To show how checking the facts can change a person’s feelings."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main idea of the story?",
+          "options": [
+            "A new student learned that her fear was based on a wrong idea.",
+            "Dogs are not allowed in school gyms.",
+            "New students should never join sports teams.",
+            "Basketball teams always laugh at new players in their first practice."
+          ],
+          "answer": "A new student learned that her fear was based on a wrong idea."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “She began to improve quickly.” “Improve” means…",
+          "options": [
+            "to make a mistake",
+            "to become better",
+            "to feel very nervous",
+            "to throw the ball"
+          ],
+          "answer": "to become better"
+        }
+      ],
+      "cover": "../assets/images/week33_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "My First 1,000 Views",
+      "minimumWordTarget": 500,
+      "wordCount": 507,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week33_grade09_page01.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “My First 1,000 Views”, page 1. Scene based on: In a small family apartment kitchen in Medellín, Daniela, 14, holds her phone showing a video icon with a big number shape and many heart icons, her mouth open with surprise, while Tomás, 14, leans over the counter to see. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniela has posted cooking videos for six months."
+            },
+            {
+              "html": "She makes short videos about Colombian recipes."
+            },
+            {
+              "html": "Usually, only her family and friends watch them."
+            },
+            {
+              "html": "On Thursday, she checks her latest <b>video</b>."
+            },
+            {
+              "html": "It’s a recipe for corn arepas."
+            },
+            {
+              "html": "“Tomás! Look! It has reached one thousand <b>views</b>!” she shouts."
+            },
+            {
+              "html": "Her friend Tomás runs to see the screen."
+            },
+            {
+              "html": "“Wow! You’ve never had so many views,” he says."
+            },
+            {
+              "html": "“Have you told your mom yet?”"
+            },
+            {
+              "html": "Daniela is very excited and proud."
+            },
+            {
+              "html": "She has worked hard on her videos."
+            },
+            {
+              "html": "She has filmed every recipe in her family’s kitchen."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week33_grade09_page02.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “My First 1,000 Views”, page 2. Scene based on: Daniela scrolls through comments on her phone, some shown as heart icons and some as question-mark speech bubbles from blank profile pictures, her smile slowly changing to a worried expression while Tomás watches. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Then Daniela reads the comments."
+            },
+            {
+              "html": "Many comments are nice. “Great recipe!” “I’ve made it already!”"
+            },
+            {
+              "html": "But some comments are different."
+            },
+            {
+              "html": "“What school do you go to?” one person asks."
+            },
+            {
+              "html": "“Have you ever met your followers in person?” another asks."
+            },
+            {
+              "html": "“Send me a private message. I have a business offer.”"
+            },
+            {
+              "html": "Daniela doesn’t know these people."
+            },
+            {
+              "html": "Each <b>comment</b> comes from a <b>stranger</b>."
+            },
+            {
+              "html": "Some accounts don’t have photos or names."
+            },
+            {
+              "html": "Her smile disappears slowly."
+            },
+            {
+              "html": "She has never received messages like these before."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week33_grade09_page03.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “My First 1,000 Views”, page 3. Scene based on: Daniela and Tomás sit at the kitchen table looking at Daniela's video on a laptop screen, pausing it to show her school uniform logo shape and a window view of a recognizable church tower behind her. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Tomás has a question."
+            },
+            {
+              "html": "“Have you checked who these accounts are?” he asks."
+            },
+            {
+              "html": "Daniela clicks on one <b>account</b>."
+            },
+            {
+              "html": "It was created two days ago. It has no posts."
+            },
+            {
+              "html": "“That’s strange,” Tomás says."
+            },
+            {
+              "html": "“Have you shown personal information in your videos?”"
+            },
+            {
+              "html": "Daniela watches her arepa video again."
+            },
+            {
+              "html": "In the video, she’s wearing her school uniform."
+            },
+            {
+              "html": "The school logo is clear on her shirt."
+            },
+            {
+              "html": "And the window shows a church near her house."
+            },
+            {
+              "html": "“I’ve never thought about that,” she says quietly."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week33_grade09_page04.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “My First 1,000 Views”, page 4. Scene based on: Daniela's mother, a woman in her forties in work clothes, sits with Daniela and Tomás at the kitchen table looking at the laptop, calm and supportive, pointing at the screen with one hand and holding Daniela's shoulder with the other. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "That evening, Daniela talks to her mother."
+            },
+            {
+              "html": "She has always told her mom about her videos."
+            },
+            {
+              "html": "Her mother isn’t angry. She’s calm."
+            },
+            {
+              "html": "“You haven’t done anything wrong,” she says."
+            },
+            {
+              "html": "“But now more people can see you.”"
+            },
+            {
+              "html": "“We should check your <b>privacy</b> together.”"
+            },
+            {
+              "html": "They look at the app’s <b>settings</b>."
+            },
+            {
+              "html": "Her account has always been public."
+            },
+            {
+              "html": "Her <b>location</b> has been on in every video."
+            },
+            {
+              "html": "“Anyone can see where you’ve been,” her mother says."
+            },
+            {
+              "html": "Daniela feels a little scared now."
+            },
+            {
+              "html": "She has shared more than she wanted."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week33_grade09_page05.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “My First 1,000 Views”, page 5. Scene based on: Daniela taps settings on her phone showing toggle switches and shield icons turning green, while her mother nods and Tomás gives a thumbs up; a stack of new cooking ingredients waits on the counter. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They make some important changes together."
+            },
+            {
+              "html": "Daniela turns off the location in the app."
+            },
+            {
+              "html": "She removes the old video with her school uniform."
+            },
+            {
+              "html": "She decides to <b>block</b> the accounts with no names."
+            },
+            {
+              "html": "She uses the button to <b>report</b> the private message offer."
+            },
+            {
+              "html": "“Have you heard of the business offer trick?” her mother asks."
+            },
+            {
+              "html": "“Some people promise money to get personal information.”"
+            },
+            {
+              "html": "Daniela nods. “I haven’t answered any of them.”"
+            },
+            {
+              "html": "“Good. Never answer. Always talk to me first.”"
+            },
+            {
+              "html": "Daniela feels safer now, and less afraid."
+            },
+            {
+              "html": "She has learned a lot in one evening."
+            }
+          ],
+          "wordCount": 92
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week33_grade09_page06.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “My First 1,000 Views”, page 6. Scene based on: Daniela records a new cooking video in the kitchen wearing a plain apron with no logos, against a plain tiled wall, smiling at a phone on a tripod, while Tomás holds a bowl of corn dough off camera. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Saturday, Daniela records a new video."
+            },
+            {
+              "html": "This time, she wears a plain apron."
+            },
+            {
+              "html": "The background is a plain kitchen wall."
+            },
+            {
+              "html": "There’s no school logo and no window."
+            },
+            {
+              "html": "“Have you finished?” Tomás asks."
+            },
+            {
+              "html": "“Yes. And I’ve learned something important,” she says."
+            },
+            {
+              "html": "“More views are exciting, but they bring more strangers.”"
+            },
+            {
+              "html": "“I still love making videos.”"
+            },
+            {
+              "html": "“But I’ve decided to share recipes, not my life.”"
+            },
+            {
+              "html": "Her new video gets two hundred views. She’s happy."
+            },
+            {
+              "html": "The comments are about the recipe, not about her."
+            }
+          ],
+          "wordCount": 82
+        }
+      ],
+      "practiceWords": [
+        "video",
+        "views",
+        "comment",
+        "stranger",
+        "account",
+        "privacy",
+        "settings",
+        "location",
+        "block",
+        "report"
+      ],
+      "vocabulary": [
+        {
+          "word": "video",
+          "definition": "moving pictures recorded with a camera or phone (video)"
+        },
+        {
+          "word": "views",
+          "definition": "the number of times people watch a video (visualizaciones)"
+        },
+        {
+          "word": "comment",
+          "definition": "a written opinion under a post (comentario)"
+        },
+        {
+          "word": "stranger",
+          "definition": "a person you do not know (desconocido)"
+        },
+        {
+          "word": "account",
+          "definition": "a personal profile on an app or website (cuenta)"
+        },
+        {
+          "word": "privacy",
+          "definition": "the right to keep your personal life private (privacidad)"
+        },
+        {
+          "word": "settings",
+          "definition": "options to control how an app works (configuración)"
+        },
+        {
+          "word": "location",
+          "definition": "the place where someone or something is (ubicación)"
+        },
+        {
+          "word": "block",
+          "definition": "to stop someone from contacting you (bloquear)"
+        },
+        {
+          "word": "report",
+          "definition": "to tell a platform about a problem (reportar)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What did Daniela’s video show by accident?",
+          "options": [
+            "Her ID card and her family’s bank information",
+            "Her home address and her phone number",
+            "Her school logo and a church near her house",
+            "Her mother’s face and her bedroom"
+          ],
+          "answer": "Her school logo and a church near her house"
+        },
+        {
+          "skill": "inference",
+          "question": "Why does Daniela’s smile disappear when she reads the comments?",
+          "options": [
+            "Most people say that her arepa recipe is terrible and too salty.",
+            "Her video loses all of its views suddenly that day.",
+            "Tomás writes a mean comment about her.",
+            "Some strangers ask personal questions and send strange offers."
+          ],
+          "answer": "Some strangers ask personal questions and send strange offers."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "How is Daniela’s new video different from her arepa video?",
+          "options": [
+            "It doesn’t show her school logo or her neighborhood.",
+            "It shows her mother cooking with her.",
+            "It is longer and has more personal stories about her.",
+            "It has more views than the arepa video."
+          ],
+          "answer": "It doesn’t show her school logo or her neighborhood."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main message of the text?",
+          "options": [
+            "More views always mean more money for creators.",
+            "Sharing online is fun, but protecting personal information matters.",
+            "Teenagers should delete all their social media accounts right now.",
+            "Cooking videos are dangerous for teenagers."
+          ],
+          "answer": "Sharing online is fun, but protecting personal information matters."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “Her location has been on in every video.” “Location” means…",
+          "options": [
+            "a person you don’t know",
+            "the number of people who watch",
+            "the place where someone is",
+            "options to control an app"
+          ],
+          "answer": "the place where someone is"
+        }
+      ],
+      "cover": "../assets/images/week33_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "The Wallet Under Seat 42",
+      "minimumWordTarget": 600,
+      "wordCount": 601,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week33_grade10_page01.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Wallet Under Seat 42”, page 1. Scene based on: Inside a Medellín city bus in the afternoon, Juan, 16, bends down and picks up a brown leather wallet from under seat 42, while Camila, 16, stands in the aisle and passengers get off through the back door. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Tuesday afternoon, Juan and Camila were riding a bus home."
+            },
+            {
+              "html": "The bus was full, and it was very hot."
+            },
+            {
+              "html": "Every <b>passenger</b> looked tired after a long day."
+            },
+            {
+              "html": "At a busy stop, many people were getting off."
+            },
+            {
+              "html": "While the passengers were leaving, Juan saw something."
+            },
+            {
+              "html": "There was a brown <b>wallet</b> under <b>seat</b> 42."
+            },
+            {
+              "html": "He picked it up and showed it to Camila."
+            },
+            {
+              "html": "“Someone dropped this,” he said."
+            },
+            {
+              "html": "The bus was starting to move again."
+            },
+            {
+              "html": "Juan didn’t know what to do."
+            },
+            {
+              "html": "Two boys were watching them from the back."
+            },
+            {
+              "html": "They were whispering and laughing."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week33_grade10_page02.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Wallet Under Seat 42”, page 2. Scene based on: Two teenage boys at the back of the bus lean toward Juan, one pointing at the wallet and rubbing his fingers together to suggest money, while Juan looks uncomfortable and Camila crosses her arms. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "One of the boys was smiling strangely."
+            },
+            {
+              "html": "“Take the money and throw the wallet away,” he said."
+            },
+            {
+              "html": "“Nobody will know. The owner left already.”"
+            },
+            {
+              "html": "The other boy laughed. “It’s your lucky day!”"
+            },
+            {
+              "html": "Juan felt the <b>pressure</b>. He opened the wallet."
+            },
+            {
+              "html": "Inside, there were one hundred thousand pesos."
+            },
+            {
+              "html": "There was also an <b>ID card</b> and a photo of children."
+            },
+            {
+              "html": "Juan looked at the photo for a long time."
+            },
+            {
+              "html": "Camila touched his arm gently."
+            },
+            {
+              "html": "“Who was sitting in seat 42?” she asked."
+            }
+          ],
+          "wordCount": 80
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week33_grade10_page03.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Wallet Under Seat 42”, page 3. Scene based on: Juan and Camila sit in the bus thinking hard, a thought cloud above them showing an older man in a gray jacket talking on a phone and getting off quickly, while the bus continues through the city. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Juan tried to remember."
+            },
+            {
+              "html": "“An older man was sitting there,” he said."
+            },
+            {
+              "html": "“He was wearing a gray jacket.”"
+            },
+            {
+              "html": "“He was talking on the phone when he got up.”"
+            },
+            {
+              "html": "“He was speaking very fast, and he looked worried.”"
+            },
+            {
+              "html": "Camila looked at the ID card."
+            },
+            {
+              "html": "The man in the photo had a gray jacket too."
+            },
+            {
+              "html": "“It’s him. His name is Óscar Restrepo,” she read."
+            },
+            {
+              "html": "“He got off at the hospital stop.”"
+            },
+            {
+              "html": "“Maybe he was going to visit someone sick.”"
+            },
+            {
+              "html": "Juan closed the wallet carefully."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week33_grade10_page04.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Wallet Under Seat 42”, page 4. Scene based on: Juan and Camila walk to the front of the bus and speak with the bus driver, a friendly man in his fifties, showing him the wallet, while the driver picks up a radio microphone to call the company. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Juan made a decision."
+            },
+            {
+              "html": "They walked to the front of the bus."
+            },
+            {
+              "html": "“Excuse me, someone left a wallet,” Juan told the <b>driver</b>."
+            },
+            {
+              "html": "“The <b>owner</b> got off at the hospital stop.”"
+            },
+            {
+              "html": "The driver nodded and took his radio."
+            },
+            {
+              "html": "“I’ll call the company,” he said."
+            },
+            {
+              "html": "“They keep lost objects at the main station.”"
+            },
+            {
+              "html": "But Camila had another idea."
+            },
+            {
+              "html": "In the wallet, there was a small business card."
+            },
+            {
+              "html": "It had a phone number."
+            },
+            {
+              "html": "“We can call him directly,” she said."
+            },
+            {
+              "html": "The driver agreed. “That’s faster. Good idea.”"
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week33_grade10_page05.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Wallet Under Seat 42”, page 5. Scene based on: Standing at a bus stop, Camila calls a phone number on her phone while Juan holds the wallet; on the screen, there is only a phone icon, and both look hopeful as the city traffic passes behind them. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They got off at the next stop."
+            },
+            {
+              "html": "Camila called the number on the card."
+            },
+            {
+              "html": "A woman answered the phone."
+            },
+            {
+              "html": "“Hello. Is this Mr. Óscar Restrepo’s office?” Camila asked."
+            },
+            {
+              "html": "“Yes, I’m his secretary,” the woman said."
+            },
+            {
+              "html": "“He was visiting his wife in the hospital.”"
+            },
+            {
+              "html": "“He was looking for his wallet a moment ago.”"
+            },
+            {
+              "html": "“He was very worried about his ID card.”"
+            },
+            {
+              "html": "Camila explained that they had the wallet."
+            },
+            {
+              "html": "The woman sounded very relieved."
+            },
+            {
+              "html": "“I’ll tell him right now,” she said."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week33_grade10_page06.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Wallet Under Seat 42”, page 6. Scene based on: In front of a hospital entrance in Medellín, an older man in a gray jacket shakes Juan's hand with both hands and smiles with emotion, while Camila stands beside them and the man holds his recovered wallet. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Thirty minutes later, they met Mr. Restrepo at the hospital."
+            },
+            {
+              "html": "He was waiting at the entrance in his gray jacket."
+            },
+            {
+              "html": "“Thank you so much!” he said."
+            },
+            {
+              "html": "He opened the wallet and checked his ID card."
+            },
+            {
+              "html": "“All the money is here too,” he said, surprised."
+            },
+            {
+              "html": "He wanted to give them a <b>reward</b>."
+            },
+            {
+              "html": "He offered them fifty thousand pesos."
+            },
+            {
+              "html": "“No, thank you,” Juan said."
+            },
+            {
+              "html": "“We only wanted to <b>return</b> it.”"
+            },
+            {
+              "html": "Mr. Restrepo shook their hands with tears in his eyes."
+            },
+            {
+              "html": "“My wife will be happy to hear this story,” he said."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week33_grade10_page07.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Wallet Under Seat 42”, page 7. Scene based on: Back on another bus in the evening, Juan and Camila sit together looking out the window at the city lights, Juan smiling with relief while Camila talks, both relaxed after a long day. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On the bus home, Juan was quiet for a while."
+            },
+            {
+              "html": "“I almost listened to those boys,” he admitted."
+            },
+            {
+              "html": "“The pressure was strong, and the money was right there.”"
+            },
+            {
+              "html": "“But you didn’t do it,” Camila said."
+            },
+            {
+              "html": "“You asked questions. You remembered the man.”"
+            },
+            {
+              "html": "Juan thought about the photo of the children."
+            },
+            {
+              "html": "“While I was looking at that photo, I changed my mind.”"
+            },
+            {
+              "html": "“It wasn’t money anymore. It was a person.”"
+            },
+            {
+              "html": "Camila smiled. “That’s what <b>honest</b> means, I think.”"
+            },
+            {
+              "html": "“Doing the right thing, even when nobody is watching.”"
+            },
+            {
+              "html": "Juan looked out of the window, feeling proud."
+            }
+          ],
+          "wordCount": 94
+        }
+      ],
+      "practiceWords": [
+        "wallet",
+        "seat",
+        "passenger",
+        "driver",
+        "owner",
+        "ID card",
+        "return",
+        "honest",
+        "pressure",
+        "reward"
+      ],
+      "vocabulary": [
+        {
+          "word": "wallet",
+          "definition": "a small case for money and cards (billetera)"
+        },
+        {
+          "word": "seat",
+          "definition": "a place where you sit (asiento)"
+        },
+        {
+          "word": "passenger",
+          "definition": "a person who travels in a vehicle (pasajero)"
+        },
+        {
+          "word": "driver",
+          "definition": "a person who drives a vehicle (conductor)"
+        },
+        {
+          "word": "owner",
+          "definition": "the person something belongs to (dueño)"
+        },
+        {
+          "word": "ID card",
+          "definition": "an official card with your name and photo (cédula)"
+        },
+        {
+          "word": "return",
+          "definition": "to give something back (devolver)"
+        },
+        {
+          "word": "honest",
+          "definition": "telling the truth and not stealing (honesto)"
+        },
+        {
+          "word": "pressure",
+          "definition": "the feeling that others push you to do something (presión)"
+        },
+        {
+          "word": "reward",
+          "definition": "something given to thank someone (recompensa)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Where did Mr. Restrepo get off the bus?",
+          "options": [
+            "At the stop near Juan’s house",
+            "At the main bus station",
+            "At the last stop of the route",
+            "At the hospital stop"
+          ],
+          "answer": "At the hospital stop"
+        },
+        {
+          "skill": "inference",
+          "question": "Why did Camila ask, “Who was sitting in seat 42?”",
+          "options": [
+            "She wanted to find the owner instead of keeping the money.",
+            "She wanted to know the bus driver’s name.",
+            "She wanted to sit in seat 42 herself.",
+            "She thought the boys at the back of the bus stole the wallet."
+          ],
+          "answer": "She wanted to find the owner instead of keeping the money."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the photo of the children in the wallet?",
+          "options": [
+            "To show that Mr. Restrepo was a teacher with three young children.",
+            "To show the moment Juan started to see the owner as a real person.",
+            "To explain why the two boys at the back wanted the money.",
+            "To show that Camila liked children."
+          ],
+          "answer": "To show the moment Juan started to see the owner as a real person."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What is the relationship between the business card and finding the owner?",
+          "options": [
+            "The card showed the owner’s home address and the name of his street.",
+            "The card had a photo of the owner’s children.",
+            "The phone number on the card helped them contact the owner quickly.",
+            "The card told them to take the wallet to the bus driver."
+          ],
+          "answer": "The phone number on the card helped them contact the owner quickly."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which statement best summarizes the text?",
+          "options": [
+            "Students should always take lost wallets to the police station.",
+            "Bus drivers are responsible for passengers’ lost objects.",
+            "People who return lost wallets always receive money as a reward.",
+            "Thinking about the owner helped Juan resist pressure."
+          ],
+          "answer": "Thinking about the owner helped Juan resist pressure."
+        }
+      ],
+      "cover": "../assets/images/week33_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "If I Could Restart One Decision",
+      "minimumWordTarget": 700,
+      "wordCount": 702,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week33_grade11_page01.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “If I Could Restart One Decision”, page 1. Scene based on: In a quiet corner of a public school library in Medellín, Valentina, 17, holds an old printed email about a student exchange program with only a plane icon and a flag-like color block, looking thoughtful, while Daniel, 17, sits across from her with a notebook. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina found an old email this week."
+            },
+            {
+              "html": "It was from two years ago."
+            },
+            {
+              "html": "It invited her to <b>apply</b> to an <b>exchange program</b>."
+            },
+            {
+              "html": "The program offered six months in a high school in Canada."
+            },
+            {
+              "html": "She was fifteen, and she didn’t apply."
+            },
+            {
+              "html": "“I was afraid of my English,” she says."
+            },
+            {
+              "html": "“I thought I would fail the interview.”"
+            },
+            {
+              "html": "Now she is seventeen and almost finished with school."
+            },
+            {
+              "html": "Her friend Daniel reads the email too."
+            },
+            {
+              "html": "“Do you <b>regret</b> it?” he asks."
+            },
+            {
+              "html": "Valentina doesn’t answer immediately."
+            },
+            {
+              "html": "She reads the email again, slowly."
+            },
+            {
+              "html": "She remembers how nervous she felt that week."
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week33_grade11_page02.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “If I Could Restart One Decision”, page 2. Scene based on: Valentina looks out a library window at a passing airplane in the sky, imagining herself in a snowy Canadian school, shown as a soft dreamlike reflection in the glass, while Daniel watches her. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "“Sometimes I <b>imagine</b> that life,” Valentina says."
+            },
+            {
+              "html": "“If I went to Canada, I would speak better English.”"
+            },
+            {
+              "html": "“I would know another culture.”"
+            },
+            {
+              "html": "“I would have friends from other countries.”"
+            },
+            {
+              "html": "Daniel listens carefully."
+            },
+            {
+              "html": "“That sounds amazing,” he says."
+            },
+            {
+              "html": "“But what did you do instead?”"
+            },
+            {
+              "html": "Valentina thinks. She hasn’t asked herself that question before."
+            },
+            {
+              "html": "“I stayed here,” she says. “Nothing special.”"
+            },
+            {
+              "html": "Daniel shakes his head. “Are you sure?”"
+            },
+            {
+              "html": "“Let’s look at the <b>alternative</b> you chose.”"
+            }
+          ],
+          "wordCount": 73
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week33_grade11_page03.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “If I Could Restart One Decision”, page 3. Scene based on: Daniel holds up Valentina's old phone showing a photo of a group of teenagers in green T-shirts planting trees by a creek in Medellín, with Valentina in the middle holding a shovel and smiling. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniel takes out his phone."
+            },
+            {
+              "html": "He finds a photo from two years ago."
+            },
+            {
+              "html": "In the photo, Valentina is planting trees by a creek."
+            },
+            {
+              "html": "She is wearing a green volunteer T-shirt."
+            },
+            {
+              "html": "“You joined the environmental group that year,” Daniel says."
+            },
+            {
+              "html": "“You started as a volunteer.”"
+            },
+            {
+              "html": "“Now you lead the whole group.”"
+            },
+            {
+              "html": "“You organized the creek cleanup with two hundred people.”"
+            },
+            {
+              "html": "Valentina looks at the photo, surprised."
+            },
+            {
+              "html": "“I forgot that it started the same year,” she says."
+            },
+            {
+              "html": "“I was so busy thinking about Canada.”"
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week33_grade11_page04.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “If I Could Restart One Decision”, page 4. Scene based on: In the library, Valentina and Daniel draw two paths on a big sheet of paper, one path with a plane and snowy trees, the other with a creek, trees and a group of people, connected at the start by one point labelled only with a small star. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They draw two paths on a big paper."
+            },
+            {
+              "html": "One path goes to Canada."
+            },
+            {
+              "html": "The other path goes to the creek in Medellín."
+            },
+            {
+              "html": "“If you went to Canada, would you lead now?”"
+            },
+            {
+              "html": "Daniel asks it slowly, pointing at the paper."
+            },
+            {
+              "html": "“Probably not,” Valentina admits."
+            },
+            {
+              "html": "“I wouldn’t know those people or those problems.”"
+            },
+            {
+              "html": "“And would you have the <b>leadership</b> scholarship?”"
+            },
+            {
+              "html": "Last month, Valentina won a university scholarship."
+            },
+            {
+              "html": "It was for young community leaders."
+            },
+            {
+              "html": "“No. The scholarship came from the creek project,” she says."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week33_grade11_page05.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “If I Could Restart One Decision”, page 5. Scene based on: Valentina sits with her arms crossed on the library table, looking conflicted, half smiling and half serious, while Daniel points at the two paths on the paper and asks her a question. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina feels confused now."
+            },
+            {
+              "html": "“So my <b>decision</b> was good?” she asks."
+            },
+            {
+              "html": "“It wasn’t good or bad,” Daniel says."
+            },
+            {
+              "html": "“It closed one door, and it opened another.”"
+            },
+            {
+              "html": "“Every decision has a <b>consequence</b>.”"
+            },
+            {
+              "html": "“Some consequences we see immediately.”"
+            },
+            {
+              "html": "“Others we only see years later.”"
+            },
+            {
+              "html": "Valentina thinks about her <b>fear</b> of English."
+            },
+            {
+              "html": "“I didn’t choose the creek because I loved it,” she says."
+            },
+            {
+              "html": "“I chose it because I was afraid of the interview.”"
+            },
+            {
+              "html": "“Now I love the creek group, but that wasn’t the reason.”"
+            },
+            {
+              "html": "Daniel nods. “That’s an honest answer.”"
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week33_grade11_page06.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “If I Could Restart One Decision”, page 6. Scene based on: Valentina speaks with the school's English teacher, a friendly woman in her fifties, in a classroom with a world map on the wall, while Daniel waits by the door; the teacher shows a brochure with only a plane icon and a graduation cap. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next day, Valentina talks to her English teacher."
+            },
+            {
+              "html": "“If I had another chance, I would ask more,” she says."
+            },
+            {
+              "html": "“I would ask about the interview and about support.”"
+            },
+            {
+              "html": "“I wouldn’t let fear decide for me.”"
+            },
+            {
+              "html": "The teacher smiles and gives her a brochure."
+            },
+            {
+              "html": "“There’s an <b>opportunity</b> for university students too,” she says."
+            },
+            {
+              "html": "“Exchange programs exist after school.”"
+            },
+            {
+              "html": "“You can still go, maybe in your third semester.”"
+            },
+            {
+              "html": "Valentina’s eyes open wide."
+            },
+            {
+              "html": "“So the door isn’t closed forever,” she says."
+            },
+            {
+              "html": "“Some doors only wait,” her teacher answers."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week33_grade11_page07.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “If I Could Restart One Decision”, page 7. Scene based on: Valentina writes in a journal at a desk at home in the evening, a small plant and a photo of the creek group pinned on the wall, a printed brochure about university exchange beside her notebook. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "That night, Valentina writes in her journal."
+            },
+            {
+              "html": "“If I could restart one decision, would I change it?”"
+            },
+            {
+              "html": "“Maybe I would apply to Canada.”"
+            },
+            {
+              "html": "“But then I wouldn’t have the creek group.”"
+            },
+            {
+              "html": "“I wouldn’t have the scholarship either.”"
+            },
+            {
+              "html": "“So I wouldn’t change the result.”"
+            },
+            {
+              "html": "“I would change the reason.”"
+            },
+            {
+              "html": "“Next time, I won’t decide because of fear.”"
+            },
+            {
+              "html": "“I’ll decide with information.”"
+            },
+            {
+              "html": "She puts the brochure next to her bed."
+            },
+            {
+              "html": "She feels calmer than she did this morning."
+            },
+            {
+              "html": "The old email doesn’t hurt anymore."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week33_grade11_page08.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “If I Could Restart One Decision”, page 8. Scene based on: Months later, Valentina stands at the front of her environmental group of teenagers by a clean creek, speaking with confidence, while Daniel stands among the volunteers holding a printed application form with a plane icon. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "A few months later, Valentina finishes school."
+            },
+            {
+              "html": "She will start university with her scholarship."
+            },
+            {
+              "html": "She is also preparing an application for an exchange."
+            },
+            {
+              "html": "This time, she is practicing English every day."
+            },
+            {
+              "html": "She watches videos and talks with a conversation partner online."
+            },
+            {
+              "html": "At the creek, she speaks to the new volunteers."
+            },
+            {
+              "html": "“Every choice closes one door and opens another,” she says."
+            },
+            {
+              "html": "“Don’t choose the easy door because you’re afraid.”"
+            },
+            {
+              "html": "“Choose the door you can explain.”"
+            },
+            {
+              "html": "Daniel claps from the back of the group."
+            },
+            {
+              "html": "“Who taught you that?” he jokes."
+            },
+            {
+              "html": "“An old email and a good friend,” she says."
+            },
+            {
+              "html": "Everyone laughs, and they start working by the creek."
+            },
+            {
+              "html": "The water is clean, and the trees are taller now."
+            }
+          ],
+          "wordCount": 116
+        }
+      ],
+      "practiceWords": [
+        "decision",
+        "opportunity",
+        "regret",
+        "exchange program",
+        "apply",
+        "fear",
+        "consequence",
+        "alternative",
+        "imagine",
+        "leadership"
+      ],
+      "vocabulary": [
+        {
+          "word": "decision",
+          "definition": "a choice you make after thinking (decisión)"
+        },
+        {
+          "word": "opportunity",
+          "definition": "a chance to do something good (oportunidad)"
+        },
+        {
+          "word": "regret",
+          "definition": "to feel sorry about something you did or didn’t do (lamentar)"
+        },
+        {
+          "word": "exchange program",
+          "definition": "a plan where students study in another country (programa de intercambio)"
+        },
+        {
+          "word": "apply",
+          "definition": "to ask formally for a place or a job (postularse)"
+        },
+        {
+          "word": "fear",
+          "definition": "the feeling of being afraid (miedo)"
+        },
+        {
+          "word": "consequence",
+          "definition": "a result of an action or decision (consecuencia)"
+        },
+        {
+          "word": "alternative",
+          "definition": "another possible choice (alternativa)"
+        },
+        {
+          "word": "imagine",
+          "definition": "to form a picture of something in your mind (imaginar)"
+        },
+        {
+          "word": "leadership",
+          "definition": "the ability to guide a group (liderazgo)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "Why didn’t Valentina apply to the exchange program two years ago?",
+          "options": [
+            "She was afraid that her English was not good enough.",
+            "Her parents didn’t give her permission to travel.",
+            "She didn’t receive the invitation email until this week.",
+            "The program was too expensive for her family."
+          ],
+          "answer": "She was afraid that her English was not good enough."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "How does the photo from two years ago change Valentina’s view of her past?",
+          "options": [
+            "It proves to her that she should have gone to Canada.",
+            "It reminds her that she started something important that same year.",
+            "It shows that the creek project failed in its first year of work.",
+            "It shows her that she was happier in Canada."
+          ],
+          "answer": "It reminds her that she started something important that same year."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the teacher’s sentence, “Some doors only wait”?",
+          "options": [
+            "To explain how exchange programs in Canada choose their students.",
+            "To show that university studies are more important than travel abroad.",
+            "To show that a missed opportunity can still come back in another form.",
+            "To show that the teacher wants Valentina to stay in Medellín."
+          ],
+          "answer": "To show that a missed opportunity can still come back in another form."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “Every decision has a consequence.” “Consequence” means…",
+          "options": [
+            "a chance to do something good",
+            "the feeling of being afraid of a choice",
+            "another possible choice",
+            "a result of an action or decision"
+          ],
+          "answer": "a result of an action or decision"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which statement best expresses the central idea of the text?",
+          "options": [
+            "Decisions have mixed results, so use information, not fear.",
+            "Old emails should be deleted to avoid feeling regret.",
+            "Students should always choose exchange programs over local projects.",
+            "Fear is a good reason to avoid difficult interviews."
+          ],
+          "answer": "Decisions have mixed results, so use information, not fear."
+        }
+      ],
+      "cover": "../assets/images/week33_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

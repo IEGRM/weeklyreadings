@@ -1,0 +1,1746 @@
+{
+  "week": 38,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 38",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "The Tourist Who Needed Help",
+      "minimumWordTarget": 350,
+      "wordCount": 424,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week38_grade06_page01.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “The Tourist Who Needed Help”, page 1. Scene based on: Juan is 11 years old and studies in Medellín. One ordinary day at the Medellín Metro, a situation involving a person who needs help begins to change the plans for the afternoon. María is nearby and notices that Juan is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Juan is 11 years old and studies in Medellín. One ordinary day at the Medellín Metro, a situation involving a person who needs help begins to change the plans for the afternoon."
+            },
+            {
+              "html": "María is nearby and notices that Juan is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about initiative, boundaries and safe support."
+            },
+            {
+              "html": "A <b>tourist</b> looks confused."
+            },
+            {
+              "html": "María reminds Juan that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "The tourist answers with a <b>smile</b>."
+            },
+            {
+              "html": "Juan asks an <b>adult</b> to help too."
+            }
+          ],
+          "wordCount": 101
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week38_grade06_page02.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “The Tourist Who Needed Help”, page 2. Scene based on: The situation becomes harder when a student notices a person struggling nearby. Juan feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a student notices a person struggling nearby. Juan feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "María suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "Juan wants to <b>help</b> the tourist."
+            },
+            {
+              "html": "Juan listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "The tourist cannot find the <b>station</b>."
+            },
+            {
+              "html": "They <b>speak</b> slowly in English."
+            },
+            {
+              "html": "The visitor wants to <b>thank</b> them."
+            }
+          ],
+          "wordCount": 105
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week38_grade06_page03.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “The Tourist Who Needed Help”, page 3. Scene based on: Juan decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Juan decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "María explains that being responsible is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "Juan is <b>kind</b> and patient."
+            },
+            {
+              "html": "By the end of the day, the immediate problem has a result. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Juan feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "María uses a hand to <b>point</b> to the right exit."
+            }
+          ],
+          "wordCount": 118
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week38_grade06_page04.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “The Tourist Who Needed Help”, page 4. Scene based on: At home, Juan thinks about what could have happened if the group had reacted without checking anything. The student writes a short reflection: a responsible choice is not always the fastest or most popular choice. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At home, Juan thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "The student writes a short reflection: a responsible choice is not always the fastest or most popular choice."
+            },
+            {
+              "html": "Next time, Juan plans to ask a clearer question, confirm important information, and explain the reason for the decision."
+            },
+            {
+              "html": "The experience becomes part of how Juan understands school, family, technology, travel, and life in a larger world."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "They stay in a <b>safe</b>, busy place."
+            }
+          ],
+          "wordCount": 100
+        }
+      ],
+      "practiceWords": [
+        "tourist",
+        "help",
+        "station",
+        "kind",
+        "smile",
+        "speak",
+        "point",
+        "safe",
+        "adult",
+        "thank"
+      ],
+      "vocabulary": [
+        {
+          "word": "tourist",
+          "definition": "a person visiting a place (turista)"
+        },
+        {
+          "word": "help",
+          "definition": "to make something easier for someone (ayudar)"
+        },
+        {
+          "word": "station",
+          "definition": "a place where trains stop (estación)"
+        },
+        {
+          "word": "kind",
+          "definition": "nice and caring (amable)"
+        },
+        {
+          "word": "smile",
+          "definition": "a happy expression (sonrisa)"
+        },
+        {
+          "word": "speak",
+          "definition": "to say words (hablar)"
+        },
+        {
+          "word": "point",
+          "definition": "to show with your finger (señalar)"
+        },
+        {
+          "word": "safe",
+          "definition": "protected from danger (seguro)"
+        },
+        {
+          "word": "adult",
+          "definition": "a grown-up person (adulto)"
+        },
+        {
+          "word": "thank",
+          "definition": "to say thank you (agradecer)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "Who notices that Juan is paying close attention to what is happening?",
+          "options": [
+            "María",
+            "Laura",
+            "Lucía",
+            "Nicolás"
+          ],
+          "answer": "María"
+        },
+        {
+          "skill": "sequence",
+          "question": "Choose the correct order of events in the story.",
+          "options": [
+            "takes a small action → notices the problem → hears different versions → reflects at home",
+            "hears different versions → notices the problem → reflects at home → takes a small action",
+            "notices the problem → takes a small action → reflects at home → hears different versions",
+            "notices the problem → hears different versions → takes a small action → reflects at home"
+          ],
+          "answer": "notices the problem → hears different versions → takes a small action → reflects at home"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Which word from the text means “a person visiting a place”?",
+          "options": [
+            "safe",
+            "point",
+            "adult",
+            "tourist"
+          ],
+          "answer": "tourist"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which option is the best summary of the text?",
+          "options": [
+            "Juan and María travel to New York to solve the problem.",
+            "Juan faces a problem because a student notices a person struggling nearby, checks the facts with María and makes a responsible decision.",
+            "Juan leads the visitor to an isolated place and the problem disappears.",
+            "María solves the problem alone while Juan watches."
+          ],
+          "answer": "Juan faces a problem because a student notices a person struggling nearby, checks the facts with María and makes a responsible decision."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Imagine you are in Juan's situation. Which action follows the message of the text?",
+          "options": [
+            "Take the visitor's bag without asking.",
+            "Offer help politely in a public place and involve official staff.",
+            "Lead the visitor to an isolated place.",
+            "Decide everything for the visitor."
+          ],
+          "answer": "Offer help politely in a public place and involve official staff."
+        }
+      ],
+      "cover": "../assets/images/week38_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "The Visitor Who Could Not Find The Station",
+      "minimumWordTarget": 400,
+      "wordCount": 515,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week38_grade07_page01.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Visitor Who Could Not Find The Station”, page 1. Scene based on: Valeria is 12 years old and studies in Medellín. One ordinary day at a library near the school, a situation involving a person who needs help begins to change the plans for the afternoon. Samuel is nearby and notices that Valeria is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valeria is 12 years old and studies in Medellín. One ordinary day at a library near the school, a situation involving a person who needs help begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Samuel is nearby and notices that Valeria is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about initiative, boundaries and safe support."
+            },
+            {
+              "html": "A <b>tourist</b> looks confused."
+            },
+            {
+              "html": "Valeria listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "Valeria wants to <b>help</b> the tourist."
+            },
+            {
+              "html": "They stay in a <b>safe</b>, busy place."
+            }
+          ],
+          "wordCount": 103
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week38_grade07_page02.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Visitor Who Could Not Find The Station”, page 2. Scene based on: The situation becomes harder when a student notices a person struggling nearby. Valeria feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a student notices a person struggling nearby. Valeria feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Samuel suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "The tourist cannot find the <b>station</b>."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "Valeria is <b>kind</b> and patient."
+            },
+            {
+              "html": "Valeria asks an <b>adult</b> to help too."
+            }
+          ],
+          "wordCount": 104
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week38_grade07_page03.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Visitor Who Could Not Find The Station”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Valeria has to think about the first idea again. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Valeria has to think about the first idea again."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "The tourist answers with a <b>smile</b>."
+            },
+            {
+              "html": "The visitor wants to <b>thank</b> them."
+            }
+          ],
+          "wordCount": 111
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week38_grade07_page04.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Visitor Who Could Not Find The Station”, page 4. Scene based on: Valeria decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valeria decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Samuel explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "“Did you visit this place before?” one friend asks."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "They <b>speak</b> slowly in English."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week38_grade07_page05.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Visitor Who Could Not Find The Station”, page 5. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Valeria feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Valeria feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about initiative, boundaries and safe support."
+            },
+            {
+              "html": "At home, Valeria thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "Samuel uses a hand to <b>point</b> to the right exit."
+            }
+          ],
+          "wordCount": 106
+        }
+      ],
+      "practiceWords": [
+        "tourist",
+        "help",
+        "station",
+        "kind",
+        "smile",
+        "speak",
+        "point",
+        "safe",
+        "adult",
+        "thank"
+      ],
+      "vocabulary": [
+        {
+          "word": "tourist",
+          "definition": "a person visiting a place (turista)"
+        },
+        {
+          "word": "help",
+          "definition": "to make something easier for someone (ayudar)"
+        },
+        {
+          "word": "station",
+          "definition": "a place where trains stop (estación)"
+        },
+        {
+          "word": "kind",
+          "definition": "nice and caring (amable)"
+        },
+        {
+          "word": "smile",
+          "definition": "a happy expression (sonrisa)"
+        },
+        {
+          "word": "speak",
+          "definition": "to say words (hablar)"
+        },
+        {
+          "word": "point",
+          "definition": "to show with your finger (señalar)"
+        },
+        {
+          "word": "safe",
+          "definition": "protected from danger (seguro)"
+        },
+        {
+          "word": "adult",
+          "definition": "a grown-up person (adulto)"
+        },
+        {
+          "word": "thank",
+          "definition": "to say thank you (agradecer)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Which statement is TRUE according to the text?",
+          "options": [
+            "Samuel suggests checking the information before blaming anyone.",
+            "The students have all the facts from the beginning.",
+            "Samuel wants Valeria to react immediately.",
+            "Valeria takes the visitor's bag without asking."
+          ],
+          "answer": "Samuel suggests checking the information before blaming anyone."
+        },
+        {
+          "skill": "cause and effect",
+          "question": "What happens because the students do not have all the facts?",
+          "options": [
+            "They stop talking to each other.",
+            "They hear different versions of what happened.",
+            "They immediately find the solution.",
+            "They decide to go home early."
+          ],
+          "answer": "They hear different versions of what happened."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which word best represents the central topic of the text?",
+          "options": [
+            "help",
+            "teamwork",
+            "appearance",
+            "inclusion"
+          ],
+          "answer": "help"
+        },
+        {
+          "skill": "simple inference",
+          "question": "According to the text, what could happen if the group reacted without checking anything?",
+          "options": [
+            "The teacher would cancel the class.",
+            "The problem would disappear immediately.",
+            "Everybody would agree on the facts.",
+            "The problem could become bigger and hurt someone."
+          ],
+          "answer": "The problem could become bigger and hurt someone."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Complete the sentence from the text: “Samuel uses a hand to _____ to the right exit.”",
+          "options": [
+            "station",
+            "safe",
+            "tourist",
+            "point"
+          ],
+          "answer": "point"
+        }
+      ],
+      "cover": "../assets/images/week38_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "Helping Without Taking Over",
+      "minimumWordTarget": 450,
+      "wordCount": 508,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week38_grade08_page01.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “Helping Without Taking Over”, page 1. Scene based on: Camila is 13 years old and studies in Medellín. One ordinary day at a sports court on a Medellín hillside, a situation involving a person who needs help begins to change the plans for the afternoon. Lucía is nearby and notices that Camila is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Camila is 13 years old and studies in Medellín. One ordinary day at a sports court on a Medellín hillside, a situation involving a person who needs help begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Lucía is nearby and notices that Camila is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about initiative, boundaries and safe support."
+            },
+            {
+              "html": "The visitor seems to <b>struggle</b> with the map."
+            },
+            {
+              "html": "Camila decides to <b>offer</b> help."
+            },
+            {
+              "html": "The visitor is <b>lost</b> and tired."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week38_grade08_page02.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “Helping Without Taking Over”, page 2. Scene based on: The situation becomes harder when a student notices a person struggling nearby. Camila feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a student notices a person struggling nearby. Camila feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Lucía suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "They are going to compare prices before the next purchase."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "A <b>polite</b> question opens the conversation."
+            },
+            {
+              "html": "Lucía reminds Camila to be careful with a <b>stranger</b>."
+            },
+            {
+              "html": "Camila is <b>patient</b> with the visitor's Spanish."
+            }
+          ],
+          "wordCount": 101
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week38_grade08_page03.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “Helping Without Taking Over”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Camila has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Camila has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Helping with <b>respect</b> means not taking control."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week38_grade08_page04.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “Helping Without Taking Over”, page 4. Scene based on: Camila decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Camila decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Lucía explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "They look for station <b>staff</b>."
+            },
+            {
+              "html": "Lucía reminds Camila that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Camila tries to <b>explain</b> the route simply."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week38_grade08_page05.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “Helping Without Taking Over”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in Brooklyn, New York. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in Brooklyn, New York."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Camila realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            }
+          ],
+          "wordCount": 78
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week38_grade08_page06.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “Helping Without Taking Over”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Camila feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They stay in a <b>public</b> area."
+            },
+            {
+              "html": "Camila feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about initiative, boundaries and safe support."
+            },
+            {
+              "html": "At home, Camila thinks about what could have happened if the group had reacted without checking anything."
+            }
+          ],
+          "wordCount": 70
+        }
+      ],
+      "practiceWords": [
+        "struggle",
+        "offer",
+        "polite",
+        "stranger",
+        "staff",
+        "explain",
+        "public",
+        "lost",
+        "patient",
+        "respect"
+      ],
+      "vocabulary": [
+        {
+          "word": "struggle",
+          "definition": "to have difficulty (tener dificultades)"
+        },
+        {
+          "word": "offer",
+          "definition": "to say you are willing to help (ofrecer)"
+        },
+        {
+          "word": "polite",
+          "definition": "showing good manners (educado)"
+        },
+        {
+          "word": "stranger",
+          "definition": "a person you do not know (desconocido)"
+        },
+        {
+          "word": "staff",
+          "definition": "people who work in a place (personal)"
+        },
+        {
+          "word": "explain",
+          "definition": "to make clear (explicar)"
+        },
+        {
+          "word": "public",
+          "definition": "open to everyone (público)"
+        },
+        {
+          "word": "lost",
+          "definition": "not knowing where you are (perdido)"
+        },
+        {
+          "word": "patient",
+          "definition": "able to wait calmly (paciente)"
+        },
+        {
+          "word": "respect",
+          "definition": "care for others (respeto)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "According to the text, what is the problem really about?",
+          "options": [
+            "Assumptions, empathy and honest conversation",
+            "Past experiences and perspective",
+            "Intercultural communication and global perspective",
+            "Initiative, boundaries and safe support"
+          ],
+          "answer": "Initiative, boundaries and safe support"
+        },
+        {
+          "skill": "inference",
+          "question": "According to the text, what could happen if the group reacted without checking anything?",
+          "options": [
+            "The problem would disappear immediately.",
+            "The teacher would cancel the class.",
+            "The problem could become bigger and hurt someone.",
+            "Everybody would agree on the facts."
+          ],
+          "answer": "The problem could become bigger and hurt someone."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the example from Brooklyn, New York?",
+          "options": [
+            "To prove that New York is better than Medellín.",
+            "To advertise a trip to the United States.",
+            "To show that a similar problem can appear in different places.",
+            "To change the topic of the story completely."
+          ],
+          "answer": "To show that a similar problem can appear in different places."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which sentence best expresses the main lesson of the text?",
+          "options": [
+            "Good decisions come from evidence, not from pressure.",
+            "Popular opinions are usually correct.",
+            "The fastest reaction is always the best one.",
+            "It is better to stay silent when there is a problem."
+          ],
+          "answer": "Good decisions come from evidence, not from pressure."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Which word from the text means “showing good manners”?",
+          "options": [
+            "offer",
+            "polite",
+            "explain",
+            "struggle"
+          ],
+          "answer": "polite"
+        }
+      ],
+      "cover": "../assets/images/week38_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "The Person Who Helped Me First",
+      "minimumWordTarget": 500,
+      "wordCount": 582,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week38_grade09_page01.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Person Who Helped Me First”, page 1. Scene based on: Daniela is 14 years old and studies in Medellín. One ordinary day at a small family apartment, a situation involving a person who needs help begins to change the plans for the afternoon. Mateo is nearby and notices that Daniela is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniela is 14 years old and studies in Medellín. One ordinary day at a small family apartment, a situation involving a person who needs help begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Mateo is nearby and notices that Daniela is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about initiative, boundaries and safe support."
+            },
+            {
+              "html": "The visitor seems to <b>struggle</b> with the map."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "Daniela decides to <b>offer</b> help."
+            },
+            {
+              "html": "Helping with <b>respect</b> means not taking control."
+            }
+          ],
+          "wordCount": 109
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week38_grade09_page02.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Person Who Helped Me First”, page 2. Scene based on: The situation becomes harder when a student notices a person struggling nearby. Daniela feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a student notices a person struggling nearby. Daniela feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Mateo suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "A <b>polite</b> question opens the conversation."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Mateo reminds Daniela that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Mateo reminds Daniela to be careful with a <b>stranger</b>."
+            }
+          ],
+          "wordCount": 100
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week38_grade09_page03.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Person Who Helped Me First”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Daniela has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Daniela has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Mateo reminds Daniela that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "They look for station <b>staff</b>."
+            }
+          ],
+          "wordCount": 98
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week38_grade09_page04.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Person Who Helped Me First”, page 4. Scene based on: Daniela decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniela decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Mateo explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "Daniela tries to <b>explain</b> the route simply."
+            },
+            {
+              "html": "Daniela listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "They stay in a <b>public</b> area."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week38_grade09_page05.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Person Who Helped Me First”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in a subway station in Manhattan. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in a subway station in Manhattan."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Daniela realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The visitor is <b>lost</b> and tired."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Daniela is <b>patient</b> with the visitor's Spanish."
+            }
+          ],
+          "wordCount": 92
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week38_grade09_page06.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Person Who Helped Me First”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Daniela feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Daniela feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about initiative, boundaries and safe support."
+            },
+            {
+              "html": "At home, Daniela thinks about what could have happened if the group had reacted without checking anything."
+            }
+          ],
+          "wordCount": 96
+        }
+      ],
+      "practiceWords": [
+        "struggle",
+        "offer",
+        "polite",
+        "stranger",
+        "staff",
+        "explain",
+        "public",
+        "lost",
+        "patient",
+        "respect"
+      ],
+      "vocabulary": [
+        {
+          "word": "struggle",
+          "definition": "to have difficulty (tener dificultades)"
+        },
+        {
+          "word": "offer",
+          "definition": "to say you are willing to help (ofrecer)"
+        },
+        {
+          "word": "polite",
+          "definition": "showing good manners (educado)"
+        },
+        {
+          "word": "stranger",
+          "definition": "a person you do not know (desconocido)"
+        },
+        {
+          "word": "staff",
+          "definition": "people who work in a place (personal)"
+        },
+        {
+          "word": "explain",
+          "definition": "to make clear (explicar)"
+        },
+        {
+          "word": "public",
+          "definition": "open to everyone (público)"
+        },
+        {
+          "word": "lost",
+          "definition": "not knowing where you are (perdido)"
+        },
+        {
+          "word": "patient",
+          "definition": "able to wait calmly (paciente)"
+        },
+        {
+          "word": "respect",
+          "definition": "care for others (respeto)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "According to the text, where does Daniela's situation begin?",
+          "options": [
+            "A local shopping area",
+            "A neighborhood in Manrique",
+            "A school courtyard",
+            "A small family apartment"
+          ],
+          "answer": "A small family apartment"
+        },
+        {
+          "skill": "inference",
+          "question": "Why does Daniela listen carefully before answering?",
+          "options": [
+            "Because the teacher prohibits talking.",
+            "Because one missing detail can change the meaning of the situation.",
+            "Because she does not understand Spanish.",
+            "Because nobody else is paying attention."
+          ],
+          "answer": "Because one missing detail can change the meaning of the situation."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In “Instead of having all the facts, the students hear different versions of what happened,” the expression “instead of” shows that…",
+          "options": [
+            "the facts arrive after a long time",
+            "the students have all the information they need",
+            "the versions are all exactly the same",
+            "the students get rumors in place of complete information"
+          ],
+          "answer": "the students get rumors in place of complete information"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which word best represents the central topic of the text?",
+          "options": [
+            "plans",
+            "evidence",
+            "help",
+            "persistence"
+          ],
+          "answer": "help"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read this sentence from page 5: “The visitor is lost and tired.” In this sentence, the word “lost” means…",
+          "options": [
+            "able to wait calmly",
+            "to make clear",
+            "people who work in a place",
+            "not knowing where you are"
+          ],
+          "answer": "not knowing where you are"
+        }
+      ],
+      "cover": "../assets/images/week38_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "Helping During A Transit Problem",
+      "minimumWordTarget": 600,
+      "wordCount": 655,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week38_grade10_page01.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “Helping During A Transit Problem”, page 1. Scene based on: Mateo is 15–16 years old and studies in Medellín. One ordinary day at a community center, a situation involving a person who needs help begins to change the plans for the afternoon. Isabella is nearby and notices that Mateo is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mateo is 15–16 years old and studies in Medellín. One ordinary day at a community center, a situation involving a person who needs help begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Isabella is nearby and notices that Mateo is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about initiative, boundaries and safe support."
+            },
+            {
+              "html": "Mateo shows <b>initiative</b> by approaching calmly."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Official <b>assistance</b> is available at the station."
+            }
+          ],
+          "wordCount": 100
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week38_grade10_page02.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “Helping During A Transit Problem”, page 2. Scene based on: The situation becomes harder when a student notices a person struggling nearby. Mateo feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a student notices a person struggling nearby. Mateo feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Isabella suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "If people check reliable information, they usually make safer decisions."
+            },
+            {
+              "html": "Isabella reminds Mateo that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Safe help includes clear <b>boundaries</b>."
+            },
+            {
+              "html": "The visitor feels <b>vulnerable</b> in a new city."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week38_grade10_page03.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “Helping During A Transit Problem”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Mateo has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Mateo has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Mateo listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week38_grade10_page04.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “Helping During A Transit Problem”, page 4. Scene based on: Mateo decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mateo decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Isabella explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "Mateo decides when to <b>intervene</b> and when to step back."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "The visitor's <b>autonomy</b> matters."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week38_grade10_page05.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “Helping During A Transit Problem”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in a youth exchange in New York City. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in a youth exchange in New York City."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Mateo realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "Isabella gives <b>discreet</b> advice."
+            }
+          ],
+          "wordCount": 107
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week38_grade10_page06.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “Helping During A Transit Problem”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Mateo feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "<b>Empathy</b> guides every step."
+            },
+            {
+              "html": "Mateo feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about initiative, boundaries and safe support."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Help should never sound <b>condescending</b>."
+            }
+          ],
+          "wordCount": 76
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week38_grade10_page07.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “Helping During A Transit Problem”, page 7. Scene based on: The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another. They also discuss the author’s purpose and decide which detail best supports the final lesson. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another."
+            },
+            {
+              "html": "They also discuss the author’s purpose and decide which detail best supports the final lesson."
+            },
+            {
+              "html": "Mateo notices that strong reading is not only translating words. It means connecting evidence, sequence, intention, and consequences."
+            },
+            {
+              "html": "That habit will be useful in future exams because a difficult question often depends on a small but meaningful detail."
+            },
+            {
+              "html": "Isabella reminds Mateo that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Good <b>judgment</b> keeps everyone safe."
+            }
+          ],
+          "wordCount": 103
+        }
+      ],
+      "practiceWords": [
+        "initiative",
+        "boundaries",
+        "intervene",
+        "autonomy",
+        "discreet",
+        "empathy",
+        "condescending",
+        "judgment",
+        "assistance",
+        "vulnerable"
+      ],
+      "vocabulary": [
+        {
+          "word": "initiative",
+          "definition": "the ability to act without being told (iniciativa)"
+        },
+        {
+          "word": "boundaries",
+          "definition": "limits that protect people (límites)"
+        },
+        {
+          "word": "intervene",
+          "definition": "to get involved to help (intervenir)"
+        },
+        {
+          "word": "autonomy",
+          "definition": "the right to make your own decisions (autonomía)"
+        },
+        {
+          "word": "discreet",
+          "definition": "careful not to attract attention (discreto)"
+        },
+        {
+          "word": "empathy",
+          "definition": "understanding others' feelings (empatía)"
+        },
+        {
+          "word": "condescending",
+          "definition": "treating someone as less intelligent (condescendiente)"
+        },
+        {
+          "word": "judgment",
+          "definition": "the ability to decide well (criterio)"
+        },
+        {
+          "word": "assistance",
+          "definition": "help (asistencia)"
+        },
+        {
+          "word": "vulnerable",
+          "definition": "easily harmed (vulnerable)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What makes the situation harder for Mateo?",
+          "options": [
+            "Bad weather changes an ordinary day",
+            "A student notices a person struggling nearby",
+            "An important object disappears during a busy day",
+            "A student must choose how to use limited savings"
+          ],
+          "answer": "A student notices a person struggling nearby"
+        },
+        {
+          "skill": "inference",
+          "question": "Which action would go AGAINST what Mateo learns in the story?",
+          "options": [
+            "Asking a clear question.",
+            "Deciding everything for the visitor without thinking.",
+            "Explaining the reason for a decision.",
+            "Verifying a detail first."
+          ],
+          "answer": "Deciding everything for the visitor without thinking."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the example from a youth exchange in New York City?",
+          "options": [
+            "To advertise a trip to the United States.",
+            "To change the topic of the story completely.",
+            "To show that a similar problem can appear in different places.",
+            "To prove that New York is better than Medellín."
+          ],
+          "answer": "To show that a similar problem can appear in different places."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In “…another clue points in a different direction, so Mateo has to reconsider the first assumption,” the word “so” introduces…",
+          "options": [
+            "a condition",
+            "an example",
+            "a result",
+            "a contrast"
+          ],
+          "answer": "a result"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which sentence best expresses the main lesson of the text?",
+          "options": [
+            "It is better to stay silent when there is a problem.",
+            "Good decisions come from evidence, not from pressure.",
+            "Popular opinions are usually correct.",
+            "The fastest reaction is always the best one."
+          ],
+          "answer": "Good decisions come from evidence, not from pressure."
+        }
+      ],
+      "cover": "../assets/images/week38_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "When Someone Needed More Than Advice",
+      "minimumWordTarget": 700,
+      "wordCount": 764,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week38_grade11_page01.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “When Someone Needed More Than Advice”, page 1. Scene based on: Daniela is 17–18 years old and studies in Medellín. One ordinary day at a local shopping area, a situation involving a person who needs help begins to change the plans for the afternoon. Nicolás is nearby and notices that Daniela is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniela is 17–18 years old and studies in Medellín. One ordinary day at a local shopping area, a situation involving a person who needs help begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Nicolás is nearby and notices that Daniela is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about initiative, boundaries and safe support."
+            },
+            {
+              "html": "Daniela shows <b>initiative</b> by approaching calmly."
+            },
+            {
+              "html": "Nicolás reminds Daniela that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "The visitor feels <b>vulnerable</b> in a new city."
+            }
+          ],
+          "wordCount": 99
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week38_grade11_page02.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “When Someone Needed More Than Advice”, page 2. Scene based on: The situation becomes harder when a student notices a person struggling nearby. Daniela feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a student notices a person struggling nearby. Daniela feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Nicolás suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "Safe help includes clear <b>boundaries</b>."
+            },
+            {
+              "html": "Daniela listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Daniela decides when to <b>intervene</b> and when to step back."
+            }
+          ],
+          "wordCount": 97
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week38_grade11_page03.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “When Someone Needed More Than Advice”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Daniela has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Daniela has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week38_grade11_page04.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “When Someone Needed More Than Advice”, page 4. Scene based on: Daniela decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniela decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Nicolás explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "The visitor's <b>autonomy</b> matters."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week38_grade11_page05.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “When Someone Needed More Than Advice”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in an online classroom shared with New York students. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in an online classroom shared with New York students."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Daniela realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Nicolás gives <b>discreet</b> advice."
+            }
+          ],
+          "wordCount": 107
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week38_grade11_page06.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “When Someone Needed More Than Advice”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Daniela feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Daniela feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about initiative, boundaries and safe support."
+            },
+            {
+              "html": "Nicolás reminds Daniela that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "<b>Empathy</b> guides every step."
+            }
+          ],
+          "wordCount": 100
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week38_grade11_page07.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “When Someone Needed More Than Advice”, page 7. Scene based on: At home, Daniela thinks about what could have happened if the group had reacted without checking anything. The student writes a short reflection: a responsible choice is not always the fastest or most popular choice. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At home, Daniela thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "Help should never sound <b>condescending</b>."
+            },
+            {
+              "html": "Next time, Daniela plans to ask a clearer question, confirm important information, and explain the reason for the decision."
+            },
+            {
+              "html": "The experience becomes part of how Daniela understands school, family, technology, travel, and life in a larger world."
+            },
+            {
+              "html": "Daniela listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "Good <b>judgment</b> keeps everyone safe."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week38_grade11_page08.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “When Someone Needed More Than Advice”, page 8. Scene based on: The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another. They also discuss the author’s purpose and decide which detail best supports the final lesson. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another."
+            },
+            {
+              "html": "They also discuss the author’s purpose and decide which detail best supports the final lesson."
+            },
+            {
+              "html": "Daniela notices that strong reading is not only translating words. It means connecting evidence, sequence, intention, and consequences."
+            },
+            {
+              "html": "That habit will be useful in future exams because a difficult question often depends on a small but meaningful detail."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Official <b>assistance</b> is available at the station."
+            }
+          ],
+          "wordCount": 105
+        }
+      ],
+      "practiceWords": [
+        "initiative",
+        "boundaries",
+        "intervene",
+        "autonomy",
+        "discreet",
+        "empathy",
+        "condescending",
+        "judgment",
+        "assistance",
+        "vulnerable"
+      ],
+      "vocabulary": [
+        {
+          "word": "initiative",
+          "definition": "the ability to act without being told (iniciativa)"
+        },
+        {
+          "word": "boundaries",
+          "definition": "limits that protect people (límites)"
+        },
+        {
+          "word": "intervene",
+          "definition": "to get involved to help (intervenir)"
+        },
+        {
+          "word": "autonomy",
+          "definition": "the right to make your own decisions (autonomía)"
+        },
+        {
+          "word": "discreet",
+          "definition": "careful not to attract attention (discreto)"
+        },
+        {
+          "word": "empathy",
+          "definition": "understanding others' feelings (empatía)"
+        },
+        {
+          "word": "condescending",
+          "definition": "treating someone as less intelligent (condescendiente)"
+        },
+        {
+          "word": "judgment",
+          "definition": "the ability to decide well (criterio)"
+        },
+        {
+          "word": "assistance",
+          "definition": "help (asistencia)"
+        },
+        {
+          "word": "vulnerable",
+          "definition": "easily harmed (vulnerable)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "Which action would go AGAINST what Daniela learns in the story?",
+          "options": [
+            "Asking a clear question.",
+            "Verifying a detail first.",
+            "Deciding everything for the visitor without thinking.",
+            "Explaining the reason for a decision."
+          ],
+          "answer": "Deciding everything for the visitor without thinking."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In “…another clue points in a different direction, so Daniela has to reconsider the first assumption,” the word “so” introduces…",
+          "options": [
+            "a contrast",
+            "a result",
+            "an example",
+            "a condition"
+          ],
+          "answer": "a result"
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author end the story with a reading challenge in class?",
+          "options": [
+            "To explain the rules of a sports competition.",
+            "To connect the experience with reading skills like main idea and fact versus assumption.",
+            "To show that the problem was not important.",
+            "To describe the school building."
+          ],
+          "answer": "To connect the experience with reading skills like main idea and fact versus assumption."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read this sentence from page 1: “The visitor feels vulnerable in a new city.” In this sentence, the word “vulnerable” means…",
+          "options": [
+            "the ability to decide well",
+            "careful not to attract attention",
+            "to get involved to help",
+            "easily harmed"
+          ],
+          "answer": "easily harmed"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which word best represents the central topic of the text?",
+          "options": [
+            "help",
+            "collaboration",
+            "limits",
+            "future"
+          ],
+          "answer": "help"
+        }
+      ],
+      "cover": "../assets/images/week38_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

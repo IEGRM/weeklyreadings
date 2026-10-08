@@ -1,0 +1,1950 @@
+{
+  "week": 3,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 3",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "House Chores",
+      "minimumWordTarget": 350,
+      "wordCount": 355,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week03_grade06_page01.webp",
+          "artDirection": "11–12-year-old Colombian student context for “House Chores”. Scene based on: Camila is tired. For a moment, Juan looks around and thinks about what to do next. She sees a messy floor. The day continues, and Juan tries to stay calm and pay attention. She get. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Camila is <b>tired</b>."
+            },
+            {
+              "html": "For a moment, Juan looks around and thinks about what to do next."
+            },
+            {
+              "html": "She sees a messy <b>floor</b>."
+            },
+            {
+              "html": "The day continues, and Juan tries to stay calm and pay attention."
+            },
+            {
+              "html": "She gets a <b>broom</b>."
+            },
+            {
+              "html": "A small detail helps Juan understand the situation a little better."
+            },
+            {
+              "html": "She begins to <b>clean</b>."
+            },
+            {
+              "html": "After that, Juan continues carefully instead of rushing."
+            },
+            {
+              "html": "She <b>sweeps</b> the dirt."
+            },
+            {
+              "html": "The people nearby also notice what is happening and react in simple ways."
+            },
+            {
+              "html": "The floor is still dirty."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week03_grade06_page02.webp",
+          "artDirection": "11–12-year-old Colombian student context for “House Chores”. Scene based on: This gives Juan time to make a better choice and continue the day. She gets a mop. A few minutes later, the situation feels easier to understand. She wipes the floor. Juan remember. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "This gives Juan time to make a better choice and continue the day."
+            },
+            {
+              "html": "She gets a <b>mop</b>."
+            },
+            {
+              "html": "A few minutes later, the situation feels easier to understand."
+            },
+            {
+              "html": "She <b>wipes</b> the floor."
+            },
+            {
+              "html": "Juan remembers that simple choices can make a difficult moment better."
+            },
+            {
+              "html": "The <b>puddle</b> is big."
+            },
+            {
+              "html": "The experience is ordinary, but it becomes an important part of the day."
+            },
+            {
+              "html": "She <b>drops</b> the <b>glass</b>."
+            },
+            {
+              "html": "By paying attention, Juan learns something useful from the moment."
+            },
+            {
+              "html": "There is water everywhere."
+            },
+            {
+              "html": "For a moment, Juan looks around and thinks about what to do next."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week03_grade06_page03.webp",
+          "artDirection": "11–12-year-old Colombian student context for “House Chores”. Scene based on: She walks to the kitchen. The day continues, and Juan tries to stay calm and pay attention. She gets another glass. A small detail helps Juan understand the situation a little bett. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "She walks to the kitchen."
+            },
+            {
+              "html": "The day continues, and Juan tries to stay calm and pay attention."
+            },
+            {
+              "html": "She gets another glass."
+            },
+            {
+              "html": "A small detail helps Juan understand the situation a little better."
+            },
+            {
+              "html": "She drinks water."
+            },
+            {
+              "html": "After that, Juan continues carefully instead of rushing."
+            },
+            {
+              "html": "She is happy."
+            },
+            {
+              "html": "The people nearby also notice what is happening and react in simple ways."
+            },
+            {
+              "html": "Her brother Juan helps her."
+            },
+            {
+              "html": "This gives Juan time to make a better choice and continue the day."
+            },
+            {
+              "html": "They finish the chores."
+            },
+            {
+              "html": "A few minutes later, the situation feels easier to understand."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week03_grade06_page04.webp",
+          "artDirection": "11–12-year-old Colombian student context for “House Chores”. Scene based on: The house is clean now. Juan remembers that simple choices can make a difficult moment better. Later, the experience is ordinary, but it becomes an important part of the day. Camil. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The house is clean now."
+            },
+            {
+              "html": "Juan remembers that simple choices can make a difficult moment better."
+            },
+            {
+              "html": "Later, the experience is ordinary, but it becomes an important part of the day."
+            },
+            {
+              "html": "Camila is tired."
+            },
+            {
+              "html": "By paying attention, Juan learns something useful from the moment."
+            },
+            {
+              "html": "She sees a messy floor."
+            },
+            {
+              "html": "For a moment, Juan looks around and thinks about what to do next."
+            },
+            {
+              "html": "She gets a broom."
+            },
+            {
+              "html": "The day continues, and Juan tries to stay calm and pay attention."
+            },
+            {
+              "html": "She begins to clean."
+            },
+            {
+              "html": "A small detail helps Juan understand the situation a little better."
+            }
+          ],
+          "wordCount": 92
+        }
+      ],
+      "practiceWords": [
+        "tired",
+        "floor",
+        "broom",
+        "clean",
+        "sweeps",
+        "mop",
+        "wipes",
+        "puddle",
+        "drops",
+        "glass"
+      ],
+      "vocabulary": [
+        {
+          "word": "tired",
+          "definition": "needing rest (cansado/a)"
+        },
+        {
+          "word": "floor",
+          "definition": "the surface of a room (piso)"
+        },
+        {
+          "word": "broom",
+          "definition": "a tool for sweeping (escoba)"
+        },
+        {
+          "word": "clean",
+          "definition": "to remove dirt (limpiar)"
+        },
+        {
+          "word": "sweeps",
+          "definition": "clears dirt with a broom (barrer)"
+        },
+        {
+          "word": "mop",
+          "definition": "a tool for cleaning floors (trapeador)"
+        },
+        {
+          "word": "wipes",
+          "definition": "cleans with a cloth (limpiar)"
+        },
+        {
+          "word": "puddle",
+          "definition": "a small pool of liquid (charco)"
+        },
+        {
+          "word": "drops",
+          "definition": "lets something fall (dejar caer)"
+        },
+        {
+          "word": "glass",
+          "definition": "a drinking container (vaso)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "What does Camila see first?",
+          "options": [
+            "A messy floor",
+            "A big puddle",
+            "A glass of water"
+          ],
+          "answer": "A messy floor"
+        },
+        {
+          "skill": "sequence",
+          "question": "What does Camila use to clean the floor?",
+          "options": [
+            "A broom and a mop",
+            "A glass",
+            "A puddle"
+          ],
+          "answer": "A broom and a mop"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What happens when Camila drops the glass?",
+          "options": [
+            "There is water everywhere",
+            "The floor is clean",
+            "She is happy"
+          ],
+          "answer": "There is water everywhere"
+        },
+        {
+          "skill": "main idea",
+          "question": "Who helps Camila with the chores?",
+          "options": [
+            "Her brother Juan",
+            "Her friend Maria",
+            "Her mother"
+          ],
+          "answer": "Her brother Juan"
+        },
+        {
+          "skill": "simple inference",
+          "question": "How does Camila feel at the end?",
+          "options": [
+            "Happy",
+            "Tired",
+            "Sad"
+          ],
+          "answer": "Happy"
+        }
+      ],
+      "cover": "../assets/images/week03_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "Taking My Pet Outside",
+      "minimumWordTarget": 400,
+      "wordCount": 404,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week03_grade07_page01.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Taking My Pet Outside”. Scene based on: It was afternoon. As the situation develops, Santiago realizes that a quick decision can create a real consequence. Santiago went out to walk his dog. The details around Santiago m. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "It was afternoon."
+            },
+            {
+              "html": "As the situation develops, Santiago realizes that a quick decision can create a real consequence."
+            },
+            {
+              "html": "Santiago went out to <b>walk</b> his dog."
+            },
+            {
+              "html": "The details around Santiago make the problem easier to understand."
+            },
+            {
+              "html": "His dog's name was Rocky."
+            },
+            {
+              "html": "Instead of reacting immediately, Santiago takes a moment to think about the next step."
+            },
+            {
+              "html": "Rocky was big and playful."
+            },
+            {
+              "html": "The small challenge becomes an opportunity to learn something useful."
+            },
+            {
+              "html": "\"Let's go, Rocky!\" Santiago said."
+            },
+            {
+              "html": "Other people influence the moment even when they are not at the center of the story."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week03_grade07_page02.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Taking My Pet Outside”. Scene based on: They walked past the market. Santiago's feelings begin to change as new information appears. People were buying groceries. One action leads naturally to another, so the consequence. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "They walked past the <b>market</b>."
+            },
+            {
+              "html": "Santiago's feelings begin to change as new information appears."
+            },
+            {
+              "html": "People were buying <b>groceries</b>."
+            },
+            {
+              "html": "One action leads naturally to another, so the consequence becomes clear."
+            },
+            {
+              "html": "Santiago remembered he needed <b>milk</b>."
+            },
+            {
+              "html": "The experience encourages Santiago to be more patient and responsible."
+            },
+            {
+              "html": "He tied Rocky to a <b>fence</b>."
+            },
+            {
+              "html": "After reflecting on what happened, Santiago understands the situation better."
+            },
+            {
+              "html": "\"Wait here, Rocky,\" he said."
+            },
+            {
+              "html": "By the end of the moment, Santiago has learned something that may help later."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week03_grade07_page03.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Taking My Pet Outside”. Scene based on: He went inside the grocery store. As the situation develops, Santiago realizes that a quick decision can create a real consequence. It took ten minutes to buy the milk. The details. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "He went inside the <b>grocery store</b>."
+            },
+            {
+              "html": "As the situation develops, Santiago realizes that a quick decision can create a real consequence."
+            },
+            {
+              "html": "It took ten minutes to buy the milk."
+            },
+            {
+              "html": "The details around Santiago make the problem easier to understand."
+            },
+            {
+              "html": "He untied Rocky and they <b>continued</b> walking."
+            },
+            {
+              "html": "Instead of reacting immediately, Santiago takes a moment to think about the next step."
+            },
+            {
+              "html": "They passed his <b>neighbor's</b> house."
+            },
+            {
+              "html": "The small challenge becomes an opportunity to learn something useful."
+            }
+          ],
+          "wordCount": 75
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week03_grade07_page04.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Taking My Pet Outside”. Scene based on: His uncle was sitting outside. Other people influence the moment even when they are not at the center of the story. \"Hello, Tío!\" Santiago said. Santiago's feelings begin to change. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "His <b>uncle</b> was sitting outside."
+            },
+            {
+              "html": "Other people influence the moment even when they are not at the center of the story."
+            },
+            {
+              "html": "\"Hello, Tío!\" Santiago said."
+            },
+            {
+              "html": "Santiago's feelings begin to change as new information appears."
+            },
+            {
+              "html": "They walked back home."
+            },
+            {
+              "html": "One action leads naturally to another, so the consequence becomes clear."
+            },
+            {
+              "html": "Santiago served Rocky a <b>bowl</b> of food."
+            },
+            {
+              "html": "The experience encourages Santiago to be more patient and responsible."
+            },
+            {
+              "html": "Rocky ate quickly."
+            },
+            {
+              "html": "After reflecting on what happened, Santiago understands the situation better."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week03_grade07_page05.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Taking My Pet Outside”. Scene based on: Santiago smiled. By the end of the moment, Santiago has learned something that may help later. \"Good boy, Rocky!\" he said. As the situation develops, Santiago realizes that a quick. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Santiago smiled."
+            },
+            {
+              "html": "By the end of the moment, Santiago has learned something that may help later."
+            },
+            {
+              "html": "\"Good boy, Rocky!\" he said."
+            },
+            {
+              "html": "As the situation develops, Santiago realizes that a quick decision can create a real consequence."
+            },
+            {
+              "html": "Later, the details around Santiago make the problem easier to understand."
+            },
+            {
+              "html": "It was afternoon."
+            },
+            {
+              "html": "Instead of reacting immediately, Santiago takes a moment to think about the next step."
+            },
+            {
+              "html": "Santiago went out to walk his dog."
+            },
+            {
+              "html": "The small challenge becomes an opportunity to learn something useful."
+            }
+          ],
+          "wordCount": 81
+        }
+      ],
+      "practiceWords": [
+        "walk",
+        "market",
+        "groceries",
+        "milk",
+        "fence",
+        "grocery store",
+        "continued",
+        "neighbor's",
+        "uncle",
+        "bowl"
+      ],
+      "vocabulary": [
+        {
+          "word": "walk",
+          "definition": "to move on foot (caminar)"
+        },
+        {
+          "word": "market",
+          "definition": "a place to buy goods (mercado)"
+        },
+        {
+          "word": "groceries",
+          "definition": "food and household items (comestibles)"
+        },
+        {
+          "word": "milk",
+          "definition": "a white liquid from cows (leche)"
+        },
+        {
+          "word": "fence",
+          "definition": "a barrier enclosing an area (cerca)"
+        },
+        {
+          "word": "grocery store",
+          "definition": "a shop selling food (tienda de comestibles)"
+        },
+        {
+          "word": "continued",
+          "definition": "kept going (continuó)"
+        },
+        {
+          "word": "neighbor's",
+          "definition": "belonging to a person living nearby (vecino/a)"
+        },
+        {
+          "word": "uncle",
+          "definition": "the brother of one's parent (tío)"
+        },
+        {
+          "word": "bowl",
+          "definition": "a deep dish (tazón)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What is the dog's name?",
+          "options": [
+            "Max",
+            "Rocky",
+            "Buddy"
+          ],
+          "answer": "Rocky"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "Where does Santiago tie Rocky?",
+          "options": [
+            "A pole",
+            "A fence",
+            "A tree"
+          ],
+          "answer": "A fence"
+        },
+        {
+          "skill": "main idea",
+          "question": "What does Santiago buy at the grocery store?",
+          "options": [
+            "Bread",
+            "Milk",
+            "Fruit"
+          ],
+          "answer": "Milk"
+        },
+        {
+          "skill": "simple inference",
+          "question": "Who does Santiago greet outside?",
+          "options": [
+            "His neighbor",
+            "His uncle",
+            "His friend"
+          ],
+          "answer": "His uncle"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What does Santiago serve Rocky?",
+          "options": [
+            "A bowl of water",
+            "A bowl of food",
+            "A treat"
+          ],
+          "answer": "A bowl of food"
+        }
+      ],
+      "cover": "../assets/images/week03_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "Abundant Hair",
+      "minimumWordTarget": 450,
+      "wordCount": 450,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week03_grade08_page01.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Abundant Hair”. Scene based on: María had very curly hair. The situation becomes more complicated because María must balance what is wanted with what the moment requires. She hated it. A detail that seemed small . warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "María had very <b>curly</b> <b>hair</b>."
+            },
+            {
+              "html": "The situation becomes more complicated because María must balance what is wanted with what the moment requires."
+            },
+            {
+              "html": "She hated it."
+            },
+            {
+              "html": "A detail that seemed small at first now helps explain the problem."
+            },
+            {
+              "html": "\"It's too big,\" she always <b>complained</b>."
+            },
+            {
+              "html": "Different reactions show that people can understand the same event in different ways."
+            },
+            {
+              "html": "María wanted to be a <b>student</b> leader."
+            },
+            {
+              "html": "The problem affects more than one person and changes how the group responds."
+            }
+          ],
+          "wordCount": 76
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week03_grade08_page02.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Abundant Hair”. Scene based on: All the leaders she knew had straight hair. María begins to see that acting quickly is not always the same as acting wisely. It always looked perfect and smooth. The setting create. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "All the leaders she knew had <b>straight</b> hair."
+            },
+            {
+              "html": "María begins to see that acting quickly is not always the same as acting wisely."
+            },
+            {
+              "html": "It always looked <b>perfect</b> and <b>smooth</b>."
+            },
+            {
+              "html": "The setting creates realistic limits that influence what can happen next."
+            },
+            {
+              "html": "Every morning, María was up at 6:00 a.m."
+            },
+            {
+              "html": "Expressions and actions reveal feelings that are not always stated directly."
+            },
+            {
+              "html": "She <b>spent</b> an hour <b>straightening</b> her hair."
+            },
+            {
+              "html": "The consequence grows naturally from a decision made only a short time earlier."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week03_grade08_page03.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Abundant Hair”. Scene based on: One morning, María had a big meeting with the school principal. A practical response appears when the characters stop and consider another option. She was running late. The experie. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "One morning, María had a big meeting with the <b>school principal</b>."
+            },
+            {
+              "html": "A practical response appears when the characters stop and consider another option."
+            },
+            {
+              "html": "She was running late."
+            },
+            {
+              "html": "The experience becomes useful when María connects the immediate problem with a larger responsibility."
+            },
+            {
+              "html": "There was no time to straighten her hair."
+            },
+            {
+              "html": "The situation becomes more complicated because María must balance what is wanted with what the moment requires."
+            },
+            {
+              "html": "\"I'll never impress the principal with this hair,\" she thought."
+            }
+          ],
+          "wordCount": 76
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week03_grade08_page04.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Abundant Hair”. Scene based on: A detail that seemed small at first now helps explain the problem. She was wrong. Different reactions show that people can understand the same event in different ways. The principa. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "A detail that seemed small at first now helps explain the problem."
+            },
+            {
+              "html": "She was wrong."
+            },
+            {
+              "html": "Different reactions show that people can understand the same event in different ways."
+            },
+            {
+              "html": "The principal loved her natural look."
+            },
+            {
+              "html": "The problem affects more than one person and changes how the group responds."
+            },
+            {
+              "html": "\"Your hair is unique,\" she said."
+            },
+            {
+              "html": "María begins to see that acting quickly is not always the same as acting wisely."
+            }
+          ],
+          "wordCount": 68
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week03_grade08_page05.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Abundant Hair”. Scene based on: \"You should embrace it!\" María smiled. The setting creates realistic limits that influence what can happen next. \"I will!\" she replied. Expressions and actions reveal feelings that. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "\"You should embrace it!\" María smiled."
+            },
+            {
+              "html": "The setting creates realistic limits that influence what can happen next."
+            },
+            {
+              "html": "\"I will!\" she replied."
+            },
+            {
+              "html": "Expressions and actions reveal feelings that are not always stated directly."
+            },
+            {
+              "html": "Later, the consequence grows naturally from a decision made only a short time earlier."
+            },
+            {
+              "html": "María had very curly hair."
+            },
+            {
+              "html": "A practical response appears when the characters stop and consider another option."
+            },
+            {
+              "html": "She hated it."
+            },
+            {
+              "html": "The experience becomes useful when María connects the immediate problem with a larger responsibility."
+            }
+          ],
+          "wordCount": 80
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week03_grade08_page06.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Abundant Hair”. Scene based on: \"It's too big,\" she always complained. The situation becomes more complicated because María must balance what is wanted with what the moment requires. María wanted to be a student . warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "\"It's too big,\" she always complained."
+            },
+            {
+              "html": "The situation becomes more complicated because María must balance what is wanted with what the moment requires."
+            },
+            {
+              "html": "María wanted to be a student leader."
+            },
+            {
+              "html": "A detail that seemed small at first now helps explain the problem."
+            },
+            {
+              "html": "All the leaders she knew had straight hair."
+            },
+            {
+              "html": "Different reactions show that people can understand the same event in different ways."
+            },
+            {
+              "html": "It always looked perfect and smooth."
+            }
+          ],
+          "wordCount": 69
+        }
+      ],
+      "practiceWords": [
+        "curly",
+        "complained",
+        "student",
+        "straight",
+        "perfect",
+        "smooth",
+        "spent",
+        "straightening",
+        "hair",
+        "school principal"
+      ],
+      "vocabulary": [
+        {
+          "word": "curly",
+          "definition": "having twists or rings (rizado)"
+        },
+        {
+          "word": "complained",
+          "definition": "expressed dissatisfaction (se quejó)"
+        },
+        {
+          "word": "student",
+          "definition": "a person who studies (estudiante)"
+        },
+        {
+          "word": "straight",
+          "definition": "not curved (liso)"
+        },
+        {
+          "word": "perfect",
+          "definition": "without flaws (perfecto)"
+        },
+        {
+          "word": "smooth",
+          "definition": "even and not rough (suave)"
+        },
+        {
+          "word": "spent",
+          "definition": "used time (pasó)"
+        },
+        {
+          "word": "straightening",
+          "definition": "making hair straight (alisar)"
+        },
+        {
+          "word": "hair",
+          "definition": "strands growing from the scalp (cabello)"
+        },
+        {
+          "word": "school principal",
+          "definition": "the head of a school (director/a)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What does María dislike about her hair?",
+          "options": [
+            "It's too short",
+            "It's too big",
+            "It's too straight"
+          ],
+          "answer": "It's too big"
+        },
+        {
+          "skill": "inference",
+          "question": "What does María want to be?",
+          "options": [
+            "A teacher",
+            "A student leader",
+            "A singer"
+          ],
+          "answer": "A student leader"
+        },
+        {
+          "skill": "purpose",
+          "question": "What does María do every morning?",
+          "options": [
+            "She combs her hair",
+            "She straightens her hair",
+            "She cuts her hair"
+          ],
+          "answer": "She straightens her hair"
+        },
+        {
+          "skill": "main idea",
+          "question": "Who does María meet with?",
+          "options": [
+            "Her teacher",
+            "The school principal",
+            "Her friend"
+          ],
+          "answer": "The school principal"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What does the principal say about María's hair?",
+          "options": [
+            "It's too curly",
+            "It's unique",
+            "It's messy"
+          ],
+          "answer": "It's unique"
+        }
+      ],
+      "cover": "../assets/images/week03_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "Let'S Go To The Movies",
+      "minimumWordTarget": 500,
+      "wordCount": 500,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week03_grade09_page01.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Let'S Go To The Movies”. Scene based on: Carlos went to the movie theater. The situation requires more than a quick reaction, so Juan considers responsibilities and possible consequences. He loves action movies. What begi. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Carlos went to the <b>movie theater</b>."
+            },
+            {
+              "html": "The situation requires more than a quick reaction, so Juan considers responsibilities and possible consequences."
+            },
+            {
+              "html": "He loves <b>action</b> movies."
+            },
+            {
+              "html": "What begins as an ordinary problem gradually reveals a larger issue about judgment and communication."
+            },
+            {
+              "html": "The more explosions, the better."
+            },
+            {
+              "html": "Juan learns that being independent can also mean knowing when to ask for accurate information."
+            },
+            {
+              "html": "He waited for his friends outside."
+            },
+            {
+              "html": "Several details in the setting influence the decision and make the situation more realistic."
+            }
+          ],
+          "wordCount": 80
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week03_grade09_page02.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Let'S Go To The Movies”. Scene based on: They had planned to meet at 6 p.m. The experience challenges Juan's first assumption and encourages a more careful response. Thirty minutes passed, but his friends didn't show up. . mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "They had planned to meet at 6 p.m."
+            },
+            {
+              "html": "The experience challenges Juan's first assumption and encourages a more careful response."
+            },
+            {
+              "html": "Thirty minutes <b>passed</b>, but his friends didn't show up."
+            },
+            {
+              "html": "Earlier choices become connected with later results, making the cause and effect easier to see."
+            },
+            {
+              "html": "He called Juan, but it went straight to <b>voicemail</b>."
+            },
+            {
+              "html": "A practical solution appears only after Juan considers more than one option."
+            },
+            {
+              "html": "He tried calling Sofia, but she didn't answer either."
+            },
+            {
+              "html": "Respectful communication helps reduce tension even before the whole problem is solved."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week03_grade09_page03.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Let'S Go To The Movies”. Scene based on: Carlos was getting angry. Juan's response becomes more mature as emotion gives way to planning. He decided to go inside alone. By the end of this part, the experience has changed t. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Carlos was getting <b>angry</b>."
+            },
+            {
+              "html": "Juan's response becomes more mature as emotion gives way to planning."
+            },
+            {
+              "html": "He decided to go inside alone."
+            },
+            {
+              "html": "By the end of this part, the experience has changed the way Juan approaches the problem."
+            },
+            {
+              "html": "He bought a <b>ticket</b> and got in <b>line</b> at the <b>concession stand</b>."
+            },
+            {
+              "html": "The situation requires more than a quick reaction, so Juan considers responsibilities and possible consequences."
+            },
+            {
+              "html": "He ordered <b>popcorn</b> and a <b>soda</b>."
+            },
+            {
+              "html": "What begins as an ordinary problem gradually reveals a larger issue about judgment and communication."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week03_grade09_page04.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Let'S Go To The Movies”. Scene based on: Then, he walked into the viewing room. Juan learns that being independent can also mean knowing when to ask for accurate information. He found a comfy seat and sat down. Several de. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Then, he walked into the viewing room."
+            },
+            {
+              "html": "Juan learns that being independent can also mean knowing when to ask for accurate information."
+            },
+            {
+              "html": "He found a comfy seat and sat down."
+            },
+            {
+              "html": "Several details in the setting influence the decision and make the situation more realistic."
+            },
+            {
+              "html": "The movie started, and Carlos forgot about his friends."
+            },
+            {
+              "html": "The experience challenges Juan's first assumption and encourages a more careful response."
+            },
+            {
+              "html": "He enjoyed the film, even though he was alone."
+            },
+            {
+              "html": "Earlier choices become connected with later results, making the cause and effect easier to see."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week03_grade09_page05.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Let'S Go To The Movies”. Scene based on: Later, a practical solution appears only after Juan considers more than one option. Carlos went to the movie theater. Respectful communication helps reduce tension even before the . mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Later, a practical solution appears only after Juan considers more than one option."
+            },
+            {
+              "html": "Carlos went to the movie theater."
+            },
+            {
+              "html": "Respectful communication helps reduce tension even before the whole problem is solved."
+            },
+            {
+              "html": "He loves action movies."
+            },
+            {
+              "html": "Juan's response becomes more mature as emotion gives way to planning."
+            },
+            {
+              "html": "The more explosions, the better."
+            },
+            {
+              "html": "By the end of this part, the experience has changed the way Juan approaches the problem."
+            },
+            {
+              "html": "He waited for his friends outside."
+            },
+            {
+              "html": "The situation requires more than a quick reaction, so Juan considers responsibilities and possible consequences."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week03_grade09_page06.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Let'S Go To The Movies”. Scene based on: They had planned to meet at 6 p.m. What begins as an ordinary problem gradually reveals a larger issue about judgment and communication. Thirty minutes passed, but his friends didn. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "They had planned to meet at 6 p.m."
+            },
+            {
+              "html": "What begins as an ordinary problem gradually reveals a larger issue about judgment and communication."
+            },
+            {
+              "html": "Thirty minutes passed, but his friends didn't show up."
+            },
+            {
+              "html": "Juan learns that being independent can also mean knowing when to ask for accurate information."
+            },
+            {
+              "html": "He called Juan, but it went straight to voicemail."
+            },
+            {
+              "html": "Several details in the setting influence the decision and make the situation more realistic."
+            }
+          ],
+          "wordCount": 71
+        }
+      ],
+      "practiceWords": [
+        "movie theater",
+        "action",
+        "passed",
+        "voicemail",
+        "angry",
+        "ticket",
+        "line",
+        "concession stand",
+        "popcorn",
+        "soda"
+      ],
+      "vocabulary": [
+        {
+          "word": "movie theater",
+          "definition": "a place to watch films (cine)"
+        },
+        {
+          "word": "action",
+          "definition": "a genre with exciting events (acción)"
+        },
+        {
+          "word": "passed",
+          "definition": "went by (pasaron)"
+        },
+        {
+          "word": "voicemail",
+          "definition": "a recorded phone message (buzón de voz)"
+        },
+        {
+          "word": "angry",
+          "definition": "feeling mad (enojado)"
+        },
+        {
+          "word": "ticket",
+          "definition": "a pass for entry (boleto)"
+        },
+        {
+          "word": "line",
+          "definition": "a queue of people (fila)"
+        },
+        {
+          "word": "concession stand",
+          "definition": "a snack counter at events (puesto de comida)"
+        },
+        {
+          "word": "popcorn",
+          "definition": "a snack made from corn (palomitas)"
+        },
+        {
+          "word": "soda",
+          "definition": "a fizzy drink (refresco)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What type of movies does Carlos love?",
+          "options": [
+            "Romantic",
+            "Action",
+            "Comedy"
+          ],
+          "answer": "Action"
+        },
+        {
+          "skill": "inference",
+          "question": "What did Carlos buy at the concession stand?",
+          "options": [
+            "Candy",
+            "Popcorn and soda",
+            "A hot dog"
+          ],
+          "answer": "Popcorn and soda"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "Why was Carlos angry?",
+          "options": [
+            "The movie was bad",
+            "His friends didn't show up",
+            "He lost his ticket"
+          ],
+          "answer": "His friends didn't show up"
+        },
+        {
+          "skill": "main idea",
+          "question": "What did Carlos do when his friends didn't answer?",
+          "options": [
+            "He went home",
+            "He went inside alone",
+            "He called the police"
+          ],
+          "answer": "He went inside alone"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "How did Carlos feel about the movie?",
+          "options": [
+            "He hated it",
+            "He enjoyed it",
+            "He fell asleep"
+          ],
+          "answer": "He enjoyed it"
+        }
+      ],
+      "cover": "../assets/images/week03_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "My Imperfect Neighbor",
+      "minimumWordTarget": 600,
+      "wordCount": 608,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week03_grade10_page01.webp",
+          "artDirection": "15–16-year-old Colombian student context for “My Imperfect Neighbor”. Scene based on: Camila has a physical imperfection. The conflict becomes more significant when Camila realizes that the easiest option may not be the most responsible one. She walks with a limp be. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Camila has a <b>physical imperfection</b>."
+            },
+            {
+              "html": "The conflict becomes more significant when Camila realizes that the easiest option may not be the most responsible one."
+            },
+            {
+              "html": "She walks with a <b>limp</b> because of a <b>bike accident</b> when she was younger."
+            },
+            {
+              "html": "The situation requires comparing alternatives, anticipating consequences, and communicating clearly."
+            },
+            {
+              "html": "Some kids at school call her \"<b>Limpy</b>,\" but Camila doesn't let it bother her."
+            },
+            {
+              "html": "Personal decisions affect other people, so Camila has to think beyond the immediate goal."
+            },
+            {
+              "html": "She has two best friends, Sofia and Mateo."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week03_grade10_page02.webp",
+          "artDirection": "15–16-year-old Colombian student context for “My Imperfect Neighbor”. Scene based on: A detail introduced earlier becomes relevant again and changes how the problem is understood. They accept her just the way she is. Progress comes through effort, negotiation, and a. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "A detail introduced earlier becomes relevant again and changes how the problem is understood."
+            },
+            {
+              "html": "They <b>accept</b> her just the way she is."
+            },
+            {
+              "html": "Progress comes through effort, negotiation, and a willingness to adjust the original plan."
+            },
+            {
+              "html": "One day, Sofia was <b>approached</b> by the popular group."
+            },
+            {
+              "html": "Information becomes useful only after Camila checks it carefully instead of accepting it immediately."
+            },
+            {
+              "html": "Their leader, Valeria, made Sofia an <b>offer</b>: join them and leave Camila behind."
+            },
+            {
+              "html": "As pressure increases, Camila separates emotional reactions from the practical facts of the situation."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week03_grade10_page03.webp",
+          "artDirection": "15–16-year-old Colombian student context for “My Imperfect Neighbor”. Scene based on: Sofia thought about it. The way Camila asks questions and considers other perspectives shows growing maturity. She always dreamed of being part of the popularity crowd. Responsibil. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Sofia thought about it."
+            },
+            {
+              "html": "The way Camila asks questions and considers other perspectives shows growing maturity."
+            },
+            {
+              "html": "She always dreamed of being part of the <b>popularity</b> crowd."
+            },
+            {
+              "html": "Responsibility becomes visible through preparation, listening, correction, and follow-through."
+            },
+            {
+              "html": "But then she remembered all the times she and Camila spent together at their <b>corner hangout</b> laughing and sharing secrets."
+            },
+            {
+              "html": "The final choice matters because it considers both immediate needs and longer-term consequences."
+            },
+            {
+              "html": "Sofia told Mateo about the offer."
+            },
+            {
+              "html": "The conflict becomes more significant when Camila realizes that the easiest option may not be the most responsible one."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week03_grade10_page04.webp",
+          "artDirection": "15–16-year-old Colombian student context for “My Imperfect Neighbor”. Scene based on: He was furious. The situation requires comparing alternatives, anticipating consequences, and communicating clearly. \"Camila has been our friend forever,\" he said. Personal decisio. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "He was furious."
+            },
+            {
+              "html": "The situation requires comparing alternatives, anticipating consequences, and communicating clearly."
+            },
+            {
+              "html": "\"Camila has been our friend <b>forever</b>,\" he said."
+            },
+            {
+              "html": "Personal decisions affect other people, so Camila has to think beyond the immediate goal."
+            },
+            {
+              "html": "Sofia realized he was right."
+            },
+            {
+              "html": "A detail introduced earlier becomes relevant again and changes how the problem is understood."
+            },
+            {
+              "html": "She called Valeria and said, \"I'm not leaving Camila."
+            },
+            {
+              "html": "Progress comes through effort, negotiation, and a willingness to adjust the original plan."
+            },
+            {
+              "html": "She's beautiful inside and out.\" That weekend, Sofia, Camila, and Mateo went to hang out at their favorite spot."
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week03_grade10_page05.webp",
+          "artDirection": "15–16-year-old Colombian student context for “My Imperfect Neighbor”. Scene based on: Information becomes useful only after Camila checks it carefully instead of accepting it immediately. They were stronger than ever. As pressure increases, Camila separates emotiona. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Information becomes useful only after Camila checks it carefully instead of accepting it immediately."
+            },
+            {
+              "html": "They were stronger than ever."
+            },
+            {
+              "html": "As pressure increases, Camila separates emotional reactions from the practical facts of the situation."
+            },
+            {
+              "html": "Later, the way Camila asks questions and considers other perspectives shows growing maturity."
+            },
+            {
+              "html": "Camila has a physical imperfection."
+            },
+            {
+              "html": "Responsibility becomes visible through preparation, listening, correction, and follow-through."
+            },
+            {
+              "html": "She walks with a limp because of a bike accident when she was younger."
+            },
+            {
+              "html": "The final choice matters because it considers both immediate needs and longer-term consequences."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week03_grade10_page06.webp",
+          "artDirection": "15–16-year-old Colombian student context for “My Imperfect Neighbor”. Scene based on: Some kids at school call her \"Limpy,\" but Camila doesn't let it bother her. The conflict becomes more significant when Camila realizes that the easiest option may not be the most r. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Some kids at school call her \"Limpy,\" but Camila doesn't let it bother her."
+            },
+            {
+              "html": "The conflict becomes more significant when Camila realizes that the easiest option may not be the most responsible one."
+            },
+            {
+              "html": "She has two best friends, Sofia and Mateo."
+            },
+            {
+              "html": "The situation requires comparing alternatives, anticipating consequences, and communicating clearly."
+            },
+            {
+              "html": "They accept her just the way she is."
+            },
+            {
+              "html": "Personal decisions affect other people, so Camila has to think beyond the immediate goal."
+            },
+            {
+              "html": "One day, Sofia was approached by the popular group."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week03_grade10_page07.webp",
+          "artDirection": "15–16-year-old Colombian student context for “My Imperfect Neighbor”. Scene based on: A detail introduced earlier becomes relevant again and changes how the problem is understood. Their leader, Valeria, made Sofia an offer: join them and leave Camila behind. Progres. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "A detail introduced earlier becomes relevant again and changes how the problem is understood."
+            },
+            {
+              "html": "Their leader, Valeria, made Sofia an offer: join them and leave Camila behind."
+            },
+            {
+              "html": "Progress comes through effort, negotiation, and a willingness to adjust the original plan."
+            },
+            {
+              "html": "Sofia thought about it."
+            },
+            {
+              "html": "Information becomes useful only after Camila checks it carefully instead of accepting it immediately."
+            },
+            {
+              "html": "She always dreamed of being part of the popularity crowd."
+            },
+            {
+              "html": "As pressure increases, Camila separates emotional reactions from the practical facts of the situation."
+            }
+          ],
+          "wordCount": 82
+        }
+      ],
+      "practiceWords": [
+        "physical imperfection",
+        "limp",
+        "bike accident",
+        "Limpy",
+        "accept",
+        "approached",
+        "offer",
+        "popularity",
+        "corner hangout",
+        "forever"
+      ],
+      "vocabulary": [
+        {
+          "word": "physical imperfection",
+          "definition": "a visible flaw (imperfección física)"
+        },
+        {
+          "word": "limp",
+          "definition": "an uneven walk (cojera)"
+        },
+        {
+          "word": "bike accident",
+          "definition": "a crash involving a bicycle (accidente en bicicleta)"
+        },
+        {
+          "word": "Limpy",
+          "definition": "a nickname for someone who limps (Cojito/a)"
+        },
+        {
+          "word": "accept",
+          "definition": "to embrace as is (aceptar)"
+        },
+        {
+          "word": "approached",
+          "definition": "came near to someone (se acercó)"
+        },
+        {
+          "word": "offer",
+          "definition": "a proposal (oferta)"
+        },
+        {
+          "word": "popularity",
+          "definition": "being liked by many (popularidad)"
+        },
+        {
+          "word": "corner hangout",
+          "definition": "a favorite meeting spot (punto de encuentro)"
+        },
+        {
+          "word": "forever",
+          "definition": "for all time (para siempre)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What is Camila's physical imperfection?",
+          "options": [
+            "A scar",
+            "A limp",
+            "A unibrow"
+          ],
+          "answer": "A limp"
+        },
+        {
+          "skill": "inference",
+          "question": "Who are Camila's best friends?",
+          "options": [
+            "Sofia and Mateo",
+            "Valeria and Juan",
+            "Maria and Carlos"
+          ],
+          "answer": "Sofia and Mateo"
+        },
+        {
+          "skill": "purpose",
+          "question": "What did Valeria offer Sofia?",
+          "options": [
+            "Money",
+            "Popularity",
+            "A bike"
+          ],
+          "answer": "Popularity"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What did Sofia decide to do?",
+          "options": [
+            "Leave Camila",
+            "Stay friends with Camila",
+            "Ignore Mateo"
+          ],
+          "answer": "Stay friends with Camila"
+        },
+        {
+          "skill": "main idea",
+          "question": "Where did Sofia, Camila, and Mateo hang out?",
+          "options": [
+            "At school",
+            "At the park",
+            "At their corner hangout"
+          ],
+          "answer": "At their corner hangout"
+        }
+      ],
+      "cover": "../assets/images/week03_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "A Night Owl Worker",
+      "minimumWordTarget": 700,
+      "wordCount": 712,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week03_grade11_page01.webp",
+          "artDirection": "16–17-year-old Colombian student context for “A Night Owl Worker”. Scene based on: Camila works the night shift at a hospital in Bogotá. The episode becomes more complex because Camila must interpret not only what happened but why people respond differently. Her . mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Camila works the <b>night shift</b> at a hospital in Bogotá."
+            },
+            {
+              "html": "The episode becomes more complex because Camila must interpret not only what happened but why people respond differently."
+            },
+            {
+              "html": "Her <b>schedule</b> is from 9 p.m. to 5 a.m."
+            },
+            {
+              "html": "A personal decision can have broader implications when trust, safety, reputation, or future plans are involved."
+            },
+            {
+              "html": "At first, she struggled to <b>adjust</b>."
+            },
+            {
+              "html": "Camila's first interpretation is understandable, but later details encourage a more nuanced view."
+            },
+            {
+              "html": "Sleeping during the day was hard, and she missed her friends' parties."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week03_grade11_page02.webp",
+          "artDirection": "16–17-year-old Colombian student context for “A Night Owl Worker”. Scene based on: Mature decision-making sometimes requires changing an initial assumption when better evidence appears. Now, she has a routine. The social environment influences Camila, although pe. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Mature decision-making sometimes requires changing an initial assumption when better evidence appears."
+            },
+            {
+              "html": "Now, she has a routine."
+            },
+            {
+              "html": "The social environment influences Camila, although personal agency still matters in the final choice."
+            },
+            {
+              "html": "After work, she goes to the <b>gym</b>."
+            },
+            {
+              "html": "Earlier experiences influence later behavior and make the character's development more coherent."
+            },
+            {
+              "html": "Then, she practices <b>sewing</b> with her <b>needle and thread</b>."
+            },
+            {
+              "html": "The story shows that consequences can include both difficulties and opportunities for growth."
+            },
+            {
+              "html": "<b>Afterwards</b>, she cooks a healthy meal."
+            },
+            {
+              "html": "Communication becomes a form of responsibility when Camila explains intentions or verifies information."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week03_grade11_page03.webp",
+          "artDirection": "16–17-year-old Colombian student context for “A Night Owl Worker”. Scene based on: One day, the hospital allowed employees to request a shift change. The setting shapes the pressures, resources, and alternatives that are realistically available. Camila was excite. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "One day, the hospital allowed <b>employees</b> to <b>request</b> a shift change."
+            },
+            {
+              "html": "The setting shapes the pressures, resources, and alternatives that are realistically available."
+            },
+            {
+              "html": "Camila was excited and submitted her request."
+            },
+            {
+              "html": "By the end, Camila responds in a more deliberate and informed way, even if every problem is not completely solved."
+            },
+            {
+              "html": "Weeks later, her <b>manager</b> gave her a letter."
+            },
+            {
+              "html": "The episode becomes more complex because Camila must interpret not only what happened but why people respond differently."
+            },
+            {
+              "html": "Her request was rejected."
+            },
+            {
+              "html": "A personal decision can have broader implications when trust, safety, reputation, or future plans are involved."
+            }
+          ],
+          "wordCount": 96
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week03_grade11_page04.webp",
+          "artDirection": "16–17-year-old Colombian student context for “A Night Owl Worker”. Scene based on: Camila was shocked. Camila's first interpretation is understandable, but later details encourage a more nuanced view. She asked why, and the manager explained that older employees . mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Camila was shocked."
+            },
+            {
+              "html": "Camila's first interpretation is understandable, but later details encourage a more nuanced view."
+            },
+            {
+              "html": "She asked why, and the manager explained that older employees needed the day shift more."
+            },
+            {
+              "html": "Mature decision-making sometimes requires changing an initial assumption when better evidence appears."
+            },
+            {
+              "html": "Their bones ached, and they were tired."
+            },
+            {
+              "html": "The social environment influences Camila, although personal agency still matters in the final choice."
+            },
+            {
+              "html": "At first, Camila was mad, but she understood."
+            },
+            {
+              "html": "Earlier experiences influence later behavior and make the character's development more coherent."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week03_grade11_page05.webp",
+          "artDirection": "16–17-year-old Colombian student context for “A Night Owl Worker”. Scene based on: She realized she was young and could handle the night shift. The story shows that consequences can include both difficulties and opportunities for growth. She decided to stay stron. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "She realized she was young and could handle the night shift."
+            },
+            {
+              "html": "The story shows that consequences can include both difficulties and opportunities for growth."
+            },
+            {
+              "html": "She decided to stay strong for her older coworkers."
+            },
+            {
+              "html": "Communication becomes a form of responsibility when Camila explains intentions or verifies information."
+            },
+            {
+              "html": "Later, the setting shapes the pressures, resources, and alternatives that are realistically available."
+            },
+            {
+              "html": "Camila works the night shift at a hospital in Bogotá."
+            },
+            {
+              "html": "By the end, Camila responds in a more deliberate and informed way, even if every problem is not completely solved."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week03_grade11_page06.webp",
+          "artDirection": "16–17-year-old Colombian student context for “A Night Owl Worker”. Scene based on: Her schedule is from 9 p.m. to 5 a.m. The episode becomes more complex because Camila must interpret not only what happened but why people respond differently. At first, she strugg. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Her schedule is from 9 p.m. to 5 a.m."
+            },
+            {
+              "html": "The episode becomes more complex because Camila must interpret not only what happened but why people respond differently."
+            },
+            {
+              "html": "At first, she struggled to adjust."
+            },
+            {
+              "html": "A personal decision can have broader implications when trust, safety, reputation, or future plans are involved."
+            },
+            {
+              "html": "Sleeping during the day was hard, and she missed her friends' parties."
+            },
+            {
+              "html": "Camila's first interpretation is understandable, but later details encourage a more nuanced view."
+            },
+            {
+              "html": "Now, she has a routine."
+            },
+            {
+              "html": "Mature decision-making sometimes requires changing an initial assumption when better evidence appears."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week03_grade11_page07.webp",
+          "artDirection": "16–17-year-old Colombian student context for “A Night Owl Worker”. Scene based on: After work, she goes to the gym. The social environment influences Camila, although personal agency still matters in the final choice. Then, she practices sewing with her needle an. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "After work, she goes to the gym."
+            },
+            {
+              "html": "The social environment influences Camila, although personal agency still matters in the final choice."
+            },
+            {
+              "html": "Then, she practices sewing with her needle and thread."
+            },
+            {
+              "html": "Earlier experiences influence later behavior and make the character's development more coherent."
+            },
+            {
+              "html": "Afterwards, she cooks a healthy meal."
+            },
+            {
+              "html": "The story shows that consequences can include both difficulties and opportunities for growth."
+            },
+            {
+              "html": "One day, the hospital allowed employees to request a shift change."
+            },
+            {
+              "html": "Communication becomes a form of responsibility when Camila explains intentions or verifies information."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week03_grade11_page08.webp",
+          "artDirection": "16–17-year-old Colombian student context for “A Night Owl Worker”. Scene based on: Camila was excited and submitted her request. The setting shapes the pressures, resources, and alternatives that are realistically available. Weeks later, her manager gave her a le. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Camila was excited and submitted her request."
+            },
+            {
+              "html": "The setting shapes the pressures, resources, and alternatives that are realistically available."
+            },
+            {
+              "html": "Weeks later, her manager gave her a letter."
+            },
+            {
+              "html": "By the end, Camila responds in a more deliberate and informed way, even if every problem is not completely solved."
+            },
+            {
+              "html": "Her request was rejected."
+            },
+            {
+              "html": "The episode becomes more complex because Camila must interpret not only what happened but why people respond differently."
+            },
+            {
+              "html": "Camila was shocked."
+            },
+            {
+              "html": "A personal decision can have broader implications when trust, safety, reputation, or future plans are involved."
+            }
+          ],
+          "wordCount": 88
+        }
+      ],
+      "practiceWords": [
+        "night shift",
+        "schedule",
+        "adjust",
+        "gym",
+        "sewing",
+        "needle and thread",
+        "afterwards",
+        "employees",
+        "request",
+        "manager"
+      ],
+      "vocabulary": [
+        {
+          "word": "night shift",
+          "definition": "work hours during nighttime (turno de noche)"
+        },
+        {
+          "word": "schedule",
+          "definition": "a plan for activities (horario)"
+        },
+        {
+          "word": "adjust",
+          "definition": "to adapt (adaptarse)"
+        },
+        {
+          "word": "gym",
+          "definition": "a place for exercise (gimnasio)"
+        },
+        {
+          "word": "sewing",
+          "definition": "joining fabric with thread (costura)"
+        },
+        {
+          "word": "needle and thread",
+          "definition": "tools for sewing (aguja e hilo)"
+        },
+        {
+          "word": "afterwards",
+          "definition": "after that (después)"
+        },
+        {
+          "word": "employees",
+          "definition": "workers (empleados)"
+        },
+        {
+          "word": "request",
+          "definition": "to ask for something (solicitud)"
+        },
+        {
+          "word": "manager",
+          "definition": "a person in charge (gerente)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "What is Camila's job?",
+          "options": [
+            "Teacher",
+            "Night shift worker",
+            "Chef"
+          ],
+          "answer": "Night shift worker"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What does Camila do after work?",
+          "options": [
+            "Sleep",
+            "Go to the gym",
+            "Watch TV"
+          ],
+          "answer": "Go to the gym"
+        },
+        {
+          "skill": "purpose",
+          "question": "Why was Camila's request rejected?",
+          "options": [
+            "She was late",
+            "Older employees needed the shift",
+            "The manager didn't like her"
+          ],
+          "answer": "Older employees needed the shift"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "How did Camila feel at first about the rejection?",
+          "options": [
+            "Happy",
+            "Mad",
+            "Excited"
+          ],
+          "answer": "Mad"
+        },
+        {
+          "skill": "main idea",
+          "question": "What did Camila decide to do?",
+          "options": [
+            "Quit her job",
+            "Stay strong for her coworkers",
+            "Complain to the manager"
+          ],
+          "answer": "Stay strong for her coworkers"
+        }
+      ],
+      "cover": "../assets/images/week03_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

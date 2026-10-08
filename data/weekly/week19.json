@@ -1,0 +1,1788 @@
+{
+  "week": 19,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 19",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "The Video In Our Group Chat",
+      "minimumWordTarget": 350,
+      "wordCount": 508,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week19_grade06_page01.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “The Video In Our Group Chat”, page 1. Scene based on: Mateo is 11 years old and studies in Medellín. One ordinary day at a sports court on a Medellín hillside, a situation involving a video begins to change the plans for the afternoon. Sara is nearby and notices that Mateo is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mateo is 11 years old and studies in Medellín. One ordinary day at a sports court on a Medellín hillside, a situation involving a video begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Sara is nearby and notices that Mateo is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about consent, reputation and responsible sharing."
+            },
+            {
+              "html": "“This is my choice, but that is our shared space,” the student says."
+            },
+            {
+              "html": "Mateo listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "The <b>video</b> is only a few seconds long, but many students watch it."
+            },
+            {
+              "html": "Someone used a phone to <b>record</b> a classmate without asking."
+            },
+            {
+              "html": "Sara says, “Please do not <b>send</b> it to more people.”"
+            },
+            {
+              "html": "Before sharing a picture, you should <b>ask</b> the person first."
+            }
+          ],
+          "wordCount": 141
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week19_grade06_page02.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “The Video In Our Group Chat”, page 2. Scene based on: The situation becomes harder when a short video begins spreading among students. Mateo feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a short video begins spreading among students. Mateo feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Sara suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "The family asks, “Is it yours?” and checks before moving anything."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "Some students <b>laugh</b>, but the boy in the video does not."
+            },
+            {
+              "html": "A joke is not <b>funny</b> when it hurts someone."
+            },
+            {
+              "html": "Mateo decides to <b>delete</b> the video from the phone."
+            }
+          ],
+          "wordCount": 126
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week19_grade06_page03.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “The Video In Our Group Chat”, page 3. Scene based on: Mateo decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mateo decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Sara explains that being responsible is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "At home, they use technology every day, but they also set simple rules."
+            },
+            {
+              "html": "By the end of the day, the immediate problem has a result. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Mateo feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "A short clip can <b>hurt</b> a person's feelings for a long time."
+            },
+            {
+              "html": "Sara is <b>kind</b> and talks to the student in the video."
+            }
+          ],
+          "wordCount": 139
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week19_grade06_page04.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “The Video In Our Group Chat”, page 4. Scene based on: At home, Mateo thinks about what could have happened if the group had reacted without checking anything. The student writes a short reflection: a responsible choice is not always the fastest or most popular choice. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At home, Mateo thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "The student writes a short reflection: a responsible choice is not always the fastest or most popular choice."
+            },
+            {
+              "html": "Next time, Mateo plans to ask a clearer question, confirm important information, and explain the reason for the decision."
+            },
+            {
+              "html": "The experience becomes part of how Mateo understands school, family, technology, travel, and life in a larger world."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "The <b>group chat</b> is full of messages about the clip."
+            }
+          ],
+          "wordCount": 102
+        }
+      ],
+      "practiceWords": [
+        "video",
+        "record",
+        "send",
+        "laugh",
+        "funny",
+        "delete",
+        "hurt",
+        "kind",
+        "group chat",
+        "ask"
+      ],
+      "vocabulary": [
+        {
+          "word": "video",
+          "definition": "moving pictures recorded with a camera or phone (video)"
+        },
+        {
+          "word": "record",
+          "definition": "to capture sound or images (grabar)"
+        },
+        {
+          "word": "send",
+          "definition": "to make something go to another person (enviar)"
+        },
+        {
+          "word": "laugh",
+          "definition": "to make sounds when something is funny (reírse)"
+        },
+        {
+          "word": "funny",
+          "definition": "something that makes people laugh (gracioso)"
+        },
+        {
+          "word": "delete",
+          "definition": "to remove something completely (borrar)"
+        },
+        {
+          "word": "hurt",
+          "definition": "to make someone feel bad (herir, lastimar)"
+        },
+        {
+          "word": "kind",
+          "definition": "nice and caring (amable)"
+        },
+        {
+          "word": "group chat",
+          "definition": "a conversation with many people in an app (chat grupal)"
+        },
+        {
+          "word": "ask",
+          "definition": "to say a question (preguntar)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "Which statement is TRUE according to the text?",
+          "options": [
+            "Sara suggests checking the information before blaming anyone.",
+            "Mateo forwards the video to more classmates.",
+            "The students have all the facts from the beginning.",
+            "Sara wants Mateo to react immediately."
+          ],
+          "answer": "Sara suggests checking the information before blaming anyone."
+        },
+        {
+          "skill": "sequence",
+          "question": "What happens FIRST in the story?",
+          "options": [
+            "The students hear different versions of what happened.",
+            "Mateo takes one small, concrete action.",
+            "Mateo writes a short reflection at home.",
+            "Mateo notices a situation at a sports court on a Medellín hillside."
+          ],
+          "answer": "Mateo notices a situation at a sports court on a Medellín hillside."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read this sentence from page 2: “Mateo decides to delete the video from the phone.” In this sentence, the word “delete” means…",
+          "options": [
+            "to make someone feel bad",
+            "to remove something completely",
+            "to capture sound or images",
+            "to say a question"
+          ],
+          "answer": "to remove something completely"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which word best represents the central topic of the text?",
+          "options": [
+            "safety",
+            "consent",
+            "teamwork",
+            "family"
+          ],
+          "answer": "consent"
+        },
+        {
+          "skill": "simple inference",
+          "question": "What can be inferred about Sara?",
+          "options": [
+            "She wants Mateo to react as fast as possible.",
+            "She helps Mateo think carefully before acting.",
+            "She is not interested in the problem.",
+            "She created the problem on purpose."
+          ],
+          "answer": "She helps Mateo think carefully before acting."
+        }
+      ],
+      "cover": "../assets/images/week19_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "The Clip Everyone Was Sharing",
+      "minimumWordTarget": 400,
+      "wordCount": 551,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week19_grade07_page01.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Clip Everyone Was Sharing”, page 1. Scene based on: Julián is 12 years old and studies in Medellín. One ordinary day at a small family apartment, a situation involving a video begins to change the plans for the afternoon. Sara is nearby and notices that Julián is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Julián is 12 years old and studies in Medellín. One ordinary day at a small family apartment, a situation involving a video begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Sara is nearby and notices that Julián is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about consent, reputation and responsible sharing."
+            },
+            {
+              "html": "The <b>video</b> is only a few seconds long, but many students watch it."
+            },
+            {
+              "html": "Someone used a phone to <b>record</b> a classmate without asking."
+            },
+            {
+              "html": "Sara says, “Please do not <b>send</b> it to more people.”"
+            },
+            {
+              "html": "The <b>group chat</b> is full of messages about the clip."
+            }
+          ],
+          "wordCount": 108
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week19_grade07_page02.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Clip Everyone Was Sharing”, page 2. Scene based on: The situation becomes harder when a short video begins spreading among students. Julián feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a short video begins spreading among students. Julián feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Sara suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "“Are we going to change the plan?” one student asks."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Some students <b>laugh</b>, but the boy in the video does not."
+            },
+            {
+              "html": "A joke is not <b>funny</b> when it hurts someone."
+            },
+            {
+              "html": "Before sharing a picture, you should <b>ask</b> the person first."
+            }
+          ],
+          "wordCount": 129
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week19_grade07_page03.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Clip Everyone Was Sharing”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Julián has to think about the first idea again. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Julián has to think about the first idea again."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Julián decides to <b>delete</b> the video from the phone."
+            }
+          ],
+          "wordCount": 107
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week19_grade07_page04.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Clip Everyone Was Sharing”, page 4. Scene based on: Julián decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Julián decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Sara explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "They point to the options: “This route is shorter, but these tickets are cheaper.”"
+            },
+            {
+              "html": "Sara reminds Julián that asking for help can be a responsible decision when the situation is unclear."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week19_grade07_page05.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Clip Everyone Was Sharing”, page 5. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Julián feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Julián feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about consent, reputation and responsible sharing."
+            },
+            {
+              "html": "At home, Julián thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "A short clip can <b>hurt</b> a person's feelings for a long time."
+            },
+            {
+              "html": "Sara is <b>kind</b> and talks to the student in the video."
+            }
+          ],
+          "wordCount": 119
+        }
+      ],
+      "practiceWords": [
+        "video",
+        "record",
+        "send",
+        "laugh",
+        "funny",
+        "delete",
+        "hurt",
+        "kind",
+        "group chat",
+        "ask"
+      ],
+      "vocabulary": [
+        {
+          "word": "video",
+          "definition": "moving pictures recorded with a camera or phone (video)"
+        },
+        {
+          "word": "record",
+          "definition": "to capture sound or images (grabar)"
+        },
+        {
+          "word": "send",
+          "definition": "to make something go to another person (enviar)"
+        },
+        {
+          "word": "laugh",
+          "definition": "to make sounds when something is funny (reírse)"
+        },
+        {
+          "word": "funny",
+          "definition": "something that makes people laugh (gracioso)"
+        },
+        {
+          "word": "delete",
+          "definition": "to remove something completely (borrar)"
+        },
+        {
+          "word": "hurt",
+          "definition": "to make someone feel bad (herir, lastimar)"
+        },
+        {
+          "word": "kind",
+          "definition": "nice and caring (amable)"
+        },
+        {
+          "word": "group chat",
+          "definition": "a conversation with many people in an app (chat grupal)"
+        },
+        {
+          "word": "ask",
+          "definition": "to say a question (preguntar)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "According to the text, what is the problem really about?",
+          "options": [
+            "Consent, reputation and responsible sharing",
+            "Health, safety and speaking up",
+            "Past experiences and perspective",
+            "Initiative, boundaries and safe support"
+          ],
+          "answer": "Consent, reputation and responsible sharing"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "According to the text, what could happen if the group reacted without checking anything?",
+          "options": [
+            "The problem could become bigger and hurt someone.",
+            "The teacher would cancel the class.",
+            "The problem would disappear immediately.",
+            "Everybody would agree on the facts."
+          ],
+          "answer": "The problem could become bigger and hurt someone."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the text mainly about?",
+          "options": [
+            "How Julián deals with a problem about consent, reputation and responsible sharing by checking facts before acting",
+            "How to record better videos with a phone",
+            "A sports match that the students record",
+            "Why all videos on the internet are dangerous"
+          ],
+          "answer": "How Julián deals with a problem about consent, reputation and responsible sharing by checking facts before acting"
+        },
+        {
+          "skill": "simple inference",
+          "question": "Which action would go AGAINST what Julián learns in the story?",
+          "options": [
+            "Explaining the reason for a decision.",
+            "Verifying a detail first.",
+            "Uploading the video to another social network without thinking.",
+            "Asking a clear question."
+          ],
+          "answer": "Uploading the video to another social network without thinking."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Which word from the text means “something that makes people laugh”?",
+          "options": [
+            "laugh",
+            "funny",
+            "delete",
+            "video"
+          ],
+          "answer": "funny"
+        }
+      ],
+      "cover": "../assets/images/week19_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "The Clip That Changed The Mood",
+      "minimumWordTarget": 450,
+      "wordCount": 575,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week19_grade08_page01.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Clip That Changed The Mood”, page 1. Scene based on: Diego is 13 years old and studies in Medellín. One ordinary day at a community center, a situation involving a video begins to change the plans for the afternoon. Sara is nearby and notices that Diego is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Diego is 13 years old and studies in Medellín. One ordinary day at a community center, a situation involving a video begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Sara is nearby and notices that Diego is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about consent, reputation and responsible sharing."
+            },
+            {
+              "html": "Nobody asked for the student's <b>consent</b> before recording."
+            },
+            {
+              "html": "A clip can damage a person's <b>reputation</b> in one afternoon."
+            },
+            {
+              "html": "They <b>report</b> the video to a teacher instead of ignoring it."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week19_grade08_page02.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Clip That Changed The Mood”, page 2. Scene based on: The situation becomes harder when a short video begins spreading among students. Diego feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a short video begins spreading among students. Diego feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Sara suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "They are meeting again on Friday, so the plan already feels real."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "The video becomes <b>viral</b> at school before lunch."
+            },
+            {
+              "html": "Diego chooses not to <b>forward</b> the clip."
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week19_grade08_page03.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Clip That Changed The Mood”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Diego has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Diego has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "The video could <b>embarrass</b> the student in front of everyone."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week19_grade08_page04.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Clip That Changed The Mood”, page 4. Scene based on: Diego decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Diego decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Sara explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "The teacher gives them time to discuss the problem and asks the group to listen."
+            },
+            {
+              "html": "Diego listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "One mean <b>comment</b> encourages others to write more."
+            },
+            {
+              "html": "Sara asks the group not to <b>mock</b> their classmate."
+            }
+          ],
+          "wordCount": 106
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week19_grade08_page05.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Clip That Changed The Mood”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in a subway station in Manhattan. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in a subway station in Manhattan."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Diego realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "Once you <b>upload</b> a video, you cannot fully control it."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week19_grade08_page06.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Clip That Changed The Mood”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Diego feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Diego feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about consent, reputation and responsible sharing."
+            },
+            {
+              "html": "At home, Diego thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "The student who recorded the clip decides to <b>apologize</b>."
+            }
+          ],
+          "wordCount": 105
+        }
+      ],
+      "practiceWords": [
+        "consent",
+        "reputation",
+        "viral",
+        "forward",
+        "embarrass",
+        "comment",
+        "mock",
+        "upload",
+        "apologize",
+        "report"
+      ],
+      "vocabulary": [
+        {
+          "word": "consent",
+          "definition": "permission to do something (consentimiento)"
+        },
+        {
+          "word": "reputation",
+          "definition": "what people think about someone (reputación)"
+        },
+        {
+          "word": "viral",
+          "definition": "spreading very fast online (viral)"
+        },
+        {
+          "word": "forward",
+          "definition": "to send a message you received to other people (reenviar)"
+        },
+        {
+          "word": "embarrass",
+          "definition": "to make someone feel ashamed (avergonzar)"
+        },
+        {
+          "word": "comment",
+          "definition": "a written opinion online (comentario)"
+        },
+        {
+          "word": "mock",
+          "definition": "to laugh at someone in an unkind way (burlarse)"
+        },
+        {
+          "word": "upload",
+          "definition": "to put a file on the internet (subir)"
+        },
+        {
+          "word": "apologize",
+          "definition": "to say you are sorry (disculparse)"
+        },
+        {
+          "word": "report",
+          "definition": "to tell a person in charge about a problem (reportar)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "According to the text, where does Diego's situation begin?",
+          "options": [
+            "A library near the school",
+            "A small family apartment",
+            "A school courtyard",
+            "A community center"
+          ],
+          "answer": "A community center"
+        },
+        {
+          "skill": "inference",
+          "question": "Why does Diego listen carefully before answering?",
+          "options": [
+            "Because nobody else is paying attention.",
+            "Because one missing detail can change the meaning of the situation.",
+            "Because the teacher prohibits talking.",
+            "Because he does not understand Spanish."
+          ],
+          "answer": "Because one missing detail can change the meaning of the situation."
+        },
+        {
+          "skill": "purpose",
+          "question": "What is the purpose of the question “What do you know for sure, and what are you only assuming?”",
+          "options": [
+            "To end the conversation quickly.",
+            "To help the students separate evidence from emotion.",
+            "To blame one student for the problem.",
+            "To give the students a grammar exercise."
+          ],
+          "answer": "To help the students separate evidence from emotion."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which option is the best summary of the text?",
+          "options": [
+            "Diego faces a problem because a short video begins spreading among students, checks the facts with Sara and makes a responsible decision.",
+            "Diego writes a funny comment under the clip and the problem disappears.",
+            "Sara solves the problem alone while Diego watches.",
+            "Diego and Sara travel to New York to solve the problem."
+          ],
+          "answer": "Diego faces a problem because a short video begins spreading among students, checks the facts with Sara and makes a responsible decision."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read this sentence from page 5: “Once you upload a video, you cannot fully control it.” In this sentence, the word “upload” means…",
+          "options": [
+            "a written opinion online",
+            "to put a file on the internet",
+            "to laugh at someone in an unkind way",
+            "permission to do something"
+          ],
+          "answer": "to put a file on the internet"
+        }
+      ],
+      "cover": "../assets/images/week19_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "The Video That Was Not Funny",
+      "minimumWordTarget": 500,
+      "wordCount": 648,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week19_grade09_page01.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Video That Was Not Funny”, page 1. Scene based on: Santiago is 14 years old and studies in Medellín. One ordinary day at a local shopping area, a situation involving a video begins to change the plans for the afternoon. Laura is nearby and notices that Santiago is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Santiago is 14 years old and studies in Medellín. One ordinary day at a local shopping area, a situation involving a video begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Laura is nearby and notices that Santiago is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about consent, reputation and responsible sharing."
+            },
+            {
+              "html": "Nobody asked for the student's <b>consent</b> before recording."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "A clip can damage a person's <b>reputation</b> in one afternoon."
+            },
+            {
+              "html": "The video becomes <b>viral</b> at school before lunch."
+            },
+            {
+              "html": "Once you <b>upload</b> a video, you cannot fully control it."
+            }
+          ],
+          "wordCount": 121
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week19_grade09_page02.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Video That Was Not Funny”, page 2. Scene based on: The situation becomes harder when a short video begins spreading among students. Santiago feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a short video begins spreading among students. Santiago feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Laura suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "The students have to consider safety before making a decision."
+            },
+            {
+              "html": "Laura reminds Santiago that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Santiago listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "The student who recorded the clip decides to <b>apologize</b>."
+            }
+          ],
+          "wordCount": 101
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week19_grade09_page03.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Video That Was Not Funny”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Santiago has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Santiago has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Santiago listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "Santiago chooses not to <b>forward</b> the clip."
+            },
+            {
+              "html": "They <b>report</b> the video to a teacher instead of ignoring it."
+            }
+          ],
+          "wordCount": 111
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week19_grade09_page04.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Video That Was Not Funny”, page 4. Scene based on: Santiago decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Santiago decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Laura explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "The situation might improve, but it may also become harder if nobody checks the facts."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "The video could <b>embarrass</b> the student in front of everyone."
+            }
+          ],
+          "wordCount": 99
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week19_grade09_page05.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Video That Was Not Funny”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in a youth exchange in New York City. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in a youth exchange in New York City."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Santiago realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "One mean <b>comment</b> encourages others to write more."
+            }
+          ],
+          "wordCount": 111
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week19_grade09_page06.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Video That Was Not Funny”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Santiago feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Santiago feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about consent, reputation and responsible sharing."
+            },
+            {
+              "html": "At home, Santiago thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "Laura asks the group not to <b>mock</b> their classmate."
+            }
+          ],
+          "wordCount": 105
+        }
+      ],
+      "practiceWords": [
+        "consent",
+        "reputation",
+        "viral",
+        "forward",
+        "embarrass",
+        "comment",
+        "mock",
+        "upload",
+        "apologize",
+        "report"
+      ],
+      "vocabulary": [
+        {
+          "word": "consent",
+          "definition": "permission to do something (consentimiento)"
+        },
+        {
+          "word": "reputation",
+          "definition": "what people think about someone (reputación)"
+        },
+        {
+          "word": "viral",
+          "definition": "spreading very fast online (viral)"
+        },
+        {
+          "word": "forward",
+          "definition": "to send a message you received to other people (reenviar)"
+        },
+        {
+          "word": "embarrass",
+          "definition": "to make someone feel ashamed (avergonzar)"
+        },
+        {
+          "word": "comment",
+          "definition": "a written opinion online (comentario)"
+        },
+        {
+          "word": "mock",
+          "definition": "to laugh at someone in an unkind way (burlarse)"
+        },
+        {
+          "word": "upload",
+          "definition": "to put a file on the internet (subir)"
+        },
+        {
+          "word": "apologize",
+          "definition": "to say you are sorry (disculparse)"
+        },
+        {
+          "word": "report",
+          "definition": "to tell a person in charge about a problem (reportar)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What makes the situation harder for Santiago?",
+          "options": [
+            "Competition creates tension inside a team",
+            "A student must choose how to use limited savings",
+            "An important plan suddenly changes",
+            "A short video begins spreading among students"
+          ],
+          "answer": "A short video begins spreading among students"
+        },
+        {
+          "skill": "inference",
+          "question": "Which action would go AGAINST what Santiago learns in the story?",
+          "options": [
+            "Asking a clear question.",
+            "Explaining the reason for a decision.",
+            "Uploading the video to another social network without thinking.",
+            "Verifying a detail first."
+          ],
+          "answer": "Uploading the video to another social network without thinking."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What is the relationship between the Medellín situation and the New York example?",
+          "options": [
+            "Both show the same basic problem in different places.",
+            "The Medellín situation solves the New York problem.",
+            "The New York example causes the Medellín problem.",
+            "They are completely unrelated situations."
+          ],
+          "answer": "Both show the same basic problem in different places."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the text mainly about?",
+          "options": [
+            "A sports match that the students record",
+            "How to record better videos with a phone",
+            "How Santiago deals with a problem about consent, reputation and responsible sharing by checking facts before acting",
+            "Why all videos on the internet are dangerous"
+          ],
+          "answer": "How Santiago deals with a problem about consent, reputation and responsible sharing by checking facts before acting"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Complete the sentence from the text: “One mean _____ encourages others to write more.”",
+          "options": [
+            "consent",
+            "comment",
+            "reputation",
+            "mock"
+          ],
+          "answer": "comment"
+        }
+      ],
+      "cover": "../assets/images/week19_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "The Video We Should Have Checked First",
+      "minimumWordTarget": 600,
+      "wordCount": 751,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week19_grade10_page01.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Video We Should Have Checked First”, page 1. Scene based on: Valentina is 15–16 years old and studies in Medellín. One ordinary day at a bus stop after school, a situation involving a video begins to change the plans for the afternoon. Samuel is nearby and notices that Valentina is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina is 15–16 years old and studies in Medellín. One ordinary day at a bus stop after school, a situation involving a video begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Samuel is nearby and notices that Valentina is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about consent, reputation and responsible sharing."
+            },
+            {
+              "html": "The <b>footage</b> shows only part of what really happened."
+            },
+            {
+              "html": "Samuel reminds Valentina that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "When the comments continue, the situation starts to look like <b>harassment</b>."
+            }
+          ],
+          "wordCount": 103
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week19_grade10_page02.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Video We Should Have Checked First”, page 2. Scene based on: The situation becomes harder when a short video begins spreading among students. Valentina feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a short video begins spreading among students. Valentina feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Samuel suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "The group is meeting after class, and they are going to compare several options."
+            },
+            {
+              "html": "Valentina listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Without context, the clip is <b>misleading</b>."
+            },
+            {
+              "html": "Every share becomes part of a person's <b>digital footprint</b>."
+            }
+          ],
+          "wordCount": 111
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week19_grade10_page03.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Video We Should Have Checked First”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Valentina has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Valentina has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "The students who shared the clip must be <b>accountable</b> for it."
+            }
+          ],
+          "wordCount": 104
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week19_grade10_page04.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Video We Should Have Checked First”, page 4. Scene based on: Valentina decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Samuel explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "One student says, “I will call if the plan changes.”"
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "Samuel reminds the group that <b>context</b> changes the meaning of a video."
+            },
+            {
+              "html": "Recording a classmate in secret can <b>violate</b> their privacy."
+            }
+          ],
+          "wordCount": 109
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week19_grade10_page05.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Video We Should Have Checked First”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in an online classroom shared with New York students. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in an online classroom shared with New York students."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Valentina realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Valentina wants to <b>verify</b> who recorded the clip and why."
+            },
+            {
+              "html": "Valentina refuses to be a silent <b>bystander</b>."
+            }
+          ],
+          "wordCount": 120
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week19_grade10_page06.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Video We Should Have Checked First”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Valentina feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Valentina feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about consent, reputation and responsible sharing."
+            },
+            {
+              "html": "Samuel reminds Valentina that asking for help can be a responsible decision when the situation is unclear."
+            }
+          ],
+          "wordCount": 96
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week19_grade10_page07.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Video We Should Have Checked First”, page 7. Scene based on: The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another. They also discuss the author’s purpose and decide which detail best supports the final lesson. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another."
+            },
+            {
+              "html": "They also discuss the author’s purpose and decide which detail best supports the final lesson."
+            },
+            {
+              "html": "Valentina notices that strong reading is not only translating words. It means connecting evidence, sequence, intention, and consequences."
+            },
+            {
+              "html": "That habit will be useful in future exams because a difficult question often depends on a small but meaningful detail."
+            },
+            {
+              "html": "Valentina listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "To <b>distribute</b> someone's image without permission can break school rules."
+            }
+          ],
+          "wordCount": 108
+        }
+      ],
+      "practiceWords": [
+        "footage",
+        "misleading",
+        "context",
+        "verify",
+        "distribute",
+        "harassment",
+        "digital footprint",
+        "accountable",
+        "violate",
+        "bystander"
+      ],
+      "vocabulary": [
+        {
+          "word": "footage",
+          "definition": "recorded video material (grabación)"
+        },
+        {
+          "word": "misleading",
+          "definition": "giving a wrong idea (engañoso)"
+        },
+        {
+          "word": "context",
+          "definition": "the situation around an event (contexto)"
+        },
+        {
+          "word": "verify",
+          "definition": "to check that something is true (verificar)"
+        },
+        {
+          "word": "distribute",
+          "definition": "to share with many people (distribuir)"
+        },
+        {
+          "word": "harassment",
+          "definition": "repeated actions that bother or hurt someone (acoso)"
+        },
+        {
+          "word": "digital footprint",
+          "definition": "the trace a person leaves online (huella digital)"
+        },
+        {
+          "word": "accountable",
+          "definition": "responsible for your actions (responsable)"
+        },
+        {
+          "word": "violate",
+          "definition": "to break a rule or a right (violar, vulnerar)"
+        },
+        {
+          "word": "bystander",
+          "definition": "a person who sees something but does not participate (espectador)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Which statement is TRUE according to the text?",
+          "options": [
+            "Valentina forwards the video to more classmates.",
+            "Samuel wants Valentina to react immediately.",
+            "Samuel suggests checking the information before blaming anyone.",
+            "The students have all the facts from the beginning."
+          ],
+          "answer": "Samuel suggests checking the information before blaming anyone."
+        },
+        {
+          "skill": "inference",
+          "question": "Imagine you are in Valentina's situation. Which action follows the message of the text?",
+          "options": [
+            "Upload the video to another social network.",
+            "Ask the classmate in the video before sharing anything.",
+            "Forward the video to more classmates.",
+            "Write a funny comment under the clip."
+          ],
+          "answer": "Ask the classmate in the video before sharing anything."
+        },
+        {
+          "skill": "purpose",
+          "question": "What is the purpose of the question “What do you know for sure, and what are you only assuming?”",
+          "options": [
+            "To give the students a grammar exercise.",
+            "To help the students separate evidence from emotion.",
+            "To blame one student for the problem.",
+            "To end the conversation quickly."
+          ],
+          "answer": "To help the students separate evidence from emotion."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In “Instead of having all the facts, the students hear different versions of what happened,” the expression “instead of” shows that…",
+          "options": [
+            "the versions are all exactly the same",
+            "the facts arrive after a long time",
+            "the students have all the information they need",
+            "the students get rumors in place of complete information"
+          ],
+          "answer": "the students get rumors in place of complete information"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which option is the best summary of the text?",
+          "options": [
+            "Valentina and Samuel travel to New York to solve the problem.",
+            "Valentina faces a problem because a short video begins spreading among students, checks the facts with Samuel and makes a responsible decision.",
+            "Samuel solves the problem alone while Valentina watches.",
+            "Valentina writes a funny comment under the clip and the problem disappears."
+          ],
+          "answer": "Valentina faces a problem because a short video begins spreading among students, checks the facts with Samuel and makes a responsible decision."
+        }
+      ],
+      "cover": "../assets/images/week19_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "When A Viral Clip Becomes Evidence",
+      "minimumWordTarget": 700,
+      "wordCount": 849,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week19_grade11_page01.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “When A Viral Clip Becomes Evidence”, page 1. Scene based on: Laura is 17–18 years old and studies in Medellín. One ordinary day at a school courtyard, a situation involving a video begins to change the plans for the afternoon. Daniel is nearby and notices that Laura is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura is 17–18 years old and studies in Medellín. One ordinary day at a school courtyard, a situation involving a video begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Daniel is nearby and notices that Laura is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about consent, reputation and responsible sharing."
+            },
+            {
+              "html": "Students must follow the safety rules, but they do not have to accept every suggestion."
+            },
+            {
+              "html": "Laura listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "The <b>footage</b> shows only part of what really happened."
+            },
+            {
+              "html": "Without context, the clip is <b>misleading</b>."
+            },
+            {
+              "html": "Laura refuses to be a silent <b>bystander</b>."
+            }
+          ],
+          "wordCount": 118
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week19_grade11_page02.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “When A Viral Clip Becomes Evidence”, page 2. Scene based on: The situation becomes harder when a short video begins spreading among students. Laura feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a short video begins spreading among students. Laura feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Daniel suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "Daniel reminds the group that <b>context</b> changes the meaning of a video."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            }
+          ],
+          "wordCount": 98
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week19_grade11_page03.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “When A Viral Clip Becomes Evidence”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Laura has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Laura has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "Laura wants to <b>verify</b> who recorded the clip and why."
+            }
+          ],
+          "wordCount": 107
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week19_grade11_page04.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “When A Viral Clip Becomes Evidence”, page 4. Scene based on: Laura decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Daniel explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "To <b>distribute</b> someone's image without permission can break school rules."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Daniel reminds Laura that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "When the comments continue, the situation starts to look like <b>harassment</b>."
+            }
+          ],
+          "wordCount": 115
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week19_grade11_page05.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “When A Viral Clip Becomes Evidence”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in Queens, New York. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in Queens, New York."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Laura realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "Daniel reminds Laura that asking for help can be a responsible decision when the situation is unclear."
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week19_grade11_page06.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “When A Viral Clip Becomes Evidence”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Laura feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Laura feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about consent, reputation and responsible sharing."
+            },
+            {
+              "html": "Laura listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "Every share becomes part of a person's <b>digital footprint</b>."
+            }
+          ],
+          "wordCount": 105
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week19_grade11_page07.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “When A Viral Clip Becomes Evidence”, page 7. Scene based on: At home, Laura thinks about what could have happened if the group had reacted without checking anything. The student writes a short reflection: a responsible choice is not always the fastest or most popular choice. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At home, Laura thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "The student writes a short reflection: a responsible choice is not always the fastest or most popular choice."
+            },
+            {
+              "html": "Next time, Laura plans to ask a clearer question, confirm important information, and explain the reason for the decision."
+            },
+            {
+              "html": "The experience becomes part of how Laura understands school, family, technology, travel, and life in a larger world."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "The students who shared the clip must be <b>accountable</b> for it."
+            }
+          ],
+          "wordCount": 100
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week19_grade11_page08.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “When A Viral Clip Becomes Evidence”, page 8. Scene based on: The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another. They also discuss the author’s purpose and decide which detail best supports the final lesson. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another."
+            },
+            {
+              "html": "They also discuss the author’s purpose and decide which detail best supports the final lesson."
+            },
+            {
+              "html": "Laura notices that strong reading is not only translating words. It means connecting evidence, sequence, intention, and consequences."
+            },
+            {
+              "html": "That habit will be useful in future exams because a difficult question often depends on a small but meaningful detail."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "Recording a classmate in secret can <b>violate</b> their privacy."
+            }
+          ],
+          "wordCount": 111
+        }
+      ],
+      "practiceWords": [
+        "footage",
+        "misleading",
+        "context",
+        "verify",
+        "distribute",
+        "harassment",
+        "digital footprint",
+        "accountable",
+        "violate",
+        "bystander"
+      ],
+      "vocabulary": [
+        {
+          "word": "footage",
+          "definition": "recorded video material (grabación)"
+        },
+        {
+          "word": "misleading",
+          "definition": "giving a wrong idea (engañoso)"
+        },
+        {
+          "word": "context",
+          "definition": "the situation around an event (contexto)"
+        },
+        {
+          "word": "verify",
+          "definition": "to check that something is true (verificar)"
+        },
+        {
+          "word": "distribute",
+          "definition": "to share with many people (distribuir)"
+        },
+        {
+          "word": "harassment",
+          "definition": "repeated actions that bother or hurt someone (acoso)"
+        },
+        {
+          "word": "digital footprint",
+          "definition": "the trace a person leaves online (huella digital)"
+        },
+        {
+          "word": "accountable",
+          "definition": "responsible for your actions (responsable)"
+        },
+        {
+          "word": "violate",
+          "definition": "to break a rule or a right (violar, vulnerar)"
+        },
+        {
+          "word": "bystander",
+          "definition": "a person who sees something but does not participate (espectador)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "According to the text, what could happen if the group reacted without checking anything?",
+          "options": [
+            "The problem could become bigger and hurt someone.",
+            "The teacher would cancel the class.",
+            "The problem would disappear immediately.",
+            "Everybody would agree on the facts."
+          ],
+          "answer": "The problem could become bigger and hurt someone."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In “Instead of having all the facts, the students hear different versions of what happened,” the expression “instead of” shows that…",
+          "options": [
+            "the facts arrive after a long time",
+            "the students get rumors in place of complete information",
+            "the students have all the information they need",
+            "the versions are all exactly the same"
+          ],
+          "answer": "the students get rumors in place of complete information"
+        },
+        {
+          "skill": "purpose",
+          "question": "What is the author's main purpose in this text?",
+          "options": [
+            "To sell a product to students.",
+            "To give scientific data about teenagers in Colombia.",
+            "To describe the history of Medellín.",
+            "To show, through a story, how to act responsibly when a short video begins spreading among students."
+          ],
+          "answer": "To show, through a story, how to act responsibly when a short video begins spreading among students."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Complete the sentence from the text: “The students who shared the clip must be _____ for it.”",
+          "options": [
+            "accountable",
+            "verify",
+            "footage",
+            "harassment"
+          ],
+          "answer": "accountable"
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the text mainly about?",
+          "options": [
+            "How Laura deals with a problem about consent, reputation and responsible sharing by checking facts before acting",
+            "Why all videos on the internet are dangerous",
+            "How to record better videos with a phone",
+            "A sports match that the students record"
+          ],
+          "answer": "How Laura deals with a problem about consent, reputation and responsible sharing by checking facts before acting"
+        }
+      ],
+      "cover": "../assets/images/week19_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

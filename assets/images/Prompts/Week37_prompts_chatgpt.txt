@@ -1,0 +1,848 @@
+WEEKLY READINGS — WEEK 37 — PROMPTS PARA CHATGPT (UNA IMAGEN POR PROMPT)
+==========================================================================================
+
+CÓMO SE USA ESTE ARCHIVO (método probado en Weeks 12–18)
+1. Un chat NUEVO de ChatGPT por cada imagen (evita que se trabe y que copie la composición anterior).
+2. ORDEN POR GRADO: primero la PORTADA, después page01, page02… La portada fija las caras de los personajes de esta semana.
+3. Adjuntos en cada chat:
+   - PORTADA: solo las 2 fotos base de estilo del grado (week01_gradeXX_cover.webp + week01_gradeXX_page01.webp).
+   - PÁGINAS: las 2 fotos base de estilo + la portada YA GENERADA de ese grado y esta semana (weekNN_gradeXX_cover.webp).
+4. Pegar UN solo prompt completo (todo el bloque debajo de la línea "--- archivo.webp ---"). Cada prompt es autónomo: repite estilo, historia, hora, lugar, personajes, escena, ánimo, cámara y reglas, porque cada chat es nuevo.
+5. Revisar cada imagen: mismas caras y ropa dentro del grado, edad correcta, sin texto en páginas interiores, escena fiel a la página.
+6. Convertir a WEBP 1122x1402 con el nombre EXACTO del archivo (weekNN_gradeXX_cover.webp / weekNN_gradeXX_pageNN.webp).
+
+FOTOS BASE = SOLO ESTILO
+Las fotos base del proyecto (week01) tienen OTROS actores. Se adjuntan únicamente para copiar estilo, renderizado, luz y paleta. Los personajes de cada semana son NUEVOS: cada prompt los describe completos (sexo, edad, grado, piel, rasgo, peinado y ropa). Un mismo nombre en otra semana es OTRA cara y OTRA ropa.
+
+EDADES FIJAS POR GRADO (deben verse en la imagen)
+6° = 11 años | 7° = 12 años | 8° = 13 años | 9° = 14 años | 10° = 15–16 años | 11° = 17–18 años.
+6° y 7° se ven niños; 8° y 9° adolescentes jóvenes; 10° adolescentes maduros; 11° casi adultos. Cada grado conserva su estilo: 6° 3D pastel → 7° pictórico → 8° 3D vivo → 9° semi-realista brillante → 10° pictórico semi-realista → 11° realista cinematográfico.
+
+IMÁGENES ÚNICAS
+- Cada prompt corresponde a UNA página concreta de la lectura: su hora, su lugar, sus personas y su acción. Ninguna escena se repite (ni dentro del grado, ni entre grados, ni entre semanas).
+- La portada es un momento y una composición propios; NO es la page01.
+- La cámara cambia en cada página del grado (plano medio, general, sobre el hombro, cenital suave, detalle de manos, etc.).
+
+REGLAS ANTI-ERROR / ANTI-RECHAZO (aprendidas)
+- No escribir nombres de estudios ni marcas (ni "Pixar" ni "Disney"); el estilo se describe con palabras propias.
+- Adolescentes: vocabulario escolar y neutro; sin ángulos bajos; expresiones naturales; nada que parezca peligro real.
+- Páginas interiores: CERO texto (ni letras, ni números, ni logos), incluso en pantallas, tableros, buses, relojes, ropa o libros: solo íconos, bloques de color o líneas en blanco.
+- Portadas: SOLO el título exacto + las 2 líneas "Jony Rojas Ochoa" / "Reading Project shared by IEGRM".
+- Si el chat se traba (sin imagen en ~90 s): chat nuevo y reenviar el mismo prompt con los mismos adjuntos.
+- Si sale texto o letras: responder "Same image, but remove every letter, word and number."
+- Si se parece demasiado a otra imagen ya hecha: "Same scene, but a clearly different composition and camera angle."
+- Si cambia una cara o la ropa: "Keep the characters exactly as in the attached cover: same faces, hair and clothes."
+- Si la edad no se ve bien: "Make the students look exactly their stated age."
+
+******************************************************************************
+VOCABULARIO INTERACTIVO — OBLIGATORIO, NO SE PUEDE OMITIR (funciona EXACTAMENTE como en week15.json)
+******************************************************************************
+Las imágenes NO llevan texto, pero la lectura sí lleva el vocabulario interactivo, y eso NO se toca ni se olvida.
+1. Cada grado tiene EXACTAMENTE 10 entradas en "vocabulary": {"word": "...", "definition": "definición en inglés (traducción)"}.
+2. "practiceWords" contiene las MISMAS 10 palabras, en el MISMO orden que "vocabulary".
+3. Cada palabra aparece UNA vez marcada con <b>palabra</b> dentro de "sentences[].html". Esa marca es la que la vuelve interactiva (clic → resalta, muestra la definición y la pronuncia).
+4. NO quitar, renombrar ni mover las etiquetas <b>; NO convertir "html" en texto plano; NO volver al esquema viejo (legacySentenceSchema: false).
+5. Respetar todo el código base del audio: tts "Web Speech API / SpeechSynthesis", manualAudioFiles: false. Frases de máximo 11 palabras para que el resaltado siga al audio.
+6. Las rutas de imagen del JSON NO cambian: ../assets/images/week37_gradeXX_cover.webp y ../assets/images/week37_gradeXX_pageNN.webp.
+Checklist por grado: [ ] 10 vocabulary  [ ] practiceWords = vocabulary  [ ] 10 <b> en las oraciones  [ ] audio intacto  [ ] imágenes con nombre exacto.
+
+
+##########################################################################################
+GRADO 6 — "A Map for the New Student" — 6° Grade / A1 Beginner — portada + 4 páginas = 5 imágenes
+##########################################################################################
+EDAD VISUAL OBLIGATORIA: 11 years old, a sixth grader: small child body, round young face, clearly a child.
+BLOQUE DE ESTILO (fijo en todo el grado): original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream, sky blue), cute rounded characters with big expressive eyes, soft subsurface lighting, cozy detailed sets, shallow depth of field.
+FOTOS BASE DE ESTILO A ADJUNTAR (solo estilo, otros actores): week01_grade06_cover.webp + week01_grade06_page01.webp
+DESDE LA PAGE01: adjuntar también week37_grade06_cover.webp ya generada (fija las caras de esta semana).
+HISTORIA: Lucas, a new sixth-grade student from Cali, does not know the neighborhood, so Sofía and her twin brother Nico draw him a map with the school, the park across from the church, the market and the Metro station; when they test it after school, the bakery has moved, so they correct the map on the spot.
+PERSONAJES FIJOS (NUEVOS esta semana; caras distintas a otros grados y semanas):
+   - Sofía — girl, 11 years old, a sixth grader: small child body, round young face, clearly a child; warm brown skin, a round face and dimples, a short chin-length bob; wearing a public school uniform: a white short-sleeve blouse with no logo, a red plaid pinafore school dress, white socks, black school shoes and a lilac backpack (same outfit in every image unless the scene says otherwise)
+   - Nico — boy, 11 years old, a sixth grader: small child body, round young face, clearly a child; light olive skin, a square jaw and a wide smile, short dark hair with a side part; wearing a public school uniform: a white short-sleeve polo shirt with no logo, navy school trousers, black school shoes and a blue backpack (same outfit in every image unless the scene says otherwise)
+   - Lucas, the new 11-year-old student, light-brown skin, short curly black hair, big friendly eyes, a white short-sleeve school polo shirt with no logo, navy school trousers, black shoes and a bright orange backpack
+   - other 11-year-old students playing
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - map — a drawing that shows where places are (mapa)  [<b> en página 1]
+   - street — a road in a town or city (calle)  [<b> en página 2]
+   - park — a public green area with trees (parque)  [<b> en página 1]
+   - station — a place where trains or buses stop (estación)  [<b> en página 1]
+   - market — a place where people buy and sell food (mercado)  [<b> en página 1]
+   - corner — the place where two streets meet (esquina)  [<b> en página 3]
+   - across from — on the other side of the street (enfrente de)  [<b> en página 2]
+   - between — in the middle of two things (entre)  [<b> en página 2]
+   - straight — in a line, without turning (derecho)  [<b> en página 2]
+   - turn left — to change direction to the left side (girar a la izquierda)  [<b> en página 2]
+
+--- week37_grade06_cover.webp ---
+Attached images: STYLE REFERENCES ONLY. They show OTHER students; copy only their art style, rendering, lighting and color palette. Do NOT copy their faces, hair or clothes: the characters below are new people.
+Generate the image now: one vertical 4:5 BOOK COVER illustration.
+STYLE: original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream, sky blue), cute rounded characters with big expressive eyes, soft subsurface lighting, cozy detailed sets, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY (for understanding only; never write it in the image): Lucas, a new sixth-grade student from Cali, does not know the neighborhood, so Sofía and her twin brother Nico draw him a map with the school, the park across from the church, the market and the Metro station; when they test it after school, the bakery has moved, so they correct the map on the spot.
+CHARACTERS (draw exactly like this): Sofía — girl, 11 years old, a sixth grader: small child body, round young face, clearly a child; warm brown skin, a round face and dimples, a short chin-length bob; wearing a public school uniform: a white short-sleeve blouse with no logo, a red plaid pinafore school dress, white socks, black school shoes and a lilac backpack (same outfit in every image unless the scene says otherwise) | Nico — boy, 11 years old, a sixth grader: small child body, round young face, clearly a child; light olive skin, a square jaw and a wide smile, short dark hair with a side part; wearing a public school uniform: a white short-sleeve polo shirt with no logo, navy school trousers, black school shoes and a blue backpack (same outfit in every image unless the scene says otherwise) | Lucas, the new 11-year-old student, light-brown skin, short curly black hair, big friendly eyes, a white short-sleeve school polo shirt with no logo, navy school trousers, black shoes and a bright orange backpack.
+COVER SCENE: In front of a church across from a small park, Sofía, Nico and Lucas stand facing the viewer, Lucas proudly holding up a big hand-drawn map with only little pictures (a church, trees, fruit, a train) and Sofía and Nico on both sides giving thumbs-up, with the park trees and an elevated Metro line behind them.
+COMPOSITION: poster-like book-cover composition: the main characters large in the lower two-thirds, turned toward the viewer with faces clearly visible (unlike the interior pages, which show side-view action); the upper third is a calm, simple area of sky, wall or soft light for the title. This cover must not copy any interior page.
+AGE CHECK: every student must look exactly the age stated above; they are children.
+TEXT — the ONLY text allowed: the title "A Map for the New Student" at the top in bubbly hand-lettered orange and deep blue letters with tiny sun and heart doodles. At the bottom, two lines of white/pale-yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No subtitles, grade labels, numbers, captions, speech bubbles, logos or watermarks. Any screen, paper or sign in the scene shows only simple icons or blank shapes.
+
+--- week37_grade06_page01.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 1 of the story "A Map for the New Student".
+STYLE: original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream, sky blue), cute rounded characters with big expressive eyes, soft subsurface lighting, cozy detailed sets, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Lucas, a new sixth-grade student from Cali, does not know the neighborhood, so Sofía and her twin brother Nico draw him a map with the school, the park across from the church, the market and the Metro station; when they test it after school, the bakery has moved, so they correct the map on the spot.
+TIME: Monday at break, sunny morning.
+PLACE: the courtyard of a public school in Medellín with a mural and trees.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Sofía — girl, 11 years old, a sixth grader: small child body, round young face, clearly a child; warm brown skin, a round face and dimples, a short chin-length bob; wearing a public school uniform: a white short-sleeve blouse with no logo, a red plaid pinafore school dress, white socks, black school shoes and a lilac backpack (same outfit in every image unless the scene says otherwise) | Nico — boy, 11 years old, a sixth grader: small child body, round young face, clearly a child; light olive skin, a square jaw and a wide smile, short dark hair with a side part; wearing a public school uniform: a white short-sleeve polo shirt with no logo, navy school trousers, black school shoes and a blue backpack (same outfit in every image unless the scene says otherwise) | Lucas, the new 11-year-old student, light-brown skin, short curly black hair, big friendly eyes, a white short-sleeve school polo shirt with no logo, navy school trousers, black shoes and a bright orange backpack | other 11-year-old students playing.
+SCENE (illustrate exactly this moment): In a bright public school courtyard in Medellín, Sofía, 11, and Nico, 11, talk with a new student, a smiling boy with a backpack named Lucas, who holds a blank paper and looks confused, while other students play in the background.
+MOOD AND EXPRESSIONS: friendly welcome, Lucas friendly but puzzled; natural, believable body language.
+CAMERA: over-the-shoulder view from behind one character, keeping the other faces clearly visible.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade06_page02.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 2 of the story "A Map for the New Student".
+STYLE: original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream, sky blue), cute rounded characters with big expressive eyes, soft subsurface lighting, cozy detailed sets, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Lucas, a new sixth-grade student from Cali, does not know the neighborhood, so Sofía and her twin brother Nico draw him a map with the school, the park across from the church, the market and the Metro station; when they test it after school, the bakery has moved, so they correct the map on the spot.
+TIME: Monday afternoon.
+PLACE: a classroom table with a big paper and colored pencils.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Sofía — girl, 11 years old, a sixth grader: small child body, round young face, clearly a child; warm brown skin, a round face and dimples, a short chin-length bob; wearing a public school uniform: a white short-sleeve blouse with no logo, a red plaid pinafore school dress, white socks, black school shoes and a lilac backpack (same outfit in every image unless the scene says otherwise) | Nico — boy, 11 years old, a sixth grader: small child body, round young face, clearly a child; light olive skin, a square jaw and a wide smile, short dark hair with a side part; wearing a public school uniform: a white short-sleeve polo shirt with no logo, navy school trousers, black school shoes and a blue backpack (same outfit in every image unless the scene says otherwise) | Lucas, the new 11-year-old student, light-brown skin, short curly black hair, big friendly eyes, a white short-sleeve school polo shirt with no logo, navy school trousers, black shoes and a bright orange backpack.
+SCENE (illustrate exactly this moment): At a classroom table, Sofía and Nico draw a colorful neighborhood map on a big paper with small drawings of a church, a park with trees, a market with fruit and a Metro station, while Lucas watches with interest.
+MOOD AND EXPRESSIONS: creative teamwork, curiosity; natural, believable body language.
+CAMERA: closer medium shot on faces, hands and the important object, everyone in the scene still visible, background softly blurred.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade06_page03.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 3 of the story "A Map for the New Student".
+STYLE: original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream, sky blue), cute rounded characters with big expressive eyes, soft subsurface lighting, cozy detailed sets, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Lucas, a new sixth-grade student from Cali, does not know the neighborhood, so Sofía and her twin brother Nico draw him a map with the school, the park across from the church, the market and the Metro station; when they test it after school, the bakery has moved, so they correct the map on the spot.
+TIME: Monday after school, about one in the afternoon, sunny.
+PLACE: a neighborhood street corner with an empty shop with a blank sign and a new bakery across the street.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Sofía — girl, 11 years old, a sixth grader: small child body, round young face, clearly a child; warm brown skin, a round face and dimples, a short chin-length bob; wearing a public school uniform: a white short-sleeve blouse with no logo, a red plaid pinafore school dress, white socks, black school shoes and a lilac backpack (same outfit in every image unless the scene says otherwise) | Nico — boy, 11 years old, a sixth grader: small child body, round young face, clearly a child; light olive skin, a square jaw and a wide smile, short dark hair with a side part; wearing a public school uniform: a white short-sleeve polo shirt with no logo, navy school trousers, black school shoes and a blue backpack (same outfit in every image unless the scene says otherwise) | Lucas, the new 11-year-old student, light-brown skin, short curly black hair, big friendly eyes, a white short-sleeve school polo shirt with no logo, navy school trousers, black shoes and a bright orange backpack.
+SCENE (illustrate exactly this moment): On a neighborhood street after school, Sofía, Nico and Lucas walk with the map, and Sofía stops in surprise in front of an empty shop with a blank paper sign in the window, while Nico points across the street at a new bakery.
+MOOD AND EXPRESSIONS: surprise, careful observation; natural, believable body language.
+CAMERA: eye-level side view, the setting visible behind the characters.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade06_page04.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 4 of the story "A Map for the New Student".
+STYLE: original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream, sky blue), cute rounded characters with big expressive eyes, soft subsurface lighting, cozy detailed sets, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Lucas, a new sixth-grade student from Cali, does not know the neighborhood, so Sofía and her twin brother Nico draw him a map with the school, the park across from the church, the market and the Metro station; when they test it after school, the bakery has moved, so they correct the map on the spot.
+TIME: a few minutes later, sunny.
+PLACE: the same neighborhood street, a church, a park with tall trees and a Metro station at the end.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Sofía — girl, 11 years old, a sixth grader: small child body, round young face, clearly a child; warm brown skin, a round face and dimples, a short chin-length bob; wearing a public school uniform: a white short-sleeve blouse with no logo, a red plaid pinafore school dress, white socks, black school shoes and a lilac backpack (same outfit in every image unless the scene says otherwise) | Nico — boy, 11 years old, a sixth grader: small child body, round young face, clearly a child; light olive skin, a square jaw and a wide smile, short dark hair with a side part; wearing a public school uniform: a white short-sleeve polo shirt with no logo, navy school trousers, black school shoes and a blue backpack (same outfit in every image unless the scene says otherwise) | Lucas, the new 11-year-old student, light-brown skin, short curly black hair, big friendly eyes, a white short-sleeve school polo shirt with no logo, navy school trousers, black shoes and a bright orange backpack.
+SCENE (illustrate exactly this moment): At the park across from the church, Sofía holds up the corrected map on a clipboard while Lucas compares it with the real street, and Nico points happily at the Metro station at the end of the street.
+MOOD AND EXPRESSIONS: problem solved, happiness; natural, believable body language.
+CAMERA: layered depth composition: a relevant object softly blurred in the foreground, characters in the middle, setting behind.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+##########################################################################################
+GRADO 7 — "The Café Order Nobody Expected" — 7° Grade / A1 Advanced — portada + 5 páginas = 6 imágenes
+##########################################################################################
+EDAD VISUAL OBLIGATORIA: 12 years old, a seventh grader: early-teen body, still a young, childlike face.
+BLOQUE DE ESTILO (fijo en todo el grado): painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors, warm storybook atmosphere.
+FOTOS BASE DE ESTILO A ADJUNTAR (solo estilo, otros actores): week01_grade07_cover.webp + week01_grade07_page01.webp
+DESDE LA PAGE01: adjuntar también week37_grade07_cover.webp ya generada (fija las caras de esta semana).
+HISTORIA: After a class museum trip downtown, seventh graders Tomás and Lucía stop with their class at a small café; Lucía explains she has a wheat allergy, but the waiter brings a sandwich; Tomás asks what exactly she asked for, the cook understands and makes a corn arepa, and later the café adds a corn symbol to its menu.
+PERSONAJES FIJOS (NUEVOS esta semana; caras distintas a otros grados y semanas):
+   - Tomás — boy, 12 years old, a seventh grader: early-teen body, still a young, childlike face; medium-brown skin, thick dark eyebrows, neat dark hair combed back; wearing a black-and-white checked overshirt, with khaki pants (same outfit in every image unless the scene says otherwise)
+   - Lucía — girl, 12 years old, a seventh grader: early-teen body, still a young, childlike face; light olive skin, a round face and dimples, box braids tied back; wearing a coral hoodie, with khaki pants (same outfit in every image unless the scene says otherwise)
+   - the young waiter, about 20, messy dark hair, a black apron over a white shirt, a small notebook and a pen
+   - 12-year-old classmates
+   - the cook, a kind woman about 55, a white apron, a hairnet, rosy cheeks
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - café — a small restaurant for drinks and light food (cafetería)  [<b> en página 1]
+   - waiter — a person who serves food in a restaurant (mesero)  [<b> en página 1]
+   - allergy — when your body reacts badly to a food (alergia)  [<b> en página 1]
+   - wheat — a plant used to make bread and flour (trigo)  [<b> en página 1]
+   - order — to ask for food in a restaurant (pedir)  [<b> en página 5]
+   - kitchen — the room where food is cooked (cocina)  [<b> en página 2]
+   - corn — a yellow plant used to make arepas (maíz)  [<b> en página 4]
+   - cook — a person who prepares food (cocinero)  [<b> en página 4]
+   - explain — to make something clear (explicar)  [<b> en página 5]
+   - symbol — a small picture with a meaning (símbolo)  [<b> en página 5]
+
+--- week37_grade07_cover.webp ---
+Attached images: STYLE REFERENCES ONLY. They show OTHER students; copy only their art style, rendering, lighting and color palette. Do NOT copy their faces, hair or clothes: the characters below are new people.
+Generate the image now: one vertical 4:5 BOOK COVER illustration.
+STYLE: painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors, warm storybook atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY (for understanding only; never write it in the image): After a class museum trip downtown, seventh graders Tomás and Lucía stop with their class at a small café; Lucía explains she has a wheat allergy, but the waiter brings a sandwich; Tomás asks what exactly she asked for, the cook understands and makes a corn arepa, and later the café adds a corn symbol to its menu.
+CHARACTERS (draw exactly like this): Tomás — boy, 12 years old, a seventh grader: early-teen body, still a young, childlike face; medium-brown skin, thick dark eyebrows, neat dark hair combed back; wearing a black-and-white checked overshirt, with khaki pants (same outfit in every image unless the scene says otherwise) | Lucía — girl, 12 years old, a seventh grader: early-teen body, still a young, childlike face; light olive skin, a round face and dimples, box braids tied back; wearing a coral hoodie, with khaki pants (same outfit in every image unless the scene says otherwise) | 12-year-old classmates.
+COVER SCENE: On a sunny downtown street, Tomás and Lucía walk out of a grand old museum building toward the viewer, Lucía with a hand on her stomach and a hopeful smile, Tomás pointing toward a little café with a striped awning and plants at the corner, classmates following behind.
+COMPOSITION: poster-like book-cover composition: the main characters large in the lower two-thirds, turned toward the viewer with faces clearly visible (unlike the interior pages, which show side-view action); the upper third is a calm, simple area of sky, wall or soft light for the title. This cover must not copy any interior page.
+AGE CHECK: every student must look exactly the age stated above; they are children.
+TEXT — the ONLY text allowed: the title "The Café Order Nobody Expected" at the top in navy (first line) and green (second line) letters on a cream torn brush-stroke banner at the top, small leaf sprigs in the corners. At the bottom, two lines of navy text inside a cream rounded box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No subtitles, grade labels, numbers, captions, speech bubbles, logos or watermarks. Any screen, paper or sign in the scene shows only simple icons or blank shapes.
+
+--- week37_grade07_page01.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 1 of the story "The Café Order Nobody Expected".
+STYLE: painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors, warm storybook atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): After a class museum trip downtown, seventh graders Tomás and Lucía stop with their class at a small café; Lucía explains she has a wheat allergy, but the waiter brings a sandwich; Tomás asks what exactly she asked for, the cook understands and makes a corn arepa, and later the café adds a corn symbol to its menu.
+TIME: last Thursday at one in the afternoon, warm indoor light.
+PLACE: a cozy small café in downtown Medellín with wooden tables, plants and a counter.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Tomás — boy, 12 years old, a seventh grader: early-teen body, still a young, childlike face; medium-brown skin, thick dark eyebrows, neat dark hair combed back; wearing a black-and-white checked overshirt, with khaki pants (same outfit in every image unless the scene says otherwise) | Lucía — girl, 12 years old, a seventh grader: early-teen body, still a young, childlike face; light olive skin, a round face and dimples, box braids tied back; wearing a coral hoodie, with khaki pants (same outfit in every image unless the scene says otherwise) | the young waiter, about 20, messy dark hair, a black apron over a white shirt, a small notebook and a pen | 12-year-old classmates.
+SCENE (illustrate exactly this moment): In a cozy small café in Medellín after a school museum trip, Tomás, 12, and Lucía, 12, sit at a wooden table with classmates while a young waiter with a notebook stands next to Lucía, who speaks seriously and points at a menu with only food pictures.
+MOOD AND EXPRESSIONS: serious request, patience; natural, believable body language.
+CAMERA: closer medium shot on faces, hands and the important object, everyone in the scene still visible, background softly blurred.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade07_page02.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 2 of the story "The Café Order Nobody Expected".
+STYLE: painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors, warm storybook atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): After a class museum trip downtown, seventh graders Tomás and Lucía stop with their class at a small café; Lucía explains she has a wheat allergy, but the waiter brings a sandwich; Tomás asks what exactly she asked for, the cook understands and makes a corn arepa, and later the café adds a corn symbol to its menu.
+TIME: a minute later.
+PLACE: the café table and the next table.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Tomás — boy, 12 years old, a seventh grader: early-teen body, still a young, childlike face; medium-brown skin, thick dark eyebrows, neat dark hair combed back; wearing a black-and-white checked overshirt, with khaki pants (same outfit in every image unless the scene says otherwise) | Lucía — girl, 12 years old, a seventh grader: early-teen body, still a young, childlike face; light olive skin, a round face and dimples, box braids tied back; wearing a coral hoodie, with khaki pants (same outfit in every image unless the scene says otherwise) | the young waiter, about 20, messy dark hair, a black apron over a white shirt, a small notebook and a pen | 12-year-old classmates.
+SCENE (illustrate exactly this moment): The young waiter scratches his head, looking at his notebook, while Lucía repeats her request patiently and Tomás watches; at the next table, a classmate laughs and holds up a sandwich.
+MOOD AND EXPRESSIONS: confusion, a little embarrassment, Tomás supportive; natural, believable body language.
+CAMERA: eye-level side view, the setting visible behind the characters.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade07_page03.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 3 of the story "The Café Order Nobody Expected".
+STYLE: painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors, warm storybook atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): After a class museum trip downtown, seventh graders Tomás and Lucía stop with their class at a small café; Lucía explains she has a wheat allergy, but the waiter brings a sandwich; Tomás asks what exactly she asked for, the cook understands and makes a corn arepa, and later the café adds a corn symbol to its menu.
+TIME: ten minutes later.
+PLACE: the café table.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Tomás — boy, 12 years old, a seventh grader: early-teen body, still a young, childlike face; medium-brown skin, thick dark eyebrows, neat dark hair combed back; wearing a black-and-white checked overshirt, with khaki pants (same outfit in every image unless the scene says otherwise) | Lucía — girl, 12 years old, a seventh grader: early-teen body, still a young, childlike face; light olive skin, a round face and dimples, box braids tied back; wearing a coral hoodie, with khaki pants (same outfit in every image unless the scene says otherwise) | the young waiter, about 20, messy dark hair, a black apron over a white shirt, a small notebook and a pen.
+SCENE (illustrate exactly this moment): The waiter returns with a plate holding a sandwich, and Lucía looks worried and shakes her head, while Tomás raises his hand to stop him from putting the plate down.
+MOOD AND EXPRESSIONS: worry, clear refusal; natural, believable body language.
+CAMERA: layered depth composition: a relevant object softly blurred in the foreground, characters in the middle, setting behind.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade07_page04.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 4 of the story "The Café Order Nobody Expected".
+STYLE: painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors, warm storybook atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): After a class museum trip downtown, seventh graders Tomás and Lucía stop with their class at a small café; Lucía explains she has a wheat allergy, but the waiter brings a sandwich; Tomás asks what exactly she asked for, the cook understands and makes a corn arepa, and later the café adds a corn symbol to its menu.
+TIME: a few minutes later.
+PLACE: the café table near the kitchen door.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Tomás — boy, 12 years old, a seventh grader: early-teen body, still a young, childlike face; medium-brown skin, thick dark eyebrows, neat dark hair combed back; wearing a black-and-white checked overshirt, with khaki pants (same outfit in every image unless the scene says otherwise) | Lucía — girl, 12 years old, a seventh grader: early-teen body, still a young, childlike face; light olive skin, a round face and dimples, box braids tied back; wearing a coral hoodie, with khaki pants (same outfit in every image unless the scene says otherwise) | the cook, a kind woman about 55, a white apron, a hairnet, rosy cheeks.
+SCENE (illustrate exactly this moment): A kind cook in her fifties with a white apron comes out of the kitchen and talks with Lucía and Tomás at their table, gesturing toward the kitchen with a warm smile as she offers to make a corn arepa.
+MOOD AND EXPRESSIONS: understanding, kindness; natural, believable body language.
+CAMERA: medium-wide frontal shot, characters slightly off-center following the rule of thirds, open space around them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade07_page05.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 5 of the story "The Café Order Nobody Expected".
+STYLE: painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors, warm storybook atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): After a class museum trip downtown, seventh graders Tomás and Lucía stop with their class at a small café; Lucía explains she has a wheat allergy, but the waiter brings a sandwich; Tomás asks what exactly she asked for, the cook understands and makes a corn arepa, and later the café adds a corn symbol to its menu.
+TIME: two weeks later, a sunny afternoon.
+PLACE: the same café.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Tomás — boy, 12 years old, a seventh grader: early-teen body, still a young, childlike face; medium-brown skin, thick dark eyebrows, neat dark hair combed back; wearing a black-and-white checked overshirt, with khaki pants (same outfit in every image unless the scene says otherwise) | Lucía — girl, 12 years old, a seventh grader: early-teen body, still a young, childlike face; light olive skin, a round face and dimples, box braids tied back; wearing a coral hoodie, with khaki pants (same outfit in every image unless the scene says otherwise) | the young waiter, about 20, messy dark hair, a black apron over a white shirt, a small notebook and a pen | the cook, a kind woman about 55, a white apron, a hairnet, rosy cheeks.
+SCENE (illustrate exactly this moment): Weeks later, Tomás and Lucía return to the same café and see a new menu board with small corn icons next to some dishes, while the cook waves at them from the kitchen door and the waiter brings an arepa.
+MOOD AND EXPRESSIONS: pride, change, gratitude; natural, believable body language.
+CAMERA: eye-level medium shot, the main characters in the foreground and the place clearly recognizable behind them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+##########################################################################################
+GRADO 8 — "The Fake Discount" — 8° Grade / A2 Beginner — portada + 6 páginas = 7 imágenes
+##########################################################################################
+EDAD VISUAL OBLIGATORIA: 13 years old, an eighth grader: young teenager, slim growing body, youthful face.
+BLOQUE DE ESTILO (fijo en todo el grado): original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition.
+FOTOS BASE DE ESTILO A ADJUNTAR (solo estilo, otros actores): week01_grade08_cover.webp + week01_grade08_page01.webp
+DESDE LA PAGE01: adjuntar también week37_grade08_cover.webp ya generada (fija las caras de esta semana).
+HISTORIA: Eighth grader Valentina wants to buy wireless headphones for her brother's birthday and sees an amazing "70% off" post on social media; her friend Samuel asks who the seller is, they compare in a real electronics store, find bad reviews of the account, and buy them safely with a real student discount.
+PERSONAJES FIJOS (NUEVOS esta semana; caras distintas a otros grados y semanas):
+   - Valentina — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; golden-tan skin, an oval face and a wide smile, a high dark ponytail; wearing a mint-green sweater, with jeans (same outfit in every image unless the scene says otherwise)
+   - Samuel — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light-brown skin, a small scar on the chin, wavy brown hair; wearing a teal sweater, with navy pants (same outfit in every image unless the scene says otherwise)
+   - the store salesperson, a friendly woman about 30, a short pixie haircut, a plain navy polo shirt with no logo
+   - Valentina's younger brother (9, buzz cut, a party hat) and her family around the table: mother (40, long dark hair) and father (43, glasses)
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - discount — a lower price than usual (descuento)  [<b> en página 1]
+   - original price — the price before a discount (precio original)  [<b> en página 2]
+   - headphones — a device you put on your ears to listen to sound (audífonos)  [<b> en página 1]
+   - offer — a special price for a short time (oferta)  [<b> en página 2]
+   - seller — a person or company that sells something (vendedor)  [<b> en página 2]
+   - review — an opinion about a product written by a buyer (reseña)  [<b> en página 4]
+   - fake — not real, made to trick people (falso)  [<b> en página 3]
+   - budget — the amount of money you plan to spend (presupuesto)  [<b> en página 1]
+   - deal — a good price or agreement (negocio, ganga)  [<b> en página 5]
+   - trust — to believe that someone is honest (confiar)  [<b> en página 4]
+
+--- week37_grade08_cover.webp ---
+Attached images: STYLE REFERENCES ONLY. They show OTHER students; copy only their art style, rendering, lighting and color palette. Do NOT copy their faces, hair or clothes: the characters below are new people.
+Generate the image now: one vertical 4:5 BOOK COVER illustration.
+STYLE: original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY (for understanding only; never write it in the image): Eighth grader Valentina wants to buy wireless headphones for her brother's birthday and sees an amazing "70% off" post on social media; her friend Samuel asks who the seller is, they compare in a real electronics store, find bad reviews of the account, and buy them safely with a real student discount.
+CHARACTERS (draw exactly like this): Valentina — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; golden-tan skin, an oval face and a wide smile, a high dark ponytail; wearing a mint-green sweater, with jeans (same outfit in every image unless the scene says otherwise) | Samuel — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light-brown skin, a small scar on the chin, wavy brown hair; wearing a teal sweater, with navy pants (same outfit in every image unless the scene says otherwise).
+COVER SCENE: In a busy shopping street, Valentina holds her phone, which glows with a giant percent icon that is cracking like glass, while Samuel beside her holds a real wrapped headphones box from a store with a small honest smile; the bright shop windows and hillside houses of Medellín frame them.
+COMPOSITION: poster-like book-cover composition: the main characters large in the lower two-thirds, turned toward the viewer with faces clearly visible (unlike the interior pages, which show side-view action); the upper third is a calm, simple area of sky, wall or soft light for the title. This cover must not copy any interior page.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate, school-safe, natural expressions.
+TEXT — the ONLY text allowed: the title "The Fake Discount" at the top in thick hand-lettered navy, green and orange letters with small ray accents. At the bottom, two lines of white/pale-yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No subtitles, grade labels, numbers, captions, speech bubbles, logos or watermarks. Any screen, paper or sign in the scene shows only simple icons or blank shapes.
+
+--- week37_grade08_page01.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 1 of the story "The Fake Discount".
+STYLE: original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Eighth grader Valentina wants to buy wireless headphones for her brother's birthday and sees an amazing "70% off" post on social media; her friend Samuel asks who the seller is, they compare in a real electronics store, find bad reviews of the account, and buy them safely with a real student discount.
+TIME: Saturday at eleven in the morning, bright sunny day.
+PLACE: a busy commercial area in Medellín with shops and street vendors.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Valentina — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; golden-tan skin, an oval face and a wide smile, a high dark ponytail; wearing a mint-green sweater, with jeans (same outfit in every image unless the scene says otherwise) | Samuel — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light-brown skin, a small scar on the chin, wavy brown hair; wearing a teal sweater, with navy pants (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): In a busy commercial area in Medellín, Valentina, 13, stands outside a shop holding a phone showing a social media post with headphones and a giant percent icon, excited, while Samuel, 13, eats an ice cream and looks at the screen.
+MOOD AND EXPRESSIONS: excitement, temptation; natural, believable body language.
+CAMERA: eye-level side view, the setting visible behind the characters.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade08_page02.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 2 of the story "The Fake Discount".
+STYLE: original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Eighth grader Valentina wants to buy wireless headphones for her brother's birthday and sees an amazing "70% off" post on social media; her friend Samuel asks who the seller is, they compare in a real electronics store, find bad reviews of the account, and buy them safely with a real student discount.
+TIME: a minute later.
+PLACE: the sidewalk outside a shop.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Valentina — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; golden-tan skin, an oval face and a wide smile, a high dark ponytail; wearing a mint-green sweater, with jeans (same outfit in every image unless the scene says otherwise) | Samuel — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light-brown skin, a small scar on the chin, wavy brown hair; wearing a teal sweater, with navy pants (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): Samuel points at the phone screen where the seller's profile shows a blank profile picture and very few posts, while Valentina frowns with her finger ready to tap a blank green button.
+MOOD AND EXPRESSIONS: suspicion versus impatience; natural, believable body language.
+CAMERA: layered depth composition: a relevant object softly blurred in the foreground, characters in the middle, setting behind.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade08_page03.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 3 of the story "The Fake Discount".
+STYLE: original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Eighth grader Valentina wants to buy wireless headphones for her brother's birthday and sees an amazing "70% off" post on social media; her friend Samuel asks who the seller is, they compare in a real electronics store, find bad reviews of the account, and buy them safely with a real student discount.
+TIME: a few minutes later, bright store light.
+PLACE: inside an electronics store with shelves of headphones and speakers.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Valentina — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; golden-tan skin, an oval face and a wide smile, a high dark ponytail; wearing a mint-green sweater, with jeans (same outfit in every image unless the scene says otherwise) | Samuel — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light-brown skin, a small scar on the chin, wavy brown hair; wearing a teal sweater, with navy pants (same outfit in every image unless the scene says otherwise) | the store salesperson, a friendly woman about 30, a short pixie haircut, a plain navy polo shirt with no logo.
+SCENE (illustrate exactly this moment): Inside an electronics store in the commercial area, Valentina and Samuel look at the same headphones on a shelf with a price tag shown only as a coin icon, both surprised, while a friendly salesperson explains.
+MOOD AND EXPRESSIONS: surprise, truth; natural, believable body language.
+CAMERA: medium-wide frontal shot, characters slightly off-center following the rule of thirds, open space around them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade08_page04.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 4 of the story "The Fake Discount".
+STYLE: original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Eighth grader Valentina wants to buy wireless headphones for her brother's birthday and sees an amazing "70% off" post on social media; her friend Samuel asks who the seller is, they compare in a real electronics store, find bad reviews of the account, and buy them safely with a real student discount.
+TIME: a few minutes later.
+PLACE: a public bench in the commercial area.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Valentina — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; golden-tan skin, an oval face and a wide smile, a high dark ponytail; wearing a mint-green sweater, with jeans (same outfit in every image unless the scene says otherwise) | Samuel — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light-brown skin, a small scar on the chin, wavy brown hair; wearing a teal sweater, with navy pants (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): Valentina and Samuel sit on a bench in the commercial area looking at Valentina's phone showing many online reviews with star icons and some red warning triangles about the suspicious seller.
+MOOD AND EXPRESSIONS: worry, realization; natural, believable body language.
+CAMERA: eye-level medium shot, the main characters in the foreground and the place clearly recognizable behind them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade08_page05.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 5 of the story "The Fake Discount".
+STYLE: original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Eighth grader Valentina wants to buy wireless headphones for her brother's birthday and sees an amazing "70% off" post on social media; her friend Samuel asks who the seller is, they compare in a real electronics store, find bad reviews of the account, and buy them safely with a real student discount.
+TIME: half an hour later.
+PLACE: the counter of the electronics store.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Valentina — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; golden-tan skin, an oval face and a wide smile, a high dark ponytail; wearing a mint-green sweater, with jeans (same outfit in every image unless the scene says otherwise) | Samuel — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light-brown skin, a small scar on the chin, wavy brown hair; wearing a teal sweater, with navy pants (same outfit in every image unless the scene says otherwise) | the store salesperson, a friendly woman about 30, a short pixie haircut, a plain navy polo shirt with no logo.
+SCENE (illustrate exactly this moment): Back in the electronics store, the salesperson shows Valentina a small paper with a student discount percent icon while Valentina pays at the counter with her savings and Samuel holds the wrapped headphones box.
+MOOD AND EXPRESSIONS: relief, a smart decision; natural, believable body language.
+CAMERA: wide establishing shot that shows the whole place, characters at full body in the middle ground.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade08_page06.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 6 of the story "The Fake Discount".
+STYLE: original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Eighth grader Valentina wants to buy wireless headphones for her brother's birthday and sees an amazing "70% off" post on social media; her friend Samuel asks who the seller is, they compare in a real electronics store, find bad reviews of the account, and buy them safely with a real student discount.
+TIME: the next Saturday evening, warm festive light.
+PLACE: the living room of Valentina's family home, decorated for a birthday with balloons and a cake.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Valentina — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; golden-tan skin, an oval face and a wide smile, a high dark ponytail; wearing a mint-green sweater, with jeans (same outfit in every image unless the scene says otherwise) | Samuel — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light-brown skin, a small scar on the chin, wavy brown hair; wearing a teal sweater, with navy pants (same outfit in every image unless the scene says otherwise) | Valentina's younger brother (9, buzz cut, a party hat) and her family around the table: mother (40, long dark hair) and father (43, glasses).
+SCENE (illustrate exactly this moment): At a family birthday party at home, Valentina's younger brother opens the gift and puts on the new headphones with a huge smile, while Valentina and Samuel watch and the family claps around a cake.
+MOOD AND EXPRESSIONS: joy, gratitude; natural, believable body language.
+CAMERA: three-quarter view from a slightly raised camera, showing everyone involved and the key object.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+##########################################################################################
+GRADO 9 — "The Place That Disappeared in the Fog" — 9° Grade / A2 Advanced — portada + 6 páginas = 7 imágenes
+##########################################################################################
+EDAD VISUAL OBLIGATORIA: 14 years old, a ninth grader: teenager with teen proportions, youthful face.
+BLOQUE DE ESTILO (fijo en todo el grado): glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field.
+FOTOS BASE DE ESTILO A ADJUNTAR (solo estilo, otros actores): week01_grade09_cover.webp + week01_grade09_page01.webp
+DESDE LA PAGE01: adjuntar también week37_grade09_cover.webp ya generada (fija las caras de esta semana).
+HISTORIA: Ninth graders Daniela and Tomás go on a class trip to a mountain viewpoint above Medellín, but thick fog hides the city; the students complain and want to leave, but the guide Don Arturo explains how fog forms and has them use their other senses, and after forty minutes the fog opens like a curtain over the city.
+PERSONAJES FIJOS (NUEVOS esta semana; caras distintas a otros grados y semanas):
+   - Daniela — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; deep-brown skin, a round face and dimples, long straight black hair; wearing a red puffer jacket, a white scarf, jeans and sneakers, a small camera on a strap (same outfit in every image unless the scene says otherwise)
+   - Tomás — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; fair skin with rosy cheeks, thin round glasses, short spiky black hair; wearing a dark-green zip jacket, a gray beanie, jeans and boots (same outfit in every image unless the scene says otherwise)
+   - 14-year-old classmates in jackets
+   - Don Arturo, the mountain guide, a friendly man about 55, a wool hat, a striped scarf, a poncho and a weathered smile
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - fog — a thick cloud near the ground that makes it hard to see (niebla)  [<b> en página 1]
+   - viewpoint — a high place with a wide view (mirador)  [<b> en página 1]
+   - valley — low land between mountains (valle)  [<b> en página 1]
+   - guide — a person who shows visitors a place (guía)  [<b> en página 3]
+   - visibility — how far you can see (visibilidad)  [<b> en página 3]
+   - landscape — everything you can see in an area of land (paisaje)  [<b> en página 5]
+   - cloud — a white or gray mass in the sky (nube)  [<b> en página 3]
+   - patience — the ability to wait calmly (paciencia)  [<b> en página 3]
+   - senses — sight, hearing, smell, taste, and touch (sentidos)  [<b> en página 4]
+   - appear — to become visible (aparecer)  [<b> en página 5]
+
+--- week37_grade09_cover.webp ---
+Attached images: STYLE REFERENCES ONLY. They show OTHER students; copy only their art style, rendering, lighting and color palette. Do NOT copy their faces, hair or clothes: the characters below are new people.
+Generate the image now: one vertical 4:5 BOOK COVER illustration.
+STYLE: glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY (for understanding only; never write it in the image): Ninth graders Daniela and Tomás go on a class trip to a mountain viewpoint above Medellín, but thick fog hides the city; the students complain and want to leave, but the guide Don Arturo explains how fog forms and has them use their other senses, and after forty minutes the fog opens like a curtain over the city.
+CHARACTERS (draw exactly like this): Daniela — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; deep-brown skin, a round face and dimples, long straight black hair; wearing a red puffer jacket, a white scarf, jeans and sneakers, a small camera on a strap (same outfit in every image unless the scene says otherwise) | Tomás — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; fair skin with rosy cheeks, thin round glasses, short spiky black hair; wearing a dark-green zip jacket, a gray beanie, jeans and boots (same outfit in every image unless the scene says otherwise) | Don Arturo, the mountain guide, a friendly man about 55, a wool hat, a striped scarf, a poncho and a weathered smile.
+COVER SCENE: In thick white fog at a mountain viewpoint, Daniela and Tomás stand facing the viewer beside Don Arturo, the guide, who holds a hand up to feel the cool air; Daniela holds her camera down with a curious, calm face and Tomás smiles, while pine trees fade into the soft white mist around them.
+COMPOSITION: poster-like book-cover composition: the main characters large in the lower two-thirds, turned toward the viewer with faces clearly visible (unlike the interior pages, which show side-view action); the upper third is a calm, simple area of sky, wall or soft light for the title. This cover must not copy any interior page.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate, school-safe, natural expressions.
+TEXT — the ONLY text allowed: the title "The Place That Disappeared in the Fog" at the top in bold navy, green and orange hand-lettered letters with a soft white glow. At the bottom, two lines of white/pale-yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No subtitles, grade labels, numbers, captions, speech bubbles, logos or watermarks. Any screen, paper or sign in the scene shows only simple icons or blank shapes.
+
+--- week37_grade09_page01.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 1 of the story "The Place That Disappeared in the Fog".
+STYLE: glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Ninth graders Daniela and Tomás go on a class trip to a mountain viewpoint above Medellín, but thick fog hides the city; the students complain and want to leave, but the guide Don Arturo explains how fog forms and has them use their other senses, and after forty minutes the fog opens like a curtain over the city.
+TIME: Saturday at seven thirty in the morning, cold, thick white fog.
+PLACE: a mountain viewpoint above Medellín with a wooden railing, a parked school bus and pine trees.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Daniela — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; deep-brown skin, a round face and dimples, long straight black hair; wearing a red puffer jacket, a white scarf, jeans and sneakers, a small camera on a strap (same outfit in every image unless the scene says otherwise) | Tomás — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; fair skin with rosy cheeks, thin round glasses, short spiky black hair; wearing a dark-green zip jacket, a gray beanie, jeans and boots (same outfit in every image unless the scene says otherwise) | 14-year-old classmates in jackets.
+SCENE (illustrate exactly this moment): On a mountain road above Medellín, a school bus arrives at a viewpoint where students with phones ready step out, but thick white fog covers everything, and Daniela, 14, looks disappointed holding her phone while Tomás, 14, zips his jacket.
+MOOD AND EXPRESSIONS: disappointment; natural, believable body language.
+CAMERA: layered depth composition: a relevant object softly blurred in the foreground, characters in the middle, setting behind.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade09_page02.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 2 of the story "The Place That Disappeared in the Fog".
+STYLE: glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Ninth graders Daniela and Tomás go on a class trip to a mountain viewpoint above Medellín, but thick fog hides the city; the students complain and want to leave, but the guide Don Arturo explains how fog forms and has them use their other senses, and after forty minutes the fog opens like a curtain over the city.
+TIME: Saturday morning, cold fog.
+PLACE: wooden benches at the foggy viewpoint.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Daniela — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; deep-brown skin, a round face and dimples, long straight black hair; wearing a red puffer jacket, a white scarf, jeans and sneakers, a small camera on a strap (same outfit in every image unless the scene says otherwise) | Tomás — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; fair skin with rosy cheeks, thin round glasses, short spiky black hair; wearing a dark-green zip jacket, a gray beanie, jeans and boots (same outfit in every image unless the scene says otherwise) | 14-year-old classmates in jackets.
+SCENE (illustrate exactly this moment): At the foggy viewpoint, several students complain and sit on a wooden bench looking at their phones, one throwing his hands up, while Daniela crosses her arms and Tomás looks out at the white fog curiously.
+MOOD AND EXPRESSIONS: complaints versus curiosity; natural, believable body language.
+CAMERA: medium-wide frontal shot, characters slightly off-center following the rule of thirds, open space around them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade09_page03.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 3 of the story "The Place That Disappeared in the Fog".
+STYLE: glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Ninth graders Daniela and Tomás go on a class trip to a mountain viewpoint above Medellín, but thick fog hides the city; the students complain and want to leave, but the guide Don Arturo explains how fog forms and has them use their other senses, and after forty minutes the fog opens like a curtain over the city.
+TIME: Saturday morning, fog.
+PLACE: near the railing of the viewpoint.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Daniela — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; deep-brown skin, a round face and dimples, long straight black hair; wearing a red puffer jacket, a white scarf, jeans and sneakers, a small camera on a strap (same outfit in every image unless the scene says otherwise) | Tomás — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; fair skin with rosy cheeks, thin round glasses, short spiky black hair; wearing a dark-green zip jacket, a gray beanie, jeans and boots (same outfit in every image unless the scene says otherwise) | 14-year-old classmates in jackets | Don Arturo, the mountain guide, a friendly man about 55, a wool hat, a striped scarf, a poncho and a weathered smile.
+SCENE (illustrate exactly this moment): A friendly mountain guide in his fifties with a wool hat and a scarf gathers the students near the railing, explaining with his hands how warm air and cold air create fog, while Daniela and Tomás listen.
+MOOD AND EXPRESSIONS: learning, fascination; natural, believable body language.
+CAMERA: eye-level medium shot, the main characters in the foreground and the place clearly recognizable behind them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade09_page04.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 4 of the story "The Place That Disappeared in the Fog".
+STYLE: glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Ninth graders Daniela and Tomás go on a class trip to a mountain viewpoint above Medellín, but thick fog hides the city; the students complain and want to leave, but the guide Don Arturo explains how fog forms and has them use their other senses, and after forty minutes the fog opens like a curtain over the city.
+TIME: Saturday morning, soft white fog.
+PLACE: a small clearing at the viewpoint with pine trees and wet grass.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Daniela — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; deep-brown skin, a round face and dimples, long straight black hair; wearing a red puffer jacket, a white scarf, jeans and sneakers, a small camera on a strap (same outfit in every image unless the scene says otherwise) | Tomás — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; fair skin with rosy cheeks, thin round glasses, short spiky black hair; wearing a dark-green zip jacket, a gray beanie, jeans and boots (same outfit in every image unless the scene says otherwise) | 14-year-old classmates in jackets | Don Arturo, the mountain guide, a friendly man about 55, a wool hat, a striped scarf, a poncho and a weathered smile.
+SCENE (illustrate exactly this moment): In the fog, the students stand in a quiet circle with their eyes closed, listening and smelling the air, while Don Arturo guides them; tall pine trees and wet grass are visible close by, and Daniela smiles slightly; Tomás is also there, as described.
+MOOD AND EXPRESSIONS: calm, mindful, peaceful; natural, believable body language.
+CAMERA: wide establishing shot that shows the whole place, characters at full body in the middle ground.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade09_page05.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 5 of the story "The Place That Disappeared in the Fog".
+STYLE: glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Ninth graders Daniela and Tomás go on a class trip to a mountain viewpoint above Medellín, but thick fog hides the city; the students complain and want to leave, but the guide Don Arturo explains how fog forms and has them use their other senses, and after forty minutes the fog opens like a curtain over the city.
+TIME: forty minutes later, the sun breaking through.
+PLACE: the viewpoint railing with the whole valley of Medellín.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Daniela — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; deep-brown skin, a round face and dimples, long straight black hair; wearing a red puffer jacket, a white scarf, jeans and sneakers, a small camera on a strap (same outfit in every image unless the scene says otherwise) | 14-year-old classmates in jackets.
+SCENE (illustrate exactly this moment): The fog slowly opens like a curtain, and the city of Medellín appears below in the valley with buildings shining in the sunlight and green mountains around, while the students point and cheer and Daniela lowers her phone, amazed.
+MOOD AND EXPRESSIONS: amazement, joy; natural, believable body language.
+CAMERA: three-quarter view from a slightly raised camera, showing everyone involved and the key object.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade09_page06.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 6 of the story "The Place That Disappeared in the Fog".
+STYLE: glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Ninth graders Daniela and Tomás go on a class trip to a mountain viewpoint above Medellín, but thick fog hides the city; the students complain and want to leave, but the guide Don Arturo explains how fog forms and has them use their other senses, and after forty minutes the fog opens like a curtain over the city.
+TIME: late morning, clear blue sky.
+PLACE: inside the school bus going down the mountain.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Daniela — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; deep-brown skin, a round face and dimples, long straight black hair; wearing a red puffer jacket, a white scarf, jeans and sneakers, a small camera on a strap (same outfit in every image unless the scene says otherwise) | Tomás — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; fair skin with rosy cheeks, thin round glasses, short spiky black hair; wearing a dark-green zip jacket, a gray beanie, jeans and boots (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): On the bus going back down the mountain, Daniela shows Tomás a single photo of the valley on her phone and talks happily, while through the window the clear valley and blue sky are visible.
+MOOD AND EXPRESSIONS: calm happiness, reflection; natural, believable body language.
+CAMERA: over-the-shoulder view from behind one character, keeping the other faces clearly visible.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+##########################################################################################
+GRADO 10 — "If We Plant Shade, What Changes?" — 10° Grade / B1 Beginner — portada + 7 páginas = 8 imágenes
+##########################################################################################
+EDAD VISUAL OBLIGATORIA: 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face.
+BLOQUE DE ESTILO (fijo en todo el grado): painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere.
+FOTOS BASE DE ESTILO A ADJUNTAR (solo estilo, otros actores): week01_grade10_cover.webp + week01_grade10_page01.webp
+DESDE LA PAGE01: adjuntar también week37_grade10_cover.webp ya generada (fija las caras de esta semana).
+HISTORIA: Every day at 12:30 more than one hundred students wait for buses under the strong sun at the school entrance; tenth grader Juan proposes big trees, Camila asks critical questions, the maintenance worker Don Héctor shows a water pipe below, and after a survey and research they propose a pergola with climbing plants, which the community builds.
+PERSONAJES FIJOS (NUEVOS esta semana; caras distintas a otros grados y semanas):
+   - Juan — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; deep-brown skin, big ears and a friendly grin, straight black hair with a fringe; wearing a white school polo shirt with no logo, gray school trousers, black shoes and a gray backpack (same outfit in every image unless the scene says otherwise)
+   - Camila — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; medium-brown skin, thin round glasses, a long side braid; wearing a white school polo shirt with no logo, a gray pleated school skirt, white socks, black shoes and a red backpack (same outfit in every image unless the scene says otherwise)
+   - students of all ages in white-and-gray school uniforms, from small children to teenagers
+   - the teacher, a man about 40 with glasses and a light-green shirt
+   - Don Héctor, the school maintenance worker, a man about 60, gray hair, a cap and blue overalls
+   - the principal, a woman about 55, short gray hair, glasses and a navy blazer
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - entrance — the door or place where you go in (entrada)  [<b> en página 1]
+   - pergola — a structure with a roof of wood and plants for shade (pérgola)  [<b> en página 3]
+   - survey — a set of questions to learn people’s opinions (encuesta)  [<b> en página 4]
+   - budget — the amount of money available for something (presupuesto)  [<b> en página 5]
+   - maintenance — the work of keeping something in good condition (mantenimiento)  [<b> en página 6]
+   - proposal — a formal plan or suggestion (propuesta)  [<b> en página 2]
+   - climbing plant — a plant that grows up walls or structures (enredadera)  [<b> en página 5]
+   - pipe — a tube that carries water underground (tubería)  [<b> en página 3]
+   - principal — the director of a school (rector)  [<b> en página 2]
+   - benefit — a good result or advantage (beneficio)  [<b> en página 7]
+
+--- week37_grade10_cover.webp ---
+Attached images: STYLE REFERENCES ONLY. They show OTHER students; copy only their art style, rendering, lighting and color palette. Do NOT copy their faces, hair or clothes: the characters below are new people.
+Generate the image now: one vertical 4:5 BOOK COVER illustration.
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY (for understanding only; never write it in the image): Every day at 12:30 more than one hundred students wait for buses under the strong sun at the school entrance; tenth grader Juan proposes big trees, Camila asks critical questions, the maintenance worker Don Héctor shows a water pipe below, and after a survey and research they propose a pergola with climbing plants, which the community builds.
+CHARACTERS (draw exactly like this): Juan — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; deep-brown skin, big ears and a friendly grin, straight black hair with a fringe; wearing a white school polo shirt with no logo, gray school trousers, black shoes and a gray backpack (same outfit in every image unless the scene says otherwise) | Camila — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; medium-brown skin, thin round glasses, a long side braid; wearing a white school polo shirt with no logo, a gray pleated school skirt, white socks, black shoes and a red backpack (same outfit in every image unless the scene says otherwise) | students of all ages in white-and-gray school uniforms, from small children to teenagers.
+COVER SCENE: At the school entrance on a sunny Saturday, Juan and Camila stand facing the viewer under a half-built wooden pergola frame, Juan holding a young climbing plant in a pot and Camila a watering can, one half of the frame in strong sun and the other already in soft green shade, parents and students with tools behind them.
+COMPOSITION: poster-like book-cover composition: the main characters large in the lower two-thirds, turned toward the viewer with faces clearly visible (unlike the interior pages, which show side-view action); the upper third is a calm, simple area of sky, wall or soft light for the title. This cover must not copy any interior page.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate, school-safe, natural expressions.
+TEXT — the ONLY text allowed: the title "If We Plant Shade, What Changes?" at the top in navy and green hand-lettered letters with a golden underline swoosh. At the bottom, two lines of white/pale-yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No subtitles, grade labels, numbers, captions, speech bubbles, logos or watermarks. Any screen, paper or sign in the scene shows only simple icons or blank shapes.
+
+--- week37_grade10_page01.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 1 of the story "If We Plant Shade, What Changes?".
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Every day at 12:30 more than one hundred students wait for buses under the strong sun at the school entrance; tenth grader Juan proposes big trees, Camila asks critical questions, the maintenance worker Don Héctor shows a water pipe below, and after a survey and research they propose a pergola with climbing plants, which the community builds.
+TIME: a weekday at 12:30, strong midday sun with harsh shadows.
+PLACE: the front entrance of a public school in Medellín with a gate, a sidewalk and a bus stop, no trees.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Juan — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; deep-brown skin, big ears and a friendly grin, straight black hair with a fringe; wearing a white school polo shirt with no logo, gray school trousers, black shoes and a gray backpack (same outfit in every image unless the scene says otherwise) | Camila — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; medium-brown skin, thin round glasses, a long side braid; wearing a white school polo shirt with no logo, a gray pleated school skirt, white socks, black shoes and a red backpack (same outfit in every image unless the scene says otherwise) | students of all ages in white-and-gray school uniforms, from small children to teenagers.
+SCENE (illustrate exactly this moment): At the front entrance of a public school in Medellín at midday, dozens of students wait for buses under a strong sun with no shade, covering their heads with notebooks, while Juan, 16, and Camila, 16, stand among them squinting.
+MOOD AND EXPRESSIONS: heat, discomfort, a problem; natural, believable body language.
+CAMERA: medium-wide frontal shot, characters slightly off-center following the rule of thirds, open space around them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade10_page02.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 2 of the story "If We Plant Shade, What Changes?".
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Every day at 12:30 more than one hundred students wait for buses under the strong sun at the school entrance; tenth grader Juan proposes big trees, Camila asks critical questions, the maintenance worker Don Héctor shows a water pipe below, and after a survey and research they propose a pergola with climbing plants, which the community builds.
+TIME: the next morning.
+PLACE: a classroom with Juan's colorful drawing on the board.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Juan — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; deep-brown skin, big ears and a friendly grin, straight black hair with a fringe; wearing a white school polo shirt with no logo, gray school trousers, black shoes and a gray backpack (same outfit in every image unless the scene says otherwise) | Camila — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; medium-brown skin, thin round glasses, a long side braid; wearing a white school polo shirt with no logo, a gray pleated school skirt, white socks, black shoes and a red backpack (same outfit in every image unless the scene says otherwise) | the teacher, a man about 40 with glasses and a light-green shirt.
+SCENE (illustrate exactly this moment): In a classroom, Juan presents a colorful drawing of big trees at the school entrance to his class, while Camila raises her hand with a thoughtful expression and the teacher listens.
+MOOD AND EXPRESSIONS: enthusiasm versus critical thinking; natural, believable body language.
+CAMERA: eye-level medium shot, the main characters in the foreground and the place clearly recognizable behind them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade10_page03.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 3 of the story "If We Plant Shade, What Changes?".
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Every day at 12:30 more than one hundred students wait for buses under the strong sun at the school entrance; tenth grader Juan proposes big trees, Camila asks critical questions, the maintenance worker Don Héctor shows a water pipe below, and after a survey and research they propose a pergola with climbing plants, which the community builds.
+TIME: the same afternoon, sunny.
+PLACE: the school entrance with a small metal cover on the ground.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Juan — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; deep-brown skin, big ears and a friendly grin, straight black hair with a fringe; wearing a white school polo shirt with no logo, gray school trousers, black shoes and a gray backpack (same outfit in every image unless the scene says otherwise) | Camila — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; medium-brown skin, thin round glasses, a long side braid; wearing a white school polo shirt with no logo, a gray pleated school skirt, white socks, black shoes and a red backpack (same outfit in every image unless the scene says otherwise) | Don Héctor, the school maintenance worker, a man about 60, gray hair, a cap and blue overalls.
+SCENE (illustrate exactly this moment): Juan and Camila walk along the school entrance with the school maintenance worker, an older man in overalls who points to a small metal cover on the ground marking underground water pipes.
+MOOD AND EXPRESSIONS: disappointment, new options; natural, believable body language.
+CAMERA: wide establishing shot that shows the whole place, characters at full body in the middle ground.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade10_page04.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 4 of the story "If We Plant Shade, What Changes?".
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Every day at 12:30 more than one hundred students wait for buses under the strong sun at the school entrance; tenth grader Juan proposes big trees, Camila asks critical questions, the maintenance worker Don Héctor shows a water pipe below, and after a survey and research they propose a pergola with climbing plants, which the community builds.
+TIME: the next week at break.
+PLACE: the school courtyard full of students.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Juan — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; deep-brown skin, big ears and a friendly grin, straight black hair with a fringe; wearing a white school polo shirt with no logo, gray school trousers, black shoes and a gray backpack (same outfit in every image unless the scene says otherwise) | Camila — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; medium-brown skin, thin round glasses, a long side braid; wearing a white school polo shirt with no logo, a gray pleated school skirt, white socks, black shoes and a red backpack (same outfit in every image unless the scene says otherwise) | students of all ages in white-and-gray school uniforms, from small children to teenagers.
+SCENE (illustrate exactly this moment): In the school courtyard, Juan and Camila hand out simple paper surveys with smiley and sad face icons to students of different ages, while younger students draw their answers and older students write.
+MOOD AND EXPRESSIONS: participation, energy; natural, believable body language.
+CAMERA: three-quarter view from a slightly raised camera, showing everyone involved and the key object.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade10_page05.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 5 of the story "If We Plant Shade, What Changes?".
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Every day at 12:30 more than one hundred students wait for buses under the strong sun at the school entrance; tenth grader Juan proposes big trees, Camila asks critical questions, the maintenance worker Don Héctor shows a water pipe below, and after a survey and research they propose a pergola with climbing plants, which the community builds.
+TIME: the next afternoon.
+PLACE: a table in the school library with a laptop and a calculator.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Juan — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; deep-brown skin, big ears and a friendly grin, straight black hair with a fringe; wearing a white school polo shirt with no logo, gray school trousers, black shoes and a gray backpack (same outfit in every image unless the scene says otherwise) | Camila — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; medium-brown skin, thin round glasses, a long side braid; wearing a white school polo shirt with no logo, a gray pleated school skirt, white socks, black shoes and a red backpack (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): Juan and Camila sit at a library table with a laptop showing a simple drawing of a wooden pergola covered with green climbing plants and a small price chart with coin icons, Camila calculating with a calculator.
+MOOD AND EXPRESSIONS: research, calculation; natural, believable body language.
+CAMERA: over-the-shoulder view from behind one character, keeping the other faces clearly visible.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade10_page06.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 6 of the story "If We Plant Shade, What Changes?".
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Every day at 12:30 more than one hundred students wait for buses under the strong sun at the school entrance; tenth grader Juan proposes big trees, Camila asks critical questions, the maintenance worker Don Héctor shows a water pipe below, and after a survey and research they propose a pergola with climbing plants, which the community builds.
+TIME: two weeks later, morning.
+PLACE: the principal's office with a desk and bookshelves.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Juan — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; deep-brown skin, big ears and a friendly grin, straight black hair with a fringe; wearing a white school polo shirt with no logo, gray school trousers, black shoes and a gray backpack (same outfit in every image unless the scene says otherwise) | Camila — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; medium-brown skin, thin round glasses, a long side braid; wearing a white school polo shirt with no logo, a gray pleated school skirt, white socks, black shoes and a red backpack (same outfit in every image unless the scene says otherwise) | Don Héctor, the school maintenance worker, a man about 60, gray hair, a cap and blue overalls | the principal, a woman about 55, short gray hair, glasses and a navy blazer.
+SCENE (illustrate exactly this moment): In the principal's office, Juan and Camila present their proposal folder and drawings to the school principal, a woman in her fifties who reads carefully, while the maintenance worker stands beside them nodding.
+MOOD AND EXPRESSIONS: professional presentation, approval; natural, believable body language.
+CAMERA: closer medium shot on faces, hands and the important object, everyone in the scene still visible, background softly blurred.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade10_page07.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 7 of the story "If We Plant Shade, What Changes?".
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Every day at 12:30 more than one hundred students wait for buses under the strong sun at the school entrance; tenth grader Juan proposes big trees, Camila asks critical questions, the maintenance worker Don Héctor shows a water pipe below, and after a survey and research they propose a pergola with climbing plants, which the community builds.
+TIME: four months later, 12:30, bright sun but cool green shade.
+PLACE: the school entrance with the finished wooden pergola.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Juan — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; deep-brown skin, big ears and a friendly grin, straight black hair with a fringe; wearing a white school polo shirt with no logo, gray school trousers, black shoes and a gray backpack (same outfit in every image unless the scene says otherwise) | Camila — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; medium-brown skin, thin round glasses, a long side braid; wearing a white school polo shirt with no logo, a gray pleated school skirt, white socks, black shoes and a red backpack (same outfit in every image unless the scene says otherwise) | students of all ages in white-and-gray school uniforms, from small children to teenagers.
+SCENE (illustrate exactly this moment): Months later, the school entrance has a wooden pergola covered with green climbing plants and purple flowers, casting cool shade on students waiting for buses, while Juan and Camila water the plants with a rain barrel nearby.
+MOOD AND EXPRESSIONS: pride, comfort, success; natural, believable body language.
+CAMERA: eye-level side view, the setting visible behind the characters.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+##########################################################################################
+GRADO 11 — "He Said the Light Was Green" — 11° Grade / B1+ — portada + 8 páginas = 9 imágenes
+##########################################################################################
+EDAD VISUAL OBLIGATORIA: 17 years old, a final-year high-school student (17–18): young-adult look and proportions.
+BLOQUE DE ESTILO (fijo en todo el grado): realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors.
+FOTOS BASE DE ESTILO A ADJUNTAR (solo estilo, otros actores): week01_grade11_cover.webp + week01_grade11_page01.webp
+DESDE LA PAGE01: adjuntar también week37_grade11_cover.webp ya generada (fija las caras de esta semana).
+HISTORIA: Near a university in Medellín, final-year students Valentina and Daniel see a minor accident on the bike lane between a Canadian tourist cyclist and a local pedestrian; the officer needs an interpreter, and Valentina translates both statements exactly, without adding her own opinion, so the truth comes out calmly.
+PERSONAJES FIJOS (NUEVOS esta semana; caras distintas a otros grados y semanas):
+   - Valentina — young woman, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; deep-brown skin, a round face and dimples, straight shoulder-length hair tucked behind the ears; wearing a forest-green bomber jacket, with navy pants (same outfit in every image unless the scene says otherwise)
+   - Daniel — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; golden-tan skin, freckles across the nose, a dark buzz cut; wearing a sky-blue hoodie, with khaki pants (same outfit in every image unless the scene says otherwise)
+   - the Canadian cyclist, a man about 35, short blond hair, a light beard, a blue helmet and a gray sports jacket
+   - the pedestrian, a local woman about 45, wavy dark hair, a purple blouse, holding her elbow, not seriously hurt
+   - the traffic officer, a young man about 28 in a green police uniform with a reflective vest and a notebook
+   - the conversation club teacher, a woman about 50 with gray hair in a bun, and university students of different ages
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - interpreter — a person who translates spoken words (intérprete)  [<b> en página 2]
+   - translate — to change words into another language (traducir)  [<b> en página 4]
+   - cyclist — a person who rides a bicycle (ciclista)  [<b> en página 1]
+   - pedestrian — a person who walks in the street (peatón)  [<b> en página 1]
+   - bike lane — a part of the road only for bicycles (ciclorruta)  [<b> en página 1]
+   - statement — a formal description of what you saw (declaración)  [<b> en página 8]
+   - exactly — with no difference at all (exactamente)  [<b> en página 4]
+   - opinion — what a person thinks about something (opinión)  [<b> en página 7]
+   - accurate — correct and true in every detail (preciso)  [<b> en página 7]
+   - misunderstanding — a situation where people understand something wrongly (malentendido)  [<b> en página 6]
+
+--- week37_grade11_cover.webp ---
+Attached images: STYLE REFERENCES ONLY. They show OTHER students; copy only their art style, rendering, lighting and color palette. Do NOT copy their faces, hair or clothes: the characters below are new people.
+Generate the image now: one vertical 4:5 BOOK COVER illustration.
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY (for understanding only; never write it in the image): Near a university in Medellín, final-year students Valentina and Daniel see a minor accident on the bike lane between a Canadian tourist cyclist and a local pedestrian; the officer needs an interpreter, and Valentina translates both statements exactly, without adding her own opinion, so the truth comes out calmly.
+CHARACTERS (draw exactly like this): Valentina — young woman, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; deep-brown skin, a round face and dimples, straight shoulder-length hair tucked behind the ears; wearing a forest-green bomber jacket, with navy pants (same outfit in every image unless the scene says otherwise) | Daniel — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; golden-tan skin, freckles across the nose, a dark buzz cut; wearing a sky-blue hoodie, with khaki pants (same outfit in every image unless the scene says otherwise) | the Canadian cyclist, a man about 35, short blond hair, a light beard, a blue helmet and a gray sports jacket | the pedestrian, a local woman about 45, wavy dark hair, a purple blouse, holding her elbow, not seriously hurt | the traffic officer, a young man about 28 in a green police uniform with a reflective vest and a notebook.
+COVER SCENE: On a sidewalk next to a green bike lane under tall trees, Valentina stands facing the viewer with calm focus, one hand on her chest and the other open as if translating, while Daniel stands beside her smiling proudly; behind them, softly blurred, the cyclist with his bicycle, the pedestrian woman and the officer wait.
+COMPOSITION: poster-like book-cover composition: the main characters large in the lower two-thirds, turned toward the viewer with faces clearly visible (unlike the interior pages, which show side-view action); the upper third is a calm, simple area of sky, wall or soft light for the title. This cover must not copy any interior page.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate, school-safe, natural expressions.
+TEXT — the ONLY text allowed: the title "He Said the Light Was Green" at the top in navy and green letters with an orange underline. At the bottom, two lines of white/pale-yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No subtitles, grade labels, numbers, captions, speech bubbles, logos or watermarks. Any screen, paper or sign in the scene shows only simple icons or blank shapes.
+
+--- week37_grade11_page01.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 1 of the story "He Said the Light Was Green".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Near a university in Medellín, final-year students Valentina and Daniel see a minor accident on the bike lane between a Canadian tourist cyclist and a local pedestrian; the officer needs an interpreter, and Valentina translates both statements exactly, without adding her own opinion, so the truth comes out calmly.
+TIME: Monday at four in the afternoon, sunny.
+PLACE: a green bike lane near a university campus in Medellín with trees and a sidewalk.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Valentina — young woman, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; deep-brown skin, a round face and dimples, straight shoulder-length hair tucked behind the ears; wearing a forest-green bomber jacket, with navy pants (same outfit in every image unless the scene says otherwise) | Daniel — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; golden-tan skin, freckles across the nose, a dark buzz cut; wearing a sky-blue hoodie, with khaki pants (same outfit in every image unless the scene says otherwise) | the Canadian cyclist, a man about 35, short blond hair, a light beard, a blue helmet and a gray sports jacket | the pedestrian, a local woman about 45, wavy dark hair, a purple blouse, holding her elbow, not seriously hurt.
+SCENE (illustrate exactly this moment): Near a university campus in Medellín, on a green bike lane, a foreign cyclist in his thirties with a helmet sits on the ground next to his bicycle while a local pedestrian woman holds her elbow; Valentina, 17, and Daniel, 17, walk toward them with backpacks.
+MOOD AND EXPRESSIONS: surprise, concern; no serious injuries; natural, believable body language.
+CAMERA: eye-level medium shot, the main characters in the foreground and the place clearly recognizable behind them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade11_page02.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 2 of the story "He Said the Light Was Green".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Near a university in Medellín, final-year students Valentina and Daniel see a minor accident on the bike lane between a Canadian tourist cyclist and a local pedestrian; the officer needs an interpreter, and Valentina translates both statements exactly, without adding her own opinion, so the truth comes out calmly.
+TIME: a few minutes later.
+PLACE: the sidewalk next to the bike lane.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Valentina — young woman, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; deep-brown skin, a round face and dimples, straight shoulder-length hair tucked behind the ears; wearing a forest-green bomber jacket, with navy pants (same outfit in every image unless the scene says otherwise) | Daniel — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; golden-tan skin, freckles across the nose, a dark buzz cut; wearing a sky-blue hoodie, with khaki pants (same outfit in every image unless the scene says otherwise) | the Canadian cyclist, a man about 35, short blond hair, a light beard, a blue helmet and a gray sports jacket | the pedestrian, a local woman about 45, wavy dark hair, a purple blouse, holding her elbow, not seriously hurt | the traffic officer, a young man about 28 in a green police uniform with a reflective vest and a notebook.
+SCENE (illustrate exactly this moment): The traffic officer, a young man in uniform with a notebook, turns to Valentina, who raises her hand nervously, while Daniel stands beside her encouraging her and the cyclist and the pedestrian wait.
+MOOD AND EXPRESSIONS: nervous courage, support; natural, believable body language.
+CAMERA: wide establishing shot that shows the whole place, characters at full body in the middle ground.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade11_page03.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 3 of the story "He Said the Light Was Green".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Near a university in Medellín, final-year students Valentina and Daniel see a minor accident on the bike lane between a Canadian tourist cyclist and a local pedestrian; the officer needs an interpreter, and Valentina translates both statements exactly, without adding her own opinion, so the truth comes out calmly.
+TIME: a few minutes later.
+PLACE: the bike lane.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Valentina — young woman, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; deep-brown skin, a round face and dimples, straight shoulder-length hair tucked behind the ears; wearing a forest-green bomber jacket, with navy pants (same outfit in every image unless the scene says otherwise) | the Canadian cyclist, a man about 35, short blond hair, a light beard, a blue helmet and a gray sports jacket | the traffic officer, a young man about 28 in a green police uniform with a reflective vest and a notebook.
+SCENE (illustrate exactly this moment): Valentina stands between the Canadian cyclist and the officer, listening to the cyclist speak while she holds her hands together in concentration, and the officer writes in his notebook.
+MOOD AND EXPRESSIONS: concentration, precision; natural, believable body language.
+CAMERA: three-quarter view from a slightly raised camera, showing everyone involved and the key object.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade11_page04.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 4 of the story "He Said the Light Was Green".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Near a university in Medellín, final-year students Valentina and Daniel see a minor accident on the bike lane between a Canadian tourist cyclist and a local pedestrian; the officer needs an interpreter, and Valentina translates both statements exactly, without adding her own opinion, so the truth comes out calmly.
+TIME: a few minutes later.
+PLACE: the sidewalk.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Valentina — young woman, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; deep-brown skin, a round face and dimples, straight shoulder-length hair tucked behind the ears; wearing a forest-green bomber jacket, with navy pants (same outfit in every image unless the scene says otherwise) | Daniel — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; golden-tan skin, freckles across the nose, a dark buzz cut; wearing a sky-blue hoodie, with khaki pants (same outfit in every image unless the scene says otherwise) | the Canadian cyclist, a man about 35, short blond hair, a light beard, a blue helmet and a gray sports jacket | the pedestrian, a local woman about 45, wavy dark hair, a purple blouse, holding her elbow, not seriously hurt | the traffic officer, a young man about 28 in a green police uniform with a reflective vest and a notebook.
+SCENE (illustrate exactly this moment): The local pedestrian woman, in her forties, holding her elbow, speaks emotionally to the officer while pointing at the Canadian cyclist, and Valentina listens with a serious face, preparing to translate; Daniel is also there, as described.
+MOOD AND EXPRESSIONS: strong emotion, tension, difficult translation; natural, believable body language.
+CAMERA: over-the-shoulder view from behind one character, keeping the other faces clearly visible.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade11_page05.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 5 of the story "He Said the Light Was Green".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Near a university in Medellín, final-year students Valentina and Daniel see a minor accident on the bike lane between a Canadian tourist cyclist and a local pedestrian; the officer needs an interpreter, and Valentina translates both statements exactly, without adding her own opinion, so the truth comes out calmly.
+TIME: a minute later.
+PLACE: next to the bicycle.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Valentina — young woman, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; deep-brown skin, a round face and dimples, straight shoulder-length hair tucked behind the ears; wearing a forest-green bomber jacket, with navy pants (same outfit in every image unless the scene says otherwise) | the Canadian cyclist, a man about 35, short blond hair, a light beard, a blue helmet and a gray sports jacket | the traffic officer, a young man about 28 in a green police uniform with a reflective vest and a notebook.
+SCENE (illustrate exactly this moment): The Canadian cyclist calmly points at the bell on his bicycle handlebar while the officer leans in to check it, and Valentina stands between them translating with focus.
+MOOD AND EXPRESSIONS: calm explanation, fairness; natural, believable body language.
+CAMERA: closer medium shot on faces, hands and the important object, everyone in the scene still visible, background softly blurred.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade11_page06.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 6 of the story "He Said the Light Was Green".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Near a university in Medellín, final-year students Valentina and Daniel see a minor accident on the bike lane between a Canadian tourist cyclist and a local pedestrian; the officer needs an interpreter, and Valentina translates both statements exactly, without adding her own opinion, so the truth comes out calmly.
+TIME: a minute later.
+PLACE: the sidewalk.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Valentina — young woman, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; deep-brown skin, a round face and dimples, straight shoulder-length hair tucked behind the ears; wearing a forest-green bomber jacket, with navy pants (same outfit in every image unless the scene says otherwise) | the Canadian cyclist, a man about 35, short blond hair, a light beard, a blue helmet and a gray sports jacket | the pedestrian, a local woman about 45, wavy dark hair, a purple blouse, holding her elbow, not seriously hurt | the traffic officer, a young man about 28 in a green police uniform with a reflective vest and a notebook.
+SCENE (illustrate exactly this moment): The pedestrian woman looks down at her phone in her hand, now calmer and a little embarrassed, while the officer waits patiently and Valentina and the cyclist listen quietly.
+MOOD AND EXPRESSIONS: honesty, calm; natural, believable body language.
+CAMERA: eye-level side view, the setting visible behind the characters.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade11_page07.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 7 of the story "He Said the Light Was Green".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Near a university in Medellín, final-year students Valentina and Daniel see a minor accident on the bike lane between a Canadian tourist cyclist and a local pedestrian; the officer needs an interpreter, and Valentina translates both statements exactly, without adding her own opinion, so the truth comes out calmly.
+TIME: a few minutes later.
+PLACE: the sidewalk by the bike lane.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Valentina — young woman, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; deep-brown skin, a round face and dimples, straight shoulder-length hair tucked behind the ears; wearing a forest-green bomber jacket, with navy pants (same outfit in every image unless the scene says otherwise) | Daniel — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; golden-tan skin, freckles across the nose, a dark buzz cut; wearing a sky-blue hoodie, with khaki pants (same outfit in every image unless the scene says otherwise) | the Canadian cyclist, a man about 35, short blond hair, a light beard, a blue helmet and a gray sports jacket | the pedestrian, a local woman about 45, wavy dark hair, a purple blouse, holding her elbow, not seriously hurt.
+SCENE (illustrate exactly this moment): After the officer leaves, the Canadian cyclist thanks Valentina with a smile and a handshake while the pedestrian woman waves goodbye, and Daniel gives Valentina a proud thumbs up on the sidewalk.
+MOOD AND EXPRESSIONS: gratitude, pride; natural, believable body language.
+CAMERA: layered depth composition: a relevant object softly blurred in the foreground, characters in the middle, setting behind.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week37_grade11_page08.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 8 of the story "He Said the Light Was Green".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Near a university in Medellín, final-year students Valentina and Daniel see a minor accident on the bike lane between a Canadian tourist cyclist and a local pedestrian; the officer needs an interpreter, and Valentina translates both statements exactly, without adding her own opinion, so the truth comes out calmly.
+TIME: that evening, warm indoor light.
+PLACE: a university room with a circle of chairs for an English conversation club.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Valentina — young woman, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; deep-brown skin, a round face and dimples, straight shoulder-length hair tucked behind the ears; wearing a forest-green bomber jacket, with navy pants (same outfit in every image unless the scene says otherwise) | Daniel — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; golden-tan skin, freckles across the nose, a dark buzz cut; wearing a sky-blue hoodie, with khaki pants (same outfit in every image unless the scene says otherwise) | the conversation club teacher, a woman about 50 with gray hair in a bun, and university students of different ages.
+SCENE (illustrate exactly this moment): At the English conversation club in a university room, Valentina tells the story to a group of students and a teacher in a circle of chairs, while Daniel sits next to her and the group listens with interest.
+MOOD AND EXPRESSIONS: sharing, reflection; natural, believable body language.
+CAMERA: medium-wide frontal shot, characters slightly off-center following the rule of thirds, open space around them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+==========================================================================================
+FIN. Total: 6 portadas + 36 páginas = 42 imágenes.

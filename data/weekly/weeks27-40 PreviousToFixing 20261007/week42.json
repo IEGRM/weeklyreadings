@@ -1,0 +1,1746 @@
+{
+  "week": 42,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 42",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "Why We Wear The Helmet",
+      "minimumWordTarget": 350,
+      "wordCount": 420,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week42_grade06_page01.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “Why We Wear The Helmet”, page 1. Scene based on: Laura is 11 years old and studies in Medellín. One ordinary day at a public school in Medellín, a situation involving a safety rule begins to change the plans for the afternoon. Tomás is nearby and notices that Laura is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura is 11 years old and studies in Medellín. One ordinary day at a public school in Medellín, a situation involving a safety rule begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Tomás is nearby and notices that Laura is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about prevention, evidence and responsibility."
+            },
+            {
+              "html": "Laura does not want to wear the <b>helmet</b>."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "You only have one <b>head</b>."
+            },
+            {
+              "html": "There is <b>danger</b> on the steep road."
+            }
+          ],
+          "wordCount": 106
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week42_grade06_page02.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “Why We Wear The Helmet”, page 2. Scene based on: The situation becomes harder when a rule seems annoying until its purpose becomes clear. Laura feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a rule seems annoying until its purpose becomes clear. Laura feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Tomás suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "The <b>rule</b> seems annoying at first."
+            },
+            {
+              "html": "Tomás reminds Laura that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Laura listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "The helmet keeps your head <b>safe</b>."
+            },
+            {
+              "html": "A small <b>fall</b> can be dangerous."
+            },
+            {
+              "html": "Rules exist to <b>protect</b> people."
+            }
+          ],
+          "wordCount": 107
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week42_grade06_page03.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “Why We Wear The Helmet”, page 3. Scene based on: Laura decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Tomás explains that being responsible is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "Laura rides a <b>bike</b> to the park."
+            },
+            {
+              "html": "By the end of the day, the immediate problem has a result. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Laura feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "Tomás is always <b>careful</b>."
+            }
+          ],
+          "wordCount": 114
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week42_grade06_page04.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “Why We Wear The Helmet”, page 4. Scene based on: At home, Laura thinks about what could have happened if the group had reacted without checking anything. The student writes a short reflection: a responsible choice is not always the fastest or most popular choice. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At home, Laura thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "The student writes a short reflection: a responsible choice is not always the fastest or most popular choice."
+            },
+            {
+              "html": "Next time, Laura plans to ask a clearer question, confirm important information, and explain the reason for the decision."
+            },
+            {
+              "html": "The experience becomes part of how Laura understands school, family, technology, travel, and life in a larger world."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Everyone must <b>wear</b> protection."
+            }
+          ],
+          "wordCount": 93
+        }
+      ],
+      "practiceWords": [
+        "helmet",
+        "rule",
+        "safe",
+        "bike",
+        "head",
+        "fall",
+        "careful",
+        "wear",
+        "danger",
+        "protect"
+      ],
+      "vocabulary": [
+        {
+          "word": "helmet",
+          "definition": "a hard hat for protection (casco)"
+        },
+        {
+          "word": "rule",
+          "definition": "something you must follow (regla)"
+        },
+        {
+          "word": "safe",
+          "definition": "protected from danger (seguro)"
+        },
+        {
+          "word": "bike",
+          "definition": "a bicycle (bicicleta)"
+        },
+        {
+          "word": "head",
+          "definition": "the top part of the body (cabeza)"
+        },
+        {
+          "word": "fall",
+          "definition": "to go down suddenly (caer)"
+        },
+        {
+          "word": "careful",
+          "definition": "paying attention to avoid danger (cuidadoso)"
+        },
+        {
+          "word": "wear",
+          "definition": "to have clothes or objects on your body (usar, llevar puesto)"
+        },
+        {
+          "word": "danger",
+          "definition": "the possibility of harm (peligro)"
+        },
+        {
+          "word": "protect",
+          "definition": "to keep safe (proteger)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "According to the text, what is the problem really about?",
+          "options": [
+            "Prevention, evidence and responsibility",
+            "Needs, wants and financial judgment",
+            "Reflection, goals and informed choices",
+            "Identity, comparison and respect"
+          ],
+          "answer": "Prevention, evidence and responsibility"
+        },
+        {
+          "skill": "sequence",
+          "question": "Choose the correct order of events in the story.",
+          "options": [
+            "notices the problem → takes a small action → reflects at home → hears different versions",
+            "hears different versions → notices the problem → reflects at home → takes a small action",
+            "takes a small action → notices the problem → hears different versions → reflects at home",
+            "notices the problem → hears different versions → takes a small action → reflects at home"
+          ],
+          "answer": "notices the problem → hears different versions → takes a small action → reflects at home"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Complete the sentence from the text: “Laura rides a _____ to the park.”",
+          "options": [
+            "rule",
+            "bike",
+            "head",
+            "safe"
+          ],
+          "answer": "bike"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which sentence best expresses the main lesson of the text?",
+          "options": [
+            "Good decisions come from evidence, not from pressure.",
+            "Popular opinions are usually correct.",
+            "It is better to stay silent when there is a problem.",
+            "The fastest reaction is always the best one."
+          ],
+          "answer": "Good decisions come from evidence, not from pressure."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why does Laura listen carefully before answering?",
+          "options": [
+            "Because one missing detail can change the meaning of the situation.",
+            "Because she does not understand Spanish.",
+            "Because the teacher prohibits talking.",
+            "Because nobody else is paying attention."
+          ],
+          "answer": "Because one missing detail can change the meaning of the situation."
+        }
+      ],
+      "cover": "../assets/images/week42_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "The Rule Before The Hike",
+      "minimumWordTarget": 400,
+      "wordCount": 484,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week42_grade07_page01.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Rule Before The Hike”, page 1. Scene based on: Nicolás is 12 years old and studies in Medellín. One ordinary day at a neighborhood in Manrique, a situation involving a safety rule begins to change the plans for the afternoon. Paula is nearby and notices that Nicolás is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Nicolás is 12 years old and studies in Medellín. One ordinary day at a neighborhood in Manrique, a situation involving a safety rule begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Paula is nearby and notices that Nicolás is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about prevention, evidence and responsibility."
+            },
+            {
+              "html": "Nicolás does not want to wear the <b>helmet</b>."
+            },
+            {
+              "html": "Paula reminds Nicolás that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "The <b>rule</b> seems annoying at first."
+            },
+            {
+              "html": "Everyone must <b>wear</b> protection."
+            }
+          ],
+          "wordCount": 100
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week42_grade07_page02.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Rule Before The Hike”, page 2. Scene based on: The situation becomes harder when a rule seems annoying until its purpose becomes clear. Nicolás feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a rule seems annoying until its purpose becomes clear. Nicolás feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Paula suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "The helmet keeps your head <b>safe</b>."
+            },
+            {
+              "html": "Nicolás listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "Nicolás rides a <b>bike</b> to the park."
+            },
+            {
+              "html": "There is <b>danger</b> on the steep road."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week42_grade07_page03.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Rule Before The Hike”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Nicolás has to think about the first idea again. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Nicolás has to think about the first idea again."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "You only have one <b>head</b>."
+            },
+            {
+              "html": "Rules exist to <b>protect</b> people."
+            }
+          ],
+          "wordCount": 105
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week42_grade07_page04.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Rule Before The Hike”, page 4. Scene based on: Nicolás decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Nicolás decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Paula explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "“Did you visit this place before?” one friend asks."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "A small <b>fall</b> can be dangerous."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week42_grade07_page05.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Rule Before The Hike”, page 5. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Nicolás feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Nicolás feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about prevention, evidence and responsibility."
+            },
+            {
+              "html": "At home, Nicolás thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "Paula is always <b>careful</b>."
+            }
+          ],
+          "wordCount": 99
+        }
+      ],
+      "practiceWords": [
+        "helmet",
+        "rule",
+        "safe",
+        "bike",
+        "head",
+        "fall",
+        "careful",
+        "wear",
+        "danger",
+        "protect"
+      ],
+      "vocabulary": [
+        {
+          "word": "helmet",
+          "definition": "a hard hat for protection (casco)"
+        },
+        {
+          "word": "rule",
+          "definition": "something you must follow (regla)"
+        },
+        {
+          "word": "safe",
+          "definition": "protected from danger (seguro)"
+        },
+        {
+          "word": "bike",
+          "definition": "a bicycle (bicicleta)"
+        },
+        {
+          "word": "head",
+          "definition": "the top part of the body (cabeza)"
+        },
+        {
+          "word": "fall",
+          "definition": "to go down suddenly (caer)"
+        },
+        {
+          "word": "careful",
+          "definition": "paying attention to avoid danger (cuidadoso)"
+        },
+        {
+          "word": "wear",
+          "definition": "to have clothes or objects on your body (usar, llevar puesto)"
+        },
+        {
+          "word": "danger",
+          "definition": "the possibility of harm (peligro)"
+        },
+        {
+          "word": "protect",
+          "definition": "to keep safe (proteger)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "According to the text, where does Nicolás's situation begin?",
+          "options": [
+            "A small family apartment",
+            "A bus stop after school",
+            "A public school in Medellín",
+            "A neighborhood in Manrique"
+          ],
+          "answer": "A neighborhood in Manrique"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "Why does Nicolás feel more confident at the end?",
+          "options": [
+            "Because the problem was never real.",
+            "Because the decision came from evidence rather than pressure.",
+            "Because everybody agreed from the beginning.",
+            "Because Paula made the decision for him."
+          ],
+          "answer": "Because the decision came from evidence rather than pressure."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which option is the best summary of the text?",
+          "options": [
+            "Nicolás skips the safety check and the problem disappears.",
+            "Paula solves the problem alone while Nicolás watches.",
+            "Nicolás and Paula travel to New York to solve the problem.",
+            "Nicolás faces a problem because a rule seems annoying until its purpose becomes clear, checks the facts with Paula and makes a responsible decision."
+          ],
+          "answer": "Nicolás faces a problem because a rule seems annoying until its purpose becomes clear, checks the facts with Paula and makes a responsible decision."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Which action would go AGAINST what Nicolás learns in the story?",
+          "options": [
+            "Verifying a detail first.",
+            "Asking a clear question.",
+            "Explaining the reason for a decision.",
+            "Laughing at the safety rules without thinking."
+          ],
+          "answer": "Laughing at the safety rules without thinking."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read this sentence from page 3: “Rules exist to protect people.” In this sentence, the word “protect” means…",
+          "options": [
+            "the top part of the body",
+            "the possibility of harm",
+            "to keep safe",
+            "paying attention to avoid danger"
+          ],
+          "answer": "to keep safe"
+        }
+      ],
+      "cover": "../assets/images/week42_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "The Safety Check Before The Game",
+      "minimumWordTarget": 450,
+      "wordCount": 495,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week42_grade08_page01.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Safety Check Before The Game”, page 1. Scene based on: Samuel is 13 years old and studies in Medellín. One ordinary day at the Medellín Metro, a situation involving a safety rule begins to change the plans for the afternoon. Kevin is nearby and notices that Samuel is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Samuel is 13 years old and studies in Medellín. One ordinary day at the Medellín Metro, a situation involving a safety rule begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Kevin is nearby and notices that Samuel is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about prevention, evidence and responsibility."
+            },
+            {
+              "html": "The coach talks about <b>safety</b> before the hike."
+            },
+            {
+              "html": "The checklist feels <b>annoying</b>."
+            },
+            {
+              "html": "It is wise to <b>follow</b> safety rules."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week42_grade08_page02.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Safety Check Before The Game”, page 2. Scene based on: The situation becomes harder when a rule seems annoying until its purpose becomes clear. Samuel feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a rule seems annoying until its purpose becomes clear. Samuel feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Kevin suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "They are going to compare prices before the next purchase."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Samuel finally understands the <b>purpose</b> of the rule."
+            },
+            {
+              "html": "They check the <b>equipment</b> carefully."
+            },
+            {
+              "html": "Every activity has some <b>risk</b>."
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week42_grade08_page03.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Safety Check Before The Game”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Samuel has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Samuel has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Kevin reads the <b>instructions</b> aloud."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week42_grade08_page04.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Safety Check Before The Game”, page 4. Scene based on: Samuel decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Samuel decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Kevin explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "The helmet prevented a serious <b>injury</b>."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "They <b>check</b> the ropes before climbing."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week42_grade08_page05.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Safety Check Before The Game”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in Queens, New York. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in Queens, New York."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Samuel realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            }
+          ],
+          "wordCount": 78
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week42_grade08_page06.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Safety Check Before The Game”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Samuel feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "An <b>accident</b> can happen to anyone."
+            },
+            {
+              "html": "Samuel feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about prevention, evidence and responsibility."
+            },
+            {
+              "html": "At home, Samuel thinks about what could have happened if the group had reacted without checking anything."
+            }
+          ],
+          "wordCount": 69
+        }
+      ],
+      "practiceWords": [
+        "safety",
+        "annoying",
+        "purpose",
+        "equipment",
+        "injury",
+        "check",
+        "accident",
+        "follow",
+        "risk",
+        "instructions"
+      ],
+      "vocabulary": [
+        {
+          "word": "safety",
+          "definition": "being safe (seguridad)"
+        },
+        {
+          "word": "annoying",
+          "definition": "making you a little angry (molesto, fastidioso)"
+        },
+        {
+          "word": "purpose",
+          "definition": "the reason for something (propósito)"
+        },
+        {
+          "word": "equipment",
+          "definition": "tools or things needed for an activity (equipo)"
+        },
+        {
+          "word": "injury",
+          "definition": "damage to the body (lesión)"
+        },
+        {
+          "word": "check",
+          "definition": "to look carefully (revisar)"
+        },
+        {
+          "word": "accident",
+          "definition": "something bad that happens by chance (accidente)"
+        },
+        {
+          "word": "follow",
+          "definition": "to obey (seguir)"
+        },
+        {
+          "word": "risk",
+          "definition": "the chance of something bad (riesgo)"
+        },
+        {
+          "word": "instructions",
+          "definition": "information about how to do something (instrucciones)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What makes the situation harder for Samuel?",
+          "options": [
+            "A student hides a physical problem during an activity",
+            "Progress is slower than expected",
+            "A rule seems annoying until its purpose becomes clear",
+            "A student must choose how to use limited savings"
+          ],
+          "answer": "A rule seems annoying until its purpose becomes clear"
+        },
+        {
+          "skill": "inference",
+          "question": "Which action would go AGAINST what Samuel learns in the story?",
+          "options": [
+            "Asking a clear question.",
+            "Laughing at the safety rules without thinking.",
+            "Verifying a detail first.",
+            "Explaining the reason for a decision."
+          ],
+          "answer": "Laughing at the safety rules without thinking."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the example from Queens, New York?",
+          "options": [
+            "To advertise a trip to the United States.",
+            "To show that a similar problem can appear in different places.",
+            "To change the topic of the story completely.",
+            "To prove that New York is better than Medellín."
+          ],
+          "answer": "To show that a similar problem can appear in different places."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which could be another good title for the text?",
+          "options": [
+            "“When Home Needs You”",
+            "“Slow Progress Is Still Progress”",
+            "“Evidence Before Accusations”",
+            "“Rules That Protect Us”"
+          ],
+          "answer": "“Rules That Protect Us”"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Complete the sentence from the text: “They _____ the ropes before climbing.”",
+          "options": [
+            "risk",
+            "purpose",
+            "annoying",
+            "check"
+          ],
+          "answer": "check"
+        }
+      ],
+      "cover": "../assets/images/week42_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "The Warning We Almost Ignored",
+      "minimumWordTarget": 500,
+      "wordCount": 576,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week42_grade09_page01.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Warning We Almost Ignored”, page 1. Scene based on: Andrés is 14 years old and studies in Medellín. One ordinary day at a library near the school, a situation involving a safety rule begins to change the plans for the afternoon. Valeria is nearby and notices that Andrés is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Andrés is 14 years old and studies in Medellín. One ordinary day at a library near the school, a situation involving a safety rule begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Valeria is nearby and notices that Andrés is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about prevention, evidence and responsibility."
+            },
+            {
+              "html": "The coach talks about <b>safety</b> before the hike."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "The checklist feels <b>annoying</b>."
+            },
+            {
+              "html": "Valeria reads the <b>instructions</b> aloud."
+            }
+          ],
+          "wordCount": 100
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week42_grade09_page02.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Warning We Almost Ignored”, page 2. Scene based on: The situation becomes harder when a rule seems annoying until its purpose becomes clear. Andrés feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a rule seems annoying until its purpose becomes clear. Andrés feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Valeria suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "Andrés finally understands the <b>purpose</b> of the rule."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "They check the <b>equipment</b> carefully."
+            }
+          ],
+          "wordCount": 104
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week42_grade09_page03.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Warning We Almost Ignored”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Andrés has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Andrés has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "The helmet prevented a serious <b>injury</b>."
+            }
+          ],
+          "wordCount": 102
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week42_grade09_page04.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Warning We Almost Ignored”, page 4. Scene based on: Andrés decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Andrés decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Valeria explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "They <b>check</b> the ropes before climbing."
+            },
+            {
+              "html": "Valeria reminds Andrés that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "An <b>accident</b> can happen to anyone."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week42_grade09_page05.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Warning We Almost Ignored”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in Brooklyn, New York. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in Brooklyn, New York."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Andrés realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "It is wise to <b>follow</b> safety rules."
+            },
+            {
+              "html": "Andrés listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "Every activity has some <b>risk</b>."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week42_grade09_page06.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Warning We Almost Ignored”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Andrés feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Andrés feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about prevention, evidence and responsibility."
+            },
+            {
+              "html": "At home, Andrés thinks about what could have happened if the group had reacted without checking anything."
+            }
+          ],
+          "wordCount": 95
+        }
+      ],
+      "practiceWords": [
+        "safety",
+        "annoying",
+        "purpose",
+        "equipment",
+        "injury",
+        "check",
+        "accident",
+        "follow",
+        "risk",
+        "instructions"
+      ],
+      "vocabulary": [
+        {
+          "word": "safety",
+          "definition": "being safe (seguridad)"
+        },
+        {
+          "word": "annoying",
+          "definition": "making you a little angry (molesto, fastidioso)"
+        },
+        {
+          "word": "purpose",
+          "definition": "the reason for something (propósito)"
+        },
+        {
+          "word": "equipment",
+          "definition": "tools or things needed for an activity (equipo)"
+        },
+        {
+          "word": "injury",
+          "definition": "damage to the body (lesión)"
+        },
+        {
+          "word": "check",
+          "definition": "to look carefully (revisar)"
+        },
+        {
+          "word": "accident",
+          "definition": "something bad that happens by chance (accidente)"
+        },
+        {
+          "word": "follow",
+          "definition": "to obey (seguir)"
+        },
+        {
+          "word": "risk",
+          "definition": "the chance of something bad (riesgo)"
+        },
+        {
+          "word": "instructions",
+          "definition": "information about how to do something (instrucciones)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Which statement is TRUE according to the text?",
+          "options": [
+            "Andrés removes the helmet when nobody is watching.",
+            "Valeria suggests checking the information before blaming anyone.",
+            "Valeria wants Andrés to react immediately.",
+            "The students have all the facts from the beginning."
+          ],
+          "answer": "Valeria suggests checking the information before blaming anyone."
+        },
+        {
+          "skill": "inference",
+          "question": "Imagine you are in Andrés's situation. Which action follows the message of the text?",
+          "options": [
+            "Laugh at the safety rules.",
+            "Follow the safety rule and understand its purpose.",
+            "Skip the safety check.",
+            "Remove the helmet when nobody is watching."
+          ],
+          "answer": "Follow the safety rule and understand its purpose."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In “Instead of having all the facts, the students hear different versions of what happened,” the expression “instead of” shows that…",
+          "options": [
+            "the students have all the information they need",
+            "the versions are all exactly the same",
+            "the students get rumors in place of complete information",
+            "the facts arrive after a long time"
+          ],
+          "answer": "the students get rumors in place of complete information"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which option is the best summary of the text?",
+          "options": [
+            "Andrés skips the safety check and the problem disappears.",
+            "Valeria solves the problem alone while Andrés watches.",
+            "Andrés and Valeria travel to New York to solve the problem.",
+            "Andrés faces a problem because a rule seems annoying until its purpose becomes clear, checks the facts with Valeria and makes a responsible decision."
+          ],
+          "answer": "Andrés faces a problem because a rule seems annoying until its purpose becomes clear, checks the facts with Valeria and makes a responsible decision."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Which word from the text means “to look carefully”?",
+          "options": [
+            "risk",
+            "equipment",
+            "check",
+            "accident"
+          ],
+          "answer": "check"
+        }
+      ],
+      "cover": "../assets/images/week42_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "The Rule That Prevented A Bigger Problem",
+      "minimumWordTarget": 600,
+      "wordCount": 668,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week42_grade10_page01.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Rule That Prevented A Bigger Problem”, page 1. Scene based on: Laura is 15–16 years old and studies in Medellín. One ordinary day at a sports court on a Medellín hillside, a situation involving a safety rule begins to change the plans for the afternoon. Kevin is nearby and notices that Laura is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura is 15–16 years old and studies in Medellín. One ordinary day at a sports court on a Medellín hillside, a situation involving a safety rule begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Kevin is nearby and notices that Laura is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about prevention, evidence and responsibility."
+            },
+            {
+              "html": "<b>Prevention</b> is cheaper than treatment."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "The safety check is <b>mandatory</b>."
+            }
+          ],
+          "wordCount": 99
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week42_grade10_page02.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Rule That Prevented A Bigger Problem”, page 2. Scene based on: The situation becomes harder when a rule seems annoying until its purpose becomes clear. Laura feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a rule seems annoying until its purpose becomes clear. Laura feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Kevin suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "If people check reliable information, they usually make safer decisions."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Kevin reminds Laura that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "A rule can be <b>inconvenient</b> and still necessary."
+            }
+          ],
+          "wordCount": 105
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week42_grade10_page03.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Rule That Prevented A Bigger Problem”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Laura has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Laura has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Kevin reminds Laura that asking for help can be a responsible decision when the situation is unclear."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week42_grade10_page04.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Rule That Prevented A Bigger Problem”, page 4. Scene based on: Laura decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Kevin explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "Full <b>compliance</b> keeps the team safe."
+            },
+            {
+              "html": "A safety check is a basic <b>precaution</b>."
+            },
+            {
+              "html": "The <b>regulation</b> was written after a real accident."
+            }
+          ],
+          "wordCount": 78
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week42_grade10_page05.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Rule That Prevented A Bigger Problem”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in a subway station in Manhattan. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in a subway station in Manhattan."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Laura realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "<b>Negligence</b> can have serious consequences."
+            }
+          ],
+          "wordCount": 102
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week42_grade10_page06.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Rule That Prevented A Bigger Problem”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Laura feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The coach uses data to <b>justify</b> the rule."
+            },
+            {
+              "html": "Laura feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about prevention, evidence and responsibility."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "Loose rocks are a <b>hazard</b> on the trail."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week42_grade10_page07.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Rule That Prevented A Bigger Problem”, page 7. Scene based on: The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another. They also discuss the author’s purpose and decide which detail best supports the final lesson. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another."
+            },
+            {
+              "html": "They also discuss the author’s purpose and decide which detail best supports the final lesson."
+            },
+            {
+              "html": "Laura notices that strong reading is not only translating words. It means connecting evidence, sequence, intention, and consequences."
+            },
+            {
+              "html": "That habit will be useful in future exams because a difficult question often depends on a small but meaningful detail."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "<b>Statistics</b> show how many injuries helmets prevent."
+            }
+          ],
+          "wordCount": 108
+        }
+      ],
+      "practiceWords": [
+        "prevention",
+        "compliance",
+        "precaution",
+        "regulation",
+        "negligence",
+        "justify",
+        "hazard",
+        "statistics",
+        "mandatory",
+        "inconvenient"
+      ],
+      "vocabulary": [
+        {
+          "word": "prevention",
+          "definition": "stopping something before it happens (prevención)"
+        },
+        {
+          "word": "compliance",
+          "definition": "following rules (cumplimiento)"
+        },
+        {
+          "word": "precaution",
+          "definition": "an action to avoid danger (precaución)"
+        },
+        {
+          "word": "regulation",
+          "definition": "an official rule (reglamento)"
+        },
+        {
+          "word": "negligence",
+          "definition": "lack of proper care (negligencia)"
+        },
+        {
+          "word": "justify",
+          "definition": "to give a good reason for something (justificar)"
+        },
+        {
+          "word": "hazard",
+          "definition": "a danger (peligro)"
+        },
+        {
+          "word": "statistics",
+          "definition": "numbers that show facts (estadísticas)"
+        },
+        {
+          "word": "mandatory",
+          "definition": "required by a rule (obligatorio)"
+        },
+        {
+          "word": "inconvenient",
+          "definition": "causing small problems (inconveniente, incómodo)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "According to the text, where does Laura's situation begin?",
+          "options": [
+            "The Medellín Metro",
+            "A community center",
+            "A sports court on a Medellín hillside",
+            "A bus stop after school"
+          ],
+          "answer": "A sports court on a Medellín hillside"
+        },
+        {
+          "skill": "inference",
+          "question": "What can be inferred about Kevin?",
+          "options": [
+            "He is not interested in the problem.",
+            "He wants Laura to react as fast as possible.",
+            "He created the problem on purpose.",
+            "He helps Laura think carefully before acting."
+          ],
+          "answer": "He helps Laura think carefully before acting."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the example from a subway station in Manhattan?",
+          "options": [
+            "To change the topic of the story completely.",
+            "To prove that New York is better than Medellín.",
+            "To advertise a trip to the United States.",
+            "To show that a similar problem can appear in different places."
+          ],
+          "answer": "To show that a similar problem can appear in different places."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In “…another clue points in a different direction, so Laura has to reconsider the first assumption,” the word “so” introduces…",
+          "options": [
+            "a contrast",
+            "a result",
+            "an example",
+            "a condition"
+          ],
+          "answer": "a result"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which could be another good title for the text?",
+          "options": [
+            "“When Plans Change, Talk First”",
+            "“What A Photo Remembers”",
+            "“Ready To Go Alone”",
+            "“Rules That Protect Us”"
+          ],
+          "answer": "“Rules That Protect Us”"
+        }
+      ],
+      "cover": "../assets/images/week42_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "The Rule We Complained About",
+      "minimumWordTarget": 700,
+      "wordCount": 794,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week42_grade11_page01.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Rule We Complained About”, page 1. Scene based on: Valentina is 17–18 years old and studies in Medellín. One ordinary day at a small family apartment, a situation involving a safety rule begins to change the plans for the afternoon. Samuel is nearby and notices that Valentina is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina is 17–18 years old and studies in Medellín. One ordinary day at a small family apartment, a situation involving a safety rule begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Samuel is nearby and notices that Valentina is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about prevention, evidence and responsibility."
+            },
+            {
+              "html": "<b>Prevention</b> is cheaper than treatment."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "A rule can be <b>inconvenient</b> and still necessary."
+            }
+          ],
+          "wordCount": 98
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week42_grade11_page02.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Rule We Complained About”, page 2. Scene based on: The situation becomes harder when a rule seems annoying until its purpose becomes clear. Valentina feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a rule seems annoying until its purpose becomes clear. Valentina feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Samuel suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "Full <b>compliance</b> keeps the team safe."
+            },
+            {
+              "html": "Samuel reminds Valentina that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Valentina listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "A safety check is a basic <b>precaution</b>."
+            }
+          ],
+          "wordCount": 97
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week42_grade11_page03.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Rule We Complained About”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Valentina has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Valentina has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Valentina listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week42_grade11_page04.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Rule We Complained About”, page 4. Scene based on: Valentina decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Samuel explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "The <b>regulation</b> was written after a real accident."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            }
+          ],
+          "wordCount": 103
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week42_grade11_page05.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Rule We Complained About”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in a youth exchange in New York City. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in a youth exchange in New York City."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Valentina realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "<b>Negligence</b> can have serious consequences."
+            }
+          ],
+          "wordCount": 108
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week42_grade11_page06.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Rule We Complained About”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Valentina feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Valentina feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about prevention, evidence and responsibility."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "The coach uses data to <b>justify</b> the rule."
+            }
+          ],
+          "wordCount": 106
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week42_grade11_page07.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Rule We Complained About”, page 7. Scene based on: At home, Valentina thinks about what could have happened if the group had reacted without checking anything. The student writes a short reflection: a responsible choice is not always the fastest or most popular choice. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At home, Valentina thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "Loose rocks are a <b>hazard</b> on the trail."
+            },
+            {
+              "html": "Next time, Valentina plans to ask a clearer question, confirm important information, and explain the reason for the decision."
+            },
+            {
+              "html": "The experience becomes part of how Valentina understands school, family, technology, travel, and life in a larger world."
+            },
+            {
+              "html": "Samuel reminds Valentina that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "<b>Statistics</b> show how many injuries helmets prevent."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week42_grade11_page08.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Rule We Complained About”, page 8. Scene based on: The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another. They also discuss the author’s purpose and decide which detail best supports the final lesson. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another."
+            },
+            {
+              "html": "They also discuss the author’s purpose and decide which detail best supports the final lesson."
+            },
+            {
+              "html": "Valentina notices that strong reading is not only translating words. It means connecting evidence, sequence, intention, and consequences."
+            },
+            {
+              "html": "That habit will be useful in future exams because a difficult question often depends on a small but meaningful detail."
+            },
+            {
+              "html": "Valentina listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "The safety check is <b>mandatory</b>."
+            }
+          ],
+          "wordCount": 103
+        }
+      ],
+      "practiceWords": [
+        "prevention",
+        "compliance",
+        "precaution",
+        "regulation",
+        "negligence",
+        "justify",
+        "hazard",
+        "statistics",
+        "mandatory",
+        "inconvenient"
+      ],
+      "vocabulary": [
+        {
+          "word": "prevention",
+          "definition": "stopping something before it happens (prevención)"
+        },
+        {
+          "word": "compliance",
+          "definition": "following rules (cumplimiento)"
+        },
+        {
+          "word": "precaution",
+          "definition": "an action to avoid danger (precaución)"
+        },
+        {
+          "word": "regulation",
+          "definition": "an official rule (reglamento)"
+        },
+        {
+          "word": "negligence",
+          "definition": "lack of proper care (negligencia)"
+        },
+        {
+          "word": "justify",
+          "definition": "to give a good reason for something (justificar)"
+        },
+        {
+          "word": "hazard",
+          "definition": "a danger (peligro)"
+        },
+        {
+          "word": "statistics",
+          "definition": "numbers that show facts (estadísticas)"
+        },
+        {
+          "word": "mandatory",
+          "definition": "required by a rule (obligatorio)"
+        },
+        {
+          "word": "inconvenient",
+          "definition": "causing small problems (inconveniente, incómodo)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "Based on the text, what will Valentina probably do in a similar situation in the future?",
+          "options": [
+            "React immediately without asking anyone.",
+            "Remove the helmet when nobody is watching.",
+            "Ask a clearer question and confirm important information first.",
+            "Avoid all situations with other people."
+          ],
+          "answer": "Ask a clearer question and confirm important information first."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In “…another clue points in a different direction, so Valentina has to reconsider the first assumption,” the word “so” introduces…",
+          "options": [
+            "a contrast",
+            "an example",
+            "a result",
+            "a condition"
+          ],
+          "answer": "a result"
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author end the story with a reading challenge in class?",
+          "options": [
+            "To explain the rules of a sports competition.",
+            "To show that the problem was not important.",
+            "To connect the experience with reading skills like main idea and fact versus assumption.",
+            "To describe the school building."
+          ],
+          "answer": "To connect the experience with reading skills like main idea and fact versus assumption."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Which word from the text means “numbers that show facts”?",
+          "options": [
+            "regulation",
+            "statistics",
+            "precaution",
+            "mandatory"
+          ],
+          "answer": "statistics"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which option is the best summary of the text?",
+          "options": [
+            "Samuel solves the problem alone while Valentina watches.",
+            "Valentina faces a problem because a rule seems annoying until its purpose becomes clear, checks the facts with Samuel and makes a responsible decision.",
+            "Valentina skips the safety check and the problem disappears.",
+            "Valentina and Samuel travel to New York to solve the problem."
+          ],
+          "answer": "Valentina faces a problem because a rule seems annoying until its purpose becomes clear, checks the facts with Samuel and makes a responsible decision."
+        }
+      ],
+      "cover": "../assets/images/week42_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

@@ -1,0 +1,2265 @@
+{
+  "week": 39,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 39",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "The Market With No Plastic Bags",
+      "minimumWordTarget": 350,
+      "wordCount": 360,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week39_grade06_page01.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Market With No Plastic Bags”, page 1. Scene based on: At a colorful neighborhood market in Medellín, Laura, 11, and her mother stand in front of a fruit stall where a handwritten sign shows a plastic bag with a red X, while Tomás, 11, and his grandmother arrive with an old wicker basket. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Every Saturday, Laura goes to the <b>market</b> with her mother."
+            },
+            {
+              "html": "The market is in a big street near her house."
+            },
+            {
+              "html": "There are many stalls with fruit, vegetables, and flowers."
+            },
+            {
+              "html": "This Saturday, there is something different."
+            },
+            {
+              "html": "There is a sign on every <b>stall</b>."
+            },
+            {
+              "html": "It shows a <b>plastic</b> bag with a big red X."
+            },
+            {
+              "html": "“Today: an afternoon without plastic bags,” it says."
+            },
+            {
+              "html": "Laura’s mother looks surprised."
+            },
+            {
+              "html": "“How are we going to carry everything?” she asks."
+            },
+            {
+              "html": "She doesn’t have a <b>bag</b> with her today."
+            },
+            {
+              "html": "Laura’s friend Tomás arrives with his grandmother."
+            },
+            {
+              "html": "His grandmother has an old <b>basket</b> on her arm."
+            }
+          ],
+          "wordCount": 97
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week39_grade06_page02.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Market With No Plastic Bags”, page 2. Scene based on: At the market, several shoppers complain to a fruit seller with crossed arms and frustrated faces, one man holding many loose oranges in his hands, while Laura watches and Tomás's grandmother smiles calmly with her basket. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Some people are not happy."
+            },
+            {
+              "html": "“There are no bags? This is ridiculous!” a man says."
+            },
+            {
+              "html": "He has many oranges in his hands."
+            },
+            {
+              "html": "“I can’t <b>carry</b> all these oranges!” he says."
+            },
+            {
+              "html": "A woman is angry too."
+            },
+            {
+              "html": "“I always use plastic bags,” she says."
+            },
+            {
+              "html": "The fruit seller is patient."
+            },
+            {
+              "html": "“There are cloth bags for sale,” she says."
+            },
+            {
+              "html": "“And there are free boxes at the end of the street.”"
+            },
+            {
+              "html": "Tomás’s grandmother puts mangoes in her basket."
+            },
+            {
+              "html": "“I don’t need plastic. I have this,” she smiles."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week39_grade06_page03.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Market With No Plastic Bags”, page 3. Scene based on: At the end of the market street, there is a pile of free cardboard boxes and a small stall selling colorful cloth bags, and Laura holds a cardboard box full of fruit while Tomás points at the creek behind the market with some plastic bags caught in the bushes. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura and her mother go to the end of the street."
+            },
+            {
+              "html": "There is a pile of free cardboard boxes."
+            },
+            {
+              "html": "Laura takes a <b>box</b> for the fruit."
+            },
+            {
+              "html": "There is also a stall with colorful <b>cloth</b> bags."
+            },
+            {
+              "html": "Then Tomás points at something behind the market."
+            },
+            {
+              "html": "There is a small creek behind the stalls."
+            },
+            {
+              "html": "There are many plastic bags in the bushes next to it."
+            },
+            {
+              "html": "“Where do those bags come from?” Laura asks."
+            },
+            {
+              "html": "The fruit seller answers."
+            },
+            {
+              "html": "“Every Saturday, the wind takes our plastic bags there.”"
+            },
+            {
+              "html": "“That’s why we’re trying this today.”"
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week39_grade06_page04.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Market With No Plastic Bags”, page 4. Scene based on: At Laura's home kitchen table, Laura and her mother cut old T-shirts and tie the bottoms to make simple reusable bags, while Tomás and his grandmother help, and a finished colorful bag full of oranges sits on the table. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At home, Laura has an idea."
+            },
+            {
+              "html": "“We have many old <b>T-shirt</b>s,” she says."
+            },
+            {
+              "html": "“We can make bags with them!”"
+            },
+            {
+              "html": "Her mother shows her how."
+            },
+            {
+              "html": "They cut the sleeves and the top of the shirt."
+            },
+            {
+              "html": "Then they tie the bottom very tight."
+            },
+            {
+              "html": "Now there is a strong bag with two handles!"
+            },
+            {
+              "html": "Tomás and his grandmother come to help."
+            },
+            {
+              "html": "They make ten bags in one afternoon."
+            },
+            {
+              "html": "“We can <b>reuse</b> these bags every Saturday,” Laura says."
+            },
+            {
+              "html": "Next Saturday, Laura takes three T-shirt bags to the market."
+            },
+            {
+              "html": "There are no plastic bags in her kitchen now."
+            }
+          ],
+          "wordCount": 92
+        }
+      ],
+      "practiceWords": [
+        "market",
+        "stall",
+        "plastic",
+        "bag",
+        "basket",
+        "cloth",
+        "carry",
+        "box",
+        "reuse",
+        "T-shirt"
+      ],
+      "vocabulary": [
+        {
+          "word": "market",
+          "definition": "a place where people buy and sell food (mercado)"
+        },
+        {
+          "word": "stall",
+          "definition": "a small table or stand in a market (puesto)"
+        },
+        {
+          "word": "plastic",
+          "definition": "a light material used for bags and bottles (plástico)"
+        },
+        {
+          "word": "bag",
+          "definition": "a container for carrying things (bolsa)"
+        },
+        {
+          "word": "basket",
+          "definition": "a container made of thin pieces of wood (canasta)"
+        },
+        {
+          "word": "cloth",
+          "definition": "material made from cotton or wool (tela)"
+        },
+        {
+          "word": "carry",
+          "definition": "to hold something and take it with you (cargar)"
+        },
+        {
+          "word": "box",
+          "definition": "a container with flat sides (caja)"
+        },
+        {
+          "word": "reuse",
+          "definition": "to use something again (reutilizar)"
+        },
+        {
+          "word": "T-shirt",
+          "definition": "a simple shirt with short sleeves (camiseta)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "What does the sign on every stall show?",
+          "options": [
+            "A basket that is full of fresh mangoes",
+            "A plastic bag with a big red X",
+            "A cardboard box with fruit",
+            "A creek with clean water"
+          ],
+          "answer": "A plastic bag with a big red X"
+        },
+        {
+          "skill": "sequence",
+          "question": "What happens AFTER Laura sees the plastic bags near the creek?",
+          "options": [
+            "She sees the sign on every stall.",
+            "A man complains about his oranges.",
+            "She goes home and makes bags with old T-shirts.",
+            "Tomás’s grandmother arrives with her old basket."
+          ],
+          "answer": "She goes home and makes bags with old T-shirts."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “There is also a stall with colorful cloth bags.” “Cloth” means…",
+          "options": [
+            "a container made of wood",
+            "a container with flat sides",
+            "a light material for bottles and bags",
+            "material made from cotton or wool"
+          ],
+          "answer": "material made from cotton or wool"
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the story mainly about?",
+          "options": [
+            "A market tries a day without plastic bags.",
+            "A man buys too many oranges at the market.",
+            "A family moves to a house near a creek.",
+            "A grandmother sells old baskets at a neighborhood market."
+          ],
+          "answer": "A market tries a day without plastic bags."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why is the market trying an afternoon without plastic bags?",
+          "options": [
+            "The fruit seller wants to sell expensive cloth bags.",
+            "The wind takes the plastic bags to the creek behind the market.",
+            "The city doesn’t allow markets on Saturday afternoons.",
+            "The market doesn’t have enough money to buy more plastic bags."
+          ],
+          "answer": "The wind takes the plastic bags to the creek behind the market."
+        }
+      ],
+      "cover": "../assets/images/week39_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "The Restaurant Review That Went Viral",
+      "minimumWordTarget": 400,
+      "wordCount": 409,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week39_grade07_page01.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Restaurant Review That Went Viral”, page 1. Scene based on: In a small family restaurant in a Medellín neighborhood, Julián, 12, writes in a notebook at a table with a plate of sancocho, while a single tired waiter carries many plates and the owner cooks in an open kitchen behind. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Julián has a food <b>blog</b> for his English class."
+            },
+            {
+              "html": "He writes about places in his neighborhood."
+            },
+            {
+              "html": "Last Saturday, he visited a small <b>restaurant</b> called “Doña Rosa.”"
+            },
+            {
+              "html": "He ordered sancocho, a typical soup."
+            },
+            {
+              "html": "The soup was <b>delicious</b>, hot, and full of flavor."
+            },
+            {
+              "html": "But the <b>service</b> was very <b>slow</b>."
+            },
+            {
+              "html": "He waited fifty minutes for his food."
+            },
+            {
+              "html": "There was only one waiter for twelve tables."
+            },
+            {
+              "html": "Julián wrote a <b>review</b> in English and Spanish."
+            },
+            {
+              "html": "He wrote about the good soup and the long wait."
+            },
+            {
+              "html": "Then he posted it on Sunday night."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week39_grade07_page02.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Restaurant Review That Went Viral”, page 2. Scene based on: At school, a group of students crowd around a phone showing a blog post with a soup icon and many share icons, some laughing and some frowning, while Julián looks surprised and Sara stands beside him with crossed arms. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Monday, many students were talking about his review."
+            },
+            {
+              "html": "Someone shared it in all the school chats."
+            },
+            {
+              "html": "Two hundred people read it in one day!"
+            },
+            {
+              "html": "The review went <b>viral</b> in the school."
+            },
+            {
+              "html": "Some classmates wrote angry comments."
+            },
+            {
+              "html": "“You destroyed Doña Rosa’s restaurant!” one wrote."
+            },
+            {
+              "html": "“Why did you write bad things?” another asked."
+            },
+            {
+              "html": "Julián felt terrible."
+            },
+            {
+              "html": "He didn’t sleep well that night."
+            },
+            {
+              "html": "He didn’t want to hurt anyone."
+            },
+            {
+              "html": "His friend Sara came to talk to him."
+            }
+          ],
+          "wordCount": 75
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week39_grade07_page03.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Restaurant Review That Went Viral”, page 3. Scene based on: Julián and Sara sit in the school library reading the review together on a laptop, Sara pointing at specific lines on the screen shown as gray lines with a soup icon, a clock icon and a heart icon. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Sara asked him some questions."
+            },
+            {
+              "html": "“What did you write exactly?” she asked."
+            },
+            {
+              "html": "“Did you write anything false?”"
+            },
+            {
+              "html": "Julián opened the review on his laptop."
+            },
+            {
+              "html": "They read it together, line by line."
+            },
+            {
+              "html": "“The soup is the best in the neighborhood.”"
+            },
+            {
+              "html": "“The waiter is kind, but he is alone.”"
+            },
+            {
+              "html": "“I waited fifty minutes, so go when you have time.”"
+            },
+            {
+              "html": "“Did you lie about anything?” Sara asked."
+            },
+            {
+              "html": "“No. Everything is true,” Julián said."
+            },
+            {
+              "html": "“Then your review is <b>honest</b>, not mean,” Sara said."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week39_grade07_page04.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Restaurant Review That Went Viral”, page 4. Scene based on: Julián and Sara nervously enter the small restaurant, where Doña Rosa, an older woman in an apron, comes out of the kitchen holding a phone and smiling at them, while the waiter watches from the counter. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Julián still felt worried."
+            },
+            {
+              "html": "“Did the <b>owner</b> read it?” he asked."
+            },
+            {
+              "html": "“Let’s go and ask her,” Sara said."
+            },
+            {
+              "html": "That afternoon, they went to the restaurant."
+            },
+            {
+              "html": "Doña Rosa came out of the kitchen."
+            },
+            {
+              "html": "“Are you the boy who wrote the review?” she asked."
+            },
+            {
+              "html": "Julián’s face turned red. “Yes. I’m sorry if—”"
+            },
+            {
+              "html": "Doña Rosa laughed. “Sorry? Why? It was true!”"
+            },
+            {
+              "html": "“My waiter, Carlos, is alone. I know it.”"
+            },
+            {
+              "html": "“Many <b>customer</b>s complain, but nobody writes it so clearly.”"
+            }
+          ],
+          "wordCount": 75
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week39_grade07_page05.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Restaurant Review That Went Viral”, page 5. Scene based on: Weeks later, the small restaurant is full of customers including students from Julián's school, and two waiters serve plates of soup quickly, while Doña Rosa waves happily at Julián and Sara from the kitchen. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Doña Rosa made a decision after reading the review."
+            },
+            {
+              "html": "She hired another waiter for the weekends."
+            },
+            {
+              "html": "Also, many students read the review and visited the restaurant."
+            },
+            {
+              "html": "They wanted to try the “best soup in the neighborhood.”"
+            },
+            {
+              "html": "Two weeks later, Julián and Sara went back."
+            },
+            {
+              "html": "The restaurant was full, but the service was fast."
+            },
+            {
+              "html": "They waited only fifteen minutes."
+            },
+            {
+              "html": "“What did you change?” Julián asked Doña Rosa."
+            },
+            {
+              "html": "“I listened to an honest customer,” she said."
+            },
+            {
+              "html": "She gave them two free desserts."
+            },
+            {
+              "html": "Julián wrote a new review that night."
+            },
+            {
+              "html": "The title was “Better Every Week.”"
+            }
+          ],
+          "wordCount": 93
+        }
+      ],
+      "practiceWords": [
+        "restaurant",
+        "review",
+        "blog",
+        "owner",
+        "service",
+        "delicious",
+        "slow",
+        "honest",
+        "viral",
+        "customer"
+      ],
+      "vocabulary": [
+        {
+          "word": "restaurant",
+          "definition": "a place where you buy and eat meals (restaurante)"
+        },
+        {
+          "word": "review",
+          "definition": "a written opinion about a place or product (reseña)"
+        },
+        {
+          "word": "blog",
+          "definition": "a website where people write posts (blog)"
+        },
+        {
+          "word": "owner",
+          "definition": "the person something belongs to (dueño)"
+        },
+        {
+          "word": "service",
+          "definition": "the help that workers give to customers (servicio)"
+        },
+        {
+          "word": "delicious",
+          "definition": "very good to eat (delicioso)"
+        },
+        {
+          "word": "slow",
+          "definition": "not fast (lento)"
+        },
+        {
+          "word": "honest",
+          "definition": "telling the truth (honesto)"
+        },
+        {
+          "word": "viral",
+          "definition": "spread quickly to many people online (viral)"
+        },
+        {
+          "word": "customer",
+          "definition": "a person who buys something (cliente)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "How long did Julián wait for his food the first time?",
+          "options": [
+            "Fifteen minutes",
+            "Five minutes",
+            "Fifty minutes",
+            "Two hours"
+          ],
+          "answer": "Fifty minutes"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "Why did some classmates write angry comments?",
+          "options": [
+            "They didn’t like the school blog.",
+            "Julián wrote false things about the soup.",
+            "Doña Rosa asked them to defend her small restaurant online.",
+            "They thought Julián’s review would hurt the restaurant."
+          ],
+          "answer": "They thought Julián’s review would hurt the restaurant."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main idea of the story?",
+          "options": [
+            "An honest, fair review helped a restaurant improve.",
+            "Small restaurants always have slow service.",
+            "Viral posts always destroy small businesses.",
+            "Students should never write reviews about restaurants."
+          ],
+          "answer": "An honest, fair review helped a restaurant improve."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why did Doña Rosa thank Julián instead of being angry?",
+          "options": [
+            "He deleted the review before she read it.",
+            "His review was true and helped her see a problem clearly.",
+            "He promised to bring more students to the restaurant every week.",
+            "He paid for all the meals in the restaurant."
+          ],
+          "answer": "His review was true and helped her see a problem clearly."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “The review went viral in the school.” “Viral” means…",
+          "options": [
+            "written only in Spanish",
+            "honest and true in every small detail",
+            "spread quickly to many people online",
+            "very slow and boring"
+          ],
+          "answer": "spread quickly to many people online"
+        }
+      ],
+      "cover": "../assets/images/week39_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "The Shopping Cart Test",
+      "minimumWordTarget": 450,
+      "wordCount": 463,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week39_grade08_page01.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Shopping Cart Test”, page 1. Scene based on: In a public school computer room in Medellín, the teacher stands next to a projected screen showing a shopping cart icon and a coin icon with a big number shape, while Diego, 13, and Sara, 13, sit together at a computer, excited. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Tuesday, the teacher gave the class a new <b>challenge</b>."
+            },
+            {
+              "html": "“Each group has a pretend budget,” she said."
+            },
+            {
+              "html": "“It’s one hundred thousand pesos for each group.”"
+            },
+            {
+              "html": "“You’re going to shop online for one week of snacks.”"
+            },
+            {
+              "html": "“You’re going to fill a shopping <b>cart</b>.”"
+            },
+            {
+              "html": "“But you aren’t going to spend real money.”"
+            },
+            {
+              "html": "Diego and Sara were in the same group."
+            },
+            {
+              "html": "“This is going to be easy,” Diego said."
+            },
+            {
+              "html": "“I’m going to choose cheap things.”"
+            },
+            {
+              "html": "Sara opened a notebook."
+            },
+            {
+              "html": "“I’m going to write a <b>list</b> first,” she said."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week39_grade08_page02.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Shopping Cart Test”, page 2. Scene based on: Diego quickly clicks on many small cheap items on the screen, like candy, gum, small chips and stickers, each shown as a small picture with a tiny coin icon, while the cart icon fills up and Sara watches with concern. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Diego didn’t wait for the list."
+            },
+            {
+              "html": "He started clicking on <b>cheap</b> things."
+            },
+            {
+              "html": "Candy for two thousand pesos."
+            },
+            {
+              "html": "Gum for one thousand five hundred."
+            },
+            {
+              "html": "Small chips for two thousand five hundred."
+            },
+            {
+              "html": "A cute pencil for three thousand."
+            },
+            {
+              "html": "“Everything is so cheap!” he said."
+            },
+            {
+              "html": "He added thirty small items in ten minutes."
+            },
+            {
+              "html": "“I’m going to win this challenge,” he laughed."
+            }
+          ],
+          "wordCount": 58
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week39_grade08_page03.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Shopping Cart Test”, page 3. Scene based on: The computer screen shows a checkout page with a very large total number shape and a red warning triangle, Diego's mouth open in shock, while Sara holds up her notebook with a short list and smiles. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Then Diego clicked on <b>checkout</b>."
+            },
+            {
+              "html": "The <b>total</b> appeared on the screen."
+            },
+            {
+              "html": "One hundred forty-two thousand pesos!"
+            },
+            {
+              "html": "There was also a shipping cost of eight thousand."
+            },
+            {
+              "html": "“What? How is this possible?” Diego asked."
+            },
+            {
+              "html": "“Every <b>item</b> was so small!”"
+            },
+            {
+              "html": "Sara looked at the cart."
+            },
+            {
+              "html": "“Thirty small items <b>add up</b> very fast,” she said."
+            },
+            {
+              "html": "“Two thousand plus two thousand plus two thousand...”"
+            },
+            {
+              "html": "“Small prices are still prices.”"
+            },
+            {
+              "html": "Diego looked at the screen in silence."
+            }
+          ],
+          "wordCount": 71
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week39_grade08_page04.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Shopping Cart Test”, page 4. Scene based on: Sara and Diego sit with the notebook between them, drawing two columns with icons: a banana, a water bottle and bread in one, and candy, stickers and a toy in the other, Diego scratching his head. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Sara showed Diego her list."
+            },
+            {
+              "html": "It had two columns."
+            },
+            {
+              "html": "“What are we going to <b>need</b>?” she asked."
+            },
+            {
+              "html": "Fruit, water, bread, and something for breakfast."
+            },
+            {
+              "html": "“What are we going to <b>want</b>?” she asked."
+            },
+            {
+              "html": "Candy, chips, and fun things."
+            },
+            {
+              "html": "“First, we’re going to buy the things we need,” Sara said."
+            },
+            {
+              "html": "“Then, if there’s money, we’re going to buy some wants.”"
+            },
+            {
+              "html": "Diego looked at his cart again."
+            },
+            {
+              "html": "He felt a little embarrassed."
+            },
+            {
+              "html": "It had twenty-five wants and only five needs."
+            }
+          ],
+          "wordCount": 77
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week39_grade08_page05.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Shopping Cart Test”, page 5. Scene based on: Diego and Sara rebuild their online cart together, now showing bananas, bread, water bottles and two small treats, and the total on the screen is a smaller number with a green check mark, both smiling. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They started a new cart together."
+            },
+            {
+              "html": "They added bananas, apples, and bread."
+            },
+            {
+              "html": "They added water and milk for breakfast."
+            },
+            {
+              "html": "Then they checked the total."
+            },
+            {
+              "html": "“We have thirty thousand pesos left,” Sara said."
+            },
+            {
+              "html": "“Now we can choose some wants,” she added."
+            },
+            {
+              "html": "Diego chose chips and one chocolate bar."
+            },
+            {
+              "html": "“I’m going to leave the pencil,” he laughed."
+            },
+            {
+              "html": "“I already have ten pencils at home.”"
+            },
+            {
+              "html": "The final total was ninety-six thousand pesos."
+            },
+            {
+              "html": "It included shipping and everything."
+            },
+            {
+              "html": "“We’re going to have four thousand pesos extra!” Diego said."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week39_grade08_page06.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Shopping Cart Test”, page 6. Scene based on: In the classroom, the teacher shows a bar chart on the board comparing groups' carts, with Diego and Sara's group bar below the budget line in green, while classmates clap and Diego raises his hand to speak. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At the end of class, the teacher compared all the carts."
+            },
+            {
+              "html": "Most groups spent more than one hundred thousand pesos."
+            },
+            {
+              "html": "Many groups chose only cheap, small things."
+            },
+            {
+              "html": "“Why did your group stay in the budget?” the teacher asked."
+            },
+            {
+              "html": "Diego raised his hand first."
+            },
+            {
+              "html": "“Because Sara made a list,” he said."
+            },
+            {
+              "html": "“I was going to buy thirty small things.”"
+            },
+            {
+              "html": "“Small things don’t feel expensive, but they add up.”"
+            },
+            {
+              "html": "The teacher smiled and wrote it on the board."
+            },
+            {
+              "html": "“Next time, I’m going to make a list first,” Diego said."
+            }
+          ],
+          "wordCount": 87
+        }
+      ],
+      "practiceWords": [
+        "cart",
+        "item",
+        "total",
+        "add up",
+        "cheap",
+        "list",
+        "need",
+        "want",
+        "checkout",
+        "challenge"
+      ],
+      "vocabulary": [
+        {
+          "word": "cart",
+          "definition": "the place where you keep things you want to buy online (carrito)"
+        },
+        {
+          "word": "item",
+          "definition": "one thing in a list or group (artículo)"
+        },
+        {
+          "word": "total",
+          "definition": "the whole amount (total)"
+        },
+        {
+          "word": "add up",
+          "definition": "to become a large amount little by little (sumar)"
+        },
+        {
+          "word": "cheap",
+          "definition": "not expensive (barato)"
+        },
+        {
+          "word": "list",
+          "definition": "words written one under the other (lista)"
+        },
+        {
+          "word": "need",
+          "definition": "to require something important (necesitar)"
+        },
+        {
+          "word": "want",
+          "definition": "to wish for something (querer)"
+        },
+        {
+          "word": "checkout",
+          "definition": "the final step to pay when shopping (pago final)"
+        },
+        {
+          "word": "challenge",
+          "definition": "a difficult task that tests your skills (reto)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What was the total of Diego’s first cart, before shipping?",
+          "options": [
+            "Ninety-six thousand pesos",
+            "One hundred thirty-two thousand pesos",
+            "One hundred fifty thousand pesos",
+            "One hundred forty-two thousand pesos"
+          ],
+          "answer": "One hundred forty-two thousand pesos"
+        },
+        {
+          "skill": "inference",
+          "question": "Why did Diego’s first total surprise him?",
+          "options": [
+            "Many cheap items added up to a large amount.",
+            "The website made a mistake with the prices.",
+            "Sara added expensive items to his cart.",
+            "The teacher changed the budget during the challenge."
+          ],
+          "answer": "Many cheap items added up to a large amount."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include Sara’s list with two columns?",
+          "options": [
+            "To explain how online shipping works for small orders.",
+            "To show a simple way to separate needs from wants before buying.",
+            "To show that Sara doesn’t like candy or chips.",
+            "To show that shopping lists are always very long."
+          ],
+          "answer": "To show a simple way to separate needs from wants before buying."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main idea of the story?",
+          "options": [
+            "Students should never buy snacks online.",
+            "Online shopping carts are only for adults with real money.",
+            "Small purchases add up, so a list helps you plan.",
+            "Cheap products are always the best choice."
+          ],
+          "answer": "Small purchases add up, so a list helps you plan."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “Thirty small items add up very fast.” “Add up” means…",
+          "options": [
+            "to choose only the things you want",
+            "to pay for something at the end",
+            "to remove the extra things from a list",
+            "to become a large amount little by little"
+          ],
+          "answer": "to become a large amount little by little"
+        }
+      ],
+      "cover": "../assets/images/week39_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "The Bridge That Moves in the Wind",
+      "minimumWordTarget": 500,
+      "wordCount": 508,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week39_grade09_page01.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Bridge That Moves in the Wind”, page 1. Scene based on: On a long pedestrian suspension bridge over a green valley near Medellín, Mariana, 14, holds the side cable tightly with a scared face as the bridge moves in the wind, while Felipe, 14, walks next to her calmly and other students walk ahead. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mariana’s class visited a park which has a long pedestrian <b>bridge</b>."
+            },
+            {
+              "html": "It’s a bridge that hangs over a deep green valley."
+            },
+            {
+              "html": "The views from the middle are amazing."
+            },
+            {
+              "html": "That afternoon, a strong <b>wind</b> started to blow."
+            },
+            {
+              "html": "When Mariana reached the middle, she felt something strange."
+            },
+            {
+              "html": "The bridge was moving!"
+            },
+            {
+              "html": "It started to <b>sway</b> slowly from side to side."
+            },
+            {
+              "html": "Mariana held the side tightly."
+            },
+            {
+              "html": "“This bridge is broken!” she said."
+            },
+            {
+              "html": "“It’s going to fall!”"
+            },
+            {
+              "html": "Her friend Felipe was walking next to her."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week39_grade09_page02.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Bridge That Moves in the Wind”, page 2. Scene based on: Mariana stands frozen in the middle of the swaying bridge holding on with both hands, some classmates running back toward the start, while Felipe stays calm and looks at the thick cables above. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Some students heard her and became scared too."
+            },
+            {
+              "html": "Two girls ran back to the beginning of the bridge."
+            },
+            {
+              "html": "“Bridges which move are dangerous,” one boy said."
+            },
+            {
+              "html": "“A strong bridge doesn’t move at all.”"
+            },
+            {
+              "html": "Mariana agreed with him."
+            },
+            {
+              "html": "Her legs were shaking a little."
+            },
+            {
+              "html": "But Felipe was looking up at the thick cables."
+            },
+            {
+              "html": "“Is a bridge that moves always dangerous?” he asked."
+            },
+            {
+              "html": "“Or are some bridges made to move?”"
+            },
+            {
+              "html": "Mariana didn’t know. She only wanted to leave."
+            },
+            {
+              "html": "She walked slowly to the end of the bridge."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week39_grade09_page03.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Bridge That Moves in the Wind”, page 3. Scene based on: At the end of the bridge, a park engineer in his forties with a helmet and a tablet talks to Mariana, Felipe and the class, pointing up at the steel cables and the towers that hold the bridge. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At the end of the bridge, there was a park <b>engineer</b>."
+            },
+            {
+              "html": "He was checking the bridge with a tablet."
+            },
+            {
+              "html": "Felipe asked him the question."
+            },
+            {
+              "html": "“Is it normal that the bridge moves?” he asked."
+            },
+            {
+              "html": "The engineer smiled. “Yes. It’s normal.”"
+            },
+            {
+              "html": "“This is a bridge that we designed to move.”"
+            },
+            {
+              "html": "“It hangs from strong steel <b>cable</b>s.”"
+            },
+            {
+              "html": "“If a bridge is completely rigid, the wind can break it.”"
+            },
+            {
+              "html": "“A bridge which can move a little is safer.”"
+            },
+            {
+              "html": "Mariana was surprised. She expected the opposite."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week39_grade09_page04.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Bridge That Moves in the Wind”, page 4. Scene based on: The engineer shows the students a simple model on a tablet of a straight rigid bar cracking in the wind next to a curved flexible bar bending safely, while Mariana and Felipe look closely with interest. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The engineer showed them a video on his tablet."
+            },
+            {
+              "html": "“This is a test that engineers do,” he said."
+            },
+            {
+              "html": "“A tree that bends in the wind doesn’t break.”"
+            },
+            {
+              "html": "“A dry stick which can’t bend breaks easily.”"
+            },
+            {
+              "html": "“Bridges are similar. They need to be <b>flexible</b>.”"
+            },
+            {
+              "html": "“We <b>design</b> bridges to move a few centimeters.”"
+            },
+            {
+              "html": "“Today it’s moving only five centimeters.”"
+            },
+            {
+              "html": "“It’s normal for a windy afternoon.”"
+            },
+            {
+              "html": "Mariana looked at the bridge again."
+            },
+            {
+              "html": "Now it looked different to her."
+            },
+            {
+              "html": "It looked like a structure which someone had planned carefully."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week39_grade09_page05.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Bridge That Moves in the Wind”, page 5. Scene based on: The engineer points to a sign at the entrance of the bridge showing only icons of ten people and a wind symbol, explaining the maximum number of people, while Felipe takes notes and Mariana nods. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "“Are there any limits?” Felipe asked."
+            },
+            {
+              "html": "“Yes. There are rules which keep it <b>safe</b>,” the engineer said."
+            },
+            {
+              "html": "He pointed to a sign at the entrance."
+            },
+            {
+              "html": "“Only forty people can walk on it at the same time.”"
+            },
+            {
+              "html": "“That’s the maximum <b>load</b> for this bridge.”"
+            },
+            {
+              "html": "“And if the wind is very strong, we close it.”"
+            },
+            {
+              "html": "“Our sensors measure the wind every minute.”"
+            },
+            {
+              "html": "“Today the wind is strong, but not dangerous.”"
+            },
+            {
+              "html": "Mariana asked one more question."
+            },
+            {
+              "html": "“Who checks the cables?”"
+            },
+            {
+              "html": "“I do. Every week,” he said with a smile."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week39_grade09_page06.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Bridge That Moves in the Wind”, page 6. Scene based on: Mariana walks across the bridge again with confidence, holding the cable lightly and smiling, while Felipe walks beside her and the green valley stretches below, the wind moving her hair. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "After the conversation, Mariana felt different."
+            },
+            {
+              "html": "She wanted to cross the bridge again."
+            },
+            {
+              "html": "“Are you sure?” Felipe asked, surprised."
+            },
+            {
+              "html": "“Yes. Now I understand the <b>structure</b>,” she said."
+            },
+            {
+              "html": "She walked to the middle slowly."
+            },
+            {
+              "html": "The bridge was still moving a little."
+            },
+            {
+              "html": "But this time, she wasn’t scared."
+            },
+            {
+              "html": "“It’s like the bridge is breathing,” she said."
+            },
+            {
+              "html": "Felipe laughed. “That’s a good way to say it.”"
+            },
+            {
+              "html": "“The movement which scared me is what keeps it safe.”"
+            },
+            {
+              "html": "Mariana looked at the beautiful valley below."
+            },
+            {
+              "html": "She took a photo that she will remember for years."
+            }
+          ],
+          "wordCount": 90
+        }
+      ],
+      "practiceWords": [
+        "bridge",
+        "wind",
+        "sway",
+        "engineer",
+        "cable",
+        "flexible",
+        "structure",
+        "design",
+        "load",
+        "safe"
+      ],
+      "vocabulary": [
+        {
+          "word": "bridge",
+          "definition": "a structure that goes over a river or road (puente)"
+        },
+        {
+          "word": "wind",
+          "definition": "air that moves fast outside (viento)"
+        },
+        {
+          "word": "sway",
+          "definition": "to move slowly from side to side (balancearse)"
+        },
+        {
+          "word": "engineer",
+          "definition": "a person who designs structures (ingeniero)"
+        },
+        {
+          "word": "cable",
+          "definition": "a thick, strong wire (cable)"
+        },
+        {
+          "word": "flexible",
+          "definition": "able to bend without breaking (flexible)"
+        },
+        {
+          "word": "structure",
+          "definition": "something that is built, like a bridge (estructura)"
+        },
+        {
+          "word": "design",
+          "definition": "to plan how something will be built (diseñar)"
+        },
+        {
+          "word": "load",
+          "definition": "the weight that something carries (carga)"
+        },
+        {
+          "word": "safe",
+          "definition": "protected from danger (seguro)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "How much was the bridge moving that afternoon?",
+          "options": [
+            "About five centimeters",
+            "It wasn’t moving at all",
+            "About fifty centimeters",
+            "About five meters"
+          ],
+          "answer": "About five centimeters"
+        },
+        {
+          "skill": "inference",
+          "question": "Why did Mariana think the bridge was broken?",
+          "options": [
+            "The engineer told her it was dangerous.",
+            "She thought that a strong bridge shouldn’t move at all.",
+            "She saw a broken cable in the middle of the long bridge.",
+            "Felipe pushed the side of the bridge as a joke."
+          ],
+          "answer": "She thought that a strong bridge shouldn’t move at all."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "How is a flexible bridge similar to a tree in the wind?",
+          "options": [
+            "Both break easily when the wind is strong.",
+            "Both are designed by engineers in parks.",
+            "Both can bend a little without breaking.",
+            "Both are made of steel cables."
+          ],
+          "answer": "Both can bend a little without breaking."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main message of the text?",
+          "options": [
+            "Pedestrian bridges are always dangerous in strong afternoon wind.",
+            "Engineers don’t need to check bridges every week.",
+            "Students should never visit bridges on school trips.",
+            "Understanding how something works can change fear into confidence."
+          ],
+          "answer": "Understanding how something works can change fear into confidence."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “It started to sway slowly from side to side.” “Sway” means…",
+          "options": [
+            "to move slowly from side to side",
+            "to stop moving completely",
+            "to carry a heavy weight across a valley",
+            "to break into many pieces"
+          ],
+          "answer": "to move slowly from side to side"
+        }
+      ],
+      "cover": "../assets/images/week39_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "The Bus Lane Debate",
+      "minimumWordTarget": 600,
+      "wordCount": 605,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week39_grade10_page01.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Bus Lane Debate”, page 1. Scene based on: At a busy bus stop on a wide avenue in Medellín at rush hour, Daniel, 16, and Sofía, 16, stand among many tired commuters waiting for a crowded bus stuck in heavy car traffic, while a city poster shows a bus icon in a red lane. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Every morning, Daniel takes a bus on a busy avenue."
+            },
+            {
+              "html": "The trip is only five kilometers."
+            },
+            {
+              "html": "But at <b>rush hour</b>, it takes forty-five minutes."
+            },
+            {
+              "html": "The bus is always stuck in car traffic."
+            },
+            {
+              "html": "Last week, the city presented a new <b>proposal</b>."
+            },
+            {
+              "html": "“With a <b>bus lane</b>, buses will move faster,” it said."
+            },
+            {
+              "html": "The lane will be only for buses, not for cars."
+            },
+            {
+              "html": "Many people have strong opinions about it."
+            },
+            {
+              "html": "Daniel’s class is going to have a <b>debate</b> about it."
+            },
+            {
+              "html": "Daniel and his friend Sofía are on the same team."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week39_grade10_page02.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Bus Lane Debate”, page 2. Scene based on: In a public school classroom set up for a debate, students in two groups hold signs with only icons, one group with a bus icon and the other with a car and a shop icon, arguing passionately while the teacher moderates. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The class divides into two groups."
+            },
+            {
+              "html": "One group supports the bus lane."
+            },
+            {
+              "html": "The other group is against it."
+            },
+            {
+              "html": "“If they build the lane, buses will be faster!”"
+            },
+            {
+              "html": "A boy shouts it from the front."
+            },
+            {
+              "html": "“If they build it, traffic will be worse!”"
+            },
+            {
+              "html": "A girl answers from the back."
+            },
+            {
+              "html": "“If shops lose <b>parking</b>, they will lose customers!” another says."
+            },
+            {
+              "html": "Everyone is shouting, and nobody is listening."
+            },
+            {
+              "html": "Daniel feels frustrated."
+            },
+            {
+              "html": "“Everyone has an opinion,” he says to Sofía."
+            },
+            {
+              "html": "“But does anyone have real information?”"
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week39_grade10_page03.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Bus Lane Debate”, page 3. Scene based on: Daniel and Sofía stand on a sidewalk of the busy avenue during morning rush hour with clipboards, counting buses, cars and passengers with tally marks, while a crowded bus and many single-driver cars pass by. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Sofía has an idea. “Let’s <b>count</b>.”"
+            },
+            {
+              "html": "The next morning, they stand next to the avenue."
+            },
+            {
+              "html": "For one hour, they count the vehicles."
+            },
+            {
+              "html": "They also count the people inside them."
+            },
+            {
+              "html": "They see nine hundred cars in one hour."
+            },
+            {
+              "html": "Most cars have only one person inside."
+            },
+            {
+              "html": "They see forty buses in the same hour."
+            },
+            {
+              "html": "Each bus has about sixty passengers."
+            },
+            {
+              "html": "Sofía calculates the results."
+            },
+            {
+              "html": "“The cars carry about one thousand people,” she says."
+            },
+            {
+              "html": "“The buses carry about two thousand four hundred.”"
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week39_grade10_page04.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Bus Lane Debate”, page 4. Scene based on: Daniel and Sofía interview a shop owner, an older man standing in front of a small hardware store with two parked cars outside, who gestures with worry, while Sofía writes notes on her clipboard. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniel wants to understand the other side too."
+            },
+            {
+              "html": "They interview a shop owner on the avenue."
+            },
+            {
+              "html": "“If parking disappears, my customers will go elsewhere.”"
+            },
+            {
+              "html": "“Many of my customers come by car.”"
+            },
+            {
+              "html": "“That’s a real <b>drawback</b> for me.”"
+            },
+            {
+              "html": "Daniel asks him one more question."
+            },
+            {
+              "html": "“If the lane only operates at rush hour, will that help?”"
+            },
+            {
+              "html": "The shop owner thinks about it."
+            },
+            {
+              "html": "“Maybe. My busiest hours are midday and afternoon.”"
+            },
+            {
+              "html": "“If parking stays then, I’ll lose fewer customers.”"
+            },
+            {
+              "html": "Daniel and Sofía look at each other with interest."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week39_grade10_page05.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Bus Lane Debate”, page 5. Scene based on: Daniel and Sofía interview a tired nurse in a uniform waiting at the bus stop at dawn, who explains with her hands how long her trip takes, while a crowded bus approaches in the background. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They also interview a <b>commuter</b> at the bus stop."
+            },
+            {
+              "html": "She is a nurse who works at a hospital downtown."
+            },
+            {
+              "html": "“I spend ninety minutes a day on this bus,” she says."
+            },
+            {
+              "html": "“If the bus lane exists, I will have more time.”"
+            },
+            {
+              "html": "“I will see my children before school.”"
+            },
+            {
+              "html": "Daniel writes down her words carefully."
+            },
+            {
+              "html": "“Each group has a real <b>benefit</b> or problem,” Sofía says."
+            },
+            {
+              "html": "“The question is how to balance them.”"
+            },
+            {
+              "html": "Daniel agrees. “Maybe there’s a third option.”"
+            },
+            {
+              "html": "They walk back to school, thinking about it."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week39_grade10_page06.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Bus Lane Debate”, page 6. Scene based on: In the classroom debate, Daniel and Sofía present a simple chart on the board showing people per bus and per car with icons, and a clock showing rush hours colored in red, while classmates from both groups listen quietly. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On debate day, Daniel and Sofía present their data."
+            },
+            {
+              "html": "“In one hour, buses carried more than twice as many people.”"
+            },
+            {
+              "html": "“So the bus lane will help more people move.”"
+            },
+            {
+              "html": "“But the shops will lose customers if parking disappears.”"
+            },
+            {
+              "html": "Then Sofía presents their idea."
+            },
+            {
+              "html": "“What if the lane operates only at rush hour?”"
+            },
+            {
+              "html": "“It could work from six to nine in the morning.”"
+            },
+            {
+              "html": "“And from five to seven in the evening.”"
+            },
+            {
+              "html": "“Then buses will be faster at the busiest times.”"
+            },
+            {
+              "html": "“And if parking returns at midday, shops will be fine.”"
+            },
+            {
+              "html": "The class is quiet for a moment."
+            },
+            {
+              "html": "Then both groups start nodding."
+            }
+          ],
+          "wordCount": 101
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week39_grade10_page07.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Bus Lane Debate”, page 7. Scene based on: After the debate, the teacher shakes hands with Daniel and Sofía while classmates from both sides talk together calmly; on the board, a drawing shows a bus lane with a clock icon and a happy shop icon. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The teacher is impressed."
+            },
+            {
+              "html": "“You found a <b>compromise</b>,” she says."
+            },
+            {
+              "html": "“It isn’t perfect for anyone, but it’s fair for many.”"
+            },
+            {
+              "html": "A boy from the other group agrees."
+            },
+            {
+              "html": "“I was against it. But with rush-hour rules, it makes sense.”"
+            },
+            {
+              "html": "The class decides to send their idea to the city."
+            },
+            {
+              "html": "They write a short letter with their data and interviews."
+            },
+            {
+              "html": "Daniel feels proud of their work."
+            },
+            {
+              "html": "Sofía signs the letter first."
+            },
+            {
+              "html": "“If we only argued, nothing would change,” he says."
+            },
+            {
+              "html": "“Data and listening made the difference,” Sofía adds."
+            }
+          ],
+          "wordCount": 86
+        }
+      ],
+      "practiceWords": [
+        "bus lane",
+        "proposal",
+        "commuter",
+        "rush hour",
+        "parking",
+        "debate",
+        "compromise",
+        "benefit",
+        "drawback",
+        "count"
+      ],
+      "vocabulary": [
+        {
+          "word": "bus lane",
+          "definition": "a part of the road only for buses (carril exclusivo de buses)"
+        },
+        {
+          "word": "proposal",
+          "definition": "a formal plan or suggestion (propuesta)"
+        },
+        {
+          "word": "commuter",
+          "definition": "a person who travels to work or school every day (pasajero diario)"
+        },
+        {
+          "word": "rush hour",
+          "definition": "the time when traffic is heaviest (hora pico)"
+        },
+        {
+          "word": "parking",
+          "definition": "places where cars can stop and stay (parqueo)"
+        },
+        {
+          "word": "debate",
+          "definition": "a formal discussion with different opinions (debate)"
+        },
+        {
+          "word": "compromise",
+          "definition": "an agreement where each side gives a little (punto medio)"
+        },
+        {
+          "word": "benefit",
+          "definition": "a good result or advantage (beneficio)"
+        },
+        {
+          "word": "drawback",
+          "definition": "a disadvantage or problem (desventaja)"
+        },
+        {
+          "word": "count",
+          "definition": "to find the total number (contar)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "How many people did the buses carry in one hour, according to the count?",
+          "options": [
+            "About sixty people",
+            "About two thousand four hundred people",
+            "About one thousand two hundred people",
+            "About nine hundred people"
+          ],
+          "answer": "About two thousand four hundred people"
+        },
+        {
+          "skill": "inference",
+          "question": "Why did Daniel want to interview the shop owner?",
+          "options": [
+            "He wanted to buy something at the hardware store.",
+            "He thought the shop owner strongly supported the new bus lane.",
+            "He wanted to understand the opinion of people against the bus lane.",
+            "He needed a place to park his family’s car near the avenue."
+          ],
+          "answer": "He wanted to understand the opinion of people against the bus lane."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the nurse’s interview?",
+          "options": [
+            "To explain how to count cars on a street.",
+            "To show that the hospitals are very far from the avenue.",
+            "To show that the nurse doesn’t like buses.",
+            "To show a real benefit of the bus lane for daily commuters."
+          ],
+          "answer": "To show a real benefit of the bus lane for daily commuters."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What is the relationship between rush hour and the compromise?",
+          "options": [
+            "The lane works only at rush hour, so parking can return at other times.",
+            "Rush hour happens only on weekends.",
+            "Rush hour is when the shops have the most customers every day.",
+            "The lane will be closed during rush hour to help the shop owners."
+          ],
+          "answer": "The lane works only at rush hour, so parking can return at other times."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which statement best summarizes the text?",
+          "options": [
+            "Car drivers should never use the avenue at rush hour.",
+            "Data and listening helped students find a fair compromise.",
+            "Debates are useless because nobody changes their opinion.",
+            "Bus lanes always destroy small businesses."
+          ],
+          "answer": "Data and listening helped students find a fair compromise."
+        }
+      ],
+      "cover": "../assets/images/week39_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "The Mistake That Became a Job Interview Story",
+      "minimumWordTarget": 700,
+      "wordCount": 706,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week39_grade11_page01.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Mistake That Became a Job Interview Story”, page 1. Scene based on: In the waiting area of a small tourism company office in Medellín, Andrés, 17, in a clean shirt holds a folder with his résumé and looks nervous, while Camila, 17, on a video call on his phone gives him an encouraging smile. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Tuesday, Andrés had his first job <b>interview</b>."
+            },
+            {
+              "html": "It was for a weekend job at a tourism company."
+            },
+            {
+              "html": "He was waiting in the office with his résumé."
+            },
+            {
+              "html": "His hands were cold, and his heart was fast."
+            },
+            {
+              "html": "Before the interview, he called his friend Camila."
+            },
+            {
+              "html": "She said that he should be honest and calm."
+            },
+            {
+              "html": "She told him that he didn’t have to be perfect."
+            },
+            {
+              "html": "“What if they ask about my weaknesses?” he asked."
+            },
+            {
+              "html": "Camila said that he should tell a true story."
+            },
+            {
+              "html": "Then a woman opened the door and called his name."
+            },
+            {
+              "html": "Andrés stood up and took a deep breath."
+            }
+          ],
+          "wordCount": 99
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week39_grade11_page02.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Mistake That Became a Job Interview Story”, page 2. Scene based on: In a bright small office, a friendly interviewer woman in her forties with glasses asks Andrés a question across a desk, while Andrés sits straight, thinking carefully, his folder on the desk. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The <b>interviewer</b> was a friendly woman named Mrs. Ríos."
+            },
+            {
+              "html": "She asked him about his school and his English."
+            },
+            {
+              "html": "Andrés answered well. He felt more relaxed."
+            },
+            {
+              "html": "Then she asked a difficult question."
+            },
+            {
+              "html": "“Tell me about a <b>mistake</b> you made.”"
+            },
+            {
+              "html": "“And tell me what you did after the mistake.”"
+            },
+            {
+              "html": "Andrés felt nervous again."
+            },
+            {
+              "html": "He thought about inventing a small, perfect story."
+            },
+            {
+              "html": "But then he remembered Camila’s words."
+            },
+            {
+              "html": "He decided to tell the truth."
+            },
+            {
+              "html": "He took a moment to organize his ideas."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week39_grade11_page03.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Mistake That Became a Job Interview Story”, page 3. Scene based on: A memory scene shows a food bank warehouse with shelves of rice and canned food, where a younger Andrés in a volunteer vest loads boxes into a van with a worried face, while a supervisor checks a list. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Andrés told her about his <b>volunteer</b> work last year."
+            },
+            {
+              "html": "He helped at a food bank on Saturdays."
+            },
+            {
+              "html": "His job was to organize the <b>donation</b>s."
+            },
+            {
+              "html": "He had to send boxes of food to three community kitchens."
+            },
+            {
+              "html": "One Saturday, he was in a hurry."
+            },
+            {
+              "html": "He put the wrong labels on two boxes."
+            },
+            {
+              "html": "The boxes went to the wrong community kitchen."
+            },
+            {
+              "html": "One kitchen received too much food."
+            },
+            {
+              "html": "Another kitchen received almost nothing."
+            },
+            {
+              "html": "Fifty families waited for food that didn’t arrive."
+            },
+            {
+              "html": "Andrés discovered the problem at the end of the day."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week39_grade11_page04.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Mistake That Became a Job Interview Story”, page 4. Scene based on: In the memory scene, the younger Andrés talks seriously to the food bank supervisor, an older man, admitting his error, then drives in the van with him to the community kitchen with the correct boxes. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mrs. Ríos listened carefully."
+            },
+            {
+              "html": "“What did you do when you discovered it?” she asked."
+            },
+            {
+              "html": "Andrés said that he had felt terrible."
+            },
+            {
+              "html": "He said that he had wanted to hide it at first."
+            },
+            {
+              "html": "But he decided to <b>admit</b> it to his supervisor."
+            },
+            {
+              "html": "He told her that he had called him immediately."
+            },
+            {
+              "html": "They drove together to <b>deliver</b> the right boxes."
+            },
+            {
+              "html": "The families received their food two hours late."
+            },
+            {
+              "html": "“Two hours late is bad,” Andrés said honestly."
+            },
+            {
+              "html": "“But it was better than never.”"
+            },
+            {
+              "html": "He said that the families were kind to him."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week39_grade11_page05.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Mistake That Became a Job Interview Story”, page 5. Scene based on: In the memory scene, Andrés designs a simple color-coded label system with green, blue and yellow stickers on boxes at the food bank, while other volunteers use it and the supervisor nods approvingly. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mrs. Ríos asked him one more question."
+            },
+            {
+              "html": "“What did you change after that day?”"
+            },
+            {
+              "html": "Andrés smiled. This was the best part."
+            },
+            {
+              "html": "He told her that he had created a new system."
+            },
+            {
+              "html": "Each community kitchen had its own color."
+            },
+            {
+              "html": "Every box had a colored sticker and a name."
+            },
+            {
+              "html": "A second volunteer checked every box before the van left."
+            },
+            {
+              "html": "“We never sent a wrong box again,” he said."
+            },
+            {
+              "html": "“I learned to <b>fix</b> the process, not only the mistake.”"
+            },
+            {
+              "html": "Mrs. Ríos wrote something in her notebook."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week39_grade11_page06.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Mistake That Became a Job Interview Story”, page 6. Scene based on: Back in the office, the interviewer Mrs. Ríos closes her notebook and smiles at Andrés, leaning forward with interest, while Andrés looks relieved and a little surprised. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mrs. Ríos closed her notebook."
+            },
+            {
+              "html": "She said that many candidates told perfect stories."
+            },
+            {
+              "html": "She explained that she didn’t believe most of them."
+            },
+            {
+              "html": "“Everyone makes mistakes,” she said."
+            },
+            {
+              "html": "“I want to know what people do after a mistake.”"
+            },
+            {
+              "html": "She told him that his story showed responsibility."
+            },
+            {
+              "html": "She also said that his color system was smart."
+            },
+            {
+              "html": "“In tourism, mistakes happen every day,” she added."
+            },
+            {
+              "html": "“Wrong dates, wrong hotels, wrong buses.”"
+            },
+            {
+              "html": "“We need people who admit them and solve them.”"
+            },
+            {
+              "html": "Andrés couldn’t believe what he was hearing."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week39_grade11_page07.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Mistake That Became a Job Interview Story”, page 7. Scene based on: Outside the office building, Andrés walks out into the sunny street smiling and calls Camila on his phone, while a bus passes and the Medellín hills are visible in the distance. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "After the interview, Andrés called Camila."
+            },
+            {
+              "html": "He told her that the interviewer had asked about a mistake."
+            },
+            {
+              "html": "Camila asked him what he had answered."
+            },
+            {
+              "html": "He said that he had told the food bank story."
+            },
+            {
+              "html": "“Even the bad part?” Camila asked."
+            },
+            {
+              "html": "He said that the bad part was the most important."
+            },
+            {
+              "html": "He reported that Mrs. Ríos had liked his honesty."
+            },
+            {
+              "html": "He also said that she had asked about his solution."
+            },
+            {
+              "html": "Camila laughed. “So your worst day became your best answer!”"
+            },
+            {
+              "html": "Andrés laughed too. He felt lighter."
+            },
+            {
+              "html": "He walked home slowly, enjoying the sun."
+            }
+          ],
+          "wordCount": 92
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week39_grade11_page08.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Mistake That Became a Job Interview Story”, page 8. Scene based on: A week later at home, Andrés reads a phone message showing an envelope icon with a green check mark, celebrating with his arms raised, while Camila claps on a video call and his mother smiles in the doorway. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "One week later, Andrés received a message."
+            },
+            {
+              "html": "The company offered him the weekend job!"
+            },
+            {
+              "html": "He called Camila again immediately."
+            },
+            {
+              "html": "He told her that the <b>employer</b> had accepted him."
+            },
+            {
+              "html": "He said that Mrs. Ríos had written a note."
+            },
+            {
+              "html": "She wrote that honesty was his strongest skill."
+            },
+            {
+              "html": "That night, Andrés thought about the food bank."
+            },
+            {
+              "html": "He remembered the fifty families waiting."
+            },
+            {
+              "html": "“That mistake still makes me sad,” he said."
+            },
+            {
+              "html": "“But the <b>lesson</b> made me better.”"
+            },
+            {
+              "html": "Camila said that mistakes are part of every story."
+            },
+            {
+              "html": "She added that the ending depends on what you do next."
+            }
+          ],
+          "wordCount": 93
+        }
+      ],
+      "practiceWords": [
+        "interview",
+        "interviewer",
+        "mistake",
+        "volunteer",
+        "donation",
+        "deliver",
+        "admit",
+        "fix",
+        "lesson",
+        "employer"
+      ],
+      "vocabulary": [
+        {
+          "word": "interview",
+          "definition": "a meeting where an employer asks you questions (entrevista)"
+        },
+        {
+          "word": "interviewer",
+          "definition": "the person who asks questions in an interview (entrevistador)"
+        },
+        {
+          "word": "mistake",
+          "definition": "something done in the wrong way (error)"
+        },
+        {
+          "word": "volunteer",
+          "definition": "a person who helps without being paid (voluntario)"
+        },
+        {
+          "word": "donation",
+          "definition": "something given to help others (donación)"
+        },
+        {
+          "word": "deliver",
+          "definition": "to take something to a person or place (entregar)"
+        },
+        {
+          "word": "admit",
+          "definition": "to say that something is true, often a mistake (admitir)"
+        },
+        {
+          "word": "fix",
+          "definition": "to repair or correct something (corregir)"
+        },
+        {
+          "word": "lesson",
+          "definition": "something you learn from experience (lección)"
+        },
+        {
+          "word": "employer",
+          "definition": "a person or company that gives you a job (empleador)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "What mistake did Andrés make at the food bank?",
+          "options": [
+            "He drove the food bank’s van without permission from his supervisor.",
+            "He gave away food that was for his family.",
+            "He put the wrong labels on boxes, so they went to the wrong kitchen.",
+            "He forgot to go to the food bank on an important Saturday."
+          ],
+          "answer": "He put the wrong labels on boxes, so they went to the wrong kitchen."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "Why did Andrés decide not to invent a perfect story?",
+          "options": [
+            "He couldn’t think of any other story to tell her.",
+            "He knew that the interviewer had worked at the food bank.",
+            "The interviewer asked him to tell a sad story about his family.",
+            "He remembered Camila’s advice to be honest and tell a true story."
+          ],
+          "answer": "He remembered Camila’s advice to be honest and tell a true story."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the color-coded label system?",
+          "options": [
+            "To show that Andrés learned from his mistake and improved the process.",
+            "To show that food banks use too many colors and confuse volunteers.",
+            "To show that the supervisor made the mistake.",
+            "To explain how tourism companies organize hotels and buses."
+          ],
+          "answer": "To show that Andrés learned from his mistake and improved the process."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “But he decided to admit it to his supervisor.” “Admit” means…",
+          "options": [
+            "to take something to a person or place",
+            "to say that something is true, often a mistake",
+            "to repair a broken machine in an office",
+            "to ask questions in a job meeting"
+          ],
+          "answer": "to say that something is true, often a mistake"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which statement best expresses the central idea of the text?",
+          "options": [
+            "Volunteer work is not useful for getting a job.",
+            "Job candidates should always hide their mistakes in interviews.",
+            "Learning from a mistake can show real responsibility.",
+            "Interviewers only want candidates who never make mistakes."
+          ],
+          "answer": "Learning from a mistake can show real responsibility."
+        }
+      ],
+      "cover": "../assets/images/week39_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

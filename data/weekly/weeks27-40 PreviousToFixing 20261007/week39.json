@@ -1,0 +1,1746 @@
+{
+  "week": 39,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 39",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "I Did Not Want To Go",
+      "minimumWordTarget": 350,
+      "wordCount": 431,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week39_grade06_page01.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “I Did Not Want To Go”, page 1. Scene based on: Mateo is 11 years old and studies in Medellín. One ordinary day at a sports court on a Medellín hillside, a situation involving a peer pressure begins to change the plans for the afternoon. Sara is nearby and notices that Mateo is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mateo is 11 years old and studies in Medellín. One ordinary day at a sports court on a Medellín hillside, a situation involving a peer pressure begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Sara is nearby and notices that Mateo is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about assertiveness and personal limits."
+            },
+            {
+              "html": "Mateo says <b>no</b> in a calm voice."
+            },
+            {
+              "html": "Mateo listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "Everyone can <b>choose</b> for themselves."
+            },
+            {
+              "html": "Saying no makes Mateo feel <b>strong</b>."
+            }
+          ],
+          "wordCount": 103
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week39_grade06_page02.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “I Did Not Want To Go”, page 2. Scene based on: The situation becomes harder when friends push someone toward an uncomfortable choice. Mateo feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when friends push someone toward an uncomfortable choice. Mateo feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Sara suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "Mateo does not <b>want</b> to go to the party."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "The <b>friends</b> insist again and again."
+            },
+            {
+              "html": "The <b>group</b> wants everyone to go."
+            },
+            {
+              "html": "Mateo trusts that <b>feeling</b> inside."
+            }
+          ],
+          "wordCount": 112
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week39_grade06_page03.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “I Did Not Want To Go”, page 3. Scene based on: Mateo decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mateo decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Sara explains that being responsible is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "Mateo feels a little <b>afraid</b> of their reaction."
+            },
+            {
+              "html": "By the end of the day, the immediate problem has a result. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Mateo feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "Mateo decides to <b>stay</b> home."
+            }
+          ],
+          "wordCount": 116
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week39_grade06_page04.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “I Did Not Want To Go”, page 4. Scene based on: At home, Mateo thinks about what could have happened if the group had reacted without checking anything. The student writes a short reflection: a responsible choice is not always the fastest or most popular choice. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At home, Mateo thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "The student writes a short reflection: a responsible choice is not always the fastest or most popular choice."
+            },
+            {
+              "html": "Next time, Mateo plans to ask a clearer question, confirm important information, and explain the reason for the decision."
+            },
+            {
+              "html": "The experience becomes part of how Mateo understands school, family, technology, travel, and life in a larger world."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Sara says, “It is <b>okay</b> to say no.”"
+            }
+          ],
+          "wordCount": 100
+        }
+      ],
+      "practiceWords": [
+        "no",
+        "want",
+        "friends",
+        "afraid",
+        "choose",
+        "group",
+        "stay",
+        "okay",
+        "strong",
+        "feeling"
+      ],
+      "vocabulary": [
+        {
+          "word": "no",
+          "definition": "a word to refuse (no)"
+        },
+        {
+          "word": "want",
+          "definition": "to wish for something (querer)"
+        },
+        {
+          "word": "friends",
+          "definition": "people you like (amigos)"
+        },
+        {
+          "word": "afraid",
+          "definition": "scared (asustado)"
+        },
+        {
+          "word": "choose",
+          "definition": "to decide (escoger)"
+        },
+        {
+          "word": "group",
+          "definition": "several people together (grupo)"
+        },
+        {
+          "word": "stay",
+          "definition": "to not leave (quedarse)"
+        },
+        {
+          "word": "okay",
+          "definition": "acceptable (está bien)"
+        },
+        {
+          "word": "strong",
+          "definition": "having power (fuerte)"
+        },
+        {
+          "word": "feeling",
+          "definition": "an emotion (sentimiento)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "What makes the situation harder for Mateo?",
+          "options": [
+            "A student notices a person struggling nearby",
+            "A short message is misunderstood",
+            "Friends push someone toward an uncomfortable choice",
+            "A student handles an important task independently"
+          ],
+          "answer": "Friends push someone toward an uncomfortable choice"
+        },
+        {
+          "skill": "sequence",
+          "question": "What happens FIRST in the story?",
+          "options": [
+            "Mateo notices a situation at a sports court on a Medellín hillside.",
+            "The students hear different versions of what happened.",
+            "Mateo writes a short reflection at home.",
+            "Mateo takes one small, concrete action."
+          ],
+          "answer": "Mateo notices a situation at a sports court on a Medellín hillside."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Complete the sentence from the text: “The _____ insist again and again.”",
+          "options": [
+            "group",
+            "choose",
+            "no",
+            "friends"
+          ],
+          "answer": "friends"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which word best represents the central topic of the text?",
+          "options": [
+            "friendship",
+            "limits",
+            "weather",
+            "community"
+          ],
+          "answer": "limits"
+        },
+        {
+          "skill": "simple inference",
+          "question": "According to the text, what could happen if the group reacted without checking anything?",
+          "options": [
+            "The teacher would cancel the class.",
+            "The problem could become bigger and hurt someone.",
+            "The problem would disappear immediately.",
+            "Everybody would agree on the facts."
+          ],
+          "answer": "The problem could become bigger and hurt someone."
+        }
+      ],
+      "cover": "../assets/images/week39_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "The Plan I Refused",
+      "minimumWordTarget": 400,
+      "wordCount": 492,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week39_grade07_page01.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Plan I Refused”, page 1. Scene based on: Julián is 12 years old and studies in Medellín. One ordinary day at a small family apartment, a situation involving a peer pressure begins to change the plans for the afternoon. Sara is nearby and notices that Julián is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Julián is 12 years old and studies in Medellín. One ordinary day at a small family apartment, a situation involving a peer pressure begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Sara is nearby and notices that Julián is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about assertiveness and personal limits."
+            },
+            {
+              "html": "Julián says <b>no</b> in a calm voice."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Julián does not <b>want</b> to go to the party."
+            },
+            {
+              "html": "Sara says, “It is <b>okay</b> to say no.”"
+            }
+          ],
+          "wordCount": 106
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week39_grade07_page02.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Plan I Refused”, page 2. Scene based on: The situation becomes harder when friends push someone toward an uncomfortable choice. Julián feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when friends push someone toward an uncomfortable choice. Julián feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Sara suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "The <b>friends</b> insist again and again."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "Julián feels a little <b>afraid</b> of their reaction."
+            },
+            {
+              "html": "Saying no makes Julián feel <b>strong</b>."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week39_grade07_page03.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Plan I Refused”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Julián has to think about the first idea again. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Julián has to think about the first idea again."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Everyone can <b>choose</b> for themselves."
+            },
+            {
+              "html": "Julián trusts that <b>feeling</b> inside."
+            }
+          ],
+          "wordCount": 108
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week39_grade07_page04.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Plan I Refused”, page 4. Scene based on: Julián decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Julián decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Sara explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "“Did you visit this place before?” one friend asks."
+            },
+            {
+              "html": "Sara reminds Julián that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "The <b>group</b> wants everyone to go."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week39_grade07_page05.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Plan I Refused”, page 5. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Julián feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Julián feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about assertiveness and personal limits."
+            },
+            {
+              "html": "At home, Julián thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "Julián decides to <b>stay</b> home."
+            }
+          ],
+          "wordCount": 100
+        }
+      ],
+      "practiceWords": [
+        "no",
+        "want",
+        "friends",
+        "afraid",
+        "choose",
+        "group",
+        "stay",
+        "okay",
+        "strong",
+        "feeling"
+      ],
+      "vocabulary": [
+        {
+          "word": "no",
+          "definition": "a word to refuse (no)"
+        },
+        {
+          "word": "want",
+          "definition": "to wish for something (querer)"
+        },
+        {
+          "word": "friends",
+          "definition": "people you like (amigos)"
+        },
+        {
+          "word": "afraid",
+          "definition": "scared (asustado)"
+        },
+        {
+          "word": "choose",
+          "definition": "to decide (escoger)"
+        },
+        {
+          "word": "group",
+          "definition": "several people together (grupo)"
+        },
+        {
+          "word": "stay",
+          "definition": "to not leave (quedarse)"
+        },
+        {
+          "word": "okay",
+          "definition": "acceptable (está bien)"
+        },
+        {
+          "word": "strong",
+          "definition": "having power (fuerte)"
+        },
+        {
+          "word": "feeling",
+          "definition": "an emotion (sentimiento)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Which statement is TRUE according to the text?",
+          "options": [
+            "Sara wants Julián to react immediately.",
+            "Julián accepts the plan to avoid problems.",
+            "Sara suggests checking the information before blaming anyone.",
+            "The students have all the facts from the beginning."
+          ],
+          "answer": "Sara suggests checking the information before blaming anyone."
+        },
+        {
+          "skill": "cause and effect",
+          "question": "According to the text, what could happen if the group reacted without checking anything?",
+          "options": [
+            "Everybody would agree on the facts.",
+            "The teacher would cancel the class.",
+            "The problem could become bigger and hurt someone.",
+            "The problem would disappear immediately."
+          ],
+          "answer": "The problem could become bigger and hurt someone."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the text mainly about?",
+          "options": [
+            "A friendship that ends forever",
+            "How Julián deals with a problem about assertiveness and personal limits by checking facts before acting",
+            "Why parties are always dangerous",
+            "How to organize a party with friends"
+          ],
+          "answer": "How Julián deals with a problem about assertiveness and personal limits by checking facts before acting"
+        },
+        {
+          "skill": "simple inference",
+          "question": "What can be inferred about Sara?",
+          "options": [
+            "She wants Julián to react as fast as possible.",
+            "She created the problem on purpose.",
+            "She helps Julián think carefully before acting.",
+            "She is not interested in the problem."
+          ],
+          "answer": "She helps Julián think carefully before acting."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read this sentence from page 5: “Julián decides to stay home.” In this sentence, the word “stay” means…",
+          "options": [
+            "to wish for something",
+            "several people together",
+            "to not leave",
+            "people you like"
+          ],
+          "answer": "to not leave"
+        }
+      ],
+      "cover": "../assets/images/week39_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "Saying No To The Crowd",
+      "minimumWordTarget": 450,
+      "wordCount": 498,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week39_grade08_page01.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “Saying No To The Crowd”, page 1. Scene based on: Diego is 13 years old and studies in Medellín. One ordinary day at a community center, a situation involving a peer pressure begins to change the plans for the afternoon. Sara is nearby and notices that Diego is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Diego is 13 years old and studies in Medellín. One ordinary day at a community center, a situation involving a peer pressure begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Sara is nearby and notices that Diego is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about assertiveness and personal limits."
+            },
+            {
+              "html": "Diego decides to <b>refuse</b> the plan."
+            },
+            {
+              "html": "Diego speaks in a <b>confident</b> voice."
+            }
+          ],
+          "wordCount": 76
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week39_grade08_page02.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “Saying No To The Crowd”, page 2. Scene based on: The situation becomes harder when friends push someone toward an uncomfortable choice. Diego feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when friends push someone toward an uncomfortable choice. Diego feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Sara suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "They are going to compare prices before the next purchase."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "The <b>pressure</b> grows in the group chat."
+            },
+            {
+              "html": "The plan makes Diego feel <b>uncomfortable</b>."
+            },
+            {
+              "html": "Diego does not need an <b>excuse</b> to say no."
+            }
+          ],
+          "wordCount": 100
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week39_grade08_page03.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “Saying No To The Crowd”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Diego has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Diego has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "The plan seems <b>risky</b>."
+            }
+          ],
+          "wordCount": 80
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week39_grade08_page04.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “Saying No To The Crowd”, page 4. Scene based on: Diego decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Diego decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Sara explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "Some friends <b>insist</b> that it will be fun."
+            },
+            {
+              "html": "Diego listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "It is Diego's <b>decision</b>, not the group's."
+            },
+            {
+              "html": "Sara suggests a safer <b>alternative</b>."
+            }
+          ],
+          "wordCount": 94
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week39_grade08_page05.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “Saying No To The Crowd”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in a subway station in Manhattan. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in a subway station in Manhattan."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Diego realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            }
+          ],
+          "wordCount": 80
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week39_grade08_page06.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “Saying No To The Crowd”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Diego feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Real friends <b>respect</b> a no."
+            },
+            {
+              "html": "Diego feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about assertiveness and personal limits."
+            },
+            {
+              "html": "At home, Diego thinks about what could have happened if the group had reacted without checking anything."
+            }
+          ],
+          "wordCount": 68
+        }
+      ],
+      "practiceWords": [
+        "refuse",
+        "pressure",
+        "uncomfortable",
+        "insist",
+        "decision",
+        "respect",
+        "confident",
+        "excuse",
+        "risky",
+        "alternative"
+      ],
+      "vocabulary": [
+        {
+          "word": "refuse",
+          "definition": "to say no to something (rechazar, negarse)"
+        },
+        {
+          "word": "pressure",
+          "definition": "the feeling of being pushed (presión)"
+        },
+        {
+          "word": "uncomfortable",
+          "definition": "not relaxed (incómodo)"
+        },
+        {
+          "word": "insist",
+          "definition": "to say something again and again (insistir)"
+        },
+        {
+          "word": "decision",
+          "definition": "a choice (decisión)"
+        },
+        {
+          "word": "respect",
+          "definition": "to accept someone's choice (respetar)"
+        },
+        {
+          "word": "confident",
+          "definition": "sure of yourself (seguro)"
+        },
+        {
+          "word": "excuse",
+          "definition": "a reason given to avoid something (excusa)"
+        },
+        {
+          "word": "risky",
+          "definition": "possibly dangerous (riesgoso)"
+        },
+        {
+          "word": "alternative",
+          "definition": "another option (alternativa)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "According to the text, where does Diego's situation begin?",
+          "options": [
+            "A library near the school",
+            "A sports court on a Medellín hillside",
+            "A public school in Medellín",
+            "A community center"
+          ],
+          "answer": "A community center"
+        },
+        {
+          "skill": "inference",
+          "question": "What can be inferred about Sara?",
+          "options": [
+            "She is not interested in the problem.",
+            "She helps Diego think carefully before acting.",
+            "She created the problem on purpose.",
+            "She wants Diego to react as fast as possible."
+          ],
+          "answer": "She helps Diego think carefully before acting."
+        },
+        {
+          "skill": "purpose",
+          "question": "What is the purpose of the question “What do you know for sure, and what are you only assuming?”",
+          "options": [
+            "To end the conversation quickly.",
+            "To give the students a grammar exercise.",
+            "To blame one student for the problem.",
+            "To help the students separate evidence from emotion."
+          ],
+          "answer": "To help the students separate evidence from emotion."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which option is the best summary of the text?",
+          "options": [
+            "Diego and Sara travel to New York to solve the problem.",
+            "Diego invents a complicated lie and the problem disappears.",
+            "Sara solves the problem alone while Diego watches.",
+            "Diego faces a problem because friends push someone toward an uncomfortable choice, checks the facts with Sara and makes a responsible decision."
+          ],
+          "answer": "Diego faces a problem because friends push someone toward an uncomfortable choice, checks the facts with Sara and makes a responsible decision."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Complete the sentence from the text: “It is Diego's _____, not the group's.”",
+          "options": [
+            "excuse",
+            "risky",
+            "alternative",
+            "decision"
+          ],
+          "answer": "decision"
+        }
+      ],
+      "cover": "../assets/images/week39_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "The Risk Of Following Everyone",
+      "minimumWordTarget": 500,
+      "wordCount": 577,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week39_grade09_page01.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Risk Of Following Everyone”, page 1. Scene based on: Santiago is 14 years old and studies in Medellín. One ordinary day at a local shopping area, a situation involving a peer pressure begins to change the plans for the afternoon. Laura is nearby and notices that Santiago is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Santiago is 14 years old and studies in Medellín. One ordinary day at a local shopping area, a situation involving a peer pressure begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Laura is nearby and notices that Santiago is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about assertiveness and personal limits."
+            },
+            {
+              "html": "Santiago decides to <b>refuse</b> the plan."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "The <b>pressure</b> grows in the group chat."
+            },
+            {
+              "html": "Laura suggests a safer <b>alternative</b>."
+            }
+          ],
+          "wordCount": 103
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week39_grade09_page02.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Risk Of Following Everyone”, page 2. Scene based on: The situation becomes harder when friends push someone toward an uncomfortable choice. Santiago feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when friends push someone toward an uncomfortable choice. Santiago feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Laura suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "The plan makes Santiago feel <b>uncomfortable</b>."
+            },
+            {
+              "html": "Laura reminds Santiago that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Santiago listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "Some friends <b>insist</b> that it will be fun."
+            }
+          ],
+          "wordCount": 96
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week39_grade09_page03.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Risk Of Following Everyone”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Santiago has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Santiago has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Santiago listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "It is Santiago's <b>decision</b>, not the group's."
+            }
+          ],
+          "wordCount": 100
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week39_grade09_page04.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Risk Of Following Everyone”, page 4. Scene based on: Santiago decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Santiago decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Laura explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "Real friends <b>respect</b> a no."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Santiago speaks in a <b>confident</b> voice."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week39_grade09_page05.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Risk Of Following Everyone”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in a youth exchange in New York City. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in a youth exchange in New York City."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Santiago realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "Santiago does not need an <b>excuse</b> to say no."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "The plan seems <b>risky</b>."
+            }
+          ],
+          "wordCount": 98
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week39_grade09_page06.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Risk Of Following Everyone”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Santiago feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Santiago feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about assertiveness and personal limits."
+            },
+            {
+              "html": "At home, Santiago thinks about what could have happened if the group had reacted without checking anything."
+            }
+          ],
+          "wordCount": 95
+        }
+      ],
+      "practiceWords": [
+        "refuse",
+        "pressure",
+        "uncomfortable",
+        "insist",
+        "decision",
+        "respect",
+        "confident",
+        "excuse",
+        "risky",
+        "alternative"
+      ],
+      "vocabulary": [
+        {
+          "word": "refuse",
+          "definition": "to say no to something (rechazar, negarse)"
+        },
+        {
+          "word": "pressure",
+          "definition": "the feeling of being pushed (presión)"
+        },
+        {
+          "word": "uncomfortable",
+          "definition": "not relaxed (incómodo)"
+        },
+        {
+          "word": "insist",
+          "definition": "to say something again and again (insistir)"
+        },
+        {
+          "word": "decision",
+          "definition": "a choice (decisión)"
+        },
+        {
+          "word": "respect",
+          "definition": "to accept someone's choice (respetar)"
+        },
+        {
+          "word": "confident",
+          "definition": "sure of yourself (seguro)"
+        },
+        {
+          "word": "excuse",
+          "definition": "a reason given to avoid something (excusa)"
+        },
+        {
+          "word": "risky",
+          "definition": "possibly dangerous (riesgoso)"
+        },
+        {
+          "word": "alternative",
+          "definition": "another option (alternativa)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Who notices that Santiago is paying close attention to what is happening?",
+          "options": [
+            "Miguel",
+            "Nico",
+            "Lucía",
+            "Laura"
+          ],
+          "answer": "Laura"
+        },
+        {
+          "skill": "inference",
+          "question": "Why does Santiago listen carefully before answering?",
+          "options": [
+            "Because one missing detail can change the meaning of the situation.",
+            "Because nobody else is paying attention.",
+            "Because the teacher prohibits talking.",
+            "Because he does not understand Spanish."
+          ],
+          "answer": "Because one missing detail can change the meaning of the situation."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What is the relationship between the Medellín situation and the New York example?",
+          "options": [
+            "The Medellín situation solves the New York problem.",
+            "The New York example causes the Medellín problem.",
+            "They are completely unrelated situations.",
+            "Both show the same basic problem in different places."
+          ],
+          "answer": "Both show the same basic problem in different places."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the text mainly about?",
+          "options": [
+            "How to organize a party with friends",
+            "Why parties are always dangerous",
+            "A friendship that ends forever",
+            "How Santiago deals with a problem about assertiveness and personal limits by checking facts before acting"
+          ],
+          "answer": "How Santiago deals with a problem about assertiveness and personal limits by checking facts before acting"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Which word from the text means “sure of yourself”?",
+          "options": [
+            "alternative",
+            "confident",
+            "risky",
+            "decision"
+          ],
+          "answer": "confident"
+        }
+      ],
+      "cover": "../assets/images/week39_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "If Everyone Is Doing It",
+      "minimumWordTarget": 600,
+      "wordCount": 659,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week39_grade10_page01.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “If Everyone Is Doing It”, page 1. Scene based on: Valentina is 15–16 years old and studies in Medellín. One ordinary day at a bus stop after school, a situation involving a peer pressure begins to change the plans for the afternoon. Samuel is nearby and notices that Valentina is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina is 15–16 years old and studies in Medellín. One ordinary day at a bus stop after school, a situation involving a peer pressure begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Samuel is nearby and notices that Valentina is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about assertiveness and personal limits."
+            },
+            {
+              "html": "An <b>assertive</b> answer is neither rude nor weak."
+            },
+            {
+              "html": "Samuel reminds Valentina that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "<b>Self-respect</b> is stronger than the fear of being excluded."
+            }
+          ],
+          "wordCount": 100
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week39_grade10_page02.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “If Everyone Is Doing It”, page 2. Scene based on: The situation becomes harder when friends push someone toward an uncomfortable choice. Valentina feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when friends push someone toward an uncomfortable choice. Valentina feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Samuel suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "If people check reliable information, they usually make safer decisions."
+            },
+            {
+              "html": "<b>Peer pressure</b> can be very strong at parties."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Valentina learns to <b>decline</b> without long explanations."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week39_grade10_page03.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “If Everyone Is Doing It”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Valentina has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Valentina has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week39_grade10_page04.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “If Everyone Is Doing It”, page 4. Scene based on: Valentina decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Samuel explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "Valentina will not <b>compromise</b> personal values."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "Some messages try to <b>manipulate</b> Valentina."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week39_grade10_page05.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “If Everyone Is Doing It”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in an online classroom shared with New York students. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in an online classroom shared with New York students."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Valentina realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Valentina speaks with <b>conviction</b>."
+            }
+          ],
+          "wordCount": 107
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week39_grade10_page06.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “If Everyone Is Doing It”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Valentina feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Without <b>consent</b>, nobody should be pushed."
+            },
+            {
+              "html": "Valentina feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about assertiveness and personal limits."
+            },
+            {
+              "html": "Samuel reminds Valentina that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Saying no protects Valentina's <b>integrity</b>."
+            }
+          ],
+          "wordCount": 74
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week39_grade10_page07.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “If Everyone Is Doing It”, page 7. Scene based on: The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another. They also discuss the author’s purpose and decide which detail best supports the final lesson. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another."
+            },
+            {
+              "html": "They also discuss the author’s purpose and decide which detail best supports the final lesson."
+            },
+            {
+              "html": "Valentina notices that strong reading is not only translating words. It means connecting evidence, sequence, intention, and consequences."
+            },
+            {
+              "html": "That habit will be useful in future exams because a difficult question often depends on a small but meaningful detail."
+            },
+            {
+              "html": "Valentina listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "Valentina expects some <b>backlash</b> in the chat."
+            }
+          ],
+          "wordCount": 105
+        }
+      ],
+      "practiceWords": [
+        "assertive",
+        "peer pressure",
+        "compromise",
+        "manipulate",
+        "conviction",
+        "consent",
+        "integrity",
+        "backlash",
+        "self-respect",
+        "decline"
+      ],
+      "vocabulary": [
+        {
+          "word": "assertive",
+          "definition": "expressing your opinion clearly and respectfully (asertivo)"
+        },
+        {
+          "word": "peer pressure",
+          "definition": "influence from people your age (presión de grupo)"
+        },
+        {
+          "word": "compromise",
+          "definition": "to give up something important (comprometer, ceder)"
+        },
+        {
+          "word": "manipulate",
+          "definition": "to control someone in an unfair way (manipular)"
+        },
+        {
+          "word": "conviction",
+          "definition": "a strong belief (convicción)"
+        },
+        {
+          "word": "consent",
+          "definition": "agreement (consentimiento)"
+        },
+        {
+          "word": "integrity",
+          "definition": "having strong values (integridad)"
+        },
+        {
+          "word": "backlash",
+          "definition": "a strong negative reaction (reacción negativa)"
+        },
+        {
+          "word": "self-respect",
+          "definition": "respect for yourself (amor propio)"
+        },
+        {
+          "word": "decline",
+          "definition": "to say no politely (declinar)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Which New York setting is mentioned in the text?",
+          "options": [
+            "Queens, New York",
+            "A youth exchange in New York City",
+            "An online classroom shared with New York students",
+            "A subway station in Manhattan"
+          ],
+          "answer": "An online classroom shared with New York students"
+        },
+        {
+          "skill": "inference",
+          "question": "Which action would go AGAINST what Valentina learns in the story?",
+          "options": [
+            "Insulting the friends in the group chat without thinking.",
+            "Explaining the reason for a decision.",
+            "Verifying a detail first.",
+            "Asking a clear question."
+          ],
+          "answer": "Insulting the friends in the group chat without thinking."
+        },
+        {
+          "skill": "purpose",
+          "question": "What is the purpose of the question “What do you know for sure, and what are you only assuming?”",
+          "options": [
+            "To end the conversation quickly.",
+            "To blame one student for the problem.",
+            "To give the students a grammar exercise.",
+            "To help the students separate evidence from emotion."
+          ],
+          "answer": "To help the students separate evidence from emotion."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In “Instead of having all the facts, the students hear different versions of what happened,” the expression “instead of” shows that…",
+          "options": [
+            "the versions are all exactly the same",
+            "the facts arrive after a long time",
+            "the students have all the information they need",
+            "the students get rumors in place of complete information"
+          ],
+          "answer": "the students get rumors in place of complete information"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which option is the best summary of the text?",
+          "options": [
+            "Valentina and Samuel travel to New York to solve the problem.",
+            "Valentina invents a complicated lie and the problem disappears.",
+            "Valentina faces a problem because friends push someone toward an uncomfortable choice, checks the facts with Samuel and makes a responsible decision.",
+            "Samuel solves the problem alone while Valentina watches."
+          ],
+          "answer": "Valentina faces a problem because friends push someone toward an uncomfortable choice, checks the facts with Samuel and makes a responsible decision."
+        }
+      ],
+      "cover": "../assets/images/week39_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "The Pressure I Finally Questioned",
+      "minimumWordTarget": 700,
+      "wordCount": 787,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week39_grade11_page01.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Pressure I Finally Questioned”, page 1. Scene based on: Laura is 17–18 years old and studies in Medellín. One ordinary day at a school courtyard, a situation involving a peer pressure begins to change the plans for the afternoon. Daniel is nearby and notices that Laura is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura is 17–18 years old and studies in Medellín. One ordinary day at a school courtyard, a situation involving a peer pressure begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Daniel is nearby and notices that Laura is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about assertiveness and personal limits."
+            },
+            {
+              "html": "An <b>assertive</b> answer is neither rude nor weak."
+            },
+            {
+              "html": "Laura listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "Laura learns to <b>decline</b> without long explanations."
+            }
+          ],
+          "wordCount": 96
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week39_grade11_page02.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Pressure I Finally Questioned”, page 2. Scene based on: The situation becomes harder when friends push someone toward an uncomfortable choice. Laura feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when friends push someone toward an uncomfortable choice. Laura feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Daniel suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "<b>Peer pressure</b> can be very strong at parties."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "Laura will not <b>compromise</b> personal values."
+            }
+          ],
+          "wordCount": 100
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week39_grade11_page03.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Pressure I Finally Questioned”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Laura has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Laura has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            }
+          ],
+          "wordCount": 97
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week39_grade11_page04.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Pressure I Finally Questioned”, page 4. Scene based on: Laura decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Daniel explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "Some messages try to <b>manipulate</b> Laura."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Daniel reminds Laura that asking for help can be a responsible decision when the situation is unclear."
+            }
+          ],
+          "wordCount": 100
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week39_grade11_page05.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Pressure I Finally Questioned”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in Queens, New York. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in Queens, New York."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Laura realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "Daniel reminds Laura that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Laura speaks with <b>conviction</b>."
+            }
+          ],
+          "wordCount": 99
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week39_grade11_page06.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Pressure I Finally Questioned”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Laura feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Laura feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about assertiveness and personal limits."
+            },
+            {
+              "html": "Laura listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "Without <b>consent</b>, nobody should be pushed."
+            }
+          ],
+          "wordCount": 101
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week39_grade11_page07.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Pressure I Finally Questioned”, page 7. Scene based on: At home, Laura thinks about what could have happened if the group had reacted without checking anything. The student writes a short reflection: a responsible choice is not always the fastest or most popular choice. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At home, Laura thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "Saying no protects Laura's <b>integrity</b>."
+            },
+            {
+              "html": "Next time, Laura plans to ask a clearer question, confirm important information, and explain the reason for the decision."
+            },
+            {
+              "html": "The experience becomes part of how Laura understands school, family, technology, travel, and life in a larger world."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Laura expects some <b>backlash</b> in the chat."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week39_grade11_page08.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Pressure I Finally Questioned”, page 8. Scene based on: The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another. They also discuss the author’s purpose and decide which detail best supports the final lesson. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another."
+            },
+            {
+              "html": "They also discuss the author’s purpose and decide which detail best supports the final lesson."
+            },
+            {
+              "html": "Laura notices that strong reading is not only translating words. It means connecting evidence, sequence, intention, and consequences."
+            },
+            {
+              "html": "That habit will be useful in future exams because a difficult question often depends on a small but meaningful detail."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "<b>Self-respect</b> is stronger than the fear of being excluded."
+            }
+          ],
+          "wordCount": 111
+        }
+      ],
+      "practiceWords": [
+        "assertive",
+        "peer pressure",
+        "compromise",
+        "manipulate",
+        "conviction",
+        "consent",
+        "integrity",
+        "backlash",
+        "self-respect",
+        "decline"
+      ],
+      "vocabulary": [
+        {
+          "word": "assertive",
+          "definition": "expressing your opinion clearly and respectfully (asertivo)"
+        },
+        {
+          "word": "peer pressure",
+          "definition": "influence from people your age (presión de grupo)"
+        },
+        {
+          "word": "compromise",
+          "definition": "to give up something important (comprometer, ceder)"
+        },
+        {
+          "word": "manipulate",
+          "definition": "to control someone in an unfair way (manipular)"
+        },
+        {
+          "word": "conviction",
+          "definition": "a strong belief (convicción)"
+        },
+        {
+          "word": "consent",
+          "definition": "agreement (consentimiento)"
+        },
+        {
+          "word": "integrity",
+          "definition": "having strong values (integridad)"
+        },
+        {
+          "word": "backlash",
+          "definition": "a strong negative reaction (reacción negativa)"
+        },
+        {
+          "word": "self-respect",
+          "definition": "respect for yourself (amor propio)"
+        },
+        {
+          "word": "decline",
+          "definition": "to say no politely (declinar)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "Imagine you are in Laura's situation. Which action follows the message of the text?",
+          "options": [
+            "Insult the friends in the group chat.",
+            "Say no clearly and suggest a safer alternative.",
+            "Accept the plan to avoid problems.",
+            "Invent a complicated lie."
+          ],
+          "answer": "Say no clearly and suggest a safer alternative."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In “Instead of having all the facts, the students hear different versions of what happened,” the expression “instead of” shows that…",
+          "options": [
+            "the students get rumors in place of complete information",
+            "the facts arrive after a long time",
+            "the versions are all exactly the same",
+            "the students have all the information they need"
+          ],
+          "answer": "the students get rumors in place of complete information"
+        },
+        {
+          "skill": "purpose",
+          "question": "What is the author's main purpose in this text?",
+          "options": [
+            "To show, through a story, how to act responsibly when friends push someone toward an uncomfortable choice.",
+            "To describe the history of Medellín.",
+            "To give scientific data about teenagers in Colombia.",
+            "To sell a product to students."
+          ],
+          "answer": "To show, through a story, how to act responsibly when friends push someone toward an uncomfortable choice."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Which word from the text means “respect for yourself”?",
+          "options": [
+            "consent",
+            "backlash",
+            "self-respect",
+            "compromise"
+          ],
+          "answer": "self-respect"
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the text mainly about?",
+          "options": [
+            "How to organize a party with friends",
+            "Why parties are always dangerous",
+            "How Laura deals with a problem about assertiveness and personal limits by checking facts before acting",
+            "A friendship that ends forever"
+          ],
+          "answer": "How Laura deals with a problem about assertiveness and personal limits by checking facts before acting"
+        }
+      ],
+      "cover": "../assets/images/week39_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

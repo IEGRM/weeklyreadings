@@ -1,0 +1,1956 @@
+{
+  "week": 6,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 6",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "Going To Parque Explora Medellin",
+      "minimumWordTarget": 350,
+      "wordCount": 353,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week06_grade06_page01.webp",
+          "artDirection": "11–12-year-old Colombian student context for “Going To Parque Explora Medellin”. Scene based on: Juan and his cousin Luisa are excited to visit Parque Explora in Medellín. For a moment, Juan looks around and thinks about what to do next. They save money for weeks to buy ticket. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Juan and his <b>cousin</b> Luisa are excited to visit <b>Parque Explora</b> in Medellín."
+            },
+            {
+              "html": "For a moment, Juan looks around and thinks about what to do next."
+            },
+            {
+              "html": "They save <b>money</b> for weeks to buy <b>tickets</b>."
+            },
+            {
+              "html": "The day continues, and Juan tries to stay calm and pay attention."
+            },
+            {
+              "html": "Their <b>neighborhood</b> is poor, but they dream of seeing the <b>aquarium</b>."
+            },
+            {
+              "html": "A small detail helps Juan understand the situation a little better."
+            },
+            {
+              "html": "They take a <b>bus</b> early in the morning."
+            },
+            {
+              "html": "After that, Juan continues carefully instead of rushing."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week06_grade06_page02.webp",
+          "artDirection": "11–12-year-old Colombian student context for “Going To Parque Explora Medellin”. Scene based on: At the park, they touch starfish and watch butterflies. The people nearby also notice what is happening and react in simple ways. Juan feels happy because he learns new things. Thi. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "At the park, they touch <b>starfish</b> and watch <b>butterflies</b>."
+            },
+            {
+              "html": "The people nearby also notice what is happening and react in simple ways."
+            },
+            {
+              "html": "Juan feels <b>happy</b> because he learns new things."
+            },
+            {
+              "html": "This gives Juan time to make a better choice and continue the day."
+            },
+            {
+              "html": "Luisa buys a small gift for her mom."
+            },
+            {
+              "html": "A few minutes later, the situation feels easier to understand."
+            },
+            {
+              "html": "They return home tired but proud."
+            },
+            {
+              "html": "Juan remembers that simple choices can make a difficult moment better."
+            },
+            {
+              "html": "Their friends ask about the trip."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week06_grade06_page03.webp",
+          "artDirection": "11–12-year-old Colombian student context for “Going To Parque Explora Medellin”. Scene based on: The experience is ordinary, but it becomes an important part of the day. Juan says, \"It was awesome!\" By paying attention, Juan learns something useful from the moment. Later, for . warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The experience is ordinary, but it becomes an important part of the day."
+            },
+            {
+              "html": "Juan says, \"It was awesome!\""
+            },
+            {
+              "html": "By paying attention, Juan learns something useful from the moment."
+            },
+            {
+              "html": "Later, for a moment, Juan looks around and thinks about what to do next."
+            },
+            {
+              "html": "Juan and his cousin Luisa are excited to visit Parque Explora in Medellín."
+            },
+            {
+              "html": "The day continues, and Juan tries to stay calm and pay attention."
+            },
+            {
+              "html": "They save money for weeks to buy tickets."
+            },
+            {
+              "html": "A small detail helps Juan understand the situation a little better."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week06_grade06_page04.webp",
+          "artDirection": "11–12-year-old Colombian student context for “Going To Parque Explora Medellin”. Scene based on: Their neighborhood is poor, but they dream of seeing the aquarium. After that, Juan continues carefully instead of rushing. They take a bus early in the morning. The people nearby . warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Their neighborhood is poor, but they dream of seeing the aquarium."
+            },
+            {
+              "html": "After that, Juan continues carefully instead of rushing."
+            },
+            {
+              "html": "They take a bus early in the morning."
+            },
+            {
+              "html": "The people nearby also notice what is happening and react in simple ways."
+            },
+            {
+              "html": "At the park, they touch starfish and watch butterflies."
+            },
+            {
+              "html": "This gives Juan time to make a better choice and continue the day."
+            },
+            {
+              "html": "Juan feels happy because he learns new things."
+            },
+            {
+              "html": "A few minutes later, the situation feels easier to understand."
+            },
+            {
+              "html": "Luisa buys a small gift for her mom."
+            },
+            {
+              "html": "Juan remembers that simple choices can make a difficult moment better."
+            }
+          ],
+          "wordCount": 99
+        }
+      ],
+      "practiceWords": [
+        "cousin",
+        "Parque Explora",
+        "money",
+        "tickets",
+        "neighborhood",
+        "aquarium",
+        "bus",
+        "starfish",
+        "butterflies",
+        "happy"
+      ],
+      "vocabulary": [
+        {
+          "word": "cousin",
+          "definition": "child of one's uncle/aunt (primo/a)"
+        },
+        {
+          "word": "Parque Explora",
+          "definition": "science museum in Medellín (parque de ciencias)"
+        },
+        {
+          "word": "money",
+          "definition": "currency used to buy things (dinero)"
+        },
+        {
+          "word": "tickets",
+          "definition": "passes for entry (boletos)"
+        },
+        {
+          "word": "neighborhood",
+          "definition": "local area (barrio)"
+        },
+        {
+          "word": "aquarium",
+          "definition": "tank for fish (acuario)"
+        },
+        {
+          "word": "bus",
+          "definition": "public transport (autobús)"
+        },
+        {
+          "word": "starfish",
+          "definition": "sea creature (estrella de mar)"
+        },
+        {
+          "word": "butterflies",
+          "definition": "flying insects (mariposas)"
+        },
+        {
+          "word": "happy",
+          "definition": "feeling joy (feliz)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "Why do Juan and Luisa save money?",
+          "options": [
+            "For toys",
+            "For Parque Explora tickets",
+            "For a bus"
+          ],
+          "answer": "For Parque Explora tickets"
+        },
+        {
+          "skill": "sequence",
+          "question": "What do they touch at the park?",
+          "options": [
+            "Starfish",
+            "Snakes",
+            "Rocks"
+          ],
+          "answer": "Starfish"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "How does Juan feel after the trip?",
+          "options": [
+            "Sad",
+            "Happy",
+            "Angry"
+          ],
+          "answer": "Happy"
+        },
+        {
+          "skill": "main idea",
+          "question": "What does Luisa buy for her mom?",
+          "options": [
+            "A gift",
+            "A ticket",
+            "A book"
+          ],
+          "answer": "A gift"
+        },
+        {
+          "skill": "simple inference",
+          "question": "What word does Juan use to describe the trip?",
+          "options": [
+            "Boring",
+            "Awesome",
+            "Scary"
+          ],
+          "answer": "Awesome"
+        }
+      ],
+      "cover": "../assets/images/week06_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "Joseph Picks Up His Little Brother From School",
+      "minimumWordTarget": 400,
+      "wordCount": 407,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week06_grade07_page01.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Joseph Picks Up His Little Brother From School”. Scene based on: Joseph waits outside his brother’s school in Barrio Triste. As the situation develops, Mateo realizes that a quick decision can create a real consequence. His mother works late, so. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Joseph waits outside his brother’s <b>school</b> in Barrio Triste."
+            },
+            {
+              "html": "As the situation develops, Mateo realizes that a quick decision can create a real consequence."
+            },
+            {
+              "html": "His <b>mother</b> works late, so he <b>responsibility</b>."
+            },
+            {
+              "html": "The details around Mateo make the problem easier to understand."
+            },
+            {
+              "html": "Little Mateo runs to him, holding a <b>drawing</b>."
+            },
+            {
+              "html": "Instead of reacting immediately, Mateo takes a moment to think about the next step."
+            },
+            {
+              "html": "\"Look!\" he says."
+            },
+            {
+              "html": "The small challenge becomes an opportunity to learn something useful."
+            }
+          ],
+          "wordCount": 76
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week06_grade07_page02.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Joseph Picks Up His Little Brother From School”. Scene based on: Joseph smiles but notices Mateo’s shoes are torn. Other people influence the moment even when they are not at the center of the story. They walk past street vendors selling fruits.. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Joseph smiles but notices Mateo’s <b>shoes</b> are torn."
+            },
+            {
+              "html": "Other people influence the moment even when they are not at the center of the story."
+            },
+            {
+              "html": "They walk past <b>street vendors</b> selling <b>fruits</b>."
+            },
+            {
+              "html": "Mateo's feelings begin to change as new information appears."
+            },
+            {
+              "html": "Joseph buys Mateo a <b>mango</b> with his last <b>coins</b>."
+            },
+            {
+              "html": "One action leads naturally to another, so the consequence becomes clear."
+            },
+            {
+              "html": "At home, their <b>apartment</b> is small but clean."
+            },
+            {
+              "html": "The experience encourages Mateo to be more patient and responsible."
+            }
+          ],
+          "wordCount": 78
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week06_grade07_page03.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Joseph Picks Up His Little Brother From School”. Scene based on: Joseph helps Mateo with homework. After reflecting on what happened, Mateo understands the situation better. Their mom arrives, tired but grateful. By the end of the moment, Mateo . warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Joseph helps Mateo with homework."
+            },
+            {
+              "html": "After reflecting on what happened, Mateo understands the situation better."
+            },
+            {
+              "html": "Their mom arrives, tired but grateful."
+            },
+            {
+              "html": "By the end of the moment, Mateo has learned something that may help later."
+            },
+            {
+              "html": "\"You’re a good brother,\" she says."
+            },
+            {
+              "html": "As the situation develops, Mateo realizes that a quick decision can create a real consequence."
+            },
+            {
+              "html": "Joseph feels proud."
+            },
+            {
+              "html": "The details around Mateo make the problem easier to understand."
+            },
+            {
+              "html": "Later, instead of reacting immediately, Mateo takes a moment to think about the next step."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week06_grade07_page04.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Joseph Picks Up His Little Brother From School”. Scene based on: Joseph waits outside his brother’s school in Barrio Triste. The small challenge becomes an opportunity to learn something useful. His mother works late, so he responsibility. Other. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Joseph waits outside his brother’s school in Barrio Triste."
+            },
+            {
+              "html": "The small challenge becomes an opportunity to learn something useful."
+            },
+            {
+              "html": "His mother works late, so he responsibility."
+            },
+            {
+              "html": "Other people influence the moment even when they are not at the center of the story."
+            },
+            {
+              "html": "Little Mateo runs to him, holding a drawing."
+            },
+            {
+              "html": "Mateo's feelings begin to change as new information appears."
+            },
+            {
+              "html": "\"Look!\" he says."
+            },
+            {
+              "html": "One action leads naturally to another, so the consequence becomes clear."
+            },
+            {
+              "html": "Joseph smiles but notices Mateo’s shoes are torn."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week06_grade07_page05.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Joseph Picks Up His Little Brother From School”. Scene based on: The experience encourages Mateo to be more patient and responsible. They walk past street vendors selling fruits. After reflecting on what happened, Mateo understands the situation. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The experience encourages Mateo to be more patient and responsible."
+            },
+            {
+              "html": "They walk past street vendors selling fruits."
+            },
+            {
+              "html": "After reflecting on what happened, Mateo understands the situation better."
+            },
+            {
+              "html": "Joseph buys Mateo a mango with his last coins."
+            },
+            {
+              "html": "By the end of the moment, Mateo has learned something that may help later."
+            },
+            {
+              "html": "At home, their apartment is small but clean."
+            },
+            {
+              "html": "As the situation develops, Mateo realizes that a quick decision can create a real consequence."
+            },
+            {
+              "html": "Joseph helps Mateo with homework."
+            },
+            {
+              "html": "The details around Mateo make the problem easier to understand."
+            }
+          ],
+          "wordCount": 88
+        }
+      ],
+      "practiceWords": [
+        "school",
+        "mother",
+        "responsibility",
+        "drawing",
+        "shoes",
+        "street vendors",
+        "fruits",
+        "mango",
+        "coins",
+        "apartment"
+      ],
+      "vocabulary": [
+        {
+          "word": "school",
+          "definition": "place of learning (escuela)"
+        },
+        {
+          "word": "mother",
+          "definition": "female parent (madre)"
+        },
+        {
+          "word": "responsibility",
+          "definition": "duty (responsabilidad)"
+        },
+        {
+          "word": "drawing",
+          "definition": "art made with pencils (dibujo)"
+        },
+        {
+          "word": "shoes",
+          "definition": "footwear (zapatos)"
+        },
+        {
+          "word": "street vendors",
+          "definition": "people selling on streets (vendedores ambulantes)"
+        },
+        {
+          "word": "fruits",
+          "definition": "edible plants (frutas)"
+        },
+        {
+          "word": "mango",
+          "definition": "tropical fruit (mango)"
+        },
+        {
+          "word": "coins",
+          "definition": "small money (monedas)"
+        },
+        {
+          "word": "apartment",
+          "definition": "small home (apartamento)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Why does Joseph pick up Mateo?",
+          "options": [
+            "Their mom works late",
+            "Mateo is lost",
+            "They have a party"
+          ],
+          "answer": "Their mom works late"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "What does Mateo show Joseph?",
+          "options": [
+            "A drawing",
+            "A toy",
+            "A book"
+          ],
+          "answer": "A drawing"
+        },
+        {
+          "skill": "main idea",
+          "question": "What does Joseph buy for Mateo?",
+          "options": [
+            "A mango",
+            "A shoe",
+            "A comic"
+          ],
+          "answer": "A mango"
+        },
+        {
+          "skill": "simple inference",
+          "question": "How does their mom feel about Joseph?",
+          "options": [
+            "Angry",
+            "Proud",
+            "Sad"
+          ],
+          "answer": "Proud"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Where do they live?",
+          "options": [
+            "A big house",
+            "A small apartment",
+            "A hostel"
+          ],
+          "answer": "A small apartment"
+        }
+      ],
+      "cover": "../assets/images/week06_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "Going On A Trip To Santa Marta",
+      "minimumWordTarget": 450,
+      "wordCount": 450,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week06_grade08_page01.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Going On A Trip To Santa Marta”. Scene based on: Camila’s family saves for a trip to Santa Marta. The situation becomes more complicated because Marta must balance what is wanted with what the moment requires. Her dad drives thei. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Camila’s <b>family</b> saves for a trip to <b>Santa Marta</b>."
+            },
+            {
+              "html": "The situation becomes more complicated because Marta must balance what is wanted with what the moment requires."
+            },
+            {
+              "html": "Her dad drives their old <b>car</b> for hours."
+            },
+            {
+              "html": "A detail that seemed small at first now helps explain the problem."
+            },
+            {
+              "html": "They pass <b>mountains</b> and <b>rivers</b>."
+            },
+            {
+              "html": "Different reactions show that people can understand the same event in different ways."
+            },
+            {
+              "html": "Camila shares a <b>sandwich</b> with her <b>sister</b>."
+            }
+          ],
+          "wordCount": 71
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week06_grade08_page02.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Going On A Trip To Santa Marta”. Scene based on: The problem affects more than one person and changes how the group responds. At the beach, they rent an umbrella. Marta begins to see that acting quickly is not always the same as . warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The problem affects more than one person and changes how the group responds."
+            },
+            {
+              "html": "At the beach, they rent an <b>umbrella</b>."
+            },
+            {
+              "html": "Marta begins to see that acting quickly is not always the same as acting wisely."
+            },
+            {
+              "html": "The <b>sun</b> is hot, but the water is <b>cool</b>."
+            },
+            {
+              "html": "The setting creates realistic limits that influence what can happen next."
+            },
+            {
+              "html": "Camila collects shells while her dad naps."
+            },
+            {
+              "html": "Expressions and actions reveal feelings that are not always stated directly."
+            }
+          ],
+          "wordCount": 73
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week06_grade08_page03.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Going On A Trip To Santa Marta”. Scene based on: A vendor sells them coconuts. The consequence grows naturally from a decision made only a short time earlier. At sunset, they take photos. A practical response appears when the cha. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "A vendor sells them coconuts."
+            },
+            {
+              "html": "The consequence grows naturally from a decision made only a short time earlier."
+            },
+            {
+              "html": "At sunset, they take photos."
+            },
+            {
+              "html": "A practical response appears when the characters stop and consider another option."
+            },
+            {
+              "html": "\"This is better than our barrio,\" Camila whispers."
+            },
+            {
+              "html": "The experience becomes useful when Marta connects the immediate problem with a larger responsibility."
+            },
+            {
+              "html": "Her mom agrees."
+            },
+            {
+              "html": "The situation becomes more complicated because Marta must balance what is wanted with what the moment requires."
+            }
+          ],
+          "wordCount": 77
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week06_grade08_page04.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Going On A Trip To Santa Marta”. Scene based on: They sleep in a cheap hostel. A detail that seemed small at first now helps explain the problem. Camila dreams of returning. Different reactions show that people can understand the. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "They sleep in a cheap hostel."
+            },
+            {
+              "html": "A detail that seemed small at first now helps explain the problem."
+            },
+            {
+              "html": "Camila dreams of returning."
+            },
+            {
+              "html": "Different reactions show that people can understand the same event in different ways."
+            },
+            {
+              "html": "Later, the problem affects more than one person and changes how the group responds."
+            },
+            {
+              "html": "Camila’s family saves for a trip to Santa Marta."
+            },
+            {
+              "html": "Marta begins to see that acting quickly is not always the same as acting wisely."
+            }
+          ],
+          "wordCount": 73
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week06_grade08_page05.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Going On A Trip To Santa Marta”. Scene based on: Her dad drives their old car for hours. The setting creates realistic limits that influence what can happen next. They pass mountains and rivers. Expressions and actions reveal fee. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Her dad drives their old car for hours."
+            },
+            {
+              "html": "The setting creates realistic limits that influence what can happen next."
+            },
+            {
+              "html": "They pass mountains and rivers."
+            },
+            {
+              "html": "Expressions and actions reveal feelings that are not always stated directly."
+            },
+            {
+              "html": "Camila shares a sandwich with her sister."
+            },
+            {
+              "html": "The consequence grows naturally from a decision made only a short time earlier."
+            },
+            {
+              "html": "At the beach, they rent an umbrella."
+            },
+            {
+              "html": "A practical response appears when the characters stop and consider another option."
+            }
+          ],
+          "wordCount": 74
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week06_grade08_page06.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Going On A Trip To Santa Marta”. Scene based on: The sun is hot, but the water is cool. The experience becomes useful when Marta connects the immediate problem with a larger responsibility. Camila collects shells while her dad na. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The sun is hot, but the water is cool."
+            },
+            {
+              "html": "The experience becomes useful when Marta connects the immediate problem with a larger responsibility."
+            },
+            {
+              "html": "Camila collects shells while her dad naps."
+            },
+            {
+              "html": "The situation becomes more complicated because Marta must balance what is wanted with what the moment requires."
+            },
+            {
+              "html": "A vendor sells them coconuts."
+            },
+            {
+              "html": "A detail that seemed small at first now helps explain the problem."
+            },
+            {
+              "html": "At sunset, they take photos."
+            },
+            {
+              "html": "Different reactions show that people can understand the same event in different ways."
+            }
+          ],
+          "wordCount": 82
+        }
+      ],
+      "practiceWords": [
+        "family",
+        "Santa Marta",
+        "car",
+        "mountains",
+        "rivers",
+        "sandwich",
+        "sister",
+        "umbrella",
+        "sun",
+        "cool"
+      ],
+      "vocabulary": [
+        {
+          "word": "family",
+          "definition": "parents and children (familia)"
+        },
+        {
+          "word": "Santa Marta",
+          "definition": "coastal city in Colombia (ciudad costera)"
+        },
+        {
+          "word": "car",
+          "definition": "vehicle (carro)"
+        },
+        {
+          "word": "mountains",
+          "definition": "large landforms (montañas)"
+        },
+        {
+          "word": "rivers",
+          "definition": "flowing water (ríos)"
+        },
+        {
+          "word": "sandwich",
+          "definition": "bread with filling (sándwich)"
+        },
+        {
+          "word": "sister",
+          "definition": "female sibling (hermana)"
+        },
+        {
+          "word": "umbrella",
+          "definition": "sun/rain shade (sombrilla)"
+        },
+        {
+          "word": "sun",
+          "definition": "star that gives light (sol)"
+        },
+        {
+          "word": "cool",
+          "definition": "slightly cold (fresco)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Where does Camila’s family go?",
+          "options": [
+            "Santa Marta",
+            "Bogotá",
+            "Cali"
+          ],
+          "answer": "Santa Marta"
+        },
+        {
+          "skill": "inference",
+          "question": "What do they rent at the beach?",
+          "options": [
+            "Umbrella",
+            "Boat",
+            "Bike"
+          ],
+          "answer": "Umbrella"
+        },
+        {
+          "skill": "purpose",
+          "question": "What does Camila collect?",
+          "options": [
+            "Shells",
+            "Rocks",
+            "Sticks"
+          ],
+          "answer": "Shells"
+        },
+        {
+          "skill": "main idea",
+          "question": "What does the vendor sell them?",
+          "options": [
+            "Coconuts",
+            "Pizza",
+            "Ice cream"
+          ],
+          "answer": "Coconuts"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "How does Camila feel about the trip?",
+          "options": [
+            "Disappointed",
+            "Happy",
+            "Indifferent"
+          ],
+          "answer": "Happy"
+        }
+      ],
+      "cover": "../assets/images/week06_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "No Cellphone Allowed In Class",
+      "minimumWordTarget": 500,
+      "wordCount": 508,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week06_grade09_page01.webp",
+          "artDirection": "14–15-year-old Colombian student context for “No Cellphone Allowed In Class”. Scene based on: Mr. The situation requires more than a quick reaction, so Sofia considers responsibilities and possible consequences. Gómez confiscates Sofia’s phone during math class. What begins. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Mr."
+            },
+            {
+              "html": "The situation requires more than a quick reaction, so Sofia considers responsibilities and possible consequences."
+            },
+            {
+              "html": "Gómez <b>confiscates</b> Sofia’s phone during <b>math</b> class."
+            },
+            {
+              "html": "What begins as an ordinary problem gradually reveals a larger issue about judgment and communication."
+            },
+            {
+              "html": "\"<b>Rules</b> are rules,\" he says."
+            },
+            {
+              "html": "Sofia learns that being independent can also mean knowing when to ask for accurate information."
+            },
+            {
+              "html": "Sofia feels <b>embarrassed</b>."
+            },
+            {
+              "html": "Several details in the setting influence the decision and make the situation more realistic."
+            },
+            {
+              "html": "Her <b>friends</b> tease her at <b>recess</b>."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week06_grade09_page02.webp",
+          "artDirection": "14–15-year-old Colombian student context for “No Cellphone Allowed In Class”. Scene based on: The experience challenges Sofia's first assumption and encourages a more careful response. \"How will you text your crush?\" they laugh. Earlier choices become connected with later r. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The experience challenges Sofia's first assumption and encourages a more careful response."
+            },
+            {
+              "html": "\"How will you text your <b>crush</b>?\" they laugh."
+            },
+            {
+              "html": "Earlier choices become connected with later results, making the cause and effect easier to see."
+            },
+            {
+              "html": "Later, Sofia <b>apologizes</b> to the teacher."
+            },
+            {
+              "html": "A practical solution appears only after Sofia considers more than one option."
+            },
+            {
+              "html": "He explains how phones <b>distract</b> from learning."
+            },
+            {
+              "html": "Respectful communication helps reduce tension even before the whole problem is solved."
+            },
+            {
+              "html": "That night, Sofia <b>reflects</b>."
+            },
+            {
+              "html": "Sofia's response becomes more mature as emotion gives way to planning."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week06_grade09_page03.webp",
+          "artDirection": "14–15-year-old Colombian student context for “No Cellphone Allowed In Class”. Scene based on: She sees her grades are low. By the end of this part, the experience has changed the way Sofia approaches the problem. Her mother works hard to pay for school. The situation requir. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "She sees her grades are low."
+            },
+            {
+              "html": "By the end of this part, the experience has changed the way Sofia approaches the problem."
+            },
+            {
+              "html": "Her mother works hard to pay for school."
+            },
+            {
+              "html": "The situation requires more than a quick reaction, so Sofia considers responsibilities and possible consequences."
+            },
+            {
+              "html": "Sofia decides to focus."
+            },
+            {
+              "html": "What begins as an ordinary problem gradually reveals a larger issue about judgment and communication."
+            },
+            {
+              "html": "She joins a study group."
+            },
+            {
+              "html": "Sofia learns that being independent can also mean knowing when to ask for accurate information."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week06_grade09_page04.webp",
+          "artDirection": "14–15-year-old Colombian student context for “No Cellphone Allowed In Class”. Scene based on: Weeks later, her grades improve. Several details in the setting influence the decision and make the situation more realistic. Mr. The experience challenges Sofia's first assumption. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Weeks later, her grades improve."
+            },
+            {
+              "html": "Several details in the setting influence the decision and make the situation more realistic."
+            },
+            {
+              "html": "Mr."
+            },
+            {
+              "html": "The experience challenges Sofia's first assumption and encourages a more careful response."
+            },
+            {
+              "html": "Gómez praises her."
+            },
+            {
+              "html": "Earlier choices become connected with later results, making the cause and effect easier to see."
+            },
+            {
+              "html": "\"I’m proud of you,\" he says."
+            },
+            {
+              "html": "A practical solution appears only after Sofia considers more than one option."
+            },
+            {
+              "html": "Sofia smiles—she doesn’t miss her phone."
+            },
+            {
+              "html": "Respectful communication helps reduce tension even before the whole problem is solved."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week06_grade09_page05.webp",
+          "artDirection": "14–15-year-old Colombian student context for “No Cellphone Allowed In Class”. Scene based on: Later, sofia's response becomes more mature as emotion gives way to planning. Mr. By the end of this part, the experience has changed the way Sofia approaches the problem. Gómez co. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Later, sofia's response becomes more mature as emotion gives way to planning."
+            },
+            {
+              "html": "Mr."
+            },
+            {
+              "html": "By the end of this part, the experience has changed the way Sofia approaches the problem."
+            },
+            {
+              "html": "Gómez confiscates Sofia’s phone during math class."
+            },
+            {
+              "html": "The situation requires more than a quick reaction, so Sofia considers responsibilities and possible consequences."
+            },
+            {
+              "html": "\"Rules are rules,\" he says."
+            },
+            {
+              "html": "What begins as an ordinary problem gradually reveals a larger issue about judgment and communication."
+            },
+            {
+              "html": "Sofia feels embarrassed."
+            },
+            {
+              "html": "Sofia learns that being independent can also mean knowing when to ask for accurate information."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week06_grade09_page06.webp",
+          "artDirection": "14–15-year-old Colombian student context for “No Cellphone Allowed In Class”. Scene based on: Her friends tease her at recess. Several details in the setting influence the decision and make the situation more realistic. \"How will you text your crush?\" they laugh. The experi. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Her friends tease her at recess."
+            },
+            {
+              "html": "Several details in the setting influence the decision and make the situation more realistic."
+            },
+            {
+              "html": "\"How will you text your crush?\" they laugh."
+            },
+            {
+              "html": "The experience challenges Sofia's first assumption and encourages a more careful response."
+            },
+            {
+              "html": "Later, Sofia apologizes to the teacher."
+            },
+            {
+              "html": "Earlier choices become connected with later results, making the cause and effect easier to see."
+            },
+            {
+              "html": "He explains how phones distract from learning."
+            },
+            {
+              "html": "A practical solution appears only after Sofia considers more than one option."
+            }
+          ],
+          "wordCount": 80
+        }
+      ],
+      "practiceWords": [
+        "confiscates",
+        "math",
+        "rules",
+        "embarrassed",
+        "friends",
+        "recess",
+        "crush",
+        "apologizes",
+        "distract",
+        "reflects"
+      ],
+      "vocabulary": [
+        {
+          "word": "confiscates",
+          "definition": "takes away (confisca)"
+        },
+        {
+          "word": "math",
+          "definition": "numbers subject (matemáticas)"
+        },
+        {
+          "word": "rules",
+          "definition": "official instructions (reglas)"
+        },
+        {
+          "word": "embarrassed",
+          "definition": "feeling ashamed (avergonzado)"
+        },
+        {
+          "word": "friends",
+          "definition": "close companions (amigos)"
+        },
+        {
+          "word": "recess",
+          "definition": "school break (recreo)"
+        },
+        {
+          "word": "crush",
+          "definition": "romantic interest (enamorado)"
+        },
+        {
+          "word": "apologizes",
+          "definition": "says sorry (se disculpa)"
+        },
+        {
+          "word": "distract",
+          "definition": "lose focus (distraer)"
+        },
+        {
+          "word": "reflects",
+          "definition": "thinks deeply (reflexiona)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Why does Mr. Gómez take Sofia’s phone?",
+          "options": [
+            "It’s broken",
+            "No phones in class",
+            "He likes it"
+          ],
+          "answer": "No phones in class"
+        },
+        {
+          "skill": "inference",
+          "question": "How does Sofia feel at first?",
+          "options": [
+            "Embarrassed",
+            "Happy",
+            "Excited"
+          ],
+          "answer": "Embarrassed"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What does Sofia decide to do?",
+          "options": [
+            "Focus on school",
+            "Buy a new phone",
+            "Skip class"
+          ],
+          "answer": "Focus on school"
+        },
+        {
+          "skill": "main idea",
+          "question": "Who praises Sofia later?",
+          "options": [
+            "Her mom",
+            "Mr. Gómez",
+            "Her crush"
+          ],
+          "answer": "Mr. Gómez"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What improves for Sofia?",
+          "options": [
+            "Her grades",
+            "Her phone",
+            "Her clothes"
+          ],
+          "answer": "Her grades"
+        }
+      ],
+      "cover": "../assets/images/week06_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "Health Effects Of Vaping",
+      "minimumWordTarget": 600,
+      "wordCount": 617,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week06_grade10_page01.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Health Effects Of Vaping”. Scene based on: Daniel thinks vaping is harmless. The conflict becomes more significant when the main character realizes that the easiest option may not be the most responsible one. His friends do. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Daniel thinks vaping is <b>harmless</b>."
+            },
+            {
+              "html": "The conflict becomes more significant when the main character realizes that the easiest option may not be the most responsible one."
+            },
+            {
+              "html": "His <b>friends</b> do it behind the <b>school</b>."
+            },
+            {
+              "html": "The situation requires comparing alternatives, anticipating consequences, and communicating clearly."
+            },
+            {
+              "html": "One day, he <b>collapses</b> during <b>gym</b> class."
+            },
+            {
+              "html": "Personal decisions affect other people, so the main character has to think beyond the immediate goal."
+            },
+            {
+              "html": "The <b>nurse</b> says his <b>lungs</b> are weak."
+            },
+            {
+              "html": "A detail introduced earlier becomes relevant again and changes how the problem is understood."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week06_grade10_page02.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Health Effects Of Vaping”. Scene based on: Daniel is scared. Progress comes through effort, negotiation, and a willingness to adjust the original plan. His doctor explains how vaping damages his health. Information becomes . mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Daniel is <b>scared</b>."
+            },
+            {
+              "html": "Progress comes through effort, negotiation, and a willingness to adjust the original plan."
+            },
+            {
+              "html": "His <b>doctor</b> explains how vaping <b>damages</b> his health."
+            },
+            {
+              "html": "Information becomes useful only after the main character checks it carefully instead of accepting it immediately."
+            },
+            {
+              "html": "\"The chemicals are toxic,\" she says."
+            },
+            {
+              "html": "As pressure increases, the main character separates emotional reactions from the practical facts of the situation."
+            },
+            {
+              "html": "Daniel’s mother cries."
+            },
+            {
+              "html": "The way the main character asks questions and considers other perspectives shows growing maturity."
+            },
+            {
+              "html": "She lost her brother to smoking."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week06_grade10_page03.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Health Effects Of Vaping”. Scene based on: Responsibility becomes visible through preparation, listening, correction, and follow-through. Daniel quits, but his friends pressure him. The final choice matters because it consi. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Responsibility becomes visible through preparation, listening, correction, and follow-through."
+            },
+            {
+              "html": "Daniel quits, but his friends pressure him."
+            },
+            {
+              "html": "The final choice matters because it considers both immediate needs and longer-term consequences."
+            },
+            {
+              "html": "He stands firm."
+            },
+            {
+              "html": "The conflict becomes more significant when the main character realizes that the easiest option may not be the most responsible one."
+            },
+            {
+              "html": "\"My health is important,\" he says."
+            },
+            {
+              "html": "The situation requires comparing alternatives, anticipating consequences, and communicating clearly."
+            },
+            {
+              "html": "Months later, he joins a basketball team."
+            },
+            {
+              "html": "Personal decisions affect other people, so the main character has to think beyond the immediate goal."
+            }
+          ],
+          "wordCount": 92
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week06_grade10_page04.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Health Effects Of Vaping”. Scene based on: His breathing improves. A detail introduced earlier becomes relevant again and changes how the problem is understood. At school, he starts an anti-vaping club. Progress comes throu. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "His breathing improves."
+            },
+            {
+              "html": "A detail introduced earlier becomes relevant again and changes how the problem is understood."
+            },
+            {
+              "html": "At school, he starts an anti-vaping club."
+            },
+            {
+              "html": "Progress comes through effort, negotiation, and a willingness to adjust the original plan."
+            },
+            {
+              "html": "His principal supports him."
+            },
+            {
+              "html": "Information becomes useful only after the main character checks it carefully instead of accepting it immediately."
+            },
+            {
+              "html": "\"You’re a leader,\" she says."
+            },
+            {
+              "html": "As pressure increases, the main character separates emotional reactions from the practical facts of the situation."
+            },
+            {
+              "html": "Later, the way the main character asks questions and considers other perspectives shows growing maturity."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week06_grade10_page05.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Health Effects Of Vaping”. Scene based on: Daniel thinks vaping is harmless. Responsibility becomes visible through preparation, listening, correction, and follow-through. His friends do it behind the school. The final choi. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Daniel thinks vaping is harmless."
+            },
+            {
+              "html": "Responsibility becomes visible through preparation, listening, correction, and follow-through."
+            },
+            {
+              "html": "His friends do it behind the school."
+            },
+            {
+              "html": "The final choice matters because it considers both immediate needs and longer-term consequences."
+            },
+            {
+              "html": "One day, he collapses during gym class."
+            },
+            {
+              "html": "The conflict becomes more significant when the main character realizes that the easiest option may not be the most responsible one."
+            },
+            {
+              "html": "The nurse says his lungs are weak."
+            },
+            {
+              "html": "The situation requires comparing alternatives, anticipating consequences, and communicating clearly."
+            },
+            {
+              "html": "Daniel is scared."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week06_grade10_page06.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Health Effects Of Vaping”. Scene based on: Personal decisions affect other people, so the main character has to think beyond the immediate goal. His doctor explains how vaping damages his health. A detail introduced earlier. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Personal decisions affect other people, so the main character has to think beyond the immediate goal."
+            },
+            {
+              "html": "His doctor explains how vaping damages his health."
+            },
+            {
+              "html": "A detail introduced earlier becomes relevant again and changes how the problem is understood."
+            },
+            {
+              "html": "\"The chemicals are toxic,\" she says."
+            },
+            {
+              "html": "Progress comes through effort, negotiation, and a willingness to adjust the original plan."
+            },
+            {
+              "html": "Daniel’s mother cries."
+            },
+            {
+              "html": "Information becomes useful only after the main character checks it carefully instead of accepting it immediately."
+            },
+            {
+              "html": "She lost her brother to smoking."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week06_grade10_page07.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Health Effects Of Vaping”. Scene based on: As pressure increases, the main character separates emotional reactions from the practical facts of the situation. Daniel quits, but his friends pressure him. The way the main char. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "As pressure increases, the main character separates emotional reactions from the practical facts of the situation."
+            },
+            {
+              "html": "Daniel quits, but his friends pressure him."
+            },
+            {
+              "html": "The way the main character asks questions and considers other perspectives shows growing maturity."
+            },
+            {
+              "html": "He stands firm."
+            },
+            {
+              "html": "Responsibility becomes visible through preparation, listening, correction, and follow-through."
+            },
+            {
+              "html": "\"My health is important,\" he says."
+            },
+            {
+              "html": "The final choice matters because it considers both immediate needs and longer-term consequences."
+            },
+            {
+              "html": "Months later, he joins a basketball team."
+            },
+            {
+              "html": "The conflict becomes more significant when the main character realizes that the easiest option may not be the most responsible one."
+            }
+          ],
+          "wordCount": 96
+        }
+      ],
+      "practiceWords": [
+        "harmless",
+        "friends",
+        "school",
+        "collapses",
+        "gym",
+        "nurse",
+        "lungs",
+        "scared",
+        "doctor",
+        "damages"
+      ],
+      "vocabulary": [
+        {
+          "word": "harmless",
+          "definition": "not dangerous (inofensivo)"
+        },
+        {
+          "word": "friends",
+          "definition": "close companions (amigos)"
+        },
+        {
+          "word": "school",
+          "definition": "place of learning (escuela)"
+        },
+        {
+          "word": "collapses",
+          "definition": "falls suddenly (se desmaya)"
+        },
+        {
+          "word": "gym",
+          "definition": "physical education (gimnasio)"
+        },
+        {
+          "word": "nurse",
+          "definition": "medical helper (enfermera)"
+        },
+        {
+          "word": "lungs",
+          "definition": "breathing organs (pulmones)"
+        },
+        {
+          "word": "scared",
+          "definition": "feeling fear (asustado)"
+        },
+        {
+          "word": "doctor",
+          "definition": "medical professional (médico)"
+        },
+        {
+          "word": "damages",
+          "definition": "harms (daña)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Why does Daniel collapse?",
+          "options": [
+            "Vaping weakens his lungs",
+            "He’s hungry",
+            "He’s dehydrated"
+          ],
+          "answer": "Vaping weakens his lungs"
+        },
+        {
+          "skill": "inference",
+          "question": "What does the doctor say about vaping?",
+          "options": [
+            "It’s harmless",
+            "Chemicals are toxic",
+            "It’s healthy"
+          ],
+          "answer": "Chemicals are toxic"
+        },
+        {
+          "skill": "purpose",
+          "question": "What does Daniel join later?",
+          "options": [
+            "Basketball team",
+            "Vaping club",
+            "Chess club"
+          ],
+          "answer": "Basketball team"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What does he start at school?",
+          "options": [
+            "Anti-vaping club",
+            "Dance team",
+            "Cooking class"
+          ],
+          "answer": "Anti-vaping club"
+        },
+        {
+          "skill": "main idea",
+          "question": "What does the principal call him?",
+          "options": [
+            "A leader",
+            "A troublemaker",
+            "A student"
+          ],
+          "answer": "A leader"
+        }
+      ],
+      "cover": "../assets/images/week06_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "Say 'No' To Drugs And Alcohol",
+      "minimumWordTarget": 700,
+      "wordCount": 700,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week06_grade11_page01.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Say 'No' To Drugs And Alcohol”. Scene based on: In Barrio Antioquia, temptation is everywhere. The episode becomes more complex because Carlos must interpret not only what happened but why people respond differently. Carlos’s co. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "In Barrio Antioquia, <b>temptation</b> is everywhere."
+            },
+            {
+              "html": "The episode becomes more complex because Carlos must interpret not only what happened but why people respond differently."
+            },
+            {
+              "html": "Carlos’s <b>cousin</b> offers him a <b>joint</b>."
+            },
+            {
+              "html": "A personal decision can have broader implications when trust, safety, reputation, or future plans are involved."
+            },
+            {
+              "html": "\"Try it,\" he says."
+            },
+            {
+              "html": "Carlos's first interpretation is understandable, but later details encourage a more nuanced view."
+            },
+            {
+              "html": "Carlos <b>refuses</b>."
+            },
+            {
+              "html": "Mature decision-making sometimes requires changing an initial assumption when better evidence appears."
+            },
+            {
+              "html": "He remembers his <b>father</b>, who died from an <b>overdose</b>."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week06_grade11_page02.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Say 'No' To Drugs And Alcohol”. Scene based on: The social environment influences Carlos, although personal agency still matters in the final choice. At school, Carlos attends a workshop about addiction. Earlier experiences infl. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The social environment influences Carlos, although personal agency still matters in the final choice."
+            },
+            {
+              "html": "At school, Carlos attends a <b>workshop</b> about <b>addiction</b>."
+            },
+            {
+              "html": "Earlier experiences influence later behavior and make the character's development more coherent."
+            },
+            {
+              "html": "The <b>speaker</b> shares <b>statistics</b>: \"Drugs ruin families.\" Carlos feels inspired."
+            },
+            {
+              "html": "The story shows that consequences can include both difficulties and opportunities for growth."
+            },
+            {
+              "html": "He organizes a campaign with his classmates."
+            },
+            {
+              "html": "Communication becomes a form of responsibility when Carlos explains intentions or verifies information."
+            },
+            {
+              "html": "They paint murals with slogans like \"Respect Your Life.\" Local gangs mock them, but Carlos persists."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week06_grade11_page03.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Say 'No' To Drugs And Alcohol”. Scene based on: The setting shapes the pressures, resources, and alternatives that are realistically available. A journalist writes about their efforts. By the end, Carlos responds in a more delib. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The setting shapes the pressures, resources, and alternatives that are realistically available."
+            },
+            {
+              "html": "A journalist writes about their efforts."
+            },
+            {
+              "html": "By the end, Carlos responds in a more deliberate and informed way, even if every problem is not completely solved."
+            },
+            {
+              "html": "Soon, the mayor invites Carlos to speak."
+            },
+            {
+              "html": "The episode becomes more complex because Carlos must interpret not only what happened but why people respond differently."
+            },
+            {
+              "html": "\"You’re brave,\" he says."
+            },
+            {
+              "html": "A personal decision can have broader implications when trust, safety, reputation, or future plans are involved."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week06_grade11_page04.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Say 'No' To Drugs And Alcohol”. Scene based on: Carlos’s mother hugs him. Carlos's first interpretation is understandable, but later details encourage a more nuanced view. \"I’m proud,\" she whispers. Mature decision-making someti. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Carlos’s mother hugs him."
+            },
+            {
+              "html": "Carlos's first interpretation is understandable, but later details encourage a more nuanced view."
+            },
+            {
+              "html": "\"I’m proud,\" she whispers."
+            },
+            {
+              "html": "Mature decision-making sometimes requires changing an initial assumption when better evidence appears."
+            },
+            {
+              "html": "Carlos knows his community can change."
+            },
+            {
+              "html": "The social environment influences Carlos, although personal agency still matters in the final choice."
+            },
+            {
+              "html": "Later, earlier experiences influence later behavior and make the character's development more coherent."
+            },
+            {
+              "html": "In Barrio Antioquia, temptation is everywhere."
+            },
+            {
+              "html": "The story shows that consequences can include both difficulties and opportunities for growth."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week06_grade11_page05.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Say 'No' To Drugs And Alcohol”. Scene based on: Carlos’s cousin offers him a joint. Communication becomes a form of responsibility when Carlos explains intentions or verifies information. \"Try it,\" he says. The setting shapes th. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Carlos’s cousin offers him a joint."
+            },
+            {
+              "html": "Communication becomes a form of responsibility when Carlos explains intentions or verifies information."
+            },
+            {
+              "html": "\"Try it,\" he says."
+            },
+            {
+              "html": "The setting shapes the pressures, resources, and alternatives that are realistically available."
+            },
+            {
+              "html": "Carlos refuses."
+            },
+            {
+              "html": "By the end, Carlos responds in a more deliberate and informed way, even if every problem is not completely solved."
+            },
+            {
+              "html": "He remembers his father, who died from an overdose."
+            },
+            {
+              "html": "The episode becomes more complex because Carlos must interpret not only what happened but why people respond differently."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week06_grade11_page06.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Say 'No' To Drugs And Alcohol”. Scene based on: At school, Carlos attends a workshop about addiction. A personal decision can have broader implications when trust, safety, reputation, or future plans are involved. The speaker sh. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "At school, Carlos attends a workshop about addiction."
+            },
+            {
+              "html": "A personal decision can have broader implications when trust, safety, reputation, or future plans are involved."
+            },
+            {
+              "html": "The speaker shares statistics: \"Drugs ruin families.\" Carlos feels inspired."
+            },
+            {
+              "html": "Carlos's first interpretation is understandable, but later details encourage a more nuanced view."
+            },
+            {
+              "html": "He organizes a campaign with his classmates."
+            },
+            {
+              "html": "Mature decision-making sometimes requires changing an initial assumption when better evidence appears."
+            },
+            {
+              "html": "They paint murals with slogans like \"Respect Your Life.\" Local gangs mock them, but Carlos persists."
+            },
+            {
+              "html": "The social environment influences Carlos, although personal agency still matters in the final choice."
+            }
+          ],
+          "wordCount": 96
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week06_grade11_page07.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Say 'No' To Drugs And Alcohol”. Scene based on: A journalist writes about their efforts. Earlier experiences influence later behavior and make the character's development more coherent. Soon, the mayor invites Carlos to speak. T. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "A journalist writes about their efforts."
+            },
+            {
+              "html": "Earlier experiences influence later behavior and make the character's development more coherent."
+            },
+            {
+              "html": "Soon, the mayor invites Carlos to speak."
+            },
+            {
+              "html": "The story shows that consequences can include both difficulties and opportunities for growth."
+            },
+            {
+              "html": "\"You’re brave,\" he says."
+            },
+            {
+              "html": "Communication becomes a form of responsibility when Carlos explains intentions or verifies information."
+            },
+            {
+              "html": "Carlos’s mother hugs him."
+            },
+            {
+              "html": "The setting shapes the pressures, resources, and alternatives that are realistically available."
+            },
+            {
+              "html": "\"I’m proud,\" she whispers."
+            },
+            {
+              "html": "By the end, Carlos responds in a more deliberate and informed way, even if every problem is not completely solved."
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week06_grade11_page08.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Say 'No' To Drugs And Alcohol”. Scene based on: Carlos knows his community can change. The episode becomes more complex because Carlos must interpret not only what happened but why people respond differently. Later, a personal d. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Carlos knows his community can change."
+            },
+            {
+              "html": "The episode becomes more complex because Carlos must interpret not only what happened but why people respond differently."
+            },
+            {
+              "html": "Later, a personal decision can have broader implications when trust, safety, reputation, or future plans are involved."
+            },
+            {
+              "html": "In Barrio Antioquia, temptation is everywhere."
+            },
+            {
+              "html": "Carlos's first interpretation is understandable, but later details encourage a more nuanced view."
+            },
+            {
+              "html": "Carlos’s cousin offers him a joint."
+            },
+            {
+              "html": "Mature decision-making sometimes requires changing an initial assumption when better evidence appears."
+            }
+          ],
+          "wordCount": 78
+        }
+      ],
+      "practiceWords": [
+        "temptation",
+        "cousin",
+        "joint",
+        "refuses",
+        "father",
+        "overdose",
+        "workshop",
+        "addiction",
+        "speaker",
+        "statistics"
+      ],
+      "vocabulary": [
+        {
+          "word": "temptation",
+          "definition": "urge to do wrong (tentación)"
+        },
+        {
+          "word": "cousin",
+          "definition": "child of one's uncle/aunt (primo/a)"
+        },
+        {
+          "word": "joint",
+          "definition": "rolled cigarette (porro)"
+        },
+        {
+          "word": "refuses",
+          "definition": "says no (rechaza)"
+        },
+        {
+          "word": "father",
+          "definition": "male parent (padre)"
+        },
+        {
+          "word": "overdose",
+          "definition": "toxic drug amount (sobredosis)"
+        },
+        {
+          "word": "workshop",
+          "definition": "educational session (taller)"
+        },
+        {
+          "word": "addiction",
+          "definition": "dependency (adicción)"
+        },
+        {
+          "word": "speaker",
+          "definition": "person giving a talk (orador)"
+        },
+        {
+          "word": "statistics",
+          "definition": "numerical data (estadísticas)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "Why does Carlos refuse drugs?",
+          "options": [
+            "His father died from overdose",
+            "He doesn’t like them",
+            "They’re expensive"
+          ],
+          "answer": "His father died from overdose"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What does Carlos organize?",
+          "options": [
+            "A campaign",
+            "A party",
+            "A protest"
+          ],
+          "answer": "A campaign"
+        },
+        {
+          "skill": "purpose",
+          "question": "What do they paint?",
+          "options": [
+            "Murals",
+            "Houses",
+            "Cars"
+          ],
+          "answer": "Murals"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Who invites Carlos to speak?",
+          "options": [
+            "The mayor",
+            "A teacher",
+            "A gang leader"
+          ],
+          "answer": "The mayor"
+        },
+        {
+          "skill": "main idea",
+          "question": "How does Carlos’s mom feel?",
+          "options": [
+            "Proud",
+            "Angry",
+            "Sad"
+          ],
+          "answer": "Proud"
+        }
+      ],
+      "cover": "../assets/images/week06_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

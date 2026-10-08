@@ -1,0 +1,2286 @@
+{
+  "week": 30,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 30",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "My Phone Has a Rule",
+      "minimumWordTarget": 350,
+      "wordCount": 404,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week30_grade06_page01.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “My Phone Has a Rule”, page 1. Scene based on: In the living room of a small family home in Medellín, Juan, 11, sits at a table with an open math notebook while his phone lights up with many message bubble icons, and his sister María, 13, reads a book on the sofa and watches him. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Juan comes home from school at three."
+            },
+            {
+              "html": "He eats lunch with his family at three thirty."
+            },
+            {
+              "html": "At four, he starts his <b>homework</b> at the table."
+            },
+            {
+              "html": "This week, his class has a new group chat."
+            },
+            {
+              "html": "Juan puts his <b>phone</b> next to his notebook."
+            },
+            {
+              "html": "After one minute, the phone buzzes."
+            },
+            {
+              "html": "Then it buzzes again, and again, and again."
+            },
+            {
+              "html": "Juan <b>always</b> checks it immediately."
+            },
+            {
+              "html": "There are fifty new messages in ten minutes."
+            },
+            {
+              "html": "His sister María is reading on the sofa."
+            },
+            {
+              "html": "She looks at him and raises her eyebrows."
+            },
+            {
+              "html": "“Is everything okay, Juan?” she asks."
+            },
+            {
+              "html": "“Yes, it’s just my class chat,” he says."
+            }
+          ],
+          "wordCount": 99
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week30_grade06_page02.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “My Phone Has a Rule”, page 2. Scene based on: At the table, Juan holds his phone close to his face, smiling at funny sticker icons on the screen, while his math notebook is still blank and the wall clock shows six; María points at the clock. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Every afternoon is the same."
+            },
+            {
+              "html": "Juan reads a <b>message</b>, and then he answers it."
+            },
+            {
+              "html": "Then a classmate sends a funny <b>sticker</b>."
+            },
+            {
+              "html": "Juan sends a sticker back."
+            },
+            {
+              "html": "His eyes stay on the <b>screen</b> for a long time."
+            },
+            {
+              "html": "He <b>never</b> finishes his homework before dinner."
+            },
+            {
+              "html": "Today it is six o’clock, and his math is not done."
+            },
+            {
+              "html": "“I’m so slow at math,” Juan says, frustrated."
+            },
+            {
+              "html": "María closes her book."
+            },
+            {
+              "html": "“Are you really slow at math?” she asks."
+            },
+            {
+              "html": "“Or do you stop every two minutes?”"
+            },
+            {
+              "html": "Juan thinks about her question."
+            },
+            {
+              "html": "He doesn’t know the answer."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week30_grade06_page03.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “My Phone Has a Rule”, page 3. Scene based on: Juan and María sit together at the table looking at the phone screen showing a long list of sticker icons and only one small envelope icon; María counts on her fingers and a small paper note with a phone-and-clock drawing lies on the table. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "María asks to see the group chat."
+            },
+            {
+              "html": "They count the messages together."
+            },
+            {
+              "html": "There are eighty messages this afternoon."
+            },
+            {
+              "html": "Seventy messages are stickers and jokes."
+            },
+            {
+              "html": "Only one message is about school."
+            },
+            {
+              "html": "Juan reads it. “The teacher sends homework by email.”"
+            },
+            {
+              "html": "“So the chat isn’t for homework,” María says."
+            },
+            {
+              "html": "“The important information comes from the teacher.”"
+            },
+            {
+              "html": "Juan <b>usually</b> thinks every message is urgent."
+            },
+            {
+              "html": "But most of the messages can wait."
+            },
+            {
+              "html": "María has an idea."
+            },
+            {
+              "html": "“Let’s make a phone <b>rule</b> for homework time.”"
+            },
+            {
+              "html": "They write the rule on a small paper."
+            },
+            {
+              "html": "“From four to five, the phone stays in the kitchen.”"
+            }
+          ],
+          "wordCount": 98
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week30_grade06_page04.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “My Phone Has a Rule”, page 4. Scene based on: In the kitchen, Juan proudly places his phone in a small woven basket on the counter next to his mother's phone, while María gives him a thumbs-up; on the table, his finished math notebook is open and the wall clock shows 4:40. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Juan puts his phone in a <b>basket</b> on the counter."
+            },
+            {
+              "html": "Mom puts her phone there too, to help."
+            },
+            {
+              "html": "At four, Juan starts his math again."
+            },
+            {
+              "html": "The house is quiet, and his head feels clear."
+            },
+            {
+              "html": "At 4:40, his homework is finished."
+            },
+            {
+              "html": "“Forty minutes!” he says, surprised."
+            },
+            {
+              "html": "At five, he takes his phone from the basket."
+            },
+            {
+              "html": "The stickers are still there, and the jokes too."
+            },
+            {
+              "html": "“I didn’t lose anything,” he says, laughing."
+            },
+            {
+              "html": "On Friday, his teacher returns the math tests."
+            },
+            {
+              "html": "Juan has a much better grade this week."
+            },
+            {
+              "html": "“What changed?” his teacher asks."
+            },
+            {
+              "html": "“My phone has a rule now,” Juan says."
+            },
+            {
+              "html": "That night, he writes one sentence in his notebook."
+            },
+            {
+              "html": "“I check messages after homework, not during it.”"
+            }
+          ],
+          "wordCount": 116
+        }
+      ],
+      "practiceWords": [
+        "phone",
+        "homework",
+        "message",
+        "always",
+        "screen",
+        "sticker",
+        "never",
+        "rule",
+        "basket",
+        "usually"
+      ],
+      "vocabulary": [
+        {
+          "word": "phone",
+          "definition": "a device for calls and messages (teléfono celular)"
+        },
+        {
+          "word": "homework",
+          "definition": "school work you do at home (tarea)"
+        },
+        {
+          "word": "message",
+          "definition": "words you send to another person (mensaje)"
+        },
+        {
+          "word": "always",
+          "definition": "every time (siempre)"
+        },
+        {
+          "word": "screen",
+          "definition": "the flat part of a device that shows images (pantalla)"
+        },
+        {
+          "word": "sticker",
+          "definition": "a small picture you send in a chat (sticker)"
+        },
+        {
+          "word": "never",
+          "definition": "not at any time (nunca)"
+        },
+        {
+          "word": "rule",
+          "definition": "something everyone must do or follow (regla)"
+        },
+        {
+          "word": "basket",
+          "definition": "a container made of thin pieces of wood or plastic (canasta)"
+        },
+        {
+          "word": "usually",
+          "definition": "in most cases (usualmente)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "What time does Juan start his homework every day?",
+          "options": [
+            "At four o’clock",
+            "At six o’clock",
+            "At three o’clock",
+            "At five o’clock"
+          ],
+          "answer": "At four o’clock"
+        },
+        {
+          "skill": "sequence",
+          "question": "What happens FIRST in the story?",
+          "options": [
+            "The teacher returns the math tests to the whole class on Friday.",
+            "The phone buzzes many times while Juan does his homework.",
+            "Juan finishes his homework in forty minutes.",
+            "Juan puts his phone in the basket in the kitchen."
+          ],
+          "answer": "The phone buzzes many times while Juan does his homework."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “He never finishes his homework before dinner.” “Never” means…",
+          "options": [
+            "every time",
+            "only on Fridays",
+            "not at any time",
+            "in most cases"
+          ],
+          "answer": "not at any time"
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the story mainly about?",
+          "options": [
+            "A sister helps her brother write all his math answers.",
+            "A class creates a new group chat for math.",
+            "A boy stops using his phone for one whole year.",
+            "A boy creates a phone rule to focus on his homework."
+          ],
+          "answer": "A boy creates a phone rule to focus on his homework."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why is Juan surprised when he finishes his homework at 4:40?",
+          "options": [
+            "He usually needs much more time because he stops to check messages.",
+            "His sister did the homework for him.",
+            "He thinks the math homework is very easy and very short this week.",
+            "His teacher sent only one easy exercise."
+          ],
+          "answer": "He usually needs much more time because he stops to check messages."
+        }
+      ],
+      "cover": "../assets/images/week30_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "The Concert Under the Rain",
+      "minimumWordTarget": 400,
+      "wordCount": 432,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week30_grade07_page01.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Concert Under the Rain”, page 1. Scene based on: In a community center lounge in Medellín, Camila, 12, holds a colorful concert flyer showing only music notes and a guitar, excited, while Daniel, 12, frowns at his phone showing a weather icon of a dark cloud with rain drops. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Camila is very excited this week."
+            },
+            {
+              "html": "On Saturday, there is a free <b>concert</b> in the park."
+            },
+            {
+              "html": "Her favorite band is going to play at six."
+            },
+            {
+              "html": "Camila and four friends are going to go together."
+            },
+            {
+              "html": "They are talking about it at the community center."
+            },
+            {
+              "html": "“I am going to wear my new white shoes,” Camila says."
+            },
+            {
+              "html": "Her friend Daniel checks the weather <b>forecast</b>."
+            },
+            {
+              "html": "“There’s a problem,” he says."
+            },
+            {
+              "html": "“It’s going to rain on Saturday evening.”"
+            },
+            {
+              "html": "“Eighty percent chance of rain.”"
+            },
+            {
+              "html": "Camila’s smile disappears."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week30_grade07_page02.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Concert Under the Rain”, page 2. Scene based on: Five friends sit around a table at the community center arguing with different gestures: one shrugs, one shakes his head, one points at a phone, while Camila looks unsure and Daniel raises his hand to speak. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The friends start talking at the same time."
+            },
+            {
+              "html": "“We aren’t going to go. It’s going to rain!” Pedro says."
+            },
+            {
+              "html": "“It isn’t going to rain. Forecasts are always wrong,” Ana says."
+            },
+            {
+              "html": "“We’re going to get wet and sick,” Luisa says."
+            },
+            {
+              "html": "Camila doesn’t know what to think."
+            },
+            {
+              "html": "She really wants to see her favorite band."
+            },
+            {
+              "html": "But she doesn’t want to cancel the <b>weekend</b> plan."
+            },
+            {
+              "html": "Daniel raises his hand."
+            },
+            {
+              "html": "“What are we going to do if it rains?” he asks."
+            },
+            {
+              "html": "“Let’s think about that, not about guessing.”"
+            },
+            {
+              "html": "The group stops and looks at him."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week30_grade07_page03.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Concert Under the Rain”, page 3. Scene based on: Daniel and Camila sit together looking at a phone showing only a park icon, a cloud with a lightning bolt and a check mark, while Camila writes a short list with icons of a raincoat, a plastic bag and a meeting point flag. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniel opens the concert page on his phone."
+            },
+            {
+              "html": "They read the information together."
+            },
+            {
+              "html": "“The concert is going to continue in light <b>rain</b>.”"
+            },
+            {
+              "html": "“It will stop only if there is <b>lightning</b>.”"
+            },
+            {
+              "html": "“There is a covered area near the planetarium.”"
+            },
+            {
+              "html": "“So the concert isn’t going to be cancelled,” Camila says."
+            },
+            {
+              "html": "“It’s going to be wet, maybe,” Daniel says."
+            },
+            {
+              "html": "“So we need a good <b>plan</b>.”"
+            },
+            {
+              "html": "Camila takes a notebook and writes."
+            },
+            {
+              "html": "“What are we going to bring?” she asks."
+            },
+            {
+              "html": "“And what are we going to wear?”"
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week30_grade07_page04.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Concert Under the Rain”, page 4. Scene based on: In Camila's bedroom, Camila packs a small backpack with a folded yellow raincoat, plastic zip bags for phones, and old rubber boots, while her new white shoes sit on a shelf; Daniel shows a thumbs-up on a video call. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Everybody gives a <b>suggestion</b> for the plan."
+            },
+            {
+              "html": "“We’re going to bring raincoats, not umbrellas,” Daniel says."
+            },
+            {
+              "html": "“Umbrellas block the view for other people.”"
+            },
+            {
+              "html": "“We’re going to put our phones in plastic bags,” Ana adds."
+            },
+            {
+              "html": "“And we’re going to meet at the planetarium entrance.”"
+            },
+            {
+              "html": "“That’s our meeting point if we lose each other.”"
+            },
+            {
+              "html": "Camila looks at her new white shoes."
+            },
+            {
+              "html": "“I’m not going to <b>wear</b> these,” she laughs."
+            },
+            {
+              "html": "“I’m going to wear my old boots.”"
+            },
+            {
+              "html": "Pedro still isn’t sure, but he agrees to try."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week30_grade07_page05.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Concert Under the Rain”, page 5. Scene based on: At an outdoor evening concert in a Medellín park in light rain, Camila and Daniel in raincoats dance and sing in a happy crowd, colorful stage lights shining through the raindrops, then a flash of lightning far away over the hills. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Saturday <b>evening</b>, the park is full of people."
+            },
+            {
+              "html": "It’s cloudy, but the band starts on time."
+            },
+            {
+              "html": "At 6:30, a light rain begins to fall."
+            },
+            {
+              "html": "Camila and her friends put on their raincoats."
+            },
+            {
+              "html": "They dance and sing in the rain, laughing."
+            },
+            {
+              "html": "Then a flash of lightning appears over the hills."
+            },
+            {
+              "html": "The band stops playing immediately."
+            },
+            {
+              "html": "“Please go to the covered area,” a voice says."
+            },
+            {
+              "html": "Camila feels a little nervous."
+            },
+            {
+              "html": "But the group remembers the plan."
+            },
+            {
+              "html": "They walk calmly to the <b>shelter</b> near the planetarium."
+            },
+            {
+              "html": "After twenty minutes, the lightning stops, and the music returns."
+            }
+          ],
+          "wordCount": 94
+        }
+      ],
+      "practiceWords": [
+        "concert",
+        "forecast",
+        "weekend",
+        "rain",
+        "plan",
+        "suggestion",
+        "wear",
+        "evening",
+        "shelter",
+        "lightning"
+      ],
+      "vocabulary": [
+        {
+          "word": "concert",
+          "definition": "a live music show (concierto)"
+        },
+        {
+          "word": "forecast",
+          "definition": "a report about future weather (pronóstico)"
+        },
+        {
+          "word": "weekend",
+          "definition": "Saturday and Sunday (fin de semana)"
+        },
+        {
+          "word": "rain",
+          "definition": "water that falls from clouds (lluvia)"
+        },
+        {
+          "word": "plan",
+          "definition": "a list of things you are going to do (plan)"
+        },
+        {
+          "word": "suggestion",
+          "definition": "an idea for others to consider (sugerencia)"
+        },
+        {
+          "word": "wear",
+          "definition": "to have clothes on your body (llevar puesto)"
+        },
+        {
+          "word": "evening",
+          "definition": "the time between afternoon and night (noche, atardecer)"
+        },
+        {
+          "word": "shelter",
+          "definition": "a place that protects you from bad weather (refugio)"
+        },
+        {
+          "word": "lightning",
+          "definition": "a bright flash of light in a storm (rayo)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What does the concert page say about the rain?",
+          "options": [
+            "The concert is going to be cancelled if it rains at all on Saturday.",
+            "The concert continues in light rain but stops if there is lightning.",
+            "The concert is only for people with umbrellas.",
+            "The concert is going to move to a different weekend."
+          ],
+          "answer": "The concert continues in light rain but stops if there is lightning."
+        },
+        {
+          "skill": "cause and effect",
+          "question": "Why does the band stop playing at the concert?",
+          "options": [
+            "The band’s equipment gets wet.",
+            "The crowd is too big for the park.",
+            "Lightning appears over the hills.",
+            "Camila’s friends ask them to stop."
+          ],
+          "answer": "Lightning appears over the hills."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main idea of the story?",
+          "options": [
+            "New white shoes are perfect for outdoor concerts.",
+            "Concerts in big parks should not happen at all during the rainy season.",
+            "Weather forecasts are always wrong about rain.",
+            "A good plan helps friends enjoy an activity even when the weather changes."
+          ],
+          "answer": "A good plan helps friends enjoy an activity even when the weather changes."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why does Camila decide not to wear her new white shoes?",
+          "options": [
+            "She knows the park is going to be wet and muddy.",
+            "She is going to give the shoes to Daniel.",
+            "The concert does not allow white shoes.",
+            "Her friends don’t like the bright color of her new shoes."
+          ],
+          "answer": "She knows the park is going to be wet and muddy."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “They walk calmly to the shelter near the planetarium.” A “shelter” is…",
+          "options": [
+            "a live music show in a park",
+            "a place that protects you from bad weather",
+            "a report about the weather for the next days",
+            "a list of things to bring"
+          ],
+          "answer": "a place that protects you from bad weather"
+        }
+      ],
+      "cover": "../assets/images/week30_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "The Festival We Are Planning",
+      "minimumWordTarget": 450,
+      "wordCount": 472,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week30_grade08_page01.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Festival We Are Planning”, page 1. Scene based on: In a bright public school classroom in Medellín, a teacher writes on the board using only icons of food, music notes, a paintbrush and a calendar, while Andrés, 13, and Laura, 13, sit together and excited classmates raise hands. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Andrés’s class is organizing a cultural <b>festival</b>."
+            },
+            {
+              "html": "It’s happening next Friday in the school courtyard."
+            },
+            {
+              "html": "The theme is “The Regions of Colombia.”"
+            },
+            {
+              "html": "Each <b>region</b> has different music, food, and clothes."
+            },
+            {
+              "html": "The teacher divides the class into four teams."
+            },
+            {
+              "html": "One <b>team</b> is cooking typical food."
+            },
+            {
+              "html": "Another team is making decorations and posters."
+            },
+            {
+              "html": "Andrés’s team is playing music."
+            },
+            {
+              "html": "Laura’s team is performing a traditional dance."
+            },
+            {
+              "html": "Everybody is excited, and the classroom is loud."
+            },
+            {
+              "html": "“We’re meeting every afternoon this week,” the teacher says."
+            }
+          ],
+          "wordCount": 80
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week30_grade08_page02.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Festival We Are Planning”, page 2. Scene based on: In the school music room, Andrés plays a drum while two classmates practice with a guitar and maracas, and Laura's dance team rehearses in a corner; everyone looks busy and happy. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Monday, everybody is working hard."
+            },
+            {
+              "html": "Andrés’s team is practicing a cumbia song."
+            },
+            {
+              "html": "He’s playing the drum, and Sofía is playing the guitar."
+            },
+            {
+              "html": "Laura’s dance team is practicing in the corner."
+            },
+            {
+              "html": "They’re learning a dance from the Pacific coast."
+            },
+            {
+              "html": "The food team is planning the menu."
+            },
+            {
+              "html": "They’re making arepas, empanadas, and tamales."
+            },
+            {
+              "html": "The decorations team is painting a big map of Colombia."
+            },
+            {
+              "html": "Everything seems perfect on Monday."
+            },
+            {
+              "html": "But on Tuesday, there’s a problem."
+            }
+          ],
+          "wordCount": 73
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week30_grade08_page03.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Festival We Are Planning”, page 3. Scene based on: In the school courtyard, Andrés's music team and Laura's dance team stand on opposite sides of a small wooden stage pointing at each other and arguing, both holding papers showing the same clock icon at ten. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Tuesday, Andrés hears some bad news."
+            },
+            {
+              "html": "“Laura’s team is using the <b>stage</b> at ten,” Sofía says."
+            },
+            {
+              "html": "“But we’re playing music on the stage at ten!”"
+            },
+            {
+              "html": "Andrés runs to find Laura’s team."
+            },
+            {
+              "html": "“We’re performing at ten,” Laura says, surprised."
+            },
+            {
+              "html": "“No, we’re performing at ten,” Andrés answers."
+            },
+            {
+              "html": "Both teams start arguing."
+            },
+            {
+              "html": "“Our song is more important!” one boy says."
+            },
+            {
+              "html": "“Our dance is longer!” a girl shouts."
+            },
+            {
+              "html": "Laura raises her hand to stop the argument."
+            },
+            {
+              "html": "“Who is doing what, and when? Does anyone know?”"
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week30_grade08_page04.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Festival We Are Planning”, page 4. Scene based on: Andrés and Laura sit together at a classroom desk making a simple schedule chart with colored blocks and small icons of a drum, a dancer, a plate of food and a microphone, while the teacher looks over their shoulders with approval. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Nobody knows the answer."
+            },
+            {
+              "html": "There isn’t a written <b>schedule</b> for the festival."
+            },
+            {
+              "html": "Every team made its own plan."
+            },
+            {
+              "html": "Laura and Andrés decide to make one schedule together."
+            },
+            {
+              "html": "They talk to all four teams in the afternoon."
+            },
+            {
+              "html": "“The festival is starting at nine,” Laura writes."
+            },
+            {
+              "html": "“The food team is opening the tables at 9:15.”"
+            },
+            {
+              "html": "“The music team is playing at ten.”"
+            },
+            {
+              "html": "“The dance team is performing at 10:30.”"
+            },
+            {
+              "html": "“Andrés’s team is playing the music for the dance too!”"
+            },
+            {
+              "html": "Andrés laughs. “That’s even better.”"
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week30_grade08_page05.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Festival We Are Planning”, page 5. Scene based on: On the morning of the festival, the school courtyard is decorated with colorful paper flags, a painted map of Colombia, food tables with arepas and tamales, and students in traditional costumes, Andrés and Laura checking a schedule poster with only icons. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Thursday, the teams <b>rehearse</b> together."
+            },
+            {
+              "html": "Andrés’s team plays, and Laura’s team dances."
+            },
+            {
+              "html": "The music and the dance fit perfectly."
+            },
+            {
+              "html": "On Friday morning, the courtyard looks beautiful."
+            },
+            {
+              "html": "There are colorful <b>decorations</b> everywhere."
+            },
+            {
+              "html": "The big map of Colombia is on the wall."
+            },
+            {
+              "html": "The food tables smell of arepas and empanadas."
+            },
+            {
+              "html": "Laura’s team is wearing their <b>costume</b>s."
+            },
+            {
+              "html": "They have long white skirts and colorful scarves."
+            },
+            {
+              "html": "Andrés is nervous, but he’s ready."
+            }
+          ],
+          "wordCount": 69
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week30_grade08_page06.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Festival We Are Planning”, page 6. Scene based on: On a small decorated stage in the school courtyard, Laura's team dances in white skirts and colorful scarves while Andrés plays the drum beside them, and a large audience of students, teachers and parents claps happily. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At ten, the music team starts to <b>perform</b>."
+            },
+            {
+              "html": "Andrés plays the drum, and everyone starts clapping."
+            },
+            {
+              "html": "At 10:30, the dancers join the music on stage."
+            },
+            {
+              "html": "The <b>audience</b> is cheering and taking photos."
+            },
+            {
+              "html": "Parents and teachers are dancing in the courtyard too."
+            },
+            {
+              "html": "After the show, the principal congratulates both teams."
+            },
+            {
+              "html": "“This is the best festival this year,” she says."
+            },
+            {
+              "html": "Andrés and Laura look at each other and smile."
+            },
+            {
+              "html": "“Remember Tuesday?” Andrés asks."
+            },
+            {
+              "html": "“Yes. We almost performed at the same time,” Laura says."
+            },
+            {
+              "html": "“A schedule saved our festival.”"
+            }
+          ],
+          "wordCount": 86
+        }
+      ],
+      "practiceWords": [
+        "festival",
+        "region",
+        "team",
+        "schedule",
+        "stage",
+        "perform",
+        "rehearse",
+        "costume",
+        "decorations",
+        "audience"
+      ],
+      "vocabulary": [
+        {
+          "word": "festival",
+          "definition": "a special event with music, food, and activities (festival)"
+        },
+        {
+          "word": "region",
+          "definition": "a large area of a country (región)"
+        },
+        {
+          "word": "team",
+          "definition": "a group of people who work together (equipo)"
+        },
+        {
+          "word": "schedule",
+          "definition": "a plan with times for activities (horario)"
+        },
+        {
+          "word": "stage",
+          "definition": "the raised place where people perform (escenario)"
+        },
+        {
+          "word": "perform",
+          "definition": "to sing, dance, or play for an audience (presentarse)"
+        },
+        {
+          "word": "rehearse",
+          "definition": "to practice a show before the real event (ensayar)"
+        },
+        {
+          "word": "costume",
+          "definition": "special clothes for a show (vestuario)"
+        },
+        {
+          "word": "decorations",
+          "definition": "things that make a place look beautiful (decoraciones)"
+        },
+        {
+          "word": "audience",
+          "definition": "the people who watch a show (público)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "When is the festival happening?",
+          "options": [
+            "On Tuesday at ten o’clock",
+            "On Thursday afternoon in the city park",
+            "Next Friday in the school courtyard",
+            "Next Monday in the music room"
+          ],
+          "answer": "Next Friday in the school courtyard"
+        },
+        {
+          "skill": "inference",
+          "question": "Why do the music team and the dance team argue on Tuesday?",
+          "options": [
+            "The music team breaks the dancers’ costumes.",
+            "Both teams want to cook the same food.",
+            "The dance team does not like the cumbia music at all.",
+            "Both teams think they are using the stage at ten."
+          ],
+          "answer": "Both teams think they are using the stage at ten."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include Laura’s question, “Who is doing what, and when?”",
+          "options": [
+            "To show that the teams need clear information instead of arguing.",
+            "To show that the teacher forgot about the festival.",
+            "To show that Laura wants to be the leader of every team in the class.",
+            "To explain the history of the Pacific coast dance."
+          ],
+          "answer": "To show that the teams need clear information instead of arguing."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main idea of the story?",
+          "options": [
+            "Students should never perform in front of parents.",
+            "Clear planning and teamwork turn a conflict into a successful event.",
+            "School festivals should only have one short performance on the stage.",
+            "The music team is always more important than the dance team."
+          ],
+          "answer": "Clear planning and teamwork turn a conflict into a successful event."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “On Thursday, the teams rehearse together.” “Rehearse” means…",
+          "options": [
+            "to decorate a place with colors",
+            "to cook typical food from a region of Colombia",
+            "to practice a show before the real event",
+            "to watch a show as part of the audience"
+          ],
+          "answer": "to practice a show before the real event"
+        }
+      ],
+      "cover": "../assets/images/week30_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "The Job Above the City",
+      "minimumWordTarget": 500,
+      "wordCount": 507,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week30_grade09_page01.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Job Above the City”, page 1. Scene based on: At a Metrocable station on a Medellín hillside, Samuel, 14, and Valeria, 14, with a notebook and a phone for recording, look up at a tall metal tower and moving cable car cabins against a blue sky. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "For a class project, students interview people with unusual jobs."
+            },
+            {
+              "html": "Samuel chooses a <b>cable car</b> worker."
+            },
+            {
+              "html": "His friend Valeria helps him with the interview."
+            },
+            {
+              "html": "On Saturday, they go to a Metrocable station."
+            },
+            {
+              "html": "They look up at a tall metal <b>tower</b>."
+            },
+            {
+              "html": "The cabins are moving slowly above the hills."
+            },
+            {
+              "html": "“Imagine working up there,” Samuel says."
+            },
+            {
+              "html": "“It might be the most dangerous job in Medellín.”"
+            },
+            {
+              "html": "“Maybe. But we don’t know that yet,” Valeria says."
+            },
+            {
+              "html": "“Let’s ask him before we decide.”"
+            },
+            {
+              "html": "Samuel agrees, but he still feels sure about his idea."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week30_grade09_page02.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Job Above the City”, page 2. Scene based on: In a small maintenance room at the Metrocable station full of tools and ropes, a friendly technician in his forties named Don Hernán, in a blue uniform and helmet, shakes hands with Samuel while Valeria prepares her phone to record. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They meet Don Hernán in a small room."
+            },
+            {
+              "html": "He is a <b>maintenance</b> <b>technician</b> for the cable cars."
+            },
+            {
+              "html": "He works with a team of eight people."
+            },
+            {
+              "html": "“Every night, we <b>inspect</b> the cables and cabins,” he says."
+            },
+            {
+              "html": "“We check the wheels, the doors, and the brakes.”"
+            },
+            {
+              "html": "“Sometimes we climb the towers.”"
+            },
+            {
+              "html": "“The highest tower is about forty meters tall.”"
+            },
+            {
+              "html": "Samuel’s eyes open wide."
+            },
+            {
+              "html": "“Aren’t you afraid of the <b>height</b>?” he asks."
+            },
+            {
+              "html": "Don Hernán smiles. He hears that question every week."
+            }
+          ],
+          "wordCount": 78
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week30_grade09_page03.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Job Above the City”, page 3. Scene based on: Don Hernán holds up a climbing harness with two safety ropes and metal clips, explaining with a calm smile, while Samuel touches the strong rope and Valeria takes notes. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Don Hernán laughs."
+            },
+            {
+              "html": "“I was afraid at first. Now I’m careful, not afraid.”"
+            },
+            {
+              "html": "He shows them a <b>harness</b> with two ropes."
+            },
+            {
+              "html": "“I always use two ropes, not one.”"
+            },
+            {
+              "html": "“If one rope fails, the other one holds me.”"
+            },
+            {
+              "html": "“We never climb when there is lightning or strong wind.”"
+            },
+            {
+              "html": "“We always work in pairs.”"
+            },
+            {
+              "html": "Valeria writes everything in her notebook."
+            },
+            {
+              "html": "“So the job might be dangerous,” she says."
+            },
+            {
+              "html": "“But <b>safety</b> rules make the risk smaller.”"
+            },
+            {
+              "html": "Don Hernán agrees. “Rules are our best friends up there.”"
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week30_grade09_page04.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Job Above the City”, page 4. Scene based on: Samuel and Valeria sit on a bench at the station looking at a notebook with two columns of icons: a falling person icon with a question mark, and a shield icon with a check mark, while cable cars move above them. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "After the interview, they sit on a bench."
+            },
+            {
+              "html": "Samuel reads his first sentence again."
+            },
+            {
+              "html": "He wrote “the most dangerous job” before the interview."
+            },
+            {
+              "html": "“Now I’m not sure,” he admits."
+            },
+            {
+              "html": "Valeria nods. “There is a <b>risk</b>, but they control it.”"
+            },
+            {
+              "html": "“Their rules might make it safer than some other jobs.”"
+            },
+            {
+              "html": "“Like what?” Samuel asks."
+            },
+            {
+              "html": "“Motorcycle delivery drivers have no ropes,” she says."
+            },
+            {
+              "html": "Samuel thinks about the busy streets of Medellín."
+            },
+            {
+              "html": "His idea of danger is changing."
+            },
+            {
+              "html": "Danger isn’t only about height. It’s also about protection."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week30_grade09_page05.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Job Above the City”, page 5. Scene based on: On a video call shown on a classroom laptop, a young engineer woman holds a small white drone in front of a cable car tower model, while Samuel and Valeria watch with curious faces. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Their teacher suggests one more question."
+            },
+            {
+              "html": "“How might this job change in the future?”"
+            },
+            {
+              "html": "Valeria calls her cousin, an engineer."
+            },
+            {
+              "html": "“Some companies use <b>drone</b>s to inspect cables,” she says."
+            },
+            {
+              "html": "“A drone may check a tower in ten minutes.”"
+            },
+            {
+              "html": "“It might make some climbing unnecessary.”"
+            },
+            {
+              "html": "“So technicians may lose their jobs?” Samuel asks."
+            },
+            {
+              "html": "“Not exactly. Someone has to fly the drones.”"
+            },
+            {
+              "html": "“Someone has to repair what the drone finds.”"
+            },
+            {
+              "html": "“The job may change, but it might not disappear.”"
+            }
+          ],
+          "wordCount": 77
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week30_grade09_page06.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Job Above the City”, page 6. Scene based on: In the classroom, Samuel presents next to a projected photo of a cable car tower, pointing at a simple drawing of a harness and a drone, while Valeria holds the notebook and classmates listen attentively. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Monday, Samuel and Valeria present their project."
+            },
+            {
+              "html": "Samuel starts with a confession."
+            },
+            {
+              "html": "“At first, we thought this job might be terrible.”"
+            },
+            {
+              "html": "“We only saw the height and the danger.”"
+            },
+            {
+              "html": "“But the workers follow strict safety rules.”"
+            },
+            {
+              "html": "“They might work high above the city every night.”"
+            },
+            {
+              "html": "“But they work together, and they work carefully.”"
+            },
+            {
+              "html": "Valeria adds the part about drones."
+            },
+            {
+              "html": "“In the future, the job may look different.”"
+            },
+            {
+              "html": "“Workers might need new technology skills too.”"
+            },
+            {
+              "html": "The class claps, and the teacher smiles."
+            },
+            {
+              "html": "She gives them a very good grade."
+            },
+            {
+              "html": "Samuel sends a thank-you message to Don Hernán."
+            }
+          ],
+          "wordCount": 97
+        }
+      ],
+      "practiceWords": [
+        "cable car",
+        "tower",
+        "height",
+        "harness",
+        "maintenance",
+        "inspect",
+        "safety",
+        "risk",
+        "drone",
+        "technician"
+      ],
+      "vocabulary": [
+        {
+          "word": "cable car",
+          "definition": "a cabin that moves along a high cable (metrocable)"
+        },
+        {
+          "word": "tower",
+          "definition": "a tall, narrow structure (torre)"
+        },
+        {
+          "word": "height",
+          "definition": "how high something is (altura)"
+        },
+        {
+          "word": "harness",
+          "definition": "straps that keep a worker safe when climbing (arnés)"
+        },
+        {
+          "word": "maintenance",
+          "definition": "work to check and repair machines (mantenimiento)"
+        },
+        {
+          "word": "inspect",
+          "definition": "to look at something carefully to find problems (inspeccionar)"
+        },
+        {
+          "word": "safety",
+          "definition": "being protected from danger (seguridad)"
+        },
+        {
+          "word": "risk",
+          "definition": "the possibility that something bad might happen (riesgo)"
+        },
+        {
+          "word": "drone",
+          "definition": "a small flying machine without a pilot (dron)"
+        },
+        {
+          "word": "technician",
+          "definition": "a person who repairs machines (técnico)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "How tall is the highest Metrocable tower, according to Don Hernán?",
+          "options": [
+            "About fourteen meters",
+            "About four meters",
+            "About four hundred meters",
+            "About forty meters"
+          ],
+          "answer": "About forty meters"
+        },
+        {
+          "skill": "inference",
+          "question": "Why does Samuel change his opinion about the job?",
+          "options": [
+            "He learns that strict safety rules reduce the risk.",
+            "He learns that the job pays a lot of money.",
+            "He discovers that the workers never climb the towers.",
+            "He decides that cable cars are boring."
+          ],
+          "answer": "He learns that strict safety rules reduce the risk."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "How does the information about drones connect to the future of the job?",
+          "options": [
+            "Drones are only used by students for projects.",
+            "Drones may change the job, but workers will still be needed.",
+            "Drones will replace all the cable car technicians very soon.",
+            "Drones make the cable cars faster for passengers."
+          ],
+          "answer": "Drones may change the job, but workers will still be needed."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main message of the text?",
+          "options": [
+            "Students should never interview workers about their dangerous jobs.",
+            "Cable car technicians have the most dangerous job in all of Medellín.",
+            "A job that looks dangerous can be safer when people follow clear rules.",
+            "Motorcycle drivers should work on cable car towers."
+          ],
+          "answer": "A job that looks dangerous can be safer when people follow clear rules."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “He shows them a harness with two ropes.” A “harness” is…",
+          "options": [
+            "a cabin that moves slowly along a high cable",
+            "a tall metal structure on a hill",
+            "a small flying machine without a pilot",
+            "straps that keep a worker safe when climbing"
+          ],
+          "answer": "straps that keep a worker safe when climbing"
+        }
+      ],
+      "cover": "../assets/images/week30_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "The Trip We Almost Canceled",
+      "minimumWordTarget": 600,
+      "wordCount": 604,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week30_grade10_page01.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Trip We Almost Canceled”, page 1. Scene based on: In a public school classroom in Medellín, Laura, 16, reads a phone message showing a bus icon with a clock and a storm cloud icon, worried, while Andrés, 16, and excited classmates hold permission forms for a nature trip. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura’s class is going to Río Claro on Saturday."
+            },
+            {
+              "html": "It’s a beautiful natural <b>reserve</b> with a river and caves."
+            },
+            {
+              "html": "The bus is leaving at five in the morning."
+            },
+            {
+              "html": "They’re returning at eight in the evening."
+            },
+            {
+              "html": "Everybody paid, and everybody signed permission forms."
+            },
+            {
+              "html": "On Thursday, two messages arrive at the same time."
+            },
+            {
+              "html": "The bus company says there are repairs on the <b>highway</b>."
+            },
+            {
+              "html": "“The bus is now leaving at seven, not five.”"
+            },
+            {
+              "html": "Then the weather <b>forecast</b> shows a big cloud icon."
+            },
+            {
+              "html": "“Storms on Saturday,” it says."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week30_grade10_page02.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Trip We Almost Canceled”, page 2. Scene based on: In the classroom, students argue in small groups, one boy throwing up his hands, a girl shaking her head, another pointing at a phone with a storm icon, while Laura and Andrés sit together looking at the information calmly. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The class group chat explodes with messages."
+            },
+            {
+              "html": "“The trip is going to be a disaster!” Pedro writes."
+            },
+            {
+              "html": "“It will rain all day. We should cancel,” another says."
+            },
+            {
+              "html": "“The river will be dangerous,” someone else adds."
+            },
+            {
+              "html": "Some students want to <b>cancel</b> the trip completely."
+            },
+            {
+              "html": "Others are angry about losing their money."
+            },
+            {
+              "html": "Laura feels worried too."
+            },
+            {
+              "html": "But Andrés has a question."
+            },
+            {
+              "html": "“What do we really know, and what are we guessing?”"
+            },
+            {
+              "html": "“Everybody is predicting the future,” he says."
+            },
+            {
+              "html": "“Let’s check the official information first.”"
+            },
+            {
+              "html": "Laura agrees and opens her laptop."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week30_grade10_page03.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Trip We Almost Canceled”, page 3. Scene based on: Laura and Andrés sit in the school library looking at a laptop showing an hourly weather chart drawn only with sun and cloud icons and a timeline, Laura pointing at the morning sun icons. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura opens the official weather website."
+            },
+            {
+              "html": "The forecast is more detailed there."
+            },
+            {
+              "html": "“It won’t rain all day,” she reads."
+            },
+            {
+              "html": "“There’ll be sun in the morning.”"
+            },
+            {
+              "html": "“Storms will probably start after two o’clock.”"
+            },
+            {
+              "html": "Andrés checks the bus company’s new <b>schedule</b>."
+            },
+            {
+              "html": "“The bus is leaving at seven and arriving at ten.”"
+            },
+            {
+              "html": "“The road repairs will finish on Sunday.”"
+            },
+            {
+              "html": "“So we’ll have four hours of sun,” Laura says."
+            },
+            {
+              "html": "“That’s enough time for the reserve.”"
+            },
+            {
+              "html": "“Not a whole day, but four good hours.”"
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week30_grade10_page04.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Trip We Almost Canceled”, page 4. Scene based on: Laura speaks on the phone in a school hallway with a calm expression, while Andrés writes on a paper itinerary with only icons of a cave, a hiking boot, a river with a red X and a bus. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Andrés calls the reserve’s office."
+            },
+            {
+              "html": "A woman answers and explains their rules."
+            },
+            {
+              "html": "“If it rains, the river will rise quickly.”"
+            },
+            {
+              "html": "“Then rafting will be cancelled for safety.”"
+            },
+            {
+              "html": "“But the cave tour and the forest walk will continue.”"
+            },
+            {
+              "html": "“They’re safe in light rain.”"
+            },
+            {
+              "html": "Laura has an idea."
+            },
+            {
+              "html": "“Let’s change the <b>itinerary</b>,” she says."
+            },
+            {
+              "html": "“Cave and forest in the morning. No river after two.”"
+            },
+            {
+              "html": "“And the bus is returning earlier, at four.”"
+            }
+          ],
+          "wordCount": 70
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week30_grade10_page05.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Trip We Almost Canceled”, page 5. Scene based on: In the classroom, Laura stands at the board presenting a new trip plan drawn with simple icons and arrows while the teacher nods and students who were angry now listen with interest. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Friday, Laura and Andrés present the new plan."
+            },
+            {
+              "html": "“Nobody can <b>predict</b> the weather perfectly,” Laura says."
+            },
+            {
+              "html": "“But the forecast gives us real information.”"
+            },
+            {
+              "html": "“The morning will be sunny, and the afternoon will be stormy.”"
+            },
+            {
+              "html": "“So we’re going to do the safe activities early.”"
+            },
+            {
+              "html": "“The river activity is cancelled. The caves aren’t.”"
+            },
+            {
+              "html": "Pedro raises his hand. “What if it rains earlier?”"
+            },
+            {
+              "html": "“Then the <b>guide</b> will take us to the shelter,” Andrés answers."
+            },
+            {
+              "html": "“The reserve has a covered area for groups.”"
+            },
+            {
+              "html": "The teacher agrees with the new plan."
+            },
+            {
+              "html": "The angry messages in the chat stop."
+            },
+            {
+              "html": "Now students are asking what to bring."
+            }
+          ],
+          "wordCount": 101
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week30_grade10_page06.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Trip We Almost Canceled”, page 6. Scene based on: Inside a large cave at Río Claro with marble walls and a shining stream, Laura, Andrés and classmates in helmets and headlamps walk carefully behind a young local guide who points at the rock formations. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Saturday, the bus leaves at seven exactly."
+            },
+            {
+              "html": "The highway is slow, but they arrive at ten."
+            },
+            {
+              "html": "The sun is shining, and the forest is green."
+            },
+            {
+              "html": "A young guide takes them into the marble cave."
+            },
+            {
+              "html": "The walls are white and shining."
+            },
+            {
+              "html": "Inside, there are birds that live in the dark."
+            },
+            {
+              "html": "Everybody is amazed and quiet."
+            },
+            {
+              "html": "“This is better than the river,” Pedro whispers."
+            },
+            {
+              "html": "Then they walk through the forest for an hour."
+            },
+            {
+              "html": "At 1:45, the first dark clouds appear."
+            },
+            {
+              "html": "The guide looks at the sky and checks his watch."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week30_grade10_page07.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Trip We Almost Canceled”, page 7. Scene based on: Under a covered wooden shelter at the reserve during a heavy rainstorm, Laura, Andrés and classmates eat lunch and laugh while rain pours over the green forest, the guide sitting with them and a bus waiting in the background. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At two o’clock, the <b>storm</b> arrives, right on time."
+            },
+            {
+              "html": "The group is already under the covered area."
+            },
+            {
+              "html": "They eat lunch and watch the rain over the forest."
+            },
+            {
+              "html": "Nobody is in the river. Everybody is safe."
+            },
+            {
+              "html": "At four, the bus returns to Medellín."
+            },
+            {
+              "html": "Pedro sits next to Laura and Andrés."
+            },
+            {
+              "html": "“I thought the trip would be a disaster,” he admits."
+            },
+            {
+              "html": "“We almost cancelled it,” Laura says."
+            },
+            {
+              "html": "“We didn’t need to cancel. We needed to <b>adapt</b>,” Andrés adds."
+            },
+            {
+              "html": "Laura writes one sentence in her trip journal."
+            },
+            {
+              "html": "“A changed plan can still be a good plan.”"
+            }
+          ],
+          "wordCount": 93
+        }
+      ],
+      "practiceWords": [
+        "reserve",
+        "highway",
+        "forecast",
+        "schedule",
+        "storm",
+        "cancel",
+        "predict",
+        "itinerary",
+        "guide",
+        "adapt"
+      ],
+      "vocabulary": [
+        {
+          "word": "reserve",
+          "definition": "a protected natural area (reserva natural)"
+        },
+        {
+          "word": "highway",
+          "definition": "a big road between cities (autopista)"
+        },
+        {
+          "word": "forecast",
+          "definition": "a report about future weather (pronóstico)"
+        },
+        {
+          "word": "schedule",
+          "definition": "a plan with times for activities (horario)"
+        },
+        {
+          "word": "storm",
+          "definition": "very bad weather with strong rain and wind (tormenta)"
+        },
+        {
+          "word": "cancel",
+          "definition": "to decide that a planned event will not happen (cancelar)"
+        },
+        {
+          "word": "predict",
+          "definition": "to say what you think will happen (predecir)"
+        },
+        {
+          "word": "itinerary",
+          "definition": "a detailed plan for a trip (itinerario)"
+        },
+        {
+          "word": "guide",
+          "definition": "a person who shows visitors a place (guía)"
+        },
+        {
+          "word": "adapt",
+          "definition": "to change to fit a new situation (adaptarse)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What time does the bus leave after the company changes the schedule?",
+          "options": [
+            "At seven in the morning",
+            "At four in the afternoon",
+            "At five in the morning",
+            "At two in the afternoon"
+          ],
+          "answer": "At seven in the morning"
+        },
+        {
+          "skill": "inference",
+          "question": "Why does Andrés want to check official information?",
+          "options": [
+            "He does not trust the bus driver or the bus company at all.",
+            "Everyone is guessing about the future instead of using facts.",
+            "He thinks the teacher gave the class the wrong date.",
+            "He wants to cancel the whole trip as soon as possible."
+          ],
+          "answer": "Everyone is guessing about the future instead of using facts."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the call to the reserve’s office?",
+          "options": [
+            "To show that the natural reserve is closed every Saturday.",
+            "To introduce a new character who joins the class trip to the river.",
+            "To show which activities are safe in rain and which are cancelled.",
+            "To explain how marble caves are formed under big rivers."
+          ],
+          "answer": "To show which activities are safe in rain and which are cancelled."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What is the relationship between the forecast and the new itinerary?",
+          "options": [
+            "The forecast is wrong, so the new itinerary ignores it completely.",
+            "The forecast shows rain all day, so the whole trip is cancelled.",
+            "The forecast shows no storms, so they go rafting.",
+            "The forecast shows a sunny morning, so the safe activities happen early."
+          ],
+          "answer": "The forecast shows a sunny morning, so the safe activities happen early."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which statement best summarizes the text?",
+          "options": [
+            "Using reliable information helps people adapt a plan instead of cancelling it.",
+            "Caves are more interesting than rivers for teenagers on class trips.",
+            "Bus companies should never change their schedules before a trip.",
+            "Class trips should always be cancelled when the forecast shows rain."
+          ],
+          "answer": "Using reliable information helps people adapt a plan instead of cancelling it."
+        }
+      ],
+      "cover": "../assets/images/week30_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "The Shirt With a Hidden Journey",
+      "minimumWordTarget": 700,
+      "wordCount": 702,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week30_grade11_page01.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Shirt With a Hidden Journey”, page 1. Scene based on: At a busy clothing stall in downtown Medellín, Samuel, 17, holds up a plain blue T-shirt and looks closely at the small white label inside the collar, while Laura, 17, holds a notebook and stacks of colorful shirts surround them. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Samuel and Laura are working on an economics project."
+            },
+            {
+              "html": "The question is simple: “Where does a T-shirt come from?”"
+            },
+            {
+              "html": "On Saturday, they go to El Hueco, a busy shopping area."
+            },
+            {
+              "html": "Samuel buys a blue T-shirt for twenty thousand pesos."
+            },
+            {
+              "html": "He looks at the small <b>label</b> inside the collar."
+            },
+            {
+              "html": "“‘Made in Colombia,’” he reads with a smile."
+            },
+            {
+              "html": "“Easy. The whole shirt was made here.”"
+            },
+            {
+              "html": "“Our project is finished,” he jokes."
+            },
+            {
+              "html": "Laura takes the shirt and reads the label again."
+            },
+            {
+              "html": "“It only says where it was sewn,” she says."
+            },
+            {
+              "html": "“What about the <b>cotton</b>? Where was it grown?”"
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week30_grade11_page02.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Shirt With a Hidden Journey”, page 2. Scene based on: Samuel and Laura sit at a café table with a laptop showing only icons of a cotton plant, a ship, a factory and a truck connected by arrows, Laura pointing at the screen while Samuel looks surprised. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They sit in a small café and research online."
+            },
+            {
+              "html": "Samuel is surprised by what they find."
+            },
+            {
+              "html": "Much of the cotton used in Colombia is imported."
+            },
+            {
+              "html": "Some cotton is grown in Córdoba and Tolima."
+            },
+            {
+              "html": "But a lot of cotton is brought from other countries."
+            },
+            {
+              "html": "“So the shirt was made here,” Samuel says slowly."
+            },
+            {
+              "html": "“But the <b>material</b> might come from far away.”"
+            },
+            {
+              "html": "Laura nods. “The label shows only one step.”"
+            },
+            {
+              "html": "“The full <b>supply chain</b> has many steps.”"
+            },
+            {
+              "html": "“And many people work in each one.”"
+            },
+            {
+              "html": "Samuel opens a new page in the notebook."
+            },
+            {
+              "html": "His “finished” project is only beginning."
+            }
+          ],
+          "wordCount": 96
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week30_grade11_page03.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Shirt With a Hidden Journey”, page 3. Scene based on: Inside a large textile factory in the Medellín metropolitan area, rows of machines weave long rolls of blue fabric, and a factory guide in a helmet explains to Samuel and Laura, who wear visitor vests and safety glasses. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura’s uncle works at a textile <b>factory</b> in Itagüí."
+            },
+            {
+              "html": "On Tuesday, he gives them a short visit."
+            },
+            {
+              "html": "“Here, cotton thread is turned into <b>fabric</b>,” he explains."
+            },
+            {
+              "html": "Large machines are operated by trained workers."
+            },
+            {
+              "html": "The fabric is woven, washed, and dyed in big rolls."
+            },
+            {
+              "html": "“Medellín has a long history with textiles,” he says."
+            },
+            {
+              "html": "“Some of the oldest factories in Colombia were built here.”"
+            },
+            {
+              "html": "Samuel takes notes as fast as he can."
+            },
+            {
+              "html": "The noise is loud, and the air is warm."
+            },
+            {
+              "html": "He didn’t imagine so many steps before sewing."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week30_grade11_page04.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Shirt With a Hidden Journey”, page 4. Scene based on: In a small sewing workshop in Bello, five women at sewing machines make blue T-shirts while the owner, a woman in her fifties, shows Samuel and Laura how the fabric pieces are cut with patterns on a big table. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next step happens in a small <b>workshop</b> in Bello."
+            },
+            {
+              "html": "The fabric rolls are cut into pieces there."
+            },
+            {
+              "html": "Then the pieces are sewn together by hand and machine."
+            },
+            {
+              "html": "The owner, Mrs. Marta, has five employees."
+            },
+            {
+              "html": "“We <b>sew</b> about four hundred shirts a day,” she says."
+            },
+            {
+              "html": "“Each worker is paid for every shirt she finishes.”"
+            },
+            {
+              "html": "Laura asks how much a worker earns per shirt."
+            },
+            {
+              "html": "The answer surprises them both. It isn’t much."
+            },
+            {
+              "html": "“Big brands pay us very little,” Mrs. Marta explains."
+            },
+            {
+              "html": "“The prices in the stores are much higher.”"
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week30_grade11_page05.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Shirt With a Hidden Journey”, page 5. Scene based on: Samuel and Laura stand in a print shop in Itagüí watching a worker press a design onto blue T-shirts, then a warehouse where shirts are folded into plastic bags and loaded into boxes on a small truck. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "After sewing, the shirts are taken to a print shop."
+            },
+            {
+              "html": "Designs are printed on the front with heat machines."
+            },
+            {
+              "html": "Then the shirts are folded by hand."
+            },
+            {
+              "html": "Each one is put in a plastic <b>package</b>."
+            },
+            {
+              "html": "The boxes are loaded onto small trucks."
+            },
+            {
+              "html": "Finally, companies <b>distribute</b> the shirts to many stores."
+            },
+            {
+              "html": "Laura stops writing for a moment."
+            },
+            {
+              "html": "“Our shirt was touched by many hands,” she says."
+            },
+            {
+              "html": "“And moved by many trucks.”"
+            },
+            {
+              "html": "Samuel counts the steps on his fingers."
+            },
+            {
+              "html": "There are at least eight steps before the store."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week30_grade11_page06.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Shirt With a Hidden Journey”, page 6. Scene based on: At a library table, Samuel and Laura build a large poster showing a supply chain map with only icons and arrows: a cotton plant, a ship, a factory, a sewing machine, a printer, a truck and a store, with coins next to each step. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They return to their first question."
+            },
+            {
+              "html": "“Who earned money from our twenty-thousand-peso shirt?” Samuel asks."
+            },
+            {
+              "html": "They make a poster with every step."
+            },
+            {
+              "html": "Cotton was grown by farmers and shipped by companies."
+            },
+            {
+              "html": "Thread and fabric were produced in factories."
+            },
+            {
+              "html": "The pieces were cut and sewn in a workshop."
+            },
+            {
+              "html": "The design was printed, and the shirts were packed."
+            },
+            {
+              "html": "The trucks were driven, and the store sold it."
+            },
+            {
+              "html": "“Every step was paid,” Laura says."
+            },
+            {
+              "html": "“But some steps were paid much less than others.”"
+            }
+          ],
+          "wordCount": 80
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week30_grade11_page07.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Shirt With a Hidden Journey”, page 7. Scene based on: In a classroom, Samuel and Laura present their supply chain poster while classmates check the labels inside their own shirts and hoodies, some looking surprised, and the teacher smiles. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Monday, they present their project in class."
+            },
+            {
+              "html": "Samuel starts with a question for everyone."
+            },
+            {
+              "html": "“Please check the labels inside your clothes.”"
+            },
+            {
+              "html": "Students look inside their shirts and hoodies."
+            },
+            {
+              "html": "Some clothes were made in Colombia, others in Asia."
+            },
+            {
+              "html": "“A label tells you a country,” Samuel says."
+            },
+            {
+              "html": "“But it doesn’t tell you the whole story.”"
+            },
+            {
+              "html": "“Our shirt was made by many people.”"
+            },
+            {
+              "html": "“Most of them are invisible when we buy it.”"
+            },
+            {
+              "html": "The class is quiet and thoughtful."
+            },
+            {
+              "html": "Then the teacher asks, “What can consumers do?”"
+            },
+            {
+              "html": "The class discusses it until the bell rings."
+            }
+          ],
+          "wordCount": 92
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week30_grade11_page08.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Shirt With a Hidden Journey”, page 8. Scene based on: At home in the evening, Samuel looks at the blue T-shirt on a hanger beside a small notebook with a supply chain drawn as arrows, thinking, while Laura sends a message shown as a heart icon on his phone. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "That evening, Samuel looks at the blue T-shirt again."
+            },
+            {
+              "html": "Twenty thousand pesos looked cheap on Saturday."
+            },
+            {
+              "html": "Now he thinks about the women in the workshop."
+            },
+            {
+              "html": "He thinks about the farmers and the drivers."
+            },
+            {
+              "html": "“I’m not saying we shouldn’t buy clothes,” he writes."
+            },
+            {
+              "html": "“But we should ask more questions.”"
+            },
+            {
+              "html": "“Who made it? Were they paid fairly?”"
+            },
+            {
+              "html": "Laura sends him a message with an idea."
+            },
+            {
+              "html": "“Next project: a shirt that was made locally and fairly.”"
+            },
+            {
+              "html": "Samuel smiles and saves the idea."
+            }
+          ],
+          "wordCount": 79
+        }
+      ],
+      "practiceWords": [
+        "label",
+        "cotton",
+        "fabric",
+        "material",
+        "sew",
+        "workshop",
+        "factory",
+        "distribute",
+        "package",
+        "supply chain"
+      ],
+      "vocabulary": [
+        {
+          "word": "label",
+          "definition": "a small piece of paper or cloth with information (etiqueta)"
+        },
+        {
+          "word": "cotton",
+          "definition": "a soft natural material from a plant (algodón)"
+        },
+        {
+          "word": "fabric",
+          "definition": "cloth used to make clothes (tela)"
+        },
+        {
+          "word": "material",
+          "definition": "what something is made of (material)"
+        },
+        {
+          "word": "sew",
+          "definition": "to join cloth with a needle and thread (coser)"
+        },
+        {
+          "word": "workshop",
+          "definition": "a small place where things are made or repaired (taller)"
+        },
+        {
+          "word": "factory",
+          "definition": "a building where products are made by machines (fábrica)"
+        },
+        {
+          "word": "distribute",
+          "definition": "to send products to different places (distribuir)"
+        },
+        {
+          "word": "package",
+          "definition": "a box or bag that protects a product (empaque)"
+        },
+        {
+          "word": "supply chain",
+          "definition": "all the steps to make and deliver a product (cadena de suministro)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "What does the T-shirt label say?",
+          "options": [
+            "“Grown in Córdoba”",
+            "“Made in Colombia”",
+            "“Printed in Itagüí”",
+            "“Sewn in Bello”"
+          ],
+          "answer": "“Made in Colombia”"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "Why does Laura say the label “only shows one step”?",
+          "options": [
+            "The label was printed with the wrong country by the store.",
+            "The label only shows the price of the shirt and the store’s name.",
+            "It shows where the shirt was sewn, not where its cotton came from.",
+            "The label is too small to read all the information."
+          ],
+          "answer": "It shows where the shirt was sewn, not where its cotton came from."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the visit to Mrs. Marta’s workshop?",
+          "options": [
+            "To show that Samuel wants to learn to sew.",
+            "To explain how cotton is grown in Colombia.",
+            "To show that small workshops are bigger than factories.",
+            "To show the human work and low pay behind a cheap product."
+          ],
+          "answer": "To show the human work and low pay behind a cheap product."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “The full supply chain has many steps.” A “supply chain” is…",
+          "options": [
+            "all the steps to make and deliver a product",
+            "a large machine that weaves cloth",
+            "a truck that carries boxes of shirts to stores",
+            "a small label inside the collar of a T-shirt"
+          ],
+          "answer": "all the steps to make and deliver a product"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which statement best expresses the central idea of the text?",
+          "options": [
+            "Students should not buy cheap T-shirts in El Hueco.",
+            "Even a simple product is made by many invisible people.",
+            "Clothes made in Colombia are always better than imported clothes.",
+            "Textile factories in Medellín were built only in recent years."
+          ],
+          "answer": "Even a simple product is made by many invisible people."
+        }
+      ],
+      "cover": "../assets/images/week30_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

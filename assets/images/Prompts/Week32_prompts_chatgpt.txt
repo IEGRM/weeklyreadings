@@ -1,0 +1,851 @@
+WEEKLY READINGS — WEEK 32 — PROMPTS PARA CHATGPT (UNA IMAGEN POR PROMPT)
+==========================================================================================
+
+CÓMO SE USA ESTE ARCHIVO (método probado en Weeks 12–18)
+1. Un chat NUEVO de ChatGPT por cada imagen (evita que se trabe y que copie la composición anterior).
+2. ORDEN POR GRADO: primero la PORTADA, después page01, page02… La portada fija las caras de los personajes de esta semana.
+3. Adjuntos en cada chat:
+   - PORTADA: solo las 2 fotos base de estilo del grado (week01_gradeXX_cover.webp + week01_gradeXX_page01.webp).
+   - PÁGINAS: las 2 fotos base de estilo + la portada YA GENERADA de ese grado y esta semana (weekNN_gradeXX_cover.webp).
+4. Pegar UN solo prompt completo (todo el bloque debajo de la línea "--- archivo.webp ---"). Cada prompt es autónomo: repite estilo, historia, hora, lugar, personajes, escena, ánimo, cámara y reglas, porque cada chat es nuevo.
+5. Revisar cada imagen: mismas caras y ropa dentro del grado, edad correcta, sin texto en páginas interiores, escena fiel a la página.
+6. Convertir a WEBP 1122x1402 con el nombre EXACTO del archivo (weekNN_gradeXX_cover.webp / weekNN_gradeXX_pageNN.webp).
+
+FOTOS BASE = SOLO ESTILO
+Las fotos base del proyecto (week01) tienen OTROS actores. Se adjuntan únicamente para copiar estilo, renderizado, luz y paleta. Los personajes de cada semana son NUEVOS: cada prompt los describe completos (sexo, edad, grado, piel, rasgo, peinado y ropa). Un mismo nombre en otra semana es OTRA cara y OTRA ropa.
+
+EDADES FIJAS POR GRADO (deben verse en la imagen)
+6° = 11 años | 7° = 12 años | 8° = 13 años | 9° = 14 años | 10° = 15–16 años | 11° = 17–18 años.
+6° y 7° se ven niños; 8° y 9° adolescentes jóvenes; 10° adolescentes maduros; 11° casi adultos. Cada grado conserva su estilo: 6° 3D pastel → 7° pictórico → 8° 3D vivo → 9° semi-realista brillante → 10° pictórico semi-realista → 11° realista cinematográfico.
+
+IMÁGENES ÚNICAS
+- Cada prompt corresponde a UNA página concreta de la lectura: su hora, su lugar, sus personas y su acción. Ninguna escena se repite (ni dentro del grado, ni entre grados, ni entre semanas).
+- La portada es un momento y una composición propios; NO es la page01.
+- La cámara cambia en cada página del grado (plano medio, general, sobre el hombro, cenital suave, detalle de manos, etc.).
+
+REGLAS ANTI-ERROR / ANTI-RECHAZO (aprendidas)
+- No escribir nombres de estudios ni marcas (ni "Pixar" ni "Disney"); el estilo se describe con palabras propias.
+- Adolescentes: vocabulario escolar y neutro; sin ángulos bajos; expresiones naturales; nada que parezca peligro real.
+- Páginas interiores: CERO texto (ni letras, ni números, ni logos), incluso en pantallas, tableros, buses, relojes, ropa o libros: solo íconos, bloques de color o líneas en blanco.
+- Portadas: SOLO el título exacto + las 2 líneas "Jony Rojas Ochoa" / "Reading Project shared by IEGRM".
+- Si el chat se traba (sin imagen en ~90 s): chat nuevo y reenviar el mismo prompt con los mismos adjuntos.
+- Si sale texto o letras: responder "Same image, but remove every letter, word and number."
+- Si se parece demasiado a otra imagen ya hecha: "Same scene, but a clearly different composition and camera angle."
+- Si cambia una cara o la ropa: "Keep the characters exactly as in the attached cover: same faces, hair and clothes."
+- Si la edad no se ve bien: "Make the students look exactly their stated age."
+
+******************************************************************************
+VOCABULARIO INTERACTIVO — OBLIGATORIO, NO SE PUEDE OMITIR (funciona EXACTAMENTE como en week15.json)
+******************************************************************************
+Las imágenes NO llevan texto, pero la lectura sí lleva el vocabulario interactivo, y eso NO se toca ni se olvida.
+1. Cada grado tiene EXACTAMENTE 10 entradas en "vocabulary": {"word": "...", "definition": "definición en inglés (traducción)"}.
+2. "practiceWords" contiene las MISMAS 10 palabras, en el MISMO orden que "vocabulary".
+3. Cada palabra aparece UNA vez marcada con <b>palabra</b> dentro de "sentences[].html". Esa marca es la que la vuelve interactiva (clic → resalta, muestra la definición y la pronuncia).
+4. NO quitar, renombrar ni mover las etiquetas <b>; NO convertir "html" en texto plano; NO volver al esquema viejo (legacySentenceSchema: false).
+5. Respetar todo el código base del audio: tts "Web Speech API / SpeechSynthesis", manualAudioFiles: false. Frases de máximo 11 palabras para que el resaltado siga al audio.
+6. Las rutas de imagen del JSON NO cambian: ../assets/images/week32_gradeXX_cover.webp y ../assets/images/week32_gradeXX_pageNN.webp.
+Checklist por grado: [ ] 10 vocabulary  [ ] practiceWords = vocabulary  [ ] 10 <b> en las oraciones  [ ] audio intacto  [ ] imágenes con nombre exacto.
+
+
+##########################################################################################
+GRADO 6 — "Grandma Tries a Smart Speaker" — 6° Grade / A1 Beginner — portada + 4 páginas = 5 imágenes
+##########################################################################################
+EDAD VISUAL OBLIGATORIA: 11 years old, a sixth grader: small child body, round young face, clearly a child.
+BLOQUE DE ESTILO (fijo en todo el grado): original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream, sky blue), cute rounded characters with big expressive eyes, soft subsurface lighting, cozy detailed sets, shallow depth of field.
+FOTOS BASE DE ESTILO A ADJUNTAR (solo estilo, otros actores): week01_grade06_cover.webp + week01_grade06_page01.webp
+DESDE LA PAGE01: adjuntar también week32_grade06_cover.webp ya generada (fija las caras de esta semana).
+HISTORIA: Uncle Pablo gives Grandma Rosa a small smart speaker, but it plays loud strange songs when she speaks to it; her grandchildren, sixth graders Mateo and Sara, discover the language is set to English and that it only understands short commands, so they teach her, and now she uses it every morning.
+PERSONAJES FIJOS (NUEVOS esta semana; caras distintas a otros grados y semanas):
+   - Mateo — boy, 11 years old, a sixth grader: small child body, round young face, clearly a child; fair skin with rosy cheeks, thick dark eyebrows, short spiky black hair; wearing a white T-shirt and a blue denim jacket, with khaki pants (same outfit in every image unless the scene says otherwise)
+   - Sara — girl, 11 years old, a sixth grader: small child body, round young face, clearly a child; golden-tan skin, rectangular dark-framed glasses, a long side braid; wearing a coral hoodie, with gray joggers (same outfit in every image unless the scene says otherwise)
+   - Grandma Rosa, a sweet grandmother about 72, short curly gray hair, big round glasses, a pink knitted cardigan over a flowered dress, small pearl earrings
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - device — a small machine with a special use (dispositivo)  [<b> en página 1]
+   - speaker — a machine that plays sound and music (parlante)  [<b> en página 1]
+   - language — the words people use to communicate, like English (idioma)  [<b> en página 3]
+   - command — a short order you give to a machine (comando)  [<b> en página 4]
+   - listen — to pay attention to sounds or words (escuchar)  [<b> en página 1]
+   - loud — with a strong sound (fuerte, alto)  [<b> en página 4]
+   - music — songs and sounds people enjoy (música)  [<b> en página 2]
+   - morning — the first part of the day (mañana)  [<b> en página 4]
+   - timer — a device that counts time (temporizador)  [<b> en página 4]
+   - weather — the condition of the air: sun, rain, wind (clima)  [<b> en página 3]
+
+--- week32_grade06_cover.webp ---
+Attached images: STYLE REFERENCES ONLY. They show OTHER students; copy only their art style, rendering, lighting and color palette. Do NOT copy their faces, hair or clothes: the characters below are new people.
+Generate the image now: one vertical 4:5 BOOK COVER illustration.
+STYLE: original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream, sky blue), cute rounded characters with big expressive eyes, soft subsurface lighting, cozy detailed sets, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY (for understanding only; never write it in the image): Uncle Pablo gives Grandma Rosa a small smart speaker, but it plays loud strange songs when she speaks to it; her grandchildren, sixth graders Mateo and Sara, discover the language is set to English and that it only understands short commands, so they teach her, and now she uses it every morning.
+CHARACTERS (draw exactly like this): Mateo — boy, 11 years old, a sixth grader: small child body, round young face, clearly a child; fair skin with rosy cheeks, thick dark eyebrows, short spiky black hair; wearing a white T-shirt and a blue denim jacket, with khaki pants (same outfit in every image unless the scene says otherwise) | Sara — girl, 11 years old, a sixth grader: small child body, round young face, clearly a child; golden-tan skin, rectangular dark-framed glasses, a long side braid; wearing a coral hoodie, with gray joggers (same outfit in every image unless the scene says otherwise) | Grandma Rosa, a sweet grandmother about 72, short curly gray hair, big round glasses, a pink knitted cardigan over a flowered dress, small pearl earrings.
+COVER SCENE: In a cozy pastel living room, Grandma Rosa sits in an armchair holding a small round smart speaker with a glowing blue ring like a precious treasure, smiling with delight as tiny musical notes float out of it, while Mateo and Sara sit on the armrests on both sides, Mateo counting short commands on his fingers and Sara grinning.
+COMPOSITION: poster-like book-cover composition: the main characters large in the lower two-thirds, turned toward the viewer with faces clearly visible (unlike the interior pages, which show side-view action); the upper third is a calm, simple area of sky, wall or soft light for the title. This cover must not copy any interior page.
+AGE CHECK: every student must look exactly the age stated above; they are children.
+TEXT — the ONLY text allowed: the title "Grandma Tries a Smart Speaker" at the top in bubbly hand-lettered orange and deep blue letters with tiny sun and heart doodles. At the bottom, two lines of white/pale-yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No subtitles, grade labels, numbers, captions, speech bubbles, logos or watermarks. Any screen, paper or sign in the scene shows only simple icons or blank shapes.
+
+--- week32_grade06_page01.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 1 of the story "Grandma Tries a Smart Speaker".
+STYLE: original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream, sky blue), cute rounded characters with big expressive eyes, soft subsurface lighting, cozy detailed sets, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Uncle Pablo gives Grandma Rosa a small smart speaker, but it plays loud strange songs when she speaks to it; her grandchildren, sixth graders Mateo and Sara, discover the language is set to English and that it only understands short commands, so they teach her, and now she uses it every morning.
+TIME: Sunday afternoon, soft warm daylight.
+PLACE: the cozy living room of a small family home in Medellín, a sofa with crochet cushions, a radio on a shelf, potted plants.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Mateo — boy, 11 years old, a sixth grader: small child body, round young face, clearly a child; fair skin with rosy cheeks, thick dark eyebrows, short spiky black hair; wearing a white T-shirt and a blue denim jacket, with khaki pants (same outfit in every image unless the scene says otherwise) | Sara — girl, 11 years old, a sixth grader: small child body, round young face, clearly a child; golden-tan skin, rectangular dark-framed glasses, a long side braid; wearing a coral hoodie, with gray joggers (same outfit in every image unless the scene says otherwise) | Grandma Rosa, a sweet grandmother about 72, short curly gray hair, big round glasses, a pink knitted cardigan over a flowered dress, small pearl earrings.
+SCENE (illustrate exactly this moment): In the cozy living room of a small family home in Medellín, an elderly grandmother with gray hair and glasses holds a small round smart speaker with a blue light ring, looking confused, while Mateo, 11, and his sister Sara, 11, sit next to her on the sofa.
+MOOD AND EXPRESSIONS: confusion, curiosity; natural, believable body language.
+CAMERA: layered depth composition: a relevant object softly blurred in the foreground, characters in the middle, setting behind.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade06_page02.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 2 of the story "Grandma Tries a Smart Speaker".
+STYLE: original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream, sky blue), cute rounded characters with big expressive eyes, soft subsurface lighting, cozy detailed sets, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Uncle Pablo gives Grandma Rosa a small smart speaker, but it plays loud strange songs when she speaks to it; her grandchildren, sixth graders Mateo and Sara, discover the language is set to English and that it only understands short commands, so they teach her, and now she uses it every morning.
+TIME: a few minutes later.
+PLACE: the same living room sofa.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Mateo — boy, 11 years old, a sixth grader: small child body, round young face, clearly a child; fair skin with rosy cheeks, thick dark eyebrows, short spiky black hair; wearing a white T-shirt and a blue denim jacket, with khaki pants (same outfit in every image unless the scene says otherwise) | Sara — girl, 11 years old, a sixth grader: small child body, round young face, clearly a child; golden-tan skin, rectangular dark-framed glasses, a long side braid; wearing a coral hoodie, with gray joggers (same outfit in every image unless the scene says otherwise) | Grandma Rosa, a sweet grandmother about 72, short curly gray hair, big round glasses, a pink knitted cardigan over a flowered dress, small pearl earrings.
+SCENE (illustrate exactly this moment): The grandmother covers her ears, startled, as the smart speaker blasts loud drum music with its blue light flashing, while Mateo laughs a little and Sara picks up the speaker's empty box, curious.
+MOOD AND EXPRESSIONS: frustration, a little funny; natural, believable body language.
+CAMERA: medium-wide frontal shot, characters slightly off-center following the rule of thirds, open space around them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade06_page03.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 3 of the story "Grandma Tries a Smart Speaker".
+STYLE: original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream, sky blue), cute rounded characters with big expressive eyes, soft subsurface lighting, cozy detailed sets, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Uncle Pablo gives Grandma Rosa a small smart speaker, but it plays loud strange songs when she speaks to it; her grandchildren, sixth graders Mateo and Sara, discover the language is set to English and that it only understands short commands, so they teach her, and now she uses it every morning.
+TIME: a few minutes later.
+PLACE: the living room coffee table with a phone and a small booklet.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Mateo — boy, 11 years old, a sixth grader: small child body, round young face, clearly a child; fair skin with rosy cheeks, thick dark eyebrows, short spiky black hair; wearing a white T-shirt and a blue denim jacket, with khaki pants (same outfit in every image unless the scene says otherwise) | Sara — girl, 11 years old, a sixth grader: small child body, round young face, clearly a child; golden-tan skin, rectangular dark-framed glasses, a long side braid; wearing a coral hoodie, with gray joggers (same outfit in every image unless the scene says otherwise) | Grandma Rosa, a sweet grandmother about 72, short curly gray hair, big round glasses, a pink knitted cardigan over a flowered dress, small pearl earrings.
+SCENE (illustrate exactly this moment): Sara holds a phone showing the speaker app with only a globe icon and a flag-like color block, pointing at it, while Mateo reads the speaker's small instruction booklet with only pictures, and Grandma watches hopefully.
+MOOD AND EXPRESSIONS: discovery, hope; natural, believable body language.
+CAMERA: eye-level medium shot, the main characters in the foreground and the place clearly recognizable behind them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade06_page04.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 4 of the story "Grandma Tries a Smart Speaker".
+STYLE: original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream, sky blue), cute rounded characters with big expressive eyes, soft subsurface lighting, cozy detailed sets, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Uncle Pablo gives Grandma Rosa a small smart speaker, but it plays loud strange songs when she speaks to it; her grandchildren, sixth graders Mateo and Sara, discover the language is set to English and that it only understands short commands, so they teach her, and now she uses it every morning.
+TIME: a weekday at six in the morning, golden early light.
+PLACE: the family kitchen with a griddle of arepas on the stove, a counter and a small breakfast table.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Mateo — boy, 11 years old, a sixth grader: small child body, round young face, clearly a child; fair skin with rosy cheeks, thick dark eyebrows, short spiky black hair; wearing a white T-shirt and a blue denim jacket, with khaki pants (same outfit in every image unless the scene says otherwise) | Sara — girl, 11 years old, a sixth grader: small child body, round young face, clearly a child; golden-tan skin, rectangular dark-framed glasses, a long side braid; wearing a coral hoodie, with gray joggers (same outfit in every image unless the scene says otherwise) | Grandma Rosa, a sweet grandmother about 72, short curly gray hair, big round glasses, a pink knitted cardigan over a flowered dress, small pearl earrings.
+SCENE (illustrate exactly this moment): In the morning kitchen, the grandmother smiles and speaks to the smart speaker on the counter while cooking arepas on a griddle, the speaker's blue light glowing, and Mateo and Sara eat breakfast at the table.
+MOOD AND EXPRESSIONS: happiness, independence, warmth; natural, believable body language.
+CAMERA: wide establishing shot that shows the whole place, characters at full body in the middle ground.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+##########################################################################################
+GRADO 7 — "The Plan That Changed at 6:00" — 7° Grade / A1 Advanced — portada + 5 páginas = 6 imágenes
+##########################################################################################
+EDAD VISUAL OBLIGATORIA: 12 years old, a seventh grader: early-teen body, still a young, childlike face.
+BLOQUE DE ESTILO (fijo en todo el grado): painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors, warm storybook atmosphere.
+FOTOS BASE DE ESTILO A ADJUNTAR (solo estilo, otros actores): week01_grade07_cover.webp + week01_grade07_page01.webp
+DESDE LA PAGE01: adjuntar también week32_grade07_cover.webp ya generada (fija las caras de esta semana).
+HISTORIA: Seventh grader Valeria's family and her neighbor Samuel are going to visit Parque Explora, the science museum in Medellín, but on the Metro a message says it is going to close early at six; Samuel reads the last line and finds that the planetarium next door is open until eight, so the plan changes and becomes a wonderful star show.
+PERSONAJES FIJOS (NUEVOS esta semana; caras distintas a otros grados y semanas):
+   - Valeria — girl, 12 years old, a seventh grader: early-teen body, still a young, childlike face; fair skin with rosy cheeks, freckles across the nose, a low ponytail of thick curly hair; wearing a pink striped shirt, with gray joggers (same outfit in every image unless the scene says otherwise)
+   - Samuel — boy, 12 years old, a seventh grader: early-teen body, still a young, childlike face; medium-brown skin, freckles across the nose, short wavy hair; wearing an olive cargo jacket, with navy pants (same outfit in every image unless the scene says otherwise)
+   - Valeria's parents: a father about 42 with short curly hair, a beard and a gray jacket, and a mother about 40 with a straight black bob and a red scarf
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - plan — a list of things you are going to do (plan)  [<b> en página 1]
+   - weekend — Saturday and Sunday (fin de semana)  [<b> en página 1]
+   - evening — the time between afternoon and night (atardecer)  [<b> en página 4]
+   - museum — a building where you can see interesting objects (museo)  [<b> en página 1]
+   - aquarium — a place where you can see fish and sea animals (acuario)  [<b> en página 1]
+   - announcement — important information said to the public (anuncio)  [<b> en página 2]
+   - close — to stop being open (cerrar)  [<b> en página 2]
+   - suggestion — an idea for others to consider (sugerencia)  [<b> en página 4]
+   - planetarium — a place with a dome that shows the stars (planetario)  [<b> en página 3]
+   - disappointed — sad because something did not happen (decepcionado)  [<b> en página 2]
+
+--- week32_grade07_cover.webp ---
+Attached images: STYLE REFERENCES ONLY. They show OTHER students; copy only their art style, rendering, lighting and color palette. Do NOT copy their faces, hair or clothes: the characters below are new people.
+Generate the image now: one vertical 4:5 BOOK COVER illustration.
+STYLE: painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors, warm storybook atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY (for understanding only; never write it in the image): Seventh grader Valeria's family and her neighbor Samuel are going to visit Parque Explora, the science museum in Medellín, but on the Metro a message says it is going to close early at six; Samuel reads the last line and finds that the planetarium next door is open until eight, so the plan changes and becomes a wonderful star show.
+CHARACTERS (draw exactly like this): Valeria — girl, 12 years old, a seventh grader: early-teen body, still a young, childlike face; fair skin with rosy cheeks, freckles across the nose, a low ponytail of thick curly hair; wearing a pink striped shirt, with gray joggers (same outfit in every image unless the scene says otherwise) | Samuel — boy, 12 years old, a seventh grader: early-teen body, still a young, childlike face; medium-brown skin, freckles across the nose, short wavy hair; wearing an olive cargo jacket, with navy pants (same outfit in every image unless the scene says otherwise).
+COVER SCENE: Valeria and Samuel face the viewer floating gently in a dreamy starry space, a ringed planet glowing behind them and a few colorful river fish swimming among the stars, Samuel pointing at the planet and Valeria smiling with her hands together.
+COMPOSITION: poster-like book-cover composition: the main characters large in the lower two-thirds, turned toward the viewer with faces clearly visible (unlike the interior pages, which show side-view action); the upper third is a calm, simple area of sky, wall or soft light for the title. This cover must not copy any interior page.
+AGE CHECK: every student must look exactly the age stated above; they are children.
+TEXT — the ONLY text allowed: the title "The Plan That Changed at 6:00" at the top in navy (first line) and green (second line) letters on a cream torn brush-stroke banner at the top, small leaf sprigs in the corners. At the bottom, two lines of navy text inside a cream rounded box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No subtitles, grade labels, numbers, captions, speech bubbles, logos or watermarks. Any screen, paper or sign in the scene shows only simple icons or blank shapes.
+
+--- week32_grade07_page01.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 1 of this week's story.
+STYLE: painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors, warm storybook atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Seventh grader Valeria's family and her neighbor Samuel are going to visit Parque Explora, the science museum in Medellín, but on the Metro a message says it is going to close early at six; Samuel reads the last line and finds that the planetarium next door is open until eight, so the plan changes and becomes a wonderful star show.
+TIME: Saturday at five in the afternoon, warm afternoon light.
+PLACE: the living room of Valeria's family home in Medellín.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Valeria — girl, 12 years old, a seventh grader: early-teen body, still a young, childlike face; fair skin with rosy cheeks, freckles across the nose, a low ponytail of thick curly hair; wearing a pink striped shirt, with gray joggers (same outfit in every image unless the scene says otherwise) | Samuel — boy, 12 years old, a seventh grader: early-teen body, still a young, childlike face; medium-brown skin, freckles across the nose, short wavy hair; wearing an olive cargo jacket, with navy pants (same outfit in every image unless the scene says otherwise) | Valeria's parents: a father about 42 with short curly hair, a beard and a gray jacket, and a mother about 40 with a straight black bob and a red scarf.
+SCENE (illustrate exactly this moment): In the living room of a family home in Medellín on a Saturday afternoon, Valeria, 12, excitedly shows her family a phone screen with only an icon of a fish and a building, while Samuel, 12, her neighbor, sits with them holding a backpack.
+MOOD AND EXPRESSIONS: excitement and plans; natural, believable body language.
+CAMERA: medium-wide frontal shot, characters slightly off-center following the rule of thirds, open space around them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade07_page02.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 2 of this week's story.
+STYLE: painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors, warm storybook atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Seventh grader Valeria's family and her neighbor Samuel are going to visit Parque Explora, the science museum in Medellín, but on the Metro a message says it is going to close early at six; Samuel reads the last line and finds that the planetarium next door is open until eight, so the plan changes and becomes a wonderful star show.
+TIME: Saturday, late afternoon.
+PLACE: inside a moving Medellín Metro train with blue seats and big windows.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Valeria — girl, 12 years old, a seventh grader: early-teen body, still a young, childlike face; fair skin with rosy cheeks, freckles across the nose, a low ponytail of thick curly hair; wearing a pink striped shirt, with gray joggers (same outfit in every image unless the scene says otherwise) | Samuel — boy, 12 years old, a seventh grader: early-teen body, still a young, childlike face; medium-brown skin, freckles across the nose, short wavy hair; wearing an olive cargo jacket, with navy pants (same outfit in every image unless the scene says otherwise) | Valeria's parents: a father about 42 with short curly hair, a beard and a gray jacket, and a mother about 40 with a straight black bob and a red scarf.
+SCENE (illustrate exactly this moment): Inside a Medellín Metro train, Valeria looks shocked at her phone showing an icon of a closed door with a small clock icon, while her parents frown and Samuel leans over to read the screen.
+MOOD AND EXPRESSIONS: shock and disappointment; natural, believable body language.
+CAMERA: eye-level medium shot, the main characters in the foreground and the place clearly recognizable behind them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade07_page03.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 3 of this week's story.
+STYLE: painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors, warm storybook atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Seventh grader Valeria's family and her neighbor Samuel are going to visit Parque Explora, the science museum in Medellín, but on the Metro a message says it is going to close early at six; Samuel reads the last line and finds that the planetarium next door is open until eight, so the plan changes and becomes a wonderful star show.
+TIME: a minute later, on the same train.
+PLACE: close to the phone between Valeria and Samuel.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Valeria — girl, 12 years old, a seventh grader: early-teen body, still a young, childlike face; fair skin with rosy cheeks, freckles across the nose, a low ponytail of thick curly hair; wearing a pink striped shirt, with gray joggers (same outfit in every image unless the scene says otherwise) | Samuel — boy, 12 years old, a seventh grader: early-teen body, still a young, childlike face; medium-brown skin, freckles across the nose, short wavy hair; wearing an olive cargo jacket, with navy pants (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): Samuel points at a small line at the bottom of the phone message showing an icon of a dome with stars and a small clock icon, while Valeria wipes her eyes and looks at the screen with new hope.
+MOOD AND EXPRESSIONS: new hope, a clever idea; natural, believable body language.
+CAMERA: wide establishing shot that shows the whole place, characters at full body in the middle ground.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade07_page04.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 4 of this week's story.
+STYLE: painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors, warm storybook atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Seventh grader Valeria's family and her neighbor Samuel are going to visit Parque Explora, the science museum in Medellín, but on the Metro a message says it is going to close early at six; Samuel reads the last line and finds that the planetarium next door is open until eight, so the plan changes and becomes a wonderful star show.
+TIME: Saturday at about six fifteen, dusk with a pink and violet sky.
+PLACE: the plaza outside the white dome of the Medellín planetarium, the science museum buildings closing nearby.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Valeria — girl, 12 years old, a seventh grader: early-teen body, still a young, childlike face; fair skin with rosy cheeks, freckles across the nose, a low ponytail of thick curly hair; wearing a pink striped shirt, with gray joggers (same outfit in every image unless the scene says otherwise) | Samuel — boy, 12 years old, a seventh grader: early-teen body, still a young, childlike face; medium-brown skin, freckles across the nose, short wavy hair; wearing an olive cargo jacket, with navy pants (same outfit in every image unless the scene says otherwise) | Valeria's parents: a father about 42 with short curly hair, a beard and a gray jacket, and a mother about 40 with a straight black bob and a red scarf.
+SCENE (illustrate exactly this moment): Outside the planetarium in Medellín at dusk, Valeria's family and Samuel walk toward a large white dome building with lights turning on, Valeria's father holding four plain blank tickets and Samuel pointing at the sky where the first stars appear.
+MOOD AND EXPRESSIONS: joy and excitement; natural, believable body language.
+CAMERA: three-quarter view from a slightly raised camera, showing everyone involved and the key object.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade07_page05.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 5 of this week's story.
+STYLE: painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors, warm storybook atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Seventh grader Valeria's family and her neighbor Samuel are going to visit Parque Explora, the science museum in Medellín, but on the Metro a message says it is going to close early at six; Samuel reads the last line and finds that the planetarium next door is open until eight, so the plan changes and becomes a wonderful star show.
+TIME: Saturday at six thirty in the evening.
+PLACE: inside the dark planetarium dome with reclined seats under a projection of stars and planets.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Valeria — girl, 12 years old, a seventh grader: early-teen body, still a young, childlike face; fair skin with rosy cheeks, freckles across the nose, a low ponytail of thick curly hair; wearing a pink striped shirt, with gray joggers (same outfit in every image unless the scene says otherwise) | Samuel — boy, 12 years old, a seventh grader: early-teen body, still a young, childlike face; medium-brown skin, freckles across the nose, short wavy hair; wearing an olive cargo jacket, with navy pants (same outfit in every image unless the scene says otherwise) | Valeria's parents: a father about 42 with short curly hair, a beard and a gray jacket, and a mother about 40 with a straight black bob and a red scarf.
+SCENE (illustrate exactly this moment): Inside the dark planetarium dome, Valeria and Samuel lean back in reclined seats looking up at a projection of the Milky Way and planets, their faces lit by soft blue light, Valeria's parents smiling next to them.
+MOOD AND EXPRESSIONS: wonder and calm happiness; natural, believable body language.
+CAMERA: over-the-shoulder view from behind one character, keeping the other faces clearly visible.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+##########################################################################################
+GRADO 8 — "The Invitation at 5:59" — 8° Grade / A2 Beginner — portada + 6 páginas = 7 imágenes
+##########################################################################################
+EDAD VISUAL OBLIGATORIA: 13 years old, an eighth grader: young teenager, slim growing body, youthful face.
+BLOQUE DE ESTILO (fijo en todo el grado): original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition.
+FOTOS BASE DE ESTILO A ADJUNTAR (solo estilo, otros actores): week01_grade08_cover.webp + week01_grade08_page01.webp
+DESDE LA PAGE01: adjuntar también week32_grade08_cover.webp ya generada (fija las caras de esta semana).
+HISTORIA: At 5:59 on Friday, eighth grader Camila gets a message: "Last chance! Robotics camp registration closes at 6:00!", asking for her ID and a payment; her friend Mateo notices the strange web address and unknown number, they find the official city youth website, and Camila learns to stop when a message rushes her.
+PERSONAJES FIJOS (NUEVOS esta semana; caras distintas a otros grados y semanas):
+   - Camila — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light-brown skin, an oval face and a wide smile, a high dark ponytail; wearing a red cardigan over a white T-shirt, with khaki pants (same outfit in every image unless the scene says otherwise)
+   - Mateo — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light olive skin, a square jaw and a wide smile, a short fade haircut with curls on top; wearing a sky-blue hoodie, with dark jeans (same outfit in every image unless the scene says otherwise)
+   - Camila's mother, about 42, straight dark hair in a low ponytail, reading glasses, a navy work blouse
+   - 13-year-old classmates
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - invitation — a message that asks you to join an event (invitación)  [<b> en página 1]
+   - link — words or a button that opens a web page (enlace)  [<b> en página 1]
+   - registration — the act of signing up for an event (inscripción)  [<b> en página 1]
+   - deadline — the time when something must be finished (fecha límite)  [<b> en página 2]
+   - suspicious — making you think something is wrong (sospechoso)  [<b> en página 2]
+   - official — from a real government or organization (oficial)  [<b> en página 3]
+   - website — a group of pages on the internet (sitio web)  [<b> en página 3]
+   - personal data — private information about a person (datos personales)  [<b> en página 4]
+   - scam — a dishonest trick to get money or information (estafa)  [<b> en página 4]
+   - camp — an event where young people learn and do activities (campamento)  [<b> en página 1]
+
+--- week32_grade08_cover.webp ---
+Attached images: STYLE REFERENCES ONLY. They show OTHER students; copy only their art style, rendering, lighting and color palette. Do NOT copy their faces, hair or clothes: the characters below are new people.
+Generate the image now: one vertical 4:5 BOOK COVER illustration.
+STYLE: original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY (for understanding only; never write it in the image): At 5:59 on Friday, eighth grader Camila gets a message: "Last chance! Robotics camp registration closes at 6:00!", asking for her ID and a payment; her friend Mateo notices the strange web address and unknown number, they find the official city youth website, and Camila learns to stop when a message rushes her.
+CHARACTERS (draw exactly like this): Camila — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light-brown skin, an oval face and a wide smile, a high dark ponytail; wearing a red cardigan over a white T-shirt, with khaki pants (same outfit in every image unless the scene says otherwise) | Mateo — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light olive skin, a square jaw and a wide smile, a short fade haircut with curls on top; wearing a sky-blue hoodie, with dark jeans (same outfit in every image unless the scene says otherwise).
+COVER SCENE: Camila and Mateo face the viewer in a softly lit living room, Camila holding her phone like a shield while a cartoon fishing hook with a little robot-shaped bait dangles toward it from above, and Mateo points at the hook with a knowing smile.
+COMPOSITION: poster-like book-cover composition: the main characters large in the lower two-thirds, turned toward the viewer with faces clearly visible (unlike the interior pages, which show side-view action); the upper third is a calm, simple area of sky, wall or soft light for the title. This cover must not copy any interior page.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate, school-safe, natural expressions.
+TEXT — the ONLY text allowed: the title "The Invitation at 5:59" at the top in thick hand-lettered navy, green and orange letters with small ray accents. At the bottom, two lines of white/pale-yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No subtitles, grade labels, numbers, captions, speech bubbles, logos or watermarks. Any screen, paper or sign in the scene shows only simple icons or blank shapes.
+
+--- week32_grade08_page01.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 1 of this week's story.
+STYLE: original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): At 5:59 on Friday, eighth grader Camila gets a message: "Last chance! Robotics camp registration closes at 6:00!", asking for her ID and a payment; her friend Mateo notices the strange web address and unknown number, they find the official city youth website, and Camila learns to stop when a message rushes her.
+TIME: Friday, just before six in the evening, warm indoor light.
+PLACE: a small family apartment in Medellín, a sofa, a coffee table with schoolbooks.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Camila — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light-brown skin, an oval face and a wide smile, a high dark ponytail; wearing a red cardigan over a white T-shirt, with khaki pants (same outfit in every image unless the scene says otherwise) | Mateo — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light olive skin, a square jaw and a wide smile, a short fade haircut with curls on top; wearing a sky-blue hoodie, with dark jeans (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): In a small family apartment in Medellín just before six in the evening, Camila, 13, sits on the sofa staring at a phone showing a bright message bubble with a robot icon and a big clock icon, her finger ready to tap, while Mateo, 13, beside her looks at the screen with a frown.
+MOOD AND EXPRESSIONS: temptation, hurry, Mateo suspicious; natural, believable body language.
+CAMERA: eye-level medium shot, the main characters in the foreground and the place clearly recognizable behind them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade08_page02.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 2 of this week's story.
+STYLE: original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): At 5:59 on Friday, eighth grader Camila gets a message: "Last chance! Robotics camp registration closes at 6:00!", asking for her ID and a payment; her friend Mateo notices the strange web address and unknown number, they find the official city youth website, and Camila learns to stop when a message rushes her.
+TIME: a few seconds later.
+PLACE: the same sofa.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Camila — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light-brown skin, an oval face and a wide smile, a high dark ponytail; wearing a red cardigan over a white T-shirt, with khaki pants (same outfit in every image unless the scene says otherwise) | Mateo — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light olive skin, a square jaw and a wide smile, a short fade haircut with curls on top; wearing a sky-blue hoodie, with dark jeans (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): Camila looks frustrated at Mateo, pulling her phone back, while Mateo points at the screen where the web address appears as a long glitchy bar of scrambled colored blocks and a warning triangle icon.
+MOOD AND EXPRESSIONS: frustration versus careful observation; natural, believable body language.
+CAMERA: wide establishing shot that shows the whole place, characters at full body in the middle ground.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade08_page03.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 3 of this week's story.
+STYLE: original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): At 5:59 on Friday, eighth grader Camila gets a message: "Last chance! Robotics camp registration closes at 6:00!", asking for her ID and a payment; her friend Mateo notices the strange web address and unknown number, they find the official city youth website, and Camila learns to stop when a message rushes her.
+TIME: a few minutes later.
+PLACE: a small desk with a laptop in the apartment.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Camila — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light-brown skin, an oval face and a wide smile, a high dark ponytail; wearing a red cardigan over a white T-shirt, with khaki pants (same outfit in every image unless the scene says otherwise) | Mateo — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light olive skin, a square jaw and a wide smile, a short fade haircut with curls on top; wearing a sky-blue hoodie, with dark jeans (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): Camila and Mateo sit at a desk looking at a laptop showing a clean government-style youth website with only icons of a robot, a calendar and a shield, comparing it with the suspicious phone message lying beside the laptop.
+MOOD AND EXPRESSIONS: investigation, relief; natural, believable body language.
+CAMERA: three-quarter view from a slightly raised camera, showing everyone involved and the key object.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade08_page04.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 4 of this week's story.
+STYLE: original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): At 5:59 on Friday, eighth grader Camila gets a message: "Last chance! Robotics camp registration closes at 6:00!", asking for her ID and a payment; her friend Mateo notices the strange web address and unknown number, they find the official city youth website, and Camila learns to stop when a message rushes her.
+TIME: Friday at six thirty in the evening.
+PLACE: the living room of the apartment, the front door just closed.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Camila — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light-brown skin, an oval face and a wide smile, a high dark ponytail; wearing a red cardigan over a white T-shirt, with khaki pants (same outfit in every image unless the scene says otherwise) | Mateo — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light olive skin, a square jaw and a wide smile, a short fade haircut with curls on top; wearing a sky-blue hoodie, with dark jeans (same outfit in every image unless the scene says otherwise) | Camila's mother, about 42, straight dark hair in a low ponytail, reading glasses, a navy work blouse.
+SCENE (illustrate exactly this moment): Camila holds her phone and shows a screenshot of the scam message to her mother, a woman in her forties with reading glasses, in the living room, while Mateo stands beside them looking serious.
+MOOD AND EXPRESSIONS: serious, protective, proud; natural, believable body language.
+CAMERA: over-the-shoulder view from behind one character, keeping the other faces clearly visible.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade08_page05.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 5 of this week's story.
+STYLE: original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): At 5:59 on Friday, eighth grader Camila gets a message: "Last chance! Robotics camp registration closes at 6:00!", asking for her ID and a payment; her friend Mateo notices the strange web address and unknown number, they find the official city youth website, and Camila learns to stop when a message rushes her.
+TIME: Monday evening, lamp light.
+PLACE: the family dining table with a laptop.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Camila — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light-brown skin, an oval face and a wide smile, a high dark ponytail; wearing a red cardigan over a white T-shirt, with khaki pants (same outfit in every image unless the scene says otherwise) | Camila's mother, about 42, straight dark hair in a low ponytail, reading glasses, a navy work blouse.
+SCENE (illustrate exactly this moment): On Monday evening at the dining table, Camila jumps up and hugs her mother in front of a laptop showing only a robot icon and a big green check mark.
+MOOD AND EXPRESSIONS: happiness, safe registration; natural, believable body language.
+CAMERA: closer medium shot on faces, hands and the important object, everyone in the scene still visible, background softly blurred.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade08_page06.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 6 of this week's story.
+STYLE: original 3D-rendered storybook illustration, vivid saturated colors, strong warm rim light, dynamic young-teen poses, energetic composition. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): At 5:59 on Friday, eighth grader Camila gets a message: "Last chance! Robotics camp registration closes at 6:00!", asking for her ID and a payment; her friend Mateo notices the strange web address and unknown number, they find the official city youth website, and Camila learns to stop when a message rushes her.
+TIME: Wednesday at break.
+PLACE: a public school hallway in Medellín with a bulletin board.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Camila — girl, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light-brown skin, an oval face and a wide smile, a high dark ponytail; wearing a red cardigan over a white T-shirt, with khaki pants (same outfit in every image unless the scene says otherwise) | Mateo — boy, 13 years old, an eighth grader: young teenager, slim growing body, youthful face; light olive skin, a square jaw and a wide smile, a short fade haircut with curls on top; wearing a sky-blue hoodie, with dark jeans (same outfit in every image unless the scene says otherwise) | 13-year-old classmates.
+SCENE (illustrate exactly this moment): In the school hallway, Camila stands next to a small handmade poster with only icons of a clock, a warning triangle, a shield and a check mark, explaining it to a group of interested classmates while Mateo helps hold the poster.
+MOOD AND EXPRESSIONS: leadership, helping others; natural, believable body language.
+CAMERA: eye-level side view, the setting visible behind the characters.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+##########################################################################################
+GRADO 9 — "Will Robots Take This Job?" — 9° Grade / A2 Advanced — portada + 6 páginas = 7 imágenes
+##########################################################################################
+EDAD VISUAL OBLIGATORIA: 14 years old, a ninth grader: teenager with teen proportions, youthful face.
+BLOQUE DE ESTILO (fijo en todo el grado): glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field.
+FOTOS BASE DE ESTILO A ADJUNTAR (solo estilo, otros actores): week01_grade09_cover.webp + week01_grade09_page01.webp
+DESDE LA PAGE01: adjuntar también week32_grade09_cover.webp ya generada (fija las caras de esta semana).
+HISTORIA: Before a class debate, ninth grader Santiago is sure robots will take every job in Medellín; his classmate Laura proposes to investigate real jobs, and through interviews with a cashier, a textile worker, a nurse and a hairdresser, they learn that some jobs may disappear, others might change and new jobs may appear.
+PERSONAJES FIJOS (NUEVOS esta semana; caras distintas a otros grados y semanas):
+   - Santiago — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; medium-brown skin, big ears and a friendly grin, straight black hair with a fringe; wearing a yellow raincoat-style windbreaker, with gray joggers (same outfit in every image unless the scene says otherwise)
+   - Laura — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; light-brown skin, thin round glasses, long light-brown hair in a half-up style; wearing a purple sweatshirt, with khaki pants (same outfit in every image unless the scene says otherwise)
+   - 14-year-old classmates
+   - the social studies teacher, a man about 45 with glasses and a checked shirt
+   - Doña Ruth, a friendly supermarket cashier about 50, short curly hair, a red store vest with no logo
+   - Laura's aunt, a textile factory worker about 38, a hairnet, a blue work coat and a tablet
+   - a kind nurse about 35 in a white uniform with a stethoscope
+   - a cheerful hairdresser about 40 with colorful dyed hair and a black apron
+   - an elderly patient about 80 with a cane
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - robot — a machine that can do tasks automatically (robot)  [<b> en página 1]
+   - automation — the use of machines to do work people did before (automatización)  [<b> en página 4]
+   - task — a piece of work you have to do (tarea)  [<b> en página 4]
+   - machine — equipment that uses power to do work (máquina)  [<b> en página 3]
+   - replace — to take the place of something or someone (reemplazar)  [<b> en página 5]
+   - cashier — a person who takes money in a store (cajero)  [<b> en página 2]
+   - skill — an ability you develop with practice (habilidad)  [<b> en página 6]
+   - debate — a formal discussion with different opinions (debate)  [<b> en página 1]
+   - evidence — facts that show something is true (evidencia)  [<b> en página 1]
+   - future — the time that will come after now (futuro)  [<b> en página 1]
+
+--- week32_grade09_cover.webp ---
+Attached images: STYLE REFERENCES ONLY. They show OTHER students; copy only their art style, rendering, lighting and color palette. Do NOT copy their faces, hair or clothes: the characters below are new people.
+Generate the image now: one vertical 4:5 BOOK COVER illustration.
+STYLE: glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY (for understanding only; never write it in the image): Before a class debate, ninth grader Santiago is sure robots will take every job in Medellín; his classmate Laura proposes to investigate real jobs, and through interviews with a cashier, a textile worker, a nurse and a hairdresser, they learn that some jobs may disappear, others might change and new jobs may appear.
+CHARACTERS (draw exactly like this): Santiago — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; medium-brown skin, big ears and a friendly grin, straight black hair with a fringe; wearing a yellow raincoat-style windbreaker, with gray joggers (same outfit in every image unless the scene says otherwise) | Laura — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; light-brown skin, thin round glasses, long light-brown hair in a half-up style; wearing a purple sweatshirt, with khaki pants (same outfit in every image unless the scene says otherwise) | a kind nurse about 35 in a white uniform with a stethoscope | a cheerful hairdresser about 40 with colorful dyed hair and a black apron.
+COVER SCENE: Santiago and Laura stand back to back in the middle of a busy Medellín street, Santiago looking up at a friendly factory robot arm and Laura looking at a nurse and a hairdresser working with people, both holding notebooks and thinking; the image is split only by light, cool blue on the robot side and warm gold on the human side, in one continuous street scene.
+COMPOSITION: poster-like book-cover composition: the main characters large in the lower two-thirds, turned toward the viewer with faces clearly visible (unlike the interior pages, which show side-view action); the upper third is a calm, simple area of sky, wall or soft light for the title. This cover must not copy any interior page.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate, school-safe, natural expressions.
+TEXT — the ONLY text allowed: the title "Will Robots Take This Job?" at the top in bold navy, green and orange hand-lettered letters with a soft white glow. At the bottom, two lines of white/pale-yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No subtitles, grade labels, numbers, captions, speech bubbles, logos or watermarks. Any screen, paper or sign in the scene shows only simple icons or blank shapes.
+
+--- week32_grade09_page01.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 1 of the story "Will Robots Take This Job?".
+STYLE: glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Before a class debate, ninth grader Santiago is sure robots will take every job in Medellín; his classmate Laura proposes to investigate real jobs, and through interviews with a cashier, a textile worker, a nurse and a hairdresser, they learn that some jobs may disappear, others might change and new jobs may appear.
+TIME: Monday morning, bright classroom light.
+PLACE: a public school classroom in Medellín arranged for a debate, a projector screen.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Santiago — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; medium-brown skin, big ears and a friendly grin, straight black hair with a fringe; wearing a yellow raincoat-style windbreaker, with gray joggers (same outfit in every image unless the scene says otherwise) | Laura — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; light-brown skin, thin round glasses, long light-brown hair in a half-up style; wearing a purple sweatshirt, with khaki pants (same outfit in every image unless the scene says otherwise) | the social studies teacher, a man about 45 with glasses and a checked shirt.
+SCENE (illustrate exactly this moment): In a Medellín public school classroom set up for a debate, Santiago stands confidently pointing at a screen with a picture of a robot arm in a factory and a red X over workers, while Laura raises her hand with a skeptical look and the teacher listens.
+MOOD AND EXPRESSIONS: confidence versus doubt; natural, believable body language.
+CAMERA: wide establishing shot that shows the whole place, characters at full body in the middle ground.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade09_page02.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 2 of the story "Will Robots Take This Job?".
+STYLE: glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Before a class debate, ninth grader Santiago is sure robots will take every job in Medellín; his classmate Laura proposes to investigate real jobs, and through interviews with a cashier, a textile worker, a nurse and a hairdresser, they learn that some jobs may disappear, others might change and new jobs may appear.
+TIME: Monday afternoon.
+PLACE: a table in the school library.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Santiago — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; medium-brown skin, big ears and a friendly grin, straight black hair with a fringe; wearing a yellow raincoat-style windbreaker, with gray joggers (same outfit in every image unless the scene says otherwise) | Laura — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; light-brown skin, thin round glasses, long light-brown hair in a half-up style; wearing a purple sweatshirt, with khaki pants (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): Santiago and Laura sit at a library table with a notebook showing a list of jobs as small icons: a shopping cart, a bus, a nurse's cross, scissors and a factory gear, both thinking hard.
+MOOD AND EXPRESSIONS: planning, careful thinking; natural, believable body language.
+CAMERA: three-quarter view from a slightly raised camera, showing everyone involved and the key object.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade09_page03.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 3 of the story "Will Robots Take This Job?".
+STYLE: glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Before a class debate, ninth grader Santiago is sure robots will take every job in Medellín; his classmate Laura proposes to investigate real jobs, and through interviews with a cashier, a textile worker, a nurse and a hairdresser, they learn that some jobs may disappear, others might change and new jobs may appear.
+TIME: Saturday morning, bright store light.
+PLACE: a neighborhood supermarket in Medellín with checkout lanes and self-checkout machines.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Santiago — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; medium-brown skin, big ears and a friendly grin, straight black hair with a fringe; wearing a yellow raincoat-style windbreaker, with gray joggers (same outfit in every image unless the scene says otherwise) | Laura — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; light-brown skin, thin round glasses, long light-brown hair in a half-up style; wearing a purple sweatshirt, with khaki pants (same outfit in every image unless the scene says otherwise) | Doña Ruth, a friendly supermarket cashier about 50, short curly hair, a red store vest with no logo.
+SCENE (illustrate exactly this moment): In a Medellín supermarket, a friendly middle-aged cashier talks to Santiago and Laura near a row of self-checkout machines, while customers scan their own products in the background.
+MOOD AND EXPRESSIONS: listening, surprise; natural, believable body language.
+CAMERA: over-the-shoulder view from behind one character, keeping the other faces clearly visible.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade09_page04.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 4 of the story "Will Robots Take This Job?".
+STYLE: glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Before a class debate, ninth grader Santiago is sure robots will take every job in Medellín; his classmate Laura proposes to investigate real jobs, and through interviews with a cashier, a textile worker, a nurse and a hairdresser, they learn that some jobs may disappear, others might change and new jobs may appear.
+TIME: Saturday afternoon, industrial light.
+PLACE: inside a large textile factory in the Medellín area with an automated fabric-cutting machine.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Santiago — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; medium-brown skin, big ears and a friendly grin, straight black hair with a fringe; wearing a yellow raincoat-style windbreaker, with gray joggers (same outfit in every image unless the scene says otherwise) | Laura — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; light-brown skin, thin round glasses, long light-brown hair in a half-up style; wearing a purple sweatshirt, with khaki pants (same outfit in every image unless the scene says otherwise) | Laura's aunt, a textile factory worker about 38, a hairnet, a blue work coat and a tablet.
+SCENE (illustrate exactly this moment): Inside a large textile factory in the Medellín area, Laura's aunt, a factory worker in her thirties, controls an automated fabric-cutting machine from a tablet screen showing only icons, while Santiago and Laura watch in visitor vests.
+MOOD AND EXPRESSIONS: respect, serious learning; natural, believable body language.
+CAMERA: closer medium shot on faces, hands and the important object, everyone in the scene still visible, background softly blurred.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade09_page05.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 5 of the story "Will Robots Take This Job?".
+STYLE: glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Before a class debate, ninth grader Santiago is sure robots will take every job in Medellín; his classmate Laura proposes to investigate real jobs, and through interviews with a cashier, a textile worker, a nurse and a hairdresser, they learn that some jobs may disappear, others might change and new jobs may appear.
+TIME: Sunday morning.
+PLACE: the hallway of a small neighborhood health clinic with a window to the street.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Santiago — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; medium-brown skin, big ears and a friendly grin, straight black hair with a fringe; wearing a yellow raincoat-style windbreaker, with gray joggers (same outfit in every image unless the scene says otherwise) | Laura — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; light-brown skin, thin round glasses, long light-brown hair in a half-up style; wearing a purple sweatshirt, with khaki pants (same outfit in every image unless the scene says otherwise) | a kind nurse about 35 in a white uniform with a stethoscope | a cheerful hairdresser about 40 with colorful dyed hair and a black apron | an elderly patient about 80 with a cane.
+SCENE (illustrate exactly this moment): In the hallway of a small neighborhood health clinic, a kind nurse holds the hand of an elderly patient while she talks to Santiago and Laura, who listen and take notes; through the big front window, across the street, a small hair salon shows a hairdresser cutting a boy's hair and chatting with him.
+MOOD AND EXPRESSIONS: understanding the human side; natural, believable body language.
+CAMERA: eye-level side view, the setting visible behind the characters.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade09_page06.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 6 of the story "Will Robots Take This Job?".
+STYLE: glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Before a class debate, ninth grader Santiago is sure robots will take every job in Medellín; his classmate Laura proposes to investigate real jobs, and through interviews with a cashier, a textile worker, a nurse and a hairdresser, they learn that some jobs may disappear, others might change and new jobs may appear.
+TIME: Friday morning.
+PLACE: the front of the classroom during the debate.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Santiago — teenage boy, 14 years old, a ninth grader: teenager with teen proportions, youthful face; medium-brown skin, big ears and a friendly grin, straight black hair with a fringe; wearing a yellow raincoat-style windbreaker, with gray joggers (same outfit in every image unless the scene says otherwise) | Laura — teenage girl, 14 years old, a ninth grader: teenager with teen proportions, youthful face; light-brown skin, thin round glasses, long light-brown hair in a half-up style; wearing a purple sweatshirt, with khaki pants (same outfit in every image unless the scene says otherwise) | 14-year-old classmates | the social studies teacher, a man about 45 with glasses and a checked shirt.
+SCENE (illustrate exactly this moment): On debate day in the classroom, Santiago and Laura stand together at the front presenting a chart with icons of jobs in three colors, while classmates listen with interest and the teacher takes notes.
+MOOD AND EXPRESSIONS: confident, evidence-based presentation; natural, believable body language.
+CAMERA: layered depth composition: a relevant object softly blurred in the foreground, characters in the middle, setting behind.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+##########################################################################################
+GRADO 10 — "The Event That Changed in Ten Minutes" — 10° Grade / B1 Beginner — portada + 7 páginas = 8 imágenes
+##########################################################################################
+EDAD VISUAL OBLIGATORIA: 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face.
+BLOQUE DE ESTILO (fijo en todo el grado): painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere.
+FOTOS BASE DE ESTILO A ADJUNTAR (solo estilo, otros actores): week01_grade10_cover.webp + week01_grade10_page01.webp
+DESDE LA PAGE01: adjuntar también week32_grade10_cover.webp ya generada (fija las caras de esta semana).
+HISTORIA: Tenth graders Valentina and Mateo organize a youth climate forum at a public library in Medellín; ten minutes before four, the speaker announces a delay and the auditorium ceiling starts leaking, so Mateo separates facts from fears and Valentina moves everyone to Room 2 and starts with a student panel.
+PERSONAJES FIJOS (NUEVOS esta semana; caras distintas a otros grados y semanas):
+   - Valentina — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; light olive skin, a heart-shaped face, a short chin-length bob; wearing a mustard-yellow shirt, with gray joggers (same outfit in every image unless the scene says otherwise)
+   - Mateo — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; warm tan skin, a small scar on the chin, thick straight hair with a cowlick; wearing a lilac sweater, with navy pants (same outfit in every image unless the scene says otherwise)
+   - a library worker, a man about 50 with a gray mustache and a navy work shirt
+   - other teenage volunteers, 15–16 years old
+   - students from different schools, 14–17 years old
+   - the environmental engineer, a woman about 45, short curly hair a little wet from the rain, a backpack and a laptop
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - forum — a meeting where people discuss a topic (foro)  [<b> en página 1]
+   - speaker — a person who gives a talk to a group (conferencista)  [<b> en página 1]
+   - auditorium — a large room for talks and shows (auditorio)  [<b> en página 1]
+   - leak — water that comes through a hole by accident (gotera)  [<b> en página 2]
+   - delay — time when something is later than expected (retraso)  [<b> en página 4]
+   - audience — the people who watch or listen to an event (público)  [<b> en página 5]
+   - announce — to tell people something officially (anunciar)  [<b> en página 4]
+   - panel — a small group of people who discuss a topic in public (panel)  [<b> en página 5]
+   - microphone — a device that makes your voice louder (micrófono)  [<b> en página 4]
+   - volunteer — a person who helps without being paid (voluntario)  [<b> en página 1]
+
+--- week32_grade10_cover.webp ---
+Attached images: STYLE REFERENCES ONLY. They show OTHER students; copy only their art style, rendering, lighting and color palette. Do NOT copy their faces, hair or clothes: the characters below are new people.
+Generate the image now: one vertical 4:5 BOOK COVER illustration.
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY (for understanding only; never write it in the image): Tenth graders Valentina and Mateo organize a youth climate forum at a public library in Medellín; ten minutes before four, the speaker announces a delay and the auditorium ceiling starts leaking, so Mateo separates facts from fears and Valentina moves everyone to Room 2 and starts with a student panel.
+CHARACTERS (draw exactly like this): Valentina — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; light olive skin, a heart-shaped face, a short chin-length bob; wearing a mustard-yellow shirt, with gray joggers (same outfit in every image unless the scene says otherwise) | Mateo — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; warm tan skin, a small scar on the chin, thick straight hair with a cowlick; wearing a lilac sweater, with navy pants (same outfit in every image unless the scene says otherwise) | students from different schools, 14–17 years old.
+COVER SCENE: At the bright doorway of a small library room on a rainy afternoon, Valentina and Mateo stand facing the viewer welcoming arriving students with open arms and calm smiles, rain streaking the big windows behind them.
+COMPOSITION: poster-like book-cover composition: the main characters large in the lower two-thirds, turned toward the viewer with faces clearly visible (unlike the interior pages, which show side-view action); the upper third is a calm, simple area of sky, wall or soft light for the title. This cover must not copy any interior page.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate, school-safe, natural expressions.
+TEXT — the ONLY text allowed: the title "The Event That Changed in Ten Minutes" at the top in navy and green hand-lettered letters with a golden underline swoosh. At the bottom, two lines of white/pale-yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No subtitles, grade labels, numbers, captions, speech bubbles, logos or watermarks. Any screen, paper or sign in the scene shows only simple icons or blank shapes.
+
+--- week32_grade10_page01.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 1 of the story "The Event That Changed in Ten Minutes".
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Tenth graders Valentina and Mateo organize a youth climate forum at a public library in Medellín; ten minutes before four, the speaker announces a delay and the auditorium ceiling starts leaking, so Mateo separates facts from fears and Valentina moves everyone to Room 2 and starts with a student panel.
+TIME: Saturday, ten minutes before four in the afternoon, rainy outside, warm indoor light.
+PLACE: the lobby of a modern public library in Medellín with big windows, a reception desk and students arriving.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Valentina — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; light olive skin, a heart-shaped face, a short chin-length bob; wearing a mustard-yellow shirt, with gray joggers (same outfit in every image unless the scene says otherwise) | Mateo — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; warm tan skin, a small scar on the chin, thick straight hair with a cowlick; wearing a lilac sweater, with navy pants (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): In the lobby of a public library in Medellín, Valentina, wearing a volunteer badge, holds a clipboard with only blank lines while people arrive for a youth forum; Mateo carries a box of blank name tags.
+MOOD AND EXPRESSIONS: busy, organized, then nervous; natural, believable body language.
+CAMERA: three-quarter view from a slightly raised camera, showing everyone involved and the key object.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade10_page02.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 2 of the story "The Event That Changed in Ten Minutes".
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Tenth graders Valentina and Mateo organize a youth climate forum at a public library in Medellín; ten minutes before four, the speaker announces a delay and the auditorium ceiling starts leaking, so Mateo separates facts from fears and Valentina moves everyone to Room 2 and starts with a student panel.
+TIME: Saturday, a minute later.
+PLACE: inside the library auditorium with a stage and rows of red chairs.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Valentina — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; light olive skin, a heart-shaped face, a short chin-length bob; wearing a mustard-yellow shirt, with gray joggers (same outfit in every image unless the scene says otherwise) | a library worker, a man about 50 with a gray mustache and a navy work shirt.
+SCENE (illustrate exactly this moment): Inside the library auditorium, water drips from the ceiling onto the front rows of chairs and a small puddle forms near the stage, while a library worker places a bucket and Valentina stands frozen holding her phone.
+MOOD AND EXPRESSIONS: shock, a small emergency; natural, believable body language.
+CAMERA: over-the-shoulder view from behind one character, keeping the other faces clearly visible.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade10_page03.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 3 of the story "The Event That Changed in Ten Minutes".
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Tenth graders Valentina and Mateo organize a youth climate forum at a public library in Medellín; ten minutes before four, the speaker announces a delay and the auditorium ceiling starts leaking, so Mateo separates facts from fears and Valentina moves everyone to Room 2 and starts with a student panel.
+TIME: a minute later.
+PLACE: the busy library lobby.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Valentina — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; light olive skin, a heart-shaped face, a short chin-length bob; wearing a mustard-yellow shirt, with gray joggers (same outfit in every image unless the scene says otherwise) | Mateo — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; warm tan skin, a small scar on the chin, thick straight hair with a cowlick; wearing a lilac sweater, with navy pants (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): Mateo calmly holds up three fingers while talking to Valentina in the busy library lobby, a notebook in his other hand with three simple icons: a clock, a door and a microphone.
+MOOD AND EXPRESSIONS: calm logic, deep breath; natural, believable body language.
+CAMERA: closer medium shot on faces, hands and the important object, everyone in the scene still visible, background softly blurred.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade10_page04.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 4 of the story "The Event That Changed in Ten Minutes".
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Tenth graders Valentina and Mateo organize a youth climate forum at a public library in Medellín; ten minutes before four, the speaker announces a delay and the auditorium ceiling starts leaking, so Mateo separates facts from fears and Valentina moves everyone to Room 2 and starts with a student panel.
+TIME: Saturday, just before four.
+PLACE: the library lobby near a hallway to Room 2.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Valentina — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; light olive skin, a heart-shaped face, a short chin-length bob; wearing a mustard-yellow shirt, with gray joggers (same outfit in every image unless the scene says otherwise) | Mateo — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; warm tan skin, a small scar on the chin, thick straight hair with a cowlick; wearing a lilac sweater, with navy pants (same outfit in every image unless the scene says otherwise) | other teenage volunteers, 15–16 years old | students from different schools, 14–17 years old.
+SCENE (illustrate exactly this moment): Valentina speaks into a microphone in the library lobby to a crowd of arriving students, pointing toward a hallway, while Mateo and two volunteers carry extra chairs into a smaller room.
+MOOD AND EXPRESSIONS: leadership, clear announcement; natural, believable body language.
+CAMERA: eye-level side view, the setting visible behind the characters.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade10_page05.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 5 of the story "The Event That Changed in Ten Minutes".
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Tenth graders Valentina and Mateo organize a youth climate forum at a public library in Medellín; ten minutes before four, the speaker announces a delay and the auditorium ceiling starts leaking, so Mateo separates facts from fears and Valentina moves everyone to Room 2 and starts with a student panel.
+TIME: Saturday from four to four thirty.
+PLACE: Room 2, a smaller bright library room with a table and rows of chairs.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Valentina — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; light olive skin, a heart-shaped face, a short chin-length bob; wearing a mustard-yellow shirt, with gray joggers (same outfit in every image unless the scene says otherwise) | Mateo — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; warm tan skin, a small scar on the chin, thick straight hair with a cowlick; wearing a lilac sweater, with navy pants (same outfit in every image unless the scene says otherwise) | students from different schools, 14–17 years old.
+SCENE (illustrate exactly this moment): In a smaller bright library room, four teenage students sit at a table in front of a full audience speaking about climate projects, one holding a small plant, another showing a water bottle, while Valentina moderates with a microphone; Mateo is also there, as described.
+MOOD AND EXPRESSIONS: engaged audience, success; natural, believable body language.
+CAMERA: layered depth composition: a relevant object softly blurred in the foreground, characters in the middle, setting behind.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade10_page06.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 6 of the story "The Event That Changed in Ten Minutes".
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Tenth graders Valentina and Mateo organize a youth climate forum at a public library in Medellín; ten minutes before four, the speaker announces a delay and the auditorium ceiling starts leaking, so Mateo separates facts from fears and Valentina moves everyone to Room 2 and starts with a student panel.
+TIME: a little after half past four in the afternoon.
+PLACE: the doorway of the bright Room 2.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Valentina — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; light olive skin, a heart-shaped face, a short chin-length bob; wearing a mustard-yellow shirt, with gray joggers (same outfit in every image unless the scene says otherwise) | Mateo — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; warm tan skin, a small scar on the chin, thick straight hair with a cowlick; wearing a lilac sweater, with navy pants (same outfit in every image unless the scene says otherwise) | students from different schools, 14–17 years old | the environmental engineer, a woman about 45, short curly hair a little wet from the rain, a backpack and a laptop.
+SCENE (illustrate exactly this moment): The environmental engineer, a woman in her forties with a backpack and a laptop, enters the small room smiling and is welcomed by applause, while Valentina gives her the microphone and the student panel makes space at the table; Mateo and students are also there, as described.
+MOOD AND EXPRESSIONS: welcome and applause; natural, believable body language.
+CAMERA: medium-wide frontal shot, characters slightly off-center following the rule of thirds, open space around them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade10_page07.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 7 of the story "The Event That Changed in Ten Minutes".
+STYLE: painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Tenth graders Valentina and Mateo organize a youth climate forum at a public library in Medellín; ten minutes before four, the speaker announces a delay and the auditorium ceiling starts leaking, so Mateo separates facts from fears and Valentina moves everyone to Room 2 and starts with a student panel.
+TIME: Saturday evening, rain and soft blue light.
+PLACE: the covered front steps of the library.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Valentina — teenage girl, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; light olive skin, a heart-shaped face, a short chin-length bob; wearing a mustard-yellow shirt, with gray joggers (same outfit in every image unless the scene says otherwise) | Mateo — teenage boy, 16 years old, a tenth grader: mature teenager (15–16), almost adult height, still a teen face; warm tan skin, a small scar on the chin, thick straight hair with a cowlick; wearing a lilac sweater, with navy pants (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): After the forum, Valentina and Mateo sit on the library steps in the evening rain under a roof, tired but smiling, Valentina writing in a notebook with a simple drawing of a backup plan with arrows.
+MOOD AND EXPRESSIONS: tired, proud, thoughtful; natural, believable body language.
+CAMERA: eye-level medium shot, the main characters in the foreground and the place clearly recognizable behind them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+##########################################################################################
+GRADO 11 — "The Product That Crossed Three Countries" — 11° Grade / B1+ — portada + 8 páginas = 9 imágenes
+##########################################################################################
+EDAD VISUAL OBLIGATORIA: 17 years old, a final-year high-school student (17–18): young-adult look and proportions.
+BLOQUE DE ESTILO (fijo en todo el grado): realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors.
+FOTOS BASE DE ESTILO A ADJUNTAR (solo estilo, otros actores): week01_grade11_cover.webp + week01_grade11_page01.webp
+DESDE LA PAGE01: adjuntar también week32_grade11_cover.webp ya generada (fija las caras de esta semana).
+HISTORIA: Final-year students Sofía and Mateo trace an expensive Swiss chocolate bar back to Colombian cacao: grown on her uncle's farm in Antioquia, shipped to Europe, made in Switzerland, packed in Germany and imported again with taxes; they compare prices, visit a local chocolate workshop and present who earns the value.
+PERSONAJES FIJOS (NUEVOS esta semana; caras distintas a otros grados y semanas):
+   - Sofía — young woman, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; deep-brown skin, freckles across the nose, box braids tied back; wearing a turquoise blouse, with navy pants (same outfit in every image unless the scene says otherwise)
+   - Mateo — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; golden-tan skin, big ears and a friendly grin, neat dark hair combed back; wearing a mint-green sweater, with jeans (same outfit in every image unless the scene says otherwise)
+   - Sofía's uncle, a cacao farmer about 55, a straw hat, a weathered smile, a light work shirt and rubber boots
+   - customs officers in navy uniforms with tablets and reflective vests
+   - Daniela, a young chocolate maker about 29, curly hair under a hairnet, a brown apron over a white shirt
+   - 17-year-old classmates
+   - the economics teacher, a man about 50 with glasses and a gray sweater
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - cacao — the bean used to make chocolate (cacao)  [<b> en página 1]
+   - farmer — a person who grows crops or raises animals (agricultor)  [<b> en página 2]
+   - harvest — to collect crops from the fields (cosechar)  [<b> en página 2]
+   - export — to sell products to another country (exportar)  [<b> en página 3]
+   - process — to change a raw material into a product (procesar)  [<b> en página 4]
+   - import — to buy products from another country (importar)  [<b> en página 5]
+   - customs — the office that checks products entering a country (aduana)  [<b> en página 5]
+   - label — a small paper with information about a product (etiqueta)  [<b> en página 1]
+   - value — how much something is worth (valor)  [<b> en página 4]
+   - local — from the area where you live (local)  [<b> en página 7]
+
+--- week32_grade11_cover.webp ---
+Attached images: STYLE REFERENCES ONLY. They show OTHER students; copy only their art style, rendering, lighting and color palette. Do NOT copy their faces, hair or clothes: the characters below are new people.
+Generate the image now: one vertical 4:5 BOOK COVER illustration.
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY (for understanding only; never write it in the image): Final-year students Sofía and Mateo trace an expensive Swiss chocolate bar back to Colombian cacao: grown on her uncle's farm in Antioquia, shipped to Europe, made in Switzerland, packed in Germany and imported again with taxes; they compare prices, visit a local chocolate workshop and present who earns the value.
+CHARACTERS (draw exactly like this): Sofía — young woman, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; deep-brown skin, freckles across the nose, box braids tied back; wearing a turquoise blouse, with navy pants (same outfit in every image unless the scene says otherwise) | Mateo — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; golden-tan skin, big ears and a friendly grin, neat dark hair combed back; wearing a mint-green sweater, with jeans (same outfit in every image unless the scene says otherwise).
+COVER SCENE: Sofía holds a shiny imported chocolate box in one hand and an open yellow cacao pod in the other, comparing them with a thoughtful smile, while Mateo leans on a wooden railing beside her; behind them a green cacao farm on an Antioquia hillside meets a faint, glowing line of a ship and a factory on the horizon, as one continuous landscape.
+COMPOSITION: poster-like book-cover composition: the main characters large in the lower two-thirds, turned toward the viewer with faces clearly visible (unlike the interior pages, which show side-view action); the upper third is a calm, simple area of sky, wall or soft light for the title. This cover must not copy any interior page.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate, school-safe, natural expressions.
+TEXT — the ONLY text allowed: the title "The Product That Crossed Three Countries" at the top in navy and green letters with an orange underline. At the bottom, two lines of white/pale-yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No subtitles, grade labels, numbers, captions, speech bubbles, logos or watermarks. Any screen, paper or sign in the scene shows only simple icons or blank shapes.
+
+--- week32_grade11_page01.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 1 of the story "The Product That Crossed Three Countries".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Final-year students Sofía and Mateo trace an expensive Swiss chocolate bar back to Colombian cacao: grown on her uncle's farm in Antioquia, shipped to Europe, made in Switzerland, packed in Germany and imported again with taxes; they compare prices, visit a local chocolate workshop and present who earns the value.
+TIME: Friday evening, warm lamp light.
+PLACE: the small family apartment in the Manrique neighborhood of Medellín, a dining table and a window to the hills.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Sofía — young woman, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; deep-brown skin, freckles across the nose, box braids tied back; wearing a turquoise blouse, with navy pants (same outfit in every image unless the scene says otherwise) | Mateo — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; golden-tan skin, big ears and a friendly grin, neat dark hair combed back; wearing a mint-green sweater, with jeans (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): In a small family apartment in the Manrique neighborhood of Medellín, Sofía, 17, holds a fancy imported chocolate bar box and reads the small label on the back with a frown, while Mateo, 17, looks over her shoulder holding a cup of hot chocolate.
+MOOD AND EXPRESSIONS: surprise and curiosity; natural, believable body language.
+CAMERA: over-the-shoulder view from behind one character, keeping the other faces clearly visible.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade11_page02.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 2 of the story "The Product That Crossed Three Countries".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Final-year students Sofía and Mateo trace an expensive Swiss chocolate bar back to Colombian cacao: grown on her uncle's farm in Antioquia, shipped to Europe, made in Switzerland, packed in Germany and imported again with taxes; they compare prices, visit a local chocolate workshop and present who earns the value.
+TIME: Saturday morning, bright tropical sunlight.
+PLACE: a small cacao farm on the green hills of Antioquia, cacao trees with yellow and orange pods, drying racks.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Sofía — young woman, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; deep-brown skin, freckles across the nose, box braids tied back; wearing a turquoise blouse, with navy pants (same outfit in every image unless the scene says otherwise) | Mateo — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; golden-tan skin, big ears and a friendly grin, neat dark hair combed back; wearing a mint-green sweater, with jeans (same outfit in every image unless the scene says otherwise) | Sofía's uncle, a cacao farmer about 55, a straw hat, a weathered smile, a light work shirt and rubber boots.
+SCENE (illustrate exactly this moment): On a cacao farm in the green hills of Antioquia, a smiling farmer in his fifties with a straw hat shows Sofía and Mateo yellow cacao pods growing on a tree, opening one to reveal white beans.
+MOOD AND EXPRESSIONS: learning, respect for the farmer; natural, believable body language.
+CAMERA: closer medium shot on faces, hands and the important object, everyone in the scene still visible, background softly blurred.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade11_page03.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 3 of the story "The Product That Crossed Three Countries".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Final-year students Sofía and Mateo trace an expensive Swiss chocolate bar back to Colombian cacao: grown on her uncle's farm in Antioquia, shipped to Europe, made in Switzerland, packed in Germany and imported again with taxes; they compare prices, visit a local chocolate workshop and present who earns the value.
+TIME: Sunday afternoon.
+PLACE: the kitchen table of Sofía's apartment with a laptop and papers.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Sofía — young woman, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; deep-brown skin, freckles across the nose, box braids tied back; wearing a turquoise blouse, with navy pants (same outfit in every image unless the scene says otherwise) | Mateo — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; golden-tan skin, big ears and a friendly grin, neat dark hair combed back; wearing a mint-green sweater, with jeans (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): On a laptop at a kitchen table, Sofía and Mateo look at a simple map with arrows from Colombia to Europe and back, with icons of cacao beans, a factory and a ship, while Mateo taps a pencil on a notebook with only blank lines, thinking.
+MOOD AND EXPRESSIONS: analysis, discovery; natural, believable body language.
+CAMERA: eye-level side view, the setting visible behind the characters.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade11_page04.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 4 of the story "The Product That Crossed Three Countries".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Final-year students Sofía and Mateo trace an expensive Swiss chocolate bar back to Colombian cacao: grown on her uncle's farm in Antioquia, shipped to Europe, made in Switzerland, packed in Germany and imported again with taxes; they compare prices, visit a local chocolate workshop and present who earns the value.
+TIME: Sunday, later.
+PLACE: the same kitchen table.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Sofía — young woman, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; deep-brown skin, freckles across the nose, box braids tied back; wearing a turquoise blouse, with navy pants (same outfit in every image unless the scene says otherwise) | Mateo — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; golden-tan skin, big ears and a friendly grin, neat dark hair combed back; wearing a mint-green sweater, with jeans (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): Sofía and Mateo compare two price tags on a table drawn only as coin icons: a small pile of coins next to a pile of raw cacao beans and a very large pile of coins next to the shiny imported chocolate box.
+MOOD AND EXPRESSIONS: surprise at the price difference; natural, believable body language.
+CAMERA: layered depth composition: a relevant object softly blurred in the foreground, characters in the middle, setting behind.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade11_page05.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 5 of the story "The Product That Crossed Three Countries".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Final-year students Sofía and Mateo trace an expensive Swiss chocolate bar back to Colombian cacao: grown on her uncle's farm in Antioquia, shipped to Europe, made in Switzerland, packed in Germany and imported again with taxes; they compare prices, visit a local chocolate workshop and present who earns the value.
+TIME: Sunday evening, lamp light.
+PLACE: the living room of Sofía's apartment in Manrique.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Sofía — young woman, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; deep-brown skin, freckles across the nose, box braids tied back; wearing a turquoise blouse, with navy pants (same outfit in every image unless the scene says otherwise) | Mateo — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; golden-tan skin, big ears and a friendly grin, neat dark hair combed back; wearing a mint-green sweater, with jeans (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): In the living room at night, Sofía holds up the shiny imported chocolate box next to a small bag of raw Colombian cacao beans, frowning thoughtfully, while Mateo shows her a laptop with only icons of a cargo ship, a container and a stamp shape.
+MOOD AND EXPRESSIONS: thoughtful discovery; natural, believable body language.
+CAMERA: medium-wide frontal shot, characters slightly off-center following the rule of thirds, open space around them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade11_page06.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 6 of the story "The Product That Crossed Three Countries".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Final-year students Sofía and Mateo trace an expensive Swiss chocolate bar back to Colombian cacao: grown on her uncle's farm in Antioquia, shipped to Europe, made in Switzerland, packed in Germany and imported again with taxes; they compare prices, visit a local chocolate workshop and present who earns the value.
+TIME: Saturday morning.
+PLACE: a small chocolate workshop in Medellín with sacks of cacao beans, a roasting machine and molds.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Sofía — young woman, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; deep-brown skin, freckles across the nose, box braids tied back; wearing a turquoise blouse, with navy pants (same outfit in every image unless the scene says otherwise) | Mateo — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; golden-tan skin, big ears and a friendly grin, neat dark hair combed back; wearing a mint-green sweater, with jeans (same outfit in every image unless the scene says otherwise) | Daniela, a young chocolate maker about 29, curly hair under a hairnet, a brown apron over a white shirt.
+SCENE (illustrate exactly this moment): In a small chocolate workshop in Medellín, a young woman chocolate maker in an apron shows Sofía and Mateo shiny chocolate bars being made, with cacao beans in sacks and a roasting machine behind her.
+MOOD AND EXPRESSIONS: inspiration, fair trade; natural, believable body language.
+CAMERA: eye-level medium shot, the main characters in the foreground and the place clearly recognizable behind them.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade11_page07.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 7 of the story "The Product That Crossed Three Countries".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Final-year students Sofía and Mateo trace an expensive Swiss chocolate bar back to Colombian cacao: grown on her uncle's farm in Antioquia, shipped to Europe, made in Switzerland, packed in Germany and imported again with taxes; they compare prices, visit a local chocolate workshop and present who earns the value.
+TIME: Saturday, late afternoon, golden light.
+PLACE: a bench outside the chocolate workshop on a hillside street.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Sofía — young woman, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; deep-brown skin, freckles across the nose, box braids tied back; wearing a turquoise blouse, with navy pants (same outfit in every image unless the scene says otherwise) | Mateo — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; golden-tan skin, big ears and a friendly grin, neat dark hair combed back; wearing a mint-green sweater, with jeans (same outfit in every image unless the scene says otherwise).
+SCENE (illustrate exactly this moment): Sofía and Mateo sit on a bench outside the workshop tasting dark chocolate and comparing it with the Swiss box, both smiling, the hillsides of Medellín behind them in the late afternoon.
+MOOD AND EXPRESSIONS: tasting, reflection; natural, believable body language.
+CAMERA: wide establishing shot that shows the whole place, characters at full body in the middle ground.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+--- week32_grade11_page08.webp ---
+Attached images: (1) STYLE REFERENCES (other students: copy only the art style, lighting and colors, never their faces) and (2) the already generated cover of this grade: copy EXACTLY the faces, skin tone, hair and clothes of the main characters from that cover.
+Generate the image now: one vertical 4:5 illustration, page 8 of the story "The Product That Crossed Three Countries".
+STYLE: realistic cinematic digital illustration, natural skin texture, tight cinematic crop, soft moody light indoors and bright blue sky outdoors. Lighting and sky must match the time of day given below. Outdoors, show the real landscape of the place given below (in Medellín: green mountains and red-brick hillside neighborhoods).
+STORY SO FAR (for understanding only; never write it in the image): Final-year students Sofía and Mateo trace an expensive Swiss chocolate bar back to Colombian cacao: grown on her uncle's farm in Antioquia, shipped to Europe, made in Switzerland, packed in Germany and imported again with taxes; they compare prices, visit a local chocolate workshop and present who earns the value.
+TIME: Monday morning.
+PLACE: a high-school classroom in Medellín.
+CHARACTERS IN THIS IMAGE (draw exactly like this): Sofía — young woman, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; deep-brown skin, freckles across the nose, box braids tied back; wearing a turquoise blouse, with navy pants (same outfit in every image unless the scene says otherwise) | Mateo — young man, 17 years old, a final-year high-school student (17–18): young-adult look and proportions; golden-tan skin, big ears and a friendly grin, neat dark hair combed back; wearing a mint-green sweater, with jeans (same outfit in every image unless the scene says otherwise) | 17-year-old classmates | the economics teacher, a man about 50 with glasses and a gray sweater.
+SCENE (illustrate exactly this moment): In a classroom, Sofía and Mateo present a poster showing the journey of a chocolate bar as arrows across a world map, next to a table with the Swiss chocolate box and a local chocolate bar, while classmates taste small pieces; classmates and teacher are also there, as described.
+MOOD AND EXPRESSIONS: sharing, curiosity, tasting; natural, believable body language.
+CAMERA: three-quarter view from a slightly raised camera, showing everyone involved and the key object.
+BACKGROUND PEOPLE: only if the place needs them, ordinary local people of fitting ages, clearly different from the main characters.
+PRIORITY: if the camera note conflicts with the scene, follow the scene.
+AGE CHECK: every student must look exactly the age stated above; age-appropriate and school-safe.
+RULES: one single coherent scene (no collage, no panels). ZERO visible text anywhere: no letters, words or numbers on signs, screens, boards, papers, books, clothing, buses or clocks; screens and papers show only simple icons, colored blocks or blank lines; anyone writing produces only scribbled blank lines, never readable words; calendars, clocks, thermometers, money, receipts, jerseys, license plates, taxi roof signs, ships, containers and vehicles carry no numbers or lettering; newspapers show only gray blurred columns and photos; no logos, no watermarks.
+
+==========================================================================================
+FIN. Total: 6 portadas + 36 páginas = 42 imágenes.

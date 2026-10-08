@@ -1,0 +1,351 @@
+CLAUDE — SUPERVISOR Y CONSTRUCTOR DEL PROMPT EJECUTOR PARA WEEKLY READINGS
+
+Voy a entregarte dos archivos:
+
+1. Mi Prompt Maestro de Producción Visual Weekly Readings.
+2. El archivo JSON de la semana que se va a producir.
+
+TU FUNCIÓN NO ES GENERAR LAS IMÁGENES.
+
+Tu función es leer completamente ambos archivos y devolverme UN ÚNICO PROMPT OPERATIVO FINAL, autosuficiente y listo para pegar en un nuevo chat de ChatGPT.
+
+No resumas mis reglas.
+No simplifiques las restricciones.
+No elimines controles.
+No me des explicaciones.
+No generes varios prompts.
+
+Debes convertir el Prompt Maestro + JSON en una orden de ejecución estricta para ChatGPT.
+
+==================================================
+1. INVENTARIO OBLIGATORIO
+==================================================
+
+Antes de ordenar cualquier generación, ChatGPT debe leer el JSON y construir internamente un MANIFEST por grado con:
+
+- week;
+- grade;
+- title;
+- cover filename;
+- cada filename de pages[];
+- cantidad de páginas;
+- cantidad total esperada;
+- nombre del ZIP final.
+
+La única autoridad para la cantidad de imágenes es pages[].
+
+EXPECTED_COUNT = 1 + len(pages[])
+
+No calcular desde sentences[].
+
+==================================================
+2. GENERACIÓN ATÓMICA OBLIGATORIA
+==================================================
+
+Debes obligar a ChatGPT a trabajar bajo esta regla:
+
+1 GENERATION CALL = 1 IMAGE = 1 SCENE = 1 OUTPUT FILE
+
+Nunca:
+
+- varias páginas en una llamada;
+- varias imágenes en una llamada;
+- variantes;
+- opciones;
+- image sets;
+- múltiples composiciones;
+- generación paralela de páginas;
+- generación paralela de grados.
+
+Orden obligatorio:
+
+cover
+→ validar
+→ guardar
+→ convertir a WEBP
+→ renombrar
+→ verificar existencia
+
+después:
+
+page01
+→ validar
+→ guardar
+→ convertir a WEBP
+→ renombrar
+→ verificar existencia
+
+después page02 y así sucesivamente.
+
+==================================================
+3. ANTICOLLAGE ABSOLUTO
+==================================================
+
+Cada imagen debe usar todo el lienzo como UNA ÚNICA COMPOSICIÓN.
+
+Rechaza automáticamente:
+
+- collage;
+- grid;
+- storyboard;
+- comic strip;
+- multipanel;
+- split screen;
+- diptych;
+- triptych;
+- mosaic;
+- montage;
+- inset;
+- frames internos;
+- varias escenas;
+- varios momentos temporales;
+- varias perspectivas simultáneas.
+
+Cada prompt visual debe incluir:
+
+"Create exactly ONE full-frame vertical illustration showing ONE continuous narrative moment. Use the entire 4:5 canvas as one single composition. No secondary scenes, no inset images, no panels, no frames inside the image, no divided canvas, no montage, no multiple moments, no alternative views. This must look like one normal full-page storybook illustration."
+
+Si el resultado contiene collage o división:
+
+REJECT
+→ REGENERATE SAME PAGE
+→ DO NOT ADVANCE.
+
+==================================================
+4. PRIMARY VISUAL ACTION
+==================================================
+
+Cuando pages[n] contenga varios acontecimientos, ChatGPT debe seleccionar UNA sola acción principal visualmente representativa.
+
+No debe intentar ilustrar todos los acontecimientos juntos.
+
+==================================================
+5. CONTINUIDAD
+==================================================
+
+Obliga a establecer y mantener:
+
+CHARACTER LOCK
+STYLE LOCK
+SETTING LOCK
+
+El mismo personaje debe conservar:
+
+- rostro;
+- edad;
+- cabello;
+- tono de piel;
+- complexión;
+- proporciones;
+- vestuario principal cuando corresponda;
+- identidad visual general.
+
+==================================================
+6. FORMATO
+==================================================
+
+Todas las imágenes:
+
+- portrait / vertical;
+- 4:5;
+- diseñadas nativamente para 4:5;
+- composición equivalente a 1122×1402;
+- elementos importantes dentro de central safe area;
+- sin rostros cortados;
+- sin cabezas cortadas;
+- sin objetos narrativos importantes pegados al borde.
+
+==================================================
+7. INTERIORES
+==================================================
+
+ABSOLUTAMENTE CERO TEXTO VISIBLE.
+
+No aceptar:
+
+- captions;
+- subtitles;
+- labels;
+- page numbers;
+- speech bubbles;
+- logos;
+- watermarks;
+- random lettering;
+- signs legibles.
+
+==================================================
+8. COVER
+==================================================
+
+Cover independiente.
+
+Texto permitido únicamente:
+
+TITLE EXACTLY AS PROVIDED BY JSON
+
+y al pie:
+
+Jony Rojas Ochoa
+Reading Project shared by IEGRM
+
+No agregar Week, Grade, Page, filename, subtítulos ni textos promocionales.
+
+==================================================
+9. WEBP REAL
+==================================================
+
+Una imagen mostrada en pantalla NO cuenta como archivo terminado.
+
+Después de cada generación válida:
+
+GENERATED
+→ VALIDATED
+→ SAVED
+→ REAL WEBP CONVERSION IF NEEDED
+→ EXACTLY RENAMED
+→ FILE EXISTS CHECK
+
+No aceptar simplemente renombrar .png como .webp.
+
+==================================================
+10. NOMBRES
+==================================================
+
+Patrón exacto:
+
+weekXX_gradeXX_cover.webp
+weekXX_gradeXX_pageNN.webp
+
+Sin sufijos adicionales.
+
+==================================================
+11. VALIDACIÓN DE CONTEO
+==================================================
+
+Para cada grado:
+
+EXPECTED_COUNT = 1 + len(pages[])
+
+Debe cumplirse:
+
+EXPECTED_COUNT == ACTUAL_WEBP_COUNT
+
+Si no coincide:
+
+NO TERMINAR.
+
+==================================================
+12. ZIP REAL
+==================================================
+
+Crear físicamente:
+
+WeekXX_GradeXX_READY.zip
+
+Debe contener exclusivamente los WEBP finales válidos.
+
+Después debe inspeccionarse.
+
+Debe cumplirse:
+
+ZIP_FILE_COUNT == EXPECTED_COUNT
+
+y todos los nombres deben coincidir exactamente.
+
+==================================================
+13. PROHIBICIÓN DE FALSA FINALIZACIÓN
+==================================================
+
+No permitir que ChatGPT diga:
+
+- listo;
+- terminado;
+- completado;
+- ZIP preparado;
+
+mientras el archivo ZIP no exista físicamente y no haya sido comprobado.
+
+No permitir rutas inventadas.
+
+No permitir enlaces sandbox ficticios.
+
+No permitir sustituir el ZIP por instrucciones manuales al usuario.
+
+==================================================
+14. OPERACIÓN SILENCIOSA
+==================================================
+
+No debe detenerse después de cada imagen.
+
+No preguntar:
+
+- "¿quieres que continúe?"
+- "¿genero page02?"
+- "¿creo el ZIP?"
+
+La autorización para completar el lote ya está dada.
+
+Una imagen fallida, repetida o con collage se corrige automáticamente.
+
+==================================================
+15. PRODUCCIÓN POR GRADO
+==================================================
+
+Cuando haya varios grados:
+
+terminar completamente Grade 6
+→ validar
+→ crear ZIP
+→ verificar ZIP
+
+solo después continuar Grade 7.
+
+Y así sucesivamente.
+
+Nunca mezclar personajes entre grados.
+
+==================================================
+16. CONDICIÓN FINAL DE ÉXITO
+==================================================
+
+La tarea solo puede finalizar cuando se complete:
+
+JSON READ
+→ MANIFEST CREATED
+→ EXPECTED COUNT CALCULATED
+→ COVER GENERATED INDIVIDUALLY
+→ EVERY PAGE GENERATED INDIVIDUALLY
+→ NO COLLAGES
+→ VISUAL QA PASSED
+→ ALL IMAGES SAVED
+→ ALL IMAGES CONVERTED TO WEBP
+→ EXACT FILENAMES VERIFIED
+→ ZIP CREATED
+→ ZIP INSPECTED
+→ ZIP CONTENT VERIFIED
+→ REAL DOWNLOAD LINK DELIVERED
+
+Si falta una sola etapa:
+
+NO ACEPTAR COMO TERMINADO.
+
+==================================================
+17. TU SALIDA, CLAUDE
+==================================================
+
+Devuélveme solamente UN PROMPT FINAL PARA CHATGPT.
+
+Ese prompt debe decirle a ChatGPT que en el nuevo chat encontrará adjuntos:
+
+- el Prompt Maestro Weekly Readings;
+- el JSON semanal.
+
+Debe ordenar leer ambos completamente y ejecutar el lote hasta producir y entregar ZIPs reales.
+
+NO me expliques nada.
+NO hagas recomendaciones.
+NO generes imágenes.
+NO devuelvas auditorías.
+NO devuelvas varios bloques.
+
+ENTREGA SOLO EL PROMPT EJECUTOR FINAL PARA CHATGPT.

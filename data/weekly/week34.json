@@ -1,0 +1,2340 @@
+{
+  "week": 34,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 34",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "Friday Without Screens",
+      "minimumWordTarget": 350,
+      "wordCount": 361,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week34_grade06_page01.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “Friday Without Screens”, page 1. Scene based on: In the living room of a small family home in Medellín on a Friday evening, Juan, 11, and his sister María, 13, look shocked as their father places a basket full of phones, a tablet and a remote control on a high shelf, while their mother and grandmother smile. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Every Friday, Juan’s family watches TV after dinner."
+            },
+            {
+              "html": "Juan plays games on his tablet."
+            },
+            {
+              "html": "María watches videos on her phone."
+            },
+            {
+              "html": "Dad and Mom look at their phones too."
+            },
+            {
+              "html": "Grandma usually sits alone in the kitchen."
+            },
+            {
+              "html": "But this Friday, Dad has a new idea."
+            },
+            {
+              "html": "“Tonight, we have a Friday without screens,” he says."
+            },
+            {
+              "html": "“From six to nine, every <b>screen</b> goes in this basket.”"
+            },
+            {
+              "html": "Juan can’t believe it. “Three hours? No games?”"
+            },
+            {
+              "html": "María looks at her phone sadly."
+            },
+            {
+              "html": "They put the phones and the tablet in the basket."
+            },
+            {
+              "html": "Dad puts the basket on a high shelf."
+            }
+          ],
+          "wordCount": 94
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week34_grade06_page02.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “Friday Without Screens”, page 2. Scene based on: At six fifteen, Juan lies on the sofa upside down with his feet on the wall looking bored, María stares at the ceiling, and the wall clock shows 6:15, while the TV is dark and a cat sleeps on the carpet. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At six o’clock, the house is very quiet."
+            },
+            {
+              "html": "Juan lies on the sofa. He is <b>bored</b>."
+            },
+            {
+              "html": "“What time is it?” he asks."
+            },
+            {
+              "html": "“It’s a quarter past six,” María says."
+            },
+            {
+              "html": "“Only fifteen minutes? This is terrible!”"
+            },
+            {
+              "html": "María isn’t happy either."
+            },
+            {
+              "html": "She doesn’t know what to do without her phone."
+            },
+            {
+              "html": "Mom comes into the living room."
+            },
+            {
+              "html": "“There are many things to do,” she says."
+            },
+            {
+              "html": "“You can <b>choose</b> one activity each.”"
+            },
+            {
+              "html": "Juan thinks. He doesn’t have any ideas."
+            },
+            {
+              "html": "He looks at the dark TV for a long time."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week34_grade06_page03.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “Friday Without Screens”, page 3. Scene based on: In the kitchen, Dad and Juan, both with flour on their faces, shape small round pandebono breads on a tray, while María reads a recipe card with only pictures and Grandma watches proudly next to the oven. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "María has the first idea."
+            },
+            {
+              "html": "“Let’s <b>cook</b> something! Grandma’s pandebono!”"
+            },
+            {
+              "html": "Grandma smiles. She knows the recipe very well."
+            },
+            {
+              "html": "At seven o’clock, everybody is in the kitchen."
+            },
+            {
+              "html": "Juan mixes the cheese and the flour."
+            },
+            {
+              "html": "Dad makes small balls with his hands."
+            },
+            {
+              "html": "María puts them on a tray."
+            },
+            {
+              "html": "Grandma turns on the <b>oven</b>."
+            },
+            {
+              "html": "Juan has flour on his nose. Everybody laughs."
+            },
+            {
+              "html": "“This is fun,” Juan says, surprised."
+            },
+            {
+              "html": "After twenty minutes, the house smells delicious."
+            }
+          ],
+          "wordCount": 72
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week34_grade06_page04.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “Friday Without Screens”, page 4. Scene based on: At the living room table, the whole family plays the Colombian board game parqués with colorful pieces and dice, eating warm pandebono; Juan rolls the dice and shouts with excitement while Grandma laughs. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At eight o’clock, they eat the warm pandebono."
+            },
+            {
+              "html": "Then Juan has an idea too."
+            },
+            {
+              "html": "He brings an old <b>board game</b> from his closet."
+            },
+            {
+              "html": "It’s parqués, a popular game in Colombia."
+            },
+            {
+              "html": "They play with colorful pieces and two <b>dice</b>."
+            },
+            {
+              "html": "Grandma is the best player in the family!"
+            },
+            {
+              "html": "Juan shouts when he rolls a double six."
+            },
+            {
+              "html": "María laughs so much that she cries."
+            },
+            {
+              "html": "Then they go to the small balcony."
+            },
+            {
+              "html": "They look at the <b>stars</b> over the hills."
+            },
+            {
+              "html": "Grandma tells a <b>story</b> about her town."
+            },
+            {
+              "html": "It’s a beautiful <b>evening</b>."
+            },
+            {
+              "html": "At nine o’clock, Dad opens the basket."
+            },
+            {
+              "html": "Juan looks at his tablet and smiles."
+            },
+            {
+              "html": "“Can we do this again next Friday?” he asks."
+            }
+          ],
+          "wordCount": 110
+        }
+      ],
+      "practiceWords": [
+        "screen",
+        "evening",
+        "bored",
+        "board game",
+        "dice",
+        "cook",
+        "oven",
+        "story",
+        "stars",
+        "choose"
+      ],
+      "vocabulary": [
+        {
+          "word": "screen",
+          "definition": "the flat part of a TV, phone, or computer (pantalla)"
+        },
+        {
+          "word": "evening",
+          "definition": "the time between afternoon and night (noche)"
+        },
+        {
+          "word": "bored",
+          "definition": "not interested, with nothing to do (aburrido)"
+        },
+        {
+          "word": "board game",
+          "definition": "a game with pieces on a board (juego de mesa)"
+        },
+        {
+          "word": "dice",
+          "definition": "small cubes with numbers for games (dados)"
+        },
+        {
+          "word": "cook",
+          "definition": "to prepare food with heat (cocinar)"
+        },
+        {
+          "word": "oven",
+          "definition": "a box in the kitchen for baking food (horno)"
+        },
+        {
+          "word": "story",
+          "definition": "words that tell about events, real or imagined (historia)"
+        },
+        {
+          "word": "stars",
+          "definition": "the bright points of light in the night sky (estrellas)"
+        },
+        {
+          "word": "choose",
+          "definition": "to decide which thing you want (escoger)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "What time does the Friday without screens start?",
+          "options": [
+            "At six o’clock",
+            "At nine o’clock",
+            "At eight o’clock",
+            "At seven o’clock"
+          ],
+          "answer": "At six o’clock"
+        },
+        {
+          "skill": "sequence",
+          "question": "What does the family do AFTER they cook the pandebono?",
+          "options": [
+            "Juan lies on the sofa and feels bored.",
+            "They play parqués and look at the stars.",
+            "They put their phones in the basket.",
+            "Mom tells them to choose one activity each."
+          ],
+          "answer": "They play parqués and look at the stars."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “Juan lies on the sofa. He is bored.” “Bored” means…",
+          "options": [
+            "very happy and excited",
+            "hungry before dinner",
+            "not interested, with nothing to do",
+            "tired after a long, difficult trip"
+          ],
+          "answer": "not interested, with nothing to do"
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the story mainly about?",
+          "options": [
+            "A family buys a new TV for the living room on Friday evening.",
+            "A boy loses his tablet on Friday evening.",
+            "A grandmother teaches her family to play new video games.",
+            "A family discovers fun activities on an evening without screens."
+          ],
+          "answer": "A family discovers fun activities on an evening without screens."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why does Juan ask, “Can we do this again next Friday?”",
+          "options": [
+            "He enjoyed the evening with his family more than he expected.",
+            "He wants to win the board game against Grandma next time.",
+            "He doesn’t like his tablet anymore.",
+            "He wants to eat Grandma’s pandebono every day after dinner."
+          ],
+          "answer": "He enjoyed the evening with his family more than he expected."
+        }
+      ],
+      "cover": "../assets/images/week34_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "When the Metro Station Was New",
+      "minimumWordTarget": 400,
+      "wordCount": 455,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week34_grade07_page01.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “When the Metro Station Was New”, page 1. Scene based on: In the small living room of an older woman's apartment near a Medellín Metro station, Camila, 12, holds a phone to record while Daniel, 12, holds a notebook, and a smiling woman of about seventy, Doña Gloria, sits in an armchair with an old photo album on her lap. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Camila and Daniel had a history project last month."
+            },
+            {
+              "html": "The topic was “Medellín in the <b>past</b>.”"
+            },
+            {
+              "html": "They decided to interview someone old."
+            },
+            {
+              "html": "Camila’s <b>neighbor</b>, Doña Gloria, was seventy years old."
+            },
+            {
+              "html": "She lived near a Metro station all her life."
+            },
+            {
+              "html": "On Saturday, they visited her with a notebook."
+            },
+            {
+              "html": "“Can we do an <b>interview</b>?” Camila asked."
+            },
+            {
+              "html": "“Of course! Come in, please,” Doña Gloria said."
+            },
+            {
+              "html": "She brought coffee and a box of old photos."
+            },
+            {
+              "html": "Daniel turned on the recorder on Camila’s phone."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week34_grade07_page02.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “When the Metro Station Was New”, page 2. Scene based on: A soft, warm memory scene shows a crowded old city bus in Medellín in the early 1990s, with people standing very close together and a young woman resembling Doña Gloria holding a handrail, while traffic fills the street. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "“Before the Metro, life was very different,” Doña Gloria said."
+            },
+            {
+              "html": "“I worked downtown, and I took two buses every day.”"
+            },
+            {
+              "html": "“The buses were always <b>crowded</b> and hot.”"
+            },
+            {
+              "html": "“Sometimes the trip took almost two hours.”"
+            },
+            {
+              "html": "“I left my house at five in the morning.”"
+            },
+            {
+              "html": "“I came home at eight at night.”"
+            },
+            {
+              "html": "Camila wrote everything in her notebook."
+            },
+            {
+              "html": "“That was very hard,” Daniel said."
+            },
+            {
+              "html": "“Yes, it was,” Doña Gloria answered."
+            },
+            {
+              "html": "“But then, everything changed.”"
+            }
+          ],
+          "wordCount": 72
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week34_grade07_page03.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “When the Metro Station Was New”, page 3. Scene based on: Another warm memory scene shows the opening day of the Medellín Metro in 1995, with a shiny new train at an elevated station and smiling families in elegant clothes waiting on the platform, a young Doña Gloria in a blue dress holding a small handbag. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "“The Metro started in 1995,” Doña Gloria said."
+            },
+            {
+              "html": "“I saw them <b>open</b> the first station!”"
+            },
+            {
+              "html": "“I <b>remember</b> the first days very well.”"
+            },
+            {
+              "html": "“People were so happy and excited.”"
+            },
+            {
+              "html": "“Many people <b>dressed up</b> for their first trip.”"
+            },
+            {
+              "html": "“I wore my best blue dress!”"
+            },
+            {
+              "html": "Camila and Daniel laughed. “Really? A dress for the Metro?”"
+            },
+            {
+              "html": "“Yes! It was a special day for the city.”"
+            },
+            {
+              "html": "“My first <b>ride</b> took only twenty minutes.”"
+            },
+            {
+              "html": "“I couldn’t believe it. I cried a little.”"
+            },
+            {
+              "html": "Daniel stopped writing. He was surprised."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week34_grade07_page04.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “When the Metro Station Was New”, page 4. Scene based on: In a quiet public library archive room in Medellín, Camila and Daniel look at old newspapers and black-and-white photos on a big table with a friendly librarian, Daniel pointing at a photo of the first Metro train with elegant passengers. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "After the interview, Daniel had a question."
+            },
+            {
+              "html": "“Doña Gloria, was it exactly twenty minutes?” he asked."
+            },
+            {
+              "html": "“Maybe twenty-five. It was a long time ago,” she laughed."
+            },
+            {
+              "html": "On the way home, Camila was a little annoyed."
+            },
+            {
+              "html": "“Why did you ask that? She was so nice,” she said."
+            },
+            {
+              "html": "“I believed her,” Daniel answered."
+            },
+            {
+              "html": "“But for a history project, we need to check facts.”"
+            },
+            {
+              "html": "On Tuesday, they visited the library <b>archive</b>."
+            },
+            {
+              "html": "A librarian showed them old newspapers and photos."
+            },
+            {
+              "html": "They found a newspaper from November 1995."
+            },
+            {
+              "html": "There was a big photo of the first Metro train."
+            },
+            {
+              "html": "In the photo, many people wore elegant clothes."
+            },
+            {
+              "html": "“Look! Doña Gloria was right!” Camila said."
+            }
+          ],
+          "wordCount": 108
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week34_grade07_page05.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “When the Metro Station Was New”, page 5. Scene based on: In a classroom, Camila and Daniel present their project with a poster showing an old crowded bus on one side and the new Metro train on the other, with a photo of a young woman in a blue dress, while Doña Gloria herself sits in the front row smiling. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They also found a map of the old bus routes."
+            },
+            {
+              "html": "Daniel studied the old trip on the map."
+            },
+            {
+              "html": "“Her bus trip was really very long,” he said."
+            },
+            {
+              "html": "“Her memory was correct, and now we can prove it.”"
+            },
+            {
+              "html": "The next week, they presented their project."
+            },
+            {
+              "html": "They showed Doña Gloria’s story and the newspaper photo."
+            },
+            {
+              "html": "They invited Doña Gloria to the classroom too."
+            },
+            {
+              "html": "She sat in the front row and smiled."
+            },
+            {
+              "html": "“The Metro changed my life,” she told the class."
+            },
+            {
+              "html": "“It gave me two more hours every day.”"
+            },
+            {
+              "html": "“I used them to be with my children.”"
+            },
+            {
+              "html": "The students clapped for her."
+            },
+            {
+              "html": "Camila felt <b>proud</b> of their project."
+            },
+            {
+              "html": "“A memory and a newspaper told the real story.”"
+            }
+          ],
+          "wordCount": 114
+        }
+      ],
+      "practiceWords": [
+        "neighbor",
+        "interview",
+        "remember",
+        "crowded",
+        "open",
+        "ride",
+        "proud",
+        "archive",
+        "past",
+        "dressed up"
+      ],
+      "vocabulary": [
+        {
+          "word": "neighbor",
+          "definition": "a person who lives near you (vecino)"
+        },
+        {
+          "word": "interview",
+          "definition": "a meeting where you ask someone questions (entrevista)"
+        },
+        {
+          "word": "remember",
+          "definition": "to have something in your mind from the past (recordar)"
+        },
+        {
+          "word": "crowded",
+          "definition": "full of people (lleno de gente)"
+        },
+        {
+          "word": "open",
+          "definition": "to start working for the public for the first time (inaugurar)"
+        },
+        {
+          "word": "ride",
+          "definition": "a trip in a vehicle (viaje, recorrido)"
+        },
+        {
+          "word": "proud",
+          "definition": "happy about something important (orgulloso)"
+        },
+        {
+          "word": "archive",
+          "definition": "a place where old documents and photos are kept (archivo)"
+        },
+        {
+          "word": "past",
+          "definition": "the time before now (pasado)"
+        },
+        {
+          "word": "dressed up",
+          "definition": "wearing your best clothes (bien vestido)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "When did the Medellín Metro open, according to the newspaper?",
+          "options": [
+            "In November of 2005",
+            "In November 1995",
+            "In June 1985",
+            "In March 1995"
+          ],
+          "answer": "In November 1995"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "Why did Daniel ask Doña Gloria if the trip was exactly twenty minutes?",
+          "options": [
+            "He wanted to make Camila angry.",
+            "He thought that Doña Gloria was lying to them on purpose.",
+            "He wanted to check the facts for a history project.",
+            "He didn’t understand her Spanish."
+          ],
+          "answer": "He wanted to check the facts for a history project."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main idea of the story?",
+          "options": [
+            "The Medellín Metro is the fastest train in the world.",
+            "Students should never interview their older neighbors about the past.",
+            "Old people always remember every detail of the past perfectly.",
+            "Two students combined a personal memory with documents to tell a true story."
+          ],
+          "answer": "Two students combined a personal memory with documents to tell a true story."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why did many people dress up for their first Metro trip?",
+          "options": [
+            "The opening of the Metro was a special day for the city.",
+            "The Metro had a rule about elegant clothes.",
+            "The newspaper asked them to wear dresses for the photos.",
+            "They were going to a wedding after the ride."
+          ],
+          "answer": "The opening of the Metro was a special day for the city."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “On Tuesday, they visited the library archive.” An “archive” is…",
+          "options": [
+            "a person who lives near you",
+            "a place where old documents and photos are kept",
+            "a crowded bus with many passengers",
+            "a meeting where you ask an older person questions"
+          ],
+          "answer": "a place where old documents and photos are kept"
+        }
+      ],
+      "cover": "../assets/images/week34_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "The Day I Spoke on Stage",
+      "minimumWordTarget": 450,
+      "wordCount": 475,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week34_grade08_page01.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Day I Spoke on Stage”, page 1. Scene based on: In a public school classroom in Medellín, Andrés, 13, looks shocked as a smiling teacher hands him a sheet of paper with only a microphone icon and a recycling symbol, while Laura, 13, at the next desk gives him an encouraging thumbs up. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Andrés always avoided speaking in public."
+            },
+            {
+              "html": "In class, he never raised his hand."
+            },
+            {
+              "html": "In presentations, he let his friends speak."
+            },
+            {
+              "html": "Last month, his class started a recycling project."
+            },
+            {
+              "html": "Andrés did most of the research."
+            },
+            {
+              "html": "He knew more about the project than anyone."
+            },
+            {
+              "html": "On Monday, the teacher made an announcement."
+            },
+            {
+              "html": "“Andrés will present the project at Friday’s assembly.”"
+            },
+            {
+              "html": "“He’ll give a short <b>speech</b> in front of the school.”"
+            },
+            {
+              "html": "Andrés felt his stomach drop."
+            },
+            {
+              "html": "Five hundred students were going to watch him."
+            }
+          ],
+          "wordCount": 80
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week34_grade08_page02.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Day I Spoke on Stage”, page 2. Scene based on: In his bedroom at night, Andrés stands in front of a mirror holding a hairbrush like a microphone, practicing his speech with a worried face, while note cards with only small icons lie on his desk. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "That evening, Andrés was very nervous."
+            },
+            {
+              "html": "He thought about saying no to the teacher."
+            },
+            {
+              "html": "Then his friend Laura called him."
+            },
+            {
+              "html": "“You know the project better than anyone,” she said."
+            },
+            {
+              "html": "“Let’s <b>practice</b> together every day.”"
+            },
+            {
+              "html": "On Tuesday, he practiced in front of the mirror."
+            },
+            {
+              "html": "On Wednesday, he practiced in front of Laura."
+            },
+            {
+              "html": "On Thursday, he practiced in front of his family."
+            },
+            {
+              "html": "Each time, he made mistakes, but he continued."
+            },
+            {
+              "html": "He wrote small cards with only key words."
+            }
+          ],
+          "wordCount": 76
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week34_grade08_page03.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Day I Spoke on Stage”, page 3. Scene based on: On Friday morning in a large school courtyard, Andrés stands behind a curtain at the side of a wooden stage looking at a huge audience of students in uniforms sitting on the ground, his hands trembling and holding note cards. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Friday morning, the assembly started at eight."
+            },
+            {
+              "html": "Andrés waited at the side of the <b>stage</b>."
+            },
+            {
+              "html": "He looked at the <b>audience</b>. There were so many people!"
+            },
+            {
+              "html": "His hands started to <b>shake</b>."
+            },
+            {
+              "html": "His mouth was dry, and his heart was fast."
+            },
+            {
+              "html": "“I can’t do this,” he whispered."
+            },
+            {
+              "html": "Laura was sitting in the front row."
+            },
+            {
+              "html": "She saw his face and smiled at him."
+            },
+            {
+              "html": "Then the principal said his name."
+            },
+            {
+              "html": "“Now Andrés will present the recycling project.”"
+            },
+            {
+              "html": "Andrés walked to the microphone slowly."
+            }
+          ],
+          "wordCount": 80
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week34_grade08_page04.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Day I Spoke on Stage”, page 4. Scene based on: Andrés stands frozen on the stage at the microphone, his note cards fallen on the floor, while in the front row Laura slowly puts her hand on her chest and takes a deep breath to show him what to do. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Andrés started his speech."
+            },
+            {
+              "html": "“Good morning. Our class did a recycling project.”"
+            },
+            {
+              "html": "His voice was very quiet."
+            },
+            {
+              "html": "“Please speak into the <b>microphone</b>,” a teacher said."
+            },
+            {
+              "html": "Andrés moved closer, and then he dropped his cards!"
+            },
+            {
+              "html": "They fell on the floor of the stage."
+            },
+            {
+              "html": "He couldn’t remember the next sentence."
+            },
+            {
+              "html": "He started to <b>forget</b> everything."
+            },
+            {
+              "html": "For five seconds, he said nothing."
+            },
+            {
+              "html": "Then he looked at Laura in the front row."
+            },
+            {
+              "html": "She put her hand on her chest."
+            },
+            {
+              "html": "Then she took a slow, deep breath."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week34_grade08_page05.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Day I Spoke on Stage”, page 5. Scene based on: Andrés, now calmer, speaks confidently at the microphone and points at a big poster with recycling icons and a bar chart, while students in the audience listen with interest and some nod. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Andrés remembered Laura’s advice from practice."
+            },
+            {
+              "html": "“If you forget, stop and <b>breathe</b>.”"
+            },
+            {
+              "html": "He took one slow, deep breath."
+            },
+            {
+              "html": "Then another one."
+            },
+            {
+              "html": "He didn’t pick up the cards."
+            },
+            {
+              "html": "He spoke about the project from his memory."
+            },
+            {
+              "html": "“We collected plastic for one month,” he said."
+            },
+            {
+              "html": "“Our school throws away two hundred bottles a day.”"
+            },
+            {
+              "html": "“Now we have recycling bins in every hallway.”"
+            },
+            {
+              "html": "His voice became stronger and clearer."
+            },
+            {
+              "html": "Some students in the audience were nodding."
+            }
+          ],
+          "wordCount": 73
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week34_grade08_page06.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Day I Spoke on Stage”, page 6. Scene based on: At the end of his speech, Andrés smiles shyly on stage as the whole school audience claps and cheers, while Laura stands up in the front row clapping the loudest and the principal smiles beside the stage. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At the end, Andrés said, “Thank you for listening.”"
+            },
+            {
+              "html": "For a moment, it was quiet."
+            },
+            {
+              "html": "Then the courtyard filled with <b>applause</b>."
+            },
+            {
+              "html": "Students were clapping and cheering."
+            },
+            {
+              "html": "Laura was standing and clapping the loudest."
+            },
+            {
+              "html": "After the assembly, many students talked to him."
+            },
+            {
+              "html": "“Can my class join the recycling project?” one girl asked."
+            },
+            {
+              "html": "The principal shook his hand."
+            },
+            {
+              "html": "“Excellent speech, Andrés. Very clear,” she said."
+            },
+            {
+              "html": "That night, Andrés wrote in his journal."
+            },
+            {
+              "html": "“Today I didn’t stop being nervous.”"
+            },
+            {
+              "html": "“But I can be <b>confident</b> and nervous together.”"
+            }
+          ],
+          "wordCount": 84
+        }
+      ],
+      "practiceWords": [
+        "stage",
+        "speech",
+        "audience",
+        "microphone",
+        "shake",
+        "practice",
+        "forget",
+        "breathe",
+        "applause",
+        "confident"
+      ],
+      "vocabulary": [
+        {
+          "word": "stage",
+          "definition": "the raised place where people perform (escenario)"
+        },
+        {
+          "word": "speech",
+          "definition": "a formal talk to an audience (discurso)"
+        },
+        {
+          "word": "audience",
+          "definition": "the people who watch or listen (público)"
+        },
+        {
+          "word": "microphone",
+          "definition": "a device that makes your voice louder (micrófono)"
+        },
+        {
+          "word": "shake",
+          "definition": "to move quickly from side to side (temblar)"
+        },
+        {
+          "word": "practice",
+          "definition": "to do something many times to improve (practicar)"
+        },
+        {
+          "word": "forget",
+          "definition": "to not remember something (olvidar)"
+        },
+        {
+          "word": "breathe",
+          "definition": "to take air in and out of your body (respirar)"
+        },
+        {
+          "word": "applause",
+          "definition": "the sound of people clapping (aplauso)"
+        },
+        {
+          "word": "confident",
+          "definition": "sure about yourself and your abilities (seguro de sí mismo)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "How many students were in the audience at the assembly?",
+          "options": [
+            "Fifty students",
+            "One hundred fifty students",
+            "Five hundred students",
+            "Two hundred students"
+          ],
+          "answer": "Five hundred students"
+        },
+        {
+          "skill": "inference",
+          "question": "Why did Andrés stop speaking for five seconds?",
+          "options": [
+            "The principal asked him to wait.",
+            "The microphone stopped working suddenly in the middle.",
+            "Laura told him to stop and sit down.",
+            "He dropped his cards and forgot the next sentence."
+          ],
+          "answer": "He dropped his cards and forgot the next sentence."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the scene where Laura takes a slow breath in the front row?",
+          "options": [
+            "To show how a friend’s simple signal helped Andrés recover.",
+            "To explain how to use a microphone correctly.",
+            "To show that Laura wanted to give the speech.",
+            "To show that Laura was also very nervous on that Friday."
+          ],
+          "answer": "To show how a friend’s simple signal helped Andrés recover."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main idea of the story?",
+          "options": [
+            "Recycling projects are the best topic for all school assemblies.",
+            "With practice and support, a nervous student spoke successfully in public.",
+            "Students should always read their speeches from cards.",
+            "Nervous people should never speak on a stage in front of a big school."
+          ],
+          "answer": "With practice and support, a nervous student spoke successfully in public."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “His hands started to shake.” “Shake” means…",
+          "options": [
+            "to take air into your body",
+            "to forget what you want to say on a stage",
+            "to move quickly from side to side",
+            "to clap at the end of a show"
+          ],
+          "answer": "to move quickly from side to side"
+        }
+      ],
+      "cover": "../assets/images/week34_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "The Password I Had Used for Years",
+      "minimumWordTarget": 500,
+      "wordCount": 509,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week34_grade09_page01.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Password I Had Used for Years”, page 1. Scene based on: In a public school computer room in Medellín, Samuel, 14, stares worried at his phone showing an envelope icon with a red warning triangle and a small world map icon, while Valeria, 14, at the next computer turns to look. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Monday, Samuel received a strange email."
+            },
+            {
+              "html": "It was a security <b>alert</b> from his email company."
+            },
+            {
+              "html": "“Someone has tried to <b>sign in</b> to your account,” it said."
+            },
+            {
+              "html": "“The attempt came from another country.”"
+            },
+            {
+              "html": "Samuel has never traveled outside Colombia."
+            },
+            {
+              "html": "His face turned pale."
+            },
+            {
+              "html": "His friend Valeria was sitting next to him."
+            },
+            {
+              "html": "“What happened?” she asked."
+            },
+            {
+              "html": "Samuel showed her the email."
+            },
+            {
+              "html": "“Has this happened before?” she asked."
+            },
+            {
+              "html": "“No, never,” Samuel said, worried."
+            },
+            {
+              "html": "He has always felt safe online until today."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week34_grade09_page02.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Password I Had Used for Years”, page 2. Scene based on: Samuel and Valeria sit together in the computer room as Samuel counts on his fingers, and the screen shows several app icons, a game controller, an envelope, a camera and a music note, all connected by lines to one key icon. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valeria had another question."
+            },
+            {
+              "html": "“Have you used the same <b>password</b> for other accounts?”"
+            },
+            {
+              "html": "Samuel thought for a moment, embarrassed."
+            },
+            {
+              "html": "“Yes. I’ve used the same one for four years.”"
+            },
+            {
+              "html": "“For my email, my game, and my social media.”"
+            },
+            {
+              "html": "“Even for the music app,” he admitted."
+            },
+            {
+              "html": "“It’s my dog’s name and my birthday.”"
+            },
+            {
+              "html": "Valeria shook her head."
+            },
+            {
+              "html": "“If someone has your password, they have everything,” she said."
+            },
+            {
+              "html": "“That’s why you shouldn’t <b>reuse</b> passwords.”"
+            },
+            {
+              "html": "Samuel felt embarrassed, but he wanted to learn."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week34_grade09_page03.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Password I Had Used for Years”, page 3. Scene based on: Samuel opens his online game on the computer and finds his game account with an empty inventory and a strange new username shown only as symbols, his hands on his head in shock, while Valeria covers her mouth. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Samuel decided to check his other accounts."
+            },
+            {
+              "html": "First, he opened his favorite online game."
+            },
+            {
+              "html": "His game <b>account</b> looked different."
+            },
+            {
+              "html": "His rare items were gone."
+            },
+            {
+              "html": "His username was changed to strange symbols."
+            },
+            {
+              "html": "“Someone has <b>hacked</b> my game account!” he said."
+            },
+            {
+              "html": "“I’ve played this game for three years!”"
+            },
+            {
+              "html": "Then he checked his social media."
+            },
+            {
+              "html": "Fortunately, nobody has entered that account yet."
+            },
+            {
+              "html": "His email account is safe too, because of the alert."
+            },
+            {
+              "html": "But his game account was lost."
+            }
+          ],
+          "wordCount": 75
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week34_grade09_page04.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Password I Had Used for Years”, page 4. Scene based on: Valeria shows Samuel a news article on her laptop with only icons of a game controller, an open lock and many user silhouettes, explaining with her hands, while Samuel listens seriously. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valeria searched for news about his game."
+            },
+            {
+              "html": "“Look. This game company had a data <b>breach</b> last month.”"
+            },
+            {
+              "html": "“Millions of passwords have been stolen.”"
+            },
+            {
+              "html": "“You haven’t done anything wrong,” she said."
+            },
+            {
+              "html": "“But because you’ve used the same password everywhere, it was easy.”"
+            },
+            {
+              "html": "“They tried your password on your email too.”"
+            },
+            {
+              "html": "Samuel understood now."
+            },
+            {
+              "html": "One stolen password was like a key for many doors."
+            },
+            {
+              "html": "“I’ve been lucky with my email,” he said."
+            },
+            {
+              "html": "“I haven’t been lucky with my game.”"
+            },
+            {
+              "html": "He has lost three years of game progress."
+            },
+            {
+              "html": "Valeria put a hand on his shoulder."
+            }
+          ],
+          "wordCount": 92
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week34_grade09_page05.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Password I Had Used for Years”, page 5. Scene based on: Samuel types a long new password on the computer while Valeria points at a phone showing a six-digit code icon and a shield, both focused, and a small paper note with four simple drawings of a sun, a bicycle, a mango and a mountain sits on the desk. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They started to protect his other accounts immediately."
+            },
+            {
+              "html": "First, Samuel changed his email password."
+            },
+            {
+              "html": "Valeria taught him to create a <b>passphrase</b>."
+            },
+            {
+              "html": "“Use four random words you can remember,” she said."
+            },
+            {
+              "html": "Samuel chose “sun bicycle mango mountain.”"
+            },
+            {
+              "html": "“It’s long, but easy for me to remember,” he said."
+            },
+            {
+              "html": "Next, he turned on two-step <b>verification</b>."
+            },
+            {
+              "html": "Now a code arrives on his phone each time."
+            },
+            {
+              "html": "“Even with your password, a hacker can’t enter,” Valeria said."
+            },
+            {
+              "html": "Samuel felt much better now."
+            },
+            {
+              "html": "Then he changed his social media password too."
+            },
+            {
+              "html": "Each account now has a different passphrase."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week34_grade09_page06.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “The Password I Had Used for Years”, page 6. Scene based on: In the classroom, Samuel presents to classmates next to a simple drawing on the board of one key opening many doors with a red X, and many different keys for different doors with a green check, while Valeria and the teacher watch. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next day, Samuel told his class about his experience."
+            },
+            {
+              "html": "“Have you used the same password for many accounts?” he asked."
+            },
+            {
+              "html": "Almost everyone raised their hands."
+            },
+            {
+              "html": "“I have too. And I’ve lost my game account.”"
+            },
+            {
+              "html": "He drew one key and many doors on the board."
+            },
+            {
+              "html": "“One password is like one key for every door.”"
+            },
+            {
+              "html": "“If someone steals it, everything is open.”"
+            },
+            {
+              "html": "Then he showed his tips."
+            },
+            {
+              "html": "“Use a different passphrase for each account.”"
+            },
+            {
+              "html": "“Turn on two-step verification.”"
+            },
+            {
+              "html": "“And always read security alerts carefully.”"
+            },
+            {
+              "html": "“Now my accounts are <b>secure</b>,” he said with a smile."
+            }
+          ],
+          "wordCount": 93
+        }
+      ],
+      "practiceWords": [
+        "password",
+        "account",
+        "sign in",
+        "alert",
+        "hacked",
+        "reuse",
+        "secure",
+        "passphrase",
+        "verification",
+        "breach"
+      ],
+      "vocabulary": [
+        {
+          "word": "password",
+          "definition": "a secret word to open an account (contraseña)"
+        },
+        {
+          "word": "account",
+          "definition": "a personal profile on an app or website (cuenta)"
+        },
+        {
+          "word": "sign in",
+          "definition": "to enter your account with a name and password (iniciar sesión)"
+        },
+        {
+          "word": "alert",
+          "definition": "a message that warns you about a problem (alerta)"
+        },
+        {
+          "word": "hacked",
+          "definition": "entered by someone without permission (hackeado)"
+        },
+        {
+          "word": "reuse",
+          "definition": "to use something again (reutilizar)"
+        },
+        {
+          "word": "secure",
+          "definition": "safe and protected (seguro)"
+        },
+        {
+          "word": "passphrase",
+          "definition": "a long password made of several words (frase de contraseña)"
+        },
+        {
+          "word": "verification",
+          "definition": "a check that shows something is true (verificación)"
+        },
+        {
+          "word": "breach",
+          "definition": "a time when private data is stolen (filtración)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "How long has Samuel used the same password?",
+          "options": [
+            "For three days",
+            "For one year",
+            "For four months",
+            "For four years"
+          ],
+          "answer": "For four years"
+        },
+        {
+          "skill": "inference",
+          "question": "Why was it easy for someone to try Samuel’s password on his email?",
+          "options": [
+            "He has used the same password for many accounts.",
+            "He wrote his password on the classroom board.",
+            "Valeria told someone his password by accident.",
+            "His email company sent his password to strangers."
+          ],
+          "answer": "He has used the same password for many accounts."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "How is a passphrase different from Samuel’s old password?",
+          "options": [
+            "It is shorter and uses his dog’s name and his birthday together.",
+            "It is long, uses random words, and is different for each account.",
+            "It is the same for every account he has.",
+            "It is a secret number that the game company sends him."
+          ],
+          "answer": "It is long, uses random words, and is different for each account."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main message of the text?",
+          "options": [
+            "Game companies always protect all of their users’ personal data perfectly.",
+            "Students should never open emails that arrive from other countries.",
+            "Using different passwords and two-step verification protects your accounts.",
+            "Online games are too dangerous for teenagers."
+          ],
+          "answer": "Using different passwords and two-step verification protects your accounts."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “This game company had a data breach last month.” A “breach” is…",
+          "options": [
+            "a message that says thank you",
+            "a long password made with many random words",
+            "a code that arrives on your phone",
+            "a time when private data is stolen"
+          ],
+          "answer": "a time when private data is stolen"
+        }
+      ],
+      "cover": "../assets/images/week34_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "While Everyone Was Looking Up",
+      "minimumWordTarget": 600,
+      "wordCount": 615,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week34_grade10_page01.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “While Everyone Was Looking Up”, page 1. Scene based on: In a sunny school courtyard in Medellín during a science and art exhibition, a small drone with four propellers flies above a crowd of students and parents who all look up and point, while Laura, 16, and Andrés, 16, stand near a table of paper models. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura’s school had a science and art <b>exhibition</b> last Friday."
+            },
+            {
+              "html": "Families were walking around the courtyard."
+            },
+            {
+              "html": "Students were explaining their projects at small tables."
+            },
+            {
+              "html": "Laura was showing a project about solar energy."
+            },
+            {
+              "html": "Her friend Andrés was helping her."
+            },
+            {
+              "html": "At eleven o’clock, there was a surprise."
+            },
+            {
+              "html": "A loud buzzing sound came from above."
+            },
+            {
+              "html": "A <b>drone</b> was flying over the courtyard!"
+            },
+            {
+              "html": "The robotics club was presenting its new drone."
+            },
+            {
+              "html": "It was flying in circles and making loud noises."
+            },
+            {
+              "html": "While everyone was looking up, something happened at another table."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week34_grade10_page02.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “While Everyone Was Looking Up”, page 2. Scene based on: At a display table, a tall paper tower model lies broken on the floor, while a student named Martín, 16, angrily points at a nervous younger boy named Felipe standing nearby, and people gather around them. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Suddenly, someone shouted, “My <b>model</b>!”"
+            },
+            {
+              "html": "Martín’s paper tower was on the floor."
+            },
+            {
+              "html": "It was a model of a famous building."
+            },
+            {
+              "html": "He worked on it for three weeks."
+            },
+            {
+              "html": "Now one side was completely broken."
+            },
+            {
+              "html": "Martín was very angry."
+            },
+            {
+              "html": "“Felipe pushed it! He was standing next to my table!”"
+            },
+            {
+              "html": "Felipe was a younger student from ninth grade."
+            },
+            {
+              "html": "“I didn’t touch it!” Felipe said, shocked."
+            },
+            {
+              "html": "“I was looking at the drone like everyone else!”"
+            },
+            {
+              "html": "Many people were watching and whispering."
+            },
+            {
+              "html": "Some people were already looking at Felipe angrily."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week34_grade10_page03.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “While Everyone Was Looking Up”, page 3. Scene based on: A teacher stands between the two boys while several students talk at the same time, each pointing in a different direction, and Laura and Andrés listen carefully from the side, Andrés holding his phone. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "A teacher came to see what happened."
+            },
+            {
+              "html": "Everyone started talking at the same time."
+            },
+            {
+              "html": "“I saw Felipe near the table,” one girl said."
+            },
+            {
+              "html": "“I was watching the drone,” another student said."
+            },
+            {
+              "html": "“I didn’t see anything.”"
+            },
+            {
+              "html": "“Felipe was laughing when it fell,” a boy said."
+            },
+            {
+              "html": "The teacher looked confused."
+            },
+            {
+              "html": "Everyone was telling a different story."
+            },
+            {
+              "html": "Laura noticed something important."
+            },
+            {
+              "html": "Nobody was looking at the table when the model fell."
+            },
+            {
+              "html": "Everyone was looking up at the drone."
+            },
+            {
+              "html": "“How can anyone be a <b>witness</b>?” she whispered to Andrés."
+            },
+            {
+              "html": "“They’re guessing,” Andrés said."
+            },
+            {
+              "html": "“Maybe we can find real information.”"
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week34_grade10_page04.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “While Everyone Was Looking Up”, page 4. Scene based on: Andrés and Laura stand close together looking at Andrés's phone screen, which shows a video frame of the courtyard with the drone flying low near a table, Andrés pointing at the screen with surprise. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Andrés was recording the drone with his phone."
+            },
+            {
+              "html": "He took out his phone and played the video."
+            },
+            {
+              "html": "“Let’s look at the <b>recording</b>,” he said."
+            },
+            {
+              "html": "In the video, the drone was flying very low."
+            },
+            {
+              "html": "It was passing right over Martín’s <b>display</b> table."
+            },
+            {
+              "html": "While the drone was passing, the papers were moving."
+            },
+            {
+              "html": "Then the tall paper tower started to fall."
+            },
+            {
+              "html": "Nobody was touching it."
+            },
+            {
+              "html": "Felipe was standing one meter away, looking up."
+            },
+            {
+              "html": "“The drone did it,” Laura said quietly."
+            }
+          ],
+          "wordCount": 77
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week34_grade10_page05.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “While Everyone Was Looking Up”, page 5. Scene based on: Laura and Andrés show the phone video to the teacher, Martín and Felipe; Martín looks surprised and embarrassed, Felipe looks relieved, and the robotics club students holding the drone controller look worried. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura and Andrés showed the video to the teacher."
+            },
+            {
+              "html": "Martín and Felipe watched it too."
+            },
+            {
+              "html": "The <b>incident</b> was clear now."
+            },
+            {
+              "html": "The wind from the drone’s <b>propeller</b>s pushed the tower."
+            },
+            {
+              "html": "Martín’s face turned red."
+            },
+            {
+              "html": "“I’m sorry, Felipe,” he said. “I was wrong.”"
+            },
+            {
+              "html": "“I didn’t see anything. I only guessed.”"
+            },
+            {
+              "html": "Felipe smiled with relief."
+            },
+            {
+              "html": "His hands were still shaking a little."
+            },
+            {
+              "html": "“It’s okay. I would be angry too,” he said."
+            },
+            {
+              "html": "The robotics club students came to apologize too."
+            },
+            {
+              "html": "“We were flying too low. That was our mistake.”"
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week34_grade10_page06.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “While Everyone Was Looking Up”, page 6. Scene based on: Later at the exhibition, the robotics club students and Felipe help Martín repair his paper tower model with glue and paper at his table, while Laura and Andrés watch and smile. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The robotics club offered to help Martín."
+            },
+            {
+              "html": "They brought glue, paper, and scissors."
+            },
+            {
+              "html": "Felipe helped too, even after the accusation."
+            },
+            {
+              "html": "In one hour, the tower was standing again."
+            },
+            {
+              "html": "It wasn’t perfect, but it was good."
+            },
+            {
+              "html": "Martín was smiling for the first time that day."
+            },
+            {
+              "html": "Martín put a small sign next to it."
+            },
+            {
+              "html": "It said, “Repaired by a great team.”"
+            },
+            {
+              "html": "The judges liked his story."
+            },
+            {
+              "html": "They gave his project a special mention."
+            },
+            {
+              "html": "Martín shook Felipe’s hand at the end."
+            },
+            {
+              "html": "They were laughing about the drone together."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week34_grade10_page07.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “While Everyone Was Looking Up”, page 7. Scene based on: After the exhibition, Laura and Andrés sit on a courtyard bench as the sun sets, talking, while in the background students take down tables and the drone sits on a table with its propellers stopped. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "After the exhibition, Laura and Andrés sat on a bench."
+            },
+            {
+              "html": "“While everyone was looking up, nobody saw the table,” Laura said."
+            },
+            {
+              "html": "“But many people were sure about what happened.”"
+            },
+            {
+              "html": "“It’s easy to <b>blame</b> the person who is closest,” Andrés said."
+            },
+            {
+              "html": "“Especially if he’s younger or new.”"
+            },
+            {
+              "html": "Laura thought about it."
+            },
+            {
+              "html": "“We were lucky that you were recording,” she said."
+            },
+            {
+              "html": "“Without the video, Felipe was in big trouble.”"
+            },
+            {
+              "html": "Andrés nodded. “Next time, I’ll remember this.”"
+            },
+            {
+              "html": "“When I don’t see something, I won’t say I saw it.”"
+            },
+            {
+              "html": "Laura smiled. “Good rule. I’ll <b>notice</b> more too.”"
+            },
+            {
+              "html": "They walked home together as the sun was setting."
+            }
+          ],
+          "wordCount": 102
+        }
+      ],
+      "practiceWords": [
+        "exhibition",
+        "drone",
+        "model",
+        "display",
+        "incident",
+        "blame",
+        "witness",
+        "notice",
+        "recording",
+        "propeller"
+      ],
+      "vocabulary": [
+        {
+          "word": "exhibition",
+          "definition": "a public show of projects or art (exposición)"
+        },
+        {
+          "word": "drone",
+          "definition": "a small flying machine without a pilot (dron)"
+        },
+        {
+          "word": "model",
+          "definition": "a small copy of something bigger (maqueta)"
+        },
+        {
+          "word": "display",
+          "definition": "a table or area where things are shown (exhibición)"
+        },
+        {
+          "word": "incident",
+          "definition": "something that happens, often a problem (incidente)"
+        },
+        {
+          "word": "blame",
+          "definition": "to say someone is responsible for something bad (culpar)"
+        },
+        {
+          "word": "witness",
+          "definition": "a person who sees something happen (testigo)"
+        },
+        {
+          "word": "notice",
+          "definition": "to see or become aware of something (notar)"
+        },
+        {
+          "word": "recording",
+          "definition": "a video or audio that was recorded (grabación)"
+        },
+        {
+          "word": "propeller",
+          "definition": "the turning blades that make a machine fly (hélice)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What was Andrés doing when the model fell?",
+          "options": [
+            "He was recording the drone with his phone.",
+            "He was standing next to Martín’s table.",
+            "He was explaining his solar energy project.",
+            "He was flying the drone with the robotics club."
+          ],
+          "answer": "He was recording the drone with his phone."
+        },
+        {
+          "skill": "inference",
+          "question": "Why did Martín blame Felipe at first?",
+          "options": [
+            "Felipe told everyone that he pushed the paper tower by accident.",
+            "Felipe was standing near the table, and Martín didn’t see what happened.",
+            "Felipe had a big problem with Martín before the exhibition.",
+            "The teacher said Felipe was responsible."
+          ],
+          "answer": "Felipe was standing near the table, and Martín didn’t see what happened."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author describe what each student says to the teacher?",
+          "options": [
+            "To show that all the students were good witnesses.",
+            "To show that the teacher was very angry with all the students.",
+            "To show that people gave opinions without really seeing the incident.",
+            "To explain how drones fly over school courtyards during exhibitions."
+          ],
+          "answer": "To show that people gave opinions without really seeing the incident."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What is the relationship between the drone and the falling model?",
+          "options": [
+            "The drone had nothing to do with the falling model.",
+            "The drone hit the model with its body.",
+            "The drone fell on the model after its small battery died.",
+            "The wind from the drone’s propellers pushed the model over."
+          ],
+          "answer": "The wind from the drone’s propellers pushed the model over."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which statement best summarizes the text?",
+          "options": [
+            "Evidence can prove that a quick accusation was wrong.",
+            "Drones should never fly at school exhibitions.",
+            "Younger students often damage older students’ projects.",
+            "Paper models are too weak for science fairs."
+          ],
+          "answer": "Evidence can prove that a quick accusation was wrong."
+        }
+      ],
+      "cover": "../assets/images/week34_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "The Challenge I Almost Refused",
+      "minimumWordTarget": 700,
+      "wordCount": 714,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week34_grade11_page01.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Challenge I Almost Refused”, page 1. Scene based on: In a hillside neighborhood community room in Medellín, Samuel, 17, sits at a table with his head in his hands surrounded by papers, a laptop and a cardboard model of a small community library, while Laura, 17, sets down two cups of coffee and looks at him with concern. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "For four months, Samuel was part of a youth <b>challenge</b>."
+            },
+            {
+              "html": "His team was designing a small library for their neighborhood."
+            },
+            {
+              "html": "The neighborhood is high on a hill, far from any library."
+            },
+            {
+              "html": "Six teams from different schools were competing."
+            },
+            {
+              "html": "The winning team would get money to build their project."
+            },
+            {
+              "html": "Samuel’s team was in the <b>final stage</b>."
+            },
+            {
+              "html": "They had to present their <b>proposal</b> in three weeks."
+            },
+            {
+              "html": "But Samuel also had his final school exams."
+            },
+            {
+              "html": "He was studying every night until midnight."
+            },
+            {
+              "html": "On Monday, he sat in the community room, exhausted."
+            },
+            {
+              "html": "“I’m going to <b>quit</b> the challenge,” he told Laura."
+            }
+          ],
+          "wordCount": 97
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week34_grade11_page02.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Challenge I Almost Refused”, page 2. Scene based on: Laura sits across from Samuel at the table listening carefully, while Samuel gestures at a calendar on the wall full of red marks for exams and meetings, his face tired and frustrated. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura was on the same team."
+            },
+            {
+              "html": "She sat down and listened carefully."
+            },
+            {
+              "html": "“I feel <b>overwhelmed</b>,” Samuel said."
+            },
+            {
+              "html": "“I have exams, the proposal, and my job on Saturdays.”"
+            },
+            {
+              "html": "“If I quit the challenge, I would have more time.”"
+            },
+            {
+              "html": "“I would sleep more, and I would study better.”"
+            },
+            {
+              "html": "Laura didn’t argue with him immediately."
+            },
+            {
+              "html": "“Okay. Let’s imagine it seriously,” she said."
+            },
+            {
+              "html": "“If you quit today, what would happen next?”"
+            },
+            {
+              "html": "Samuel hadn’t thought about the details."
+            },
+            {
+              "html": "He had only thought about escaping the pressure."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week34_grade11_page03.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Challenge I Almost Refused”, page 3. Scene based on: Laura draws two columns on a large paper on the table, one with a moon and a book icon, and one with a library model, children and a team icon, while Samuel reads it slowly, thinking. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura drew two columns on a paper."
+            },
+            {
+              "html": "“If you quit, you would have more free time,” she wrote."
+            },
+            {
+              "html": "“That’s true. And it’s important,” she said."
+            },
+            {
+              "html": "Then she wrote the second column."
+            },
+            {
+              "html": "“But the team would lose its only architect student.”"
+            },
+            {
+              "html": "“Nobody else knows how to draw the plans.”"
+            },
+            {
+              "html": "“The team would probably not finish the proposal.”"
+            },
+            {
+              "html": "“And the children up here would wait longer for a library.”"
+            },
+            {
+              "html": "Samuel looked at the paper for a long time."
+            },
+            {
+              "html": "The second column was much longer than the first."
+            },
+            {
+              "html": "“If I quit, I would feel relieved,” he said."
+            },
+            {
+              "html": "“But only for one week.”"
+            },
+            {
+              "html": "“But I would feel bad for a long time.”"
+            }
+          ],
+          "wordCount": 108
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week34_grade11_page04.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Challenge I Almost Refused”, page 4. Scene based on: Samuel and Laura look at a weekly planner on a laptop, moving colored blocks for exams, project meetings and rest time, Samuel pointing at one block he is removing, both focused and calmer. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "“Maybe the problem isn’t the challenge,” Laura said."
+            },
+            {
+              "html": "“Maybe the problem is your <b>workload</b>.”"
+            },
+            {
+              "html": "“What if you didn’t do everything alone?”"
+            },
+            {
+              "html": "Samuel realized he was doing all the drawings himself."
+            },
+            {
+              "html": "He wasn’t asking anyone for help."
+            },
+            {
+              "html": "They opened his weekly planner together."
+            },
+            {
+              "html": "His exams were the first <b>priority</b>."
+            },
+            {
+              "html": "The proposal was the second priority."
+            },
+            {
+              "html": "His Saturday job was the third."
+            },
+            {
+              "html": "“If I asked my boss, would he help?”"
+            },
+            {
+              "html": "“Maybe he would give me two Saturdays off.”"
+            },
+            {
+              "html": "“You won’t know if you don’t ask,” Laura said."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week34_grade11_page05.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Challenge I Almost Refused”, page 5. Scene based on: In the community room, the whole team of five teenagers works together around a big table, one drawing plans, one building the cardboard model, one writing on a laptop, while Samuel teaches a younger teammate how to draw a floor plan. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Samuel called his boss that evening."
+            },
+            {
+              "html": "His boss agreed to give him two Saturdays off."
+            },
+            {
+              "html": "The next day, he talked to his team honestly."
+            },
+            {
+              "html": "“I almost quit yesterday,” he admitted."
+            },
+            {
+              "html": "“I was trying to do everything alone.”"
+            },
+            {
+              "html": "“Can someone help me with the drawings?”"
+            },
+            {
+              "html": "Two teammates offered immediately."
+            },
+            {
+              "html": "Samuel taught them how to draw simple plans."
+            },
+            {
+              "html": "Now the work was shared by five people."
+            },
+            {
+              "html": "He also studied for his exams every morning before school."
+            },
+            {
+              "html": "He slept seven hours every night again."
+            },
+            {
+              "html": "He felt tired, but not overwhelmed anymore."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week34_grade11_page06.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Challenge I Almost Refused”, page 6. Scene based on: In a modern city council meeting room in Medellín, Samuel presents the community library proposal with a cardboard model and a projected floor plan, while Laura and three teammates stand beside him and council members listen attentively. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Three weeks later, the team presented their proposal."
+            },
+            {
+              "html": "It was in a meeting room of the city <b>council</b>."
+            },
+            {
+              "html": "Samuel showed the plans and the cardboard model."
+            },
+            {
+              "html": "Laura explained the budget and the reading programs."
+            },
+            {
+              "html": "“If this library existed, children wouldn’t travel far,” she said."
+            },
+            {
+              "html": "“Now they travel one hour to find books.”"
+            },
+            {
+              "html": "The council members asked difficult questions."
+            },
+            {
+              "html": "Samuel answered calmly. He knew every detail."
+            },
+            {
+              "html": "After the presentation, the team waited outside."
+            },
+            {
+              "html": "Samuel’s hands were shaking a little."
+            },
+            {
+              "html": "“If we don’t win, I’m still glad I stayed,” he said."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week34_grade11_page07.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Challenge I Almost Refused”, page 7. Scene based on: The team celebrates outside the council building with hugs and raised arms as Laura reads good news on her phone, shown only as a trophy icon, while Samuel laughs with relief. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "One week later, the results arrived."
+            },
+            {
+              "html": "Their team won second place."
+            },
+            {
+              "html": "They didn’t get the full money for the library."
+            },
+            {
+              "html": "But they got enough to build a small reading room."
+            },
+            {
+              "html": "The community center offered them a free space."
+            },
+            {
+              "html": "Samuel’s team was very happy."
+            },
+            {
+              "html": "“It isn’t the whole library,” Laura said."
+            },
+            {
+              "html": "“But it’s a real beginning.”"
+            },
+            {
+              "html": "Samuel laughed with relief."
+            },
+            {
+              "html": "“If I had quit, this wouldn’t exist,” he said."
+            }
+          ],
+          "wordCount": 68
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week34_grade11_page08.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Challenge I Almost Refused”, page 8. Scene based on: Months later, in a small, colorful reading room in a hillside community center in Medellín, children sit on cushions reading books, while Samuel and Laura organize books on new wooden shelves and smile at each other. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Two months later, the reading room opened."
+            },
+            {
+              "html": "It had three shelves and two hundred books."
+            },
+            {
+              "html": "Twenty children came on the first Saturday."
+            },
+            {
+              "html": "Samuel passed his exams with good grades."
+            },
+            {
+              "html": "He still works on Saturdays, but not every week."
+            },
+            {
+              "html": "Laura asked him one more question."
+            },
+            {
+              "html": "“If it happened again, what would you do?”"
+            },
+            {
+              "html": "Samuel thought carefully before answering."
+            },
+            {
+              "html": "“I wouldn’t quit because of pressure,” he said."
+            },
+            {
+              "html": "“I would ask for help much earlier.”"
+            },
+            {
+              "html": "“Quitting is sometimes right, but not when you only need help.”"
+            },
+            {
+              "html": "“I learned to <b>persevere</b>, but not alone.”"
+            },
+            {
+              "html": "His <b>commitment</b> to the neighborhood is stronger now."
+            }
+          ],
+          "wordCount": 98
+        }
+      ],
+      "practiceWords": [
+        "challenge",
+        "quit",
+        "final stage",
+        "commitment",
+        "workload",
+        "proposal",
+        "council",
+        "overwhelmed",
+        "priority",
+        "persevere"
+      ],
+      "vocabulary": [
+        {
+          "word": "challenge",
+          "definition": "a difficult task that tests your skills (reto)"
+        },
+        {
+          "word": "quit",
+          "definition": "to stop doing something before the end (renunciar)"
+        },
+        {
+          "word": "final stage",
+          "definition": "the last part of a competition or process (etapa final)"
+        },
+        {
+          "word": "commitment",
+          "definition": "a promise to do something (compromiso)"
+        },
+        {
+          "word": "workload",
+          "definition": "the amount of work you have to do (carga de trabajo)"
+        },
+        {
+          "word": "proposal",
+          "definition": "a formal plan or suggestion (propuesta)"
+        },
+        {
+          "word": "council",
+          "definition": "a group that makes decisions for a city (concejo)"
+        },
+        {
+          "word": "overwhelmed",
+          "definition": "feeling there is too much to handle (abrumado)"
+        },
+        {
+          "word": "priority",
+          "definition": "the thing that is most important (prioridad)"
+        },
+        {
+          "word": "persevere",
+          "definition": "to continue trying despite difficulties (perseverar)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "What prize did Samuel’s team win?",
+          "options": [
+            "No prize, but a free space from the city council",
+            "Second place, with enough money for a small reading room",
+            "Third place, with a certificate only",
+            "First place, with enough money for a full library"
+          ],
+          "answer": "Second place, with enough money for a small reading room"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "Why did Samuel want to quit the challenge?",
+          "options": [
+            "His boss told him to choose between work and the challenge.",
+            "He didn’t like his teammates anymore.",
+            "He felt overwhelmed by exams, the proposal, and his job.",
+            "He thought the library was a bad idea."
+          ],
+          "answer": "He felt overwhelmed by exams, the proposal, and his job."
+        },
+        {
+          "skill": "purpose",
+          "question": "How did Laura’s two columns help Samuel?",
+          "options": [
+            "They proved that quitting was the best decision for his exams.",
+            "They showed that Laura could draw better than him.",
+            "They helped him finish his exams faster so he had more free time.",
+            "They helped him see the consequences of quitting, not only the relief."
+          ],
+          "answer": "They helped him see the consequences of quitting, not only the relief."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “Maybe the problem is your workload.” “Workload” means…",
+          "options": [
+            "the amount of work you have to do",
+            "a promise you make to a group",
+            "the last part of a competition",
+            "a formal plan presented to a city"
+          ],
+          "answer": "the amount of work you have to do"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which statement best expresses the central idea of the text?",
+          "options": [
+            "Youth challenges are always more important than final school exams.",
+            "When a challenge feels too heavy, sharing the work can be better than quitting.",
+            "Students should always quit activities during exams.",
+            "Asking others for help is always a sign of weakness in a team."
+          ],
+          "answer": "When a challenge feels too heavy, sharing the work can be better than quitting."
+        }
+      ],
+      "cover": "../assets/images/week34_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

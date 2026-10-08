@@ -1,0 +1,1752 @@
+{
+  "week": 37,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 37",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "One Small Choice",
+      "minimumWordTarget": 350,
+      "wordCount": 422,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week37_grade06_page01.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “One Small Choice”, page 1. Scene based on: Laura is 11 years old and studies in Medellín. One ordinary day at a public school in Medellín, a situation involving a decision begins to change the plans for the afternoon. Tomás is nearby and notices that Laura is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura is 11 years old and studies in Medellín. One ordinary day at a public school in Medellín, a situation involving a decision begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Tomás is nearby and notices that Laura is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about cause, effect and responsibility."
+            },
+            {
+              "html": "Laura makes a small <b>choice</b> in the morning."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Laura does not want to <b>forget</b> the homework again."
+            },
+            {
+              "html": "A <b>bad</b> choice can affect other people."
+            }
+          ],
+          "wordCount": 109
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week37_grade06_page02.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “One Small Choice”, page 2. Scene based on: The situation becomes harder when a small choice creates several results. Laura feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a small choice creates several results. Laura feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Tomás suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "It is not easy to <b>decide</b> quickly."
+            },
+            {
+              "html": "Tomás reminds Laura that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Laura listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "Everything changes <b>because</b> of one decision."
+            },
+            {
+              "html": "One small <b>problem</b> becomes bigger."
+            },
+            {
+              "html": "Tomás helps Laura <b>fix</b> the situation."
+            }
+          ],
+          "wordCount": 105
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week37_grade06_page03.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “One Small Choice”, page 3. Scene based on: Laura decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Tomás explains that being responsible is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "Laura arrives <b>late</b> to class."
+            },
+            {
+              "html": "By the end of the day, the immediate problem has a result. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Laura feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "<b>Then</b> the group has to wait."
+            }
+          ],
+          "wordCount": 114
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week37_grade06_page04.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “One Small Choice”, page 4. Scene based on: At home, Laura thinks about what could have happened if the group had reacted without checking anything. The student writes a short reflection: a responsible choice is not always the fastest or most popular choice. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At home, Laura thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "The student writes a short reflection: a responsible choice is not always the fastest or most popular choice."
+            },
+            {
+              "html": "Next time, Laura plans to ask a clearer question, confirm important information, and explain the reason for the decision."
+            },
+            {
+              "html": "The experience becomes part of how Laura understands school, family, technology, travel, and life in a larger world."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "A <b>good</b> choice helps everyone."
+            }
+          ],
+          "wordCount": 94
+        }
+      ],
+      "practiceWords": [
+        "choice",
+        "decide",
+        "because",
+        "late",
+        "forget",
+        "problem",
+        "then",
+        "good",
+        "bad",
+        "fix"
+      ],
+      "vocabulary": [
+        {
+          "word": "choice",
+          "definition": "a decision (elección)"
+        },
+        {
+          "word": "decide",
+          "definition": "to make a choice (decidir)"
+        },
+        {
+          "word": "because",
+          "definition": "for the reason that (porque)"
+        },
+        {
+          "word": "late",
+          "definition": "after the right time (tarde)"
+        },
+        {
+          "word": "forget",
+          "definition": "to not remember (olvidar)"
+        },
+        {
+          "word": "problem",
+          "definition": "something difficult (problema)"
+        },
+        {
+          "word": "then",
+          "definition": "after that (luego)"
+        },
+        {
+          "word": "good",
+          "definition": "positive (bueno)"
+        },
+        {
+          "word": "bad",
+          "definition": "not good (malo)"
+        },
+        {
+          "word": "fix",
+          "definition": "to repair or correct (arreglar)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "According to the text, where does Laura's situation begin?",
+          "options": [
+            "A sports court on a Medellín hillside",
+            "A public school in Medellín",
+            "A local shopping area",
+            "A library near the school"
+          ],
+          "answer": "A public school in Medellín"
+        },
+        {
+          "skill": "sequence",
+          "question": "Which event happens at the END of the story?",
+          "options": [
+            "The situation becomes harder because a small choice creates several results.",
+            "Laura writes a short reflection at home.",
+            "Tomás notices that Laura is paying attention.",
+            "Laura notices the problem at a public school in Medellín."
+          ],
+          "answer": "Laura writes a short reflection at home."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read this sentence from page 3: “Laura arrives late to class.” In this sentence, the word “late” means…",
+          "options": [
+            "positive",
+            "not good",
+            "after the right time",
+            "to make a choice"
+          ],
+          "answer": "after the right time"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which sentence best expresses the main lesson of the text?",
+          "options": [
+            "It is better to stay silent when there is a problem.",
+            "Good decisions come from evidence, not from pressure.",
+            "The fastest reaction is always the best one.",
+            "Popular opinions are usually correct."
+          ],
+          "answer": "Good decisions come from evidence, not from pressure."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Which action would go AGAINST what Laura learns in the story?",
+          "options": [
+            "Asking a clear question.",
+            "Verifying a detail first.",
+            "Explaining the reason for a decision.",
+            "Making the same choice again without thinking without thinking."
+          ],
+          "answer": "Making the same choice again without thinking without thinking."
+        }
+      ],
+      "cover": "../assets/images/week37_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "A Choice With Consequences",
+      "minimumWordTarget": 400,
+      "wordCount": 503,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week37_grade07_page01.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “A Choice With Consequences”, page 1. Scene based on: Nicolás is 12 years old and studies in Medellín. One ordinary day at a neighborhood in Manrique, a situation involving a decision begins to change the plans for the afternoon. Paula is nearby and notices that Nicolás is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Nicolás is 12 years old and studies in Medellín. One ordinary day at a neighborhood in Manrique, a situation involving a decision begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Paula is nearby and notices that Nicolás is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about cause, effect and responsibility."
+            },
+            {
+              "html": "Nicolás makes a small <b>choice</b> in the morning."
+            },
+            {
+              "html": "Paula reminds Nicolás that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "It is not easy to <b>decide</b> quickly."
+            },
+            {
+              "html": "A <b>good</b> choice helps everyone."
+            }
+          ],
+          "wordCount": 101
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week37_grade07_page02.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “A Choice With Consequences”, page 2. Scene based on: The situation becomes harder when a small choice creates several consequences. Nicolás feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a small choice creates several consequences. Nicolás feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Paula suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "Everything changes <b>because</b> of one decision."
+            },
+            {
+              "html": "Nicolás listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Nicolás arrives <b>late</b> to class."
+            },
+            {
+              "html": "A <b>bad</b> choice can affect other people."
+            }
+          ],
+          "wordCount": 99
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week37_grade07_page03.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “A Choice With Consequences”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Nicolás has to think about the first idea again. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Nicolás has to think about the first idea again."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Nicolás does not want to <b>forget</b> the homework again."
+            },
+            {
+              "html": "Paula helps Nicolás <b>fix</b> the situation."
+            }
+          ],
+          "wordCount": 110
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week37_grade07_page04.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “A Choice With Consequences”, page 4. Scene based on: Nicolás decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Nicolás decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Paula explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "“Did you visit this place before?” one friend asks."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "One small <b>problem</b> becomes bigger."
+            }
+          ],
+          "wordCount": 92
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week37_grade07_page05.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “A Choice With Consequences”, page 5. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Nicolás feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Nicolás feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about cause, effect and responsibility."
+            },
+            {
+              "html": "At home, Nicolás thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "<b>Then</b> the group has to wait."
+            }
+          ],
+          "wordCount": 101
+        }
+      ],
+      "practiceWords": [
+        "choice",
+        "decide",
+        "because",
+        "late",
+        "forget",
+        "problem",
+        "then",
+        "good",
+        "bad",
+        "fix"
+      ],
+      "vocabulary": [
+        {
+          "word": "choice",
+          "definition": "a decision (elección)"
+        },
+        {
+          "word": "decide",
+          "definition": "to make a choice (decidir)"
+        },
+        {
+          "word": "because",
+          "definition": "for the reason that (porque)"
+        },
+        {
+          "word": "late",
+          "definition": "after the right time (tarde)"
+        },
+        {
+          "word": "forget",
+          "definition": "to not remember (olvidar)"
+        },
+        {
+          "word": "problem",
+          "definition": "something difficult (problema)"
+        },
+        {
+          "word": "then",
+          "definition": "after that (luego)"
+        },
+        {
+          "word": "good",
+          "definition": "positive (bueno)"
+        },
+        {
+          "word": "bad",
+          "definition": "not good (malo)"
+        },
+        {
+          "word": "fix",
+          "definition": "to repair or correct (arreglar)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What makes the situation harder for Nicolás?",
+          "options": [
+            "An old image brings back an important memory",
+            "A young person receives a new responsibility",
+            "A small choice creates several consequences",
+            "A student notices a person struggling nearby"
+          ],
+          "answer": "A small choice creates several consequences"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "Why does Nicolás feel more confident at the end?",
+          "options": [
+            "Because the problem was never real.",
+            "Because the decision came from evidence rather than pressure.",
+            "Because everybody agreed from the beginning.",
+            "Because Paula made the decision for him."
+          ],
+          "answer": "Because the decision came from evidence rather than pressure."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which option is the best summary of the text?",
+          "options": [
+            "Nicolás blames another person for the problem and the problem disappears.",
+            "Nicolás and Paula travel to New York to solve the problem.",
+            "Paula solves the problem alone while Nicolás watches.",
+            "Nicolás faces a problem because a small choice creates several consequences, checks the facts with Paula and makes a responsible decision."
+          ],
+          "answer": "Nicolás faces a problem because a small choice creates several consequences, checks the facts with Paula and makes a responsible decision."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Imagine you are in Nicolás's situation. Which action follows the message of the text?",
+          "options": [
+            "Admit the mistake and repair the consequences.",
+            "Blame another person for the problem.",
+            "Hide the mistake from the group.",
+            "Make the same choice again without thinking."
+          ],
+          "answer": "Admit the mistake and repair the consequences."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Which word from the text means “not good”?",
+          "options": [
+            "bad",
+            "decide",
+            "because",
+            "problem"
+          ],
+          "answer": "bad"
+        }
+      ],
+      "cover": "../assets/images/week37_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "The Choice That Changed The Group",
+      "minimumWordTarget": 450,
+      "wordCount": 514,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week37_grade08_page01.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Choice That Changed The Group”, page 1. Scene based on: Samuel is 13 years old and studies in Medellín. One ordinary day at the Medellín Metro, a situation involving a decision begins to change the plans for the afternoon. Kevin is nearby and notices that Samuel is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Samuel is 13 years old and studies in Medellín. One ordinary day at the Medellín Metro, a situation involving a decision begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Kevin is nearby and notices that Samuel is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about cause, effect and responsibility."
+            },
+            {
+              "html": "Each <b>consequence</b> affects someone else."
+            },
+            {
+              "html": "Samuel does not want to <b>regret</b> this decision later."
+            }
+          ],
+          "wordCount": 77
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week37_grade08_page02.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Choice That Changed The Group”, page 2. Scene based on: The situation becomes harder when a small choice creates several consequences. Samuel feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a small choice creates several consequences. Samuel feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Kevin suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "They are going to compare prices before the next purchase."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "The <b>result</b> surprises everyone."
+            },
+            {
+              "html": "One choice can <b>affect</b> the whole group."
+            },
+            {
+              "html": "A <b>chain</b> of events begins."
+            }
+          ],
+          "wordCount": 111
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week37_grade08_page03.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Choice That Changed The Group”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Samuel has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Samuel has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Samuel explains the situation <b>honestly</b>."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week37_grade08_page04.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Choice That Changed The Group”, page 4. Scene based on: Samuel decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Samuel decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Kevin explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "Samuel could <b>avoid</b> the problem with a simple question."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Forgetting the key could <b>cause</b> a delay."
+            },
+            {
+              "html": "Planning can <b>prevent</b> many problems."
+            }
+          ],
+          "wordCount": 98
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week37_grade08_page05.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Choice That Changed The Group”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in Queens, New York. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in Queens, New York."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Samuel realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            }
+          ],
+          "wordCount": 78
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week37_grade08_page06.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Choice That Changed The Group”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Samuel feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Samuel feels <b>responsible</b> for the delay."
+            },
+            {
+              "html": "Samuel feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about cause, effect and responsibility."
+            },
+            {
+              "html": "At home, Samuel thinks about what could have happened if the group had reacted without checking anything."
+            }
+          ],
+          "wordCount": 69
+        }
+      ],
+      "practiceWords": [
+        "consequence",
+        "result",
+        "affect",
+        "avoid",
+        "cause",
+        "responsible",
+        "regret",
+        "chain",
+        "honestly",
+        "prevent"
+      ],
+      "vocabulary": [
+        {
+          "word": "consequence",
+          "definition": "a result of an action (consecuencia)"
+        },
+        {
+          "word": "result",
+          "definition": "what happens because of something (resultado)"
+        },
+        {
+          "word": "affect",
+          "definition": "to change or influence (afectar)"
+        },
+        {
+          "word": "avoid",
+          "definition": "to stay away from (evitar)"
+        },
+        {
+          "word": "cause",
+          "definition": "to make something happen (causar)"
+        },
+        {
+          "word": "responsible",
+          "definition": "having a duty (responsable)"
+        },
+        {
+          "word": "regret",
+          "definition": "to feel sorry about something you did (arrepentirse)"
+        },
+        {
+          "word": "chain",
+          "definition": "a series of connected things (cadena)"
+        },
+        {
+          "word": "honestly",
+          "definition": "in a truthful way (honestamente)"
+        },
+        {
+          "word": "prevent",
+          "definition": "to stop something before it happens (prevenir)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Which statement is TRUE according to the text?",
+          "options": [
+            "Samuel hides the mistake from the group.",
+            "The students have all the facts from the beginning.",
+            "Kevin suggests checking the information before blaming anyone.",
+            "Kevin wants Samuel to react immediately."
+          ],
+          "answer": "Kevin suggests checking the information before blaming anyone."
+        },
+        {
+          "skill": "inference",
+          "question": "Imagine you are in Samuel's situation. Which action follows the message of the text?",
+          "options": [
+            "Admit the mistake and repair the consequences.",
+            "Hide the mistake from the group.",
+            "Make the same choice again without thinking.",
+            "Blame another person for the problem."
+          ],
+          "answer": "Admit the mistake and repair the consequences."
+        },
+        {
+          "skill": "purpose",
+          "question": "What is the author's main purpose in this text?",
+          "options": [
+            "To show, through a story, how to act responsibly when a small choice creates several consequences.",
+            "To give scientific data about teenagers in Colombia.",
+            "To sell a product to students.",
+            "To describe the history of Medellín."
+          ],
+          "answer": "To show, through a story, how to act responsibly when a small choice creates several consequences."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which could be another good title for the text?",
+          "options": [
+            "“Less Plastic, More Action”",
+            "“Two Cities, One Project”",
+            "“Every Choice Has An Echo”",
+            "“Our Space, Our Responsibility”"
+          ],
+          "answer": "“Every Choice Has An Echo”"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read this sentence from page 6: “Samuel feels responsible for the delay.” In this sentence, the word “responsible” means…",
+          "options": [
+            "having a duty",
+            "what happens because of something",
+            "to feel sorry about something you did",
+            "to stop something before it happens"
+          ],
+          "answer": "having a duty"
+        }
+      ],
+      "cover": "../assets/images/week37_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "The Decision That Became Expensive",
+      "minimumWordTarget": 500,
+      "wordCount": 574,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week37_grade09_page01.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Decision That Became Expensive”, page 1. Scene based on: Andrés is 14 years old and studies in Medellín. One ordinary day at a library near the school, a situation involving a decision begins to change the plans for the afternoon. Valeria is nearby and notices that Andrés is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Andrés is 14 years old and studies in Medellín. One ordinary day at a library near the school, a situation involving a decision begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Valeria is nearby and notices that Andrés is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about cause, effect and responsibility."
+            },
+            {
+              "html": "Each <b>consequence</b> affects someone else."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "The <b>result</b> surprises everyone."
+            },
+            {
+              "html": "Planning can <b>prevent</b> many problems."
+            }
+          ],
+          "wordCount": 96
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week37_grade09_page02.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Decision That Became Expensive”, page 2. Scene based on: The situation becomes harder when a small choice creates several consequences. Andrés feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a small choice creates several consequences. Andrés feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Valeria suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "One choice can <b>affect</b> the whole group."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Andrés could <b>avoid</b> the problem with a simple question."
+            }
+          ],
+          "wordCount": 104
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week37_grade09_page03.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Decision That Became Expensive”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Andrés has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Andrés has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Forgetting the key could <b>cause</b> a delay."
+            }
+          ],
+          "wordCount": 103
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week37_grade09_page04.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Decision That Became Expensive”, page 4. Scene based on: Andrés decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Andrés decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Valeria explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "Andrés feels <b>responsible</b> for the delay."
+            },
+            {
+              "html": "Valeria reminds Andrés that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Andrés does not want to <b>regret</b> this decision later."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week37_grade09_page05.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Decision That Became Expensive”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in Brooklyn, New York. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in Brooklyn, New York."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Andrés realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "A <b>chain</b> of events begins."
+            },
+            {
+              "html": "Andrés listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "Andrés explains the situation <b>honestly</b>."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week37_grade09_page06.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Decision That Became Expensive”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Andrés feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Andrés feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about cause, effect and responsibility."
+            },
+            {
+              "html": "At home, Andrés thinks about what could have happened if the group had reacted without checking anything."
+            }
+          ],
+          "wordCount": 95
+        }
+      ],
+      "practiceWords": [
+        "consequence",
+        "result",
+        "affect",
+        "avoid",
+        "cause",
+        "responsible",
+        "regret",
+        "chain",
+        "honestly",
+        "prevent"
+      ],
+      "vocabulary": [
+        {
+          "word": "consequence",
+          "definition": "a result of an action (consecuencia)"
+        },
+        {
+          "word": "result",
+          "definition": "what happens because of something (resultado)"
+        },
+        {
+          "word": "affect",
+          "definition": "to change or influence (afectar)"
+        },
+        {
+          "word": "avoid",
+          "definition": "to stay away from (evitar)"
+        },
+        {
+          "word": "cause",
+          "definition": "to make something happen (causar)"
+        },
+        {
+          "word": "responsible",
+          "definition": "having a duty (responsable)"
+        },
+        {
+          "word": "regret",
+          "definition": "to feel sorry about something you did (arrepentirse)"
+        },
+        {
+          "word": "chain",
+          "definition": "a series of connected things (cadena)"
+        },
+        {
+          "word": "honestly",
+          "definition": "in a truthful way (honestamente)"
+        },
+        {
+          "word": "prevent",
+          "definition": "to stop something before it happens (prevenir)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "According to the text, where does Andrés's situation begin?",
+          "options": [
+            "A library near the school",
+            "A public school in Medellín",
+            "A neighborhood in Manrique",
+            "A community center"
+          ],
+          "answer": "A library near the school"
+        },
+        {
+          "skill": "inference",
+          "question": "What can be inferred about Valeria?",
+          "options": [
+            "She is not interested in the problem.",
+            "She helps Andrés think carefully before acting.",
+            "She created the problem on purpose.",
+            "She wants Andrés to react as fast as possible."
+          ],
+          "answer": "She helps Andrés think carefully before acting."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In “…another clue points in a different direction, so Andrés has to reconsider the first assumption,” the word “so” introduces…",
+          "options": [
+            "an example",
+            "a result",
+            "a condition",
+            "a contrast"
+          ],
+          "answer": "a result"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which option is the best summary of the text?",
+          "options": [
+            "Andrés and Valeria travel to New York to solve the problem.",
+            "Andrés blames another person for the problem and the problem disappears.",
+            "Andrés faces a problem because a small choice creates several consequences, checks the facts with Valeria and makes a responsible decision.",
+            "Valeria solves the problem alone while Andrés watches."
+          ],
+          "answer": "Andrés faces a problem because a small choice creates several consequences, checks the facts with Valeria and makes a responsible decision."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Complete the sentence from the text: “The _____ surprises everyone.”",
+          "options": [
+            "consequence",
+            "avoid",
+            "result",
+            "regret"
+          ],
+          "answer": "result"
+        }
+      ],
+      "cover": "../assets/images/week37_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "If I Had Checked Earlier",
+      "minimumWordTarget": 600,
+      "wordCount": 662,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week37_grade10_page01.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “If I Had Checked Earlier”, page 1. Scene based on: Laura is 15–16 years old and studies in Medellín. One ordinary day at a sports court on a Medellín hillside, a situation involving a decision begins to change the plans for the afternoon. Kevin is nearby and notices that Laura is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura is 15–16 years old and studies in Medellín. One ordinary day at a sports court on a Medellín hillside, a situation involving a decision begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Kevin is nearby and notices that Laura is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about cause, effect and responsibility."
+            },
+            {
+              "html": "The decision has a <b>ripple effect</b> on the group."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "The <b>repercussion</b> reaches the whole class."
+            }
+          ],
+          "wordCount": 103
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week37_grade10_page02.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “If I Had Checked Earlier”, page 2. Scene based on: The situation becomes harder when a small choice creates several consequences. Laura feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a small choice creates several consequences. Laura feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Kevin suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "If people check reliable information, they usually make safer decisions."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Kevin reminds Laura that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Laura wants to <b>amend</b> the mistake."
+            }
+          ],
+          "wordCount": 100
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week37_grade10_page03.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “If I Had Checked Earlier”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Laura has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Laura has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Kevin reminds Laura that asking for help can be a responsible decision when the situation is unclear."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week37_grade10_page04.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “If I Had Checked Earlier”, page 4. Scene based on: Laura decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Kevin explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "<b>Accountability</b> means admitting the mistake."
+            },
+            {
+              "html": "Nobody could <b>foresee</b> every result."
+            },
+            {
+              "html": "A small delay can <b>trigger</b> bigger problems."
+            }
+          ],
+          "wordCount": 74
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week37_grade10_page05.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “If I Had Checked Earlier”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in a subway station in Manhattan. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in a subway station in Manhattan."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Laura realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "The <b>outcome</b> depends on several choices."
+            }
+          ],
+          "wordCount": 103
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week37_grade10_page06.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “If I Had Checked Earlier”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Laura feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "A <b>deliberate</b> choice is better than a rushed one."
+            },
+            {
+              "html": "Laura feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about cause, effect and responsibility."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "Laura tries to <b>mitigate</b> the damage."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week37_grade10_page07.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “If I Had Checked Earlier”, page 7. Scene based on: The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another. They also discuss the author’s purpose and decide which detail best supports the final lesson. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another."
+            },
+            {
+              "html": "They also discuss the author’s purpose and decide which detail best supports the final lesson."
+            },
+            {
+              "html": "Laura notices that strong reading is not only translating words. It means connecting evidence, sequence, intention, and consequences."
+            },
+            {
+              "html": "That habit will be useful in future exams because a difficult question often depends on a small but meaningful detail."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "An <b>impulsive</b> decision starts the problem."
+            }
+          ],
+          "wordCount": 107
+        }
+      ],
+      "practiceWords": [
+        "ripple effect",
+        "accountability",
+        "foresee",
+        "trigger",
+        "outcome",
+        "deliberate",
+        "mitigate",
+        "impulsive",
+        "repercussion",
+        "amend"
+      ],
+      "vocabulary": [
+        {
+          "word": "ripple effect",
+          "definition": "a series of effects from one action (efecto dominó)"
+        },
+        {
+          "word": "accountability",
+          "definition": "accepting responsibility (rendición de cuentas)"
+        },
+        {
+          "word": "foresee",
+          "definition": "to know something before it happens (prever)"
+        },
+        {
+          "word": "trigger",
+          "definition": "to cause something to start (desencadenar)"
+        },
+        {
+          "word": "outcome",
+          "definition": "the final result (desenlace, resultado)"
+        },
+        {
+          "word": "deliberate",
+          "definition": "done on purpose, after thinking (deliberado)"
+        },
+        {
+          "word": "mitigate",
+          "definition": "to make less serious (mitigar)"
+        },
+        {
+          "word": "impulsive",
+          "definition": "acting without thinking (impulsivo)"
+        },
+        {
+          "word": "repercussion",
+          "definition": "an effect of an action, usually negative (repercusión)"
+        },
+        {
+          "word": "amend",
+          "definition": "to correct or improve (enmendar)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Who notices that Laura is paying close attention to what is happening?",
+          "options": [
+            "Nico",
+            "Andrés",
+            "Camilo",
+            "Kevin"
+          ],
+          "answer": "Kevin"
+        },
+        {
+          "skill": "inference",
+          "question": "Which action would go AGAINST what Laura learns in the story?",
+          "options": [
+            "Asking a clear question.",
+            "Explaining the reason for a decision.",
+            "Verifying a detail first.",
+            "Making the same choice again without thinking without thinking."
+          ],
+          "answer": "Making the same choice again without thinking without thinking."
+        },
+        {
+          "skill": "purpose",
+          "question": "What is the author's main purpose in this text?",
+          "options": [
+            "To describe the history of Medellín.",
+            "To sell a product to students.",
+            "To give scientific data about teenagers in Colombia.",
+            "To show, through a story, how to act responsibly when a small choice creates several consequences."
+          ],
+          "answer": "To show, through a story, how to act responsibly when a small choice creates several consequences."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In the sentence “The action does not solve everything immediately, but it prevents the problem from growing,” the word “but” introduces…",
+          "options": [
+            "a reason",
+            "a time sequence",
+            "an example",
+            "a contrast"
+          ],
+          "answer": "a contrast"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which could be another good title for the text?",
+          "options": [
+            "“Ask Before You Get Lost”",
+            "“Respect Is Always In Style”",
+            "“Pain Is a Signal”",
+            "“Every Choice Has An Echo”"
+          ],
+          "answer": "“Every Choice Has An Echo”"
+        }
+      ],
+      "cover": "../assets/images/week37_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "The Choice I Would Change",
+      "minimumWordTarget": 700,
+      "wordCount": 788,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week37_grade11_page01.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Choice I Would Change”, page 1. Scene based on: Valentina is 17–18 years old and studies in Medellín. One ordinary day at a small family apartment, a situation involving a decision begins to change the plans for the afternoon. Samuel is nearby and notices that Valentina is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina is 17–18 years old and studies in Medellín. One ordinary day at a small family apartment, a situation involving a decision begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Samuel is nearby and notices that Valentina is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about cause, effect and responsibility."
+            },
+            {
+              "html": "The decision has a <b>ripple effect</b> on the group."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Valentina wants to <b>amend</b> the mistake."
+            }
+          ],
+          "wordCount": 99
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week37_grade11_page02.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Choice I Would Change”, page 2. Scene based on: The situation becomes harder when a small choice creates several consequences. Valentina feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a small choice creates several consequences. Valentina feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Samuel suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "<b>Accountability</b> means admitting the mistake."
+            },
+            {
+              "html": "Samuel reminds Valentina that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Valentina listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "Nobody could <b>foresee</b> every result."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week37_grade11_page03.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Choice I Would Change”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Valentina has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Valentina has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Valentina listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week37_grade11_page04.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Choice I Would Change”, page 4. Scene based on: Valentina decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Samuel explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "A small delay can <b>trigger</b> bigger problems."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            }
+          ],
+          "wordCount": 102
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week37_grade11_page05.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Choice I Would Change”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in a youth exchange in New York City. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in a youth exchange in New York City."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Valentina realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "The <b>outcome</b> depends on several choices."
+            }
+          ],
+          "wordCount": 109
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week37_grade11_page06.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Choice I Would Change”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Valentina feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Valentina feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about cause, effect and responsibility."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "A <b>deliberate</b> choice is better than a rushed one."
+            }
+          ],
+          "wordCount": 107
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week37_grade11_page07.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Choice I Would Change”, page 7. Scene based on: At home, Valentina thinks about what could have happened if the group had reacted without checking anything. The student writes a short reflection: a responsible choice is not always the fastest or most popular choice. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At home, Valentina thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "Valentina tries to <b>mitigate</b> the damage."
+            },
+            {
+              "html": "Next time, Valentina plans to ask a clearer question, confirm important information, and explain the reason for the decision."
+            },
+            {
+              "html": "The experience becomes part of how Valentina understands school, family, technology, travel, and life in a larger world."
+            },
+            {
+              "html": "Samuel reminds Valentina that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "An <b>impulsive</b> decision starts the problem."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week37_grade11_page08.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Choice I Would Change”, page 8. Scene based on: The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another. They also discuss the author’s purpose and decide which detail best supports the final lesson. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another."
+            },
+            {
+              "html": "They also discuss the author’s purpose and decide which detail best supports the final lesson."
+            },
+            {
+              "html": "Valentina notices that strong reading is not only translating words. It means connecting evidence, sequence, intention, and consequences."
+            },
+            {
+              "html": "That habit will be useful in future exams because a difficult question often depends on a small but meaningful detail."
+            },
+            {
+              "html": "Valentina listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "The <b>repercussion</b> reaches the whole class."
+            }
+          ],
+          "wordCount": 104
+        }
+      ],
+      "practiceWords": [
+        "ripple effect",
+        "accountability",
+        "foresee",
+        "trigger",
+        "outcome",
+        "deliberate",
+        "mitigate",
+        "impulsive",
+        "repercussion",
+        "amend"
+      ],
+      "vocabulary": [
+        {
+          "word": "ripple effect",
+          "definition": "a series of effects from one action (efecto dominó)"
+        },
+        {
+          "word": "accountability",
+          "definition": "accepting responsibility (rendición de cuentas)"
+        },
+        {
+          "word": "foresee",
+          "definition": "to know something before it happens (prever)"
+        },
+        {
+          "word": "trigger",
+          "definition": "to cause something to start (desencadenar)"
+        },
+        {
+          "word": "outcome",
+          "definition": "the final result (desenlace, resultado)"
+        },
+        {
+          "word": "deliberate",
+          "definition": "done on purpose, after thinking (deliberado)"
+        },
+        {
+          "word": "mitigate",
+          "definition": "to make less serious (mitigar)"
+        },
+        {
+          "word": "impulsive",
+          "definition": "acting without thinking (impulsivo)"
+        },
+        {
+          "word": "repercussion",
+          "definition": "an effect of an action, usually negative (repercusión)"
+        },
+        {
+          "word": "amend",
+          "definition": "to correct or improve (enmendar)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "Which action would go AGAINST what Valentina learns in the story?",
+          "options": [
+            "Explaining the reason for a decision.",
+            "Verifying a detail first.",
+            "Asking a clear question.",
+            "Making the same choice again without thinking without thinking."
+          ],
+          "answer": "Making the same choice again without thinking without thinking."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In the sentence “The action does not solve everything immediately, but it prevents the problem from growing,” the word “but” introduces…",
+          "options": [
+            "a reason",
+            "a time sequence",
+            "an example",
+            "a contrast"
+          ],
+          "answer": "a contrast"
+        },
+        {
+          "skill": "purpose",
+          "question": "What is the purpose of the question “What do you know for sure, and what are you only assuming?”",
+          "options": [
+            "To give the students a grammar exercise.",
+            "To blame one student for the problem.",
+            "To end the conversation quickly.",
+            "To help the students separate evidence from emotion."
+          ],
+          "answer": "To help the students separate evidence from emotion."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Complete the sentence from the text: “A small delay can _____ bigger problems.”",
+          "options": [
+            "amend",
+            "repercussion",
+            "trigger",
+            "impulsive"
+          ],
+          "answer": "trigger"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which option is the best summary of the text?",
+          "options": [
+            "Valentina faces a problem because a small choice creates several consequences, checks the facts with Samuel and makes a responsible decision.",
+            "Valentina and Samuel travel to New York to solve the problem.",
+            "Samuel solves the problem alone while Valentina watches.",
+            "Valentina blames another person for the problem and the problem disappears."
+          ],
+          "answer": "Valentina faces a problem because a small choice creates several consequences, checks the facts with Samuel and makes a responsible decision."
+        }
+      ],
+      "cover": "../assets/images/week37_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

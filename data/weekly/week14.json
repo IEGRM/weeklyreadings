@@ -1,0 +1,1740 @@
+{
+  "week": 14,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 14",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "What’S In My Backpack?",
+      "minimumWordTarget": 350,
+      "wordCount": 358,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week14_grade06_page01.webp",
+          "artDirection": "11–12-year-old Colombian student context for “What’S In My Backpack?”. Scene based on: Pablo unzips his backpack every single morning before he goes to school. For a moment, Pablo looks around and thinks about what to do next. He always checks what is inside. The day. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Pablo unzips his <b>backpack</b> every single <b>morning</b> before he goes to <b>school</b>."
+            },
+            {
+              "html": "For a moment, Pablo looks around and thinks about what to do next."
+            },
+            {
+              "html": "He always checks what is inside."
+            },
+            {
+              "html": "The day continues, and Pablo tries to stay calm and pay attention."
+            },
+            {
+              "html": "There are <b>a lot of</b> things that he needs for his day."
+            },
+            {
+              "html": "A small detail helps Pablo understand the situation a little better."
+            },
+            {
+              "html": "There is a big <b>notebook</b> for his <b>math</b> class and some sharp pencils."
+            },
+            {
+              "html": "After that, Pablo continues carefully instead of rushing."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week14_grade06_page02.webp",
+          "artDirection": "11–12-year-old Colombian student context for “What’S In My Backpack?”. Scene based on: There is no computer because his family cannot afford one, but he has a good snack from his mom. The people nearby also notice what is happening and react in simple ways. She usual. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "There is <b>no</b> computer because his family cannot afford one, but he has a good <b>snack</b> from his mom."
+            },
+            {
+              "html": "The people nearby also notice what is happening and react in simple ways."
+            },
+            {
+              "html": "She usually gives him an apple or a piece of bread with cheese."
+            },
+            {
+              "html": "This gives Pablo time to make a better choice and continue the day."
+            },
+            {
+              "html": "He never forgets his <b>water bottle</b> because the afternoon sun is very hot."
+            },
+            {
+              "html": "A few minutes later, the situation feels easier to understand."
+            },
+            {
+              "html": "After school, he goes straight home to do his <b>homework</b> at the small table in his kitchen."
+            }
+          ],
+          "wordCount": 98
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week14_grade06_page03.webp",
+          "artDirection": "11–12-year-old Colombian student context for “What’S In My Backpack?”. Scene based on: Pablo remembers that simple choices can make a difficult moment better. His backpack is not new or fancy, but it holds everything important for his life and studies in the neighbor. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Pablo remembers that simple choices can make a difficult moment better."
+            },
+            {
+              "html": "His backpack is not new or fancy, but it holds everything important for his life and studies in the neighborhood."
+            },
+            {
+              "html": "The experience is ordinary, but it becomes an important part of the day."
+            },
+            {
+              "html": "By paying attention, Pablo learns something useful from the moment."
+            },
+            {
+              "html": "Pablo unzips his backpack every single morning before he goes to school."
+            },
+            {
+              "html": "For a moment, Pablo looks around and thinks about what to do next."
+            },
+            {
+              "html": "He always checks what is inside."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week14_grade06_page04.webp",
+          "artDirection": "11–12-year-old Colombian student context for “What’S In My Backpack?”. Scene based on: The day continues, and Pablo tries to stay calm and pay attention. There are a lot of things that he needs for his day. A small detail helps Pablo understand the situation a little. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The day continues, and Pablo tries to stay calm and pay attention."
+            },
+            {
+              "html": "There are a lot of things that he needs for his day."
+            },
+            {
+              "html": "A small detail helps Pablo understand the situation a little better."
+            },
+            {
+              "html": "There is a big notebook for his math class and some sharp pencils."
+            },
+            {
+              "html": "After that, Pablo continues carefully instead of rushing."
+            },
+            {
+              "html": "There is no computer because his family cannot afford one, but he has a good snack from his mom."
+            },
+            {
+              "html": "The people nearby also notice what is happening and react in simple ways."
+            }
+          ],
+          "wordCount": 88
+        }
+      ],
+      "practiceWords": [
+        "backpack",
+        "morning",
+        "school",
+        "a lot of",
+        "notebook",
+        "math",
+        "no",
+        "snack",
+        "water bottle",
+        "homework"
+      ],
+      "vocabulary": [
+        {
+          "word": "backpack",
+          "definition": "bag for school (mochila)"
+        },
+        {
+          "word": "morning",
+          "definition": "time of day (mañana)"
+        },
+        {
+          "word": "school",
+          "definition": "place of learning (colegio)"
+        },
+        {
+          "word": "a lot of",
+          "definition": "many (muchos)"
+        },
+        {
+          "word": "notebook",
+          "definition": "book for notes (cuaderno)"
+        },
+        {
+          "word": "math",
+          "definition": "subject with numbers (matemáticas)"
+        },
+        {
+          "word": "no",
+          "definition": "not any (no)"
+        },
+        {
+          "word": "snack",
+          "definition": "small meal (merienda)"
+        },
+        {
+          "word": "water bottle",
+          "definition": "container for water (botella de agua)"
+        },
+        {
+          "word": "homework",
+          "definition": "school work at home (tarea)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "What is the main purpose of Pablo's daily routine?",
+          "options": [
+            "To show he is poor",
+            "To describe his school preparations",
+            "To complain about homework",
+            "To ask for a new computer"
+          ],
+          "answer": "To describe his school preparations"
+        },
+        {
+          "skill": "sequence",
+          "question": "Why does Pablo NOT have a computer?",
+          "options": [
+            "He doesn't like them.",
+            "His family cannot afford one.",
+            "It was stolen.",
+            "He left it at school."
+          ],
+          "answer": "His family cannot afford one."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What does Pablo's mom give him for a snack?",
+          "options": [
+            "Candy and chips",
+            "An apple or bread",
+            "A hamburger",
+            "Cookies"
+          ],
+          "answer": "An apple or bread"
+        },
+        {
+          "skill": "main idea",
+          "question": "Why is Pablo's water bottle essential?",
+          "options": [
+            "His teacher requires it.",
+            "He plays sports.",
+            "The afternoon sun is hot.",
+            "It is his favorite."
+          ],
+          "answer": "The afternoon sun is hot."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Where does Pablo do his homework?",
+          "options": [
+            "At the library",
+            "In his bedroom",
+            "At the kitchen table",
+            "At a friend's house"
+          ],
+          "answer": "At the kitchen table"
+        }
+      ],
+      "cover": "../assets/images/week14_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "Riding A Bike",
+      "minimumWordTarget": 400,
+      "wordCount": 402,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week14_grade07_page01.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Riding A Bike”. Scene based on: Last summer, Camilo’s older brother decided to teach him how to ride a bike. As the situation develops, the main character realizes that a quick decision can create a real conseque. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Last <b>summer</b>, Camilo’s <b>older brother</b> decided to teach him how to ride a <b>bike</b>."
+            },
+            {
+              "html": "As the situation develops, the main character realizes that a quick decision can create a real consequence."
+            },
+            {
+              "html": "The bike was very old and painted a bright <b>blue</b>, but it was still fast."
+            },
+            {
+              "html": "The details around the main character make the problem easier to understand."
+            },
+            {
+              "html": "On the first day, Camilo was very <b>scared</b>."
+            },
+            {
+              "html": "Instead of reacting immediately, the main character takes a moment to think about the next step."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week14_grade07_page02.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Riding A Bike”. Scene based on: He fell onto the hard pavement of their street and scraped his knee badly. The small challenge becomes an opportunity to learn something useful. His skin was red and it hurt a lot.. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "He fell onto the hard pavement of their street and scraped his <b>knee</b> badly."
+            },
+            {
+              "html": "The small challenge becomes an opportunity to learn something useful."
+            },
+            {
+              "html": "His skin was <b>red</b> and it <b>hurt</b> a lot."
+            },
+            {
+              "html": "Other people influence the moment even when they are not at the center of the story."
+            },
+            {
+              "html": "He wanted to quit."
+            },
+            {
+              "html": "the main character's feelings begin to change as new information appears."
+            },
+            {
+              "html": "But his brother was very <b>patient</b> and said, \"You can do it!"
+            }
+          ],
+          "wordCount": 76
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week14_grade07_page03.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Riding A Bike”. Scene based on: One action leads naturally to another, so the consequence becomes clear. Try again!\" The next week, Camilo felt much more brave. The experience encourages the main character to be . warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "One action leads naturally to another, so the consequence becomes clear."
+            },
+            {
+              "html": "Try again!\" The next week, Camilo felt much more brave."
+            },
+            {
+              "html": "The experience encourages the main character to be more patient and responsible."
+            },
+            {
+              "html": "He practiced every evening after finishing his chores."
+            },
+            {
+              "html": "After reflecting on what happened, the main character understands the situation better."
+            },
+            {
+              "html": "Finally, he could ride all around the local park with no help."
+            },
+            {
+              "html": "By the end of the moment, the main character has learned something that may help later."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week14_grade07_page04.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Riding A Bike”. Scene based on: To celebrate this big success, his brother bought them both a delicious ice cream from the store on the corner. As the situation develops, the main character realizes that a quick . warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "To celebrate this big success, his brother bought them both a delicious <b>ice cream</b> from the store on the corner."
+            },
+            {
+              "html": "As the situation develops, the main character realizes that a quick decision can create a real consequence."
+            },
+            {
+              "html": "Later, the details around the main character make the problem easier to understand."
+            },
+            {
+              "html": "Last summer, Camilo’s older brother decided to teach him how to ride a bike."
+            },
+            {
+              "html": "Instead of reacting immediately, the main character takes a moment to think about the next step."
+            }
+          ],
+          "wordCount": 80
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week14_grade07_page05.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Riding A Bike”. Scene based on: The bike was very old and painted a bright blue, but it was still fast. The small challenge becomes an opportunity to learn something useful. On the first day, Camilo was very scar. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The bike was very old and painted a bright blue, but it was still fast."
+            },
+            {
+              "html": "The small challenge becomes an opportunity to learn something useful."
+            },
+            {
+              "html": "On the first day, Camilo was very scared."
+            },
+            {
+              "html": "Other people influence the moment even when they are not at the center of the story."
+            },
+            {
+              "html": "He fell onto the hard pavement of their street and scraped his knee badly."
+            },
+            {
+              "html": "the main character's feelings begin to change as new information appears."
+            },
+            {
+              "html": "His skin was red and it hurt a lot."
+            }
+          ],
+          "wordCount": 83
+        }
+      ],
+      "practiceWords": [
+        "summer",
+        "older brother",
+        "bike",
+        "blue",
+        "scared",
+        "knee",
+        "red",
+        "hurt",
+        "patient",
+        "ice cream"
+      ],
+      "vocabulary": [
+        {
+          "word": "summer",
+          "definition": "warmest season (verano)"
+        },
+        {
+          "word": "older brother",
+          "definition": "brother born before you (hermano mayor)"
+        },
+        {
+          "word": "bike",
+          "definition": "bicycle (bicicleta)"
+        },
+        {
+          "word": "blue",
+          "definition": "a color (azul)"
+        },
+        {
+          "word": "scared",
+          "definition": "afraid (asustado)"
+        },
+        {
+          "word": "knee",
+          "definition": "leg joint (rodilla)"
+        },
+        {
+          "word": "red",
+          "definition": "a color (rojo)"
+        },
+        {
+          "word": "hurt",
+          "definition": "to feel pain (doler)"
+        },
+        {
+          "word": "patient",
+          "definition": "able to wait (paciente)"
+        },
+        {
+          "word": "ice cream",
+          "definition": "frozen dessert (helado)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What is the main event in Camilo's story?",
+          "options": [
+            "Buying a new bike",
+            "Falling and getting hurt",
+            "Learning to ride a bike",
+            "Eating ice cream"
+          ],
+          "answer": "Learning to ride a bike"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "How was Camilo's brother described?",
+          "options": [
+            "Impatient and angry",
+            "Busy and tired",
+            "Patient and encouraging",
+            "Scared and nervous"
+          ],
+          "answer": "Patient and encouraging"
+        },
+        {
+          "skill": "main idea",
+          "question": "What happened when Camilo fell?",
+          "options": [
+            "He broke the bike.",
+            "He quit immediately.",
+            "He scraped his knee.",
+            "His brother laughed."
+          ],
+          "answer": "He scraped his knee."
+        },
+        {
+          "skill": "simple inference",
+          "question": "How did they celebrate Camilo's success?",
+          "options": [
+            "They had a big party.",
+            "They went to the movies.",
+            "They ate ice cream.",
+            "They bought a new bike."
+          ],
+          "answer": "They ate ice cream."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What color was Camilo's bike?",
+          "options": [
+            "Red",
+            "Blue",
+            "Black",
+            "Green"
+          ],
+          "answer": "Blue"
+        }
+      ],
+      "cover": "../assets/images/week14_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "Trouble With Homework",
+      "minimumWordTarget": 450,
+      "wordCount": 450,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week14_grade08_page01.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Trouble With Homework”. Scene based on: Mateo and Valeria knew they were going to fail their science class. The situation becomes more complicated because Mateo must balance what is wanted with what the moment requires. . warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Mateo and Valeria knew they were <b>going to</b> fail their <b>science</b> class."
+            },
+            {
+              "html": "The situation becomes more complicated because Mateo must balance what is wanted with what the moment requires."
+            },
+            {
+              "html": "The <b>homework</b> on the human body was impossible, and they had <b>no</b> ideas left."
+            },
+            {
+              "html": "A detail that seemed small at first now helps explain the problem."
+            },
+            {
+              "html": "They felt completely <b>stressed</b> and worried about their grades."
+            },
+            {
+              "html": "Different reactions show that people can understand the same event in different ways."
+            }
+          ],
+          "wordCount": 77
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week14_grade08_page02.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Trouble With Homework”. Scene based on: \"We need some help, but who?\" Valeria asked. The problem affects more than one person and changes how the group responds. They asked their kind neighbor, Señora Rosa, for help, but. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "\"We need <b>some</b> help, but who?\" Valeria asked."
+            },
+            {
+              "html": "The problem affects more than one person and changes how the group responds."
+            },
+            {
+              "html": "They asked their kind <b>neighbor</b>, Señora Rosa, for help, but she had none of the scientific answers they needed."
+            },
+            {
+              "html": "Mateo begins to see that acting quickly is not always the same as acting wisely."
+            },
+            {
+              "html": "They had <b>no money</b> to pay for a tutor, so that wasn't an option."
+            }
+          ],
+          "wordCount": 69
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week14_grade08_page03.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Trouble With Homework”. Scene based on: The setting creates realistic limits that influence what can happen next. Their last hope was the public library. Expressions and actions reveal feelings that are not always stated. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The setting creates realistic limits that influence what can happen next."
+            },
+            {
+              "html": "Their last hope was the public <b>library</b>."
+            },
+            {
+              "html": "Expressions and actions reveal feelings that are not always stated directly."
+            },
+            {
+              "html": "They spent hours there and found many useful books."
+            },
+            {
+              "html": "The consequence grows naturally from a decision made only a short time earlier."
+            },
+            {
+              "html": "They discovered that most of the information was actually online, so they used the library's computer."
+            },
+            {
+              "html": "A practical response appears when the characters stop and consider another option."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week14_grade08_page04.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Trouble With Homework”. Scene based on: After two long hours, they finally solved all the difficult problems. The experience becomes useful when Mateo connects the immediate problem with a larger responsibility. They wal. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "After two long hours, they finally solved all the difficult problems."
+            },
+            {
+              "html": "The experience becomes useful when Mateo connects the immediate problem with a larger responsibility."
+            },
+            {
+              "html": "They walked home feeling incredibly <b>relieved</b> and proud of their solution."
+            },
+            {
+              "html": "The situation becomes more complicated because Mateo must balance what is wanted with what the moment requires."
+            },
+            {
+              "html": "Later, a detail that seemed small at first now helps explain the problem."
+            },
+            {
+              "html": "Mateo and Valeria knew they were going to fail their science class."
+            }
+          ],
+          "wordCount": 78
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week14_grade08_page05.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Trouble With Homework”. Scene based on: Different reactions show that people can understand the same event in different ways. The homework on the human body was impossible, and they had no ideas left. The problem affects. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Different reactions show that people can understand the same event in different ways."
+            },
+            {
+              "html": "The homework on the human body was impossible, and they had no ideas left."
+            },
+            {
+              "html": "The problem affects more than one person and changes how the group responds."
+            },
+            {
+              "html": "They felt completely stressed and worried about their grades."
+            },
+            {
+              "html": "Mateo begins to see that acting quickly is not always the same as acting wisely."
+            },
+            {
+              "html": "\"We need some help, but who?\" Valeria asked."
+            }
+          ],
+          "wordCount": 72
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week14_grade08_page06.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Trouble With Homework”. Scene based on: The setting creates realistic limits that influence what can happen next. They asked their kind neighbor, Señora Rosa, for help, but she had none of the scientific answers they nee. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The setting creates realistic limits that influence what can happen next."
+            },
+            {
+              "html": "They asked their kind neighbor, Señora Rosa, for help, but she had none of the scientific answers they needed."
+            },
+            {
+              "html": "Expressions and actions reveal feelings that are not always stated directly."
+            },
+            {
+              "html": "They had no money to pay for a tutor, so that wasn't an option."
+            },
+            {
+              "html": "The consequence grows naturally from a decision made only a short time earlier."
+            },
+            {
+              "html": "Their last hope was the public library."
+            }
+          ],
+          "wordCount": 75
+        }
+      ],
+      "practiceWords": [
+        "going to",
+        "science",
+        "homework",
+        "no",
+        "stressed",
+        "some",
+        "neighbor",
+        "no money",
+        "library",
+        "relieved"
+      ],
+      "vocabulary": [
+        {
+          "word": "going to",
+          "definition": "future intention (va a)"
+        },
+        {
+          "word": "science",
+          "definition": "study of the natural world (ciencias)"
+        },
+        {
+          "word": "homework",
+          "definition": "school work at home (tarea)"
+        },
+        {
+          "word": "no",
+          "definition": "not any (no)"
+        },
+        {
+          "word": "stressed",
+          "definition": "feeling pressure (estresado)"
+        },
+        {
+          "word": "some",
+          "definition": "an unspecified amount (algunos)"
+        },
+        {
+          "word": "neighbor",
+          "definition": "person who lives nearby (vecino)"
+        },
+        {
+          "word": "no money",
+          "definition": "having no currency (sin dinero)"
+        },
+        {
+          "word": "library",
+          "definition": "place with books (biblioteca)"
+        },
+        {
+          "word": "relieved",
+          "definition": "no longer worried (aliviado)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What was the main problem for Mateo and Valeria?",
+          "options": [
+            "They were bored.",
+            "They had no friends.",
+            "They were failing science.",
+            "They fought with their neighbor."
+          ],
+          "answer": "They were failing science."
+        },
+        {
+          "skill": "inference",
+          "question": "Why couldn't Señora Rosa help them?",
+          "options": [
+            "She was too busy.",
+            "She didn't like them.",
+            "She didn't know the answers.",
+            "She was out of town."
+          ],
+          "answer": "She didn't know the answers."
+        },
+        {
+          "skill": "purpose",
+          "question": "What was their final solution?",
+          "options": [
+            "They gave up.",
+            "They copied answers.",
+            "They went to the library.",
+            "They asked another teacher."
+          ],
+          "answer": "They went to the library."
+        },
+        {
+          "skill": "main idea",
+          "question": "How did they feel after solving the problems?",
+          "options": [
+            "Tired and angry",
+            "Relieved and proud",
+            "Still stressed",
+            "Bored and uninterested"
+          ],
+          "answer": "Relieved and proud"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Why couldn't they get a tutor?",
+          "options": [
+            "No tutors were available.",
+            "Their parents said no.",
+            "They had no money.",
+            "They didn't want one."
+          ],
+          "answer": "They had no money."
+        }
+      ],
+      "cover": "../assets/images/week14_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "Setting Personal Goals",
+      "minimumWordTarget": 500,
+      "wordCount": 506,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week14_grade09_page01.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Setting Personal Goals”. Scene based on: Lina has always loved playing soccer more than anything. The situation requires more than a quick reaction, so Lina considers responsibilities and possible consequences. She has pr. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Lina <b>has always loved</b> playing <b>soccer</b> more than anything."
+            },
+            {
+              "html": "The situation requires more than a quick reaction, so Lina considers responsibilities and possible consequences."
+            },
+            {
+              "html": "She has practiced for years in the dusty <b>field</b> near her house, every single day after school."
+            },
+            {
+              "html": "What begins as an ordinary problem gradually reveals a larger issue about judgment and communication."
+            },
+            {
+              "html": "Her biggest dream, <b>which</b> she thinks about constantly, is to join a professional team that can help her family."
+            },
+            {
+              "html": "Lina learns that being independent can also mean knowing when to ask for accurate information."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week14_grade09_page02.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Setting Personal Goals”. Scene based on: Her older brother, who is her biggest supporter, has never missed a single one of her games. Several details in the setting influence the decision and make the situation more reali. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Her older brother, <b>who</b> is her biggest supporter, <b>has never missed</b> a single one of her games."
+            },
+            {
+              "html": "Several details in the setting influence the decision and make the situation more realistic."
+            },
+            {
+              "html": "So far, Lina <b>has already achieved</b> her first major goal: becoming the captain of her local team."
+            },
+            {
+              "html": "The experience challenges Lina's first assumption and encourages a more careful response."
+            },
+            {
+              "html": "The <b>weather</b> is usually sunny and perfect for practice, but on rainy days she gets frustrated."
+            },
+            {
+              "html": "Earlier choices become connected with later results, making the cause and effect easier to see."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week14_grade09_page03.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Setting Personal Goals”. Scene based on: To get noticed, she has uploaded many videos of her best goals online for coaches to see. A practical solution appears only after Lina considers more than one option. She will not . mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "To get noticed, she <b>has uploaded</b> many videos of her best goals <b>online</b> for coaches to see."
+            },
+            {
+              "html": "A practical solution appears only after Lina considers more than one option."
+            },
+            {
+              "html": "She will not stop working until she has become the professional player she knows she can be."
+            },
+            {
+              "html": "Respectful communication helps reduce tension even before the whole problem is solved."
+            },
+            {
+              "html": "Lina's response becomes more mature as emotion gives way to planning."
+            },
+            {
+              "html": "Lina has always loved playing soccer more than anything."
+            }
+          ],
+          "wordCount": 78
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week14_grade09_page04.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Setting Personal Goals”. Scene based on: By the end of this part, the experience has changed the way Lina approaches the problem. She has practiced for years in the dusty field near her house, every single day after schoo. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "By the end of this part, the experience has changed the way Lina approaches the problem."
+            },
+            {
+              "html": "She has practiced for years in the dusty field near her house, every single day after school."
+            },
+            {
+              "html": "The situation requires more than a quick reaction, so Lina considers responsibilities and possible consequences."
+            },
+            {
+              "html": "Her biggest dream, which she thinks about constantly, is to join a professional team that can help her family."
+            },
+            {
+              "html": "What begins as an ordinary problem gradually reveals a larger issue about judgment and communication."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week14_grade09_page05.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Setting Personal Goals”. Scene based on: Her older brother, who is her biggest supporter, has never missed a single one of her games. Lina learns that being independent can also mean knowing when to ask for accurate infor. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Her older brother, who is her biggest supporter, has never missed a single one of her games."
+            },
+            {
+              "html": "Lina learns that being independent can also mean knowing when to ask for accurate information."
+            },
+            {
+              "html": "So far, Lina has already achieved her first major goal: becoming the captain of her local team."
+            },
+            {
+              "html": "Several details in the setting influence the decision and make the situation more realistic."
+            },
+            {
+              "html": "The weather is usually sunny and perfect for practice, but on rainy days she gets frustrated."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week14_grade09_page06.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Setting Personal Goals”. Scene based on: The experience challenges Lina's first assumption and encourages a more careful response. To get noticed, she has uploaded many videos of her best goals online for coaches to see. . mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The experience challenges Lina's first assumption and encourages a more careful response."
+            },
+            {
+              "html": "To get noticed, she has uploaded many videos of her best goals online for coaches to see."
+            },
+            {
+              "html": "Earlier choices become connected with later results, making the cause and effect easier to see."
+            },
+            {
+              "html": "She will not stop working until she has become the professional player she knows she can be."
+            },
+            {
+              "html": "A practical solution appears only after Lina considers more than one option."
+            },
+            {
+              "html": "Later, respectful communication helps reduce tension even before the whole problem is solved."
+            }
+          ],
+          "wordCount": 86
+        }
+      ],
+      "practiceWords": [
+        "has always loved",
+        "soccer",
+        "field",
+        "which",
+        "who",
+        "has never missed",
+        "has already achieved",
+        "weather",
+        "has uploaded",
+        "online"
+      ],
+      "vocabulary": [
+        {
+          "word": "has always loved",
+          "definition": "loved for a long time (siempre ha amado)"
+        },
+        {
+          "word": "soccer",
+          "definition": "football (fútbol)"
+        },
+        {
+          "word": "field",
+          "definition": "open area of land (campo)"
+        },
+        {
+          "word": "which",
+          "definition": "used to add information (que/cual)"
+        },
+        {
+          "word": "who",
+          "definition": "used to add information about a person (quien)"
+        },
+        {
+          "word": "has never missed",
+          "definition": "has not failed to attend (nunca ha faltado)"
+        },
+        {
+          "word": "has already achieved",
+          "definition": "has already accomplished (ya ha logrado)"
+        },
+        {
+          "word": "weather",
+          "definition": "state of the atmosphere (clima)"
+        },
+        {
+          "word": "has uploaded",
+          "definition": "has put online (ha subido)"
+        },
+        {
+          "word": "online",
+          "definition": "on the internet (en línea)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What is Lina's ultimate dream?",
+          "options": [
+            "To be a famous artist",
+            "To join a professional soccer team",
+            "To become a coach",
+            "To leave her neighborhood"
+          ],
+          "answer": "To join a professional soccer team"
+        },
+        {
+          "skill": "inference",
+          "question": "How does Lina's brother support her?",
+          "options": [
+            "He buys her equipment.",
+            "He coaches her team.",
+            "He never misses a game.",
+            "He uploads her videos."
+          ],
+          "answer": "He never misses a game."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What has Lina already achieved?",
+          "options": [
+            "Winning a national trophy",
+            "Becoming team captain",
+            "Getting a scholarship",
+            "Moving to a new field"
+          ],
+          "answer": "Becoming team captain"
+        },
+        {
+          "skill": "main idea",
+          "question": "What does Lina do to get noticed by coaches?",
+          "options": [
+            "Sends them emails",
+            "Calls them on the phone",
+            "Uploads videos online",
+            "Attends all their games"
+          ],
+          "answer": "Uploads videos online"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What sometimes frustrates Lina's practice?",
+          "options": [
+            "Her brother's absence",
+            "Schoolwork",
+            "Rainy weather",
+            "Lack of equipment"
+          ],
+          "answer": "Rainy weather"
+        }
+      ],
+      "cover": "../assets/images/week14_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "When Friends Move Away",
+      "minimumWordTarget": 600,
+      "wordCount": 606,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week14_grade10_page01.webp",
+          "artDirection": "15–16-year-old Colombian student context for “When Friends Move Away”. Scene based on: Sofia was walking home from the market when she saw the for sale sign planted in her best friend’s front yard. The conflict becomes more significant when Carlos realizes that the e. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Sofia <b>was walking</b> home from the market when she saw the <b>for sale</b> sign planted in her best friend’s front yard."
+            },
+            {
+              "html": "The conflict becomes more significant when Carlos realizes that the easiest option may not be the most responsible one."
+            },
+            {
+              "html": "Her heart immediately <b>sank</b>; the rumor was true."
+            },
+            {
+              "html": "The situation requires comparing alternatives, anticipating consequences, and communicating clearly."
+            },
+            {
+              "html": "Carlos <b>was moving</b> to Cali because his father found a new <b>job</b> there."
+            },
+            {
+              "html": "Personal decisions affect other people, so Carlos has to think beyond the immediate goal."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week14_grade10_page02.webp",
+          "artDirection": "15–16-year-old Colombian student context for “When Friends Move Away”. Scene based on: Several of their closest friends gathered that evening, sharing a deep sense of loss. A detail introduced earlier becomes relevant again and changes how the problem is understood. . mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "<b>Several</b> of their closest friends gathered that evening, sharing a <b>deep</b> sense of loss."
+            },
+            {
+              "html": "A detail introduced earlier becomes relevant again and changes how the problem is understood."
+            },
+            {
+              "html": "They were talking about all their childhood memories when Carlos’s phone call came through."
+            },
+            {
+              "html": "Progress comes through effort, negotiation, and a willingness to adjust the original plan."
+            },
+            {
+              "html": "\"I <b>will miss</b> you all so much,\" he said, his voice cracking."
+            },
+            {
+              "html": "Information becomes useful only after Carlos checks it carefully instead of accepting it immediately."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week14_grade10_page03.webp",
+          "artDirection": "15–16-year-old Colombian student context for “When Friends Move Away”. Scene based on: Sofia knew that if he leaves, the dynamic of their entire group will feel broken and empty. As pressure increases, Carlos separates emotional reactions from the practical facts of . mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Sofia knew that if he leaves, the dynamic of their entire group <b>will feel</b> broken and empty."
+            },
+            {
+              "html": "As pressure increases, Carlos separates emotional reactions from the practical facts of the situation."
+            },
+            {
+              "html": "To fight the sadness, they decided to throw a massive going-away party for him at the community center."
+            },
+            {
+              "html": "The way Carlos asks questions and considers other perspectives shows growing maturity."
+            },
+            {
+              "html": "They laughed, danced, and cried all night long."
+            },
+            {
+              "html": "Responsibility becomes visible through preparation, listening, correction, and follow-through."
+            },
+            {
+              "html": "It was a perfectly <b>bittersweet</b> celebration of their friendship."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week14_grade10_page04.webp",
+          "artDirection": "15–16-year-old Colombian student context for “When Friends Move Away”. Scene based on: The final choice matters because it considers both immediate needs and longer-term consequences. Later, the conflict becomes more significant when Carlos realizes that the easiest . mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The final choice matters because it considers both immediate needs and longer-term consequences."
+            },
+            {
+              "html": "Later, the conflict becomes more significant when Carlos realizes that the easiest option may not be the most responsible one."
+            },
+            {
+              "html": "Sofia was walking home from the market when she saw the for sale sign planted in her best friend’s front yard."
+            },
+            {
+              "html": "The situation requires comparing alternatives, anticipating consequences, and communicating clearly."
+            },
+            {
+              "html": "Her heart immediately sank; the rumor was true."
+            },
+            {
+              "html": "Personal decisions affect other people, so Carlos has to think beyond the immediate goal."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week14_grade10_page05.webp",
+          "artDirection": "15–16-year-old Colombian student context for “When Friends Move Away”. Scene based on: Carlos was moving to Cali because his father found a new job there. A detail introduced earlier becomes relevant again and changes how the problem is understood. Several of their c. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Carlos was moving to Cali because his father found a new job there."
+            },
+            {
+              "html": "A detail introduced earlier becomes relevant again and changes how the problem is understood."
+            },
+            {
+              "html": "Several of their closest friends gathered that evening, sharing a deep sense of loss."
+            },
+            {
+              "html": "Progress comes through effort, negotiation, and a willingness to adjust the original plan."
+            },
+            {
+              "html": "They were talking about all their childhood memories when Carlos’s phone call came through."
+            },
+            {
+              "html": "Information becomes useful only after Carlos checks it carefully instead of accepting it immediately."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week14_grade10_page06.webp",
+          "artDirection": "15–16-year-old Colombian student context for “When Friends Move Away”. Scene based on: \"I will miss you all so much,\" he said, his voice cracking. As pressure increases, Carlos separates emotional reactions from the practical facts of the situation. Sofia knew that i. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "\"I will miss you all so much,\" he said, his voice cracking."
+            },
+            {
+              "html": "As pressure increases, Carlos separates emotional reactions from the practical facts of the situation."
+            },
+            {
+              "html": "Sofia knew that if he leaves, the dynamic of their entire group will feel broken and empty."
+            },
+            {
+              "html": "The way Carlos asks questions and considers other perspectives shows growing maturity."
+            },
+            {
+              "html": "To fight the sadness, they decided to throw a massive going-away party for him at the community center."
+            },
+            {
+              "html": "Responsibility becomes visible through preparation, listening, correction, and follow-through."
+            },
+            {
+              "html": "They laughed, danced, and cried all night long."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week14_grade10_page07.webp",
+          "artDirection": "15–16-year-old Colombian student context for “When Friends Move Away”. Scene based on: The final choice matters because it considers both immediate needs and longer-term consequences. It was a perfectly bittersweet celebration of their friendship. The conflict become. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The final choice matters because it considers both immediate needs and longer-term consequences."
+            },
+            {
+              "html": "It was a perfectly bittersweet celebration of their friendship."
+            },
+            {
+              "html": "The conflict becomes more significant when Carlos realizes that the easiest option may not be the most responsible one."
+            },
+            {
+              "html": "Later, the situation requires comparing alternatives, anticipating consequences, and communicating clearly."
+            },
+            {
+              "html": "Sofia was walking home from the market when she saw the for sale sign planted in her best friend’s front yard."
+            },
+            {
+              "html": "Personal decisions affect other people, so Carlos has to think beyond the immediate goal."
+            },
+            {
+              "html": "Her heart immediately sank; the rumor was true."
+            }
+          ],
+          "wordCount": 95
+        }
+      ],
+      "practiceWords": [
+        "was walking",
+        "for sale",
+        "sank",
+        "was moving",
+        "job",
+        "several",
+        "deep",
+        "will miss",
+        "will feel",
+        "bittersweet"
+      ],
+      "vocabulary": [
+        {
+          "word": "was walking",
+          "definition": "was moving on foot (estaba caminando)"
+        },
+        {
+          "word": "for sale",
+          "definition": "available to buy (en venta)"
+        },
+        {
+          "word": "sank",
+          "definition": "felt disappointed (se hundió)"
+        },
+        {
+          "word": "was moving",
+          "definition": "was changing home (se estaba mudando)"
+        },
+        {
+          "word": "job",
+          "definition": "paid position (trabajo)"
+        },
+        {
+          "word": "several",
+          "definition": "more than two but not many (varios)"
+        },
+        {
+          "word": "deep",
+          "definition": "strong and intense (profundo)"
+        },
+        {
+          "word": "will miss",
+          "definition": "will feel sadness about absence (extrañará)"
+        },
+        {
+          "word": "will feel",
+          "definition": "future sensation (se sentirá)"
+        },
+        {
+          "word": "bittersweet",
+          "definition": "mix of happy and sad (agridulce)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What is the central conflict of the story?",
+          "options": [
+            "Sofia losing her job",
+            "A fight between friends",
+            "Carlos moving away",
+            "Planning a community party"
+          ],
+          "answer": "Carlos moving away"
+        },
+        {
+          "skill": "inference",
+          "question": "How did Sofia feel when she saw the 'for sale' sign?",
+          "options": [
+            "Excited for Carlos",
+            "Her heart sank.",
+            "Angry at his parents",
+            "Indifferent and uncaring"
+          ],
+          "answer": "Her heart sank."
+        },
+        {
+          "skill": "purpose",
+          "question": "How did the group decide to cope with their sadness?",
+          "options": [
+            "Ignore the problem",
+            "Throw a going-away party",
+            "Buy Carlos's house",
+            "Promise to never forget him"
+          ],
+          "answer": "Throw a going-away party"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "How would the group feel without Carlos?",
+          "options": [
+            "Happy and free",
+            "The same as always",
+            "Broken and empty",
+            "Motivated to also move"
+          ],
+          "answer": "Broken and empty"
+        },
+        {
+          "skill": "main idea",
+          "question": "How is the party described?",
+          "options": [
+            "Boring and quiet",
+            "Small and intimate",
+            "Loud and chaotic",
+            "Bittersweet"
+          ],
+          "answer": "Bittersweet"
+        }
+      ],
+      "cover": "../assets/images/week14_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "Starting A Youtube Channel",
+      "minimumWordTarget": 700,
+      "wordCount": 716,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week14_grade11_page01.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Starting A Youtube Channel”. Scene based on: \"Nobody in my neighborhood believed I could succeed at this,\" Andrés explained in his latest video. The episode becomes more complex because Andrés must interpret not only what hap. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "\"<b>Nobody</b> in my neighborhood believed I could <b>succeed</b> at this,\" Andrés explained in his latest video."
+            },
+            {
+              "html": "The episode becomes more complex because Andrés must interpret not only what happened but why people respond differently."
+            },
+            {
+              "html": "He <b>came up with</b> a detailed plan to <b>start up</b> a <b>YouTube channel</b> focused on the vibrant street art of our city."
+            },
+            {
+              "html": "A personal decision can have broader implications when trust, safety, reputation, or future plans are involved."
+            },
+            {
+              "html": "Against all odds, his very first video <b>blew up</b> and got thousands of views overnight!"
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week14_grade11_page02.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Starting A Youtube Channel”. Scene based on: Andrés's first interpretation is understandable, but later details encourage a more nuanced view. He turned down the doubts from his friends who said it was a risky waste of time. . mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Andrés's first interpretation is understandable, but later details encourage a more nuanced view."
+            },
+            {
+              "html": "He turned down the doubts from his friends who said it was a <b>risky</b> waste of time."
+            },
+            {
+              "html": "Mature decision-making sometimes requires changing an initial assumption when better evidence appears."
+            },
+            {
+              "html": "He told them <b>nothing</b> would stop him from pursuing his passion."
+            },
+            {
+              "html": "The social environment influences Andrés, although personal agency still matters in the final choice."
+            },
+            {
+              "html": "He admitted that anyone can face huge challenges when trying something new, but the key is to <b>carry on</b> and persevere."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week14_grade11_page03.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Starting A Youtube Channel”. Scene based on: Earlier experiences influence later behavior and make the character's development more coherent. He often pointed out that if he had given up back then, he wouldn’t be managing a c. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Earlier experiences influence later behavior and make the character's development more coherent."
+            },
+            {
+              "html": "He often pointed out that if he had given up back then, he wouldn’t be managing a channel with thousands of loyal subscribers today."
+            },
+            {
+              "html": "The story shows that consequences can include both difficulties and opportunities for growth."
+            },
+            {
+              "html": "His story proves that with creativity and grit, you can change your <b>entire</b> future."
+            },
+            {
+              "html": "Communication becomes a form of responsibility when Andrés explains intentions or verifies information."
+            },
+            {
+              "html": "The setting shapes the pressures, resources, and alternatives that are realistically available."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week14_grade11_page04.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Starting A Youtube Channel”. Scene based on: \"Nobody in my neighborhood believed I could succeed at this,\" Andrés explained in his latest video. By the end, Andrés responds in a more deliberate and informed way, even if every. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "\"Nobody in my neighborhood believed I could succeed at this,\" Andrés explained in his latest video."
+            },
+            {
+              "html": "By the end, Andrés responds in a more deliberate and informed way, even if every problem is not completely solved."
+            },
+            {
+              "html": "He came up with a detailed plan to start up a YouTube channel focused on the vibrant street art of our city."
+            },
+            {
+              "html": "The episode becomes more complex because Andrés must interpret not only what happened but why people respond differently."
+            },
+            {
+              "html": "Against all odds, his very first video blew up and got thousands of views overnight!"
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week14_grade11_page05.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Starting A Youtube Channel”. Scene based on: A personal decision can have broader implications when trust, safety, reputation, or future plans are involved. He turned down the doubts from his friends who said it was a risky w. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "A personal decision can have broader implications when trust, safety, reputation, or future plans are involved."
+            },
+            {
+              "html": "He turned down the doubts from his friends who said it was a risky waste of time."
+            },
+            {
+              "html": "Andrés's first interpretation is understandable, but later details encourage a more nuanced view."
+            },
+            {
+              "html": "He told them nothing would stop him from pursuing his passion."
+            },
+            {
+              "html": "Mature decision-making sometimes requires changing an initial assumption when better evidence appears."
+            },
+            {
+              "html": "He admitted that anyone can face huge challenges when trying something new, but the key is to carry on and persevere."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week14_grade11_page06.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Starting A Youtube Channel”. Scene based on: The social environment influences Andrés, although personal agency still matters in the final choice. He often pointed out that if he had given up back then, he wouldn’t be managin. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The social environment influences Andrés, although personal agency still matters in the final choice."
+            },
+            {
+              "html": "He often pointed out that if he had given up back then, he wouldn’t be managing a channel with thousands of loyal subscribers today."
+            },
+            {
+              "html": "Earlier experiences influence later behavior and make the character's development more coherent."
+            },
+            {
+              "html": "His story proves that with creativity and grit, you can change your entire future."
+            },
+            {
+              "html": "The story shows that consequences can include both difficulties and opportunities for growth."
+            },
+            {
+              "html": "Later, communication becomes a form of responsibility when Andrés explains intentions or verifies information."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week14_grade11_page07.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Starting A Youtube Channel”. Scene based on: \"Nobody in my neighborhood believed I could succeed at this,\" Andrés explained in his latest video. The setting shapes the pressures, resources, and alternatives that are realistic. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "\"Nobody in my neighborhood believed I could succeed at this,\" Andrés explained in his latest video."
+            },
+            {
+              "html": "The setting shapes the pressures, resources, and alternatives that are realistically available."
+            },
+            {
+              "html": "He came up with a detailed plan to start up a YouTube channel focused on the vibrant street art of our city."
+            },
+            {
+              "html": "By the end, Andrés responds in a more deliberate and informed way, even if every problem is not completely solved."
+            },
+            {
+              "html": "Against all odds, his very first video blew up and got thousands of views overnight!"
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week14_grade11_page08.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Starting A Youtube Channel”. Scene based on: The episode becomes more complex because Andrés must interpret not only what happened but why people respond differently. He turned down the doubts from his friends who said it was. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The episode becomes more complex because Andrés must interpret not only what happened but why people respond differently."
+            },
+            {
+              "html": "He turned down the doubts from his friends who said it was a risky waste of time."
+            },
+            {
+              "html": "A personal decision can have broader implications when trust, safety, reputation, or future plans are involved."
+            },
+            {
+              "html": "He told them nothing would stop him from pursuing his passion."
+            },
+            {
+              "html": "Andrés's first interpretation is understandable, but later details encourage a more nuanced view."
+            },
+            {
+              "html": "He admitted that anyone can face huge challenges when trying something new, but the key is to carry on and persevere."
+            }
+          ],
+          "wordCount": 96
+        }
+      ],
+      "practiceWords": [
+        "nobody",
+        "succeed",
+        "came up with",
+        "start up",
+        "YouTube channel",
+        "blew up",
+        "risky",
+        "nothing",
+        "carry on",
+        "entire"
+      ],
+      "vocabulary": [
+        {
+          "word": "nobody",
+          "definition": "no person (nadie)"
+        },
+        {
+          "word": "succeed",
+          "definition": "to achieve a goal (tener éxito)"
+        },
+        {
+          "word": "came up with",
+          "definition": "thought of an idea (se le ocurrió)"
+        },
+        {
+          "word": "start up",
+          "definition": "to begin a business (iniciar)"
+        },
+        {
+          "word": "YouTube channel",
+          "definition": "personal video platform (canal de YouTube)"
+        },
+        {
+          "word": "blew up",
+          "definition": "became very popular quickly (explotó de popularidad)"
+        },
+        {
+          "word": "risky",
+          "definition": "full of potential danger (arriesgado)"
+        },
+        {
+          "word": "nothing",
+          "definition": "not anything (nada)"
+        },
+        {
+          "word": "carry on",
+          "definition": "to continue (seguir adelante)"
+        },
+        {
+          "word": "entire",
+          "definition": "whole (completo)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "What was the initial reaction to Andrés's idea?",
+          "options": [
+            "Everyone supported him.",
+            "People were doubtful and thought it was risky.",
+            "He received funding immediately.",
+            "No one was interested."
+          ],
+          "answer": "People were doubtful and thought it was risky."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What was the topic of Andrés's successful channel?",
+          "options": [
+            "Video game reviews",
+            "Street art",
+            "Cooking tutorials",
+            "Personal vlogs"
+          ],
+          "answer": "Street art"
+        },
+        {
+          "skill": "purpose",
+          "question": "What happened to his first video?",
+          "options": [
+            "It was deleted.",
+            "It got no views.",
+            "It blew up and got popular.",
+            "It was criticized."
+          ],
+          "answer": "It blew up and got popular."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What does Andrés say is key to overcoming challenges?",
+          "options": [
+            "Having lots of money",
+            "Carrying on and persevering",
+            "Asking for help",
+            "Getting lucky"
+          ],
+          "answer": "Carrying on and persevering"
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main message of his story?",
+          "options": [
+            "YouTube is an easy way to get rich.",
+            "You should never listen to friends.",
+            "Creativity and grit can change your future.",
+            "Street art is the most popular topic."
+          ],
+          "answer": "Creativity and grit can change your future."
+        }
+      ],
+      "cover": "../assets/images/week14_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

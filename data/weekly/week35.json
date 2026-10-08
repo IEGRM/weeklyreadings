@@ -1,0 +1,2313 @@
+{
+  "week": 35,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 35",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "The Club That Meets at 4:15",
+      "minimumWordTarget": 350,
+      "wordCount": 361,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week35_grade06_page01.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Club That Meets at 4:15”, page 1. Scene based on: In a bright public school classroom in Medellín, Laura, 11, and Tomás, 11, sit at a table with a chess board, while a teacher hands out small paper notes with only a clock icon showing a quarter past four and a calendar icon. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura and Tomás love the chess <b>club</b>."
+            },
+            {
+              "html": "The club is in Room 5 at school."
+            },
+            {
+              "html": "Every Tuesday, they <b>meet</b> at half past three."
+            },
+            {
+              "html": "They play chess for one hour."
+            },
+            {
+              "html": "Then they go home at half past four."
+            },
+            {
+              "html": "But this Tuesday, the teacher has news."
+            },
+            {
+              "html": "“Next week, the club changes,” she says."
+            },
+            {
+              "html": "She gives every student a small <b>note</b>."
+            },
+            {
+              "html": "It says, “Chess Club: <b>Wednesday</b>, 4:15.”"
+            },
+            {
+              "html": "Laura reads it quickly and puts it in her bag."
+            },
+            {
+              "html": "She doesn’t read it again at home."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week35_grade06_page02.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Club That Meets at 4:15”, page 2. Scene based on: Next Wednesday in an empty school hallway, Laura stands alone at the door of Room 5 at a quarter to five looking at her watch, confused, while inside the room the chess game has already started with Tomás and other students. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Wednesday, Laura thinks about the club."
+            },
+            {
+              "html": "“4:15. That’s a <b>quarter to</b> five,” she thinks."
+            },
+            {
+              "html": "She arrives at Room 5 at a quarter to five."
+            },
+            {
+              "html": "But the club is already playing!"
+            },
+            {
+              "html": "Tomás is playing a game with another student."
+            },
+            {
+              "html": "“Laura, you’re late!” he says."
+            },
+            {
+              "html": "“Late? The club starts at a quarter to five!”"
+            },
+            {
+              "html": "“No. It starts at a <b>quarter past</b> four,” Tomás says."
+            },
+            {
+              "html": "Laura is confused. “Past? To? What’s the difference?”"
+            },
+            {
+              "html": "Two other students arrive late too."
+            },
+            {
+              "html": "They look confused, like Laura."
+            },
+            {
+              "html": "One student came yesterday, on Tuesday, at <b>half past</b> three!"
+            }
+          ],
+          "wordCount": 92
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week35_grade06_page03.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Club That Meets at 4:15”, page 3. Scene based on: The teacher, a friendly woman in her thirties, stands next to a large round paper clock on the classroom wall, moving the minute hand with her finger, while Laura, Tomás and other students watch and nod. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Tomás has an idea."
+            },
+            {
+              "html": "“Let’s ask the teacher to explain,” he says."
+            },
+            {
+              "html": "The teacher takes a big paper <b>clock</b> from her desk."
+            },
+            {
+              "html": "She puts the long hand on the three."
+            },
+            {
+              "html": "“This is a quarter past four. 4:15.”"
+            },
+            {
+              "html": "“Fifteen minutes after four o’clock.”"
+            },
+            {
+              "html": "Then she puts the long hand on the nine."
+            },
+            {
+              "html": "“This is a quarter to five. 4:45.”"
+            },
+            {
+              "html": "“Fifteen minutes before five o’clock.”"
+            },
+            {
+              "html": "Laura understands now. “Past is after. To is before!”"
+            },
+            {
+              "html": "Tomás laughs. “Now you know the secret.”"
+            },
+            {
+              "html": "“That is thirty <b>minute</b>s of difference!”"
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week35_grade06_page04.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Club That Meets at 4:15”, page 4. Scene based on: Laura and Tomás hang a big colorful handmade poster on the classroom door with a drawn clock showing a quarter past four, a calendar page with a Wednesday shape and a chess piece, while other club students smile and give thumbs up. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura and Tomás have another idea."
+            },
+            {
+              "html": "They make a big <b>poster</b> for the club door."
+            },
+            {
+              "html": "They draw a big clock."
+            },
+            {
+              "html": "The hands show a quarter past four."
+            },
+            {
+              "html": "They write the time in two ways."
+            },
+            {
+              "html": "They write “4:15” and “quarter past four.”"
+            },
+            {
+              "html": "They write the day in big letters: Wednesday."
+            },
+            {
+              "html": "They also draw a chess piece and a happy face."
+            },
+            {
+              "html": "The teacher puts it on the door."
+            },
+            {
+              "html": "“Excellent idea!” she says."
+            },
+            {
+              "html": "The next Wednesday, everybody arrives at 4:15."
+            },
+            {
+              "html": "Nobody is late, and nobody comes on Tuesday."
+            },
+            {
+              "html": "Laura wins her first game in ten minutes."
+            },
+            {
+              "html": "“Now I always read the time two times,” she says."
+            }
+          ],
+          "wordCount": 103
+        }
+      ],
+      "practiceWords": [
+        "club",
+        "meet",
+        "Wednesday",
+        "quarter past",
+        "quarter to",
+        "half past",
+        "clock",
+        "note",
+        "minute",
+        "poster"
+      ],
+      "vocabulary": [
+        {
+          "word": "club",
+          "definition": "a group of people who meet to do an activity (club)"
+        },
+        {
+          "word": "meet",
+          "definition": "to come together at a time and place (reunirse)"
+        },
+        {
+          "word": "Wednesday",
+          "definition": "the day after Tuesday (miércoles)"
+        },
+        {
+          "word": "quarter past",
+          "definition": "fifteen minutes after the hour (y cuarto)"
+        },
+        {
+          "word": "quarter to",
+          "definition": "fifteen minutes before the hour (cuarto para)"
+        },
+        {
+          "word": "half past",
+          "definition": "thirty minutes after the hour (y media)"
+        },
+        {
+          "word": "clock",
+          "definition": "a machine that shows the time (reloj)"
+        },
+        {
+          "word": "note",
+          "definition": "a short written message (nota)"
+        },
+        {
+          "word": "minute",
+          "definition": "sixty seconds (minuto)"
+        },
+        {
+          "word": "poster",
+          "definition": "a big paper with information on a wall (cartel)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "When does the chess club meet now?",
+          "options": [
+            "On Wednesday at a quarter to five",
+            "On Wednesday at a quarter past four",
+            "On Tuesday at a quarter past four",
+            "On Tuesday at half past three o’clock"
+          ],
+          "answer": "On Wednesday at a quarter past four"
+        },
+        {
+          "skill": "sequence",
+          "question": "What happens AFTER the teacher explains the paper clock?",
+          "options": [
+            "A student goes to the club on Tuesday.",
+            "The teacher gives the students a small note on Tuesday.",
+            "Laura and Tomás make a poster for the club door.",
+            "Laura arrives late at a quarter to five."
+          ],
+          "answer": "Laura and Tomás make a poster for the club door."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “It starts at a quarter past four.” “A quarter past” means…",
+          "options": [
+            "thirty minutes after the hour",
+            "fifteen minutes before the hour",
+            "exactly at the hour",
+            "fifteen minutes after the hour"
+          ],
+          "answer": "fifteen minutes after the hour"
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the story mainly about?",
+          "options": [
+            "Students misunderstand a new time and learn to read it correctly.",
+            "A teacher closes the chess club forever.",
+            "Two friends make big posters for many different school clubs.",
+            "A girl wins every chess game in the club on the same Wednesday."
+          ],
+          "answer": "Students misunderstand a new time and learn to read it correctly."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why does Laura arrive late on Wednesday?",
+          "options": [
+            "She is playing a chess game in another room at four.",
+            "She confuses “quarter past four” with “quarter to five.”",
+            "She forgets that the club is on Wednesday.",
+            "Her school bus arrives thirty minutes late that day."
+          ],
+          "answer": "She confuses “quarter past four” with “quarter to five.”"
+        }
+      ],
+      "cover": "../assets/images/week35_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "The Actor in My Grandmother's Story",
+      "minimumWordTarget": 400,
+      "wordCount": 418,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week35_grade07_page01.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Actor in My Grandmother's Story”, page 1. Scene based on: In the living room of a family home in Medellín, an elderly grandmother points with surprise at an old black-and-white movie on the TV screen showing a handsome man in a hat, while Julián, 12, and his friend Sara, 12, sit on the sofa eating popcorn. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Last Sunday, Julián and Sara watched an old <b>movie</b>."
+            },
+            {
+              "html": "They were at Julián’s house with his grandmother."
+            },
+            {
+              "html": "The movie was in black and white."
+            },
+            {
+              "html": "Suddenly, Grandma pointed at the TV."
+            },
+            {
+              "html": "“I know that man! I met him!” she said."
+            },
+            {
+              "html": "She could <b>recognize</b> his face immediately."
+            },
+            {
+              "html": "The man was an <b>actor</b> named Rafael Montero."
+            },
+            {
+              "html": "He was famous many years ago."
+            },
+            {
+              "html": "“I saw him here in Medellín,” Grandma said."
+            },
+            {
+              "html": "“I was fifteen, and he talked to me!”"
+            },
+            {
+              "html": "Julián and Sara looked at each other."
+            },
+            {
+              "html": "“Really, Grandma?” Julián asked."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week35_grade07_page02.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Actor in My Grandmother's Story”, page 2. Scene based on: The grandmother tells her story with bright eyes and moving hands, while a soft memory scene behind her shows a young girl of fifteen in a 1970s dress watching a film crew with old cameras on a colorful Medellín street. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Grandma told them the whole story."
+            },
+            {
+              "html": "“In 1970, a movie company came to Medellín.”"
+            },
+            {
+              "html": "“They wanted to <b>film</b> a movie in the city center.”"
+            },
+            {
+              "html": "“I was <b>young</b>, and I was very curious.”"
+            },
+            {
+              "html": "“I went to watch them every afternoon after school.”"
+            },
+            {
+              "html": "“One day, the actor walked to me and smiled.”"
+            },
+            {
+              "html": "“He gave me his <b>autograph</b> on a paper!”"
+            },
+            {
+              "html": "“I was so <b>excited</b> that I couldn’t sleep.”"
+            },
+            {
+              "html": "Julián loved the story."
+            },
+            {
+              "html": "But Sara had a question."
+            },
+            {
+              "html": "“Grandma, do you still have the autograph?”"
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week35_grade07_page03.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Actor in My Grandmother's Story”, page 3. Scene based on: The grandmother looks through an old wooden box full of letters, photos and small notebooks, frowning, while Julián helps her and Sara holds a flashlight, dust in the warm lamp light. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Grandma thought for a moment."
+            },
+            {
+              "html": "“I don’t know. It was a long time ago,” she said."
+            },
+            {
+              "html": "“I kept it in my old <b>diary</b>, I think.”"
+            },
+            {
+              "html": "They went to Grandma’s room together."
+            },
+            {
+              "html": "She opened an old wooden box."
+            },
+            {
+              "html": "Inside, there were letters, photos, and small notebooks."
+            },
+            {
+              "html": "They looked for thirty minutes."
+            },
+            {
+              "html": "They didn’t find the autograph."
+            },
+            {
+              "html": "Grandma looked a little sad."
+            },
+            {
+              "html": "“Maybe I lost it when we moved houses,” she said."
+            },
+            {
+              "html": "Julián wanted to believe her story."
+            }
+          ],
+          "wordCount": 76
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week35_grade07_page04.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Actor in My Grandmother's Story”, page 4. Scene based on: In a public library archive room, Julián and Sara look at an old yellow newspaper on a big table with a friendly librarian, Sara pointing at a black-and-white photo of a film crew on a Medellín street. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Sara had another idea."
+            },
+            {
+              "html": "“Let’s look for an old <b>newspaper</b> from 1970,” she said."
+            },
+            {
+              "html": "On Tuesday, they went to the public library."
+            },
+            {
+              "html": "A librarian helped them find old newspapers."
+            },
+            {
+              "html": "They looked at newspapers from March and April 1970."
+            },
+            {
+              "html": "In one newspaper, there was a small article."
+            },
+            {
+              "html": "“Famous actor films movie in Medellín,” it said."
+            },
+            {
+              "html": "There was a photo of the film crew."
+            },
+            {
+              "html": "They were working in the city center."
+            },
+            {
+              "html": "In the background, there were many curious people."
+            },
+            {
+              "html": "“Look! That girl with the white dress!” Julián said."
+            },
+            {
+              "html": "She looked a lot like Grandma."
+            }
+          ],
+          "wordCount": 92
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week35_grade07_page05.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Actor in My Grandmother's Story”, page 5. Scene based on: Back home, the grandmother holds the old newspaper copy with tears of joy, pointing at a girl in a white dress in the photo, while Julián and Sara hug her and a small old notebook lies open on the table with a faded signature. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They brought a copy of the newspaper to Grandma."
+            },
+            {
+              "html": "She looked at the photo for a long time."
+            },
+            {
+              "html": "“That’s me! In my white dress!” she said."
+            },
+            {
+              "html": "She had tears in her eyes."
+            },
+            {
+              "html": "“So your story was <b>true</b>,” Julián said."
+            },
+            {
+              "html": "“Of course it was,” Grandma laughed."
+            },
+            {
+              "html": "That night, Grandma looked in another box."
+            },
+            {
+              "html": "In an old school notebook, she found something."
+            },
+            {
+              "html": "It was a small paper with a signature."
+            },
+            {
+              "html": "It said, “To my young friend, Rafael Montero.”"
+            },
+            {
+              "html": "Julián and Sara couldn’t believe it."
+            }
+          ],
+          "wordCount": 82
+        }
+      ],
+      "practiceWords": [
+        "movie",
+        "actor",
+        "recognize",
+        "film",
+        "autograph",
+        "diary",
+        "young",
+        "newspaper",
+        "true",
+        "excited"
+      ],
+      "vocabulary": [
+        {
+          "word": "movie",
+          "definition": "a story shown on a screen (película)"
+        },
+        {
+          "word": "actor",
+          "definition": "a man who plays a character in a movie (actor)"
+        },
+        {
+          "word": "recognize",
+          "definition": "to know someone because you saw them before (reconocer)"
+        },
+        {
+          "word": "film",
+          "definition": "to record a movie with a camera (filmar)"
+        },
+        {
+          "word": "autograph",
+          "definition": "a famous person’s signature (autógrafo)"
+        },
+        {
+          "word": "diary",
+          "definition": "a book where you write about your days (diario)"
+        },
+        {
+          "word": "young",
+          "definition": "not old, in an early part of life (joven)"
+        },
+        {
+          "word": "newspaper",
+          "definition": "printed pages with news (periódico)"
+        },
+        {
+          "word": "true",
+          "definition": "real, not invented (verdadero)"
+        },
+        {
+          "word": "excited",
+          "definition": "very happy and full of energy (emocionado)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "When did the movie company come to Medellín?",
+          "options": [
+            "In 1950",
+            "In 1990",
+            "In 1970",
+            "Last Sunday"
+          ],
+          "answer": "In 1970"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "Why did Julián and Sara go to the library?",
+          "options": [
+            "Grandma asked them to return a book.",
+            "They needed to find the famous actor’s home address in Mexico.",
+            "They wanted to watch more old black-and-white movies with the actor.",
+            "They wanted to find an old newspaper that could confirm Grandma’s story."
+          ],
+          "answer": "They wanted to find an old newspaper that could confirm Grandma’s story."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main idea of the story?",
+          "options": [
+            "Two children used an old newspaper to confirm their grandmother’s memory.",
+            "A famous actor from old movies still lives in Medellín today.",
+            "Grandmothers always keep famous people’s autographs in their diaries.",
+            "Black-and-white movies are better than new movies."
+          ],
+          "answer": "Two children used an old newspaper to confirm their grandmother’s memory."
+        },
+        {
+          "skill": "simple inference",
+          "question": "How did Julián recognize his grandmother in the photo?",
+          "options": [
+            "The librarian told him which girl in the photo was his grandmother.",
+            "He saw a girl in a white dress who looked a lot like her.",
+            "He saw her name written under the photo.",
+            "She was standing next to the actor in the photo."
+          ],
+          "answer": "He saw a girl in a white dress who looked a lot like her."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “She could recognize his face immediately.” “Recognize” means…",
+          "options": [
+            "to forget something from the past very quickly",
+            "to record a movie with a camera",
+            "to know someone because you saw them before",
+            "to write your name on a paper"
+          ],
+          "answer": "to know someone because you saw them before"
+        }
+      ],
+      "cover": "../assets/images/week35_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "A New York Story on the Metro",
+      "minimumWordTarget": 450,
+      "wordCount": 476,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week35_grade08_page01.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “A New York Story on the Metro”, page 1. Scene based on: In a family home in Medellín, Sara's aunt Patricia, a woman in her forties with a New York sweatshirt shown without letters, tells a story with big gestures while Diego, 13, and Sara, 13, listen on the sofa with mugs of hot chocolate. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Last weekend, Sara’s aunt Patricia visited from New York."
+            },
+            {
+              "html": "She lived there for five years."
+            },
+            {
+              "html": "Diego was at Sara’s house that afternoon."
+            },
+            {
+              "html": "Aunt Patricia told them a funny story."
+            },
+            {
+              "html": "“On my first day there, I got <b>lost</b>,” she said."
+            },
+            {
+              "html": "“I took the <b>subway</b> to my new job.”"
+            },
+            {
+              "html": "“I wanted to go to 23rd Street.”"
+            },
+            {
+              "html": "“But the train didn’t stop there!”"
+            },
+            {
+              "html": "“It went very fast, past many stations.”"
+            },
+            {
+              "html": "“Suddenly, I was in another <b>borough</b>, Brooklyn!”"
+            },
+            {
+              "html": "Sara laughed loudly."
+            }
+          ],
+          "wordCount": 77
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week35_grade08_page02.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “A New York Story on the Metro”, page 2. Scene based on: A warm memory scene shows a younger Aunt Patricia standing confused in a crowded New York subway car as stations rush by the windows in a blur, holding a paper map, while other passengers read newspapers. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "“Was the train broken?” Diego asked."
+            },
+            {
+              "html": "“No. I took the <b>express</b> train,” she said."
+            },
+            {
+              "html": "“Express trains don’t stop at every station.”"
+            },
+            {
+              "html": "“They stop only at big stations.”"
+            },
+            {
+              "html": "“I didn’t know there were two kinds of trains.”"
+            },
+            {
+              "html": "“I was nervous, and I was late for my job.”"
+            },
+            {
+              "html": "“I didn’t understand the announcements.”"
+            },
+            {
+              "html": "“Everything was so fast and so loud.”"
+            },
+            {
+              "html": "Diego thought the story was a little strange."
+            },
+            {
+              "html": "“Two kinds of trains on one line?” he whispered."
+            },
+            {
+              "html": "“I think she wants to <b>exaggerate</b>,” he said."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week35_grade08_page03.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “A New York Story on the Metro”, page 3. Scene based on: Diego and Sara sit at a desk with a laptop showing a colorful New York subway map made only of colored lines and dots, Sara pointing at two different symbols, a circle and a diamond, while Diego looks surprised. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Sara wasn’t sure either."
+            },
+            {
+              "html": "“Let’s check,” she said."
+            },
+            {
+              "html": "They opened a New York subway <b>map</b> on the laptop."
+            },
+            {
+              "html": "It had many colored lines and hundreds of stations."
+            },
+            {
+              "html": "Then they found an explanation on the official website."
+            },
+            {
+              "html": "Some lines had express trains and <b>local</b> trains."
+            },
+            {
+              "html": "Express trains used different tracks in the middle."
+            },
+            {
+              "html": "They skipped many small stations."
+            },
+            {
+              "html": "Local trains stopped at every <b>stop</b>."
+            },
+            {
+              "html": "“She didn’t exaggerate. It’s true!” Diego said."
+            }
+          ],
+          "wordCount": 70
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week35_grade08_page04.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “A New York Story on the Metro”, page 4. Scene based on: Aunt Patricia laughs and continues her story, gesturing to show how she asked a friendly older subway worker on a platform for help, in a memory scene with tiled walls and a train arriving. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They told Aunt Patricia about their research."
+            },
+            {
+              "html": "She laughed. “So you didn’t believe me?”"
+            },
+            {
+              "html": "“We wanted to check,” Diego said, a little embarrassed."
+            },
+            {
+              "html": "“That’s smart,” she said."
+            },
+            {
+              "html": "Then she told them the end of the story."
+            },
+            {
+              "html": "“In Brooklyn, I asked a worker for help.”"
+            },
+            {
+              "html": "“He was very patient and kind.”"
+            },
+            {
+              "html": "“He showed me the <b>sign</b> for the local train.”"
+            },
+            {
+              "html": "“He said, ‘Look for the circle, not the diamond.’”"
+            },
+            {
+              "html": "“I arrived at my job one hour late.”"
+            },
+            {
+              "html": "“But my boss laughed when I told her.”"
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week35_grade08_page05.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “A New York Story on the Metro”, page 5. Scene based on: Diego and Sara ride a Medellín Metro train with Aunt Patricia, all three standing and looking at a simple route map above the doors with colored lines, comparing it with the New York map on Sara's phone. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Sunday, they rode the Medellín Metro with Aunt Patricia."
+            },
+            {
+              "html": "“Is the Medellín Metro like New York’s?” Diego asked."
+            },
+            {
+              "html": "They decided to <b>compare</b> the two systems."
+            },
+            {
+              "html": "Medellín had fewer lines and fewer stations."
+            },
+            {
+              "html": "Its trains stopped at every station on the line."
+            },
+            {
+              "html": "“Here, it’s harder to get lost,” Sara said."
+            },
+            {
+              "html": "“But the Metrocable is something New York doesn’t have!”"
+            },
+            {
+              "html": "Aunt Patricia looked out at the hills."
+            },
+            {
+              "html": "“I missed this view for five years,” she said."
+            }
+          ],
+          "wordCount": 75
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week35_grade08_page06.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “A New York Story on the Metro”, page 6. Scene based on: Back in their classroom, Diego and Sara present a poster comparing the New York subway map with the Medellín Metro map, with simple icons of a fast train, a slow train and a cable car, while classmates listen with curiosity. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Monday, Diego and Sara shared the story in class."
+            },
+            {
+              "html": "They showed the two maps side by side."
+            },
+            {
+              "html": "“In New York, some trains skip stations,” Diego said."
+            },
+            {
+              "html": "“You have to read the signs carefully.”"
+            },
+            {
+              "html": "“In Medellín, the system is smaller and simpler.”"
+            },
+            {
+              "html": "Their classmates asked many questions."
+            },
+            {
+              "html": "“What did your aunt learn?” the teacher asked."
+            },
+            {
+              "html": "“She learned to ask for help,” Sara said."
+            },
+            {
+              "html": "“And I learned something too,” Diego added."
+            },
+            {
+              "html": "“A story can sound strange and still be true.”"
+            },
+            {
+              "html": "“So it’s better to check than to doubt.”"
+            }
+          ],
+          "wordCount": 87
+        }
+      ],
+      "practiceWords": [
+        "subway",
+        "express",
+        "local",
+        "stop",
+        "lost",
+        "map",
+        "sign",
+        "exaggerate",
+        "borough",
+        "compare"
+      ],
+      "vocabulary": [
+        {
+          "word": "subway",
+          "definition": "an underground train in a big city (metro subterráneo)"
+        },
+        {
+          "word": "express",
+          "definition": "a train that stops only at some stations (expreso)"
+        },
+        {
+          "word": "local",
+          "definition": "a train that stops at every station (local)"
+        },
+        {
+          "word": "stop",
+          "definition": "a place where a train stops for passengers (parada)"
+        },
+        {
+          "word": "lost",
+          "definition": "not knowing where you are (perdido)"
+        },
+        {
+          "word": "map",
+          "definition": "a drawing that shows places and routes (mapa)"
+        },
+        {
+          "word": "sign",
+          "definition": "a board with information or directions (letrero)"
+        },
+        {
+          "word": "exaggerate",
+          "definition": "to make something sound bigger than it was (exagerar)"
+        },
+        {
+          "word": "borough",
+          "definition": "one of the five big parts of New York City (distrito)"
+        },
+        {
+          "word": "compare",
+          "definition": "to look at differences and similarities (comparar)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Where did Aunt Patricia end up on her first day in New York?",
+          "options": [
+            "In Medellín",
+            "At 23rd Street",
+            "At her new job",
+            "In Brooklyn"
+          ],
+          "answer": "In Brooklyn"
+        },
+        {
+          "skill": "inference",
+          "question": "Why did Diego think Aunt Patricia’s story was strange?",
+          "options": [
+            "He didn’t know that one line could have two kinds of trains.",
+            "He knew she didn’t have a job there.",
+            "He thought that the Metrocable was also in New York City.",
+            "He thought she never lived in New York."
+          ],
+          "answer": "He didn’t know that one line could have two kinds of trains."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the research on the subway map?",
+          "options": [
+            "To show that Diego doesn’t like stories about other cities.",
+            "To show how checking information confirmed the aunt’s story.",
+            "To show that the New York subway is always broken.",
+            "To explain how to buy New York subway tickets online."
+          ],
+          "answer": "To show how checking information confirmed the aunt’s story."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main idea of the story?",
+          "options": [
+            "The New York subway is better than the Medellín Metro.",
+            "People always get lost on their first day in a big city like New York.",
+            "A strange story can be true, so checking is better than doubting.",
+            "Express trains are dangerous for all visitors in New York."
+          ],
+          "answer": "A strange story can be true, so checking is better than doubting."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “I think she wants to exaggerate.” “Exaggerate” means…",
+          "options": [
+            "to look at differences and similarities",
+            "to stop at every single station on a train line",
+            "to ask a worker for help",
+            "to make something sound bigger than it was"
+          ],
+          "answer": "to make something sound bigger than it was"
+        }
+      ],
+      "cover": "../assets/images/week35_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "Have You Ever Deleted a Post?",
+      "minimumWordTarget": 500,
+      "wordCount": 506,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week35_grade09_page01.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “Have You Ever Deleted a Post?”, page 1. Scene based on: In a public school classroom in Medellín arranged in a circle of chairs, a teacher writes a big question mark on the board next to a phone icon with a trash can, while Mariana, 14, looks down nervously and Felipe, 14, sits beside her. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Monday, the English teacher asked an interesting question."
+            },
+            {
+              "html": "“Have you <b>ever</b> deleted a <b>post</b>?” she asked."
+            },
+            {
+              "html": "Almost every student raised a hand."
+            },
+            {
+              "html": "“Why did you <b>delete</b> it?” she asked."
+            },
+            {
+              "html": "Some students laughed. Others looked uncomfortable."
+            },
+            {
+              "html": "“I’ve deleted photos where I looked bad,” one boy said."
+            },
+            {
+              "html": "“I’ve deleted a post because nobody liked it,” a girl said."
+            },
+            {
+              "html": "Mariana didn’t say anything."
+            },
+            {
+              "html": "She has deleted a post too, but it’s a different story."
+            },
+            {
+              "html": "Her friend Felipe noticed her serious face."
+            },
+            {
+              "html": "He has known Mariana since primary school."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week35_grade09_page02.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “Have You Ever Deleted a Post?”, page 2. Scene based on: After class in the school courtyard, Mariana sits on a bench and tells Felipe her story, holding her phone with an angry speech bubble icon crossed out, while Felipe listens carefully. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "After class, Mariana talked to Felipe."
+            },
+            {
+              "html": "“Last month, I wrote an angry <b>comment</b>,” she said."
+            },
+            {
+              "html": "“It was about a referee in our volleyball game.”"
+            },
+            {
+              "html": "“I wrote that he was blind and stupid.”"
+            },
+            {
+              "html": "“I was angry because we lost.”"
+            },
+            {
+              "html": "“One hour later, I deleted it.”"
+            },
+            {
+              "html": "“I <b>regret</b> writing it. It was mean.”"
+            },
+            {
+              "html": "“But you deleted it, so it’s gone,” Felipe said."
+            },
+            {
+              "html": "Mariana shook her head slowly."
+            },
+            {
+              "html": "“I’m not sure it’s gone,” she said."
+            }
+          ],
+          "wordCount": 72
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week35_grade09_page03.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “Have You Ever Deleted a Post?”, page 3. Scene based on: Mariana shows Felipe her phone with a message from a teammate containing a small screenshot image of her old comment, shown only as an angry face icon in a speech bubble, while Felipe's eyes widen. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mariana opened her messages."
+            },
+            {
+              "html": "A teammate sent her something last week."
+            },
+            {
+              "html": "It was a <b>screenshot</b> of her angry comment."
+            },
+            {
+              "html": "“Someone has shared this in another group,” the message said."
+            },
+            {
+              "html": "Felipe looked at it, surprised."
+            },
+            {
+              "html": "“So the comment was deleted, but the screenshot wasn’t,” he said."
+            },
+            {
+              "html": "“Yes. And now more people have seen it,” Mariana said."
+            },
+            {
+              "html": "“Have you talked to anyone about it?” Felipe asked."
+            },
+            {
+              "html": "“No. I’ve only felt bad,” she said."
+            },
+            {
+              "html": "Felipe thought for a moment."
+            },
+            {
+              "html": "He has never had a problem like this."
+            },
+            {
+              "html": "“Has the referee seen it?” he asked."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week35_grade09_page04.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “Have You Ever Deleted a Post?”, page 4. Scene based on: In a school counselor's office with plants and posters showing only icons, a friendly counselor in her forties explains to Mariana and Felipe using a drawing of footprints made of small phone icons on a whiteboard. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They went to talk to the school counselor."
+            },
+            {
+              "html": "She listened carefully to Mariana’s story."
+            },
+            {
+              "html": "“Many students have had this experience,” she said."
+            },
+            {
+              "html": "“Everything you post becomes part of your <b>digital footprint</b>.”"
+            },
+            {
+              "html": "“Deleting helps, but it isn’t always <b>permanent</b> protection.”"
+            },
+            {
+              "html": "“Screenshots can stay for years.”"
+            },
+            {
+              "html": "“You can’t control the screenshot now,” she said."
+            },
+            {
+              "html": "“But you can control your next action.”"
+            },
+            {
+              "html": "“What do you think the right action is?”"
+            },
+            {
+              "html": "Mariana thought about the referee."
+            },
+            {
+              "html": "“I think I have to <b>apologize</b>,” she said."
+            }
+          ],
+          "wordCount": 80
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week35_grade09_page05.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “Have You Ever Deleted a Post?”, page 5. Scene based on: At a volleyball court, Mariana speaks respectfully to a referee in his fifties wearing a black shirt and holding a whistle, while Felipe waits at a distance; the referee listens with a surprised but kind expression. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Saturday, Mariana went to the volleyball tournament."
+            },
+            {
+              "html": "The same referee was working that day."
+            },
+            {
+              "html": "Felipe went with her for support."
+            },
+            {
+              "html": "Mariana walked to him nervously."
+            },
+            {
+              "html": "“Excuse me, sir,” she said."
+            },
+            {
+              "html": "“I wrote a mean comment about you.”"
+            },
+            {
+              "html": "“I’ve regretted it every day since then. I’m sorry.”"
+            },
+            {
+              "html": "The referee was surprised."
+            },
+            {
+              "html": "“I’ve seen the screenshot,” he said quietly."
+            },
+            {
+              "html": "“It hurt. Referees are people too.”"
+            },
+            {
+              "html": "“But thank you. Not many people apologize in person.”"
+            },
+            {
+              "html": "He shook her hand."
+            },
+            {
+              "html": "Mariana felt lighter as she walked back to Felipe."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week35_grade09_page06.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “Have You Ever Deleted a Post?”, page 6. Scene based on: Back in the classroom, Mariana stands at the board with a simple checklist drawn with icons: a pause symbol, a heart, a clock and a question mark, while students including Felipe listen and write in notebooks. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next Monday, Mariana shared her story with the class."
+            },
+            {
+              "html": "“I’ve learned that deleting isn’t enough,” she said."
+            },
+            {
+              "html": "“Before I post, I ask myself three questions now.”"
+            },
+            {
+              "html": "“Would I say this to the person’s face?”"
+            },
+            {
+              "html": "“Would I be okay if my family read it?”"
+            },
+            {
+              "html": "“Am I writing this with strong emotions right now?”"
+            },
+            {
+              "html": "“If the answer is yes to the last one, I wait.”"
+            },
+            {
+              "html": "The class was quiet."
+            },
+            {
+              "html": "Felipe added one more idea."
+            },
+            {
+              "html": "“A <b>reaction</b> in one minute can stay online for years.”"
+            },
+            {
+              "html": "The teacher wrote their questions on the board."
+            }
+          ],
+          "wordCount": 91
+        }
+      ],
+      "practiceWords": [
+        "post",
+        "delete",
+        "regret",
+        "screenshot",
+        "digital footprint",
+        "comment",
+        "permanent",
+        "apologize",
+        "reaction",
+        "ever"
+      ],
+      "vocabulary": [
+        {
+          "word": "post",
+          "definition": "a message or photo you put online (publicación)"
+        },
+        {
+          "word": "delete",
+          "definition": "to remove something completely (borrar)"
+        },
+        {
+          "word": "regret",
+          "definition": "to feel sorry about something you did (arrepentirse)"
+        },
+        {
+          "word": "screenshot",
+          "definition": "a picture of what is on a screen (captura de pantalla)"
+        },
+        {
+          "word": "digital footprint",
+          "definition": "the information you leave online (huella digital)"
+        },
+        {
+          "word": "comment",
+          "definition": "a written opinion under a post (comentario)"
+        },
+        {
+          "word": "permanent",
+          "definition": "lasting forever (permanente)"
+        },
+        {
+          "word": "apologize",
+          "definition": "to say you are sorry (disculparse)"
+        },
+        {
+          "word": "reaction",
+          "definition": "what you do or feel because of something (reacción)"
+        },
+        {
+          "word": "ever",
+          "definition": "at any time (alguna vez)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Why did Mariana write the angry comment about the referee?",
+          "options": [
+            "She was angry because her team lost the game.",
+            "Her teammates asked her to write it.",
+            "The referee was rude to her during the game.",
+            "She wanted more people to follow her new account."
+          ],
+          "answer": "She was angry because her team lost the game."
+        },
+        {
+          "skill": "inference",
+          "question": "Why wasn’t Mariana’s comment really gone after she deleted it?",
+          "options": [
+            "The app keeps every deleted comment for one full year.",
+            "Someone took a screenshot and shared it in another group.",
+            "The referee printed the comment on paper.",
+            "Her account was hacked by a teammate."
+          ],
+          "answer": "Someone took a screenshot and shared it in another group."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "How is the counselor’s advice connected to Mariana’s decision?",
+          "options": [
+            "It tells her to delete her account immediately.",
+            "It tells her to write another long comment to explain herself.",
+            "It helps her focus on what she can control: apologizing.",
+            "It shows her how to find the person with the screenshot."
+          ],
+          "answer": "It helps her focus on what she can control: apologizing."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main message of the text?",
+          "options": [
+            "Students should never post anything about sports.",
+            "Referees should not read any comments about them on social media.",
+            "Deleting a post always removes it completely.",
+            "Online posts can last, so think first and take responsibility."
+          ],
+          "answer": "Online posts can last, so think first and take responsibility."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “Everything you post becomes part of your digital footprint.” “Digital footprint” means…",
+          "options": [
+            "the information you leave online",
+            "a picture of a phone screen",
+            "a written opinion under a post",
+            "a feeling of being sorry about a post"
+          ],
+          "answer": "the information you leave online"
+        }
+      ],
+      "cover": "../assets/images/week35_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "The Call for Help in the Library",
+      "minimumWordTarget": 600,
+      "wordCount": 611,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week35_grade10_page01.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Call for Help in the Library”, page 1. Scene based on: In a large modern public library in Medellín with tall shelves and big windows, Daniel, 16, and Sofía, 16, study at a long table, while in the background a teenage girl with a backpack searches frantically under tables, looking worried. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Thursday afternoon, Daniel and Sofía were in the <b>library</b>."
+            },
+            {
+              "html": "It was a big public library downtown."
+            },
+            {
+              "html": "They were preparing for an important exam."
+            },
+            {
+              "html": "The library was quiet, and many students were reading."
+            },
+            {
+              "html": "While Daniel was writing, he noticed a girl near the windows."
+            },
+            {
+              "html": "She was looking under the tables and chairs."
+            },
+            {
+              "html": "She was moving fast, and she looked very worried."
+            },
+            {
+              "html": "Other students were watching her, but nobody was helping."
+            },
+            {
+              "html": "After a few minutes, she sat down and covered her face."
+            },
+            {
+              "html": "Sofía closed her book."
+            },
+            {
+              "html": "“I think she needs help,” she whispered."
+            }
+          ],
+          "wordCount": 92
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week35_grade10_page02.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Call for Help in the Library”, page 2. Scene based on: Daniel and Sofía crouch next to the worried girl, named Ana, sitting on the floor near a bookshelf, as she explains with tears in her eyes, holding an empty backpack open. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniel and Sofía walked to the girl quietly."
+            },
+            {
+              "html": "“Hi. Are you okay? Can we help?” Sofía asked."
+            },
+            {
+              "html": "“I lost my <b>document</b>s,” the girl said."
+            },
+            {
+              "html": "Her name was Ana, and she was seventeen."
+            },
+            {
+              "html": "“They’re for my university application. It closes tomorrow.”"
+            },
+            {
+              "html": "“My diploma copy and my ID were in a blue <b>folder</b>.”"
+            },
+            {
+              "html": "“I was sitting at this table an hour ago.”"
+            },
+            {
+              "html": "“Now the folder isn’t here.”"
+            },
+            {
+              "html": "A boy at the next table looked up."
+            },
+            {
+              "html": "“Someone stole it, for sure,” he said."
+            },
+            {
+              "html": "Ana looked even more worried."
+            },
+            {
+              "html": "She was starting to cry."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week35_grade10_page03.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Call for Help in the Library”, page 3. Scene based on: Sofía raises one hand calmly and talks to Ana and Daniel at the table, while the boy at the next table shrugs; Daniel takes out a notebook and a pen. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniel looked at Sofía."
+            },
+            {
+              "html": "“Maybe someone took it,” he said. “Or maybe not.”"
+            },
+            {
+              "html": "Sofía was <b>calm</b>."
+            },
+            {
+              "html": "“Wait. Who would <b>steal</b> a folder of papers?” she asked."
+            },
+            {
+              "html": "“Let’s <b>retrace</b> your afternoon,” she told Ana."
+            },
+            {
+              "html": "“What were you doing before you lost it?”"
+            },
+            {
+              "html": "Ana thought carefully."
+            },
+            {
+              "html": "“I was sitting here at two o’clock,” she said."
+            },
+            {
+              "html": "“I was reading three books about engineering.”"
+            },
+            {
+              "html": "“Then I went to the bathroom.”"
+            },
+            {
+              "html": "“I was gone for about ten minutes.”"
+            },
+            {
+              "html": "“When I came back, my books were gone too.”"
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week35_grade10_page04.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Call for Help in the Library”, page 4. Scene based on: Daniel looks at the empty table and then points across the room at a library worker pushing a metal cart full of books toward the shelves, while Sofía and Ana turn to look. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniel had an idea."
+            },
+            {
+              "html": "“Your books were gone too?” he asked."
+            },
+            {
+              "html": "“Yes. I thought someone took everything.”"
+            },
+            {
+              "html": "Daniel looked around the library."
+            },
+            {
+              "html": "A worker was pushing a <b>cart</b> full of books."
+            },
+            {
+              "html": "“When people leave books on tables, workers collect them,” he said."
+            },
+            {
+              "html": "“Maybe your folder was between the books.”"
+            },
+            {
+              "html": "Ana’s eyes opened wide."
+            },
+            {
+              "html": "“I was using the folder like a bookmark!” she said."
+            },
+            {
+              "html": "“I put it inside one of the books!”"
+            },
+            {
+              "html": "They walked quickly to the <b>librarian</b>’s desk."
+            }
+          ],
+          "wordCount": 78
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week35_grade10_page05.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Call for Help in the Library”, page 5. Scene based on: At the library front desk, a friendly librarian in her forties with glasses listens to Ana, Daniel and Sofía, then points to a back room full of carts of returned books waiting to go back to the shelves. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The librarian listened carefully."
+            },
+            {
+              "html": "“We collected books from that area at 2:30,” she said."
+            },
+            {
+              "html": "“All returned books go to the back room first.”"
+            },
+            {
+              "html": "“Then we put them back on the shelves.”"
+            },
+            {
+              "html": "“Do you remember the titles of your books?”"
+            },
+            {
+              "html": "Ana remembered one: “Bridges and Structures.”"
+            },
+            {
+              "html": "The librarian looked at the computer."
+            },
+            {
+              "html": "“That book is still in the back room. Come with me.”"
+            },
+            {
+              "html": "They followed her to a room full of carts."
+            },
+            {
+              "html": "They started to <b>search</b> the carts one by one."
+            },
+            {
+              "html": "On one cart, there were three engineering books."
+            },
+            {
+              "html": "Ana’s hands were shaking."
+            }
+          ],
+          "wordCount": 92
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week35_grade10_page06.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Call for Help in the Library”, page 6. Scene based on: In the back room of the library, Ana opens a big engineering book and finds the blue folder inside, holding it up with a huge smile of relief, while Sofía claps, Daniel smiles and the librarian laughs. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Ana opened “Bridges and Structures.”"
+            },
+            {
+              "html": "Inside the book, there was a blue folder!"
+            },
+            {
+              "html": "“My documents!” she said, almost crying."
+            },
+            {
+              "html": "She checked everything. Her ID and diploma copy were there."
+            },
+            {
+              "html": "The librarian smiled."
+            },
+            {
+              "html": "“This happens more often than you think,” she said."
+            },
+            {
+              "html": "“People think their things were stolen.”"
+            },
+            {
+              "html": "“But usually, the things are on a cart or a <b>shelf</b>.”"
+            },
+            {
+              "html": "Ana hugged Sofía and then thanked Daniel."
+            },
+            {
+              "html": "“I was so sure someone stole it,” she said."
+            },
+            {
+              "html": "The boy who said “stolen” looked a little embarrassed."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week35_grade10_page07.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Call for Help in the Library”, page 7. Scene based on: Later, Daniel and Sofía sit back at their study table as the sun sets through the big library windows, talking quietly, while Ana waves goodbye from the exit with her blue folder under her arm. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniel and Sofía returned to their table."
+            },
+            {
+              "html": "“While she was panicking, we were thinking,” Sofía said."
+            },
+            {
+              "html": "“The boy guessed the worst thing first,” Daniel said."
+            },
+            {
+              "html": "“And for a moment, I almost believed him.”"
+            },
+            {
+              "html": "Sofía smiled. “We all do that sometimes.”"
+            },
+            {
+              "html": "“Asking ‘what were you doing?’ changed everything.”"
+            },
+            {
+              "html": "Daniel wrote a sentence in his notebook."
+            },
+            {
+              "html": "“When something is lost, retrace the steps before you blame.”"
+            },
+            {
+              "html": "At the exit, Ana waved goodbye with her blue folder."
+            },
+            {
+              "html": "“Good luck with your application!” they said."
+            },
+            {
+              "html": "Then they finally continued studying for their exam."
+            },
+            {
+              "html": "The library was quiet again."
+            }
+          ],
+          "wordCount": 94
+        }
+      ],
+      "practiceWords": [
+        "library",
+        "document",
+        "folder",
+        "search",
+        "librarian",
+        "cart",
+        "shelf",
+        "steal",
+        "calm",
+        "retrace"
+      ],
+      "vocabulary": [
+        {
+          "word": "library",
+          "definition": "a building with books people can read or borrow (biblioteca)"
+        },
+        {
+          "word": "document",
+          "definition": "an official paper with important information (documento)"
+        },
+        {
+          "word": "folder",
+          "definition": "a cover for keeping papers together (carpeta)"
+        },
+        {
+          "word": "search",
+          "definition": "to look carefully for something (buscar)"
+        },
+        {
+          "word": "librarian",
+          "definition": "a person who works in a library (bibliotecario)"
+        },
+        {
+          "word": "cart",
+          "definition": "a small vehicle with wheels to carry things (carrito)"
+        },
+        {
+          "word": "shelf",
+          "definition": "a flat board for holding books (estante)"
+        },
+        {
+          "word": "steal",
+          "definition": "to take something that isn’t yours (robar)"
+        },
+        {
+          "word": "calm",
+          "definition": "quiet and not worried (calmado)"
+        },
+        {
+          "word": "retrace",
+          "definition": "to go back over the same path (repasar, recorrer de nuevo)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Where was Ana’s blue folder?",
+          "options": [
+            "In the bag of the boy at the next table",
+            "Inside a book on a cart in the library’s back room",
+            "Under a table near the big library windows",
+            "On the shelf of the engineering section upstairs"
+          ],
+          "answer": "Inside a book on a cart in the library’s back room"
+        },
+        {
+          "skill": "inference",
+          "question": "Why did Ana think someone stole her folder?",
+          "options": [
+            "The librarian told her that thieves often visit the library.",
+            "Daniel said that someone at the next table stole her documents.",
+            "Her folder and her books disappeared while she was in the bathroom.",
+            "She saw someone take the folder from her table."
+          ],
+          "answer": "Her folder and her books disappeared while she was in the bathroom."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the worker pushing a cart?",
+          "options": [
+            "To describe how the big library looks in the afternoon.",
+            "To show that library workers are very busy on Thursday afternoons.",
+            "To introduce the person who stole the folder.",
+            "To give Daniel the clue that explains where the books went."
+          ],
+          "answer": "To give Daniel the clue that explains where the books went."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What is the relationship between Ana’s habit and the lost folder?",
+          "options": [
+            "She used the folder as a bookmark, so it was collected with the book.",
+            "She gave the folder to the librarian to keep it safe for her.",
+            "She put the folder in her backpack and forgot.",
+            "She left the folder on the cart by accident before lunch."
+          ],
+          "answer": "She used the folder as a bookmark, so it was collected with the book."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which statement best summarizes the text?",
+          "options": [
+            "Students should never use folders or papers as bookmarks in books.",
+            "Retracing what happened is better than guessing the worst explanation.",
+            "Librarians are responsible for all of the students’ belongings.",
+            "People often steal documents in public libraries."
+          ],
+          "answer": "Retracing what happened is better than guessing the worst explanation."
+        }
+      ],
+      "cover": "../assets/images/week35_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "Opportunity or Risk?",
+      "minimumWordTarget": 700,
+      "wordCount": 708,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week35_grade11_page01.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “Opportunity or Risk?”, page 1. Scene based on: In a small music rehearsal room in Medellín with amplifiers and cables, Andrés, 17, holds a phone showing an envelope icon and a guitar icon, excited, while Camila, 17, sits on an amplifier with study books on her lap. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Andrés received an exciting <b>offer</b> on Monday."
+            },
+            {
+              "html": "A local band needed a technical assistant for six weeks."
+            },
+            {
+              "html": "The band was going on a <b>tour</b> around Colombia."
+            },
+            {
+              "html": "They would play in eight cities."
+            },
+            {
+              "html": "The <b>salary</b> was very good for a student."
+            },
+            {
+              "html": "“If I took this job, I would learn a lot.”"
+            },
+            {
+              "html": "Andrés said it with a big smile."
+            },
+            {
+              "html": "“I would work with professional musicians.”"
+            },
+            {
+              "html": "“I would travel to cities I’ve never seen.”"
+            },
+            {
+              "html": "His friend Camila was studying for the national exam."
+            },
+            {
+              "html": "“It sounds amazing,” she said."
+            },
+            {
+              "html": "“But when exactly is the tour?”"
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week35_grade11_page02.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “Opportunity or Risk?”, page 2. Scene based on: Andrés and Camila look at two calendars side by side on a laptop: one for the tour with small city icons, and one for school with an exam icon circled in red, both in the same weeks. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Andrés checked the dates."
+            },
+            {
+              "html": "The tour started in two weeks and lasted six weeks."
+            },
+            {
+              "html": "Camila checked her calendar too."
+            },
+            {
+              "html": "“The Saber 11 <b>exam</b> is in four weeks,” she said."
+            },
+            {
+              "html": "“If you went, you would miss three weeks.”"
+            },
+            {
+              "html": "“Those are your most important weeks of preparation.”"
+            },
+            {
+              "html": "“And the exam is during the tour.”"
+            },
+            {
+              "html": "“It’s on a Sunday in the fourth week.”"
+            },
+            {
+              "html": "Andrés’s smile disappeared."
+            },
+            {
+              "html": "“Maybe I could study on the bus,” he said."
+            },
+            {
+              "html": "“Would you really study after concerts at midnight?” Camila asked."
+            },
+            {
+              "html": "Andrés didn’t answer."
+            },
+            {
+              "html": "He knew the honest answer was no."
+            }
+          ],
+          "wordCount": 92
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week35_grade11_page03.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “Opportunity or Risk?”, page 3. Scene based on: Andrés and Camila sit on the floor of the rehearsal room with a large paper divided into two columns, one with a guitar and coins, the other with an exam paper and a university building, drawing arrows between them. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They made a list of the <b>trade-off</b>s."
+            },
+            {
+              "html": "“If I took the job, I would earn money,” Andrés said."
+            },
+            {
+              "html": "“I would get experience in sound engineering.”"
+            },
+            {
+              "html": "“But I would probably get a lower score on the exam.”"
+            },
+            {
+              "html": "“And my <b>goal</b> is to study engineering at the public university.”"
+            },
+            {
+              "html": "“I need a high score for that,” he admitted."
+            },
+            {
+              "html": "Camila nodded."
+            },
+            {
+              "html": "“It’s a real <b>opportunity</b>,” she said."
+            },
+            {
+              "html": "“But it’s also a real <b>risk</b>.”"
+            },
+            {
+              "html": "“Which one would be harder to repeat?”"
+            },
+            {
+              "html": "Andrés thought about it carefully."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week35_grade11_page04.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “Opportunity or Risk?”, page 4. Scene based on: Andrés sits alone on his bed at night thinking, looking at his phone with the tour offer and a school book beside him, the city lights of Medellín visible through the window. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "That night, Andrés couldn’t sleep."
+            },
+            {
+              "html": "“If I declined, would they ever call me again?” he wondered."
+            },
+            {
+              "html": "“If I accepted, would I regret my exam?”"
+            },
+            {
+              "html": "He thought about his parents."
+            },
+            {
+              "html": "They worked very hard to support his studies."
+            },
+            {
+              "html": "He also thought about the band."
+            },
+            {
+              "html": "They chose him because he was talented and responsible."
+            },
+            {
+              "html": "In the morning, he had an idea."
+            },
+            {
+              "html": "“What if I didn’t choose everything or nothing?”"
+            },
+            {
+              "html": "“What if I asked for a different deal?”"
+            },
+            {
+              "html": "He called the band manager."
+            },
+            {
+              "html": "His heart was beating fast."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week35_grade11_page05.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “Opportunity or Risk?”, page 5. Scene based on: Andrés talks on a video call with a band manager, a friendly woman in her thirties with headphones, while he takes notes; on his desk there is a calendar with two weeks marked green and a study book open. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Andrés decided to <b>negotiate</b>."
+            },
+            {
+              "html": "“I’m very interested, but I have the national exam,” he said."
+            },
+            {
+              "html": "“Could I work only the last two weeks of the tour?”"
+            },
+            {
+              "html": "“After my exam, I would be completely available.”"
+            },
+            {
+              "html": "The manager was quiet for a moment."
+            },
+            {
+              "html": "“Two weeks is less than we need,” she said."
+            },
+            {
+              "html": "“But you’re honest and organized. I like that.”"
+            },
+            {
+              "html": "“We have two concerts in Medellín before the tour.”"
+            },
+            {
+              "html": "“You could help us with those concerts.”"
+            },
+            {
+              "html": "“Then you could join us after the exam.”"
+            },
+            {
+              "html": "Andrés couldn’t believe it. “Yes! Thank you!”"
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week35_grade11_page06.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “Opportunity or Risk?”, page 6. Scene based on: Andrés studies at the library with Camila, both surrounded by practice tests, while on Andrés's phone a message from the band shows a check mark icon and a guitar emoji shape. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "For the next four weeks, Andrés studied every day."
+            },
+            {
+              "html": "He studied with Camila in the library after school."
+            },
+            {
+              "html": "On two Saturdays, he worked at the band’s concerts in Medellín."
+            },
+            {
+              "html": "He learned to set up microphones and test speakers."
+            },
+            {
+              "html": "The musicians were patient and friendly."
+            },
+            {
+              "html": "“If you were always this careful, you’d be great.”"
+            },
+            {
+              "html": "One musician said it with a smile."
+            },
+            {
+              "html": "Andrés smiled. That was exactly his plan."
+            },
+            {
+              "html": "On the exam day, he felt calm and prepared."
+            },
+            {
+              "html": "He answered every question carefully."
+            },
+            {
+              "html": "When he finished, he felt proud of his effort."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week35_grade11_page07.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “Opportunity or Risk?”, page 7. Scene based on: On a tour bus driving through green Colombian mountains, Andrés, 17, sits next to sound equipment cases with headphones around his neck, looking out the window with a satisfied smile, while a phone shows a message from Camila with a star icon. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "After the exam, Andrés joined the tour."
+            },
+            {
+              "html": "He traveled to Cali and Bogotá for the final concerts."
+            },
+            {
+              "html": "He worked hard every night and learned a lot."
+            },
+            {
+              "html": "He didn’t get the whole six weeks."
+            },
+            {
+              "html": "He got two weeks and a good exam."
+            },
+            {
+              "html": "On the bus, he received a message from Camila."
+            },
+            {
+              "html": "“How is the tour? Was the trade-off worth it?”"
+            },
+            {
+              "html": "Andrés looked at the mountains outside."
+            },
+            {
+              "html": "“If I went for six weeks, I’d earn more.”"
+            },
+            {
+              "html": "“But I would risk my main goal.”"
+            },
+            {
+              "html": "“Now I have both, just smaller.”"
+            },
+            {
+              "html": "Camila sent back a smiling face."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week35_grade11_page08.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “Opportunity or Risk?”, page 8. Scene based on: Weeks later, Andrés and Camila sit in a café in Medellín looking at a laptop showing exam results with only a large green check icon, both smiling widely and clinking glasses of juice. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Three weeks later, the exam results arrived."
+            },
+            {
+              "html": "Andrés got a high score."
+            },
+            {
+              "html": "It was enough for the engineering program he wanted."
+            },
+            {
+              "html": "He and Camila celebrated in a small café."
+            },
+            {
+              "html": "“Imagine I had to <b>decline</b> the band,” he said."
+            },
+            {
+              "html": "“Would that be a wrong choice?”"
+            },
+            {
+              "html": "“No. Sometimes saying no is the right answer,” Camila said."
+            },
+            {
+              "html": "“But you found a third answer.”"
+            },
+            {
+              "html": "Andrés nodded and thought about the last month."
+            },
+            {
+              "html": "“Not every choice is opportunity or risk.”"
+            },
+            {
+              "html": "“Sometimes it’s a conversation.”"
+            },
+            {
+              "html": "He raised his juice. “To honest conversations!”"
+            }
+          ],
+          "wordCount": 86
+        }
+      ],
+      "practiceWords": [
+        "opportunity",
+        "offer",
+        "risk",
+        "salary",
+        "tour",
+        "exam",
+        "goal",
+        "negotiate",
+        "decline",
+        "trade-off"
+      ],
+      "vocabulary": [
+        {
+          "word": "opportunity",
+          "definition": "a chance to do something good (oportunidad)"
+        },
+        {
+          "word": "offer",
+          "definition": "a proposal of a job or service (oferta)"
+        },
+        {
+          "word": "risk",
+          "definition": "the possibility that something bad might happen (riesgo)"
+        },
+        {
+          "word": "salary",
+          "definition": "money you receive for your work (salario)"
+        },
+        {
+          "word": "tour",
+          "definition": "a trip with performances in different cities (gira)"
+        },
+        {
+          "word": "exam",
+          "definition": "an important test (examen)"
+        },
+        {
+          "word": "goal",
+          "definition": "something you want to achieve (meta)"
+        },
+        {
+          "word": "negotiate",
+          "definition": "to discuss to reach an agreement (negociar)"
+        },
+        {
+          "word": "decline",
+          "definition": "to say no politely to an offer (rechazar)"
+        },
+        {
+          "word": "trade-off",
+          "definition": "a balance between two things you want (sacrificio, compensación)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "Why was the tour a problem for Andrés?",
+          "options": [
+            "His parents didn’t allow him to travel.",
+            "The band didn’t want a high school student to work with them.",
+            "It was in the same weeks as his exam preparation and the exam.",
+            "The salary was too low for a student."
+          ],
+          "answer": "It was in the same weeks as his exam preparation and the exam."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "Why did Camila ask, “Which one would be harder to repeat?”",
+          "options": [
+            "She wanted to go on the tour instead of him.",
+            "She thought that the band would never call him again after that.",
+            "She wanted him to decline the job immediately.",
+            "She wanted Andrés to compare the long-term value of each choice."
+          ],
+          "answer": "She wanted Andrés to compare the long-term value of each choice."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include Andrés’s phone call with the band manager?",
+          "options": [
+            "To show that negotiating can create a third option.",
+            "To show that Andrés wanted more money.",
+            "To show that the band manager was angry with Andrés.",
+            "To explain how to set up microphones."
+          ],
+          "answer": "To show that negotiating can create a third option."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “They made a list of the trade-offs.” A “trade-off” is…",
+          "options": [
+            "an important test at school",
+            "a balance between two things you want",
+            "a trip with concerts in different cities",
+            "money you receive for your work"
+          ],
+          "answer": "a balance between two things you want"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which statement best expresses the central idea of the text?",
+          "options": [
+            "Students should never accept any jobs during the exam season.",
+            "National exams are not important for young musicians.",
+            "Some hard choices can be solved by negotiating a middle option.",
+            "Music tours are more valuable than university studies."
+          ],
+          "answer": "Some hard choices can be solved by negotiating a middle option."
+        }
+      ],
+      "cover": "../assets/images/week35_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

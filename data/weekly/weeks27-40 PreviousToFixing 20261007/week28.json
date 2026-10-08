@@ -1,0 +1,1785 @@
+{
+  "week": 28,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 28",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "My First Responsibility",
+      "minimumWordTarget": 350,
+      "wordCount": 471,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week28_grade06_page01.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “My First Responsibility”, page 1. Scene based on: Juan is 11 years old and studies in Medellín. One ordinary day at the Medellín Metro, a situation involving a new being responsible begins to change the plans for the afternoon. María is nearby and notices that Juan is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Juan is 11 years old and studies in Medellín. One ordinary day at the Medellín Metro, a situation involving a new responsibility begins to change the plans for the afternoon."
+            },
+            {
+              "html": "María is nearby and notices that Juan is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about work, confidence and realistic commitments."
+            },
+            {
+              "html": "“This is my choice, but that is our shared space,” the student says."
+            },
+            {
+              "html": "María reminds Juan that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Juan has a small <b>job</b> at the community center."
+            },
+            {
+              "html": "Juan wants to <b>help</b> the younger children."
+            },
+            {
+              "html": "There is a lot to <b>learn</b> on the first day."
+            },
+            {
+              "html": "The <b>team</b> welcomes the new helper."
+            }
+          ],
+          "wordCount": 127
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week28_grade06_page02.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “My First Responsibility”, page 2. Scene based on: The situation becomes harder when a young person receives a new being responsible. Juan feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a young person receives a new responsibility. Juan feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "María suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "The family asks, “Is it yours?” and checks before moving anything."
+            },
+            {
+              "html": "Juan listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "The first <b>task</b> is to organize the books."
+            },
+            {
+              "html": "Juan feels <b>nervous</b> but excited."
+            },
+            {
+              "html": "María says, “Just <b>try</b> your best.”"
+            }
+          ],
+          "wordCount": 112
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week28_grade06_page03.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “My First Responsibility”, page 3. Scene based on: Juan decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Juan decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "María explains that being responsible is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "At home, they use technology every day, but they also set simple rules."
+            },
+            {
+              "html": "By the end of the day, the immediate problem has a result. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Juan feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "It is OK to <b>ask</b> when you do not know."
+            },
+            {
+              "html": "Juan wants to <b>finish</b> everything on time."
+            }
+          ],
+          "wordCount": 133
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week28_grade06_page04.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “My First Responsibility”, page 4. Scene based on: At home, Juan thinks about what could have happened if the group had reacted without checking anything. The student writes a short reflection: a responsible choice is not always the fastest or most popular choice. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At home, Juan thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "The student writes a short reflection: a responsible choice is not always the fastest or most popular choice."
+            },
+            {
+              "html": "Next time, Juan plans to ask a clearer question, confirm important information, and explain the reason for the decision."
+            },
+            {
+              "html": "The experience becomes part of how Juan understands school, family, technology, travel, and life in a larger world."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "At the end, Juan feels <b>proud</b>."
+            }
+          ],
+          "wordCount": 99
+        }
+      ],
+      "practiceWords": [
+        "job",
+        "help",
+        "learn",
+        "task",
+        "nervous",
+        "try",
+        "ask",
+        "finish",
+        "proud",
+        "team"
+      ],
+      "vocabulary": [
+        {
+          "word": "job",
+          "definition": "work you do (trabajo)"
+        },
+        {
+          "word": "help",
+          "definition": "to make something easier for someone (ayudar)"
+        },
+        {
+          "word": "learn",
+          "definition": "to get new knowledge (aprender)"
+        },
+        {
+          "word": "task",
+          "definition": "a piece of work to do (tarea)"
+        },
+        {
+          "word": "nervous",
+          "definition": "a little afraid (nervioso)"
+        },
+        {
+          "word": "try",
+          "definition": "to make an effort (intentar)"
+        },
+        {
+          "word": "ask",
+          "definition": "to say a question (preguntar)"
+        },
+        {
+          "word": "finish",
+          "definition": "to complete (terminar)"
+        },
+        {
+          "word": "proud",
+          "definition": "happy about something you did (orgulloso)"
+        },
+        {
+          "word": "team",
+          "definition": "a group that works together (equipo)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "According to the text, what is the problem really about?",
+          "options": [
+            "Intercultural communication and global perspective",
+            "Evidence, honesty and problem solving",
+            "Authenticity and digital judgment",
+            "Work, confidence and realistic commitments"
+          ],
+          "answer": "Work, confidence and realistic commitments"
+        },
+        {
+          "skill": "sequence",
+          "question": "What happens AFTER the students hear different versions of what happened?",
+          "options": [
+            "Juan decides to take one small, concrete action.",
+            "The story begins in Medellín.",
+            "María arrives at the Medellín Metro for the first time.",
+            "Juan notices the situation for the first time."
+          ],
+          "answer": "Juan decides to take one small, concrete action."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read this sentence from page 2: “Juan feels nervous but excited.” In this sentence, the word “nervous” means…",
+          "options": [
+            "to complete",
+            "happy about something you did",
+            "to make an effort",
+            "a little afraid"
+          ],
+          "answer": "a little afraid"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which option is the best summary of the text?",
+          "options": [
+            "María solves the problem alone while Juan watches.",
+            "Juan faces a problem because a young person receives a new responsibility, checks the facts with María and makes a responsible decision.",
+            "Juan and María travel to New York to solve the problem.",
+            "Juan hides a mistake from the team and the problem disappears."
+          ],
+          "answer": "Juan faces a problem because a young person receives a new responsibility, checks the facts with María and makes a responsible decision."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why does Juan listen carefully before answering?",
+          "options": [
+            "Because he does not understand Spanish.",
+            "Because one missing detail can change the meaning of the situation.",
+            "Because nobody else is paying attention.",
+            "Because the teacher prohibits talking."
+          ],
+          "answer": "Because one missing detail can change the meaning of the situation."
+        }
+      ],
+      "cover": "../assets/images/week28_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "The Opportunity At The Community Center",
+      "minimumWordTarget": 400,
+      "wordCount": 523,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week28_grade07_page01.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Opportunity At The Community Center”, page 1. Scene based on: Valeria is 12 years old and studies in Medellín. One ordinary day at a library near the school, a situation involving a new responsibility begins to change the plans for the afternoon. Samuel is nearby and notices that Valeria is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valeria is 12 years old and studies in Medellín. One ordinary day at a library near the school, a situation involving a new responsibility begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Samuel is nearby and notices that Valeria is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about work, confidence and realistic commitments."
+            },
+            {
+              "html": "Valeria has a small <b>job</b> at the community center."
+            },
+            {
+              "html": "Valeria wants to <b>help</b> the younger children."
+            },
+            {
+              "html": "There is a lot to <b>learn</b> on the first day."
+            },
+            {
+              "html": "At the end, Valeria feels <b>proud</b>."
+            }
+          ],
+          "wordCount": 99
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week28_grade07_page02.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Opportunity At The Community Center”, page 2. Scene based on: The situation becomes harder when a young person receives a new responsibility. Valeria feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a young person receives a new responsibility. Valeria feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Samuel suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "“Are we going to change the plan?” one student asks."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "The first <b>task</b> is to organize the books."
+            },
+            {
+              "html": "Valeria feels <b>nervous</b> but excited."
+            },
+            {
+              "html": "The <b>team</b> welcomes the new helper."
+            }
+          ],
+          "wordCount": 115
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week28_grade07_page03.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Opportunity At The Community Center”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Valeria has to think about the first idea again. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Valeria has to think about the first idea again."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "Samuel says, “Just <b>try</b> your best.”"
+            }
+          ],
+          "wordCount": 105
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week28_grade07_page04.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Opportunity At The Community Center”, page 4. Scene based on: Valeria decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valeria decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Samuel explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "They point to the options: “This route is shorter, but these tickets are cheaper.”"
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week28_grade07_page05.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Opportunity At The Community Center”, page 5. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Valeria feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Valeria feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about work, confidence and realistic commitments."
+            },
+            {
+              "html": "At home, Valeria thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "It is OK to <b>ask</b> when you do not know."
+            },
+            {
+              "html": "Valeria wants to <b>finish</b> everything on time."
+            }
+          ],
+          "wordCount": 113
+        }
+      ],
+      "practiceWords": [
+        "job",
+        "help",
+        "learn",
+        "task",
+        "nervous",
+        "try",
+        "ask",
+        "finish",
+        "proud",
+        "team"
+      ],
+      "vocabulary": [
+        {
+          "word": "job",
+          "definition": "work you do (trabajo)"
+        },
+        {
+          "word": "help",
+          "definition": "to make something easier for someone (ayudar)"
+        },
+        {
+          "word": "learn",
+          "definition": "to get new knowledge (aprender)"
+        },
+        {
+          "word": "task",
+          "definition": "a piece of work to do (tarea)"
+        },
+        {
+          "word": "nervous",
+          "definition": "a little afraid (nervioso)"
+        },
+        {
+          "word": "try",
+          "definition": "to make an effort (intentar)"
+        },
+        {
+          "word": "ask",
+          "definition": "to say a question (preguntar)"
+        },
+        {
+          "word": "finish",
+          "definition": "to complete (terminar)"
+        },
+        {
+          "word": "proud",
+          "definition": "happy about something you did (orgulloso)"
+        },
+        {
+          "word": "team",
+          "definition": "a group that works together (equipo)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "According to the text, where does Valeria's situation begin?",
+          "options": [
+            "A neighborhood in Manrique",
+            "A library near the school",
+            "A sports court on a Medellín hillside",
+            "A community center"
+          ],
+          "answer": "A library near the school"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "What happens because the students do not have all the facts?",
+          "options": [
+            "They stop talking to each other.",
+            "They immediately find the solution.",
+            "They hear different versions of what happened.",
+            "They decide to go home early."
+          ],
+          "answer": "They hear different versions of what happened."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which word best represents the central topic of the text?",
+          "options": [
+            "friendship",
+            "memories",
+            "plans",
+            "responsibility"
+          ],
+          "answer": "responsibility"
+        },
+        {
+          "skill": "simple inference",
+          "question": "Which action would go AGAINST what Valeria learns in the story?",
+          "options": [
+            "Asking a clear question.",
+            "Explaining the reason for a decision.",
+            "Verifying a detail first.",
+            "Quiting after the first difficult day without thinking."
+          ],
+          "answer": "Quiting after the first difficult day without thinking."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Which word from the text means “to make something easier for someone”?",
+          "options": [
+            "learn",
+            "help",
+            "finish",
+            "team"
+          ],
+          "answer": "help"
+        }
+      ],
+      "cover": "../assets/images/week28_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "The Role Nobody Wanted",
+      "minimumWordTarget": 450,
+      "wordCount": 549,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week28_grade08_page01.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Role Nobody Wanted”, page 1. Scene based on: Camila is 13 years old and studies in Medellín. One ordinary day at a sports court on a Medellín hillside, a situation involving a new responsibility begins to change the plans for the afternoon. Lucía is nearby and notices that Camila is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Camila is 13 years old and studies in Medellín. One ordinary day at a sports court on a Medellín hillside, a situation involving a new responsibility begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Lucía is nearby and notices that Camila is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about work, confidence and realistic commitments."
+            },
+            {
+              "html": "The new <b>responsibility</b> feels big at first."
+            },
+            {
+              "html": "Camila is a new <b>volunteer</b> at the center."
+            },
+            {
+              "html": "The coordinator needs someone <b>reliable</b>."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week28_grade08_page02.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Role Nobody Wanted”, page 2. Scene based on: The situation becomes harder when a young person receives a new responsibility. Camila feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a young person receives a new responsibility. Camila feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Lucía suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "They are meeting again on Friday, so the plan already feels real."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "A <b>commitment</b> should be realistic."
+            },
+            {
+              "html": "Each small success builds <b>confidence</b>."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week28_grade08_page03.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Role Nobody Wanted”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Camila has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Camila has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Camila learns to <b>organize</b> the materials."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week28_grade08_page04.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Role Nobody Wanted”, page 4. Scene based on: Camila decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Camila decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Lucía explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "The teacher gives them time to discuss the problem and asks the group to listen."
+            },
+            {
+              "html": "Lucía reminds Camila that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "A <b>mistake</b> is a chance to learn."
+            },
+            {
+              "html": "The <b>schedule</b> must fit with school."
+            }
+          ],
+          "wordCount": 102
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week28_grade08_page05.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Role Nobody Wanted”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in Brooklyn, New York. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in Brooklyn, New York."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Camila realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "Lucía reads the <b>instructions</b> carefully."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week28_grade08_page06.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Role Nobody Wanted”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Camila feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Camila feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about work, confidence and realistic commitments."
+            },
+            {
+              "html": "At home, Camila thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "This job gives Camila real <b>experience</b>."
+            }
+          ],
+          "wordCount": 102
+        }
+      ],
+      "practiceWords": [
+        "responsibility",
+        "volunteer",
+        "commitment",
+        "confidence",
+        "organize",
+        "mistake",
+        "schedule",
+        "instructions",
+        "experience",
+        "reliable"
+      ],
+      "vocabulary": [
+        {
+          "word": "responsibility",
+          "definition": "a duty you must do (responsabilidad)"
+        },
+        {
+          "word": "volunteer",
+          "definition": "a person who works without pay (voluntario)"
+        },
+        {
+          "word": "commitment",
+          "definition": "a promise to do something (compromiso)"
+        },
+        {
+          "word": "confidence",
+          "definition": "belief in yourself (confianza)"
+        },
+        {
+          "word": "organize",
+          "definition": "to put things in order (organizar)"
+        },
+        {
+          "word": "mistake",
+          "definition": "something done wrong (error)"
+        },
+        {
+          "word": "schedule",
+          "definition": "a plan of times (horario)"
+        },
+        {
+          "word": "instructions",
+          "definition": "information about how to do something (instrucciones)"
+        },
+        {
+          "word": "experience",
+          "definition": "knowledge from doing something (experiencia)"
+        },
+        {
+          "word": "reliable",
+          "definition": "can be trusted (confiable)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What makes the situation harder for Camila?",
+          "options": [
+            "A simple meal becomes a meaningful social moment",
+            "A phone notification appears at the wrong moment",
+            "A young person receives a new responsibility",
+            "Family responsibilities interrupt a personal plan"
+          ],
+          "answer": "A young person receives a new responsibility"
+        },
+        {
+          "skill": "inference",
+          "question": "Which action would go AGAINST what Camila learns in the story?",
+          "options": [
+            "Explaining the reason for a decision.",
+            "Verifying a detail first.",
+            "Quiting after the first difficult day without thinking.",
+            "Asking a clear question."
+          ],
+          "answer": "Quiting after the first difficult day without thinking."
+        },
+        {
+          "skill": "purpose",
+          "question": "What is the author's main purpose in this text?",
+          "options": [
+            "To show, through a story, how to act responsibly when a young person receives a new responsibility.",
+            "To sell a product to students.",
+            "To describe the history of Medellín.",
+            "To give scientific data about teenagers in Colombia."
+          ],
+          "answer": "To show, through a story, how to act responsibly when a young person receives a new responsibility."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which sentence best expresses the main lesson of the text?",
+          "options": [
+            "Popular opinions are usually correct.",
+            "Good decisions come from evidence, not from pressure.",
+            "It is better to stay silent when there is a problem.",
+            "The fastest reaction is always the best one."
+          ],
+          "answer": "Good decisions come from evidence, not from pressure."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read this sentence from page 4: “The schedule must fit with school.” In this sentence, the word “schedule” means…",
+          "options": [
+            "belief in yourself",
+            "information about how to do something",
+            "something done wrong",
+            "a plan of times"
+          ],
+          "answer": "a plan of times"
+        }
+      ],
+      "cover": "../assets/images/week28_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "A Job That Looked Easy",
+      "minimumWordTarget": 500,
+      "wordCount": 596,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week28_grade09_page01.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “A Job That Looked Easy”, page 1. Scene based on: Daniela is 14 years old and studies in Medellín. One ordinary day at a small family apartment, a situation involving a new responsibility begins to change the plans for the afternoon. Mateo is nearby and notices that Daniela is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniela is 14 years old and studies in Medellín. One ordinary day at a small family apartment, a situation involving a new responsibility begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Mateo is nearby and notices that Daniela is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about work, confidence and realistic commitments."
+            },
+            {
+              "html": "The new <b>responsibility</b> feels big at first."
+            },
+            {
+              "html": "Daniela is a new <b>volunteer</b> at the center."
+            },
+            {
+              "html": "A <b>commitment</b> should be realistic."
+            },
+            {
+              "html": "Mateo reads the <b>instructions</b> carefully."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week28_grade09_page02.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “A Job That Looked Easy”, page 2. Scene based on: The situation becomes harder when a young person receives a new responsibility. Daniela feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a young person receives a new responsibility. Daniela feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Mateo suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "The students have to consider safety before making a decision."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Mateo reminds Daniela that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "This job gives Daniela real <b>experience</b>."
+            }
+          ],
+          "wordCount": 101
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week28_grade09_page03.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “A Job That Looked Easy”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Daniela has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Daniela has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Mateo reminds Daniela that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Each small success builds <b>confidence</b>."
+            },
+            {
+              "html": "The coordinator needs someone <b>reliable</b>."
+            }
+          ],
+          "wordCount": 103
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week28_grade09_page04.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “A Job That Looked Easy”, page 4. Scene based on: Daniela decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniela decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Mateo explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "The situation might improve, but it may also become harder if nobody checks the facts."
+            },
+            {
+              "html": "Daniela listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "Daniela learns to <b>organize</b> the materials."
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week28_grade09_page05.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “A Job That Looked Easy”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in a subway station in Manhattan. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in a subway station in Manhattan."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Daniela realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "A <b>mistake</b> is a chance to learn."
+            }
+          ],
+          "wordCount": 104
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week28_grade09_page06.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “A Job That Looked Easy”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Daniela feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Daniela feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about work, confidence and realistic commitments."
+            },
+            {
+              "html": "At home, Daniela thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "The <b>schedule</b> must fit with school."
+            }
+          ],
+          "wordCount": 102
+        }
+      ],
+      "practiceWords": [
+        "responsibility",
+        "volunteer",
+        "commitment",
+        "confidence",
+        "organize",
+        "mistake",
+        "schedule",
+        "instructions",
+        "experience",
+        "reliable"
+      ],
+      "vocabulary": [
+        {
+          "word": "responsibility",
+          "definition": "a duty you must do (responsabilidad)"
+        },
+        {
+          "word": "volunteer",
+          "definition": "a person who works without pay (voluntario)"
+        },
+        {
+          "word": "commitment",
+          "definition": "a promise to do something (compromiso)"
+        },
+        {
+          "word": "confidence",
+          "definition": "belief in yourself (confianza)"
+        },
+        {
+          "word": "organize",
+          "definition": "to put things in order (organizar)"
+        },
+        {
+          "word": "mistake",
+          "definition": "something done wrong (error)"
+        },
+        {
+          "word": "schedule",
+          "definition": "a plan of times (horario)"
+        },
+        {
+          "word": "instructions",
+          "definition": "information about how to do something (instrucciones)"
+        },
+        {
+          "word": "experience",
+          "definition": "knowledge from doing something (experiencia)"
+        },
+        {
+          "word": "reliable",
+          "definition": "can be trusted (confiable)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Which statement is TRUE according to the text?",
+          "options": [
+            "Mateo wants Daniela to react immediately.",
+            "Daniela accepts every task to impress the coordinator.",
+            "The students have all the facts from the beginning.",
+            "Mateo suggests checking the information before blaming anyone."
+          ],
+          "answer": "Mateo suggests checking the information before blaming anyone."
+        },
+        {
+          "skill": "inference",
+          "question": "Imagine you are in Daniela's situation. Which action follows the message of the text?",
+          "options": [
+            "Hide a mistake from the team.",
+            "Quit after the first difficult day.",
+            "Make a realistic commitment and ask questions when unsure.",
+            "Accept every task to impress the coordinator."
+          ],
+          "answer": "Make a realistic commitment and ask questions when unsure."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In the sentence “The action does not solve everything immediately, but it prevents the problem from growing,” the word “but” introduces…",
+          "options": [
+            "an example",
+            "a reason",
+            "a contrast",
+            "a time sequence"
+          ],
+          "answer": "a contrast"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which word best represents the central topic of the text?",
+          "options": [
+            "responsibility",
+            "friendship",
+            "safety",
+            "environment"
+          ],
+          "answer": "responsibility"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Complete the sentence from the text: “This job gives Daniela real _____.”",
+          "options": [
+            "responsibility",
+            "experience",
+            "commitment",
+            "reliable"
+          ],
+          "answer": "experience"
+        }
+      ],
+      "cover": "../assets/images/week28_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "The Opportunity Across The City",
+      "minimumWordTarget": 600,
+      "wordCount": 749,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week28_grade10_page01.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Opportunity Across The City”, page 1. Scene based on: Mateo is 15–16 years old and studies in Medellín. One ordinary day at a community center, a situation involving a new responsibility begins to change the plans for the afternoon. Isabella is nearby and notices that Mateo is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mateo is 15–16 years old and studies in Medellín. One ordinary day at a community center, a situation involving a new responsibility begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Isabella is nearby and notices that Mateo is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about work, confidence and realistic commitments."
+            },
+            {
+              "html": "Every role includes an <b>obligation</b> to others."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "The <b>workload</b> grows during exam week."
+            }
+          ],
+          "wordCount": 98
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week28_grade10_page02.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Opportunity Across The City”, page 2. Scene based on: The situation becomes harder when a young person receives a new responsibility. Mateo feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a young person receives a new responsibility. Mateo feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Isabella suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "The group is meeting after class, and they are going to compare several options."
+            },
+            {
+              "html": "Isabella reminds Mateo that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Mateo listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "Mateo shows <b>initiative</b> by asking for feedback."
+            },
+            {
+              "html": "Honest <b>feedback</b> helps Mateo improve."
+            }
+          ],
+          "wordCount": 108
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week28_grade10_page03.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Opportunity Across The City”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Mateo has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Mateo has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Mateo listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "Mateo becomes more <b>competent</b> week by week."
+            }
+          ],
+          "wordCount": 100
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week28_grade10_page04.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Opportunity Across The City”, page 4. Scene based on: Mateo decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mateo decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Isabella explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "One student says, “I will call if the plan changes.”"
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "It is easy to <b>overcommit</b> when you want to impress."
+            },
+            {
+              "html": "Mateo sets a clear <b>boundary</b> to protect study time."
+            }
+          ],
+          "wordCount": 124
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week28_grade10_page05.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Opportunity Across The City”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in a youth exchange in New York City. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in a youth exchange in New York City."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Mateo realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "Being <b>accountable</b> means reporting problems honestly."
+            },
+            {
+              "html": "A <b>realistic</b> plan avoids disappointment."
+            }
+          ],
+          "wordCount": 114
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week28_grade10_page06.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Opportunity Across The City”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Mateo feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Mateo feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about work, confidence and realistic commitments."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            }
+          ],
+          "wordCount": 99
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week28_grade10_page07.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Opportunity Across The City”, page 7. Scene based on: The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another. They also discuss the author’s purpose and decide which detail best supports the final lesson. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another."
+            },
+            {
+              "html": "They also discuss the author’s purpose and decide which detail best supports the final lesson."
+            },
+            {
+              "html": "Mateo notices that strong reading is not only translating words. It means connecting evidence, sequence, intention, and consequences."
+            },
+            {
+              "html": "That habit will be useful in future exams because a difficult question often depends on a small but meaningful detail."
+            },
+            {
+              "html": "Isabella reminds Mateo that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "The coordinator teaches Mateo how to <b>delegate</b> tasks."
+            }
+          ],
+          "wordCount": 106
+        }
+      ],
+      "practiceWords": [
+        "obligation",
+        "initiative",
+        "overcommit",
+        "accountable",
+        "delegate",
+        "workload",
+        "feedback",
+        "competent",
+        "boundary",
+        "realistic"
+      ],
+      "vocabulary": [
+        {
+          "word": "obligation",
+          "definition": "something you must do (obligación)"
+        },
+        {
+          "word": "initiative",
+          "definition": "the ability to act without being told (iniciativa)"
+        },
+        {
+          "word": "overcommit",
+          "definition": "to promise more than you can do (comprometerse de más)"
+        },
+        {
+          "word": "accountable",
+          "definition": "responsible for your actions (responsable)"
+        },
+        {
+          "word": "delegate",
+          "definition": "to give part of your work to someone else (delegar)"
+        },
+        {
+          "word": "workload",
+          "definition": "the amount of work to do (carga de trabajo)"
+        },
+        {
+          "word": "feedback",
+          "definition": "comments that help you improve (retroalimentación)"
+        },
+        {
+          "word": "competent",
+          "definition": "having the skills to do something well (competente)"
+        },
+        {
+          "word": "boundary",
+          "definition": "a limit (límite)"
+        },
+        {
+          "word": "realistic",
+          "definition": "based on what is possible (realista)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "According to the text, where does Mateo's situation begin?",
+          "options": [
+            "A bus stop after school",
+            "A school courtyard",
+            "A community center",
+            "A sports court on a Medellín hillside"
+          ],
+          "answer": "A community center"
+        },
+        {
+          "skill": "inference",
+          "question": "What can be inferred about Isabella?",
+          "options": [
+            "She wants Mateo to react as fast as possible.",
+            "She is not interested in the problem.",
+            "She helps Mateo think carefully before acting.",
+            "She created the problem on purpose."
+          ],
+          "answer": "She helps Mateo think carefully before acting."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author end the story with a reading challenge in class?",
+          "options": [
+            "To describe the school building.",
+            "To explain the rules of a sports competition.",
+            "To show that the problem was not important.",
+            "To connect the experience with reading skills like main idea and fact versus assumption."
+          ],
+          "answer": "To connect the experience with reading skills like main idea and fact versus assumption."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What is the relationship between the Medellín situation and the New York example?",
+          "options": [
+            "Both show the same basic problem in different places.",
+            "They are completely unrelated situations.",
+            "The Medellín situation solves the New York problem.",
+            "The New York example causes the Medellín problem."
+          ],
+          "answer": "Both show the same basic problem in different places."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which sentence best expresses the main lesson of the text?",
+          "options": [
+            "It is better to stay silent when there is a problem.",
+            "Good decisions come from evidence, not from pressure.",
+            "The fastest reaction is always the best one.",
+            "Popular opinions are usually correct."
+          ],
+          "answer": "Good decisions come from evidence, not from pressure."
+        }
+      ],
+      "cover": "../assets/images/week28_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "The Offer With Conditions",
+      "minimumWordTarget": 700,
+      "wordCount": 807,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week28_grade11_page01.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Offer With Conditions”, page 1. Scene based on: Daniela is 17–18 years old and studies in Medellín. One ordinary day at a local shopping area, a situation involving a new responsibility begins to change the plans for the afternoon. Nicolás is nearby and notices that Daniela is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniela is 17–18 years old and studies in Medellín. One ordinary day at a local shopping area, a situation involving a new responsibility begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Nicolás is nearby and notices that Daniela is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about work, confidence and realistic commitments."
+            },
+            {
+              "html": "Students must follow the safety rules, but they do not have to accept every suggestion."
+            },
+            {
+              "html": "Nicolás reminds Daniela that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Every role includes an <b>obligation</b> to others."
+            },
+            {
+              "html": "Daniela shows <b>initiative</b> by asking for feedback."
+            },
+            {
+              "html": "A <b>realistic</b> plan avoids disappointment."
+            }
+          ],
+          "wordCount": 117
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week28_grade11_page02.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Offer With Conditions”, page 2. Scene based on: The situation becomes harder when a young person receives a new responsibility. Daniela feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when a young person receives a new responsibility. Daniela feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Nicolás suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "It is easy to <b>overcommit</b> when you want to impress."
+            },
+            {
+              "html": "Daniela listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            }
+          ],
+          "wordCount": 92
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week28_grade11_page03.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Offer With Conditions”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Daniela has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Daniela has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Being <b>accountable</b> means reporting problems honestly."
+            }
+          ],
+          "wordCount": 99
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week28_grade11_page04.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Offer With Conditions”, page 4. Scene based on: Daniela decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniela decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Nicolás explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "The coordinator teaches Daniela how to <b>delegate</b> tasks."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "The <b>workload</b> grows during exam week."
+            }
+          ],
+          "wordCount": 92
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week28_grade11_page05.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Offer With Conditions”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in an online classroom shared with New York students. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in an online classroom shared with New York students."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Daniela realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            }
+          ],
+          "wordCount": 103
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week28_grade11_page06.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Offer With Conditions”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Daniela feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Daniela feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about work, confidence and realistic commitments."
+            },
+            {
+              "html": "Nicolás reminds Daniela that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Honest <b>feedback</b> helps Daniela improve."
+            }
+          ],
+          "wordCount": 101
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week28_grade11_page07.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Offer With Conditions”, page 7. Scene based on: At home, Daniela thinks about what could have happened if the group had reacted without checking anything. The student writes a short reflection: a responsible choice is not always the fastest or most popular choice. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At home, Daniela thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "The student writes a short reflection: a responsible choice is not always the fastest or most popular choice."
+            },
+            {
+              "html": "Next time, Daniela plans to ask a clearer question, confirm important information, and explain the reason for the decision."
+            },
+            {
+              "html": "The experience becomes part of how Daniela understands school, family, technology, travel, and life in a larger world."
+            },
+            {
+              "html": "Daniela listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "Daniela becomes more <b>competent</b> week by week."
+            }
+          ],
+          "wordCount": 96
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week28_grade11_page08.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “The Offer With Conditions”, page 8. Scene based on: The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another. They also discuss the author’s purpose and decide which detail best supports the final lesson. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another."
+            },
+            {
+              "html": "They also discuss the author’s purpose and decide which detail best supports the final lesson."
+            },
+            {
+              "html": "Daniela notices that strong reading is not only translating words. It means connecting evidence, sequence, intention, and consequences."
+            },
+            {
+              "html": "That habit will be useful in future exams because a difficult question often depends on a small but meaningful detail."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Daniela sets a clear <b>boundary</b> to protect study time."
+            }
+          ],
+          "wordCount": 107
+        }
+      ],
+      "practiceWords": [
+        "obligation",
+        "initiative",
+        "overcommit",
+        "accountable",
+        "delegate",
+        "workload",
+        "feedback",
+        "competent",
+        "boundary",
+        "realistic"
+      ],
+      "vocabulary": [
+        {
+          "word": "obligation",
+          "definition": "something you must do (obligación)"
+        },
+        {
+          "word": "initiative",
+          "definition": "the ability to act without being told (iniciativa)"
+        },
+        {
+          "word": "overcommit",
+          "definition": "to promise more than you can do (comprometerse de más)"
+        },
+        {
+          "word": "accountable",
+          "definition": "responsible for your actions (responsable)"
+        },
+        {
+          "word": "delegate",
+          "definition": "to give part of your work to someone else (delegar)"
+        },
+        {
+          "word": "workload",
+          "definition": "the amount of work to do (carga de trabajo)"
+        },
+        {
+          "word": "feedback",
+          "definition": "comments that help you improve (retroalimentación)"
+        },
+        {
+          "word": "competent",
+          "definition": "having the skills to do something well (competente)"
+        },
+        {
+          "word": "boundary",
+          "definition": "a limit (límite)"
+        },
+        {
+          "word": "realistic",
+          "definition": "based on what is possible (realista)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "Based on the text, what will Daniela probably do in a similar situation in the future?",
+          "options": [
+            "React immediately without asking anyone.",
+            "Ask a clearer question and confirm important information first.",
+            "Accept every task to impress the coordinator.",
+            "Avoid all situations with other people."
+          ],
+          "answer": "Ask a clearer question and confirm important information first."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What is the relationship between the Medellín situation and the New York example?",
+          "options": [
+            "The Medellín situation solves the New York problem.",
+            "Both show the same basic problem in different places.",
+            "The New York example causes the Medellín problem.",
+            "They are completely unrelated situations."
+          ],
+          "answer": "Both show the same basic problem in different places."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the example from an online classroom shared with New York students?",
+          "options": [
+            "To change the topic of the story completely.",
+            "To show that a similar problem can appear in different places.",
+            "To advertise a trip to the United States.",
+            "To prove that New York is better than Medellín."
+          ],
+          "answer": "To show that a similar problem can appear in different places."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Complete the sentence from the text: “Every role includes an _____ to others.”",
+          "options": [
+            "delegate",
+            "workload",
+            "accountable",
+            "obligation"
+          ],
+          "answer": "obligation"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which word best represents the central topic of the text?",
+          "options": [
+            "evidence",
+            "travel",
+            "memories",
+            "responsibility"
+          ],
+          "answer": "responsibility"
+        }
+      ],
+      "cover": "../assets/images/week28_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

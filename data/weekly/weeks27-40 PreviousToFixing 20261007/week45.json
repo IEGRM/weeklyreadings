@@ -1,0 +1,1743 @@
+{
+  "week": 45,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 45",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "My Plan For Next Year",
+      "minimumWordTarget": 350,
+      "wordCount": 398,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week45_grade06_page01.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “My Plan For Next Year”, page 1. Scene based on: Sofía is 11 years old and studies in Medellín. One ordinary day at a community center, a situation involving a future plan begins to change the plans for the afternoon. Nico is nearby and notices that Sofía is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Sofía is 11 years old and studies in Medellín. One ordinary day at a community center, a situation involving a future plan begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Nico is nearby and notices that Sofía is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about reflection, goals and informed choices."
+            },
+            {
+              "html": "Sofía writes a <b>plan</b> for next year."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "<b>Next year</b> will bring new classes."
+            },
+            {
+              "html": "Everyone wants to <b>grow</b>."
+            }
+          ],
+          "wordCount": 99
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week45_grade06_page02.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “My Plan For Next Year”, page 2. Scene based on: The situation becomes harder when students make a realistic plan for the future. Sofía feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when students make a realistic plan for the future. Sofía feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Nico suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "They talk about the <b>future</b>."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "Sofía has a big <b>dream</b>."
+            },
+            {
+              "html": "Each student writes one <b>goal</b>."
+            },
+            {
+              "html": "The first <b>step</b> is small."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week45_grade06_page03.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “My Plan For Next Year”, page 3. Scene based on: Sofía decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Sofía decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Nico explains that being responsible is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "Sofía wants to <b>study</b> more English."
+            },
+            {
+              "html": "By the end of the day, the immediate problem has a result. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Sofía feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "Sofía thinks about what they really <b>like</b>."
+            }
+          ],
+          "wordCount": 116
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week45_grade06_page04.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “My Plan For Next Year”, page 4. Scene based on: At home, Sofía thinks about what could have happened if the group had reacted without checking anything. The student writes a short reflection: a responsible choice is not always the fastest or most popular choice. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At home, Sofía thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "The student writes a short reflection: a responsible choice is not always the fastest or most popular choice."
+            },
+            {
+              "html": "Next time, Sofía plans to ask a clearer question, confirm important information, and explain the reason for the decision."
+            },
+            {
+              "html": "The experience becomes part of how Sofía understands school, family, technology, travel, and life in a larger world."
+            },
+            {
+              "html": "Nico reminds Sofía that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Teachers <b>help</b> students plan."
+            }
+          ],
+          "wordCount": 93
+        }
+      ],
+      "practiceWords": [
+        "plan",
+        "future",
+        "dream",
+        "study",
+        "next year",
+        "goal",
+        "like",
+        "help",
+        "grow",
+        "step"
+      ],
+      "vocabulary": [
+        {
+          "word": "plan",
+          "definition": "an idea about what you will do (plan)"
+        },
+        {
+          "word": "future",
+          "definition": "the time after now (futuro)"
+        },
+        {
+          "word": "dream",
+          "definition": "something you really want (sueño)"
+        },
+        {
+          "word": "study",
+          "definition": "to learn at school (estudiar)"
+        },
+        {
+          "word": "next year",
+          "definition": "the year after this one (el próximo año)"
+        },
+        {
+          "word": "goal",
+          "definition": "something you want to do (meta)"
+        },
+        {
+          "word": "like",
+          "definition": "to enjoy (gustar)"
+        },
+        {
+          "word": "help",
+          "definition": "to make easier for someone (ayudar)"
+        },
+        {
+          "word": "grow",
+          "definition": "to become bigger or better (crecer)"
+        },
+        {
+          "word": "step",
+          "definition": "one action in a process (paso)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "Who notices that Sofía is paying close attention to what is happening?",
+          "options": [
+            "Nico",
+            "Isabella",
+            "Daniela",
+            "Santiago"
+          ],
+          "answer": "Nico"
+        },
+        {
+          "skill": "sequence",
+          "question": "Which event happens at the END of the story?",
+          "options": [
+            "Nico notices that Sofía is paying attention.",
+            "Sofía notices the problem at a community center.",
+            "Sofía writes a short reflection at home.",
+            "The situation becomes harder because students make a realistic plan for the future."
+          ],
+          "answer": "Sofía writes a short reflection at home."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Complete the sentence from the text: “_____ will bring new classes.”",
+          "options": [
+            "next year",
+            "goal",
+            "help",
+            "future"
+          ],
+          "answer": "next year"
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the text mainly about?",
+          "options": [
+            "How Sofía deals with a problem about reflection, goals and informed choices by checking facts before acting",
+            "A vacation trip planned for next year",
+            "How universities are organized",
+            "Why the future is impossible to predict"
+          ],
+          "answer": "How Sofía deals with a problem about reflection, goals and informed choices by checking facts before acting"
+        },
+        {
+          "skill": "simple inference",
+          "question": "Imagine you are in Sofía's situation. Which action follows the message of the text?",
+          "options": [
+            "Research options and set realistic goals.",
+            "Stop thinking about the future.",
+            "Decide everything without any information.",
+            "Copy a friend's plan exactly."
+          ],
+          "answer": "Research options and set realistic goals."
+        }
+      ],
+      "cover": "../assets/images/week45_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "What I Am Going To Do Next",
+      "minimumWordTarget": 400,
+      "wordCount": 484,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week45_grade07_page01.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “What I Am Going To Do Next”, page 1. Scene based on: Camilo is 12 years old and studies in Medellín. One ordinary day at a local shopping area, a situation involving a future plan begins to change the plans for the afternoon. Daniela is nearby and notices that Camilo is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Camilo is 12 years old and studies in Medellín. One ordinary day at a local shopping area, a situation involving a future plan begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Daniela is nearby and notices that Camilo is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about reflection, goals and informed choices."
+            },
+            {
+              "html": "Camilo writes a <b>plan</b> for next year."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "They talk about the <b>future</b>."
+            },
+            {
+              "html": "Teachers <b>help</b> students plan."
+            }
+          ],
+          "wordCount": 103
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week45_grade07_page02.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “What I Am Going To Do Next”, page 2. Scene based on: The situation becomes harder when students make a realistic plan for the future. Camilo feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when students make a realistic plan for the future. Camilo feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Daniela suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "Camilo has a big <b>dream</b>."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Camilo wants to <b>study</b> more English."
+            },
+            {
+              "html": "Everyone wants to <b>grow</b>."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week45_grade07_page03.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “What I Am Going To Do Next”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Camilo has to think about the first idea again. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Camilo has to think about the first idea again."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Daniela reminds Camilo that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "<b>Next year</b> will bring new classes."
+            },
+            {
+              "html": "The first <b>step</b> is small."
+            }
+          ],
+          "wordCount": 106
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week45_grade07_page04.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “What I Am Going To Do Next”, page 4. Scene based on: Camilo decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Camilo decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Daniela explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "“Did you visit this place before?” one friend asks."
+            },
+            {
+              "html": "Camilo listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "Each student writes one <b>goal</b>."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week45_grade07_page05.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “What I Am Going To Do Next”, page 5. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Camilo feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Camilo feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about reflection, goals and informed choices."
+            },
+            {
+              "html": "At home, Camilo thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "Camilo thinks about what they really <b>like</b>."
+            }
+          ],
+          "wordCount": 103
+        }
+      ],
+      "practiceWords": [
+        "plan",
+        "future",
+        "dream",
+        "study",
+        "next year",
+        "goal",
+        "like",
+        "help",
+        "grow",
+        "step"
+      ],
+      "vocabulary": [
+        {
+          "word": "plan",
+          "definition": "an idea about what you will do (plan)"
+        },
+        {
+          "word": "future",
+          "definition": "the time after now (futuro)"
+        },
+        {
+          "word": "dream",
+          "definition": "something you really want (sueño)"
+        },
+        {
+          "word": "study",
+          "definition": "to learn at school (estudiar)"
+        },
+        {
+          "word": "next year",
+          "definition": "the year after this one (el próximo año)"
+        },
+        {
+          "word": "goal",
+          "definition": "something you want to do (meta)"
+        },
+        {
+          "word": "like",
+          "definition": "to enjoy (gustar)"
+        },
+        {
+          "word": "help",
+          "definition": "to make easier for someone (ayudar)"
+        },
+        {
+          "word": "grow",
+          "definition": "to become bigger or better (crecer)"
+        },
+        {
+          "word": "step",
+          "definition": "one action in a process (paso)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Which statement is TRUE according to the text?",
+          "options": [
+            "Daniela wants Camilo to react immediately.",
+            "The students have all the facts from the beginning.",
+            "Camilo copies a friend's plan exactly.",
+            "Daniela suggests checking the information before blaming anyone."
+          ],
+          "answer": "Daniela suggests checking the information before blaming anyone."
+        },
+        {
+          "skill": "cause and effect",
+          "question": "Why does Camilo feel pressure to react quickly?",
+          "options": [
+            "Because students make a realistic plan for the future.",
+            "Because a teacher gives a surprise exam.",
+            "Because the school day is over.",
+            "Because Daniela leaves a local shopping area."
+          ],
+          "answer": "Because students make a realistic plan for the future."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which could be another good title for the text?",
+          "options": [
+            "“Rules That Protect Us”",
+            "“Small Job, Big Lesson”",
+            "“A Plan That Fits Me”",
+            "“Evidence Before Accusations”"
+          ],
+          "answer": "“A Plan That Fits Me”"
+        },
+        {
+          "skill": "simple inference",
+          "question": "According to the text, what could happen if the group reacted without checking anything?",
+          "options": [
+            "The problem could become bigger and hurt someone.",
+            "Everybody would agree on the facts.",
+            "The problem would disappear immediately.",
+            "The teacher would cancel the class."
+          ],
+          "answer": "The problem could become bigger and hurt someone."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read this sentence from page 2: “Camilo has a big dream.” In this sentence, the word “dream” means…",
+          "options": [
+            "one action in a process",
+            "the time after now",
+            "something you want to do",
+            "something you really want"
+          ],
+          "answer": "something you really want"
+        }
+      ],
+      "cover": "../assets/images/week45_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "The Person I Am Becoming",
+      "minimumWordTarget": 450,
+      "wordCount": 501,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week45_grade08_page01.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Person I Am Becoming”, page 1. Scene based on: Valentina is 13 years old and studies in Medellín. One ordinary day at a bus stop after school, a situation involving a future plan begins to change the plans for the afternoon. Andrés is nearby and notices that Valentina is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina is 13 years old and studies in Medellín. One ordinary day at a bus stop after school, a situation involving a future plan begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Andrés is nearby and notices that Valentina is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about reflection, goals and informed choices."
+            },
+            {
+              "html": "Valentina is curious about a <b>career</b> in technology."
+            },
+            {
+              "html": "A realistic plan helps you <b>achieve</b> more."
+            },
+            {
+              "html": "A teacher gives useful <b>advice</b>."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week45_grade08_page02.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Person I Am Becoming”, page 2. Scene based on: The situation becomes harder when students make a realistic plan for the future. Valentina feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when students make a realistic plan for the future. Valentina feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Andrés suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "They are going to compare prices before the next purchase."
+            },
+            {
+              "html": "Andrés reminds Valentina that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Andrés suggests a more <b>realistic</b> goal."
+            },
+            {
+              "html": "Valentina wants to <b>improve</b> in math."
+            },
+            {
+              "html": "Every <b>skill</b> opens new doors."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week45_grade08_page03.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Person I Am Becoming”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Valentina has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Valentina has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Finishing school is the first <b>priority</b>."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week45_grade08_page04.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Person I Am Becoming”, page 4. Scene based on: Valentina decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Andrés explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "The school offers a new <b>opportunity</b>."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "It is not necessary to <b>decide</b> everything now."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week45_grade08_page05.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Person I Am Becoming”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in a youth exchange in New York City. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in a youth exchange in New York City."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Valentina realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week45_grade08_page06.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “The Person I Am Becoming”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Valentina feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina discovers a new <b>interest</b>."
+            },
+            {
+              "html": "Valentina feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about reflection, goals and informed choices."
+            },
+            {
+              "html": "At home, Valentina thinks about what could have happened if the group had reacted without checking anything."
+            }
+          ],
+          "wordCount": 69
+        }
+      ],
+      "practiceWords": [
+        "career",
+        "achieve",
+        "realistic",
+        "improve",
+        "opportunity",
+        "decide",
+        "interest",
+        "advice",
+        "skill",
+        "priority"
+      ],
+      "vocabulary": [
+        {
+          "word": "career",
+          "definition": "a job you do for many years (carrera profesional)"
+        },
+        {
+          "word": "achieve",
+          "definition": "to reach a goal (lograr)"
+        },
+        {
+          "word": "realistic",
+          "definition": "based on what is possible (realista)"
+        },
+        {
+          "word": "improve",
+          "definition": "to get better (mejorar)"
+        },
+        {
+          "word": "opportunity",
+          "definition": "a chance to do something (oportunidad)"
+        },
+        {
+          "word": "decide",
+          "definition": "to make a choice (decidir)"
+        },
+        {
+          "word": "interest",
+          "definition": "something you like to learn about (interés)"
+        },
+        {
+          "word": "advice",
+          "definition": "an opinion about what to do (consejo)"
+        },
+        {
+          "word": "skill",
+          "definition": "an ability (habilidad)"
+        },
+        {
+          "word": "priority",
+          "definition": "the most important thing (prioridad)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "According to the text, what is the problem really about?",
+          "options": [
+            "Consent, reputation and responsible sharing",
+            "Reflection, goals and informed choices",
+            "Cooperation and priorities",
+            "Health, safety and speaking up"
+          ],
+          "answer": "Reflection, goals and informed choices"
+        },
+        {
+          "skill": "inference",
+          "question": "According to the text, what could happen if the group reacted without checking anything?",
+          "options": [
+            "The teacher would cancel the class.",
+            "The problem could become bigger and hurt someone.",
+            "The problem would disappear immediately.",
+            "Everybody would agree on the facts."
+          ],
+          "answer": "The problem could become bigger and hurt someone."
+        },
+        {
+          "skill": "purpose",
+          "question": "What is the author's main purpose in this text?",
+          "options": [
+            "To describe the history of Medellín.",
+            "To sell a product to students.",
+            "To give scientific data about teenagers in Colombia.",
+            "To show, through a story, how to act responsibly when students make a realistic plan for the future."
+          ],
+          "answer": "To show, through a story, how to act responsibly when students make a realistic plan for the future."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which word best represents the central topic of the text?",
+          "options": [
+            "responsibility",
+            "independence",
+            "future",
+            "inclusion"
+          ],
+          "answer": "future"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Complete the sentence from the text: “Valentina discovers a new _____.”",
+          "options": [
+            "skill",
+            "interest",
+            "priority",
+            "career"
+          ],
+          "answer": "interest"
+        }
+      ],
+      "cover": "../assets/images/week45_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "What I Have Learned This Year",
+      "minimumWordTarget": 500,
+      "wordCount": 579,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week45_grade09_page01.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “What I Have Learned This Year”, page 1. Scene based on: Mariana is 14 years old and studies in Medellín. One ordinary day at a school courtyard, a situation involving a future plan begins to change the plans for the afternoon. Felipe is nearby and notices that Mariana is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mariana is 14 years old and studies in Medellín. One ordinary day at a school courtyard, a situation involving a future plan begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Felipe is nearby and notices that Mariana is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about reflection, goals and informed choices."
+            },
+            {
+              "html": "Mariana is curious about a <b>career</b> in technology."
+            },
+            {
+              "html": "Felipe reminds Mariana that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "A realistic plan helps you <b>achieve</b> more."
+            },
+            {
+              "html": "Finishing school is the first <b>priority</b>."
+            }
+          ],
+          "wordCount": 103
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week45_grade09_page02.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “What I Have Learned This Year”, page 2. Scene based on: The situation becomes harder when students make a realistic plan for the future. Mariana feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when students make a realistic plan for the future. Mariana feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Felipe suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "Felipe suggests a more <b>realistic</b> goal."
+            },
+            {
+              "html": "Mariana listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Mariana wants to <b>improve</b> in math."
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week45_grade09_page03.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “What I Have Learned This Year”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Mariana has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Mariana has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "The school offers a new <b>opportunity</b>."
+            }
+          ],
+          "wordCount": 99
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week45_grade09_page04.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “What I Have Learned This Year”, page 4. Scene based on: Mariana decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mariana decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Felipe explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "It is not necessary to <b>decide</b> everything now."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "Mariana discovers a new <b>interest</b>."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week45_grade09_page05.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “What I Have Learned This Year”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in an online classroom shared with New York students. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in an online classroom shared with New York students."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Mariana realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "A teacher gives useful <b>advice</b>."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Every <b>skill</b> opens new doors."
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week45_grade09_page06.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “What I Have Learned This Year”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Mariana feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Mariana feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about reflection, goals and informed choices."
+            },
+            {
+              "html": "At home, Mariana thinks about what could have happened if the group had reacted without checking anything."
+            }
+          ],
+          "wordCount": 96
+        }
+      ],
+      "practiceWords": [
+        "career",
+        "achieve",
+        "realistic",
+        "improve",
+        "opportunity",
+        "decide",
+        "interest",
+        "advice",
+        "skill",
+        "priority"
+      ],
+      "vocabulary": [
+        {
+          "word": "career",
+          "definition": "a job you do for many years (carrera profesional)"
+        },
+        {
+          "word": "achieve",
+          "definition": "to reach a goal (lograr)"
+        },
+        {
+          "word": "realistic",
+          "definition": "based on what is possible (realista)"
+        },
+        {
+          "word": "improve",
+          "definition": "to get better (mejorar)"
+        },
+        {
+          "word": "opportunity",
+          "definition": "a chance to do something (oportunidad)"
+        },
+        {
+          "word": "decide",
+          "definition": "to make a choice (decidir)"
+        },
+        {
+          "word": "interest",
+          "definition": "something you like to learn about (interés)"
+        },
+        {
+          "word": "advice",
+          "definition": "an opinion about what to do (consejo)"
+        },
+        {
+          "word": "skill",
+          "definition": "an ability (habilidad)"
+        },
+        {
+          "word": "priority",
+          "definition": "the most important thing (prioridad)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "According to the text, where does Mariana's situation begin?",
+          "options": [
+            "A public school in Medellín",
+            "The Medellín Metro",
+            "A school courtyard",
+            "A neighborhood in Manrique"
+          ],
+          "answer": "A school courtyard"
+        },
+        {
+          "skill": "inference",
+          "question": "Why does Mariana listen carefully before answering?",
+          "options": [
+            "Because the teacher prohibits talking.",
+            "Because she does not understand Spanish.",
+            "Because one missing detail can change the meaning of the situation.",
+            "Because nobody else is paying attention."
+          ],
+          "answer": "Because one missing detail can change the meaning of the situation."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In “…another clue points in a different direction, so Mariana has to reconsider the first assumption,” the word “so” introduces…",
+          "options": [
+            "a condition",
+            "a contrast",
+            "an example",
+            "a result"
+          ],
+          "answer": "a result"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which could be another good title for the text?",
+          "options": [
+            "“A Calm No Is Enough”",
+            "“A Plan That Fits Me”",
+            "“The Team Before The Score”",
+            "“Less Plastic, More Action”"
+          ],
+          "answer": "“A Plan That Fits Me”"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Which word from the text means “a chance to do something”?",
+          "options": [
+            "achieve",
+            "skill",
+            "opportunity",
+            "advice"
+          ],
+          "answer": "opportunity"
+        }
+      ],
+      "cover": "../assets/images/week45_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "The Future Is A Series Of Decisions",
+      "minimumWordTarget": 600,
+      "wordCount": 655,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week45_grade10_page01.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Future Is A Series Of Decisions”, page 1. Scene based on: Daniel is 15–16 years old and studies in Medellín. One ordinary day at a public school in Medellín, a situation involving a future plan begins to change the plans for the afternoon. Maya is nearby and notices that Daniel is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniel is 15–16 years old and studies in Medellín. One ordinary day at a public school in Medellín, a situation involving a future plan begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Maya is nearby and notices that Daniel is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about reflection, goals and informed choices."
+            },
+            {
+              "html": "Daniel's <b>aspiration</b> is to study engineering."
+            },
+            {
+              "html": "An <b>informed</b> choice requires research."
+            },
+            {
+              "html": "A <b>setback</b> is not the end of a plan."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week45_grade10_page02.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Future Is A Series Of Decisions”, page 2. Scene based on: The situation becomes harder when students make a realistic plan for the future. Daniel feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when students make a realistic plan for the future. Daniel feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Maya suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "If people check reliable information, they usually make safer decisions."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "Each student imagines a different <b>trajectory</b>."
+            }
+          ],
+          "wordCount": 103
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week45_grade10_page03.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Future Is A Series Of Decisions”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Daniel has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Daniel has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            }
+          ],
+          "wordCount": 97
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week45_grade10_page04.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Future Is A Series Of Decisions”, page 4. Scene based on: Daniel decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Daniel decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Maya explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "They set <b>long-term</b> and short-term goals."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "<b>Self-awareness</b> helps Daniel choose a path."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week45_grade10_page05.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Future Is A Series Of Decisions”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in Queens, New York. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in Queens, New York."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Daniel realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "Maya reminds Daniel that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Daniel is still discovering a <b>vocation</b>."
+            }
+          ],
+          "wordCount": 101
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week45_grade10_page06.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Future Is A Series Of Decisions”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Daniel feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The class takes time to <b>reflect</b>."
+            },
+            {
+              "html": "Daniel feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about reflection, goals and informed choices."
+            },
+            {
+              "html": "Daniel listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "Maya researches a <b>scholarship</b> program."
+            }
+          ],
+          "wordCount": 75
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week45_grade10_page07.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “The Future Is A Series Of Decisions”, page 7. Scene based on: The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another. They also discuss the author’s purpose and decide which detail best supports the final lesson. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another."
+            },
+            {
+              "html": "They also discuss the author’s purpose and decide which detail best supports the final lesson."
+            },
+            {
+              "html": "Daniel notices that strong reading is not only translating words. It means connecting evidence, sequence, intention, and consequences."
+            },
+            {
+              "html": "That habit will be useful in future exams because a difficult question often depends on a small but meaningful detail."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "The plan must be <b>feasible</b>."
+            }
+          ],
+          "wordCount": 103
+        }
+      ],
+      "practiceWords": [
+        "aspiration",
+        "informed",
+        "long-term",
+        "self-awareness",
+        "vocation",
+        "reflect",
+        "scholarship",
+        "feasible",
+        "setback",
+        "trajectory"
+      ],
+      "vocabulary": [
+        {
+          "word": "aspiration",
+          "definition": "a strong hope for the future (aspiración)"
+        },
+        {
+          "word": "informed",
+          "definition": "having enough information (informado)"
+        },
+        {
+          "word": "long-term",
+          "definition": "lasting a long time (a largo plazo)"
+        },
+        {
+          "word": "self-awareness",
+          "definition": "knowing yourself (autoconocimiento)"
+        },
+        {
+          "word": "vocation",
+          "definition": "a strong feeling for a type of work (vocación)"
+        },
+        {
+          "word": "reflect",
+          "definition": "to think carefully (reflexionar)"
+        },
+        {
+          "word": "scholarship",
+          "definition": "money given to support studies (beca)"
+        },
+        {
+          "word": "feasible",
+          "definition": "possible to do (factible)"
+        },
+        {
+          "word": "setback",
+          "definition": "a problem that delays progress (contratiempo)"
+        },
+        {
+          "word": "trajectory",
+          "definition": "the path of development over time (trayectoria)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What makes the situation harder for Daniel?",
+          "options": [
+            "Students make a realistic plan for the future",
+            "An old image brings back an important memory",
+            "Family responsibilities interrupt a personal plan",
+            "Friends push someone toward an uncomfortable choice"
+          ],
+          "answer": "Students make a realistic plan for the future"
+        },
+        {
+          "skill": "inference",
+          "question": "Which action would go AGAINST what Daniel learns in the story?",
+          "options": [
+            "Verifying a detail first.",
+            "Stopping thinking about the future without thinking.",
+            "Explaining the reason for a decision.",
+            "Asking a clear question."
+          ],
+          "answer": "Stopping thinking about the future without thinking."
+        },
+        {
+          "skill": "purpose",
+          "question": "What is the author's main purpose in this text?",
+          "options": [
+            "To give scientific data about teenagers in Colombia.",
+            "To show, through a story, how to act responsibly when students make a realistic plan for the future.",
+            "To sell a product to students.",
+            "To describe the history of Medellín."
+          ],
+          "answer": "To show, through a story, how to act responsibly when students make a realistic plan for the future."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In the sentence “The action does not solve everything immediately, but it prevents the problem from growing,” the word “but” introduces…",
+          "options": [
+            "a reason",
+            "an example",
+            "a time sequence",
+            "a contrast"
+          ],
+          "answer": "a contrast"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which word best represents the central topic of the text?",
+          "options": [
+            "community",
+            "communication",
+            "help",
+            "future"
+          ],
+          "answer": "future"
+        }
+      ],
+      "cover": "../assets/images/week45_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "If I Could Speak To My Future Self",
+      "minimumWordTarget": 700,
+      "wordCount": 785,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week45_grade11_page01.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “If I Could Speak To My Future Self”, page 1. Scene based on: Andrés is 17–18 years old and studies in Medellín. One ordinary day at a neighborhood in Manrique, a situation involving a future plan begins to change the plans for the afternoon. Camila is nearby and notices that Andrés is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Andrés is 17–18 years old and studies in Medellín. One ordinary day at a neighborhood in Manrique, a situation involving a future plan begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Camila is nearby and notices that Andrés is paying close attention to what is happening."
+            },
+            {
+              "html": "Andrés's <b>aspiration</b> is to study engineering."
+            },
+            {
+              "html": "An <b>informed</b> choice requires research."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Each student imagines a different <b>trajectory</b>."
+            }
+          ],
+          "wordCount": 80
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week45_grade11_page02.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “If I Could Speak To My Future Self”, page 2. Scene based on: The situation becomes harder when students make a realistic plan for the future. Andrés feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when students make a realistic plan for the future. Andrés feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Camila suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "They set <b>long-term</b> and short-term goals."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "<b>Self-awareness</b> helps Andrés choose a path."
+            }
+          ],
+          "wordCount": 102
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week45_grade11_page03.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “If I Could Speak To My Future Self”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Andrés has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Andrés has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            }
+          ],
+          "wordCount": 96
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week45_grade11_page04.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “If I Could Speak To My Future Self”, page 4. Scene based on: Andrés decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Andrés decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Camila explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "Andrés is still discovering a <b>vocation</b>."
+            },
+            {
+              "html": "Camila reminds Andrés that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Andrés listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            }
+          ],
+          "wordCount": 97
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week45_grade11_page05.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “If I Could Speak To My Future Self”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in Brooklyn, New York. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in Brooklyn, New York."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Andrés realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "Andrés listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "The class takes time to <b>reflect</b>."
+            }
+          ],
+          "wordCount": 101
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week45_grade11_page06.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “If I Could Speak To My Future Self”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Andrés feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Andrés feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about reflection, goals and informed choices."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Camila researches a <b>scholarship</b> program."
+            }
+          ],
+          "wordCount": 101
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week45_grade11_page07.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “If I Could Speak To My Future Self”, page 7. Scene based on: At home, Andrés thinks about what could have happened if the group had reacted without checking anything. The student writes a short reflection: a responsible choice is not always the fastest or most popular choice. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At home, Andrés thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "The student writes a short reflection: a responsible choice is not always the fastest or most popular choice."
+            },
+            {
+              "html": "Next time, Andrés plans to ask a clearer question, confirm important information, and explain the reason for the decision."
+            },
+            {
+              "html": "The experience becomes part of how Andrés understands school, family, technology, travel, and life in a larger world."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "The plan must be <b>feasible</b>."
+            }
+          ],
+          "wordCount": 98
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week45_grade11_page08.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “If I Could Speak To My Future Self”, page 8. Scene based on: The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another. They also discuss the author’s purpose and decide which detail best supports the final lesson. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another."
+            },
+            {
+              "html": "They also discuss the author’s purpose and decide which detail best supports the final lesson."
+            },
+            {
+              "html": "Andrés notices that strong reading is not only translating words. It means connecting evidence, sequence, intention, and consequences."
+            },
+            {
+              "html": "That habit will be useful in future exams because a difficult question often depends on a small but meaningful detail."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "A <b>setback</b> is not the end of a plan."
+            }
+          ],
+          "wordCount": 110
+        }
+      ],
+      "practiceWords": [
+        "aspiration",
+        "informed",
+        "long-term",
+        "self-awareness",
+        "vocation",
+        "reflect",
+        "scholarship",
+        "feasible",
+        "setback",
+        "trajectory"
+      ],
+      "vocabulary": [
+        {
+          "word": "aspiration",
+          "definition": "a strong hope for the future (aspiración)"
+        },
+        {
+          "word": "informed",
+          "definition": "having enough information (informado)"
+        },
+        {
+          "word": "long-term",
+          "definition": "lasting a long time (a largo plazo)"
+        },
+        {
+          "word": "self-awareness",
+          "definition": "knowing yourself (autoconocimiento)"
+        },
+        {
+          "word": "vocation",
+          "definition": "a strong feeling for a type of work (vocación)"
+        },
+        {
+          "word": "reflect",
+          "definition": "to think carefully (reflexionar)"
+        },
+        {
+          "word": "scholarship",
+          "definition": "money given to support studies (beca)"
+        },
+        {
+          "word": "feasible",
+          "definition": "possible to do (factible)"
+        },
+        {
+          "word": "setback",
+          "definition": "a problem that delays progress (contratiempo)"
+        },
+        {
+          "word": "trajectory",
+          "definition": "the path of development over time (trayectoria)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "Which action would go AGAINST what Andrés learns in the story?",
+          "options": [
+            "Verifying a detail first.",
+            "Stopping thinking about the future without thinking.",
+            "Explaining the reason for a decision.",
+            "Asking a clear question."
+          ],
+          "answer": "Stopping thinking about the future without thinking."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In the sentence “The action does not solve everything immediately, but it prevents the problem from growing,” the word “but” introduces…",
+          "options": [
+            "an example",
+            "a contrast",
+            "a time sequence",
+            "a reason"
+          ],
+          "answer": "a contrast"
+        },
+        {
+          "skill": "purpose",
+          "question": "What is the purpose of the question “What do you know for sure, and what are you only assuming?”",
+          "options": [
+            "To help the students separate evidence from emotion.",
+            "To give the students a grammar exercise.",
+            "To blame one student for the problem.",
+            "To end the conversation quickly."
+          ],
+          "answer": "To help the students separate evidence from emotion."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Which word from the text means “money given to support studies”?",
+          "options": [
+            "self-awareness",
+            "reflect",
+            "informed",
+            "scholarship"
+          ],
+          "answer": "scholarship"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which could be another good title for the text?",
+          "options": [
+            "“Room For One More”",
+            "“Think Before You Share”",
+            "“A Plan That Fits Me”",
+            "“Check The Sky Before You Go”"
+          ],
+          "answer": "“A Plan That Fits Me”"
+        }
+      ],
+      "cover": "../assets/images/week45_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

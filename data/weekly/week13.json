@@ -1,0 +1,1785 @@
+{
+  "week": 13,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 13",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "My Favorite Toy",
+      "minimumWordTarget": 350,
+      "wordCount": 362,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week13_grade06_page01.webp",
+          "artDirection": "11–12-year-old Colombian student context for “My Favorite Toy”. Scene based on: Juanito's robot is his most prized possession. For a moment, Luisa looks around and thinks about what to do next. It has glowing buttons and stands proudly on his bed by the sunny . warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Juanito's <b>robot</b> is his most prized possession."
+            },
+            {
+              "html": "For a moment, Luisa looks around and thinks about what to do next."
+            },
+            {
+              "html": "It has glowing <b>buttons</b> and stands proudly on his <b>bed</b> by the sunny <b>window</b>."
+            },
+            {
+              "html": "The day continues, and Luisa tries to stay calm and pay attention."
+            },
+            {
+              "html": "Every day after school, he races to the <b>living room</b> to play with it while his mom sips <b>coffee</b> at the scratched wooden <b>table</b>."
+            },
+            {
+              "html": "A small detail helps Luisa understand the situation a little better."
+            },
+            {
+              "html": "His little sister Luisa whines, \"Let me try!\" but Juanito shouts, \"It's mine!\" On rainy days, they watch <b>cartoons</b> on the flickering <b>TV</b>, and he makes the robot march to the music."
+            }
+          ],
+          "wordCount": 113
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week13_grade06_page02.webp",
+          "artDirection": "11–12-year-old Colombian student context for “My Favorite Toy”. Scene based on: After that, Luisa continues carefully instead of rushing. Last week, the battery died during a big \"battle\" with Luisa's doll. The people nearby also notice what is happening and r. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "After that, Luisa continues carefully instead of rushing."
+            },
+            {
+              "html": "Last week, the <b>battery</b> died during a big \"battle\" with Luisa's doll."
+            },
+            {
+              "html": "The people nearby also notice what is happening and react in simple ways."
+            },
+            {
+              "html": "Juanito sobbed until his dad fixed it in their tiny workshop."
+            },
+            {
+              "html": "This gives Luisa time to make a better choice and continue the day."
+            },
+            {
+              "html": "Now the robot jumps, spins, and even \"talks\" with funny beeps."
+            },
+            {
+              "html": "A few minutes later, the situation feels easier to understand."
+            }
+          ],
+          "wordCount": 78
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week13_grade06_page03.webp",
+          "artDirection": "11–12-year-old Colombian student context for “My Favorite Toy”. Scene based on: Juanito hugs it every night, whispering secrets. Luisa remembers that simple choices can make a difficult moment better. His bicycle is rusty, but his robot? The experience is ordi. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Juanito hugs it every night, whispering secrets."
+            },
+            {
+              "html": "Luisa remembers that simple choices can make a difficult moment better."
+            },
+            {
+              "html": "His bicycle is rusty, but his robot?"
+            },
+            {
+              "html": "The experience is ordinary, but it becomes an important part of the day."
+            },
+            {
+              "html": "Perfect."
+            },
+            {
+              "html": "By paying attention, Luisa learns something useful from the moment."
+            },
+            {
+              "html": "Later, for a moment, Luisa looks around and thinks about what to do next."
+            },
+            {
+              "html": "Juanito's robot is his most prized possession."
+            },
+            {
+              "html": "The day continues, and Luisa tries to stay calm and pay attention."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week13_grade06_page04.webp",
+          "artDirection": "11–12-year-old Colombian student context for “My Favorite Toy”. Scene based on: It has glowing buttons and stands proudly on his bed by the sunny window. A small detail helps Luisa understand the situation a little better. Every day after school, he races to t. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "It has glowing buttons and stands proudly on his bed by the sunny window."
+            },
+            {
+              "html": "A small detail helps Luisa understand the situation a little better."
+            },
+            {
+              "html": "Every day after school, he races to the living room to play with it while his mom sips coffee at the scratched wooden table."
+            },
+            {
+              "html": "After that, Luisa continues carefully instead of rushing."
+            },
+            {
+              "html": "His little sister Luisa whines, \"Let me try!\" but Juanito shouts, \"It's mine!\" On rainy days, they watch cartoons on the flickering TV, and he makes the robot march to the music."
+            }
+          ],
+          "wordCount": 89
+        }
+      ],
+      "practiceWords": [
+        "robot",
+        "buttons",
+        "bed",
+        "window",
+        "living room",
+        "coffee",
+        "table",
+        "cartoons",
+        "TV",
+        "battery"
+      ],
+      "vocabulary": [
+        {
+          "word": "robot",
+          "definition": "mechanical toy (robot)"
+        },
+        {
+          "word": "buttons",
+          "definition": "pressable controls (botones)"
+        },
+        {
+          "word": "bed",
+          "definition": "place to sleep (cama)"
+        },
+        {
+          "word": "window",
+          "definition": "glass pane (ventana)"
+        },
+        {
+          "word": "living room",
+          "definition": "common family space (sala)"
+        },
+        {
+          "word": "coffee",
+          "definition": "hot drink (café)"
+        },
+        {
+          "word": "table",
+          "definition": "furniture for eating (mesa)"
+        },
+        {
+          "word": "cartoons",
+          "definition": "animated shows (dibujos animados)"
+        },
+        {
+          "word": "TV",
+          "definition": "television (televisor)"
+        },
+        {
+          "word": "battery",
+          "definition": "power source (pila)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "Where does Juanito keep his robot?",
+          "options": [
+            "In the kitchen",
+            "Under the table",
+            "On his bed"
+          ],
+          "answer": "On his bed"
+        },
+        {
+          "skill": "sequence",
+          "question": "What does Juanito’s robot do when the battery dies?",
+          "options": [
+            "Explodes",
+            "Stops working",
+            "Talks louder"
+          ],
+          "answer": "Stops working"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Who fixes the robot?",
+          "options": [
+            "Juanito’s mom",
+            "Juanito’s dad",
+            "Luisa"
+          ],
+          "answer": "Juanito’s dad"
+        },
+        {
+          "skill": "main idea",
+          "question": "What do Juanito and Luisa watch on rainy days?",
+          "options": [
+            "Cartoons",
+            "Soccer games",
+            "News"
+          ],
+          "answer": "Cartoons"
+        },
+        {
+          "skill": "simple inference",
+          "question": "How does Juanito describe his bicycle?",
+          "options": [
+            "New",
+            "Stolen",
+            "Rusty"
+          ],
+          "answer": "Rusty"
+        }
+      ],
+      "cover": "../assets/images/week13_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "Losing A Tooth",
+      "minimumWordTarget": 400,
+      "wordCount": 407,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week13_grade07_page01.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Losing A Tooth”. Scene based on: Camila's wobbly tooth has driven her crazy for days. As the situation develops, Camila realizes that a quick decision can create a real consequence. She fiddles with it using her t. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Camila's wobbly <b>tooth</b> has driven her crazy for days."
+            },
+            {
+              "html": "As the situation develops, Camila realizes that a quick decision can create a real consequence."
+            },
+            {
+              "html": "She fiddles with it using her <b>tongue</b> on the bumpy <b>bus</b> ride to school."
+            },
+            {
+              "html": "The details around Camila make the problem easier to understand."
+            },
+            {
+              "html": "Her abuela promised a shiny <b>coin</b> from the \"Ratón Pérez\" if she tucks it under her <b>pillow</b> tonight."
+            },
+            {
+              "html": "Instead of reacting immediately, Camila takes a moment to think about the next step."
+            }
+          ],
+          "wordCount": 80
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week13_grade07_page02.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Losing A Tooth”. Scene based on: At lunch, her brother Mateo teases, \"Eat this banana—it'll yank it out!\" Camila glares and checks the gap in her cracked mirror. The small challenge becomes an opportunity to learn. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "At lunch, her brother Mateo teases, \"Eat this <b>banana</b>—it'll yank it out!\" Camila glares and checks the gap in her cracked <b>mirror</b>."
+            },
+            {
+              "html": "The small challenge becomes an opportunity to learn something useful."
+            },
+            {
+              "html": "Tomorrow's the big <b>soccer</b> match, and she <b>needs to</b> be tough."
+            },
+            {
+              "html": "Other people influence the moment even when they are not at the center of the story."
+            },
+            {
+              "html": "That evening, the tooth plops into her <b>soup</b> mid-bite."
+            },
+            {
+              "html": "Camila's feelings begin to change as new information appears."
+            }
+          ],
+          "wordCount": 78
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week13_grade07_page03.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Losing A Tooth”. Scene based on: Abuela cackles, handing her a peso. One action leads naturally to another, so the consequence becomes clear. \"Make a wish!\" Camila whispers, \"I hope I score a goal.\" As she sleeps,. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Abuela cackles, handing her a peso."
+            },
+            {
+              "html": "One action leads naturally to another, so the consequence becomes clear."
+            },
+            {
+              "html": "\"Make a wish!\" Camila whispers, \"I hope I score a goal.\" As she sleeps, she dreams of a tiny rat in a backpack, zooming through the sky on a bicycle, tossing teeth like confetti."
+            },
+            {
+              "html": "The experience encourages Camila to be more patient and responsible."
+            },
+            {
+              "html": "After reflecting on what happened, Camila understands the situation better."
+            },
+            {
+              "html": "Camila's wobbly tooth has driven her crazy for days."
+            }
+          ],
+          "wordCount": 80
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week13_grade07_page04.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Losing A Tooth”. Scene based on: By the end of the moment, Camila has learned something that may help later. She fiddles with it using her tongue on the bumpy bus ride to school. As the situation develops, Camila . warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "By the end of the moment, Camila has learned something that may help later."
+            },
+            {
+              "html": "She fiddles with it using her tongue on the bumpy bus ride to school."
+            },
+            {
+              "html": "As the situation develops, Camila realizes that a quick decision can create a real consequence."
+            },
+            {
+              "html": "Her abuela promised a shiny coin from the \"Ratón Pérez\" if she tucks it under her pillow tonight."
+            },
+            {
+              "html": "The details around Camila make the problem easier to understand."
+            },
+            {
+              "html": "At lunch, her brother Mateo teases, \"Eat this banana—it'll yank it out!\" Camila glares and checks the gap in her cracked mirror."
+            }
+          ],
+          "wordCount": 94
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week13_grade07_page05.webp",
+          "artDirection": "12–13-year-old Colombian student context for “Losing A Tooth”. Scene based on: Instead of reacting immediately, Camila takes a moment to think about the next step. Tomorrow's the big soccer match, and she needs to be tough. The small challenge becomes an oppo. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Instead of reacting immediately, Camila takes a moment to think about the next step."
+            },
+            {
+              "html": "Tomorrow's the big soccer match, and she needs to be tough."
+            },
+            {
+              "html": "The small challenge becomes an opportunity to learn something useful."
+            },
+            {
+              "html": "That evening, the tooth plops into her soup mid-bite."
+            },
+            {
+              "html": "Other people influence the moment even when they are not at the center of the story."
+            },
+            {
+              "html": "Abuela cackles, handing her a peso."
+            },
+            {
+              "html": "Camila's feelings begin to change as new information appears."
+            }
+          ],
+          "wordCount": 75
+        }
+      ],
+      "practiceWords": [
+        "tooth",
+        "tongue",
+        "bus",
+        "coin",
+        "pillow",
+        "banana",
+        "mirror",
+        "soccer",
+        "needs to",
+        "soup"
+      ],
+      "vocabulary": [
+        {
+          "word": "tooth",
+          "definition": "hard structure in mouth (diente)"
+        },
+        {
+          "word": "tongue",
+          "definition": "mouth muscle (lengua)"
+        },
+        {
+          "word": "bus",
+          "definition": "public transport (autobús)"
+        },
+        {
+          "word": "coin",
+          "definition": "metal money (moneda)"
+        },
+        {
+          "word": "pillow",
+          "definition": "head support (almohada)"
+        },
+        {
+          "word": "banana",
+          "definition": "yellow fruit (banano)"
+        },
+        {
+          "word": "mirror",
+          "definition": "reflective surface (espejo)"
+        },
+        {
+          "word": "soccer",
+          "definition": "football (fútbol)"
+        },
+        {
+          "word": "needs to",
+          "definition": "must (necesita)"
+        },
+        {
+          "word": "soup",
+          "definition": "liquid food (sopa)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What does Camila’s abuela promise her?",
+          "options": [
+            "A new tooth",
+            "A coin from Ratón Pérez",
+            "A soccer ball"
+          ],
+          "answer": "A coin from Ratón Pérez"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "Where does Camila’s tooth fall out?",
+          "options": [
+            "In her soup",
+            "On the bus",
+            "At soccer practice"
+          ],
+          "answer": "In her soup"
+        },
+        {
+          "skill": "main idea",
+          "question": "What does Camila dream about?",
+          "options": [
+            "Winning the lottery",
+            "Becoming a dentist",
+            "A rat with a backpack"
+          ],
+          "answer": "A rat with a backpack"
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why doesn’t Camila eat the banana?",
+          "options": [
+            "She hates bananas",
+            "It’s rotten",
+            "It might hurt her tooth"
+          ],
+          "answer": "It might hurt her tooth"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What sport does Camila play?",
+          "options": [
+            "Basketball",
+            "Soccer",
+            "Baseball"
+          ],
+          "answer": "Soccer"
+        }
+      ],
+      "cover": "../assets/images/week13_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "Sharing With Classmates",
+      "minimumWordTarget": 450,
+      "wordCount": 457,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week13_grade08_page01.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Sharing With Classmates”. Scene based on: Valentina's brand-new sneakers are ruined when Diego trips, splashing juice across the white fabric. The situation becomes more complicated because Valentina must balance what is w. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Valentina's brand-new <b>sneakers</b> are ruined when Diego trips, splashing <b>juice</b> across the white fabric."
+            },
+            {
+              "html": "The situation becomes more complicated because Valentina must balance what is wanted with what the moment requires."
+            },
+            {
+              "html": "\"Oops!\" he says, scrubbing them with his <b>hoodie</b>."
+            },
+            {
+              "html": "A detail that seemed small at first now helps explain the problem."
+            },
+            {
+              "html": "She fumes but later hands him her <b>eraser</b> during a quiz."
+            },
+            {
+              "html": "Different reactions show that people can understand the same event in different ways."
+            }
+          ],
+          "wordCount": 75
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week13_grade08_page02.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Sharing With Classmates”. Scene based on: At lunch, they swap chips for cookies, and Diego shows her a viral dance from his favorite reggaeton star. The problem affects more than one person and changes how the group respon. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "At lunch, they swap <b>chips</b> for <b>cookies</b>, and Diego shows her a viral <b>dance</b> from his favorite <b>reggaeton</b> star."
+            },
+            {
+              "html": "The problem affects more than one person and changes how the group responds."
+            },
+            {
+              "html": "Their teacher catches them <b>practicing</b> in the hall and laughs."
+            },
+            {
+              "html": "Valentina begins to see that acting quickly is not always the same as acting wisely."
+            },
+            {
+              "html": "\"Teamwork!\" she says."
+            },
+            {
+              "html": "The setting creates realistic limits that influence what can happen next."
+            }
+          ],
+          "wordCount": 71
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week13_grade08_page03.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Sharing With Classmates”. Scene based on: During the math test, Valentina slides Diego a pencil after his snaps. Expressions and actions reveal feelings that are not always stated directly. \"Thanks,\" he murmurs. The conseq. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "During the math test, Valentina slides Diego a <b>pencil</b> after his snaps."
+            },
+            {
+              "html": "Expressions and actions reveal feelings that are not always stated directly."
+            },
+            {
+              "html": "\"Thanks,\" he murmurs."
+            },
+            {
+              "html": "The consequence grows naturally from a decision made only a short time earlier."
+            },
+            {
+              "html": "After school, they kick a crumpled soda can down the street, laughing."
+            },
+            {
+              "html": "A practical response appears when the characters stop and consider another option."
+            },
+            {
+              "html": "Valentina realizes Diego isn't just clumsy—he's funny, and he shares his last candy bar."
+            }
+          ],
+          "wordCount": 78
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week13_grade08_page04.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Sharing With Classmates”. Scene based on: The experience becomes useful when Valentina connects the immediate problem with a larger responsibility. Maybe friendship is worth a few stains. The situation becomes more complic. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The experience becomes useful when Valentina connects the immediate problem with a larger responsibility."
+            },
+            {
+              "html": "Maybe friendship is worth a few stains."
+            },
+            {
+              "html": "The situation becomes more complicated because Valentina must balance what is wanted with what the moment requires."
+            },
+            {
+              "html": "Later, a detail that seemed small at first now helps explain the problem."
+            },
+            {
+              "html": "Valentina's brand-new sneakers are ruined when Diego trips, splashing juice across the white fabric."
+            },
+            {
+              "html": "Different reactions show that people can understand the same event in different ways."
+            }
+          ],
+          "wordCount": 78
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week13_grade08_page05.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Sharing With Classmates”. Scene based on: \"Oops!\" he says, scrubbing them with his hoodie. The problem affects more than one person and changes how the group responds. She fumes but later hands him her eraser during a quiz. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "\"Oops!\" he says, scrubbing them with his hoodie."
+            },
+            {
+              "html": "The problem affects more than one person and changes how the group responds."
+            },
+            {
+              "html": "She fumes but later hands him her eraser during a quiz."
+            },
+            {
+              "html": "Valentina begins to see that acting quickly is not always the same as acting wisely."
+            },
+            {
+              "html": "At lunch, they swap chips for cookies, and Diego shows her a viral dance from his favorite reggaeton star."
+            },
+            {
+              "html": "The setting creates realistic limits that influence what can happen next."
+            }
+          ],
+          "wordCount": 77
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week13_grade08_page06.webp",
+          "artDirection": "13–14-year-old Colombian student context for “Sharing With Classmates”. Scene based on: Their teacher catches them practicing in the hall and laughs. Expressions and actions reveal feelings that are not always stated directly. \"Teamwork!\" she says. The consequence gro. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Their teacher catches them practicing in the hall and laughs."
+            },
+            {
+              "html": "Expressions and actions reveal feelings that are not always stated directly."
+            },
+            {
+              "html": "\"Teamwork!\" she says."
+            },
+            {
+              "html": "The consequence grows naturally from a decision made only a short time earlier."
+            },
+            {
+              "html": "During the math test, Valentina slides Diego a pencil after his snaps."
+            },
+            {
+              "html": "A practical response appears when the characters stop and consider another option."
+            },
+            {
+              "html": "\"Thanks,\" he murmurs."
+            },
+            {
+              "html": "The experience becomes useful when Valentina connects the immediate problem with a larger responsibility."
+            }
+          ],
+          "wordCount": 78
+        }
+      ],
+      "practiceWords": [
+        "sneakers",
+        "juice",
+        "hoodie",
+        "eraser",
+        "chips",
+        "cookies",
+        "dance",
+        "reggaeton",
+        "practicing",
+        "pencil"
+      ],
+      "vocabulary": [
+        {
+          "word": "sneakers",
+          "definition": "athletic shoes (tenis)"
+        },
+        {
+          "word": "juice",
+          "definition": "fruit drink (jugo)"
+        },
+        {
+          "word": "hoodie",
+          "definition": "hooded sweatshirt (sudera)"
+        },
+        {
+          "word": "eraser",
+          "definition": "rubber tool (borrador)"
+        },
+        {
+          "word": "chips",
+          "definition": "fried snacks (papas fritas)"
+        },
+        {
+          "word": "cookies",
+          "definition": "sweet baked goods (galletas)"
+        },
+        {
+          "word": "dance",
+          "definition": "rhythmic movement (baile)"
+        },
+        {
+          "word": "reggaeton",
+          "definition": "music genre (reggaetón)"
+        },
+        {
+          "word": "practicing",
+          "definition": "repeating to improve (practicando)"
+        },
+        {
+          "word": "pencil",
+          "definition": "writing tool (lápiz)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What ruins Valentina’s sneakers?",
+          "options": [
+            "Juice",
+            "Mud",
+            "Paint"
+          ],
+          "answer": "Juice"
+        },
+        {
+          "skill": "inference",
+          "question": "What do Valentina and Diego trade at lunch?",
+          "options": [
+            "Pencils for erasers",
+            "Sneakers for hoodies",
+            "Chips for cookies"
+          ],
+          "answer": "Chips for cookies"
+        },
+        {
+          "skill": "purpose",
+          "question": "What does Diego teach Valentina?",
+          "options": [
+            "A math trick",
+            "A reggaeton dance",
+            "How to fix shoes"
+          ],
+          "answer": "A reggaeton dance"
+        },
+        {
+          "skill": "main idea",
+          "question": "How does Valentina help Diego during the test?",
+          "options": [
+            "Lets him copy",
+            "Gives him a pencil",
+            "Whispers answers"
+          ],
+          "answer": "Gives him a pencil"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What do they kick after school?",
+          "options": [
+            "A soccer ball",
+            "A backpack",
+            "A soda can"
+          ],
+          "answer": "A soda can"
+        }
+      ],
+      "cover": "../assets/images/week13_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "Should I Join The Club?",
+      "minimumWordTarget": 500,
+      "wordCount": 508,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week13_grade09_page01.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Should I Join The Club?”. Scene based on: Sofía hesitates outside the art club room, staring at the colorful poster. The situation requires more than a quick reaction, so Carlos considers responsibilities and possible cons. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Sofía hesitates outside the art <b>club</b> room, staring at the colorful <b>poster</b>."
+            },
+            {
+              "html": "The situation requires more than a quick reaction, so Carlos considers responsibilities and possible consequences."
+            },
+            {
+              "html": "Her <b>jeans</b> are hand-me-downs, and her <b>sneakers</b> are caked in mud, but her <b>sketches</b> fill three notebooks."
+            },
+            {
+              "html": "What begins as an ordinary problem gradually reveals a larger issue about judgment and communication."
+            },
+            {
+              "html": "Carlos adjusts his <b>glasses</b> and nudges her."
+            },
+            {
+              "html": "Carlos learns that being independent can also mean knowing when to ask for accurate information."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week13_grade09_page02.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Should I Join The Club?”. Scene based on: \"Just go in! Several details in the setting influence the decision and make the situation more realistic. It's cheaper than the robotics club.\" She grips her frayed backpack, imagi. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "\"Just go in!"
+            },
+            {
+              "html": "Several details in the setting influence the decision and make the situation more realistic."
+            },
+            {
+              "html": "It's <b>cheaper</b> than the robotics club.\" She grips her frayed <b>backpack</b>, imagining the other kids' designer clothes."
+            },
+            {
+              "html": "The experience challenges Carlos's first assumption and encourages a more careful response."
+            },
+            {
+              "html": "That night, she draws a <b>comic</b> about a girl joining a club—bold lines, bright colors."
+            },
+            {
+              "html": "Earlier choices become connected with later results, making the cause and effect easier to see."
+            },
+            {
+              "html": "The next morning, she takes a shaky breath and signs up."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week13_grade09_page03.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Should I Join The Club?”. Scene based on: A practical solution appears only after Carlos considers more than one option. The teacher gasps at her portrait. Respectful communication helps reduce tension even before the whol. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "A practical solution appears only after Carlos considers more than one option."
+            },
+            {
+              "html": "The teacher gasps at her <b>portrait</b>."
+            },
+            {
+              "html": "Respectful communication helps reduce tension even before the whole problem is solved."
+            },
+            {
+              "html": "\"This is incredible!\" Now Sofía carries her sketchbook everywhere, even to the park."
+            },
+            {
+              "html": "Carlos's response becomes more mature as emotion gives way to planning."
+            },
+            {
+              "html": "Carlos snaps photos of her work."
+            },
+            {
+              "html": "By the end of this part, the experience has changed the way Carlos approaches the problem."
+            },
+            {
+              "html": "\"See?"
+            },
+            {
+              "html": "The situation requires more than a quick reaction, so Carlos considers responsibilities and possible consequences."
+            }
+          ],
+          "wordCount": 92
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week13_grade09_page04.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Should I Join The Club?”. Scene based on: You belong here.\" For the first time, Sofía imagines a future where her art matters more than her old shoes. What begins as an ordinary problem gradually reveals a larger issue abo. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "You belong here.\" For the first time, Sofía imagines a future where her art matters more than her old shoes."
+            },
+            {
+              "html": "What begins as an ordinary problem gradually reveals a larger issue about judgment and communication."
+            },
+            {
+              "html": "Later, carlos learns that being independent can also mean knowing when to ask for accurate information."
+            },
+            {
+              "html": "Sofía hesitates outside the art club room, staring at the colorful poster."
+            },
+            {
+              "html": "Several details in the setting influence the decision and make the situation more realistic."
+            }
+          ],
+          "wordCount": 77
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week13_grade09_page05.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Should I Join The Club?”. Scene based on: Her jeans are hand-me-downs, and her sneakers are caked in mud, but her sketches fill three notebooks. The experience challenges Carlos's first assumption and encourages a more car. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Her jeans are hand-me-downs, and her sneakers are caked in mud, but her sketches fill three notebooks."
+            },
+            {
+              "html": "The experience challenges Carlos's first assumption and encourages a more careful response."
+            },
+            {
+              "html": "Carlos adjusts his glasses and nudges her."
+            },
+            {
+              "html": "Earlier choices become connected with later results, making the cause and effect easier to see."
+            },
+            {
+              "html": "\"Just go in!"
+            },
+            {
+              "html": "A practical solution appears only after Carlos considers more than one option."
+            },
+            {
+              "html": "It's cheaper than the robotics club.\" She grips her frayed backpack, imagining the other kids' designer clothes."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week13_grade09_page06.webp",
+          "artDirection": "14–15-year-old Colombian student context for “Should I Join The Club?”. Scene based on: Respectful communication helps reduce tension even before the whole problem is solved. That night, she draws a comic about a girl joining a club—bold lines, bright colors. Carlos's. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Respectful communication helps reduce tension even before the whole problem is solved."
+            },
+            {
+              "html": "That night, she draws a comic about a girl joining a club—bold lines, bright colors."
+            },
+            {
+              "html": "Carlos's response becomes more mature as emotion gives way to planning."
+            },
+            {
+              "html": "The next morning, she takes a shaky breath and signs up."
+            },
+            {
+              "html": "By the end of this part, the experience has changed the way Carlos approaches the problem."
+            },
+            {
+              "html": "The teacher gasps at her portrait."
+            },
+            {
+              "html": "The situation requires more than a quick reaction, so Carlos considers responsibilities and possible consequences."
+            }
+          ],
+          "wordCount": 87
+        }
+      ],
+      "practiceWords": [
+        "club",
+        "poster",
+        "jeans",
+        "sneakers",
+        "sketches",
+        "glasses",
+        "cheaper",
+        "backpack",
+        "comic",
+        "portrait"
+      ],
+      "vocabulary": [
+        {
+          "word": "club",
+          "definition": "group activity (club)"
+        },
+        {
+          "word": "poster",
+          "definition": "printed announcement (póster)"
+        },
+        {
+          "word": "jeans",
+          "definition": "denim pants (jeans)"
+        },
+        {
+          "word": "sneakers",
+          "definition": "athletic shoes (tenis)"
+        },
+        {
+          "word": "sketches",
+          "definition": "quick drawings (bocetos)"
+        },
+        {
+          "word": "glasses",
+          "definition": "vision aids (gafas)"
+        },
+        {
+          "word": "cheaper",
+          "definition": "less expensive (más barato)"
+        },
+        {
+          "word": "backpack",
+          "definition": "school bag (mochila)"
+        },
+        {
+          "word": "comic",
+          "definition": "illustrated story (cómic)"
+        },
+        {
+          "word": "portrait",
+          "definition": "person’s drawing (retrato)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Why does Sofía hesitate to join the club?",
+          "options": [
+            "She hates art",
+            "She’s shy about her clothes",
+            "It’s too expensive"
+          ],
+          "answer": "She’s shy about her clothes"
+        },
+        {
+          "skill": "inference",
+          "question": "What does Carlos compare the art club to?",
+          "options": [
+            "Robotics club",
+            "Music club",
+            "Dance club"
+          ],
+          "answer": "Robotics club"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What does Sofía draw the night before joining?",
+          "options": [
+            "A comic",
+            "A portrait",
+            "A landscape"
+          ],
+          "answer": "A comic"
+        },
+        {
+          "skill": "main idea",
+          "question": "How does the teacher react to Sofía’s work?",
+          "options": [
+            "She frowns",
+            "She ignores it",
+            "She gasps"
+          ],
+          "answer": "She gasps"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What does Sofía imagine for her future?",
+          "options": [
+            "Being a doctor",
+            "Moving abroad",
+            "Her art mattering"
+          ],
+          "answer": "Her art mattering"
+        }
+      ],
+      "cover": "../assets/images/week13_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "Overcoming Fear",
+      "minimumWordTarget": 600,
+      "wordCount": 602,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week13_grade10_page01.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Overcoming Fear”. Scene based on: David's hands tremble as the packed metro lurches forward. The conflict becomes more significant when María realizes that the easiest option may not be the most responsible one. To. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "David's <b>hands</b> tremble as the packed <b>metro</b> lurches forward."
+            },
+            {
+              "html": "The conflict becomes more significant when María realizes that the easiest option may not be the most responsible one."
+            },
+            {
+              "html": "Today's his first <b>internship</b> interview, but crowds make his chest tight."
+            },
+            {
+              "html": "The situation requires comparing alternatives, anticipating consequences, and communicating clearly."
+            },
+            {
+              "html": "A man jostles his <b>shoulder</b>, and his <b>phone</b> clatters to the floor."
+            },
+            {
+              "html": "Personal decisions affect other people, so María has to think beyond the immediate goal."
+            },
+            {
+              "html": "\"Easy,\" says a woman in a suit, offering gum."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week13_grade10_page02.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Overcoming Fear”. Scene based on: A detail introduced earlier becomes relevant again and changes how the problem is understood. David counts stops, gripping the handrail. Progress comes through effort, negotiation,. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "A detail introduced earlier becomes relevant again and changes how the problem is understood."
+            },
+            {
+              "html": "David counts <b>stops</b>, gripping the handrail."
+            },
+            {
+              "html": "Progress comes through effort, negotiation, and a willingness to adjust the original plan."
+            },
+            {
+              "html": "At the office, his boss reviews the <b>schedule</b> warmly."
+            },
+            {
+              "html": "Information becomes useful only after María checks it carefully instead of accepting it immediately."
+            },
+            {
+              "html": "\"Nervous?\" she asks."
+            },
+            {
+              "html": "As pressure increases, María separates emotional reactions from the practical facts of the situation."
+            },
+            {
+              "html": "David nods."
+            },
+            {
+              "html": "The way María asks questions and considers other perspectives shows growing maturity."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week13_grade10_page03.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Overcoming Fear”. Scene based on: At lunch, he hides in the break room until María from accounting shares her arepa. Responsibility becomes visible through preparation, listening, correction, and follow-through. \"I. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "At lunch, he hides in the break room until María from accounting shares her <b>arepa</b>."
+            },
+            {
+              "html": "Responsibility becomes visible through preparation, listening, correction, and follow-through."
+            },
+            {
+              "html": "\"I cried on my first day too,\" she admits."
+            },
+            {
+              "html": "The final choice matters because it considers both immediate needs and longer-term consequences."
+            },
+            {
+              "html": "Later, David <b>decides</b> to ride the metro home."
+            },
+            {
+              "html": "The conflict becomes more significant when María realizes that the easiest option may not be the most responsible one."
+            },
+            {
+              "html": "This time, he notices a girl reading his favorite comic."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week13_grade10_page04.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Overcoming Fear”. Scene based on: The situation requires comparing alternatives, anticipating consequences, and communicating clearly. They chat about superheroes, and his fear melts. Personal decisions affect othe. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The situation requires comparing alternatives, anticipating consequences, and communicating clearly."
+            },
+            {
+              "html": "They chat about superheroes, and his <b>fear</b> melts."
+            },
+            {
+              "html": "Personal decisions affect other people, so María has to think beyond the immediate goal."
+            },
+            {
+              "html": "The city's noise feels quieter now, its streets less overwhelming."
+            },
+            {
+              "html": "A detail introduced earlier becomes relevant again and changes how the problem is understood."
+            },
+            {
+              "html": "That night, he texts María: \"Thanks for the food.\" She replies, \"Welcome to the team.\" David smiles."
+            },
+            {
+              "html": "Progress comes through effort, negotiation, and a willingness to adjust the original plan."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week13_grade10_page05.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Overcoming Fear”. Scene based on: Maybe his future isn't so scary after all. Information becomes useful only after María checks it carefully instead of accepting it immediately. Later, as pressure increases, María . mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Maybe his future isn't so scary after all."
+            },
+            {
+              "html": "Information becomes useful only after María checks it carefully instead of accepting it immediately."
+            },
+            {
+              "html": "Later, as pressure increases, María separates emotional reactions from the practical facts of the situation."
+            },
+            {
+              "html": "David's hands tremble as the packed metro lurches forward."
+            },
+            {
+              "html": "The way María asks questions and considers other perspectives shows growing maturity."
+            },
+            {
+              "html": "Today's his first internship interview, but crowds make his chest tight."
+            },
+            {
+              "html": "Responsibility becomes visible through preparation, listening, correction, and follow-through."
+            },
+            {
+              "html": "A man jostles his shoulder, and his phone clatters to the floor."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week13_grade10_page06.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Overcoming Fear”. Scene based on: The final choice matters because it considers both immediate needs and longer-term consequences. \"Easy,\" says a woman in a suit, offering gum. The conflict becomes more significant. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The final choice matters because it considers both immediate needs and longer-term consequences."
+            },
+            {
+              "html": "\"Easy,\" says a woman in a suit, offering gum."
+            },
+            {
+              "html": "The conflict becomes more significant when María realizes that the easiest option may not be the most responsible one."
+            },
+            {
+              "html": "David counts stops, gripping the handrail."
+            },
+            {
+              "html": "The situation requires comparing alternatives, anticipating consequences, and communicating clearly."
+            },
+            {
+              "html": "At the office, his boss reviews the schedule warmly."
+            },
+            {
+              "html": "Personal decisions affect other people, so María has to think beyond the immediate goal."
+            }
+          ],
+          "wordCount": 80
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week13_grade10_page07.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Overcoming Fear”. Scene based on: \"Nervous?\" she asks. A detail introduced earlier becomes relevant again and changes how the problem is understood. David nods. Progress comes through effort, negotiation, and a wil. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "\"Nervous?\" she asks."
+            },
+            {
+              "html": "A detail introduced earlier becomes relevant again and changes how the problem is understood."
+            },
+            {
+              "html": "David nods."
+            },
+            {
+              "html": "Progress comes through effort, negotiation, and a willingness to adjust the original plan."
+            },
+            {
+              "html": "At lunch, he hides in the break room until María from accounting shares her arepa."
+            },
+            {
+              "html": "Information becomes useful only after María checks it carefully instead of accepting it immediately."
+            },
+            {
+              "html": "\"I cried on my first day too,\" she admits."
+            },
+            {
+              "html": "As pressure increases, María separates emotional reactions from the practical facts of the situation."
+            },
+            {
+              "html": "Later, David decides to ride the metro home."
+            }
+          ],
+          "wordCount": 92
+        }
+      ],
+      "practiceWords": [
+        "hands",
+        "metro",
+        "internship",
+        "shoulder",
+        "phone",
+        "stops",
+        "schedule",
+        "arepa",
+        "decides",
+        "fear"
+      ],
+      "vocabulary": [
+        {
+          "word": "hands",
+          "definition": "body parts (manos)"
+        },
+        {
+          "word": "metro",
+          "definition": "subway (metro)"
+        },
+        {
+          "word": "internship",
+          "definition": "trainee job (pasantía)"
+        },
+        {
+          "word": "shoulder",
+          "definition": "body part (hombro)"
+        },
+        {
+          "word": "phone",
+          "definition": "mobile device (teléfono)"
+        },
+        {
+          "word": "stops",
+          "definition": "public transit stations (paradas)"
+        },
+        {
+          "word": "schedule",
+          "definition": "time plan (horario)"
+        },
+        {
+          "word": "arepa",
+          "definition": "corn cake (arepa)"
+        },
+        {
+          "word": "decides",
+          "definition": "makes a choice (decide)"
+        },
+        {
+          "word": "fear",
+          "definition": "strong worry (miedo)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Why is David nervous on the metro?",
+          "options": [
+            "He’s late",
+            "He lost his phone",
+            "He hates crowds"
+          ],
+          "answer": "He hates crowds"
+        },
+        {
+          "skill": "inference",
+          "question": "What does the woman in a suit offer David?",
+          "options": [
+            "Money",
+            "A job",
+            "Gum"
+          ],
+          "answer": "Gum"
+        },
+        {
+          "skill": "purpose",
+          "question": "Where does David hide at lunch?",
+          "options": [
+            "In the bathroom",
+            "In the break room",
+            "Under his desk"
+          ],
+          "answer": "In the break room"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What does María share with David?",
+          "options": [
+            "Her arepa",
+            "Her notes",
+            "Her umbrella"
+          ],
+          "answer": "Her arepa"
+        },
+        {
+          "skill": "main idea",
+          "question": "What makes David’s fear fade?",
+          "options": [
+            "Talking about comics",
+            "The metro ride",
+            "His boss’s praise"
+          ],
+          "answer": "Talking about comics"
+        }
+      ],
+      "cover": "../assets/images/week13_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "The Value Of Commitment",
+      "minimumWordTarget": 700,
+      "wordCount": 700,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week13_grade11_page01.webp",
+          "artDirection": "16–17-year-old Colombian student context for “The Value Of Commitment”. Scene based on: Javier's alarm clock blares at 4:30 AM. The episode becomes more complex because Javier must interpret not only what happened but why people respond differently. He ties his steel-. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Javier's <b>alarm clock</b> blares at 4:30 AM."
+            },
+            {
+              "html": "The episode becomes more complex because Javier must interpret not only what happened but why people respond differently."
+            },
+            {
+              "html": "He ties his steel-toed <b>boots</b> for another shift at the <b>warehouse</b>, where his <b>manager</b> barks orders."
+            },
+            {
+              "html": "A personal decision can have broader implications when trust, safety, reputation, or future plans are involved."
+            },
+            {
+              "html": "Between stacking boxes, he reviews <b>anatomy</b> diagrams on his cracked phone—medical school is his dream, but his <b>resume</b> lacks fancy internships."
+            },
+            {
+              "html": "Javier's first interpretation is understandable, but later details encourage a more nuanced view."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week13_grade11_page02.webp",
+          "artDirection": "16–17-year-old Colombian student context for “The Value Of Commitment”. Scene based on: At night school, Professor Rojas circles the \"skills section\" in red. Mature decision-making sometimes requires changing an initial assumption when better evidence appears. \"Rewrit. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "At night school, Professor Rojas circles the \"skills <b>section</b>\" in red."
+            },
+            {
+              "html": "Mature decision-making sometimes requires changing an initial assumption when better evidence appears."
+            },
+            {
+              "html": "\"Rewrite this,\" she says."
+            },
+            {
+              "html": "The social environment influences Javier, although personal agency still matters in the final choice."
+            },
+            {
+              "html": "The bus home reeks of <b>chemicals</b>, but Javier focuses on his <b>notebook</b>, copying a professional format."
+            },
+            {
+              "html": "Earlier experiences influence later behavior and make the character's development more coherent."
+            },
+            {
+              "html": "His mom leaves soup warming on the stove, though she worked double shifts at the clinic."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week13_grade11_page03.webp",
+          "artDirection": "16–17-year-old Colombian student context for “The Value Of Commitment”. Scene based on: The story shows that consequences can include both difficulties and opportunities for growth. At 1 AM, he sets three alarms, icing his swollen knees. Communication becomes a form o. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The story shows that consequences can include both difficulties and opportunities for growth."
+            },
+            {
+              "html": "At 1 AM, he sets three alarms, icing his swollen <b>knees</b>."
+            },
+            {
+              "html": "Communication becomes a form of responsibility when Javier explains intentions or verifies information."
+            },
+            {
+              "html": "The next morning, he spots a poster for a free pre-med workshop."
+            },
+            {
+              "html": "The setting shapes the pressures, resources, and alternatives that are realistically available."
+            },
+            {
+              "html": "His hands shake as he texts the number."
+            },
+            {
+              "html": "By the end, Javier responds in a more deliberate and informed way, even if every problem is not completely solved."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week13_grade11_page04.webp",
+          "artDirection": "16–17-year-old Colombian student context for “The Value Of Commitment”. Scene based on: \"One step at a time,\" he whispers, lacing his boots. The episode becomes more complex because Javier must interpret not only what happened but why people respond differently. The w. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "\"One step at a time,\" he whispers, lacing his boots."
+            },
+            {
+              "html": "The episode becomes more complex because Javier must interpret not only what happened but why people respond differently."
+            },
+            {
+              "html": "The warehouse can't crush his future—not while he's still breathing."
+            },
+            {
+              "html": "A personal decision can have broader implications when trust, safety, reputation, or future plans are involved."
+            },
+            {
+              "html": "Later, javier's first interpretation is understandable, but later details encourage a more nuanced view."
+            },
+            {
+              "html": "Javier's alarm clock blares at 4:30 AM."
+            },
+            {
+              "html": "Mature decision-making sometimes requires changing an initial assumption when better evidence appears."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week13_grade11_page05.webp",
+          "artDirection": "16–17-year-old Colombian student context for “The Value Of Commitment”. Scene based on: He ties his steel-toed boots for another shift at the warehouse, where his manager barks orders. The social environment influences Javier, although personal agency still matters in. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "He ties his steel-toed boots for another shift at the warehouse, where his manager barks orders."
+            },
+            {
+              "html": "The social environment influences Javier, although personal agency still matters in the final choice."
+            },
+            {
+              "html": "Between stacking boxes, he reviews anatomy diagrams on his cracked phone—medical school is his dream, but his resume lacks fancy internships."
+            },
+            {
+              "html": "Earlier experiences influence later behavior and make the character's development more coherent."
+            },
+            {
+              "html": "At night school, Professor Rojas circles the \"skills section\" in red."
+            },
+            {
+              "html": "The story shows that consequences can include both difficulties and opportunities for growth."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week13_grade11_page06.webp",
+          "artDirection": "16–17-year-old Colombian student context for “The Value Of Commitment”. Scene based on: \"Rewrite this,\" she says. Communication becomes a form of responsibility when Javier explains intentions or verifies information. The bus home reeks of chemicals, but Javier focuse. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "\"Rewrite this,\" she says."
+            },
+            {
+              "html": "Communication becomes a form of responsibility when Javier explains intentions or verifies information."
+            },
+            {
+              "html": "The bus home reeks of chemicals, but Javier focuses on his notebook, copying a professional format."
+            },
+            {
+              "html": "The setting shapes the pressures, resources, and alternatives that are realistically available."
+            },
+            {
+              "html": "His mom leaves soup warming on the stove, though she worked double shifts at the clinic."
+            },
+            {
+              "html": "By the end, Javier responds in a more deliberate and informed way, even if every problem is not completely solved."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week13_grade11_page07.webp",
+          "artDirection": "16–17-year-old Colombian student context for “The Value Of Commitment”. Scene based on: At 1 AM, he sets three alarms, icing his swollen knees. The episode becomes more complex because Javier must interpret not only what happened but why people respond differently. Th. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "At 1 AM, he sets three alarms, icing his swollen knees."
+            },
+            {
+              "html": "The episode becomes more complex because Javier must interpret not only what happened but why people respond differently."
+            },
+            {
+              "html": "The next morning, he spots a poster for a free pre-med workshop."
+            },
+            {
+              "html": "A personal decision can have broader implications when trust, safety, reputation, or future plans are involved."
+            },
+            {
+              "html": "His hands shake as he texts the number."
+            },
+            {
+              "html": "Javier's first interpretation is understandable, but later details encourage a more nuanced view."
+            },
+            {
+              "html": "\"One step at a time,\" he whispers, lacing his boots."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week13_grade11_page08.webp",
+          "artDirection": "16–17-year-old Colombian student context for “The Value Of Commitment”. Scene based on: Mature decision-making sometimes requires changing an initial assumption when better evidence appears. The warehouse can't crush his future—not while he's still breathing. The soci. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Mature decision-making sometimes requires changing an initial assumption when better evidence appears."
+            },
+            {
+              "html": "The warehouse can't crush his future—not while he's still breathing."
+            },
+            {
+              "html": "The social environment influences Javier, although personal agency still matters in the final choice."
+            },
+            {
+              "html": "Later, earlier experiences influence later behavior and make the character's development more coherent."
+            },
+            {
+              "html": "Javier's alarm clock blares at 4:30 AM."
+            },
+            {
+              "html": "The story shows that consequences can include both difficulties and opportunities for growth."
+            },
+            {
+              "html": "He ties his steel-toed boots for another shift at the warehouse, where his manager barks orders."
+            }
+          ],
+          "wordCount": 87
+        }
+      ],
+      "practiceWords": [
+        "alarm clock",
+        "boots",
+        "warehouse",
+        "manager",
+        "anatomy",
+        "resume",
+        "section",
+        "chemicals",
+        "notebook",
+        "knees"
+      ],
+      "vocabulary": [
+        {
+          "word": "alarm clock",
+          "definition": "waking device (despertador)"
+        },
+        {
+          "word": "boots",
+          "definition": "work footwear (botas)"
+        },
+        {
+          "word": "warehouse",
+          "definition": "storage building (almacén)"
+        },
+        {
+          "word": "manager",
+          "definition": "supervisor (gerente)"
+        },
+        {
+          "word": "anatomy",
+          "definition": "body structure study (anatomía)"
+        },
+        {
+          "word": "resume",
+          "definition": "job application (hoja de vida)"
+        },
+        {
+          "word": "section",
+          "definition": "part (sección)"
+        },
+        {
+          "word": "chemicals",
+          "definition": "industrial substances (químicos)"
+        },
+        {
+          "word": "notebook",
+          "definition": "writing book (cuaderno)"
+        },
+        {
+          "word": "knees",
+          "definition": "leg joints (rodillas)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "What time does Javier wake up?",
+          "options": [
+            "6:00 AM",
+            "5:15 AM",
+            "4:30 AM"
+          ],
+          "answer": "4:30 AM"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What does Javier study during breaks?",
+          "options": [
+            "Anatomy diagrams",
+            "Resume templates",
+            "Warehouse manuals"
+          ],
+          "answer": "Anatomy diagrams"
+        },
+        {
+          "skill": "purpose",
+          "question": "What does Professor Rojas tell Javier to rewrite?",
+          "options": [
+            "His essay",
+            "A letter",
+            "His resume"
+          ],
+          "answer": "His resume"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What does Javier’s mom leave for him?",
+          "options": [
+            "Soup",
+            "Money",
+            "A note"
+          ],
+          "answer": "Soup"
+        },
+        {
+          "skill": "main idea",
+          "question": "What gives Javier hope at the end?",
+          "options": [
+            "A raise",
+            "A new manager",
+            "A free workshop"
+          ],
+          "answer": "A free workshop"
+        }
+      ],
+      "cover": "../assets/images/week13_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

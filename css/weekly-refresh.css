@@ -1,0 +1,700 @@
+/* =========================================================
+   WEEKLY READINGS — INTERFACE REFRESH
+   Loaded AFTER the page's inline <style>. Visual layer only:
+   no IDs, no logic, no book geometry are changed.
+   Same family as Little Readers (navy outlines, offset
+   shadows, mango accent), tuned for grades 6–11.
+   ========================================================= */
+:root{
+  --wr-ink:#16204a;
+  --wr-ink-soft:#4a5580;
+  --wr-blue:#3b5bff;
+  --wr-blue-deep:#2440d8;
+  --wr-sky:#e8eeff;
+  --wr-mango:#ffb524;
+  --wr-mango-tint:#fff3d6;
+  --wr-mint:#14a86f;
+  --wr-coral:#e5484d;
+  --wr-line:#d7def2;
+  --wr-bg:#f3f6fd;
+  --wr-font:"Lexend", "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+  --wr-radius:24px;
+}
+
+/* ---------- base ---------- */
+html body{
+  font-family:var(--wr-font) !important;
+  color:var(--wr-ink) !important;
+  background:
+    radial-gradient(circle at 10% 0%, rgba(59,91,255,.10), transparent 30%),
+    var(--wr-bg) !important;
+}
+html{ scroll-padding-top:84px; }
+html body :focus-visible{
+  outline:3px solid var(--wr-blue) !important;
+  outline-offset:3px !important;
+}
+/* The book keeps its original reading font so page auto-fit is unchanged. */
+html body .reading-frame-content{
+  font-family:"Segoe UI", Inter, Arial, sans-serif;
+}
+
+/* ---------- top bar ---------- */
+html body .topbar{
+  display:flex !important;
+  align-items:center !important;
+  gap:16px !important;
+  padding:max(16px,env(safe-area-inset-top)) 0 14px !important;
+}
+html body .home-link{
+  display:inline-flex !important;
+  align-items:center !important;
+  gap:6px !important;
+  padding:9px 16px !important;
+  border-radius:999px !important;
+  background:#fff !important;
+  color:var(--wr-ink) !important;
+  border:2px solid var(--wr-ink) !important;
+  box-shadow:0 3px 0 var(--wr-ink) !important;
+  font-weight:700 !important;
+}
+html body .brand-block{ display:flex !important; flex-direction:column !important; gap:2px !important; }
+html body .brand-kicker{
+  font-size:clamp(1.5rem,3.4vw,2.1rem) !important;
+  font-weight:800 !important;
+  letter-spacing:-.02em !important;
+  text-transform:none !important;
+  color:var(--wr-ink) !important;
+  line-height:1.05 !important;
+}
+html body .brand-block h1{
+  margin:0 !important;
+  font-size:clamp(.88rem,1.6vw,1rem) !important;
+  font-weight:500 !important;
+  letter-spacing:0 !important;
+  color:var(--wr-ink-soft) !important;
+  line-height:1.3 !important;
+}
+
+/* ---------- week / grade selector ---------- */
+html body .session-bar{
+  padding:14px 16px !important;
+  border-radius:20px !important;
+  background:#fff !important;
+  border:2px solid var(--wr-ink) !important;
+  box-shadow:4px 4px 0 var(--wr-ink) !important;
+  gap:12px !important;
+}
+html body .session-bar .field label{
+  font-size:.8rem !important;
+  font-weight:700 !important;
+  letter-spacing:0 !important;
+  text-transform:none !important;
+  color:var(--wr-ink-soft) !important;
+  margin-bottom:5px !important;
+}
+html body .session-bar select{
+  height:48px !important;
+  min-height:48px !important;
+  padding:0 12px !important;
+  border-radius:14px !important;
+  border:2px solid var(--wr-line) !important;
+  background-color:#f8faff !important;
+  color:var(--wr-ink) !important;
+  font-weight:600 !important;
+  margin:0 !important;
+}
+html body .session-bar select:hover{ border-color:#aebcf0 !important; }
+
+/* ---------- step navigator ---------- */
+.wr-steps{
+  position:sticky;
+  top:max(8px, env(safe-area-inset-top));
+  z-index:60;
+  display:flex;
+  gap:4px;
+  margin:14px 0 4px;
+  padding:5px;
+  border-radius:999px;
+  background:rgba(255,255,255,.92);
+  -webkit-backdrop-filter:blur(10px);
+  backdrop-filter:blur(10px);
+  border:2px solid var(--wr-ink);
+  box-shadow:0 4px 0 var(--wr-ink);
+  overflow-x:auto;
+  scrollbar-width:none;
+}
+.wr-steps::-webkit-scrollbar{ display:none; }
+.wr-steps a{
+  flex:1 1 0;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  min-height:42px;
+  padding:0 12px;
+  border-radius:999px;
+  color:var(--wr-ink-soft);
+  font-weight:700;
+  font-size:.92rem;
+  white-space:nowrap;
+  transition:background-color .15s ease, color .15s ease;
+}
+.wr-steps a b{
+  display:grid;
+  place-items:center;
+  width:26px;
+  height:26px;
+  flex:0 0 26px;
+  border-radius:50%;
+  background:var(--wr-sky);
+  color:var(--wr-blue-deep);
+  font-size:.82rem;
+  font-weight:800;
+}
+.wr-steps a:hover{ background:var(--wr-sky); color:var(--wr-ink); }
+.wr-steps a.is-active{ background:var(--wr-ink); color:#fff; }
+.wr-steps a.is-active b{ background:var(--wr-mango); color:var(--wr-ink); }
+
+/* ---------- section cards ---------- */
+html body .card,
+html body .old-evidence-box{
+  margin:22px 0 0 !important;
+  padding:clamp(18px,2.6vw,28px) !important;
+  border-radius:var(--wr-radius) !important;
+  background:#fff !important;
+  border:2px solid var(--wr-ink) !important;
+  box-shadow:5px 5px 0 var(--wr-ink) !important;
+}
+html body .section-head{
+  display:flex !important;
+  align-items:center !important;
+  justify-content:space-between !important;
+  gap:12px !important;
+  margin-bottom:14px !important;
+}
+html body .section-head h2{
+  margin:4px 0 0 !important;
+  font-size:clamp(1.35rem,2.6vw,1.75rem) !important;
+  font-weight:800 !important;
+  letter-spacing:-.02em !important;
+  color:var(--wr-ink) !important;
+  line-height:1.1 !important;
+}
+html body .card .section-kicker{
+  display:inline-flex !important;
+  padding:4px 10px !important;
+  border-radius:999px !important;
+  background:var(--wr-sky) !important;
+  color:var(--wr-blue-deep) !important;
+  font-size:.78rem !important;
+  font-weight:800 !important;
+  letter-spacing:0 !important;
+  text-transform:none !important;
+}
+html body .card .hint{
+  padding:6px 12px !important;
+  border-radius:999px !important;
+  background:var(--wr-mango-tint) !important;
+  color:#8a5a00 !important;
+  border:0 !important;
+  font-size:.8rem !important;
+  font-weight:700 !important;
+  white-space:nowrap !important;
+}
+html body .section-description{
+  color:var(--wr-ink-soft) !important;
+  line-height:1.55 !important;
+  margin:0 0 14px !important;
+  max-width:70ch;
+}
+
+/* ---------- book frame + page buttons ---------- */
+html body .flip-reader-shell{ margin:18px 0 6px !important; }
+html body .flip-nav{
+  border:2px solid var(--wr-ink) !important;
+  background:#fff !important;
+  color:var(--wr-ink) !important;
+  box-shadow:0 4px 0 var(--wr-ink) !important;
+}
+html body .flip-nav:disabled{ opacity:.35 !important; box-shadow:none !important; }
+html body .flip-mobile-btn{
+  border:2px solid var(--wr-ink) !important;
+  background:#fff !important;
+  color:var(--wr-ink) !important;
+  box-shadow:0 3px 0 var(--wr-ink) !important;
+  border-radius:14px !important;
+  font-weight:700 !important;
+}
+html body .flip-mobile-btn:disabled{ opacity:.35 !important; box-shadow:none !important; }
+html body #flipPageIndicatorMobile{ font-weight:700; color:var(--wr-ink-soft); }
+html body .storybook-cover-view{
+  border:2px solid var(--wr-ink) !important;
+  box-shadow:5px 5px 0 var(--wr-ink) !important;
+  background:linear-gradient(160deg,#eef2ff 0%,#fff8e8 100%) !important;
+}
+html body .cover-swipe-hint{
+  padding:7px 14px;
+  border-radius:999px;
+  background:#fff;
+  color:var(--wr-ink) !important;
+  border:2px solid var(--wr-ink);
+  font-family:var(--wr-font);
+}
+
+/* ---------- vocabulary ---------- */
+html body .vocab-list{
+  display:grid !important;
+  grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+  gap:8px !important;
+}
+html body .vocab-item{
+  padding:10px 12px 10px 14px !important;
+  border-radius:14px !important;
+  background:#f8faff !important;
+  border:1.5px solid var(--wr-line) !important;
+  border-left:5px solid var(--wr-mango) !important;
+  box-shadow:none !important;
+}
+html body .vocab-item strong{
+  color:var(--wr-blue-deep) !important;
+  font-weight:800 !important;
+  font-size:1.02rem !important;
+}
+html body .vocab-item span{
+  color:var(--wr-ink-soft) !important;
+  font-size:.94rem !important;
+}
+
+/* ---------- practice challenge ---------- */
+html body .game-score{
+  display:inline-flex !important;
+  padding:6px 14px !important;
+  border-radius:999px !important;
+  background:var(--wr-mango-tint) !important;
+  color:var(--wr-ink) !important;
+  border:2px solid var(--wr-mango) !important;
+  font-weight:800 !important;
+  margin:0 0 12px !important;
+}
+html body .challenge-reading{
+  padding:16px 18px !important;
+  border-radius:18px !important;
+  border:1.5px solid var(--wr-line) !important;
+  background:#fffdf8 !important;
+  font-size:1.02rem !important;
+  line-height:2.25 !important;
+  color:var(--wr-ink) !important;
+}
+html body .drop-zone{
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  vertical-align:middle !important;
+  min-width:92px !important;
+  min-height:34px !important;
+  margin:2px 3px !important;
+  padding:2px !important;
+  border-radius:10px !important;
+  border:2px dashed #93a6f5 !important;
+  background:var(--wr-sky) !important;
+  transition:border-color .15s ease, background-color .15s ease;
+}
+html body .drop-zone.filled{ border-style:solid !important; border-color:var(--wr-blue) !important; background:#fff !important; }
+html body .drop-zone.correct{ border:2px solid var(--wr-mint) !important; background:#e3f7ee !important; }
+html body .drop-zone.incorrect{ border:2px solid var(--wr-coral) !important; background:#fdeaea !important; }
+
+/* Word bank stays visible at the bottom while the student scrolls the text. */
+html body .word-bank{
+  position:sticky !important;
+  bottom:max(10px, env(safe-area-inset-bottom)) !important;
+  z-index:5 !important;
+  display:flex !important;
+  flex-wrap:wrap !important;
+  gap:8px !important;
+  margin:14px 0 0 !important;
+  padding:12px !important;
+  border-radius:18px !important;
+  background:rgba(255,255,255,.96) !important;
+  border:2px solid var(--wr-ink) !important;
+  box-shadow:0 4px 0 var(--wr-ink), 0 12px 28px rgba(22,32,74,.12) !important;
+}
+html body .word-chip{
+  padding:7px 12px !important;
+  border-radius:10px !important;
+  background:#fff !important;
+  color:var(--wr-blue-deep) !important;
+  border:2px solid #aebcf0 !important;
+  font-weight:700 !important;
+  font-size:.95rem !important;
+  line-height:1.15 !important;
+  box-shadow:0 2px 0 #aebcf0 !important;
+  cursor:grab;
+  transition:transform .12s ease, background-color .12s ease;
+}
+html body .word-chip.selected{
+  background:var(--wr-blue) !important;
+  color:#fff !important;
+  border-color:var(--wr-ink) !important;
+  box-shadow:0 3px 0 var(--wr-ink) !important;
+  transform:translateY(-2px);
+}
+html body .drop-zone .word-chip{
+  padding:3px 9px !important;
+  box-shadow:none !important;
+  border-color:transparent !important;
+  background:transparent !important;
+}
+
+/* ---------- buttons ---------- */
+html body .button-row{
+  display:flex !important;
+  flex-wrap:wrap !important;
+  gap:10px !important;
+  margin-top:16px !important;
+}
+html body .button-row .btn{
+  min-height:48px !important;
+  padding:0 20px !important;
+  border-radius:14px !important;
+  font-weight:800 !important;
+  border:2px solid var(--wr-ink) !important;
+  transition:transform .1s ease, box-shadow .1s ease !important;
+}
+html body .button-row .btn-primary,
+html body .button-row .btn-success{
+  background:var(--wr-blue) !important;
+  color:#fff !important;
+  box-shadow:0 4px 0 var(--wr-ink) !important;
+}
+html body .button-row .btn-success{ background:var(--wr-mint) !important; }
+html body .button-row .btn-secondary{
+  background:#fff !important;
+  color:var(--wr-ink) !important;
+  box-shadow:0 4px 0 var(--wr-ink) !important;
+}
+html body .button-row .btn:active{ transform:translateY(3px) !important; box-shadow:0 1px 0 var(--wr-ink) !important; }
+
+/* Listen button inside the book keeps its size, gets the new color. */
+html body .reading-frame-content #ttsPlay{ background:var(--wr-blue) !important; }
+
+/* ---------- quiz ---------- */
+html body #quizContent{ display:grid; gap:12px; }
+html body .quiz-question{
+  margin:0 !important;
+  padding:14px !important;
+  border-radius:18px !important;
+  border:1.5px solid var(--wr-line) !important;
+  background:#f8faff !important;
+  box-shadow:none !important;
+}
+html body .quiz-question p{
+  margin:0 0 10px !important;
+  font-weight:600 !important;
+  font-size:1rem !important;
+  line-height:1.4 !important;
+  color:var(--wr-ink) !important;
+}
+html body .quiz-question p strong{ color:var(--wr-blue-deep); font-weight:800; }
+html body .quiz-options{
+  display:grid !important;
+  grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+  gap:8px !important;
+}
+html body .quiz-option{
+  display:flex !important;
+  align-items:center !important;
+  gap:10px !important;
+  min-height:46px !important;
+  padding:9px 12px !important;
+  border-radius:12px !important;
+  border:2px solid #dfe5f5 !important;
+  background:#fff !important;
+  color:var(--wr-ink) !important;
+  cursor:pointer !important;
+  transition:border-color .12s ease, background-color .12s ease;
+}
+html body .quiz-option:hover{ border-color:#aebcf0 !important; }
+html body .quiz-option input{
+  width:20px !important;
+  height:20px !important;
+  min-width:20px !important;
+  margin:0 !important;
+  accent-color:var(--wr-blue);
+}
+html body .quiz-option span{ font-size:.95rem !important; line-height:1.3 !important; }
+html body .quiz-option:has(input:checked){
+  border-color:var(--wr-blue) !important;
+  background:var(--wr-sky) !important;
+}
+html body .quiz-option:has(input:checked) span{ font-weight:700 !important; }
+
+/* Letters A, B, C, D on each option (restart on every question). */
+html body .quiz-options{ counter-reset:opt; }
+html body .quiz-option{ counter-increment:opt; }
+html body .quiz-option span{ display:flex; align-items:baseline; }
+html body .quiz-option span::before{
+  content:counter(opt, upper-alpha) ".";
+  flex:0 0 1.6em;
+  font-weight:800;
+  color:var(--wr-blue-deep);
+}
+html body .quiz-option:has(input:checked) span::before{ color:var(--wr-ink); }
+
+/* ---------- evidence ---------- */
+html body .old-evidence-box{
+  display:grid !important;
+  grid-template-columns:240px minmax(0,1fr) !important;
+  column-gap:28px !important;
+  row-gap:14px !important;
+  align-items:start !important;
+  text-align:left !important;
+}
+html body .old-evidence-title-wrap{ grid-column:1 / -1 !important; margin:0 !important; text-align:left !important; }
+html body .old-evidence-title{
+  margin:0 0 10px !important;
+  color:var(--wr-ink) !important;
+  font-size:clamp(1.3rem,2.6vw,1.7rem) !important;
+  font-weight:800 !important;
+  letter-spacing:-.01em !important;
+  text-align:left !important;
+}
+html body .evidence-steps{
+  list-style:none !important;
+  counter-reset:ev;
+  display:flex !important;
+  flex-wrap:wrap !important;
+  gap:8px !important;
+  margin:0 !important;
+  padding:0 !important;
+  font-size:.92rem !important;
+  color:var(--wr-ink) !important;
+}
+html body .evidence-steps li{
+  counter-increment:ev;
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:6px 12px 6px 6px;
+  border-radius:999px;
+  background:var(--wr-sky);
+  font-weight:600;
+}
+html body .evidence-steps li::before{
+  content:counter(ev);
+  display:grid;
+  place-items:center;
+  width:24px;
+  height:24px;
+  border-radius:50%;
+  background:var(--wr-ink);
+  color:#fff;
+  font-size:.78rem;
+  font-weight:800;
+}
+html body .old-camera-wrap{
+  grid-column:1 !important;
+  grid-row:2 / span 4 !important;
+  margin:0 !important;
+  display:block !important;
+}
+html body .camera-box{
+  width:100% !important;
+  height:auto !important;
+  aspect-ratio:1 / 1 !important;
+  margin:0 !important;
+  border-radius:18px !important;
+  border:2px solid var(--wr-ink) !important;
+  background:var(--wr-sky) !important;
+  color:var(--wr-ink-soft) !important;
+  display:grid !important;
+  place-items:center !important;
+  text-align:center !important;
+  overflow:hidden !important;
+  font-weight:600 !important;
+}
+html body .old-form-stack{
+  grid-column:2 !important;
+  display:grid !important;
+  grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+  gap:12px 14px !important;
+  margin:0 !important;
+}
+html body .old-form-stack .field{ margin:0 !important; }
+html body .old-form-stack .evidence-title-input-wrap{ grid-column:1 / -1; }
+html body .old-form-stack label{
+  font-size:.85rem !important;
+  font-weight:700 !important;
+  color:var(--wr-ink) !important;
+  margin:0 0 5px !important;
+}
+html body .old-form-stack input{
+  height:48px !important;
+  margin:0 !important;
+  padding:0 12px !important;
+  border-radius:12px !important;
+  border:2px solid var(--wr-line) !important;
+  background:#fff !important;
+  color:var(--wr-ink) !important;
+  font-size:1rem !important;
+}
+html body .old-form-stack input:focus{
+  border-color:var(--wr-blue) !important;
+  box-shadow:0 0 0 4px rgba(59,91,255,.15) !important;
+  outline:none !important;
+}
+html body .old-form-stack input[readonly]{ background:#f3f5fb !important; color:var(--wr-ink-soft) !important; }
+html body .old-evidence-box .button-row{
+  grid-column:2 !important;
+  justify-content:flex-start !important;
+  margin:4px 0 0 !important;
+}
+html body .old-score-feedback,
+html body .old-timestamp{ grid-column:2 !important; margin:0 !important; text-align:left !important; }
+html body .old-score-feedback:not(:empty){
+  padding:12px 14px !important;
+  border-radius:14px !important;
+  background:#e3f7ee !important;
+  border:2px solid var(--wr-mint) !important;
+  color:#0b5e3e !important;
+  font-weight:700 !important;
+}
+html body .old-score-feedback:empty{ display:none !important; }
+
+/* ---------- tablets ---------- */
+@media (max-width:900px){
+  html body .quiz-options{ grid-template-columns:1fr !important; }
+}
+
+/* ---------- phones ---------- */
+@media (max-width:720px){
+  html body .vocab-list{ grid-template-columns:1fr !important; }
+
+  .wr-steps a{ flex:1 0 auto; padding:0 10px; }
+  .wr-steps a:not(.is-active) span{ display:none; }
+
+  html body .card,
+  html body .old-evidence-box{ box-shadow:4px 4px 0 var(--wr-ink) !important; }
+
+  html body .old-evidence-box{ grid-template-columns:1fr !important; }
+  html body .old-camera-wrap,
+  html body .old-form-stack,
+  html body .old-evidence-box .button-row,
+  html body .old-score-feedback,
+  html body .old-timestamp{ grid-column:1 !important; grid-row:auto !important; }
+  html body .old-camera-wrap{ display:flex !important; justify-content:center !important; }
+  html body .camera-box{ width:min(200px,60vw) !important; }
+  html body .old-form-stack{ grid-template-columns:1fr !important; }
+  html body .old-evidence-box .button-row .btn{ flex:1 1 0 !important; }
+
+  html body .challenge-reading{ padding:12px 12px !important; line-height:2.2 !important; }
+}
+
+@media (max-width:430px){
+  html body .word-bank{ gap:6px !important; padding:9px !important; }
+  html body .word-chip{ padding:6px 10px !important; font-size:.9rem !important; }
+  html body .topbar{ gap:10px !important; }
+  html body .home-link{ padding:8px 12px !important; }
+  html body .section-head{ flex-wrap:wrap !important; }
+}
+
+/* Existing layout puts the logo top-right on very narrow phones: keep room for it. */
+@media (max-width:390px){
+  html body .session-bar{ padding-right:76px !important; }
+}
+
+@media (prefers-reduced-motion:reduce){
+  .wr-steps a,
+  html body .word-chip,
+  html body .quiz-option,
+  html body .drop-zone{ transition:none !important; }
+}
+
+/* =========================================================
+   FULL SCREEN BOOK  (button + layout, see js/book-fullscreen.js)
+   ========================================================= */
+.wr-book-tools{
+  display:flex;
+  justify-content:flex-end;
+  margin-top:10px;
+}
+.wr-tool-btn{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  min-height:42px;
+  padding:0 14px;
+  border-radius:14px;
+  border:2px solid var(--wr-ink);
+  background:#fff;
+  color:var(--wr-ink);
+  box-shadow:0 3px 0 var(--wr-ink);
+  font:700 .92rem var(--wr-font);
+  cursor:pointer;
+}
+.wr-tool-btn:active{ transform:translateY(2px); box-shadow:0 1px 0 var(--wr-ink); }
+.wr-tool-btn svg{
+  width:20px; height:20px;
+  fill:none; stroke:currentColor; stroke-width:2.4; stroke-linecap:round; stroke-linejoin:round;
+}
+.wr-tool-btn .i-close{ display:none; }
+.wr-tool-btn[aria-pressed="true"] .i-open{ display:none; }
+.wr-tool-btn[aria-pressed="true"] .i-close{ display:inline; }
+
+/* The book fills the screen. Works both in real full screen and in the
+   full-window fallback (phones without the Full Screen API). */
+html.wr-full-lock,
+html.wr-full-lock body{ overflow:hidden !important; }
+
+html body #stepRead.is-full{
+  position:fixed !important;
+  inset:0 !important;
+  z-index:1000 !important;
+  margin:0 !important;
+  padding:max(56px, calc(env(safe-area-inset-top) + 50px)) 12px max(14px, env(safe-area-inset-bottom)) !important;
+  display:flex !important;
+  flex-direction:column !important;
+  justify-content:center !important;
+  overflow:auto !important;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(59,91,255,.12), transparent 45%),
+    var(--wr-bg) !important;
+}
+html body #stepRead.is-full::backdrop{ background:var(--wr-bg); }
+html body #stepRead.is-full .wr-book-tools{
+  position:absolute;
+  top:max(8px, env(safe-area-inset-top));
+  right:12px;
+  margin:0;
+  z-index:70;
+}
+html body #stepRead.is-full .flip-book-stage{ width:100% !important; }
+
+/* Two-page book: as big as the screen allows (two 4:5 pages ≈ 1.6 : 1). */
+@media (min-width:721px){
+  html body #stepRead.is-full .storybook-reader{
+    width:min(calc(100vw - 140px), calc((100dvh - 90px) * 1.6)) !important;
+    max-width:none !important;
+  }
+  html body #stepRead.is-full .storybook-spread{ max-width:none !important; }
+  html body #stepRead.is-full .storybook-page{ min-height:0 !important; }
+}
+/* Cover fits the screen height. */
+html body #stepRead.is-full .storybook-cover-view{ min-height:0 !important; }
+html body #stepRead.is-full .storybook-cover-image{
+  width:auto !important;
+  max-width:100% !important;
+  height:calc(100dvh - 150px) !important;
+  max-height:none !important;
+}
+@media (max-width:720px){
+  html body #stepRead.is-full{ justify-content:flex-start !important; }
+  html body #stepRead.is-full .storybook-cover-image{ height:auto !important; width:100% !important; }
+}
+/* Short screens (phone turned sideways): give the page text all the room. */
+@media (max-height:520px){
+  html body #stepRead.is-full{ padding-top:max(48px, calc(env(safe-area-inset-top) + 44px)) !important; padding-bottom:8px !important; }
+  html body #stepRead.is-full .reading-frame-content .book-page-header,
+  html body #stepRead.is-full .reading-frame-content .flip-page-topline{ display:none !important; }
+  html body #stepRead.is-full .wr-tool-btn{ min-height:36px; padding:0 10px; font-size:.82rem; }
+}

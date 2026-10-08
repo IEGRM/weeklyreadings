@@ -1,0 +1,1749 @@
+{
+  "week": 41,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 41",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "Learning Takes Time",
+      "minimumWordTarget": 350,
+      "wordCount": 420,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week41_grade06_page01.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “Learning Takes Time”, page 1. Scene based on: Miguel is 11 years old and studies in Medellín. One ordinary day at a bus stop after school, a situation involving a long-term goal begins to change the plans for the afternoon. Valentina is nearby and notices that Miguel is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Miguel is 11 years old and studies in Medellín. One ordinary day at a bus stop after school, a situation involving a long-term goal begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Valentina is nearby and notices that Miguel is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about persistence, feedback and achievement."
+            },
+            {
+              "html": "Miguel wants to <b>learn</b> to play the guitar."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "Valentina says, “Try <b>again</b>.”"
+            },
+            {
+              "html": "Nothing is <b>easy</b> at the beginning."
+            }
+          ],
+          "wordCount": 105
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week41_grade06_page02.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “Learning Takes Time”, page 2. Scene based on: The situation becomes harder when progress is slower than expected. Miguel feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when progress is slower than expected. Miguel feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Valentina suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "Miguel needs to <b>practice</b> every day."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Valentina reminds Miguel that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Progress is <b>slow</b> at first."
+            },
+            {
+              "html": "Each week, Miguel plays a little <b>better</b>."
+            },
+            {
+              "html": "At the end, Miguel feels <b>proud</b>."
+            }
+          ],
+          "wordCount": 107
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week41_grade06_page03.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “Learning Takes Time”, page 3. Scene based on: Miguel decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Miguel decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Valentina explains that being responsible is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "The first song is very <b>hard</b>."
+            },
+            {
+              "html": "By the end of the day, the immediate problem has a result. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Miguel feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The <b>teacher</b> is patient."
+            }
+          ],
+          "wordCount": 113
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week41_grade06_page04.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “Learning Takes Time”, page 4. Scene based on: At home, Miguel thinks about what could have happened if the group had reacted without checking anything. The student writes a short reflection: a responsible choice is not always the fastest or most popular choice. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At home, Miguel thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "The student writes a short reflection: a responsible choice is not always the fastest or most popular choice."
+            },
+            {
+              "html": "Next time, Miguel plans to ask a clearer question, confirm important information, and explain the reason for the decision."
+            },
+            {
+              "html": "The experience becomes part of how Miguel understands school, family, technology, travel, and life in a larger world."
+            },
+            {
+              "html": "Miguel listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "A <b>mistake</b> is part of learning."
+            }
+          ],
+          "wordCount": 95
+        }
+      ],
+      "practiceWords": [
+        "learn",
+        "practice",
+        "slow",
+        "hard",
+        "again",
+        "better",
+        "teacher",
+        "mistake",
+        "easy",
+        "proud"
+      ],
+      "vocabulary": [
+        {
+          "word": "learn",
+          "definition": "to get new knowledge (aprender)"
+        },
+        {
+          "word": "practice",
+          "definition": "to do something many times (practicar)"
+        },
+        {
+          "word": "slow",
+          "definition": "not fast (lento)"
+        },
+        {
+          "word": "hard",
+          "definition": "difficult (difícil)"
+        },
+        {
+          "word": "again",
+          "definition": "one more time (otra vez)"
+        },
+        {
+          "word": "better",
+          "definition": "more good (mejor)"
+        },
+        {
+          "word": "teacher",
+          "definition": "a person who teaches (profesor)"
+        },
+        {
+          "word": "mistake",
+          "definition": "something done wrong (error)"
+        },
+        {
+          "word": "easy",
+          "definition": "not difficult (fácil)"
+        },
+        {
+          "word": "proud",
+          "definition": "happy about your work (orgulloso)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "Which statement is TRUE according to the text?",
+          "options": [
+            "Valentina wants Miguel to react immediately.",
+            "Miguel quits after the first week.",
+            "Valentina suggests checking the information before blaming anyone.",
+            "The students have all the facts from the beginning."
+          ],
+          "answer": "Valentina suggests checking the information before blaming anyone."
+        },
+        {
+          "skill": "sequence",
+          "question": "Which event happens at the END of the story?",
+          "options": [
+            "Miguel writes a short reflection at home.",
+            "Valentina notices that Miguel is paying attention.",
+            "The situation becomes harder because progress is slower than expected.",
+            "Miguel notices the problem at a bus stop after school."
+          ],
+          "answer": "Miguel writes a short reflection at home."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Which word from the text means “happy about your work”?",
+          "options": [
+            "hard",
+            "proud",
+            "practice",
+            "easy"
+          ],
+          "answer": "proud"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which could be another good title for the text?",
+          "options": [
+            "“Clear Directions, Safe Steps”",
+            "“Slow Progress Is Still Progress”",
+            "“What A Photo Remembers”",
+            "“Ask Before You Get Lost”"
+          ],
+          "answer": "“Slow Progress Is Still Progress”"
+        },
+        {
+          "skill": "simple inference",
+          "question": "Based on the text, what will Miguel probably do in a similar situation in the future?",
+          "options": [
+            "React immediately without asking anyone.",
+            "Ask a clearer question and confirm important information first.",
+            "Avoid all situations with other people.",
+            "Quit after the first week."
+          ],
+          "answer": "Ask a clearer question and confirm important information first."
+        }
+      ],
+      "cover": "../assets/images/week41_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "The Skill I Could Not Learn Fast",
+      "minimumWordTarget": 400,
+      "wordCount": 495,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week41_grade07_page01.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Skill I Could Not Learn Fast”, page 1. Scene based on: Mariana is 12 years old and studies in Medellín. One ordinary day at a school courtyard, a situation involving a long-term goal begins to change the plans for the afternoon. Esteban is nearby and notices that Mariana is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mariana is 12 years old and studies in Medellín. One ordinary day at a school courtyard, a situation involving a long-term goal begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Esteban is nearby and notices that Mariana is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about persistence, feedback and achievement."
+            },
+            {
+              "html": "Mariana wants to <b>learn</b> to play the guitar."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Mariana needs to <b>practice</b> every day."
+            },
+            {
+              "html": "A <b>mistake</b> is part of learning."
+            }
+          ],
+          "wordCount": 104
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week41_grade07_page02.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Skill I Could Not Learn Fast”, page 2. Scene based on: The situation becomes harder when progress is slower than expected. Mariana feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when progress is slower than expected. Mariana feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Esteban suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "Progress is <b>slow</b> at first."
+            },
+            {
+              "html": "Esteban reminds Mariana that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Mariana listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "The first song is very <b>hard</b>."
+            },
+            {
+              "html": "Nothing is <b>easy</b> at the beginning."
+            }
+          ],
+          "wordCount": 97
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week41_grade07_page03.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Skill I Could Not Learn Fast”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Mariana has to think about the first idea again. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Mariana has to think about the first idea again."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Mariana listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "Esteban says, “Try <b>again</b>.”"
+            },
+            {
+              "html": "At the end, Mariana feels <b>proud</b>."
+            }
+          ],
+          "wordCount": 105
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week41_grade07_page04.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Skill I Could Not Learn Fast”, page 4. Scene based on: Mariana decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mariana decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Esteban explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "“Did you visit this place before?” one friend asks."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Each week, Mariana plays a little <b>better</b>."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week41_grade07_page05.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “The Skill I Could Not Learn Fast”, page 5. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Mariana feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Mariana feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about persistence, feedback and achievement."
+            },
+            {
+              "html": "At home, Mariana thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "The <b>teacher</b> is patient."
+            }
+          ],
+          "wordCount": 99
+        }
+      ],
+      "practiceWords": [
+        "learn",
+        "practice",
+        "slow",
+        "hard",
+        "again",
+        "better",
+        "teacher",
+        "mistake",
+        "easy",
+        "proud"
+      ],
+      "vocabulary": [
+        {
+          "word": "learn",
+          "definition": "to get new knowledge (aprender)"
+        },
+        {
+          "word": "practice",
+          "definition": "to do something many times (practicar)"
+        },
+        {
+          "word": "slow",
+          "definition": "not fast (lento)"
+        },
+        {
+          "word": "hard",
+          "definition": "difficult (difícil)"
+        },
+        {
+          "word": "again",
+          "definition": "one more time (otra vez)"
+        },
+        {
+          "word": "better",
+          "definition": "more good (mejor)"
+        },
+        {
+          "word": "teacher",
+          "definition": "a person who teaches (profesor)"
+        },
+        {
+          "word": "mistake",
+          "definition": "something done wrong (error)"
+        },
+        {
+          "word": "easy",
+          "definition": "not difficult (fácil)"
+        },
+        {
+          "word": "proud",
+          "definition": "happy about your work (orgulloso)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "According to the text, where does Mariana's situation begin?",
+          "options": [
+            "A bus stop after school",
+            "A sports court on a Medellín hillside",
+            "A local shopping area",
+            "A school courtyard"
+          ],
+          "answer": "A school courtyard"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "What is the EFFECT of Mariana's small, concrete action?",
+          "options": [
+            "It prevents the problem from growing.",
+            "It makes the situation more confusing.",
+            "It ends the friendship between the students.",
+            "It solves every problem immediately."
+          ],
+          "answer": "It prevents the problem from growing."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which sentence best expresses the main lesson of the text?",
+          "options": [
+            "Popular opinions are usually correct.",
+            "The fastest reaction is always the best one.",
+            "Good decisions come from evidence, not from pressure.",
+            "It is better to stay silent when there is a problem."
+          ],
+          "answer": "Good decisions come from evidence, not from pressure."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why does Mariana listen carefully before answering?",
+          "options": [
+            "Because the teacher prohibits talking.",
+            "Because nobody else is paying attention.",
+            "Because she does not understand Spanish.",
+            "Because one missing detail can change the meaning of the situation."
+          ],
+          "answer": "Because one missing detail can change the meaning of the situation."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Complete the sentence from the text: “A _____ is part of learning.”",
+          "options": [
+            "mistake",
+            "practice",
+            "teacher",
+            "better"
+          ],
+          "answer": "mistake"
+        }
+      ],
+      "cover": "../assets/images/week41_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "Progress Nobody Could See Yet",
+      "minimumWordTarget": 450,
+      "wordCount": 515,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week41_grade08_page01.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “Progress Nobody Could See Yet”, page 1. Scene based on: Tomás is 13 years old and studies in Medellín. One ordinary day at a public school in Medellín, a situation involving a long-term goal begins to change the plans for the afternoon. Mariana is nearby and notices that Tomás is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Tomás is 13 years old and studies in Medellín. One ordinary day at a public school in Medellín, a situation involving a long-term goal begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Mariana is nearby and notices that Tomás is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about persistence, feedback and achievement."
+            },
+            {
+              "html": "Tomás cannot see the <b>progress</b> yet."
+            },
+            {
+              "html": "Every <b>skill</b> takes time."
+            },
+            {
+              "html": "The coach gives useful <b>feedback</b>."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week41_grade08_page02.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “Progress Nobody Could See Yet”, page 2. Scene based on: The situation becomes harder when progress is slower than expected. Tomás feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when progress is slower than expected. Tomás feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Mariana suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "They are going to compare prices before the next purchase."
+            },
+            {
+              "html": "Tomás listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Small steps help Tomás <b>improve</b>."
+            },
+            {
+              "html": "Tomás wants to <b>give up</b> after one week."
+            },
+            {
+              "html": "Tomás feels <b>frustrated</b> but continues."
+            }
+          ],
+          "wordCount": 108
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week41_grade08_page03.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “Progress Nobody Could See Yet”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Tomás has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Tomás has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Tomás finally manages to <b>achieve</b> the first goal."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week41_grade08_page04.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “Progress Nobody Could See Yet”, page 4. Scene based on: Tomás decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Tomás decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Mariana explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "Learning needs <b>patience</b>."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "The <b>effort</b> is not visible at first."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week41_grade08_page05.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “Progress Nobody Could See Yet”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in an online classroom shared with New York students. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in an online classroom shared with New York students."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Tomás realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week41_grade08_page06.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “Progress Nobody Could See Yet”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Tomás feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Tomás writes a small <b>goal</b> for each week."
+            },
+            {
+              "html": "Tomás feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about persistence, feedback and achievement."
+            },
+            {
+              "html": "At home, Tomás thinks about what could have happened if the group had reacted without checking anything."
+            }
+          ],
+          "wordCount": 71
+        }
+      ],
+      "practiceWords": [
+        "progress",
+        "skill",
+        "improve",
+        "give up",
+        "patience",
+        "effort",
+        "goal",
+        "feedback",
+        "frustrated",
+        "achieve"
+      ],
+      "vocabulary": [
+        {
+          "word": "progress",
+          "definition": "movement toward a goal (progreso)"
+        },
+        {
+          "word": "skill",
+          "definition": "an ability you learn (habilidad)"
+        },
+        {
+          "word": "improve",
+          "definition": "to get better (mejorar)"
+        },
+        {
+          "word": "give up",
+          "definition": "to stop trying (rendirse)"
+        },
+        {
+          "word": "patience",
+          "definition": "the ability to wait calmly (paciencia)"
+        },
+        {
+          "word": "effort",
+          "definition": "hard work (esfuerzo)"
+        },
+        {
+          "word": "goal",
+          "definition": "something you want to achieve (meta)"
+        },
+        {
+          "word": "feedback",
+          "definition": "comments that help you improve (retroalimentación)"
+        },
+        {
+          "word": "frustrated",
+          "definition": "upset because something is difficult (frustrado)"
+        },
+        {
+          "word": "achieve",
+          "definition": "to reach a goal (lograr)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Who notices that Tomás is paying close attention to what is happening?",
+          "options": [
+            "Camilo",
+            "Mariana",
+            "Paula",
+            "Nicolás"
+          ],
+          "answer": "Mariana"
+        },
+        {
+          "skill": "inference",
+          "question": "Why does Tomás listen carefully before answering?",
+          "options": [
+            "Because he does not understand Spanish.",
+            "Because one missing detail can change the meaning of the situation.",
+            "Because nobody else is paying attention.",
+            "Because the teacher prohibits talking."
+          ],
+          "answer": "Because one missing detail can change the meaning of the situation."
+        },
+        {
+          "skill": "purpose",
+          "question": "What is the author's main purpose in this text?",
+          "options": [
+            "To show, through a story, how to act responsibly when progress is slower than expected.",
+            "To describe the history of Medellín.",
+            "To sell a product to students.",
+            "To give scientific data about teenagers in Colombia."
+          ],
+          "answer": "To show, through a story, how to act responsibly when progress is slower than expected."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the text mainly about?",
+          "options": [
+            "Why some people are born with talent",
+            "How to buy a good guitar",
+            "A concert that the school cancels",
+            "How Tomás deals with a problem about persistence, feedback and achievement by checking facts before acting"
+          ],
+          "answer": "How Tomás deals with a problem about persistence, feedback and achievement by checking facts before acting"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Which word from the text means “an ability you learn”?",
+          "options": [
+            "frustrated",
+            "achieve",
+            "give up",
+            "skill"
+          ],
+          "answer": "skill"
+        }
+      ],
+      "cover": "../assets/images/week41_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "A Goal I Have Worked On For Months",
+      "minimumWordTarget": 500,
+      "wordCount": 552,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week41_grade09_page01.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “A Goal I Have Worked On For Months”, page 1. Scene based on: Camila is 14 years old and studies in Medellín. One ordinary day at a neighborhood in Manrique, a situation involving a long-term goal begins to change the plans for the afternoon. Julián is nearby and notices that Camila is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Camila is 14 years old and studies in Medellín. One ordinary day at a neighborhood in Manrique, a situation involving a long-term goal begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Julián is nearby and notices that Camila is paying close attention to what is happening."
+            },
+            {
+              "html": "Camila cannot see the <b>progress</b> yet."
+            },
+            {
+              "html": "Every <b>skill</b> takes time."
+            },
+            {
+              "html": "Camila listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "Camila finally manages to <b>achieve</b> the first goal."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week41_grade09_page02.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “A Goal I Have Worked On For Months”, page 2. Scene based on: The situation becomes harder when progress is slower than expected. Camila feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when progress is slower than expected. Camila feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Julián suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "Small steps help Camila <b>improve</b>."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "Camila wants to <b>give up</b> after one week."
+            }
+          ],
+          "wordCount": 97
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week41_grade09_page03.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “A Goal I Have Worked On For Months”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Camila has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Camila has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "Learning needs <b>patience</b>."
+            }
+          ],
+          "wordCount": 100
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week41_grade09_page04.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “A Goal I Have Worked On For Months”, page 4. Scene based on: Camila decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Camila decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Julián explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "The <b>effort</b> is not visible at first."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Camila writes a small <b>goal</b> for each week."
+            }
+          ],
+          "wordCount": 92
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week41_grade09_page05.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “A Goal I Have Worked On For Months”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in Queens, New York. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in Queens, New York."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Camila realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The coach gives useful <b>feedback</b>."
+            },
+            {
+              "html": "Julián reminds Camila that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Camila feels <b>frustrated</b> but continues."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week41_grade09_page06.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “A Goal I Have Worked On For Months”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Camila feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Camila feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about persistence, feedback and achievement."
+            },
+            {
+              "html": "At home, Camila thinks about what could have happened if the group had reacted without checking anything."
+            }
+          ],
+          "wordCount": 95
+        }
+      ],
+      "practiceWords": [
+        "progress",
+        "skill",
+        "improve",
+        "give up",
+        "patience",
+        "effort",
+        "goal",
+        "feedback",
+        "frustrated",
+        "achieve"
+      ],
+      "vocabulary": [
+        {
+          "word": "progress",
+          "definition": "movement toward a goal (progreso)"
+        },
+        {
+          "word": "skill",
+          "definition": "an ability you learn (habilidad)"
+        },
+        {
+          "word": "improve",
+          "definition": "to get better (mejorar)"
+        },
+        {
+          "word": "give up",
+          "definition": "to stop trying (rendirse)"
+        },
+        {
+          "word": "patience",
+          "definition": "the ability to wait calmly (paciencia)"
+        },
+        {
+          "word": "effort",
+          "definition": "hard work (esfuerzo)"
+        },
+        {
+          "word": "goal",
+          "definition": "something you want to achieve (meta)"
+        },
+        {
+          "word": "feedback",
+          "definition": "comments that help you improve (retroalimentación)"
+        },
+        {
+          "word": "frustrated",
+          "definition": "upset because something is difficult (frustrado)"
+        },
+        {
+          "word": "achieve",
+          "definition": "to reach a goal (lograr)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Which New York setting is mentioned in the text?",
+          "options": [
+            "Queens, New York",
+            "Brooklyn, New York",
+            "A youth exchange in New York City",
+            "A subway station in Manhattan"
+          ],
+          "answer": "Queens, New York"
+        },
+        {
+          "skill": "inference",
+          "question": "Which action would go AGAINST what Camila learns in the story?",
+          "options": [
+            "Ignoring the teacher's feedback without thinking.",
+            "Asking a clear question.",
+            "Verifying a detail first.",
+            "Explaining the reason for a decision."
+          ],
+          "answer": "Ignoring the teacher's feedback without thinking."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In “…another clue points in a different direction, so Camila has to reconsider the first assumption,” the word “so” introduces…",
+          "options": [
+            "an example",
+            "a result",
+            "a contrast",
+            "a condition"
+          ],
+          "answer": "a result"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which sentence best expresses the main lesson of the text?",
+          "options": [
+            "Good decisions come from evidence, not from pressure.",
+            "Popular opinions are usually correct.",
+            "The fastest reaction is always the best one.",
+            "It is better to stay silent when there is a problem."
+          ],
+          "answer": "Good decisions come from evidence, not from pressure."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read this sentence from page 1: “Camila cannot see the progress yet.” In this sentence, the word “progress” means…",
+          "options": [
+            "movement toward a goal",
+            "comments that help you improve",
+            "to reach a goal",
+            "hard work"
+          ],
+          "answer": "movement toward a goal"
+        }
+      ],
+      "cover": "../assets/images/week41_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "What Happened While I Was Trying Again",
+      "minimumWordTarget": 600,
+      "wordCount": 643,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week41_grade10_page01.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “What Happened While I Was Trying Again”, page 1. Scene based on: Sofía is 15–16 years old and studies in Medellín. One ordinary day at the Medellín Metro, a situation involving a long-term goal begins to change the plans for the afternoon. Andrés is nearby and notices that Sofía is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Sofía is 15–16 years old and studies in Medellín. One ordinary day at the Medellín Metro, a situation involving a long-term goal begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Andrés is nearby and notices that Sofía is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about persistence, feedback and achievement."
+            },
+            {
+              "html": "<b>Persistence</b> matters more than talent."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Weekly <b>self-assessment</b> shows hidden progress."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week41_grade10_page02.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “What Happened While I Was Trying Again”, page 2. Scene based on: The situation becomes harder when progress is slower than expected. Sofía feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when progress is slower than expected. Sofía feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Andrés suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "If people check reliable information, they usually make safer decisions."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "<b>Perseverance</b> finally pays off."
+            }
+          ],
+          "wordCount": 101
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week41_grade10_page03.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “What Happened While I Was Trying Again”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Sofía has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Sofía has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            }
+          ],
+          "wordCount": 96
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week41_grade10_page04.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “What Happened While I Was Trying Again”, page 4. Scene based on: Sofía decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Sofía decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Andrés explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "Every learner reaches a <b>plateau</b>."
+            },
+            {
+              "html": "Andrés reminds Sofía that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "The improvement is <b>incremental</b>."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week41_grade10_page05.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “What Happened While I Was Trying Again”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in Brooklyn, New York. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in Brooklyn, New York."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Sofía realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "Andrés gives <b>constructive</b> criticism."
+            },
+            {
+              "html": "<b>Discipline</b> turns practice into habit."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week41_grade10_page06.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “What Happened While I Was Trying Again”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Sofía feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Playing the full song is a <b>milestone</b>."
+            },
+            {
+              "html": "Sofía feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about persistence, feedback and achievement."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "A small <b>setback</b> does not mean failure."
+            }
+          ],
+          "wordCount": 77
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week41_grade10_page07.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “What Happened While I Was Trying Again”, page 7. Scene based on: The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another. They also discuss the author’s purpose and decide which detail best supports the final lesson. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another."
+            },
+            {
+              "html": "They also discuss the author’s purpose and decide which detail best supports the final lesson."
+            },
+            {
+              "html": "Sofía notices that strong reading is not only translating words. It means connecting evidence, sequence, intention, and consequences."
+            },
+            {
+              "html": "That habit will be useful in future exams because a difficult question often depends on a small but meaningful detail."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "A <b>growth mindset</b> helps Sofía continue."
+            }
+          ],
+          "wordCount": 108
+        }
+      ],
+      "practiceWords": [
+        "persistence",
+        "plateau",
+        "incremental",
+        "constructive",
+        "discipline",
+        "milestone",
+        "setback",
+        "growth mindset",
+        "self-assessment",
+        "perseverance"
+      ],
+      "vocabulary": [
+        {
+          "word": "persistence",
+          "definition": "continuing despite difficulties (persistencia)"
+        },
+        {
+          "word": "plateau",
+          "definition": "a period with no visible progress (estancamiento)"
+        },
+        {
+          "word": "incremental",
+          "definition": "happening in small steps (gradual)"
+        },
+        {
+          "word": "constructive",
+          "definition": "helpful and positive (constructivo)"
+        },
+        {
+          "word": "discipline",
+          "definition": "the ability to keep working (disciplina)"
+        },
+        {
+          "word": "milestone",
+          "definition": "an important step (hito)"
+        },
+        {
+          "word": "setback",
+          "definition": "a problem that delays progress (contratiempo)"
+        },
+        {
+          "word": "growth mindset",
+          "definition": "the belief that abilities can improve (mentalidad de crecimiento)"
+        },
+        {
+          "word": "self-assessment",
+          "definition": "evaluating your own work (autoevaluación)"
+        },
+        {
+          "word": "perseverance",
+          "definition": "continuing to try (perseverancia)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "According to the text, what is the problem really about?",
+          "options": [
+            "Persistence, feedback and achievement",
+            "Fair play, teamwork and emotional control",
+            "Flexibility and communication",
+            "Identity, comparison and respect"
+          ],
+          "answer": "Persistence, feedback and achievement"
+        },
+        {
+          "skill": "inference",
+          "question": "What can be inferred about Andrés?",
+          "options": [
+            "He wants Sofía to react as fast as possible.",
+            "He helps Sofía think carefully before acting.",
+            "He created the problem on purpose.",
+            "He is not interested in the problem."
+          ],
+          "answer": "He helps Sofía think carefully before acting."
+        },
+        {
+          "skill": "purpose",
+          "question": "What is the author's main purpose in this text?",
+          "options": [
+            "To give scientific data about teenagers in Colombia.",
+            "To sell a product to students.",
+            "To describe the history of Medellín.",
+            "To show, through a story, how to act responsibly when progress is slower than expected."
+          ],
+          "answer": "To show, through a story, how to act responsibly when progress is slower than expected."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In the sentence “The action does not solve everything immediately, but it prevents the problem from growing,” the word “but” introduces…",
+          "options": [
+            "a contrast",
+            "a time sequence",
+            "a reason",
+            "an example"
+          ],
+          "answer": "a contrast"
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the text mainly about?",
+          "options": [
+            "How Sofía deals with a problem about persistence, feedback and achievement by checking facts before acting",
+            "A concert that the school cancels",
+            "How to buy a good guitar",
+            "Why some people are born with talent"
+          ],
+          "answer": "How Sofía deals with a problem about persistence, feedback and achievement by checking facts before acting"
+        }
+      ],
+      "cover": "../assets/images/week41_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "Why I Almost Gave Up",
+      "minimumWordTarget": 700,
+      "wordCount": 774,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week41_grade11_page01.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “Why I Almost Gave Up”, page 1. Scene based on: Sofía is 17–18 years old and studies in Medellín. One ordinary day at a library near the school, a situation involving a long-term goal begins to change the plans for the afternoon. Mateo is nearby and notices that Sofía is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Sofía is 17–18 years old and studies in Medellín. One ordinary day at a library near the school, a situation involving a long-term goal begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Mateo is nearby and notices that Sofía is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about persistence, feedback and achievement."
+            },
+            {
+              "html": "<b>Persistence</b> matters more than talent."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "<b>Perseverance</b> finally pays off."
+            }
+          ],
+          "wordCount": 96
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week41_grade11_page02.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “Why I Almost Gave Up”, page 2. Scene based on: The situation becomes harder when progress is slower than expected. Sofía feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when progress is slower than expected. Sofía feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Mateo suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "Every learner reaches a <b>plateau</b>."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Mateo reminds Sofía that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "The improvement is <b>incremental</b>."
+            }
+          ],
+          "wordCount": 92
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week41_grade11_page03.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “Why I Almost Gave Up”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Sofía has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Sofía has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Mateo reminds Sofía that asking for help can be a responsible decision when the situation is unclear."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week41_grade11_page04.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “Why I Almost Gave Up”, page 4. Scene based on: Sofía decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Sofía decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Mateo explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "Mateo gives <b>constructive</b> criticism."
+            },
+            {
+              "html": "Sofía listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week41_grade11_page05.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “Why I Almost Gave Up”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in a subway station in Manhattan. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in a subway station in Manhattan."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Sofía realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "<b>Discipline</b> turns practice into habit."
+            }
+          ],
+          "wordCount": 102
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week41_grade11_page06.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “Why I Almost Gave Up”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Sofía feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Sofía feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about persistence, feedback and achievement."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "Playing the full song is a <b>milestone</b>."
+            }
+          ],
+          "wordCount": 106
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week41_grade11_page07.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “Why I Almost Gave Up”, page 7. Scene based on: At home, Sofía thinks about what could have happened if the group had reacted without checking anything. The student writes a short reflection: a responsible choice is not always the fastest or most popular choice. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At home, Sofía thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "A small <b>setback</b> does not mean failure."
+            },
+            {
+              "html": "Next time, Sofía plans to ask a clearer question, confirm important information, and explain the reason for the decision."
+            },
+            {
+              "html": "The experience becomes part of how Sofía understands school, family, technology, travel, and life in a larger world."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "A <b>growth mindset</b> helps Sofía continue."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week41_grade11_page08.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “Why I Almost Gave Up”, page 8. Scene based on: The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another. They also discuss the author’s purpose and decide which detail best supports the final lesson. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another."
+            },
+            {
+              "html": "They also discuss the author’s purpose and decide which detail best supports the final lesson."
+            },
+            {
+              "html": "Sofía notices that strong reading is not only translating words. It means connecting evidence, sequence, intention, and consequences."
+            },
+            {
+              "html": "That habit will be useful in future exams because a difficult question often depends on a small but meaningful detail."
+            },
+            {
+              "html": "Mateo reminds Sofía that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Weekly <b>self-assessment</b> shows hidden progress."
+            }
+          ],
+          "wordCount": 103
+        }
+      ],
+      "practiceWords": [
+        "persistence",
+        "plateau",
+        "incremental",
+        "constructive",
+        "discipline",
+        "milestone",
+        "setback",
+        "growth mindset",
+        "self-assessment",
+        "perseverance"
+      ],
+      "vocabulary": [
+        {
+          "word": "persistence",
+          "definition": "continuing despite difficulties (persistencia)"
+        },
+        {
+          "word": "plateau",
+          "definition": "a period with no visible progress (estancamiento)"
+        },
+        {
+          "word": "incremental",
+          "definition": "happening in small steps (gradual)"
+        },
+        {
+          "word": "constructive",
+          "definition": "helpful and positive (constructivo)"
+        },
+        {
+          "word": "discipline",
+          "definition": "the ability to keep working (disciplina)"
+        },
+        {
+          "word": "milestone",
+          "definition": "an important step (hito)"
+        },
+        {
+          "word": "setback",
+          "definition": "a problem that delays progress (contratiempo)"
+        },
+        {
+          "word": "growth mindset",
+          "definition": "the belief that abilities can improve (mentalidad de crecimiento)"
+        },
+        {
+          "word": "self-assessment",
+          "definition": "evaluating your own work (autoevaluación)"
+        },
+        {
+          "word": "perseverance",
+          "definition": "continuing to try (perseverancia)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "What can be inferred about Mateo?",
+          "options": [
+            "He is not interested in the problem.",
+            "He wants Sofía to react as fast as possible.",
+            "He created the problem on purpose.",
+            "He helps Sofía think carefully before acting."
+          ],
+          "answer": "He helps Sofía think carefully before acting."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In the sentence “The action does not solve everything immediately, but it prevents the problem from growing,” the word “but” introduces…",
+          "options": [
+            "a reason",
+            "an example",
+            "a contrast",
+            "a time sequence"
+          ],
+          "answer": "a contrast"
+        },
+        {
+          "skill": "purpose",
+          "question": "What is the purpose of the question “What do you know for sure, and what are you only assuming?”",
+          "options": [
+            "To give the students a grammar exercise.",
+            "To help the students separate evidence from emotion.",
+            "To blame one student for the problem.",
+            "To end the conversation quickly."
+          ],
+          "answer": "To help the students separate evidence from emotion."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read this sentence from page 2: “The improvement is incremental.” In this sentence, the word “incremental” means…",
+          "options": [
+            "happening in small steps",
+            "evaluating your own work",
+            "the ability to keep working",
+            "helpful and positive"
+          ],
+          "answer": "happening in small steps"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which sentence best expresses the main lesson of the text?",
+          "options": [
+            "The fastest reaction is always the best one.",
+            "It is better to stay silent when there is a problem.",
+            "Good decisions come from evidence, not from pressure.",
+            "Popular opinions are usually correct."
+          ],
+          "answer": "Good decisions come from evidence, not from pressure."
+        }
+      ],
+      "cover": "../assets/images/week41_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

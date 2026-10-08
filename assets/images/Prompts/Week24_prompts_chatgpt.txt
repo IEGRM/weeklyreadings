@@ -1,0 +1,267 @@
+WEEKLY READINGS — WEEK 24 — PROMPTS PARA CHATGPT (UNA IMAGEN POR PROMPT)
+==============================================================================
+
+CÓMO FUNCIONA (resumen exacto del método usado en Weeks 12–23)
+1. Un chat NUEVO de ChatGPT por cada imagen (evita que se trabe a partir del 2.º prompt).
+2. En cada chat adjunto las fotos de referencia del grado (portada + page1 base) y pego UN solo prompt de este archivo.
+3. Cada prompt empieza con "Generate the image now:" y contiene, en este orden: formato 4:5 vertical -> estilo del grado (ver bloque de estilo) -> escena concreta con los personajes bloqueados -> regla de texto.
+4. Páginas interiores: CERO texto visible (sin letras, números ni logos). Portadas: SOLO el título exacto y, abajo, dos líneas: "Jony Rojas Ochoa" / "Reading Project shared by IEGRM".
+5. Reviso cada imagen (personajes consistentes, sin texto, sin duplicados) y la convierto en el navegador a WEBP 1122x1402 con el nombre exacto del JSON (week24_gradeXX_cover.webp / week24_gradeXX_pageNN.webp).
+6. Al terminar los 6 grados: ZIP por grado (Week24_Grade06_READY.zip ... Week24_Grade11_READY.zip) con solo las WEBP de ese grado, guardados en C:\xampp\htdocs\weeklyreadings.com\public\assets\images
+NOTA HONESTA: ChatGPT no puede descargar archivos en tu disco por sí mismo; las descargas las hago yo desde el navegador (con retraso de varios minutos hasta que aparecen en la carpeta) y yo armo los ZIP.
+
+CÓMO CONSTRUYO CADA PROMPT A PARTIR DEL JSON
+- "artDirection" del JSON da el ESTILO por grado (Pixar-like 3D / painterly / semi-realista / realista). Lo condenso en un "bloque de estilo" fijo y lo repito idéntico en TODAS las imágenes del grado.
+- "Scene based on:" del JSON da el ARGUMENTO por página (situación, presión, pistas, acción, comparación Nueva York, consecuencia, reflexión, reto de lectura). Lo traduzco a UNA escena visual concreta con los personajes del grado, sin palabras escritas.
+- Personajes del JSON (p. ej. Juan/María) se bloquean con edad, peinado y ropa fija; se repiten textualmente en cada prompt.
+- Se elimina cualquier concepto abstracto que ChatGPT pintaría como texto (chats, carteles, pantallas): las pantallas muestran solo íconos/formas.
+
+REGLAS ANTI-RECHAZO APRENDIDAS
+- No escribir "Pixar" ni "Disney": ChatGPT lo rechaza a veces (mensaje de "medidas de protección"). Usar "original 3D-rendered ... storybook illustration".
+- Adolescentes: vocabulario escolar y neutro; evitar "sad eyes", "empty classroom", ángulos bajos.
+- Si el chat se traba (sin imagen en ~90 s) -> chat nuevo y reenviar. Si repite una composición ya usada -> pedir otra composición.
+- Si se adjuntan las fotos base, añadir a cada prompt la línea: "Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes."
+
+******************************************************************************
+VOCABULARIO INTERACTIVO — OBLIGATORIO, NO SE PUEDE OMITIR (debe funcionar EXACTAMENTE como en week15.json)
+******************************************************************************
+Las imágenes de ChatGPT NO llevan texto, pero la lectura sí lleva el vocabulario interactivo, y eso NO se toca ni se olvida.
+Reglas (idénticas a week15.json; week24.json ya fue verificado y las cumple):
+1. Cada grado tiene EXACTAMENTE 10 entradas en "vocabulary", con el formato {"word": "...", "definition": "definición en inglés (traducción)"}.
+2. "practiceWords" contiene las MISMAS 10 palabras, en el MISMO orden que "vocabulary".
+3. Cada palabra del vocabulario aparece marcada con <b>palabra</b> dentro de "sentences[].html" de las páginas (una vez cada una). Esa marca <b> es lo que la vuelve interactiva (tocar/clic -> resalta, muestra la definición y la pronuncia). La comparación es sin distinguir mayúsculas (ej.: <b>Permission</b> = "permission").
+4. NO quitar, renombrar ni mover las etiquetas <b>; NO convertir "html" en texto plano; NO cambiar "word"/"definition" ni volver al esquema viejo (legacySentenceSchema: false).
+5. Respetar todo el código base del audio: "contentPolicy" igual (tts: "Web Speech API / SpeechSynthesis", manualAudioFiles: false). No se agregan archivos de audio ni se modifica el lector.
+6. Las rutas de imagen del JSON NO cambian: ../assets/images/week24_gradeXX_cover.webp y ../assets/images/week24_gradeXX_pageNN.webp.
+Checklist final por grado: [ ] 10 vocabulary  [ ] practiceWords = vocabulary  [ ] 10 <b> en las oraciones  [ ] audio intacto  [ ] imágenes con nombre exacto.
+
+
+##############################################################################
+GRADO 6 — "My Knee Hurt At Practice" — 6° Grade / A1 Beginner — portada + 4 páginas = 5 imágenes
+##############################################################################
+BLOQUE DE ESTILO (fijo): original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream), cute rounded big-eyed child characters, soft subsurface lighting, gentle bright daylight, cozy sets, shallow depth of field
+PERSONAJES (fijos): Mateo (11, wavy brown hair, gray hoodie) and Sara (11, curly brown hair in a bun, mustard shirt)
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - knee — the middle part of the leg (rodilla)  [<b> en página 1]
+   - pain — a bad feeling in the body (dolor)  [<b> en página 1]
+   - doctor — a person who treats sick people (médico)  [<b> en página 1]
+   - rest — to relax and stop an activity (descansar)  [<b> en página 2]
+   - ice — frozen water (hielo)  [<b> en página 2]
+   - fall — to go down to the ground suddenly (caer)  [<b> en página 2]
+   - coach — a person who trains a team (entrenador)  [<b> en página 3]
+   - feel — to experience a sensation (sentir)  [<b> en página 3]
+   - leg — the part of the body used for walking (pierna)  [<b> en página 4]
+   - nurse — a person who cares for sick people (enfermero)  [<b> en página 1]
+
+--- week24_grade06_cover.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5 book cover, original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream), cute rounded big-eyed child characters, soft subsurface lighting, gentle bright daylight, cozy sets, shallow depth of field. On a Medellin hillside sports court, Mateo (11, wavy brown hair, gray hoodie) rubs his knee with a small wince while trying to look fine, and Sara (11, curly brown hair in a bun, mustard shirt) notices with concern. The ONLY text: the title "My Knee Hurt At Practice" in bubbly hand-lettered orange and deep blue letters with tiny sun and heart doodles; and at the bottom two lines of white/pale yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No other text, no logos.
+
+--- week24_grade06_page01.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream), cute rounded big-eyed child characters, soft subsurface lighting, gentle bright daylight, cozy sets, shallow depth of field. On a Medellin hillside sports court, Mateo (11, wavy brown hair, gray hoodie) rubs his knee with a small wince while trying to look fine, and Sara (11, curly brown hair in a bun, mustard shirt) notices with concern. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade06_page02.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream), cute rounded big-eyed child characters, soft subsurface lighting, gentle bright daylight, cozy sets, shallow depth of field. On the court, Mateo hides a small wince as teammates cheer and wave him back into the activity, everyone talking at once; Sara looks concerned. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade06_page03.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream), cute rounded big-eyed child characters, soft subsurface lighting, gentle bright daylight, cozy sets, shallow depth of field. Mateo (11, wavy brown hair, gray hoodie) honestly tells a friendly coach about the knee pain, calm and clear, while Sara stands supportively beside him. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade06_page04.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream), cute rounded big-eyed child characters, soft subsurface lighting, gentle bright daylight, cozy sets, shallow depth of field. Evening in a small cozy Medellin family apartment: Mateo sits on his bed writing in a small notebook with a pencil, calm and thoughtful, a backpack beside him. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+##############################################################################
+GRADO 7 — "He Said He Was Fine" — 7° Grade / A1 Advanced — portada + 5 páginas = 6 imágenes
+##############################################################################
+BLOQUE DE ESTILO (fijo): painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors
+PERSONAJES (fijos): Julian (12, short brown hair, olive bomber jacket) and Sara (12, short bob haircut, red cardigan)
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - knee — the middle part of the leg (rodilla)  [<b> en página 1]
+   - pain — a bad feeling in the body (dolor)  [<b> en página 1]
+   - doctor — a person who treats sick people (médico)  [<b> en página 1]
+   - rest — to relax and stop an activity (descansar)  [<b> en página 2]
+   - ice — frozen water (hielo)  [<b> en página 2]
+   - fall — to go down to the ground suddenly (caer)  [<b> en página 3]
+   - coach — a person who trains a team (entrenador)  [<b> en página 5]
+   - feel — to experience a sensation (sentir)  [<b> en página 5]
+   - leg — the part of the body used for walking (pierna)  [<b> en página 1]
+   - nurse — a person who cares for sick people (enfermero)  [<b> en página 2]
+
+--- week24_grade07_cover.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5 book cover, painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors. In a small Medellin family apartment, Julian (12, short brown hair, olive bomber jacket) rubs his knee with a small wince while trying to look fine, and Sara (12, short bob haircut, red cardigan) notices with concern. The ONLY text: the title "He Said He Was Fine" in navy (first line) and green (second line) letters on a cream torn brush-stroke banner at the top, small leaf sprigs in the corners; and at the bottom two lines of navy text inside a cream rounded box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No other text, no logos.
+
+--- week24_grade07_page01.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors. In a small Medellin family apartment, Julian (12, short brown hair, olive bomber jacket) rubs his knee with a small wince while trying to look fine, and Sara (12, short bob haircut, red cardigan) notices with concern. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade07_page02.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors. In the apartment, Julian hides a small wince as teammates cheer and wave him back into the activity, everyone talking at once; Sara looks concerned. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade07_page03.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors. In the apartment, Julian sits on a bench with a water bottle while Sara points gently at his knee; a small first-aid kit rests beside them. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade07_page04.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors. Julian (12, short brown hair, olive bomber jacket) honestly tells his mother about the knee pain, calm and clear, while Sara stands supportively beside him. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade07_page05.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors. In the apartment, Julian rests with an ice pack on his knee and smiles, while his mother gives a reassuring thumbs up and Sara sits beside him. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+##############################################################################
+GRADO 8 — "Playing Through Pain" — 8° Grade / A2 Beginner — portada + 6 páginas = 7 imágenes
+##############################################################################
+BLOQUE DE ESTILO (fijo): original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses
+PERSONAJES (fijos): Diego (13, buzz-cut dark hair, navy polo shirt) and Sara (13, two braids, lilac top)
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - injury — damage to the body (lesión)  [<b> en página 1]
+   - symptom — a sign of an illness or injury (síntoma)  [<b> en página 1]
+   - swollen — bigger than normal because of an injury (hinchado)  [<b> en página 2]
+   - sprain — an injury to a joint (esguince)  [<b> en página 2]
+   - recover — to get better (recuperarse)  [<b> en página 3]
+   - bandage — a piece of cloth to cover an injury (vendaje)  [<b> en página 4]
+   - painful — causing pain (doloroso)  [<b> en página 4]
+   - first aid — basic help given right after an injury (primeros auxilios)  [<b> en página 5]
+   - warm up — to prepare the body before exercise (calentar)  [<b> en página 6]
+   - advice — an opinion about what someone should do (consejo)  [<b> en página 1]
+
+--- week24_grade08_cover.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5 book cover, original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses. At a Medellin community center hall, Diego (13, buzz-cut dark hair, navy polo shirt) rubs his knee with a small wince while trying to look fine, and Sara (13, two braids, lilac top) notices with concern. The ONLY text: the title "Playing Through Pain" in thick hand-lettered navy, green and orange letters with small ray accents; and at the bottom two lines of white/pale yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No other text, no logos.
+
+--- week24_grade08_page01.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses. At a Medellin community center hall, Diego (13, buzz-cut dark hair, navy polo shirt) rubs his knee with a small wince while trying to look fine, and Sara (13, two braids, lilac top) notices with concern. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade08_page02.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses. In the center hall, Diego hides a small wince as teammates cheer and wave him back into the activity, everyone talking at once; Sara looks concerned. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade08_page03.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses. In the center hall, Diego sits on a bench with a water bottle while Sara points gently at his knee; a small first-aid kit rests beside them. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade08_page04.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses. Diego (13, buzz-cut dark hair, navy polo shirt) honestly tells the friendly center coordinator about the knee pain, calm and clear, while Sara stands supportively beside him. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade08_page05.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses. In a bright Medellin classroom, Diego, Sara and classmates watch a video call on a big screen with friendly teenagers in a Manhattan subway-station setting, faces only; they talk about hiding a physical problem during an activity. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade08_page06.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses. In the center hall, Diego rests with an ice pack on his knee and smiles, while the friendly center coordinator gives a reassuring thumbs up and Sara sits beside him. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+##############################################################################
+GRADO 9 — "The Symptom He Ignored" — 9° Grade / A2 Advanced — portada + 6 páginas = 7 imágenes
+##############################################################################
+BLOQUE DE ESTILO (fijo): glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field
+PERSONAJES (fijos): Santiago (14, short black hair, orange t-shirt) and Laura (14, shoulder-length curly black hair, mint sweater)
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - injury — damage to the body (lesión)  [<b> en página 1]
+   - symptom — a sign of an illness or injury (síntoma)  [<b> en página 1]
+   - swollen — bigger than normal because of an injury (hinchado)  [<b> en página 1]
+   - sprain — an injury to a joint (esguince)  [<b> en página 3]
+   - recover — to get better (recuperarse)  [<b> en página 4]
+   - bandage — a piece of cloth to cover an injury (vendaje)  [<b> en página 5]
+   - painful — causing pain (doloroso)  [<b> en página 6]
+   - first aid — basic help given right after an injury (primeros auxilios)  [<b> en página 1]
+   - warm up — to prepare the body before exercise (calentar)  [<b> en página 2]
+   - advice — an opinion about what someone should do (consejo)  [<b> en página 3]
+
+--- week24_grade09_cover.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5 book cover, glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. In a busy local Medellin shopping area, Santiago (14, short black hair, orange t-shirt) rubs his knee with a small wince while trying to look fine, and Laura (14, shoulder-length curly black hair, mint sweater) notices with concern. The ONLY text: the title "The Symptom He Ignored" in bold navy, green and orange hand-lettered letters with a soft white glow; and at the bottom two lines of white/pale yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No other text, no logos.
+
+--- week24_grade09_page01.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. In a busy local Medellin shopping area, Santiago (14, short black hair, orange t-shirt) rubs his knee with a small wince while trying to look fine, and Laura (14, shoulder-length curly black hair, mint sweater) notices with concern. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade09_page02.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. In the shopping area, Santiago hides a small wince as teammates cheer and wave him back into the activity, everyone talking at once; Laura looks concerned. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade09_page03.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. In the shopping area, Santiago sits on a bench with a water bottle while Laura points gently at his knee; a small first-aid kit rests beside them. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade09_page04.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Santiago (14, short black hair, orange t-shirt) honestly tells a friendly shop owner about the knee pain, calm and clear, while Laura stands supportively beside him. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade09_page05.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. In a bright Medellin classroom, Santiago, Laura and classmates watch a video call on a big screen with friendly teenagers from a youth exchange in New York City, faces only; they talk about hiding a physical problem during an activity. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade09_page06.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. In the shopping area, Santiago rests with an ice pack on his knee and smiles, while a friendly shop owner gives a reassuring thumbs up and Laura sits beside him. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+##############################################################################
+GRADO 10 — "When Advice Becomes Necessary" — 10° Grade / B1 Beginner — portada + 7 páginas = 8 imágenes
+##############################################################################
+BLOQUE DE ESTILO (fijo): painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere
+PERSONAJES (fijos): Valentina (16, high dark ponytail, coral hoodie) and Samuel (16, short black hair, orange t-shirt)
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - diagnosis — the identification of a health problem by a doctor (diagnóstico)  [<b> en página 1]
+   - chronic — lasting a long time (crónico)  [<b> en página 2]
+   - strain — an injury caused by stretching a muscle too much (distensión)  [<b> en página 4]
+   - treatment — medical care for an illness or injury (tratamiento)  [<b> en página 5]
+   - conceal — to hide something (ocultar)  [<b> en página 7]
+   - aggravate — to make something worse (agravar)  [<b> en página 1]
+   - wellbeing — the state of being healthy and happy (bienestar)  [<b> en página 2]
+   - physiotherapy — treatment with exercise and massage (fisioterapia)  [<b> en página 3]
+   - precaution — an action to avoid danger (precaución)  [<b> en página 4]
+   - persistent — continuing for a long time (persistente)  [<b> en página 5]
+
+--- week24_grade10_cover.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5 book cover, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. At a Medellin bus stop after school, Valentina (16, high dark ponytail, coral hoodie) rubs her knee with a small wince while trying to look fine, and Samuel (16, short black hair, orange t-shirt) notices with concern. The ONLY text: the title "When Advice Becomes Necessary" in navy and green hand-lettered letters with a golden underline swoosh; and at the bottom two lines of white/pale yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No other text, no logos.
+
+--- week24_grade10_page01.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. At a Medellin bus stop after school, Valentina (16, high dark ponytail, coral hoodie) rubs her knee with a small wince while trying to look fine, and Samuel (16, short black hair, orange t-shirt) notices with concern. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade10_page02.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. At the bus stop, Valentina hides a small wince as teammates cheer and wave her back into the activity, everyone talking at once; Samuel looks concerned. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade10_page03.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. At the bus stop, Valentina sits on a bench with a water bottle while Samuel points gently at her knee; a small first-aid kit rests beside them. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade10_page04.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Valentina (16, high dark ponytail, coral hoodie) honestly tells a friendly adult transit attendant in uniform about the knee pain, calm and clear, while Samuel stands supportively beside her. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade10_page05.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. In a bright Medellin classroom, Valentina, Samuel and classmates watch a video call on a big screen with New York students in an online class, faces only, friendly and attentive; they talk about hiding a physical problem during an activity. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade10_page06.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. At the bus stop, Valentina rests with an ice pack on her knee and smiles, while a friendly adult transit attendant in uniform gives a reassuring thumbs up and Samuel sits beside her. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade10_page07.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. In a Medellin classroom the next morning, a friendly teacher stands at a whiteboard drawn only with arrows and shapes (no letters) while Valentina and Samuel take notes in notebooks among attentive students. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+##############################################################################
+GRADO 11 — "The Health Problem Behind The Deadline" — 11° Grade / B1+ — portada + 8 páginas = 9 imágenes
+##############################################################################
+BLOQUE DE ESTILO (fijo): realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors
+PERSONAJES (fijos): Laura (17, curly brown hair in a bun, mustard shirt) and Daniel (18, buzz-cut dark hair, navy polo shirt)
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - diagnosis — the identification of a health problem by a doctor (diagnóstico)  [<b> en página 1]
+   - chronic — lasting a long time (crónico)  [<b> en página 1]
+   - strain — an injury caused by stretching a muscle too much (distensión)  [<b> en página 2]
+   - treatment — medical care for an illness or injury (tratamiento)  [<b> en página 3]
+   - conceal — to hide something (ocultar)  [<b> en página 4]
+   - aggravate — to make something worse (agravar)  [<b> en página 4]
+   - wellbeing — the state of being healthy and happy (bienestar)  [<b> en página 6]
+   - physiotherapy — treatment with exercise and massage (fisioterapia)  [<b> en página 7]
+   - precaution — an action to avoid danger (precaución)  [<b> en página 8]
+   - persistent — continuing for a long time (persistente)  [<b> en página 1]
+
+--- week24_grade11_cover.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5 book cover, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. In a sunny Medellin school courtyard, Laura (17, curly brown hair in a bun, mustard shirt) rubs her knee with a small wince while trying to look fine, and Daniel (18, buzz-cut dark hair, navy polo shirt) notices with concern. The ONLY text: the title "The Health Problem Behind The Deadline" in navy and green letters with an orange underline; and at the bottom two lines of white/pale yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No other text, no logos.
+
+--- week24_grade11_page01.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. In a sunny Medellin school courtyard, Laura (17, curly brown hair in a bun, mustard shirt) rubs her knee with a small wince while trying to look fine, and Daniel (18, buzz-cut dark hair, navy polo shirt) notices with concern. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade11_page02.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. In the courtyard, Laura hides a small wince as teammates cheer and wave her back into the activity, everyone talking at once; Daniel looks concerned. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade11_page03.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. In the courtyard, Laura sits on a bench with a water bottle while Daniel points gently at her knee; a small first-aid kit rests beside them. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade11_page04.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. Laura (17, curly brown hair in a bun, mustard shirt) honestly tells a friendly teacher about the knee pain, calm and clear, while Daniel stands supportively beside her. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade11_page05.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. In a bright Medellin classroom, Laura, Daniel and classmates watch a video call on a big screen with friendly teenagers from Queens, New York, faces only; they talk about hiding a physical problem during an activity. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade11_page06.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. In the courtyard, Laura rests with an ice pack on her knee and smiles, while a friendly teacher gives a reassuring thumbs up and Daniel sits beside her. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade11_page07.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. At night in her bedroom, Laura sits on her bed writing a reflection in a notebook, phone face-down beside her, warm lamp light. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week24_grade11_page08.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. In a Medellin high-school classroom, Laura presents her ideas to attentive classmates and a friendly teacher, whiteboard behind her with simple shapes and arrows only. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+FIN. Total: 6 portadas + 36 páginas = 42 imágenes.

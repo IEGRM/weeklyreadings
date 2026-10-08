@@ -1,0 +1,1740 @@
+{
+  "week": 15,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 15",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "Bad Words",
+      "minimumWordTarget": 350,
+      "wordCount": 360,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week15_grade06_page01.webp",
+          "artDirection": "11–12-year-old Colombian student context for “Bad Words”. Scene based on: In the barrio, Miguel likes to talk with his friend Andrés, but sometimes Miguel uses a bad word. For a moment, Miguel looks around and thinks about what to do next. When he says i. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "In the barrio, Miguel likes to <b>talk</b> with his <b>friend</b> Andrés, but sometimes Miguel uses a <b>bad word</b>."
+            },
+            {
+              "html": "For a moment, Miguel looks around and thinks about what to do next."
+            },
+            {
+              "html": "When he says it, Andrés feels <b>angry</b>."
+            },
+            {
+              "html": "The day continues, and Miguel tries to stay calm and pay attention."
+            },
+            {
+              "html": "The teacher explains, “If you want <b>respect</b>, you must use <b>good</b> words.” At recess, Miguel shouted a bad <b>word</b> again, and Andrés told him to <b>stop</b>."
+            },
+            {
+              "html": "A small detail helps Miguel understand the situation a little better."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week15_grade06_page02.webp",
+          "artDirection": "11–12-year-old Colombian student context for “Bad Words”. Scene based on: Miguel closed his mouth, but later he felt sad. After that, Miguel continues carefully instead of rushing. He remembered that when someone used a bad word with him, he was also ang. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Miguel closed his <b>mouth</b>, but later he felt sad."
+            },
+            {
+              "html": "After that, Miguel continues carefully instead of rushing."
+            },
+            {
+              "html": "He remembered that when someone used a bad word with him, he was also angry."
+            },
+            {
+              "html": "The people nearby also notice what is happening and react in simple ways."
+            },
+            {
+              "html": "That night, his sister said, “A good word makes peace.” The next day, Miguel promised to <b>say</b> only good things, to talk kindly, and to show respect to every friend."
+            },
+            {
+              "html": "This gives Miguel time to make a better choice and continue the day."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week15_grade06_page03.webp",
+          "artDirection": "11–12-year-old Colombian student context for “Bad Words”. Scene based on: A few minutes later, the situation feels easier to understand. In the barrio, Miguel likes to talk with his friend Andrés, but sometimes Miguel uses a bad word. Miguel remembers th. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "A few minutes later, the situation feels easier to understand."
+            },
+            {
+              "html": "In the barrio, Miguel likes to talk with his friend Andrés, but sometimes Miguel uses a bad word."
+            },
+            {
+              "html": "Miguel remembers that simple choices can make a difficult moment better."
+            },
+            {
+              "html": "When he says it, Andrés feels angry."
+            },
+            {
+              "html": "The experience is ordinary, but it becomes an important part of the day."
+            },
+            {
+              "html": "The teacher explains, “If you want respect, you must use good words.” At recess, Miguel shouted a bad word again, and Andrés told him to stop."
+            },
+            {
+              "html": "By paying attention, Miguel learns something useful from the moment."
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week15_grade06_page04.webp",
+          "artDirection": "11–12-year-old Colombian student context for “Bad Words”. Scene based on: Miguel closed his mouth, but later he felt sad. For a moment, Miguel looks around and thinks about what to do next. He remembered that when someone used a bad word with him, he was. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Miguel closed his mouth, but later he felt sad."
+            },
+            {
+              "html": "For a moment, Miguel looks around and thinks about what to do next."
+            },
+            {
+              "html": "He remembered that when someone used a bad word with him, he was also angry."
+            },
+            {
+              "html": "The day continues, and Miguel tries to stay calm and pay attention."
+            },
+            {
+              "html": "That night, his sister said, “A good word makes peace.” The next day, Miguel promised to say only good things, to talk kindly, and to show respect to every friend."
+            },
+            {
+              "html": "A small detail helps Miguel understand the situation a little better."
+            }
+          ],
+          "wordCount": 90
+        }
+      ],
+      "practiceWords": [
+        "word",
+        "bad word",
+        "good",
+        "say",
+        "talk",
+        "stop",
+        "mouth",
+        "friend",
+        "angry",
+        "respect"
+      ],
+      "vocabulary": [
+        {
+          "word": "word",
+          "definition": "a single unit of language (palabra)"
+        },
+        {
+          "word": "bad word",
+          "definition": "an offensive expression (mala palabra)"
+        },
+        {
+          "word": "good",
+          "definition": "positive, nice (bueno)"
+        },
+        {
+          "word": "say",
+          "definition": "to speak words (decir)"
+        },
+        {
+          "word": "talk",
+          "definition": "to communicate with words (hablar)"
+        },
+        {
+          "word": "stop",
+          "definition": "to not continue (parar)"
+        },
+        {
+          "word": "mouth",
+          "definition": "part of the face used to speak (boca)"
+        },
+        {
+          "word": "friend",
+          "definition": "a person you like (amigo)"
+        },
+        {
+          "word": "angry",
+          "definition": "feeling mad (enojado)"
+        },
+        {
+          "word": "respect",
+          "definition": "value for others (respeto)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "What did Miguel sometimes use with his friend?",
+          "options": [
+            "A game",
+            "A bad word",
+            "Respect",
+            "A good word"
+          ],
+          "answer": "A bad word"
+        },
+        {
+          "skill": "sequence",
+          "question": "How did Andrés feel when he heard a bad word?",
+          "options": [
+            "Happy",
+            "Scared",
+            "Angry",
+            "Alone"
+          ],
+          "answer": "Angry"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What did the teacher say was important?",
+          "options": [
+            "Games",
+            "Respect",
+            "Food",
+            "Music"
+          ],
+          "answer": "Respect"
+        },
+        {
+          "skill": "main idea",
+          "question": "What did Miguel close when Andrés told him to stop?",
+          "options": [
+            "His hand",
+            "His eyes",
+            "His mouth",
+            "His book"
+          ],
+          "answer": "His mouth"
+        },
+        {
+          "skill": "simple inference",
+          "question": "What did Miguel promise to say the next day?",
+          "options": [
+            "A song",
+            "Only good words",
+            "Bad word again",
+            "Nothing"
+          ],
+          "answer": "Only good words"
+        }
+      ],
+      "cover": "../assets/images/week15_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "The Mean Boy",
+      "minimumWordTarget": 400,
+      "wordCount": 400,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week15_grade07_page01.webp",
+          "artDirection": "12–13-year-old Colombian student context for “The Mean Boy”. Scene based on: Yesterday at school, there was a boy named Julián who always was mean. As the situation develops, the main character realizes that a quick decision can create a real consequence. H. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Yesterday at <b>school</b>, there was a <b>boy</b> named Julián who always was <b>mean</b>."
+            },
+            {
+              "html": "As the situation develops, the main character realizes that a quick decision can create a real consequence."
+            },
+            {
+              "html": "He pointed at kids and started to <b>laugh</b> when they were <b>sad</b>."
+            },
+            {
+              "html": "The details around the main character make the problem easier to understand."
+            },
+            {
+              "html": "One girl dropped her notebook, and Julián made her <b>cry</b>."
+            },
+            {
+              "html": "Instead of reacting immediately, the main character takes a moment to think about the next step."
+            }
+          ],
+          "wordCount": 80
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week15_grade07_page02.webp",
+          "artDirection": "12–13-year-old Colombian student context for “The Mean Boy”. Scene based on: She felt alone, but her friends came to help her. The small challenge becomes an opportunity to learn something useful. The teacher asked, “Why was Julián so bad today?” Nobody ans. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "She felt <b>alone</b>, but her <b>friends</b> came to <b>help</b> her."
+            },
+            {
+              "html": "The small challenge becomes an opportunity to learn something useful."
+            },
+            {
+              "html": "The teacher asked, “Why was Julián so <b>bad</b> today?” Nobody answered."
+            },
+            {
+              "html": "Other people influence the moment even when they are not at the center of the story."
+            },
+            {
+              "html": "Later, Julián sat in the corner with no friends."
+            },
+            {
+              "html": "the main character's feelings begin to change as new information appears."
+            },
+            {
+              "html": "He looked sad and wanted to cry too."
+            }
+          ],
+          "wordCount": 75
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week15_grade07_page03.webp",
+          "artDirection": "12–13-year-old Colombian student context for “The Mean Boy”. Scene based on: One action leads naturally to another, so the consequence becomes clear. The teacher explained, “When you are mean, you end up alone.” Julián realized that being bad is not power. . warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "One action leads naturally to another, so the consequence becomes clear."
+            },
+            {
+              "html": "The teacher explained, “When you are mean, you end up alone.” Julián realized that being bad is not power."
+            },
+            {
+              "html": "The experience encourages the main character to be more patient and responsible."
+            },
+            {
+              "html": "He decided to help instead of laugh, and the next day he tried to be a better friend at school."
+            },
+            {
+              "html": "After reflecting on what happened, the main character understands the situation better."
+            },
+            {
+              "html": "By the end of the moment, the main character has learned something that may help later."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week15_grade07_page04.webp",
+          "artDirection": "12–13-year-old Colombian student context for “The Mean Boy”. Scene based on: Yesterday at school, there was a boy named Julián who always was mean. As the situation develops, the main character realizes that a quick decision can create a real consequence. H. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Yesterday at school, there was a boy named Julián who always was mean."
+            },
+            {
+              "html": "As the situation develops, the main character realizes that a quick decision can create a real consequence."
+            },
+            {
+              "html": "He pointed at kids and started to laugh when they were sad."
+            },
+            {
+              "html": "The details around the main character make the problem easier to understand."
+            },
+            {
+              "html": "One girl dropped her notebook, and Julián made her cry."
+            },
+            {
+              "html": "Instead of reacting immediately, the main character takes a moment to think about the next step."
+            }
+          ],
+          "wordCount": 80
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week15_grade07_page05.webp",
+          "artDirection": "12–13-year-old Colombian student context for “The Mean Boy”. Scene based on: She felt alone, but her friends came to help her. The small challenge becomes an opportunity to learn something useful. The teacher asked, “Why was Julián so bad today?” Nobody ans. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "She felt alone, but her friends came to help her."
+            },
+            {
+              "html": "The small challenge becomes an opportunity to learn something useful."
+            },
+            {
+              "html": "The teacher asked, “Why was Julián so bad today?” Nobody answered."
+            },
+            {
+              "html": "Other people influence the moment even when they are not at the center of the story."
+            },
+            {
+              "html": "Later, Julián sat in the corner with no friends."
+            },
+            {
+              "html": "the main character's feelings begin to change as new information appears."
+            },
+            {
+              "html": "He looked sad and wanted to cry too."
+            }
+          ],
+          "wordCount": 75
+        }
+      ],
+      "practiceWords": [
+        "boy",
+        "mean",
+        "bad",
+        "laugh",
+        "sad",
+        "cry",
+        "help",
+        "alone",
+        "school",
+        "friends"
+      ],
+      "vocabulary": [
+        {
+          "word": "boy",
+          "definition": "a male child (niño)"
+        },
+        {
+          "word": "mean",
+          "definition": "unkind, cruel (malo)"
+        },
+        {
+          "word": "bad",
+          "definition": "not good (malo)"
+        },
+        {
+          "word": "laugh",
+          "definition": "sound when happy (reír)"
+        },
+        {
+          "word": "sad",
+          "definition": "feeling unhappy (triste)"
+        },
+        {
+          "word": "cry",
+          "definition": "to produce tears (llorar)"
+        },
+        {
+          "word": "help",
+          "definition": "to assist (ayudar)"
+        },
+        {
+          "word": "alone",
+          "definition": "without others (solo)"
+        },
+        {
+          "word": "school",
+          "definition": "place of study (colegio)"
+        },
+        {
+          "word": "friends",
+          "definition": "people you like (amigos)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Who was the mean boy at school?",
+          "options": [
+            "Julián",
+            "Mateo",
+            "Camilo",
+            "Andrés"
+          ],
+          "answer": "Julián"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "What did Julián do when a girl dropped her book?",
+          "options": [
+            "Cried",
+            "Helped her",
+            "Laughed",
+            "Stayed quiet"
+          ],
+          "answer": "Laughed"
+        },
+        {
+          "skill": "main idea",
+          "question": "How did the girl feel after Julián laughed?",
+          "options": [
+            "Excited",
+            "Sad",
+            "Happy",
+            "Angry"
+          ],
+          "answer": "Sad"
+        },
+        {
+          "skill": "simple inference",
+          "question": "Who came to help the girl?",
+          "options": [
+            "Nobody",
+            "Her teacher",
+            "Her friends",
+            "Her brother"
+          ],
+          "answer": "Her friends"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What did the teacher say happens when you are mean?",
+          "options": [
+            "You learn fast",
+            "You make friends",
+            "You end up alone",
+            "You get rewards"
+          ],
+          "answer": "You end up alone"
+        }
+      ],
+      "cover": "../assets/images/week15_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "The Loud Fight",
+      "minimumWordTarget": 450,
+      "wordCount": 450,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week15_grade08_page01.webp",
+          "artDirection": "13–14-year-old Colombian student context for “The Loud Fight”. Scene based on: On Saturday, two boys had a fight in front of the cancha. The situation becomes more complicated because Camila must balance what is wanted with what the moment requires. They bega. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "On Saturday, two boys had a <b>fight</b> in front of the cancha."
+            },
+            {
+              "html": "The situation becomes more complicated because Camila must balance what is wanted with what the moment requires."
+            },
+            {
+              "html": "They began to <b>shout</b> and <b>push</b> each other."
+            },
+            {
+              "html": "A detail that seemed small at first now helps explain the problem."
+            },
+            {
+              "html": "The noise was very <b>loud</b>, and many kids felt <b>scared</b> and wanted to <b>run</b> home."
+            },
+            {
+              "html": "Different reactions show that people can understand the same event in different ways."
+            }
+          ],
+          "wordCount": 77
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week15_grade08_page02.webp",
+          "artDirection": "13–14-year-old Colombian student context for “The Loud Fight”. Scene based on: One boy tried to hit, but the other shouted louder. The problem affects more than one person and changes how the group responds. Nobody wanted to stop, and the crowd grew bigger. C. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "One boy tried to <b>hit</b>, but the other shouted louder."
+            },
+            {
+              "html": "The problem affects more than one person and changes how the group responds."
+            },
+            {
+              "html": "Nobody wanted to <b>stop</b>, and the crowd grew bigger."
+            },
+            {
+              "html": "Camila begins to see that acting quickly is not always the same as acting wisely."
+            },
+            {
+              "html": "Camila asked her brother for <b>help</b>, but he was also <b>angry</b>."
+            },
+            {
+              "html": "The setting creates realistic limits that influence what can happen next."
+            }
+          ],
+          "wordCount": 69
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week15_grade08_page03.webp",
+          "artDirection": "13–14-year-old Colombian student context for “The Loud Fight”. Scene based on: Finally, a neighbor said, “You must stop this now!” The boys looked around and saw everyone shaking their heads. Expressions and actions reveal feelings that are not always stated . warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Finally, a neighbor said, “You must stop this now!” The boys looked around and saw everyone shaking their heads."
+            },
+            {
+              "html": "Expressions and actions reveal feelings that are not always stated directly."
+            },
+            {
+              "html": "They realized the fight was not about the ball, but about angry words."
+            },
+            {
+              "html": "The consequence grows naturally from a decision made only a short time earlier."
+            },
+            {
+              "html": "There were no winners."
+            },
+            {
+              "html": "A practical response appears when the characters stop and consider another option."
+            }
+          ],
+          "wordCount": 72
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week15_grade08_page04.webp",
+          "artDirection": "13–14-year-old Colombian student context for “The Loud Fight”. Scene based on: Later, they promised not to push, not to hit, and to stop before another fight. The experience becomes useful when Camila connects the immediate problem with a larger responsibilit. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Later, they promised not to push, not to hit, and to stop before another fight."
+            },
+            {
+              "html": "The experience becomes useful when Camila connects the immediate problem with a larger responsibility."
+            },
+            {
+              "html": "Later, the situation becomes more complicated because Camila must balance what is wanted with what the moment requires."
+            },
+            {
+              "html": "On Saturday, two boys had a fight in front of the cancha."
+            },
+            {
+              "html": "A detail that seemed small at first now helps explain the problem."
+            },
+            {
+              "html": "They began to shout and push each other."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week15_grade08_page05.webp",
+          "artDirection": "13–14-year-old Colombian student context for “The Loud Fight”. Scene based on: Different reactions show that people can understand the same event in different ways. The noise was very loud, and many kids felt scared and wanted to run home. The problem affects. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Different reactions show that people can understand the same event in different ways."
+            },
+            {
+              "html": "The noise was very loud, and many kids felt scared and wanted to run home."
+            },
+            {
+              "html": "The problem affects more than one person and changes how the group responds."
+            },
+            {
+              "html": "One boy tried to hit, but the other shouted louder."
+            },
+            {
+              "html": "Camila begins to see that acting quickly is not always the same as acting wisely."
+            },
+            {
+              "html": "Nobody wanted to stop, and the crowd grew bigger."
+            }
+          ],
+          "wordCount": 75
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week15_grade08_page06.webp",
+          "artDirection": "13–14-year-old Colombian student context for “The Loud Fight”. Scene based on: The setting creates realistic limits that influence what can happen next. Camila asked her brother for help, but he was also angry. Expressions and actions reveal feelings that are. warm realistic educational storybook illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The setting creates realistic limits that influence what can happen next."
+            },
+            {
+              "html": "Camila asked her brother for help, but he was also angry."
+            },
+            {
+              "html": "Expressions and actions reveal feelings that are not always stated directly."
+            },
+            {
+              "html": "Finally, a neighbor said, “You must stop this now!” The boys looked around and saw everyone shaking their heads."
+            },
+            {
+              "html": "The consequence grows naturally from a decision made only a short time earlier."
+            },
+            {
+              "html": "They realized the fight was not about the ball, but about angry words."
+            }
+          ],
+          "wordCount": 78
+        }
+      ],
+      "practiceWords": [
+        "fight",
+        "loud",
+        "shout",
+        "push",
+        "hit",
+        "stop",
+        "help",
+        "angry",
+        "run",
+        "scared"
+      ],
+      "vocabulary": [
+        {
+          "word": "fight",
+          "definition": "a physical conflict (pelea)"
+        },
+        {
+          "word": "loud",
+          "definition": "with strong sound (fuerte)"
+        },
+        {
+          "word": "shout",
+          "definition": "to speak loudly (gritar)"
+        },
+        {
+          "word": "push",
+          "definition": "to move with force (empujar)"
+        },
+        {
+          "word": "hit",
+          "definition": "to strike with force (golpear)"
+        },
+        {
+          "word": "stop",
+          "definition": "to not continue (parar)"
+        },
+        {
+          "word": "help",
+          "definition": "to assist (ayudar)"
+        },
+        {
+          "word": "angry",
+          "definition": "feeling mad (enojado)"
+        },
+        {
+          "word": "run",
+          "definition": "to move fast (correr)"
+        },
+        {
+          "word": "scared",
+          "definition": "afraid (asustado)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Where did the fight happen?",
+          "options": [
+            "At the store",
+            "In front of the cancha",
+            "In the park",
+            "In the school"
+          ],
+          "answer": "In front of the cancha"
+        },
+        {
+          "skill": "inference",
+          "question": "What did the boys do in the fight?",
+          "options": [
+            "Shout and push",
+            "Run and hide",
+            "Laugh and cry",
+            "Help each other"
+          ],
+          "answer": "Shout and push"
+        },
+        {
+          "skill": "purpose",
+          "question": "What did one boy try to do?",
+          "options": [
+            "Stop",
+            "Hit",
+            "Hide",
+            "Laugh"
+          ],
+          "answer": "Hit"
+        },
+        {
+          "skill": "main idea",
+          "question": "Who asked for help during the fight?",
+          "options": [
+            "Andrés",
+            "Camila",
+            "Miguel",
+            "Julián"
+          ],
+          "answer": "Camila"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What did the boys promise later?",
+          "options": [
+            "To shout louder",
+            "Not to fight again",
+            "To hit harder",
+            "To run away"
+          ],
+          "answer": "Not to fight again"
+        }
+      ],
+      "cover": "../assets/images/week15_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "A Rumor At School",
+      "minimumWordTarget": 500,
+      "wordCount": 508,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week15_grade09_page01.webp",
+          "artDirection": "14–15-year-old Colombian student context for “A Rumor At School”. Scene based on: At our school, Camila heard a strange rumor. The situation requires more than a quick reaction, so Camila considers responsibilities and possible consequences. The story was that h. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "At our <b>school</b>, Camila heard a strange <b>rumor</b>."
+            },
+            {
+              "html": "The situation requires more than a quick reaction, so Camila considers responsibilities and possible consequences."
+            },
+            {
+              "html": "The <b>story</b> was that her best friend copied answers in class."
+            },
+            {
+              "html": "What begins as an ordinary problem gradually reveals a larger issue about judgment and communication."
+            },
+            {
+              "html": "Camila asked, “Is it <b>true</b>?” Some students said yes, others said it was a <b>lie</b>."
+            },
+            {
+              "html": "Camila learns that being independent can also mean knowing when to ask for accurate information."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week15_grade09_page02.webp",
+          "artDirection": "14–15-year-old Colombian student context for “A Rumor At School”. Scene based on: One boy whispered that it was a secret, but he refused to talk more. Several details in the setting influence the decision and make the situation more realistic. Camila felt hurt b. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "One boy whispered that it was a <b>secret</b>, but he refused to <b>talk</b> more."
+            },
+            {
+              "html": "Several details in the setting influence the decision and make the situation more realistic."
+            },
+            {
+              "html": "Camila felt <b>hurt</b> because she wanted to <b>trust</b> her <b>friends</b>."
+            },
+            {
+              "html": "The experience challenges Camila's first assumption and encourages a more careful response."
+            },
+            {
+              "html": "Later, she asked Daniela, who was closed to the teacher, if the story was real."
+            },
+            {
+              "html": "Earlier choices become connected with later results, making the cause and effect easier to see."
+            }
+          ],
+          "wordCount": 80
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week15_grade09_page03.webp",
+          "artDirection": "14–15-year-old Colombian student context for “A Rumor At School”. Scene based on: Daniela said, “It is only a rumor, nothing true.” Camila realized the person who made the lie did not think about the damage. A practical solution appears only after Camila conside. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Daniela said, “It is only a rumor, nothing true.” Camila realized the person who made the lie did not think about the damage."
+            },
+            {
+              "html": "A practical solution appears only after Camila considers more than one option."
+            },
+            {
+              "html": "She explained to her friends that a rumor can hurt but the truth makes friends stronger."
+            },
+            {
+              "html": "Respectful communication helps reduce tension even before the whole problem is solved."
+            },
+            {
+              "html": "That day, she decided to keep no secret that could harm a friend."
+            },
+            {
+              "html": "Camila's response becomes more mature as emotion gives way to planning."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week15_grade09_page04.webp",
+          "artDirection": "14–15-year-old Colombian student context for “A Rumor At School”. Scene based on: By the end of this part, the experience has changed the way Camila approaches the problem. At our school, Camila heard a strange rumor. The situation requires more than a quick rea. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "By the end of this part, the experience has changed the way Camila approaches the problem."
+            },
+            {
+              "html": "At our school, Camila heard a strange rumor."
+            },
+            {
+              "html": "The situation requires more than a quick reaction, so Camila considers responsibilities and possible consequences."
+            },
+            {
+              "html": "The story was that her best friend copied answers in class."
+            },
+            {
+              "html": "What begins as an ordinary problem gradually reveals a larger issue about judgment and communication."
+            },
+            {
+              "html": "Camila asked, “Is it true?” Some students said yes, others said it was a lie."
+            },
+            {
+              "html": "Camila learns that being independent can also mean knowing when to ask for accurate information."
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week15_grade09_page05.webp",
+          "artDirection": "14–15-year-old Colombian student context for “A Rumor At School”. Scene based on: One boy whispered that it was a secret, but he refused to talk more. Several details in the setting influence the decision and make the situation more realistic. Camila felt hurt b. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "One boy whispered that it was a secret, but he refused to talk more."
+            },
+            {
+              "html": "Several details in the setting influence the decision and make the situation more realistic."
+            },
+            {
+              "html": "Camila felt hurt because she wanted to trust her friends."
+            },
+            {
+              "html": "The experience challenges Camila's first assumption and encourages a more careful response."
+            },
+            {
+              "html": "Later, she asked Daniela, who was closed to the teacher, if the story was real."
+            },
+            {
+              "html": "Earlier choices become connected with later results, making the cause and effect easier to see."
+            }
+          ],
+          "wordCount": 80
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week15_grade09_page06.webp",
+          "artDirection": "14–15-year-old Colombian student context for “A Rumor At School”. Scene based on: Daniela said, “It is only a rumor, nothing true.” Camila realized the person who made the lie did not think about the damage. A practical solution appears only after Camila conside. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Daniela said, “It is only a rumor, nothing true.” Camila realized the person who made the lie did not think about the damage."
+            },
+            {
+              "html": "A practical solution appears only after Camila considers more than one option."
+            },
+            {
+              "html": "She explained to her friends that a rumor can hurt but the truth makes friends stronger."
+            },
+            {
+              "html": "Respectful communication helps reduce tension even before the whole problem is solved."
+            },
+            {
+              "html": "That day, she decided to keep no secret that could harm a friend."
+            },
+            {
+              "html": "Camila's response becomes more mature as emotion gives way to planning."
+            }
+          ],
+          "wordCount": 87
+        }
+      ],
+      "practiceWords": [
+        "rumor",
+        "school",
+        "story",
+        "lie",
+        "friends",
+        "talk",
+        "hurt",
+        "trust",
+        "true",
+        "secret"
+      ],
+      "vocabulary": [
+        {
+          "word": "rumor",
+          "definition": "unverified story (rumor)"
+        },
+        {
+          "word": "school",
+          "definition": "place of study (colegio)"
+        },
+        {
+          "word": "story",
+          "definition": "narrative or account (historia)"
+        },
+        {
+          "word": "lie",
+          "definition": "false statement (mentira)"
+        },
+        {
+          "word": "friends",
+          "definition": "people you like (amigos)"
+        },
+        {
+          "word": "talk",
+          "definition": "to communicate with words (hablar)"
+        },
+        {
+          "word": "hurt",
+          "definition": "to cause pain (herir)"
+        },
+        {
+          "word": "trust",
+          "definition": "belief in honesty (confianza)"
+        },
+        {
+          "word": "true",
+          "definition": "real, correct (verdadero)"
+        },
+        {
+          "word": "secret",
+          "definition": "hidden information (secreto)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What rumor did Camila hear at school?",
+          "options": [
+            "That her friend moved",
+            "That her friend copied answers",
+            "That her friend won a prize",
+            "That her friend was sick"
+          ],
+          "answer": "That her friend copied answers"
+        },
+        {
+          "skill": "inference",
+          "question": "What did some students say the rumor was?",
+          "options": [
+            "A letter",
+            "A lie",
+            "A game",
+            "A book"
+          ],
+          "answer": "A lie"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What did one boy call the rumor?",
+          "options": [
+            "A secret",
+            "A fact",
+            "A game",
+            "A joke"
+          ],
+          "answer": "A secret"
+        },
+        {
+          "skill": "main idea",
+          "question": "What did Camila feel when she heard the story?",
+          "options": [
+            "Happy",
+            "Excited",
+            "Hurt",
+            "Proud"
+          ],
+          "answer": "Hurt"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What did Camila learn about rumors?",
+          "options": [
+            "They are funny",
+            "They can hurt trust",
+            "They are true",
+            "They always help friends"
+          ],
+          "answer": "They can hurt trust"
+        }
+      ],
+      "cover": "../assets/images/week15_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "Fake Friends",
+      "minimumWordTarget": 600,
+      "wordCount": 609,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week15_grade10_page01.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Fake Friends”. Scene based on: Andrés thought he had a friend, but that boy was a fake friend. The conflict becomes more significant when Andrés realizes that the easiest option may not be the most responsible o. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Andrés thought he had a <b>friend</b>, but that boy was a <b>fake friend</b>."
+            },
+            {
+              "html": "The conflict becomes more significant when Andrés realizes that the easiest option may not be the most responsible one."
+            },
+            {
+              "html": "They used to <b>laugh</b> together, but later Andrés heard a <b>lie</b> about him at school."
+            },
+            {
+              "html": "The situation requires comparing alternatives, anticipating consequences, and communicating clearly."
+            },
+            {
+              "html": "The story was not <b>true</b>, but many classmates stopped showing <b>trust</b>."
+            },
+            {
+              "html": "Personal decisions affect other people, so Andrés has to think beyond the immediate goal."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week15_grade10_page02.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Fake Friends”. Scene based on: Andrés felt very sad and alone, because nobody wanted to talk with him. A detail introduced earlier becomes relevant again and changes how the problem is understood. At lunch, a re. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Andrés felt very <b>sad</b> and <b>alone</b>, because nobody wanted to <b>talk</b> with him."
+            },
+            {
+              "html": "A detail introduced earlier becomes relevant again and changes how the problem is understood."
+            },
+            {
+              "html": "At lunch, a <b>real</b> friend came to listen."
+            },
+            {
+              "html": "Progress comes through effort, negotiation, and a willingness to adjust the original plan."
+            },
+            {
+              "html": "She said, “If someone is a fake friend, If someone is real, they will stay.” Andrés realized that fake bring only pain, and real friends bring peace."
+            },
+            {
+              "html": "Information becomes useful only after Andrés checks it carefully instead of accepting it immediately."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week15_grade10_page03.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Fake Friends”. Scene based on: He told himself, “If I hear a lie, I will not believe it until I see what is true.” That afternoon, Andrés stopped feeling so alone, because he knew who was real. As pressure incre. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "He told himself, “If I hear a lie, I will not believe it until I see what is true.” That afternoon, Andrés stopped feeling so alone, because he knew who was real."
+            },
+            {
+              "html": "As pressure increases, Andrés separates emotional reactions from the practical facts of the situation."
+            },
+            {
+              "html": "The way Andrés asks questions and considers other perspectives shows growing maturity."
+            },
+            {
+              "html": "Andrés thought he had a friend, but that boy was a fake friend."
+            },
+            {
+              "html": "Responsibility becomes visible through preparation, listening, correction, and follow-through."
+            },
+            {
+              "html": "They used to laugh together, but later Andrés heard a lie about him at school."
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week15_grade10_page04.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Fake Friends”. Scene based on: The final choice matters because it considers both immediate needs and longer-term consequences. The story was not true, but many classmates stopped showing trust. The conflict bec. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "The final choice matters because it considers both immediate needs and longer-term consequences."
+            },
+            {
+              "html": "The story was not true, but many classmates stopped showing trust."
+            },
+            {
+              "html": "The conflict becomes more significant when Andrés realizes that the easiest option may not be the most responsible one."
+            },
+            {
+              "html": "Andrés felt very sad and alone, because nobody wanted to talk with him."
+            },
+            {
+              "html": "The situation requires comparing alternatives, anticipating consequences, and communicating clearly."
+            },
+            {
+              "html": "At lunch, a real friend came to listen."
+            },
+            {
+              "html": "Personal decisions affect other people, so Andrés has to think beyond the immediate goal."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week15_grade10_page05.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Fake Friends”. Scene based on: She said, “If someone is a fake friend, If someone is real, they will stay.” Andrés realized that fake bring only pain, and real friends bring peace. A detail introduced earlier be. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "She said, “If someone is a fake friend, If someone is real, they will stay.” Andrés realized that fake bring only pain, and real friends bring peace."
+            },
+            {
+              "html": "A detail introduced earlier becomes relevant again and changes how the problem is understood."
+            },
+            {
+              "html": "He told himself, “If I hear a lie, I will not believe it until I see what is true.” That afternoon, Andrés stopped feeling so alone, because he knew who was real."
+            },
+            {
+              "html": "Progress comes through effort, negotiation, and a willingness to adjust the original plan."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week15_grade10_page06.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Fake Friends”. Scene based on: Later, information becomes useful only after Andrés checks it carefully instead of accepting it immediately. Andrés thought he had a friend, but that boy was a fake friend. As pres. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Later, information becomes useful only after Andrés checks it carefully instead of accepting it immediately."
+            },
+            {
+              "html": "Andrés thought he had a friend, but that boy was a fake friend."
+            },
+            {
+              "html": "As pressure increases, Andrés separates emotional reactions from the practical facts of the situation."
+            },
+            {
+              "html": "They used to laugh together, but later Andrés heard a lie about him at school."
+            },
+            {
+              "html": "The way Andrés asks questions and considers other perspectives shows growing maturity."
+            },
+            {
+              "html": "The story was not true, but many classmates stopped showing trust."
+            }
+          ],
+          "wordCount": 80
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week15_grade10_page07.webp",
+          "artDirection": "15–16-year-old Colombian student context for “Fake Friends”. Scene based on: Responsibility becomes visible through preparation, listening, correction, and follow-through. Andrés felt very sad and alone, because nobody wanted to talk with him. The final cho. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Responsibility becomes visible through preparation, listening, correction, and follow-through."
+            },
+            {
+              "html": "Andrés felt very sad and alone, because nobody wanted to talk with him."
+            },
+            {
+              "html": "The final choice matters because it considers both immediate needs and longer-term consequences."
+            },
+            {
+              "html": "At lunch, a real friend came to listen."
+            },
+            {
+              "html": "The conflict becomes more significant when Andrés realizes that the easiest option may not be the most responsible one."
+            },
+            {
+              "html": "She said, “If someone is a fake friend, If someone is real, they will stay.” Andrés realized that fake bring only pain, and real friends bring peace."
+            }
+          ],
+          "wordCount": 89
+        }
+      ],
+      "practiceWords": [
+        "friend",
+        "fake friend",
+        "lie",
+        "laugh",
+        "true",
+        "trust",
+        "sad",
+        "alone",
+        "talk",
+        "real"
+      ],
+      "vocabulary": [
+        {
+          "word": "friend",
+          "definition": "a person you like (amigo)"
+        },
+        {
+          "word": "fake friend",
+          "definition": "a person who pretends to be real (amigo falso)"
+        },
+        {
+          "word": "lie",
+          "definition": "false statement (mentira)"
+        },
+        {
+          "word": "laugh",
+          "definition": "sound when happy (reír)"
+        },
+        {
+          "word": "true",
+          "definition": "real, correct (verdadero)"
+        },
+        {
+          "word": "trust",
+          "definition": "belief in honesty (confianza)"
+        },
+        {
+          "word": "sad",
+          "definition": "feeling unhappy (triste)"
+        },
+        {
+          "word": "alone",
+          "definition": "without others (solo)"
+        },
+        {
+          "word": "talk",
+          "definition": "to communicate with words (hablar)"
+        },
+        {
+          "word": "real",
+          "definition": "genuine, not fake (real)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Who did Andrés discover was a fake friend?",
+          "options": [
+            "A boy in school",
+            "His cousin",
+            "His teacher",
+            "His brother"
+          ],
+          "answer": "A boy in school"
+        },
+        {
+          "skill": "inference",
+          "question": "What spread about Andrés?",
+          "options": [
+            "A joke",
+            "A lie",
+            "A true story",
+            "A secret"
+          ],
+          "answer": "A lie"
+        },
+        {
+          "skill": "purpose",
+          "question": "How did Andrés feel after the lie?",
+          "options": [
+            "Sad and alone",
+            "Excited and proud",
+            "Happy and safe",
+            "Angry and loud"
+          ],
+          "answer": "Sad and alone"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "Who came to talk to Andrés at lunch?",
+          "options": [
+            "His teacher",
+            "Nobody",
+            "His cousin",
+            "A real friend"
+          ],
+          "answer": "A real friend"
+        },
+        {
+          "skill": "main idea",
+          "question": "What did Andrés learn about fake friends?",
+          "options": [
+            "They are funny",
+            "They bring pain",
+            "They are real",
+            "They make trust stronger"
+          ],
+          "answer": "They bring pain"
+        }
+      ],
+      "cover": "../assets/images/week15_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "Bullying In Silence",
+      "minimumWordTarget": 700,
+      "wordCount": 703,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week15_grade11_page01.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Bullying In Silence”. Scene based on: In the barrio school, bullying happened often, but students kept silence. The episode becomes more complex because the main character must interpret not only what happened but why . mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "In the barrio school, <b>bullying</b> happened often, but students kept <b>silence</b>."
+            },
+            {
+              "html": "The episode becomes more complex because the main character must interpret not only what happened but why people respond differently."
+            },
+            {
+              "html": "Laura felt <b>pain</b> when others laughed at her, but she stayed <b>alone</b> and tried to <b>hide</b> it."
+            },
+            {
+              "html": "A personal decision can have broader implications when trust, safety, reputation, or future plans are involved."
+            },
+            {
+              "html": "Her <b>fear</b> was strong, and she never wanted to <b>speak</b>."
+            },
+            {
+              "html": "the main character's first interpretation is understandable, but later details encourage a more nuanced view."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week15_grade11_page02.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Bullying In Silence”. Scene based on: One day, the teacher asked, “Why are you so quiet?” Laura said nothing... Mature decision-making sometimes requires changing an initial assumption when better evidence appears. Lat. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "One day, the teacher asked, “Why are you so quiet?” Laura said nothing..."
+            },
+            {
+              "html": "Mature decision-making sometimes requires changing an initial assumption when better evidence appears."
+            },
+            {
+              "html": "Later, she told her cousin, “If I had a <b>voice</b>, I would speak about this.” Her cousin reported what she said."
+            },
+            {
+              "html": "The social environment influences the main character, although personal agency still matters in the final choice."
+            },
+            {
+              "html": "The teacher explained, “Someone told me you are suffering."
+            },
+            {
+              "html": "Earlier experiences influence later behavior and make the character's development more coherent."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week15_grade11_page03.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Bullying In Silence”. Scene based on: Is it true?” Laura finally admitted the fear she carried. The story shows that consequences can include both difficulties and opportunities for growth. The teacher promised to help. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Is it true?” Laura finally admitted the fear she carried."
+            },
+            {
+              "html": "The story shows that consequences can include both difficulties and opportunities for growth."
+            },
+            {
+              "html": "The teacher promised to <b>help</b>, saying, “If nobody speaks, nothing will <b>change</b>.” Laura realized that if she stayed alone, the bullying would continue."
+            },
+            {
+              "html": "Communication becomes a form of responsibility when the main character explains intentions or verifies information."
+            },
+            {
+              "html": "But if she used her voice, things could change."
+            },
+            {
+              "html": "The setting shapes the pressures, resources, and alternatives that are realistically available."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week15_grade11_page04.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Bullying In Silence”. Scene based on: Now she tells others, “Never keep bullying in silence. By the end, the main character responds in a more deliberate and informed way, even if every problem is not completely solved. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Now she tells others, “Never keep bullying in silence."
+            },
+            {
+              "html": "By the end, the main character responds in a more deliberate and informed way, even if every problem is not completely solved."
+            },
+            {
+              "html": "Always speak, always ask for help.”"
+            },
+            {
+              "html": "The episode becomes more complex because the main character must interpret not only what happened but why people respond differently."
+            },
+            {
+              "html": "Later, a personal decision can have broader implications when trust, safety, reputation, or future plans are involved."
+            },
+            {
+              "html": "In the barrio school, bullying happened often, but students kept silence."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week15_grade11_page05.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Bullying In Silence”. Scene based on: the main character's first interpretation is understandable, but later details encourage a more nuanced view. Laura felt pain when others laughed at her, but she stayed alone and t. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "the main character's first interpretation is understandable, but later details encourage a more nuanced view."
+            },
+            {
+              "html": "Laura felt pain when others laughed at her, but she stayed alone and tried to hide it."
+            },
+            {
+              "html": "Mature decision-making sometimes requires changing an initial assumption when better evidence appears."
+            },
+            {
+              "html": "Her fear was strong, and she never wanted to speak."
+            },
+            {
+              "html": "The social environment influences the main character, although personal agency still matters in the final choice."
+            },
+            {
+              "html": "One day, the teacher asked, “Why are you so quiet?” Laura said nothing..."
+            },
+            {
+              "html": "Earlier experiences influence later behavior and make the character's development more coherent."
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week15_grade11_page06.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Bullying In Silence”. Scene based on: Later, she told her cousin, “If I had a voice, I would speak about this.” Her cousin reported what she said. The story shows that consequences can include both difficulties and opp. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "Later, she told her cousin, “If I had a voice, I would speak about this.” Her cousin reported what she said."
+            },
+            {
+              "html": "The story shows that consequences can include both difficulties and opportunities for growth."
+            },
+            {
+              "html": "The teacher explained, “Someone told me you are suffering."
+            },
+            {
+              "html": "Communication becomes a form of responsibility when the main character explains intentions or verifies information."
+            },
+            {
+              "html": "Is it true?” Laura finally admitted the fear she carried."
+            },
+            {
+              "html": "The setting shapes the pressures, resources, and alternatives that are realistically available."
+            },
+            {
+              "html": "The teacher promised to help, saying, “If nobody speaks, nothing will change.” Laura realized that if she stayed alone, the bullying would continue."
+            }
+          ],
+          "wordCount": 103
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week15_grade11_page07.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Bullying In Silence”. Scene based on: By the end, the main character responds in a more deliberate and informed way, even if every problem is not completely solved. But if she used her voice, things could change. The e. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "By the end, the main character responds in a more deliberate and informed way, even if every problem is not completely solved."
+            },
+            {
+              "html": "But if she used her voice, things could change."
+            },
+            {
+              "html": "The episode becomes more complex because the main character must interpret not only what happened but why people respond differently."
+            },
+            {
+              "html": "Now she tells others, “Never keep bullying in silence."
+            },
+            {
+              "html": "A personal decision can have broader implications when trust, safety, reputation, or future plans are involved."
+            },
+            {
+              "html": "Always speak, always ask for help.”"
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week15_grade11_page08.webp",
+          "artDirection": "16–17-year-old Colombian student context for “Bullying In Silence”. Scene based on: the main character's first interpretation is understandable, but later details encourage a more nuanced view. Later, mature decision-making sometimes requires changing an initial a. mature semi-realistic educational editorial illustration, natural expressions, school-safe, no text in image.",
+          "sentences": [
+            {
+              "html": "the main character's first interpretation is understandable, but later details encourage a more nuanced view."
+            },
+            {
+              "html": "Later, mature decision-making sometimes requires changing an initial assumption when better evidence appears."
+            },
+            {
+              "html": "In the barrio school, bullying happened often, but students kept silence."
+            },
+            {
+              "html": "The social environment influences the main character, although personal agency still matters in the final choice."
+            },
+            {
+              "html": "Laura felt pain when others laughed at her, but she stayed alone and tried to hide it."
+            },
+            {
+              "html": "Earlier experiences influence later behavior and make the character's development more coherent."
+            }
+          ],
+          "wordCount": 84
+        }
+      ],
+      "practiceWords": [
+        "bullying",
+        "silence",
+        "pain",
+        "alone",
+        "hide",
+        "fear",
+        "help",
+        "voice",
+        "speak",
+        "change"
+      ],
+      "vocabulary": [
+        {
+          "word": "bullying",
+          "definition": "repeated aggressive behavior (acoso escolar)"
+        },
+        {
+          "word": "silence",
+          "definition": "complete quiet (silencio)"
+        },
+        {
+          "word": "pain",
+          "definition": "physical or emotional hurt (dolor)"
+        },
+        {
+          "word": "alone",
+          "definition": "without others (solo)"
+        },
+        {
+          "word": "hide",
+          "definition": "to keep out of sight (esconder)"
+        },
+        {
+          "word": "fear",
+          "definition": "feeling of being afraid (miedo)"
+        },
+        {
+          "word": "help",
+          "definition": "to assist (ayudar)"
+        },
+        {
+          "word": "voice",
+          "definition": "sound produced when speaking (voz)"
+        },
+        {
+          "word": "speak",
+          "definition": "to talk (hablar)"
+        },
+        {
+          "word": "change",
+          "definition": "to make different (cambiar)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "What made bullying stronger in Laura’s story?",
+          "options": [
+            "Respect",
+            "Games",
+            "Silence",
+            "Laughter"
+          ],
+          "answer": "Silence"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What did Laura try to do with her pain?",
+          "options": [
+            "Laugh about it",
+            "Hide it",
+            "Forget it",
+            "Write about it"
+          ],
+          "answer": "Hide it"
+        },
+        {
+          "skill": "purpose",
+          "question": "What did Laura’s cousin report?",
+          "options": [
+            "That she was late",
+            "That she was suffering",
+            "That she was happy",
+            "That she was absent"
+          ],
+          "answer": "That she was suffering"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What did the teacher promise Laura?",
+          "options": [
+            "To ignore",
+            "To punish",
+            "To help",
+            "To give homework"
+          ],
+          "answer": "To help"
+        },
+        {
+          "skill": "main idea",
+          "question": "What is Laura’s final message?",
+          "options": [
+            "Trust fake friends",
+            "Run away from school",
+            "Always speak and ask for help",
+            "Stay in silence"
+          ],
+          "answer": "Always speak and ask for help"
+        }
+      ],
+      "cover": "../assets/images/week15_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

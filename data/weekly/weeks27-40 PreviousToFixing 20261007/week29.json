@@ -1,0 +1,1776 @@
+{
+  "week": 29,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 29",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "Cleaning The Little Park",
+      "minimumWordTarget": 350,
+      "wordCount": 468,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week29_grade06_page01.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “Cleaning The Little Park”, page 1. Scene based on: Mateo is 11 years old and studies in Medellín. One ordinary day at a sports court on a Medellín hillside, a situation involving a community project begins to change the plans for the afternoon. Sara is nearby and notices that Mateo is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mateo is 11 years old and studies in Medellín. One ordinary day at a sports court on a Medellín hillside, a situation involving a community project begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Sara is nearby and notices that Mateo is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about community, planning and civic responsibility."
+            },
+            {
+              "html": "“This is my choice, but that is our shared space,” the student says."
+            },
+            {
+              "html": "Mateo listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "The little <b>park</b> is full of trash."
+            },
+            {
+              "html": "The students want to <b>clean</b> the park on Saturday."
+            },
+            {
+              "html": "They collect <b>trash</b> in big bags."
+            },
+            {
+              "html": "At the end, the park looks <b>beautiful</b>."
+            }
+          ],
+          "wordCount": 128
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week29_grade06_page02.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “Cleaning The Little Park”, page 2. Scene based on: The situation becomes harder when students try to improve a shared local space. Mateo feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when students try to improve a shared local space. Mateo feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Sara suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "The family asks, “Is it yours?” and checks before moving anything."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "They plant a small <b>tree</b> near the bench."
+            },
+            {
+              "html": "A <b>neighbor</b> brings water for everyone."
+            },
+            {
+              "html": "Working <b>together</b> makes the job easier."
+            }
+          ],
+          "wordCount": 118
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week29_grade06_page03.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “Cleaning The Little Park”, page 3. Scene based on: Mateo decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mateo decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Sara explains that being responsible is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "At home, they use technology every day, but they also set simple rules."
+            },
+            {
+              "html": "By the end of the day, the immediate problem has a result. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Mateo feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "Everyone uses <b>gloves</b> for safety."
+            },
+            {
+              "html": "Mateo helps <b>plant</b> flowers."
+            }
+          ],
+          "wordCount": 125
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week29_grade06_page04.webp",
+          "artDirection": "Soft pastel Pixar-like 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short, concrete A1 sentences. One single 4:5 vertical scene for “Cleaning The Little Park”, page 4. Scene based on: At home, Mateo thinks about what could have happened if the group had reacted without checking anything. The student writes a short reflection: a responsible choice is not always the fastest or most popular choice. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At home, Mateo thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "The student writes a short reflection: a responsible choice is not always the fastest or most popular choice."
+            },
+            {
+              "html": "Next time, Mateo plans to ask a clearer question, confirm important information, and explain the reason for the decision."
+            },
+            {
+              "html": "The experience becomes part of how Mateo understands school, family, technology, travel, and life in a larger world."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "They paint the old <b>bench</b>."
+            }
+          ],
+          "wordCount": 97
+        }
+      ],
+      "practiceWords": [
+        "park",
+        "clean",
+        "trash",
+        "tree",
+        "neighbor",
+        "together",
+        "gloves",
+        "plant",
+        "bench",
+        "beautiful"
+      ],
+      "vocabulary": [
+        {
+          "word": "park",
+          "definition": "a public green place (parque)"
+        },
+        {
+          "word": "clean",
+          "definition": "to remove dirt (limpiar)"
+        },
+        {
+          "word": "trash",
+          "definition": "things you throw away (basura)"
+        },
+        {
+          "word": "tree",
+          "definition": "a tall plant (árbol)"
+        },
+        {
+          "word": "neighbor",
+          "definition": "a person who lives near you (vecino)"
+        },
+        {
+          "word": "together",
+          "definition": "with each other (juntos)"
+        },
+        {
+          "word": "gloves",
+          "definition": "things you wear on your hands (guantes)"
+        },
+        {
+          "word": "plant",
+          "definition": "to put a seed or plant in the ground (sembrar)"
+        },
+        {
+          "word": "bench",
+          "definition": "a long seat (banca)"
+        },
+        {
+          "word": "beautiful",
+          "definition": "very nice to look at (hermoso)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "How old is Mateo?",
+          "options": [
+            "11 years old",
+            "9 years old",
+            "13 years old",
+            "16 years old"
+          ],
+          "answer": "11 years old"
+        },
+        {
+          "skill": "sequence",
+          "question": "Which event happens at the END of the story?",
+          "options": [
+            "Mateo notices the problem at a sports court on a Medellín hillside.",
+            "The situation becomes harder because students try to improve a shared local space.",
+            "Sara notices that Mateo is paying attention.",
+            "Mateo writes a short reflection at home."
+          ],
+          "answer": "Mateo writes a short reflection at home."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Which word from the text means “a tall plant”?",
+          "options": [
+            "park",
+            "plant",
+            "tree",
+            "neighbor"
+          ],
+          "answer": "tree"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which word best represents the central topic of the text?",
+          "options": [
+            "communication",
+            "future",
+            "community",
+            "evidence"
+          ],
+          "answer": "community"
+        },
+        {
+          "skill": "simple inference",
+          "question": "What does the idea “a responsible choice is not always the fastest or most popular choice” suggest?",
+          "options": [
+            "Students should never listen to their friends.",
+            "Fast decisions are always wrong.",
+            "Good decisions sometimes take time and may not please everyone.",
+            "Popular choices are always irresponsible."
+          ],
+          "answer": "Good decisions sometimes take time and may not please everyone."
+        }
+      ],
+      "cover": "../assets/images/week29_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "Our Saturday Project",
+      "minimumWordTarget": 400,
+      "wordCount": 491,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week29_grade07_page01.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “Our Saturday Project”, page 1. Scene based on: Julián is 12 years old and studies in Medellín. One ordinary day at a small family apartment, a situation involving a community project begins to change the plans for the afternoon. Sara is nearby and notices that Julián is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Julián is 12 years old and studies in Medellín. One ordinary day at a small family apartment, a situation involving a community project begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Sara is nearby and notices that Julián is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about community, planning and civic responsibility."
+            },
+            {
+              "html": "The little <b>park</b> is full of trash."
+            },
+            {
+              "html": "The students want to <b>clean</b> the park on Saturday."
+            },
+            {
+              "html": "They collect <b>trash</b> in big bags."
+            },
+            {
+              "html": "They paint the old <b>bench</b>."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week29_grade07_page02.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “Our Saturday Project”, page 2. Scene based on: The situation becomes harder when students try to improve a shared local space. Julián feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when students try to improve a shared local space. Julián feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Sara suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "“Are we going to change the plan?” one student asks."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "They plant a small <b>tree</b> near the bench."
+            },
+            {
+              "html": "A <b>neighbor</b> brings water for everyone."
+            },
+            {
+              "html": "At the end, the park looks <b>beautiful</b>."
+            }
+          ],
+          "wordCount": 101
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week29_grade07_page03.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “Our Saturday Project”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Julián has to think about the first idea again. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Julián has to think about the first idea again."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Working <b>together</b> makes the job easier."
+            }
+          ],
+          "wordCount": 104
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week29_grade07_page04.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “Our Saturday Project”, page 4. Scene based on: Julián decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Julián decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Sara explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "They point to the options: “This route is shorter, but these tickets are cheaper.”"
+            },
+            {
+              "html": "Sara reminds Julián that asking for help can be a responsible decision when the situation is unclear."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week29_grade07_page05.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ sentences with simple sequencing. One single 4:5 vertical scene for “Our Saturday Project”, page 5. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Julián feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Julián feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about community, planning and civic responsibility."
+            },
+            {
+              "html": "At home, Julián thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "Everyone uses <b>gloves</b> for safety."
+            },
+            {
+              "html": "Julián helps <b>plant</b> flowers."
+            }
+          ],
+          "wordCount": 105
+        }
+      ],
+      "practiceWords": [
+        "park",
+        "clean",
+        "trash",
+        "tree",
+        "neighbor",
+        "together",
+        "gloves",
+        "plant",
+        "bench",
+        "beautiful"
+      ],
+      "vocabulary": [
+        {
+          "word": "park",
+          "definition": "a public green place (parque)"
+        },
+        {
+          "word": "clean",
+          "definition": "to remove dirt (limpiar)"
+        },
+        {
+          "word": "trash",
+          "definition": "things you throw away (basura)"
+        },
+        {
+          "word": "tree",
+          "definition": "a tall plant (árbol)"
+        },
+        {
+          "word": "neighbor",
+          "definition": "a person who lives near you (vecino)"
+        },
+        {
+          "word": "together",
+          "definition": "with each other (juntos)"
+        },
+        {
+          "word": "gloves",
+          "definition": "things you wear on your hands (guantes)"
+        },
+        {
+          "word": "plant",
+          "definition": "to put a seed or plant in the ground (sembrar)"
+        },
+        {
+          "word": "bench",
+          "definition": "a long seat (banca)"
+        },
+        {
+          "word": "beautiful",
+          "definition": "very nice to look at (hermoso)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Who notices that Julián is paying close attention to what is happening?",
+          "options": [
+            "Mateo",
+            "Diego",
+            "Isabella",
+            "Sara"
+          ],
+          "answer": "Sara"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "According to the text, what could happen if the group reacted without checking anything?",
+          "options": [
+            "The teacher would cancel the class.",
+            "The problem would disappear immediately.",
+            "Everybody would agree on the facts.",
+            "The problem could become bigger and hurt someone."
+          ],
+          "answer": "The problem could become bigger and hurt someone."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the text mainly about?",
+          "options": [
+            "How to grow vegetables in a garden",
+            "Why parks in Medellín are always dirty",
+            "How Julián deals with a problem about community, planning and civic responsibility by checking facts before acting",
+            "A football match in the little park"
+          ],
+          "answer": "How Julián deals with a problem about community, planning and civic responsibility by checking facts before acting"
+        },
+        {
+          "skill": "simple inference",
+          "question": "Which action would go AGAINST what Julián learns in the story?",
+          "options": [
+            "Asking a clear question.",
+            "Verifying a detail first.",
+            "Explaining the reason for a decision.",
+            "Blaming the neighbors for the trash without thinking."
+          ],
+          "answer": "Blaming the neighbors for the trash without thinking."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Complete the sentence from the text: “They plant a small _____ near the bench.”",
+          "options": [
+            "bench",
+            "gloves",
+            "together",
+            "tree"
+          ],
+          "answer": "tree"
+        }
+      ],
+      "cover": "../assets/images/week29_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "Rebuilding The School Garden",
+      "minimumWordTarget": 450,
+      "wordCount": 553,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week29_grade08_page01.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “Rebuilding The School Garden”, page 1. Scene based on: Diego is 13 years old and studies in Medellín. One ordinary day at a community center, a situation involving a community project begins to change the plans for the afternoon. Sara is nearby and notices that Diego is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Diego is 13 years old and studies in Medellín. One ordinary day at a community center, a situation involving a community project begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Sara is nearby and notices that Diego is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about community, planning and civic responsibility."
+            },
+            {
+              "html": "The <b>community</b> joins the project."
+            },
+            {
+              "html": "The Saturday <b>project</b> needs a clear plan."
+            },
+            {
+              "html": "More <b>volunteers</b> arrive than expected."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week29_grade08_page02.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “Rebuilding The School Garden”, page 2. Scene based on: The situation becomes harder when students try to improve a shared local space. Diego feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when students try to improve a shared local space. Diego feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Sara suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "They are meeting again on Friday, so the plan already feels real."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "The school <b>garden</b> needs water and care."
+            },
+            {
+              "html": "They want to <b>improve</b> a shared space."
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week29_grade08_page03.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “Rebuilding The School Garden”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Diego has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Diego has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "They separate bottles to <b>recycle</b> them."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week29_grade08_page04.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “Rebuilding The School Garden”, page 4. Scene based on: Diego decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Diego decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Sara explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "The teacher gives them time to discuss the problem and asks the group to listen."
+            },
+            {
+              "html": "Diego listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "Sara brings <b>tools</b> from home."
+            },
+            {
+              "html": "Diego helps <b>organize</b> groups and tasks."
+            }
+          ],
+          "wordCount": 100
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week29_grade08_page05.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “Rebuilding The School Garden”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in a subway station in Manhattan. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in a subway station in Manhattan."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Diego realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "They ask the school for <b>permission</b> first."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week29_grade08_page06.webp",
+          "artDirection": "Pixar-like 3D educational storybook, vivid warm light, strong rim light, dynamic teenage poses, 13-year-old student context, accessible A2 sentences with cause-and-effect. One single 4:5 vertical scene for “Rebuilding The School Garden”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Diego feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Diego feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about community, planning and civic responsibility."
+            },
+            {
+              "html": "At home, Diego thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "It is harder to <b>maintain</b> the garden than to plant it."
+            }
+          ],
+          "wordCount": 107
+        }
+      ],
+      "practiceWords": [
+        "community",
+        "project",
+        "garden",
+        "improve",
+        "recycle",
+        "tools",
+        "organize",
+        "permission",
+        "maintain",
+        "volunteers"
+      ],
+      "vocabulary": [
+        {
+          "word": "community",
+          "definition": "people living in the same area (comunidad)"
+        },
+        {
+          "word": "project",
+          "definition": "a planned piece of work (proyecto)"
+        },
+        {
+          "word": "garden",
+          "definition": "a place where plants grow (jardín, huerta)"
+        },
+        {
+          "word": "improve",
+          "definition": "to make better (mejorar)"
+        },
+        {
+          "word": "recycle",
+          "definition": "to use materials again (reciclar)"
+        },
+        {
+          "word": "tools",
+          "definition": "objects used to do work (herramientas)"
+        },
+        {
+          "word": "organize",
+          "definition": "to plan and arrange (organizar)"
+        },
+        {
+          "word": "permission",
+          "definition": "official approval (permiso)"
+        },
+        {
+          "word": "maintain",
+          "definition": "to keep in good condition (mantener)"
+        },
+        {
+          "word": "volunteers",
+          "definition": "people who help without pay (voluntarios)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Which New York setting is mentioned in the text?",
+          "options": [
+            "Brooklyn, New York",
+            "An online classroom shared with New York students",
+            "A subway station in Manhattan",
+            "A youth exchange in New York City"
+          ],
+          "answer": "A subway station in Manhattan"
+        },
+        {
+          "skill": "inference",
+          "question": "Which action would go AGAINST what Diego learns in the story?",
+          "options": [
+            "Verifying a detail first.",
+            "Explaining the reason for a decision.",
+            "Blaming the neighbors for the trash without thinking.",
+            "Asking a clear question."
+          ],
+          "answer": "Blaming the neighbors for the trash without thinking."
+        },
+        {
+          "skill": "purpose",
+          "question": "What is the author's main purpose in this text?",
+          "options": [
+            "To describe the history of Medellín.",
+            "To show, through a story, how to act responsibly when students try to improve a shared local space.",
+            "To give scientific data about teenagers in Colombia.",
+            "To sell a product to students."
+          ],
+          "answer": "To show, through a story, how to act responsibly when students try to improve a shared local space."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which option is the best summary of the text?",
+          "options": [
+            "Sara solves the problem alone while Diego watches.",
+            "Diego and Sara travel to New York to solve the problem.",
+            "Diego faces a problem because students try to improve a shared local space, checks the facts with Sara and makes a responsible decision.",
+            "Diego cleans the park alone without a plan and the problem disappears."
+          ],
+          "answer": "Diego faces a problem because students try to improve a shared local space, checks the facts with Sara and makes a responsible decision."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Which word from the text means “objects used to do work”?",
+          "options": [
+            "improve",
+            "tools",
+            "maintain",
+            "recycle"
+          ],
+          "answer": "tools"
+        }
+      ],
+      "cover": "../assets/images/week29_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "The Community Fair Budget",
+      "minimumWordTarget": 500,
+      "wordCount": 606,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week29_grade09_page01.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Community Fair Budget”, page 1. Scene based on: Santiago is 14 years old and studies in Medellín. One ordinary day at a local shopping area, a situation involving a community project begins to change the plans for the afternoon. Laura is nearby and notices that Santiago is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Santiago is 14 years old and studies in Medellín. One ordinary day at a local shopping area, a situation involving a community project begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Laura is nearby and notices that Santiago is paying close attention to what is happening."
+            },
+            {
+              "html": "The first reaction seems simple, but the details matter because the problem is really about community, planning and civic responsibility."
+            },
+            {
+              "html": "The <b>community</b> joins the project."
+            },
+            {
+              "html": "The Saturday <b>project</b> needs a clear plan."
+            },
+            {
+              "html": "The school <b>garden</b> needs water and care."
+            },
+            {
+              "html": "They ask the school for <b>permission</b> first."
+            }
+          ],
+          "wordCount": 92
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week29_grade09_page02.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Community Fair Budget”, page 2. Scene based on: The situation becomes harder when students try to improve a shared local space. Santiago feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when students try to improve a shared local space. Santiago feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Laura suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "The students have to consider safety before making a decision."
+            },
+            {
+              "html": "Laura reminds Santiago that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Santiago listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "It is harder to <b>maintain</b> the garden than to plant it."
+            }
+          ],
+          "wordCount": 104
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week29_grade09_page03.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Community Fair Budget”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Santiago has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Santiago has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Santiago listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "They want to <b>improve</b> a shared space."
+            },
+            {
+              "html": "More <b>volunteers</b> arrive than expected."
+            }
+          ],
+          "wordCount": 105
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week29_grade09_page04.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Community Fair Budget”, page 4. Scene based on: Santiago decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Santiago decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Laura explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "The situation might improve, but it may also become harder if nobody checks the facts."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "They separate bottles to <b>recycle</b> them."
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week29_grade09_page05.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Community Fair Budget”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in a youth exchange in New York City. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in a youth exchange in New York City."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Santiago realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "Laura brings <b>tools</b> from home."
+            }
+          ],
+          "wordCount": 108
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week29_grade09_page06.webp",
+          "artDirection": "Glossy saturated semi-realistic painted cartoon, rich natural light, detailed props, cinematic framing, shallow depth of field, 14-year-old student context, A2+ connected sentences with comparison and inference. One single 4:5 vertical scene for “The Community Fair Budget”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Santiago feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Santiago feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about community, planning and civic responsibility."
+            },
+            {
+              "html": "At home, Santiago thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "Santiago helps <b>organize</b> groups and tasks."
+            }
+          ],
+          "wordCount": 102
+        }
+      ],
+      "practiceWords": [
+        "community",
+        "project",
+        "garden",
+        "improve",
+        "recycle",
+        "tools",
+        "organize",
+        "permission",
+        "maintain",
+        "volunteers"
+      ],
+      "vocabulary": [
+        {
+          "word": "community",
+          "definition": "people living in the same area (comunidad)"
+        },
+        {
+          "word": "project",
+          "definition": "a planned piece of work (proyecto)"
+        },
+        {
+          "word": "garden",
+          "definition": "a place where plants grow (jardín, huerta)"
+        },
+        {
+          "word": "improve",
+          "definition": "to make better (mejorar)"
+        },
+        {
+          "word": "recycle",
+          "definition": "to use materials again (reciclar)"
+        },
+        {
+          "word": "tools",
+          "definition": "objects used to do work (herramientas)"
+        },
+        {
+          "word": "organize",
+          "definition": "to plan and arrange (organizar)"
+        },
+        {
+          "word": "permission",
+          "definition": "official approval (permiso)"
+        },
+        {
+          "word": "maintain",
+          "definition": "to keep in good condition (mantener)"
+        },
+        {
+          "word": "volunteers",
+          "definition": "people who help without pay (voluntarios)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "According to the text, what is the problem really about?",
+          "options": [
+            "Community, planning and civic responsibility",
+            "Needs, wants and financial judgment",
+            "Assertiveness and personal limits",
+            "Authenticity and digital judgment"
+          ],
+          "answer": "Community, planning and civic responsibility"
+        },
+        {
+          "skill": "inference",
+          "question": "According to the text, what could happen if the group reacted without checking anything?",
+          "options": [
+            "The problem would disappear immediately.",
+            "The teacher would cancel the class.",
+            "Everybody would agree on the facts.",
+            "The problem could become bigger and hurt someone."
+          ],
+          "answer": "The problem could become bigger and hurt someone."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In “…another clue points in a different direction, so Santiago has to reconsider the first assumption,” the word “so” introduces…",
+          "options": [
+            "a result",
+            "an example",
+            "a condition",
+            "a contrast"
+          ],
+          "answer": "a result"
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the text mainly about?",
+          "options": [
+            "A football match in the little park",
+            "How to grow vegetables in a garden",
+            "Why parks in Medellín are always dirty",
+            "How Santiago deals with a problem about community, planning and civic responsibility by checking facts before acting"
+          ],
+          "answer": "How Santiago deals with a problem about community, planning and civic responsibility by checking facts before acting"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read this sentence from page 2: “It is harder to maintain the garden than to plant it.” In this sentence, the word “maintain” means…",
+          "options": [
+            "a place where plants grow",
+            "objects used to do work",
+            "to make better",
+            "to keep in good condition"
+          ],
+          "answer": "to keep in good condition"
+        }
+      ],
+      "cover": "../assets/images/week29_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "Planning A Safer Neighborhood Route",
+      "minimumWordTarget": 600,
+      "wordCount": 711,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week29_grade10_page01.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “Planning A Safer Neighborhood Route”, page 1. Scene based on: Valentina is 15–16 years old and studies in Medellín. One ordinary day at a bus stop after school, a situation involving a community project begins to change the plans for the afternoon. Samuel is nearby and notices that Valentina is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina is 15–16 years old and studies in Medellín. One ordinary day at a bus stop after school, a situation involving a community project begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Samuel is nearby and notices that Valentina is paying close attention to what is happening."
+            },
+            {
+              "html": "The project becomes a lesson in <b>civic</b> responsibility."
+            },
+            {
+              "html": "The <b>initiative</b> starts with only four students."
+            },
+            {
+              "html": "Samuel reminds Valentina that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Samuel knows how to <b>mobilize</b> classmates."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week29_grade10_page02.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “Planning A Safer Neighborhood Route”, page 2. Scene based on: The situation becomes harder when students try to improve a shared local space. Valentina feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when students try to improve a shared local space. Valentina feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Samuel suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "The group is meeting after class, and they are going to compare several options."
+            },
+            {
+              "html": "Valentina listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "They need a <b>sustainable</b> plan, not one big day."
+            },
+            {
+              "html": "They create a chart for <b>accountability</b>."
+            }
+          ],
+          "wordCount": 112
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week29_grade10_page03.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “Planning A Safer Neighborhood Route”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Valentina has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Valentina has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "<b>Collaboration</b> with the neighbors changes everything."
+            }
+          ],
+          "wordCount": 99
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week29_grade10_page04.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “Planning A Safer Neighborhood Route”, page 4. Scene based on: Valentina decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Samuel explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "One student says, “I will call if the plan changes.”"
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "They invite all the <b>stakeholders</b>, including neighbors."
+            },
+            {
+              "html": "The <b>long-term</b> goal is a garden that stays alive."
+            }
+          ],
+          "wordCount": 104
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week29_grade10_page05.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “Planning A Safer Neighborhood Route”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in an online classroom shared with New York students. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in an online classroom shared with New York students."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Valentina realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "The <b>logistics</b> are more complex than they thought."
+            }
+          ],
+          "wordCount": 111
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week29_grade10_page06.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “Planning A Safer Neighborhood Route”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Valentina feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Valentina feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about community, planning and civic responsibility."
+            },
+            {
+              "html": "Samuel reminds Valentina that asking for help can be a responsible decision when the situation is unclear."
+            }
+          ],
+          "wordCount": 96
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week29_grade10_page07.webp",
+          "artDirection": "Painterly semi-realistic educational editorial illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere, 15–16-year-old student context, B1 connected narrative with explicit reasoning and practical detail. One single 4:5 vertical scene for “Planning A Safer Neighborhood Route”, page 7. Scene based on: The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another. They also discuss the author’s purpose and decide which detail best supports the final lesson. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another."
+            },
+            {
+              "html": "They also discuss the author’s purpose and decide which detail best supports the final lesson."
+            },
+            {
+              "html": "Valentina notices that strong reading is not only translating words. It means connecting evidence, sequence, intention, and consequences."
+            },
+            {
+              "html": "That habit will be useful in future exams because a difficult question often depends on a small but meaningful detail."
+            },
+            {
+              "html": "Valentina listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "Years of <b>neglect</b> damaged the garden."
+            }
+          ],
+          "wordCount": 104
+        }
+      ],
+      "practiceWords": [
+        "civic",
+        "initiative",
+        "sustainable",
+        "stakeholders",
+        "logistics",
+        "neglect",
+        "mobilize",
+        "accountability",
+        "collaboration",
+        "long-term"
+      ],
+      "vocabulary": [
+        {
+          "word": "civic",
+          "definition": "related to the duties of citizens (cívico)"
+        },
+        {
+          "word": "initiative",
+          "definition": "a new plan to solve a problem (iniciativa)"
+        },
+        {
+          "word": "sustainable",
+          "definition": "able to continue without damage (sostenible)"
+        },
+        {
+          "word": "stakeholders",
+          "definition": "people affected by a project (partes interesadas)"
+        },
+        {
+          "word": "logistics",
+          "definition": "the organization of people and materials (logística)"
+        },
+        {
+          "word": "neglect",
+          "definition": "lack of care (abandono, descuido)"
+        },
+        {
+          "word": "mobilize",
+          "definition": "to bring people together for action (movilizar)"
+        },
+        {
+          "word": "accountability",
+          "definition": "responsibility for results (rendición de cuentas)"
+        },
+        {
+          "word": "collaboration",
+          "definition": "working together (colaboración)"
+        },
+        {
+          "word": "long-term",
+          "definition": "lasting a long time (a largo plazo)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "According to the text, where does Valentina's situation begin?",
+          "options": [
+            "A school courtyard",
+            "A community center",
+            "A bus stop after school",
+            "The Medellín Metro"
+          ],
+          "answer": "A bus stop after school"
+        },
+        {
+          "skill": "inference",
+          "question": "Why does Valentina listen carefully before answering?",
+          "options": [
+            "Because the teacher prohibits talking.",
+            "Because nobody else is paying attention.",
+            "Because one missing detail can change the meaning of the situation.",
+            "Because she does not understand Spanish."
+          ],
+          "answer": "Because one missing detail can change the meaning of the situation."
+        },
+        {
+          "skill": "purpose",
+          "question": "What is the author's main purpose in this text?",
+          "options": [
+            "To describe the history of Medellín.",
+            "To show, through a story, how to act responsibly when students try to improve a shared local space.",
+            "To give scientific data about teenagers in Colombia.",
+            "To sell a product to students."
+          ],
+          "answer": "To show, through a story, how to act responsibly when students try to improve a shared local space."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In the sentence “The action does not solve everything immediately, but it prevents the problem from growing,” the word “but” introduces…",
+          "options": [
+            "a reason",
+            "a time sequence",
+            "a contrast",
+            "an example"
+          ],
+          "answer": "a contrast"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which option is the best summary of the text?",
+          "options": [
+            "Samuel solves the problem alone while Valentina watches.",
+            "Valentina faces a problem because students try to improve a shared local space, checks the facts with Samuel and makes a responsible decision.",
+            "Valentina cleans the park alone without a plan and the problem disappears.",
+            "Valentina and Samuel travel to New York to solve the problem."
+          ],
+          "answer": "Valentina faces a problem because students try to improve a shared local space, checks the facts with Samuel and makes a responsible decision."
+        }
+      ],
+      "cover": "../assets/images/week29_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "Who Is Responsible For The Shared Space?",
+      "minimumWordTarget": 700,
+      "wordCount": 809,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week29_grade11_page01.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “Who Is Responsible For The Shared Space?”, page 1. Scene based on: Laura is 17–18 years old and studies in Medellín. One ordinary day at a school courtyard, a situation involving a community project begins to change the plans for the afternoon. Daniel is nearby and notices that Laura is paying close attention to what is happening. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura is 17–18 years old and studies in Medellín. One ordinary day at a school courtyard, a situation involving a community project begins to change the plans for the afternoon."
+            },
+            {
+              "html": "Daniel is nearby and notices that Laura is paying close attention to what is happening."
+            },
+            {
+              "html": "The project becomes a lesson in <b>civic</b> responsibility."
+            },
+            {
+              "html": "Students must follow the safety rules, but they do not have to accept every suggestion."
+            },
+            {
+              "html": "Laura listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "The <b>initiative</b> starts with only four students."
+            },
+            {
+              "html": "They need a <b>sustainable</b> plan, not one big day."
+            }
+          ],
+          "wordCount": 101
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week29_grade11_page02.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “Who Is Responsible For The Shared Space?”, page 2. Scene based on: The situation becomes harder when students try to improve a shared local space. Laura feels pressure to react quickly. Instead of having all the facts, the students hear different versions of what happened. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The situation becomes harder when students try to improve a shared local space. Laura feels pressure to react quickly."
+            },
+            {
+              "html": "Instead of having all the facts, the students hear different versions of what happened."
+            },
+            {
+              "html": "Daniel suggests checking the information before blaming anyone or making a promise that cannot be kept."
+            },
+            {
+              "html": "They invite all the <b>stakeholders</b>, including neighbors."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            }
+          ],
+          "wordCount": 94
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week29_grade11_page03.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “Who Is Responsible For The Shared Space?”, page 3. Scene based on: They look at the practical details: time, place, people involved, available choices, and what could happen next. One clue supports the first idea, but another clue points in a different direction, so Laura has to reconsider the first assumption. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They look at the practical details: time, place, people involved, available choices, and what could happen next."
+            },
+            {
+              "html": "One clue supports the first idea, but another clue points in a different direction, so Laura has to reconsider the first assumption."
+            },
+            {
+              "html": "A teacher, relative, coach, or responsible adult asks a useful question: “What do you know for sure, and what are you only assuming?”"
+            },
+            {
+              "html": "That question slows the moment down and helps the students separate evidence from emotion."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "The <b>logistics</b> are more complex than they thought."
+            }
+          ],
+          "wordCount": 105
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week29_grade11_page04.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “Who Is Responsible For The Shared Space?”, page 4. Scene based on: Laura decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option. The action does not solve everything immediately, but it prevents the problem from growing. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura decides to take one small, concrete action in Medellín: ask clearly, verify a detail, protect someone’s privacy, or choose the safer option."
+            },
+            {
+              "html": "The action does not solve everything immediately, but it prevents the problem from growing."
+            },
+            {
+              "html": "Daniel explains that responsibility is not only about avoiding mistakes; it is also about correcting them when new information appears."
+            },
+            {
+              "html": "Years of <b>neglect</b> damaged the garden."
+            },
+            {
+              "html": "The moment feels personal, but it also connects with school life, family expectations, and the way young people communicate today."
+            },
+            {
+              "html": "Daniel reminds Laura that asking for help can be a responsible decision when the situation is unclear."
+            },
+            {
+              "html": "Daniel knows how to <b>mobilize</b> classmates."
+            }
+          ],
+          "wordCount": 106
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week29_grade11_page05.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “Who Is Responsible For The Shared Space?”, page 5. Scene based on: Later, the class compares the situation with a similar challenge described by teenagers in Queens, New York. The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Later, the class compares the situation with a similar challenge described by teenagers in Queens, New York."
+            },
+            {
+              "html": "The places are different, but the students notice the same basic problem: people need clear information, respectful communication, and realistic decisions."
+            },
+            {
+              "html": "Laura realizes that English can be useful for understanding instructions, asking questions, comparing options, and explaining a decision beyond the local context."
+            },
+            {
+              "html": "The global example does not replace the Medellín experience; it helps the students see it from another perspective."
+            },
+            {
+              "html": "Daniel reminds Laura that asking for help can be a responsible decision when the situation is unclear."
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week29_grade11_page06.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “Who Is Responsible For The Shared Space?”, page 6. Scene based on: By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete. Laura feels more confident because the decision came from evidence rather than pressure. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "By the end of the day, the immediate problem has a consequence. Someone has to apologize, change a plan, return something, ask for help, or accept that the first idea was incomplete."
+            },
+            {
+              "html": "Laura feels more confident because the decision came from evidence rather than pressure."
+            },
+            {
+              "html": "The group also understands that a good solution can protect relationships while still respecting rules and personal limits."
+            },
+            {
+              "html": "What looked like a small incident becomes a useful lesson about community, planning and civic responsibility."
+            },
+            {
+              "html": "Laura listens carefully before answering, because one missing detail can change the meaning of the whole situation."
+            },
+            {
+              "html": "They create a chart for <b>accountability</b>."
+            }
+          ],
+          "wordCount": 102
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week29_grade11_page07.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “Who Is Responsible For The Shared Space?”, page 7. Scene based on: At home, Laura thinks about what could have happened if the group had reacted without checking anything. The student writes a short reflection: a responsible choice is not always the fastest or most popular choice. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At home, Laura thinks about what could have happened if the group had reacted without checking anything."
+            },
+            {
+              "html": "The student writes a short reflection: a responsible choice is not always the fastest or most popular choice."
+            },
+            {
+              "html": "Next time, Laura plans to ask a clearer question, confirm important information, and explain the reason for the decision."
+            },
+            {
+              "html": "The experience becomes part of how Laura understands school, family, technology, travel, and life in a larger world."
+            },
+            {
+              "html": "The people around them react in different ways, and those reactions help show why the decision matters."
+            },
+            {
+              "html": "<b>Collaboration</b> with the neighbors changes everything."
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week29_grade11_page08.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, tight framing, moody natural light, mature high-school/young-adult atmosphere, 17–18-year-old student context, B1+ mature connected narrative with nuanced reasoning and reflection. One single 4:5 vertical scene for “Who Is Responsible For The Shared Space?”, page 8. Scene based on: The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another. They also discuss the author’s purpose and decide which detail best supports the final lesson. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next class turns the experience into a reading challenge. Students identify the main idea, distinguish a fact from an assumption, and explain how one event causes another."
+            },
+            {
+              "html": "They also discuss the author’s purpose and decide which detail best supports the final lesson."
+            },
+            {
+              "html": "Laura notices that strong reading is not only translating words. It means connecting evidence, sequence, intention, and consequences."
+            },
+            {
+              "html": "That habit will be useful in future exams because a difficult question often depends on a small but meaningful detail."
+            },
+            {
+              "html": "Nobody has a perfect answer at first, so the group uses the information they have and checks what is still uncertain."
+            },
+            {
+              "html": "The <b>long-term</b> goal is a garden that stays alive."
+            }
+          ],
+          "wordCount": 111
+        }
+      ],
+      "practiceWords": [
+        "civic",
+        "initiative",
+        "sustainable",
+        "stakeholders",
+        "logistics",
+        "neglect",
+        "mobilize",
+        "accountability",
+        "collaboration",
+        "long-term"
+      ],
+      "vocabulary": [
+        {
+          "word": "civic",
+          "definition": "related to the duties of citizens (cívico)"
+        },
+        {
+          "word": "initiative",
+          "definition": "a new plan to solve a problem (iniciativa)"
+        },
+        {
+          "word": "sustainable",
+          "definition": "able to continue without damage (sostenible)"
+        },
+        {
+          "word": "stakeholders",
+          "definition": "people affected by a project (partes interesadas)"
+        },
+        {
+          "word": "logistics",
+          "definition": "the organization of people and materials (logística)"
+        },
+        {
+          "word": "neglect",
+          "definition": "lack of care (abandono, descuido)"
+        },
+        {
+          "word": "mobilize",
+          "definition": "to bring people together for action (movilizar)"
+        },
+        {
+          "word": "accountability",
+          "definition": "responsibility for results (rendición de cuentas)"
+        },
+        {
+          "word": "collaboration",
+          "definition": "working together (colaboración)"
+        },
+        {
+          "word": "long-term",
+          "definition": "lasting a long time (a largo plazo)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "Why does Laura listen carefully before answering?",
+          "options": [
+            "Because the teacher prohibits talking.",
+            "Because one missing detail can change the meaning of the situation.",
+            "Because she does not understand Spanish.",
+            "Because nobody else is paying attention."
+          ],
+          "answer": "Because one missing detail can change the meaning of the situation."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "In the sentence “The action does not solve everything immediately, but it prevents the problem from growing,” the word “but” introduces…",
+          "options": [
+            "a reason",
+            "a time sequence",
+            "an example",
+            "a contrast"
+          ],
+          "answer": "a contrast"
+        },
+        {
+          "skill": "purpose",
+          "question": "What is the purpose of the question “What do you know for sure, and what are you only assuming?”",
+          "options": [
+            "To give the students a grammar exercise.",
+            "To blame one student for the problem.",
+            "To end the conversation quickly.",
+            "To help the students separate evidence from emotion."
+          ],
+          "answer": "To help the students separate evidence from emotion."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read this sentence from page 1: “The project becomes a lesson in civic responsibility.” In this sentence, the word “civic” means…",
+          "options": [
+            "a new plan to solve a problem",
+            "lasting a long time",
+            "able to continue without damage",
+            "related to the duties of citizens"
+          ],
+          "answer": "related to the duties of citizens"
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the text mainly about?",
+          "options": [
+            "Why parks in Medellín are always dirty",
+            "How Laura deals with a problem about community, planning and civic responsibility by checking facts before acting",
+            "A football match in the little park",
+            "How to grow vegetables in a garden"
+          ],
+          "answer": "How Laura deals with a problem about community, planning and civic responsibility by checking facts before acting"
+        }
+      ],
+      "cover": "../assets/images/week29_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

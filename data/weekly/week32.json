@@ -1,0 +1,2268 @@
+{
+  "week": 32,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 32",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "Grandma Tries a Smart Speaker",
+      "minimumWordTarget": 350,
+      "wordCount": 366,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week32_grade06_page01.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “Grandma Tries a Smart Speaker”, page 1. Scene based on: In the cozy living room of a small family home in Medellín, an elderly grandmother with gray hair and glasses holds a small round smart speaker with a blue light ring, looking confused, while Mateo, 11, and his sister Sara, 11, sit next to her on the sofa. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Grandma Rosa lives with Mateo and Sara."
+            },
+            {
+              "html": "She wakes up at five every morning."
+            },
+            {
+              "html": "She drinks coffee and likes to <b>listen</b> to the radio."
+            },
+            {
+              "html": "Last week, Uncle Pablo gave her a new <b>device</b>."
+            },
+            {
+              "html": "It’s a small smart <b>speaker</b> with a blue light."
+            },
+            {
+              "html": "“It plays music and answers questions,” Uncle Pablo says."
+            },
+            {
+              "html": "Grandma is excited, but she is a little nervous."
+            },
+            {
+              "html": "On Sunday, she tries to use it."
+            },
+            {
+              "html": "“Good afternoon, little machine,” she says politely."
+            },
+            {
+              "html": "“Please play the old songs from my town.”"
+            },
+            {
+              "html": "The speaker doesn’t answer."
+            },
+            {
+              "html": "The blue light turns on and off."
+            },
+            {
+              "html": "Grandma looks at Mateo. “Is it sleeping?” she asks."
+            }
+          ],
+          "wordCount": 102
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week32_grade06_page02.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “Grandma Tries a Smart Speaker”, page 2. Scene based on: The grandmother speaks close to the smart speaker with a long sentence, frustrated, while the speaker's blue light blinks; Mateo laughs a little and Sara covers her mouth, then looks curious. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Grandma tries again with a long sentence."
+            },
+            {
+              "html": "“Excuse me, can you please play some nice <b>music</b> for me?”"
+            },
+            {
+              "html": "The speaker plays a strange song with loud drums."
+            },
+            {
+              "html": "Grandma covers her ears. “No, no, no!”"
+            },
+            {
+              "html": "Mateo laughs a little."
+            },
+            {
+              "html": "“Grandma, the speaker doesn’t understand you,” he says."
+            },
+            {
+              "html": "“Maybe it’s broken,” Grandma says, frustrated."
+            },
+            {
+              "html": "“Maybe it doesn’t like old people,” she jokes sadly."
+            },
+            {
+              "html": "Sara looks at the box of the speaker."
+            },
+            {
+              "html": "“Wait. Does it speak Spanish?” she asks."
+            },
+            {
+              "html": "Nobody knows the answer."
+            },
+            {
+              "html": "Mateo looks for the box under the sofa."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week32_grade06_page03.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “Grandma Tries a Smart Speaker”, page 3. Scene based on: Sara holds a phone showing the speaker app with only a globe icon and a flag-like color block, pointing at it, while Mateo reads the speaker's small instruction booklet with only pictures, and Grandma watches hopefully. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Sara opens the speaker app on Uncle Pablo’s phone."
+            },
+            {
+              "html": "She checks the settings."
+            },
+            {
+              "html": "“The <b>language</b> is English!” she says."
+            },
+            {
+              "html": "“That’s why it doesn’t understand Grandma.”"
+            },
+            {
+              "html": "Mateo reads the small instruction booklet."
+            },
+            {
+              "html": "“It understands short commands,” he says."
+            },
+            {
+              "html": "“It doesn’t understand long, polite sentences.”"
+            },
+            {
+              "html": "Sara changes the language to Spanish."
+            },
+            {
+              "html": "Then Mateo writes a list of short commands."
+            },
+            {
+              "html": "“Play music.” “What’s the <b>weather</b>?” “Set a timer.”"
+            },
+            {
+              "html": "Grandma reads the list with her glasses on."
+            },
+            {
+              "html": "“Only three words? That is easy!” she says."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week32_grade06_page04.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “Grandma Tries a Smart Speaker”, page 4. Scene based on: In the morning kitchen, the grandmother smiles and speaks to the smart speaker on the counter while cooking arepas on a griddle, the speaker's blue light glowing, and Mateo and Sara eat breakfast at the table. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mateo teaches Grandma one <b>command</b> at a time."
+            },
+            {
+              "html": "“Speak clearly, but not too <b>loud</b>,” he says."
+            },
+            {
+              "html": "“And use short sentences.”"
+            },
+            {
+              "html": "Grandma practices every afternoon."
+            },
+            {
+              "html": "Now she uses the speaker every <b>morning</b>."
+            },
+            {
+              "html": "She asks about the weather before she goes out."
+            },
+            {
+              "html": "She plays old songs from her town while she cooks."
+            },
+            {
+              "html": "She uses a <b>timer</b> for the arepas on the stove."
+            },
+            {
+              "html": "“Ten minutes,” she says, and the speaker counts."
+            },
+            {
+              "html": "Grandma is proud. “The machine and I are friends now.”"
+            },
+            {
+              "html": "Now Grandma teaches her friends to use it too."
+            },
+            {
+              "html": "Every Sunday, she shows them a new command."
+            }
+          ],
+          "wordCount": 95
+        }
+      ],
+      "practiceWords": [
+        "device",
+        "speaker",
+        "language",
+        "command",
+        "listen",
+        "loud",
+        "music",
+        "morning",
+        "timer",
+        "weather"
+      ],
+      "vocabulary": [
+        {
+          "word": "device",
+          "definition": "a small machine with a special use (dispositivo)"
+        },
+        {
+          "word": "speaker",
+          "definition": "a machine that plays sound and music (parlante)"
+        },
+        {
+          "word": "language",
+          "definition": "the words people use to communicate, like English (idioma)"
+        },
+        {
+          "word": "command",
+          "definition": "a short order you give to a machine (comando)"
+        },
+        {
+          "word": "listen",
+          "definition": "to pay attention to sounds or words (escuchar)"
+        },
+        {
+          "word": "loud",
+          "definition": "with a strong sound (fuerte, alto)"
+        },
+        {
+          "word": "music",
+          "definition": "songs and sounds people enjoy (música)"
+        },
+        {
+          "word": "morning",
+          "definition": "the first part of the day (mañana)"
+        },
+        {
+          "word": "timer",
+          "definition": "a device that counts time (temporizador)"
+        },
+        {
+          "word": "weather",
+          "definition": "the condition of the air: sun, rain, wind (clima)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "Why doesn’t the smart speaker understand Grandma at first?",
+          "options": [
+            "Uncle Pablo forgot to connect it to the internet.",
+            "The speaker is broken and needs a new battery.",
+            "The speaker’s language is set to English.",
+            "Grandma speaks too quietly for the speaker."
+          ],
+          "answer": "The speaker’s language is set to English."
+        },
+        {
+          "skill": "sequence",
+          "question": "What happens AFTER Sara changes the language to Spanish?",
+          "options": [
+            "Uncle Pablo gives Grandma the new device.",
+            "The speaker plays a strange song with loud drums.",
+            "Grandma says, “Good afternoon, little machine,” very politely.",
+            "Mateo writes a list of short commands for Grandma."
+          ],
+          "answer": "Mateo writes a list of short commands for Grandma."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “Mateo teaches Grandma one command at a time.” A “command” is…",
+          "options": [
+            "a short order you give to a machine",
+            "a small book with pictures and instructions",
+            "a long and polite sentence",
+            "a song from an old town"
+          ],
+          "answer": "a short order you give to a machine"
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the story mainly about?",
+          "options": [
+            "An uncle fixes a broken speaker for his whole family.",
+            "Two children help their grandmother learn to use a new device.",
+            "Two children learn to cook arepas with a timer in the kitchen.",
+            "A grandmother buys a new radio for her kitchen."
+          ],
+          "answer": "Two children help their grandmother learn to use a new device."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why does Grandma say, “The machine and I are friends now”?",
+          "options": [
+            "The speaker cooks the arepas for her.",
+            "She gives the speaker a funny name and a birthday party.",
+            "She can use the speaker every day without problems.",
+            "The speaker tells her funny jokes every morning."
+          ],
+          "answer": "She can use the speaker every day without problems."
+        }
+      ],
+      "cover": "../assets/images/week32_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "The Plan That Changed at 6:00",
+      "minimumWordTarget": 400,
+      "wordCount": 413,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week32_grade07_page01.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Plan That Changed at 6:00”, page 1. Scene based on: In the living room of a family home in Medellín on a Saturday afternoon, Valeria, 12, excitedly shows her family a phone screen with only an icon of a fish and a building, while Samuel, 12, her neighbor, sits with them holding a backpack. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "It’s Saturday, and Valeria’s family has a special <b>plan</b>."
+            },
+            {
+              "html": "They’re going to visit Parque Explora this <b>weekend</b>."
+            },
+            {
+              "html": "It’s a big science <b>museum</b> in Medellín."
+            },
+            {
+              "html": "The best part is the <b>aquarium</b>, with fish from the Amazon."
+            },
+            {
+              "html": "Valeria’s neighbor Samuel is going to come too."
+            },
+            {
+              "html": "“We’re going to leave at 5:15,” her father says."
+            },
+            {
+              "html": "“The museum is open until seven today.”"
+            },
+            {
+              "html": "Valeria is very excited."
+            },
+            {
+              "html": "She’s going to see the big river fish."
+            },
+            {
+              "html": "It’s her first time at the aquarium."
+            },
+            {
+              "html": "At 5:15, everybody is ready at the door."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week32_grade07_page02.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Plan That Changed at 6:00”, page 2. Scene based on: Inside a Medellín Metro train, Valeria looks shocked at her phone showing an icon of a closed door with a clock at six, while her parents frown and Samuel leans over to read the screen. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On the Metro, Valeria’s phone buzzes."
+            },
+            {
+              "html": "It’s an <b>announcement</b> from the museum."
+            },
+            {
+              "html": "“Today the museum is going to <b>close</b> early, at six.”"
+            },
+            {
+              "html": "“We’re sorry for the inconvenience.”"
+            },
+            {
+              "html": "Valeria looks at the time. It’s 5:40."
+            },
+            {
+              "html": "“We’re going to have only twenty minutes!” she says."
+            },
+            {
+              "html": "Her father sighs. “Then we aren’t going to go.”"
+            },
+            {
+              "html": "“We’re going to go home,” her mother says."
+            },
+            {
+              "html": "Valeria feels very <b>disappointed</b>."
+            },
+            {
+              "html": "She was waiting for this all week."
+            },
+            {
+              "html": "Samuel reads the message again, slowly."
+            }
+          ],
+          "wordCount": 77
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week32_grade07_page03.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Plan That Changed at 6:00”, page 3. Scene based on: Samuel points at a small line at the bottom of the phone message showing an icon of a dome with stars and a clock at eight, while Valeria wipes her eyes and looks at the screen with new hope. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "“Wait. Look at the last line,” Samuel says."
+            },
+            {
+              "html": "“The planetarium next door isn’t closing early.”"
+            },
+            {
+              "html": "“It’s open until eight tonight.”"
+            },
+            {
+              "html": "“There’s a show about the stars at 6:30.”"
+            },
+            {
+              "html": "Valeria stops being sad for a moment."
+            },
+            {
+              "html": "“The <b>planetarium</b> is only five minutes away,” she says."
+            },
+            {
+              "html": "“What are we going to do if we go there?”"
+            },
+            {
+              "html": "Her father thinks about it."
+            },
+            {
+              "html": "“We’re going to see the stars,” he says."
+            },
+            {
+              "html": "“Not the fish, but the stars.”"
+            },
+            {
+              "html": "“And we’re going to visit the aquarium next Saturday.”"
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week32_grade07_page04.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Plan That Changed at 6:00”, page 4. Scene based on: Outside the planetarium in Medellín at dusk, Valeria's family and Samuel walk toward a large white dome building with lights turning on, Valeria carrying a printed ticket and Samuel pointing at the sky where the first stars appear. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Everybody likes Samuel’s <b>suggestion</b>."
+            },
+            {
+              "html": "They get off the Metro at the Universidad station."
+            },
+            {
+              "html": "The museum is closing, and many people are leaving."
+            },
+            {
+              "html": "But the planetarium is open and full of light."
+            },
+            {
+              "html": "Valeria’s father buys four tickets for the show."
+            },
+            {
+              "html": "“We’re going to sit in the middle,” Valeria says."
+            },
+            {
+              "html": "“From there, we’re going to see the whole dome.”"
+            },
+            {
+              "html": "Samuel looks at the <b>evening</b> sky outside."
+            },
+            {
+              "html": "The first stars are appearing over the hills."
+            },
+            {
+              "html": "“Real stars before the show!” he laughs."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week32_grade07_page05.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Plan That Changed at 6:00”, page 5. Scene based on: Inside the dark planetarium dome, Valeria and Samuel lean back in reclined seats looking up at a projection of the Milky Way and planets, their faces lit by soft blue light, Valeria's parents smiling next to them. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The show is amazing."
+            },
+            {
+              "html": "The dome becomes a sky full of stars and planets."
+            },
+            {
+              "html": "Valeria sees Saturn’s rings and Jupiter’s big red spot."
+            },
+            {
+              "html": "“I’m going to be an astronomer,” she whispers."
+            },
+            {
+              "html": "After the show, they walk to the Metro."
+            },
+            {
+              "html": "“Are you still disappointed?” Samuel asks."
+            },
+            {
+              "html": "“No,” Valeria says. “The plan changed, but it was great.”"
+            },
+            {
+              "html": "“If we didn’t read the message, we were going home.”"
+            },
+            {
+              "html": "Her father laughs. “Next Saturday, the fish. Promise.”"
+            },
+            {
+              "html": "That night, Valeria writes her new plan in her diary."
+            },
+            {
+              "html": "“Next Saturday: aquarium. Then planetarium again!”"
+            }
+          ],
+          "wordCount": 89
+        }
+      ],
+      "practiceWords": [
+        "plan",
+        "weekend",
+        "evening",
+        "museum",
+        "aquarium",
+        "announcement",
+        "close",
+        "suggestion",
+        "planetarium",
+        "disappointed"
+      ],
+      "vocabulary": [
+        {
+          "word": "plan",
+          "definition": "a list of things you are going to do (plan)"
+        },
+        {
+          "word": "weekend",
+          "definition": "Saturday and Sunday (fin de semana)"
+        },
+        {
+          "word": "evening",
+          "definition": "the time between afternoon and night (atardecer)"
+        },
+        {
+          "word": "museum",
+          "definition": "a building where you can see interesting objects (museo)"
+        },
+        {
+          "word": "aquarium",
+          "definition": "a place where you can see fish and sea animals (acuario)"
+        },
+        {
+          "word": "announcement",
+          "definition": "important information said to the public (anuncio)"
+        },
+        {
+          "word": "close",
+          "definition": "to stop being open (cerrar)"
+        },
+        {
+          "word": "suggestion",
+          "definition": "an idea for others to consider (sugerencia)"
+        },
+        {
+          "word": "planetarium",
+          "definition": "a place with a dome that shows the stars (planetario)"
+        },
+        {
+          "word": "disappointed",
+          "definition": "sad because something did not happen (decepcionado)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What time does the museum close on Saturday?",
+          "options": [
+            "At eight o’clock",
+            "At 6:30",
+            "At seven o’clock",
+            "At six o’clock"
+          ],
+          "answer": "At six o’clock"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "What happens because Samuel reads the last line of the message?",
+          "options": [
+            "The family goes to the planetarium show instead of going home.",
+            "The family arrives at the aquarium just before it closes at six.",
+            "Valeria’s father buys tickets for next Saturday.",
+            "The museum decides to stay open until seven."
+          ],
+          "answer": "The family goes to the planetarium show instead of going home."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main idea of the story?",
+          "options": [
+            "Museums in Medellín always close early on Saturdays.",
+            "When a plan changes, careful reading can lead to a good new plan.",
+            "Families should never use the Metro on weekends because it’s full.",
+            "Planetariums are more interesting than aquariums."
+          ],
+          "answer": "When a plan changes, careful reading can lead to a good new plan."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why does Valeria feel disappointed on the Metro?",
+          "options": [
+            "Her father forgot to buy the tickets for the aquarium show.",
+            "The Metro is too slow to arrive at the museum before it closes.",
+            "She was excited about the aquarium, and now there isn’t enough time.",
+            "Samuel doesn’t want to go to the museum with her family."
+          ],
+          "answer": "She was excited about the aquarium, and now there isn’t enough time."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “Everybody likes Samuel’s suggestion.” A “suggestion” is…",
+          "options": [
+            "a dome that shows the stars",
+            "important information for the public",
+            "a building with interesting objects",
+            "an idea for others to consider"
+          ],
+          "answer": "an idea for others to consider"
+        }
+      ],
+      "cover": "../assets/images/week32_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "The Invitation at 5:59",
+      "minimumWordTarget": 450,
+      "wordCount": 459,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week32_grade08_page01.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Invitation at 5:59”, page 1. Scene based on: In a small family apartment in Medellín at 5:59 pm, Camila, 13, sits on the sofa staring at a phone showing a bright message bubble with a robot icon and a big clock icon, her finger ready to tap, while Mateo, 13, beside her looks at the screen with a frown. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "It’s Friday afternoon, and Camila is relaxing at home."
+            },
+            {
+              "html": "Her friend Mateo is studying with her."
+            },
+            {
+              "html": "At 5:59, her phone shows a new message."
+            },
+            {
+              "html": "It’s an <b>invitation</b> to a youth robotics <b>camp</b>."
+            },
+            {
+              "html": "“Last chance! <b>Registration</b> closes at 6:00!” it says."
+            },
+            {
+              "html": "“Click the <b>link</b> now and reserve your place!”"
+            },
+            {
+              "html": "Camila loves robots. This is her dream."
+            },
+            {
+              "html": "She is moving her finger to the link."
+            },
+            {
+              "html": "“Only one minute! I’m registering right now!” she says."
+            },
+            {
+              "html": "Mateo puts his hand on her phone."
+            },
+            {
+              "html": "“Wait. Something looks strange,” he says."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week32_grade08_page02.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Invitation at 5:59”, page 2. Scene based on: Camila looks frustrated at Mateo, pulling her phone back, while Mateo points at the screen where the web address appears as a strange jumble of random symbols and a warning triangle icon. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Camila is frustrated. “We’re losing time!”"
+            },
+            {
+              "html": "“The <b>deadline</b> is in one minute!” she says."
+            },
+            {
+              "html": "Mateo points at the web address in the message."
+            },
+            {
+              "html": "It has strange letters and numbers."
+            },
+            {
+              "html": "It isn’t the city’s youth website."
+            },
+            {
+              "html": "“Who is sending this message?” he asks."
+            },
+            {
+              "html": "Camila looks again. It’s from an unknown number."
+            },
+            {
+              "html": "“And look. It’s asking for your ID number.”"
+            },
+            {
+              "html": "“It’s also asking for your parents’ bank card.”"
+            },
+            {
+              "html": "Camila stops. That is very <b>suspicious</b>."
+            }
+          ],
+          "wordCount": 72
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week32_grade08_page03.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Invitation at 5:59”, page 3. Scene based on: Camila and Mateo sit at a desk looking at a laptop showing a clean government-style youth website with only icons of a robot, a calendar and a shield, comparing it with the suspicious phone message lying beside the laptop. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "“Let’s find the <b>official</b> information,” Mateo says."
+            },
+            {
+              "html": "They open the laptop and search for the city’s youth institute."
+            },
+            {
+              "html": "They find the real <b>website</b> easily."
+            },
+            {
+              "html": "There is a page about the robotics camp."
+            },
+            {
+              "html": "The camp is real, and it’s free for students."
+            },
+            {
+              "html": "But the registration isn’t closing today."
+            },
+            {
+              "html": "“Registration is closing next Friday,” Camila reads."
+            },
+            {
+              "html": "“Parents are registering their children online or in person.”"
+            },
+            {
+              "html": "“The institute never asks for bank cards.”"
+            },
+            {
+              "html": "Camila’s face turns red."
+            }
+          ],
+          "wordCount": 74
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week32_grade08_page04.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Invitation at 5:59”, page 4. Scene based on: Camila holds her phone and shows a screenshot of the scam message to her mother, a woman in her forties with reading glasses, in the living room, while Mateo stands beside them looking serious. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Camila understands now."
+            },
+            {
+              "html": "The first message was a <b>scam</b>."
+            },
+            {
+              "html": "“They wanted my <b>personal data</b> and money,” she says."
+            },
+            {
+              "html": "“And they used my favorite thing: robots.”"
+            },
+            {
+              "html": "Mateo nods. “They are using the clock to make you hurry.”"
+            },
+            {
+              "html": "“When you hurry, you don’t think.”"
+            },
+            {
+              "html": "Camila’s mother comes home at 6:30."
+            },
+            {
+              "html": "Camila shows her the message and the real website."
+            },
+            {
+              "html": "“You did the right thing,” her mother says."
+            },
+            {
+              "html": "“We’re registering together on Monday, after work.”"
+            }
+          ],
+          "wordCount": 72
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week32_grade08_page05.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Invitation at 5:59”, page 5. Scene based on: On Monday evening at the dining table, Camila and her mother register on the official youth website on a laptop showing only a robot icon and a green check mark, while Mateo shows a thumbs up on a video call. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Monday, Camila and her mother register on the official website."
+            },
+            {
+              "html": "They’re filling the form together, step by step."
+            },
+            {
+              "html": "The form doesn’t ask for bank cards or passwords."
+            },
+            {
+              "html": "It asks for the school name and a parent’s phone."
+            },
+            {
+              "html": "At the end, a green message appears."
+            },
+            {
+              "html": "“Your registration is confirmed. The camp is starting July 10.”"
+            },
+            {
+              "html": "Camila jumps and hugs her mother."
+            },
+            {
+              "html": "“I’m going to the robotics camp!” she shouts."
+            },
+            {
+              "html": "She sends Mateo a message with a robot sticker."
+            },
+            {
+              "html": "“Thanks for stopping my finger on Friday!”"
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week32_grade08_page06.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “The Invitation at 5:59”, page 6. Scene based on: In the school hallway, Camila stands next to a small handmade poster with only icons of a clock, a warning triangle, a shield and a check mark, explaining it to a group of interested classmates while Mateo helps hold the poster. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Wednesday, Camila tells her class about the scam."
+            },
+            {
+              "html": "Some classmates received the same message."
+            },
+            {
+              "html": "Two of them almost clicked the link too."
+            },
+            {
+              "html": "Camila and Mateo are making a poster for the school."
+            },
+            {
+              "html": "It has four simple tips."
+            },
+            {
+              "html": "“If a message is rushing you, stop.”"
+            },
+            {
+              "html": "“Check who is sending it.”"
+            },
+            {
+              "html": "“Find the official website yourself.”"
+            },
+            {
+              "html": "“Never share bank cards or passwords.”"
+            },
+            {
+              "html": "The teacher hangs the poster next to the classroom door."
+            }
+          ],
+          "wordCount": 71
+        }
+      ],
+      "practiceWords": [
+        "invitation",
+        "link",
+        "registration",
+        "deadline",
+        "suspicious",
+        "official",
+        "website",
+        "personal data",
+        "scam",
+        "camp"
+      ],
+      "vocabulary": [
+        {
+          "word": "invitation",
+          "definition": "a message that asks you to join an event (invitación)"
+        },
+        {
+          "word": "link",
+          "definition": "words or a button that opens a web page (enlace)"
+        },
+        {
+          "word": "registration",
+          "definition": "the act of signing up for an event (inscripción)"
+        },
+        {
+          "word": "deadline",
+          "definition": "the time when something must be finished (fecha límite)"
+        },
+        {
+          "word": "suspicious",
+          "definition": "making you think something is wrong (sospechoso)"
+        },
+        {
+          "word": "official",
+          "definition": "from a real government or organization (oficial)"
+        },
+        {
+          "word": "website",
+          "definition": "a group of pages on the internet (sitio web)"
+        },
+        {
+          "word": "personal data",
+          "definition": "private information about a person (datos personales)"
+        },
+        {
+          "word": "scam",
+          "definition": "a dishonest trick to get money or information (estafa)"
+        },
+        {
+          "word": "camp",
+          "definition": "an event where young people learn and do activities (campamento)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "When does the real registration for the robotics camp close?",
+          "options": [
+            "Next Friday",
+            "On Monday after work",
+            "At 6:00 on Friday",
+            "On July 10"
+          ],
+          "answer": "Next Friday"
+        },
+        {
+          "skill": "inference",
+          "question": "Why does Mateo stop Camila from clicking the link?",
+          "options": [
+            "The link opens the official website of the city.",
+            "The message looks suspicious and comes from an unknown number.",
+            "He wants to register for the robotics camp before her.",
+            "He doesn’t want Camila to go to the robotics camp in July."
+          ],
+          "answer": "The message looks suspicious and comes from an unknown number."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author mention that the message uses a one-minute deadline?",
+          "options": [
+            "To explain how the city’s official youth website works.",
+            "To show that robotics camps are very popular.",
+            "To show how scams make people hurry so they don’t think.",
+            "To show that Camila is always late."
+          ],
+          "answer": "To show how scams make people hurry so they don’t think."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main idea of the story?",
+          "options": [
+            "Robotics camps are only for students who register very fast.",
+            "Students should never use their phones on Fridays.",
+            "Parents should register their children for every camp.",
+            "Checking official sources protects you from online scams."
+          ],
+          "answer": "Checking official sources protects you from online scams."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “That is very suspicious.” “Suspicious” means…",
+          "options": [
+            "making you think something is wrong",
+            "confirmed and finished",
+            "very exciting, new, and fun to see",
+            "official and safe"
+          ],
+          "answer": "making you think something is wrong"
+        }
+      ],
+      "cover": "../assets/images/week32_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "Will Robots Take This Job?",
+      "minimumWordTarget": 500,
+      "wordCount": 511,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week32_grade09_page01.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “Will Robots Take This Job?”, page 1. Scene based on: In a Medellín public school classroom set up for a debate, Santiago, 14, stands confidently pointing at a screen with a picture of a humanoid robot and a red X over workers, while Laura, 14, sits with her arms crossed and a skeptical look. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Santiago’s class is having a <b>debate</b> on Friday."
+            },
+            {
+              "html": "The teacher shows a photo of a <b>robot</b> in a factory."
+            },
+            {
+              "html": "The topic is “Will robots take our jobs?”"
+            },
+            {
+              "html": "Santiago is very sure about his opinion."
+            },
+            {
+              "html": "“Robots will take every job in Medellín,” he says."
+            },
+            {
+              "html": "“Factories, stores, buses, everything.”"
+            },
+            {
+              "html": "“There won’t be any jobs for us in the <b>future</b>.”"
+            },
+            {
+              "html": "Some classmates look worried."
+            },
+            {
+              "html": "Laura raises her hand."
+            },
+            {
+              "html": "“Do you have <b>evidence</b>, or is that only a feeling?”"
+            },
+            {
+              "html": "Santiago doesn’t answer immediately."
+            },
+            {
+              "html": "“Everyone knows it,” he says finally."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week32_grade09_page02.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “Will Robots Take This Job?”, page 2. Scene based on: Santiago and Laura sit at a library table with a notebook showing a list of jobs as small icons: a shopping cart, a bus, a nurse's cross, scissors and a factory gear, both thinking hard. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "After class, Laura has an idea."
+            },
+            {
+              "html": "“Let’s investigate real jobs in our neighborhood,” she says."
+            },
+            {
+              "html": "“Then we can use facts in the debate.”"
+            },
+            {
+              "html": "Santiago agrees, but he still thinks he’s right."
+            },
+            {
+              "html": "They choose five jobs to study."
+            },
+            {
+              "html": "A supermarket <b>cashier</b>, a bus driver, and a nurse."
+            },
+            {
+              "html": "A hairdresser and a textile factory worker."
+            },
+            {
+              "html": "“We’ll interview people this weekend,” Laura says."
+            },
+            {
+              "html": "“We’ll ask what machines already do in their jobs.”"
+            },
+            {
+              "html": "Santiago writes the questions in his notebook."
+            },
+            {
+              "html": "He doesn’t believe the answers will change his mind."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week32_grade09_page03.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “Will Robots Take This Job?”, page 3. Scene based on: In a Medellín supermarket, a friendly middle-aged cashier talks to Santiago and Laura near a row of self-checkout machines, while customers scan their own products in the background. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "First, they visit a supermarket near school."
+            },
+            {
+              "html": "They talk to Doña Ruth, a cashier for fifteen years."
+            },
+            {
+              "html": "“Last year, the store installed self-checkout machines,” she says."
+            },
+            {
+              "html": "“Now there are fewer cashiers in the afternoon.”"
+            },
+            {
+              "html": "Santiago looks at Laura. “See? Robots!”"
+            },
+            {
+              "html": "“But I wasn’t fired,” Doña Ruth continues."
+            },
+            {
+              "html": "“Now I help customers with the <b>machine</b>s.”"
+            },
+            {
+              "html": "“I also organize the products and solve problems.”"
+            },
+            {
+              "html": "“Some tasks changed, but people are still needed.”"
+            },
+            {
+              "html": "Laura writes, “Jobs may change, not only disappear.”"
+            },
+            {
+              "html": "Santiago doesn’t say anything. He is thinking."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week32_grade09_page04.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “Will Robots Take This Job?”, page 4. Scene based on: Inside a large textile factory in the Medellín area, a factory worker in her thirties monitors an automated weaving machine on a tablet screen showing only graphs and icons, while Santiago and Laura watch with visitor vests. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Next, they visit Laura’s aunt at a textile factory."
+            },
+            {
+              "html": "“Twenty years ago, cutting fabric was done by hand,” she says."
+            },
+            {
+              "html": "“Now a computer machine does that <b>task</b>.”"
+            },
+            {
+              "html": "“Many cutting jobs disappeared,” she admits."
+            },
+            {
+              "html": "“But I learned to control the machines.”"
+            },
+            {
+              "html": "“Now I need computer skills, not only sewing skills.”"
+            },
+            {
+              "html": "Santiago is quiet. This is real <b>automation</b>."
+            },
+            {
+              "html": "“So some jobs might disappear,” he says."
+            },
+            {
+              "html": "“Yes. That’s true,” Laura says."
+            },
+            {
+              "html": "“But new jobs might appear too.”"
+            }
+          ],
+          "wordCount": 74
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week32_grade09_page05.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “Will Robots Take This Job?”, page 5. Scene based on: A nurse in a white uniform in a health clinic hallway holds the hand of an elderly patient while talking to Santiago and Laura, and a hairdresser cuts a child's hair in a small salon next door, both scenes visible in one wide street view. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They also talk to a nurse and a hairdresser."
+            },
+            {
+              "html": "“A machine may measure blood pressure,” the nurse says."
+            },
+            {
+              "html": "“But it can’t calm a scared patient.”"
+            },
+            {
+              "html": "The hairdresser laughs at the robot question."
+            },
+            {
+              "html": "“A robot might cut hair one day,” she says."
+            },
+            {
+              "html": "“But my clients come to talk, too.”"
+            },
+            {
+              "html": "“They might not want to talk to a machine.”"
+            },
+            {
+              "html": "Santiago and Laura compare all their notes."
+            },
+            {
+              "html": "Jobs with simple, repeated tasks may be automated."
+            },
+            {
+              "html": "Jobs with care, creativity, and conversation might change less."
+            },
+            {
+              "html": "“Robots might <b>replace</b> some tasks, not all people,” Laura says."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week32_grade09_page06.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “Will Robots Take This Job?”, page 6. Scene based on: On debate day in the classroom, Santiago and Laura stand together at the front presenting a chart with icons of jobs in three colors, while classmates listen with interest and the teacher takes notes. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Friday, the debate begins."
+            },
+            {
+              "html": "Santiago stands up to speak first."
+            },
+            {
+              "html": "“Last week, I said robots will take every job.”"
+            },
+            {
+              "html": "“Now I have evidence, and my opinion is different.”"
+            },
+            {
+              "html": "“Some jobs may disappear, like some cutting jobs.”"
+            },
+            {
+              "html": "“Other jobs might change, like cashiers’ jobs.”"
+            },
+            {
+              "html": "“And new jobs may appear, like machine technicians.”"
+            },
+            {
+              "html": "Laura adds the most important idea."
+            },
+            {
+              "html": "“The best protection is learning new <b>skill</b>s.”"
+            },
+            {
+              "html": "The teacher smiles. “That’s a strong, honest argument.”"
+            },
+            {
+              "html": "“Changing your opinion with evidence is a skill too.”"
+            },
+            {
+              "html": "Santiago laughs. “Then I learned two skills this week.”"
+            }
+          ],
+          "wordCount": 91
+        }
+      ],
+      "practiceWords": [
+        "robot",
+        "automation",
+        "task",
+        "machine",
+        "replace",
+        "cashier",
+        "skill",
+        "debate",
+        "evidence",
+        "future"
+      ],
+      "vocabulary": [
+        {
+          "word": "robot",
+          "definition": "a machine that can do tasks automatically (robot)"
+        },
+        {
+          "word": "automation",
+          "definition": "the use of machines to do work people did before (automatización)"
+        },
+        {
+          "word": "task",
+          "definition": "a piece of work you have to do (tarea)"
+        },
+        {
+          "word": "machine",
+          "definition": "equipment that uses power to do work (máquina)"
+        },
+        {
+          "word": "replace",
+          "definition": "to take the place of something or someone (reemplazar)"
+        },
+        {
+          "word": "cashier",
+          "definition": "a person who takes money in a store (cajero)"
+        },
+        {
+          "word": "skill",
+          "definition": "an ability you develop with practice (habilidad)"
+        },
+        {
+          "word": "debate",
+          "definition": "a formal discussion with different opinions (debate)"
+        },
+        {
+          "word": "evidence",
+          "definition": "facts that show something is true (evidencia)"
+        },
+        {
+          "word": "future",
+          "definition": "the time that will come after now (futuro)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What happened at Doña Ruth’s supermarket last year?",
+          "options": [
+            "The store hired more cashiers for the afternoon.",
+            "The store installed self-checkout machines.",
+            "The store replaced all the products with robots.",
+            "The store closed and all cashiers lost their jobs."
+          ],
+          "answer": "The store installed self-checkout machines."
+        },
+        {
+          "skill": "inference",
+          "question": "Why does Laura ask Santiago if he has evidence?",
+          "options": [
+            "She knows that robots will take every job in Medellín very soon.",
+            "She wants to win the debate by making Santiago angry.",
+            "She thinks his strong opinion is based only on a feeling.",
+            "She thinks Santiago should not speak in class."
+          ],
+          "answer": "She thinks his strong opinion is based only on a feeling."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "How are the textile factory worker’s experience and Doña Ruth’s experience similar?",
+          "options": [
+            "Both of them lost their jobs because of robots last year.",
+            "Both of them say that machines are useless and break all the time.",
+            "Both of them work in the same supermarket near the school.",
+            "Both of them still work, but their tasks changed because of machines."
+          ],
+          "answer": "Both of them still work, but their tasks changed because of machines."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main message of the text?",
+          "options": [
+            "Automation may change many jobs, so learning new skills is important.",
+            "Robots will take every job in Medellín very soon.",
+            "Students should not talk about robots and the future during class.",
+            "Nurses and hairdressers will soon be replaced by machines."
+          ],
+          "answer": "Automation may change many jobs, so learning new skills is important."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “This is real automation.” “Automation” means…",
+          "options": [
+            "a formal discussion with very different opinions",
+            "the use of machines to do work people did before",
+            "a person who takes money in a store",
+            "facts that show something is true"
+          ],
+          "answer": "the use of machines to do work people did before"
+        }
+      ],
+      "cover": "../assets/images/week32_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "The Event That Changed in Ten Minutes",
+      "minimumWordTarget": 600,
+      "wordCount": 604,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week32_grade10_page01.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Event That Changed in Ten Minutes”, page 1. Scene based on: In the lobby of a public library in Medellín, Valentina, 16, wearing a volunteer badge, holds a clipboard with a schedule while people arrive for a youth forum; Mateo, 16, carries a box of name tags, and a clock on the wall shows 3:50. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Saturday, Valentina is organizing a youth <b>forum</b> on climate."
+            },
+            {
+              "html": "It’s starting at four in the library <b>auditorium</b>."
+            },
+            {
+              "html": "One hundred students are coming from different schools."
+            },
+            {
+              "html": "The main <b>speaker</b> is an environmental engineer."
+            },
+            {
+              "html": "She is giving a talk about water in Medellín."
+            },
+            {
+              "html": "Valentina is a <b>volunteer</b> organizer with her friend Mateo."
+            },
+            {
+              "html": "At 3:50, everything looks perfect."
+            },
+            {
+              "html": "The chairs are ready, and the microphones are working."
+            },
+            {
+              "html": "Then Valentina’s phone rings."
+            },
+            {
+              "html": "It’s the speaker, and she sounds stressed."
+            },
+            {
+              "html": "“I’m stuck in traffic. There’s an accident on the highway.”"
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week32_grade10_page02.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Event That Changed in Ten Minutes”, page 2. Scene based on: Inside the library auditorium, water drips from the ceiling onto the front rows of chairs and a small puddle forms near the stage, while a library worker places a bucket and Valentina stands frozen holding her phone. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "“I’ll arrive at 4:30, maybe later,” the speaker says."
+            },
+            {
+              "html": "Valentina’s heart starts beating fast."
+            },
+            {
+              "html": "Then a library worker runs out of the auditorium."
+            },
+            {
+              "html": "“There’s a <b>leak</b> in the ceiling!” he says."
+            },
+            {
+              "html": "“The rain is coming through above the stage.”"
+            },
+            {
+              "html": "Water is falling on the first rows of chairs."
+            },
+            {
+              "html": "Students are arriving, and the hall is getting noisy."
+            },
+            {
+              "html": "Valentina looks at the clock. It’s 3:52."
+            },
+            {
+              "html": "“We’ll have to cancel everything,” she says."
+            },
+            {
+              "html": "She feels like crying."
+            },
+            {
+              "html": "“No speaker and no auditorium. It’s a disaster.”"
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week32_grade10_page03.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Event That Changed in Ten Minutes”, page 3. Scene based on: Mateo calmly holds up three fingers while talking to Valentina in the busy library lobby, a notebook in his other hand with three simple icons: a clock, a door and a microphone. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mateo puts down the box of name tags."
+            },
+            {
+              "html": "“Wait. Let’s separate facts from fears,” he says."
+            },
+            {
+              "html": "“Fact one: the speaker will arrive, but she’ll be late.”"
+            },
+            {
+              "html": "“Fact two: the auditorium has a leak.”"
+            },
+            {
+              "html": "“Fact three: one hundred students are here now.”"
+            },
+            {
+              "html": "“The forum isn’t cancelled. It’s only changing.”"
+            },
+            {
+              "html": "Valentina takes a deep breath."
+            },
+            {
+              "html": "“Okay. Is there another room in the library?” she asks."
+            },
+            {
+              "html": "Mateo asks the librarian at the front desk."
+            },
+            {
+              "html": "“Room 2 is free until seven,” she says."
+            },
+            {
+              "html": "“It has sixty chairs and a projector.”"
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week32_grade10_page04.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Event That Changed in Ten Minutes”, page 4. Scene based on: Valentina speaks into a microphone in the library lobby to a crowd of arriving students, pointing toward a hallway, while Mateo and two volunteers carry extra chairs into a smaller room. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina takes a <b>microphone</b> in the lobby."
+            },
+            {
+              "html": "“Good afternoon, everybody!” she says."
+            },
+            {
+              "html": "“I have two small changes to <b>announce</b>.”"
+            },
+            {
+              "html": "“First, we’re moving to Room 2 because of a leak.”"
+            },
+            {
+              "html": "“Second, our speaker has a short <b>delay</b>.”"
+            },
+            {
+              "html": "“So we’re starting with a student panel at four.”"
+            },
+            {
+              "html": "Some students look surprised, but nobody complains."
+            },
+            {
+              "html": "Mateo and other volunteers carry forty extra chairs."
+            },
+            {
+              "html": "Room 2 is small, but it’s dry and bright."
+            },
+            {
+              "html": "At 4:05, everybody is sitting and ready."
+            },
+            {
+              "html": "Some students are even sitting on the floor, happily."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week32_grade10_page05.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Event That Changed in Ten Minutes”, page 5. Scene based on: In a smaller bright library room, four teenage students sit at a table in front of a full audience speaking about climate projects, one holding a small plant, another showing a water bottle, while Valentina moderates with a microphone. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina invites four students to the front."
+            },
+            {
+              "html": "They’re forming a <b>panel</b> about local climate projects."
+            },
+            {
+              "html": "One student talks about a school garden."
+            },
+            {
+              "html": "Another talks about saving water at home."
+            },
+            {
+              "html": "A third explains a project to clean a creek."
+            },
+            {
+              "html": "The <b>audience</b> asks many questions."
+            },
+            {
+              "html": "Nobody is thinking about the missing speaker now."
+            },
+            {
+              "html": "“This is better than I expected,” Valentina whispers."
+            },
+            {
+              "html": "Mateo smiles. “Students like hearing other students.”"
+            },
+            {
+              "html": "The audience laughs at a funny story about a creek."
+            },
+            {
+              "html": "At 4:35, the door opens quietly."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week32_grade10_page06.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Event That Changed in Ten Minutes”, page 6. Scene based on: The environmental engineer, a woman in her forties with a backpack and a laptop, enters the small room smiling and is welcomed by applause, while Valentina gives her the microphone and the student panel makes space at the table. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The engineer enters the room, a little wet from the rain."
+            },
+            {
+              "html": "Everybody claps for her."
+            },
+            {
+              "html": "“I’m so sorry for the delay,” she says."
+            },
+            {
+              "html": "“But I heard your panel from the hallway. Wonderful!”"
+            },
+            {
+              "html": "She connects her laptop and starts her talk."
+            },
+            {
+              "html": "She connects her ideas to the students’ projects."
+            },
+            {
+              "html": "“You’re already doing what I’ll explain today,” she says."
+            },
+            {
+              "html": "The forum ends at six, thirty minutes late."
+            },
+            {
+              "html": "But nobody leaves early."
+            },
+            {
+              "html": "Many students stay to talk with the engineer."
+            },
+            {
+              "html": "Some of them take photos with her."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week32_grade10_page07.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “The Event That Changed in Ten Minutes”, page 7. Scene based on: After the forum, Valentina and Mateo sit on the library steps in the evening rain under a roof, tired but smiling, Valentina writing in a notebook with a simple drawing of a backup plan with arrows. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "After the forum, Valentina and Mateo sit on the steps outside."
+            },
+            {
+              "html": "“Ten minutes before four, I wanted to cancel,” Valentina admits."
+            },
+            {
+              "html": "“Ten minutes is enough to change a plan,” Mateo says."
+            },
+            {
+              "html": "“Not enough to panic, but enough to think.”"
+            },
+            {
+              "html": "Valentina writes a note for the next forum."
+            },
+            {
+              "html": "“We’ll always have a backup room.”"
+            },
+            {
+              "html": "“We’ll prepare a student activity in case of a delay.”"
+            },
+            {
+              "html": "“And we’ll check the auditorium roof when it’s rainy.”"
+            },
+            {
+              "html": "She closes the notebook and looks at the rain."
+            },
+            {
+              "html": "Mateo laughs. “That last one is very specific.”"
+            },
+            {
+              "html": "“Yes, but now it’s on my list,” Valentina says."
+            }
+          ],
+          "wordCount": 98
+        }
+      ],
+      "practiceWords": [
+        "forum",
+        "speaker",
+        "auditorium",
+        "leak",
+        "delay",
+        "audience",
+        "announce",
+        "panel",
+        "microphone",
+        "volunteer"
+      ],
+      "vocabulary": [
+        {
+          "word": "forum",
+          "definition": "a meeting where people discuss a topic (foro)"
+        },
+        {
+          "word": "speaker",
+          "definition": "a person who gives a talk to a group (conferencista)"
+        },
+        {
+          "word": "auditorium",
+          "definition": "a large room for talks and shows (auditorio)"
+        },
+        {
+          "word": "leak",
+          "definition": "water that comes through a hole by accident (gotera)"
+        },
+        {
+          "word": "delay",
+          "definition": "time when something is later than expected (retraso)"
+        },
+        {
+          "word": "audience",
+          "definition": "the people who watch or listen to an event (público)"
+        },
+        {
+          "word": "announce",
+          "definition": "to tell people something officially (anunciar)"
+        },
+        {
+          "word": "panel",
+          "definition": "a small group of people who discuss a topic in public (panel)"
+        },
+        {
+          "word": "microphone",
+          "definition": "a device that makes your voice louder (micrófono)"
+        },
+        {
+          "word": "volunteer",
+          "definition": "a person who helps without being paid (voluntario)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Why is the speaker late?",
+          "options": [
+            "She forgot the time of the forum.",
+            "She is preparing her talk in another room of the library.",
+            "She is stuck in traffic because of an accident on the highway.",
+            "She is waiting for the heavy rain to stop before she leaves home."
+          ],
+          "answer": "She is stuck in traffic because of an accident on the highway."
+        },
+        {
+          "skill": "inference",
+          "question": "Why does Mateo say, “Let’s separate facts from fears”?",
+          "options": [
+            "He wants to go home because of the rain.",
+            "He believes the auditorium is not really wet.",
+            "He thinks the speaker is lying about the traffic on the highway.",
+            "He wants Valentina to see the forum can change, not end."
+          ],
+          "answer": "He wants Valentina to see the forum can change, not end."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the student panel?",
+          "options": [
+            "To show how a quick new activity can keep the audience involved.",
+            "To show that the engineer was not needed at the forum at all.",
+            "To describe the history of the library.",
+            "To explain why students don’t like long talks."
+          ],
+          "answer": "To show how a quick new activity can keep the audience involved."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What is the relationship between the leak and Room 2?",
+          "options": [
+            "Room 2 is bigger, so they choose it from the beginning of the day.",
+            "The leak in the auditorium makes the group move to Room 2.",
+            "The leak is in Room 2, so they cancel the forum.",
+            "Room 2 has a leak, so they stay in the auditorium."
+          ],
+          "answer": "The leak in the auditorium makes the group move to Room 2."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which statement best summarizes the text?",
+          "options": [
+            "Forums should always be cancelled when speakers are late.",
+            "Libraries in Medellín have many problems with leaks when it rains.",
+            "Calm thinking can turn last-minute problems into a successful event.",
+            "Student panels are always more important than expert speakers."
+          ],
+          "answer": "Calm thinking can turn last-minute problems into a successful event."
+        }
+      ],
+      "cover": "../assets/images/week32_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "The Product That Crossed Three Countries",
+      "minimumWordTarget": 700,
+      "wordCount": 709,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week32_grade11_page01.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Product That Crossed Three Countries”, page 1. Scene based on: In a small family apartment in the Manrique neighborhood of Medellín, Sofía, 17, holds a fancy imported chocolate bar box and reads the small label on the back with a frown, while Mateo, 17, looks over her shoulder holding a cup of hot chocolate. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Sofía’s aunt sends her a gift from a department store."
+            },
+            {
+              "html": "It’s an expensive box of Swiss chocolate."
+            },
+            {
+              "html": "Sofía reads the <b>label</b> on the back of the box."
+            },
+            {
+              "html": "“<b>Cacao</b> from Colombia,” it says in small letters."
+            },
+            {
+              "html": "“Made in Switzerland. Packed in Germany.”"
+            },
+            {
+              "html": "Sofía laughs. “This chocolate crossed three countries!”"
+            },
+            {
+              "html": "“And it started here, in Colombia.”"
+            },
+            {
+              "html": "Her friend Mateo is visiting to study."
+            },
+            {
+              "html": "“So Colombian chocolate traveled to Europe and back?” he asks."
+            },
+            {
+              "html": "“Why didn’t they just make it here?”"
+            },
+            {
+              "html": "Sofía doesn’t know. She decides to find out."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week32_grade11_page02.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Product That Crossed Three Countries”, page 2. Scene based on: On a cacao farm in the green hills of Antioquia, a smiling farmer in his fifties with a straw hat shows Sofía and Mateo yellow cacao pods growing on a tree, opening one to reveal white beans. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "For their economics project, they research cacao."
+            },
+            {
+              "html": "Sofía’s uncle has a small farm in Antioquia."
+            },
+            {
+              "html": "On the weekend, they visit him."
+            },
+            {
+              "html": "Cacao pods are growing on the trees, yellow and orange."
+            },
+            {
+              "html": "“We <b>harvest</b> the pods by hand,” the <b>farmer</b> says."
+            },
+            {
+              "html": "“Then the beans are fermented and dried in the sun.”"
+            },
+            {
+              "html": "“Most of our dry beans are sold to big companies.”"
+            },
+            {
+              "html": "“Some of them are exported to Europe.”"
+            },
+            {
+              "html": "“Do you get a good price?” Mateo asks."
+            },
+            {
+              "html": "The uncle shrugs. “Not as good as we want.”"
+            },
+            {
+              "html": "“Prices change every year, and we can’t control them.”"
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week32_grade11_page03.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Product That Crossed Three Countries”, page 3. Scene based on: On a laptop at a kitchen table, Sofía and Mateo look at a simple map with arrows from Colombia to Switzerland and Germany and back to Colombia, with icons of cacao beans, a factory and a ship, while Mateo calculates on paper. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Back in Medellín, they follow the chocolate’s journey."
+            },
+            {
+              "html": "First, the cacao was grown and harvested in Colombia."
+            },
+            {
+              "html": "Then the dry beans were shipped to Europe."
+            },
+            {
+              "html": "Companies <b>export</b> tons of beans every year."
+            },
+            {
+              "html": "In Switzerland, the beans were roasted and ground."
+            },
+            {
+              "html": "The chocolate was mixed, molded, and wrapped."
+            },
+            {
+              "html": "Then the bars were packed in boxes in Germany."
+            },
+            {
+              "html": "Finally, the boxes were shipped back to Colombia."
+            },
+            {
+              "html": "“It traveled about twenty thousand kilometers,” Mateo calculates."
+            },
+            {
+              "html": "“Just to return to the country where it started.”"
+            },
+            {
+              "html": "Sofía shakes her head in surprise."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week32_grade11_page04.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Product That Crossed Three Countries”, page 4. Scene based on: Sofía and Mateo compare two price tags on a table drawn only as coin icons: a small pile of coins next to a pile of raw cacao beans and a very large pile of coins next to the shiny imported chocolate box. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Then they compare prices."
+            },
+            {
+              "html": "A farmer receives little money for one kilo of beans."
+            },
+            {
+              "html": "But the Swiss chocolate costs many times more per kilo."
+            },
+            {
+              "html": "“Where does all that money go?” Sofía asks."
+            },
+            {
+              "html": "They read reports and economic articles."
+            },
+            {
+              "html": "Companies <b>process</b> the beans in their own countries."
+            },
+            {
+              "html": "Most of the money stays there."
+            },
+            {
+              "html": "Roasting, mixing, branding, and marketing add <b>value</b>."
+            },
+            {
+              "html": "“The richest steps happened far from the farm,” Mateo says."
+            },
+            {
+              "html": "“The farmers only sell the raw material.”"
+            },
+            {
+              "html": "Sofía writes, “Value is added after the harvest.”"
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week32_grade11_page05.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Product That Crossed Three Countries”, page 5. Scene based on: At the port of Cartagena, large shipping containers are inspected by customs officers in uniforms with tablets, while Sofía and Mateo watch a short documentary scene on a laptop showing only icons of a ship, a box and a stamp. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They also learn about <b>customs</b>."
+            },
+            {
+              "html": "Imported products are checked when they arrive."
+            },
+            {
+              "html": "Taxes are paid, and documents are reviewed."
+            },
+            {
+              "html": "The Swiss chocolate was taxed when it entered Colombia."
+            },
+            {
+              "html": "“So we <b>import</b> our own cacao as chocolate,” Sofía says."
+            },
+            {
+              "html": "“And we pay more for it.”"
+            },
+            {
+              "html": "Mateo finds another surprising fact."
+            },
+            {
+              "html": "Some Colombian cacao is considered among the best in the world."
+            },
+            {
+              "html": "It’s often called “fine flavor” cacao."
+            },
+            {
+              "html": "“So the best part was already ours,” Sofía says."
+            },
+            {
+              "html": "Mateo nods. “We exported our best part.”"
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week32_grade11_page06.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Product That Crossed Three Countries”, page 6. Scene based on: In a small chocolate workshop in Medellín, a young woman chocolate maker in an apron shows Sofía and Mateo shiny chocolate bars being made, with cacao beans in sacks and a roasting machine behind her. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mateo finds a small chocolate company in Medellín."
+            },
+            {
+              "html": "On Saturday, they visit its workshop."
+            },
+            {
+              "html": "The owner, Daniela, is twenty-nine years old."
+            },
+            {
+              "html": "“Our cacao is bought directly from farmers,” she says."
+            },
+            {
+              "html": "“We pay them more than the big companies.”"
+            },
+            {
+              "html": "“Then the chocolate is made here, in Medellín.”"
+            },
+            {
+              "html": "The beans are roasted, ground, and molded in the workshop."
+            },
+            {
+              "html": "“So the value stays in Colombia,” Sofía says."
+            },
+            {
+              "html": "“Exactly. And more jobs are created here,” Daniela answers."
+            },
+            {
+              "html": "She gives them a small bar to taste."
+            },
+            {
+              "html": "The paper wrapper was designed by a local artist."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week32_grade11_page07.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Product That Crossed Three Countries”, page 7. Scene based on: Sofía and Mateo sit on a bench outside the workshop tasting dark chocolate and comparing it with the Swiss box, both smiling, the hillsides of Medellín behind them in the late afternoon. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They taste the <b>local</b> chocolate on a bench outside."
+            },
+            {
+              "html": "“It’s different,” Mateo says. “Stronger and more fruity.”"
+            },
+            {
+              "html": "“I like it better,” Sofía admits."
+            },
+            {
+              "html": "“And it didn’t cross three countries.”"
+            },
+            {
+              "html": "She thinks about her uncle on the farm."
+            },
+            {
+              "html": "“If more chocolate were made here, farmers might earn more.”"
+            },
+            {
+              "html": "Mateo agrees, but he isn’t sure it’s simple."
+            },
+            {
+              "html": "“Big factories have machines and famous brands,” he says."
+            },
+            {
+              "html": "“Small companies have to compete with them.”"
+            },
+            {
+              "html": "“That’s true. But consumers can choose,” Sofía answers."
+            },
+            {
+              "html": "They decide to buy two bars for their families."
+            }
+          ],
+          "wordCount": 88
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week32_grade11_page08.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “The Product That Crossed Three Countries”, page 8. Scene based on: In a classroom, Sofía and Mateo present a poster showing the journey of a chocolate bar as arrows across a world map, next to a table with the Swiss chocolate box and a local chocolate bar, while classmates taste small pieces. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Monday, they present their project in class."
+            },
+            {
+              "html": "They show the map with the chocolate’s long journey."
+            },
+            {
+              "html": "“This chocolate was grown here and made in Europe,” Sofía says."
+            },
+            {
+              "html": "“Most of its value was created outside Colombia.”"
+            },
+            {
+              "html": "Then Mateo shares the local chocolate with the class."
+            },
+            {
+              "html": "“This one was grown and made in our country.”"
+            },
+            {
+              "html": "The students taste both chocolates."
+            },
+            {
+              "html": "Many prefer the local one, and it’s cheaper."
+            },
+            {
+              "html": "Some want to visit the workshop with their families."
+            },
+            {
+              "html": "The teacher asks, “What did you learn about labels?”"
+            },
+            {
+              "html": "“A label tells a story,” Sofía answers."
+            },
+            {
+              "html": "“But you have to read it carefully.”"
+            }
+          ],
+          "wordCount": 99
+        }
+      ],
+      "practiceWords": [
+        "cacao",
+        "farmer",
+        "harvest",
+        "export",
+        "process",
+        "import",
+        "customs",
+        "label",
+        "value",
+        "local"
+      ],
+      "vocabulary": [
+        {
+          "word": "cacao",
+          "definition": "the bean used to make chocolate (cacao)"
+        },
+        {
+          "word": "farmer",
+          "definition": "a person who grows crops or raises animals (agricultor)"
+        },
+        {
+          "word": "harvest",
+          "definition": "to collect crops from the fields (cosechar)"
+        },
+        {
+          "word": "export",
+          "definition": "to sell products to another country (exportar)"
+        },
+        {
+          "word": "process",
+          "definition": "to change a raw material into a product (procesar)"
+        },
+        {
+          "word": "import",
+          "definition": "to buy products from another country (importar)"
+        },
+        {
+          "word": "customs",
+          "definition": "the office that checks products entering a country (aduana)"
+        },
+        {
+          "word": "label",
+          "definition": "a small paper with information about a product (etiqueta)"
+        },
+        {
+          "word": "value",
+          "definition": "how much something is worth (valor)"
+        },
+        {
+          "word": "local",
+          "definition": "from the area where you live (local)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "According to the label, where was the chocolate packed?",
+          "options": [
+            "In Switzerland",
+            "In Colombia",
+            "In Antioquia",
+            "In Germany"
+          ],
+          "answer": "In Germany"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "Why do the farmers receive only a small part of the chocolate’s final price?",
+          "options": [
+            "The most valuable steps happen far from the farm.",
+            "The farmers do not harvest the pods themselves.",
+            "The cacao from Colombia has the lowest quality in the world.",
+            "The farmers sell their cacao only in Medellín."
+          ],
+          "answer": "The most valuable steps happen far from the farm."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the visit to Daniela’s chocolate workshop?",
+          "options": [
+            "To show that Swiss chocolate is better than local chocolate.",
+            "To show an example where cacao’s value stays in Colombia.",
+            "To show that local chocolate is always more expensive.",
+            "To explain how customs officers check imported products."
+          ],
+          "answer": "To show an example where cacao’s value stays in Colombia."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “Roasting, mixing, branding, and marketing add value.” Here, “value” means…",
+          "options": [
+            "the label on the back of a box",
+            "the office that checks products",
+            "how much something is worth",
+            "the beans used to make chocolate"
+          ],
+          "answer": "how much something is worth"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which statement best expresses the central idea of the text?",
+          "options": [
+            "Labels on food products are not important to read.",
+            "Colombian farmers should stop growing cacao.",
+            "Imported chocolate is always better than local Colombian chocolate.",
+            "Where a product is processed affects who earns money from it."
+          ],
+          "answer": "Where a product is processed affects who earns money from it."
+        }
+      ],
+      "cover": "../assets/images/week32_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

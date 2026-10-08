@@ -1,0 +1,267 @@
+WEEKLY READINGS — WEEK 25 — PROMPTS PARA CHATGPT (UNA IMAGEN POR PROMPT)
+==============================================================================
+
+CÓMO FUNCIONA (resumen exacto del método usado en Weeks 12–24)
+1. Un chat NUEVO de ChatGPT por cada imagen (evita que se trabe a partir del 2.º prompt).
+2. En cada chat adjunto las fotos de referencia del grado (portada + page1 base) y pego UN solo prompt de este archivo.
+3. Cada prompt empieza con "Generate the image now:" y contiene, en este orden: formato 4:5 vertical -> estilo del grado (ver bloque de estilo) -> escena concreta con los personajes bloqueados -> regla de texto.
+4. Páginas interiores: CERO texto visible (sin letras, números ni logos). Portadas: SOLO el título exacto y, abajo, dos líneas: "Jony Rojas Ochoa" / "Reading Project shared by IEGRM".
+5. Reviso cada imagen (personajes consistentes, sin texto, sin duplicados) y la convierto en el navegador a WEBP 1122x1402 con el nombre exacto del JSON (week25_gradeXX_cover.webp / week25_gradeXX_pageNN.webp).
+6. Al terminar los 6 grados: ZIP por grado (Week25_Grade06_READY.zip ... Week25_Grade11_READY.zip) con solo las WEBP de ese grado, guardados en C:\xampp\htdocs\weeklyreadings.com\public\assets\images
+NOTA HONESTA: ChatGPT no puede descargar archivos en tu disco por sí mismo; las descargas las hago yo desde el navegador (con retraso de varios minutos hasta que aparecen en la carpeta) y yo armo los ZIP.
+
+CÓMO CONSTRUYO CADA PROMPT A PARTIR DEL JSON
+- "artDirection" del JSON da el ESTILO por grado (Pixar-like 3D / painterly / semi-realista / realista). Lo condenso en un "bloque de estilo" fijo y lo repito idéntico en TODAS las imágenes del grado.
+- "Scene based on:" del JSON da el ARGUMENTO por página (situación, presión, pistas, acción, comparación Nueva York, consecuencia, reflexión, reto de lectura). Lo traduzco a UNA escena visual concreta con los personajes del grado, sin palabras escritas.
+- Personajes del JSON (p. ej. Juan/María) se bloquean con edad, peinado y ropa fija; se repiten textualmente en cada prompt.
+- Se elimina cualquier concepto abstracto que ChatGPT pintaría como texto (chats, carteles, pantallas): las pantallas muestran solo íconos/formas.
+
+REGLAS ANTI-RECHAZO APRENDIDAS
+- No escribir "Pixar" ni "Disney": ChatGPT lo rechaza a veces (mensaje de "medidas de protección"). Usar "original 3D-rendered ... storybook illustration".
+- Adolescentes: vocabulario escolar y neutro; evitar "sad eyes", "empty classroom", ángulos bajos.
+- Si el chat se traba (sin imagen en ~90 s) -> chat nuevo y reenviar. Si repite una composición ya usada -> pedir otra composición.
+- Si se adjuntan las fotos base, añadir a cada prompt la línea: "Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes."
+
+******************************************************************************
+VOCABULARIO INTERACTIVO — OBLIGATORIO, NO SE PUEDE OMITIR (debe funcionar EXACTAMENTE como en week15.json)
+******************************************************************************
+Las imágenes de ChatGPT NO llevan texto, pero la lectura sí lleva el vocabulario interactivo, y eso NO se toca ni se olvida.
+Reglas (idénticas a week15.json; week25.json ya fue verificado y las cumple):
+1. Cada grado tiene EXACTAMENTE 10 entradas en "vocabulary", con el formato {"word": "...", "definition": "definición en inglés (traducción)"}.
+2. "practiceWords" contiene las MISMAS 10 palabras, en el MISMO orden que "vocabulary".
+3. Cada palabra del vocabulario aparece marcada con <b>palabra</b> dentro de "sentences[].html" de las páginas (una vez cada una). Esa marca <b> es lo que la vuelve interactiva (tocar/clic -> resalta, muestra la definición y la pronuncia). La comparación es sin distinguir mayúsculas (ej.: <b>Permission</b> = "permission").
+4. NO quitar, renombrar ni mover las etiquetas <b>; NO convertir "html" en texto plano; NO cambiar "word"/"definition" ni volver al esquema viejo (legacySentenceSchema: false).
+5. Respetar todo el código base del audio: "contentPolicy" igual (tts: "Web Speech API / SpeechSynthesis", manualAudioFiles: false). No se agregan archivos de audio ni se modifica el lector.
+6. Las rutas de imagen del JSON NO cambian: ../assets/images/week25_gradeXX_cover.webp y ../assets/images/week25_gradeXX_pageNN.webp.
+Checklist final por grado: [ ] 10 vocabulary  [ ] practiceWords = vocabulary  [ ] 10 <b> en las oraciones  [ ] audio intacto  [ ] imágenes con nombre exacto.
+
+
+##############################################################################
+GRADO 6 — "The Game Was Not Just About Winning" — 6° Grade / A1 Beginner — portada + 4 páginas = 5 imágenes
+##############################################################################
+BLOQUE DE ESTILO (fijo): original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream), cute rounded big-eyed child characters, soft subsurface lighting, gentle bright daylight, cozy sets, shallow depth of field
+PERSONAJES (fijos): Sofia (11, shoulder-length curly black hair, mint sweater) and Nico (11, buzz-cut dark hair, navy polo shirt)
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - team — a group that plays together (equipo)  [<b> en página 1]
+   - win — to be the best in a game (ganar)  [<b> en página 1]
+   - lose — to not win (perder)  [<b> en página 1]
+   - game — an activity with rules (juego, partido)  [<b> en página 2]
+   - ball — a round object used in sports (balón)  [<b> en página 2]
+   - score — to get a point or a goal (anotar)  [<b> en página 2]
+   - fair — following the rules, equal for everyone (justo)  [<b> en página 3]
+   - cheer — to shout to support someone (animar)  [<b> en página 3]
+   - angry — feeling mad (enojado)  [<b> en página 4]
+   - player — a person who plays a sport (jugador)  [<b> en página 1]
+
+--- week25_grade06_cover.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5 book cover, original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream), cute rounded big-eyed child characters, soft subsurface lighting, gentle bright daylight, cozy sets, shallow depth of field. At a Medellin community center hall, Sofia (11, shoulder-length curly black hair, mint sweater) holds a ball and looks tense at teammates arguing nearby, while Nico (11, buzz-cut dark hair, navy polo shirt) watches her closely. The ONLY text: the title "The Game Was Not Just About Winning" in bubbly hand-lettered orange and deep blue letters with tiny sun and heart doodles; and at the bottom two lines of white/pale yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No other text, no logos.
+
+--- week25_grade06_page01.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream), cute rounded big-eyed child characters, soft subsurface lighting, gentle bright daylight, cozy sets, shallow depth of field. At a Medellin community center hall, Sofia (11, shoulder-length curly black hair, mint sweater) holds a ball and looks tense at teammates arguing nearby, while Nico (11, buzz-cut dark hair, navy polo shirt) watches her closely. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade06_page02.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream), cute rounded big-eyed child characters, soft subsurface lighting, gentle bright daylight, cozy sets, shallow depth of field. In the center hall, Sofia stands in the middle as teammates argue and point at each other about who should play, everyone talking at once; Nico looks uncomfortable. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade06_page03.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream), cute rounded big-eyed child characters, soft subsurface lighting, gentle bright daylight, cozy sets, shallow depth of field. Sofia (11, shoulder-length curly black hair, mint sweater) calls the team into a calm huddle, hands joined in the center; Nico nods in support. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade06_page04.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream), cute rounded big-eyed child characters, soft subsurface lighting, gentle bright daylight, cozy sets, shallow depth of field. Evening in a small cozy Medellin family apartment: Sofia sits on her bed writing in a small notebook with a pencil, calm and thoughtful, a backpack beside her. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+##############################################################################
+GRADO 7 — "The Match We Almost Ruined" — 7° Grade / A1 Advanced — portada + 5 páginas = 6 imágenes
+##############################################################################
+BLOQUE DE ESTILO (fijo): painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors
+PERSONAJES (fijos): Camilo (12, curly black hair, white t-shirt and denim overshirt) and Daniela (12, long wavy brown hair, yellow jacket)
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - team — a group that plays together (equipo)  [<b> en página 1]
+   - win — to be the best in a game (ganar)  [<b> en página 1]
+   - lose — to not win (perder)  [<b> en página 1]
+   - game — an activity with rules (juego, partido)  [<b> en página 2]
+   - ball — a round object used in sports (balón)  [<b> en página 2]
+   - score — to get a point or a goal (anotar)  [<b> en página 3]
+   - fair — following the rules, equal for everyone (justo)  [<b> en página 5]
+   - cheer — to shout to support someone (animar)  [<b> en página 5]
+   - angry — feeling mad (enojado)  [<b> en página 1]
+   - player — a person who plays a sport (jugador)  [<b> en página 2]
+
+--- week25_grade07_cover.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5 book cover, painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors. In a busy local Medellin shopping area, Camilo (12, curly black hair, white t-shirt and denim overshirt) holds a ball and looks tense at teammates arguing nearby, while Daniela (12, long wavy brown hair, yellow jacket) watches him closely. The ONLY text: the title "The Match We Almost Ruined" in navy (first line) and green (second line) letters on a cream torn brush-stroke banner at the top, small leaf sprigs in the corners; and at the bottom two lines of navy text inside a cream rounded box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No other text, no logos.
+
+--- week25_grade07_page01.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors. In a busy local Medellin shopping area, Camilo (12, curly black hair, white t-shirt and denim overshirt) holds a ball and looks tense at teammates arguing nearby, while Daniela (12, long wavy brown hair, yellow jacket) watches him closely. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade07_page02.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors. In the shopping area, Camilo stands in the middle as teammates argue and point at each other about who should play, everyone talking at once; Daniela looks uncomfortable. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade07_page03.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors. In the shopping area, Camilo and Daniela look at a small whiteboard with only dots and arrows (no letters, no numbers), rethinking the team plan. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade07_page04.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors. Camilo (12, curly black hair, white t-shirt and denim overshirt) calls the team into a calm huddle, hands joined in the center; Daniela nods in support. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade07_page05.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors. In the shopping area, Camilo and teammates shake hands and smile after the match, a sense of teamwork restored; Daniela cheers. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+##############################################################################
+GRADO 8 — "More Than The Final Score" — 8° Grade / A2 Beginner — portada + 6 páginas = 7 imágenes
+##############################################################################
+BLOQUE DE ESTILO (fijo): original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses
+PERSONAJES (fijos): Valentina (13, long wavy brown hair, yellow jacket) and Andres (13, short curly dark hair, green hoodie)
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - teammate — a person on the same team (compañero de equipo)  [<b> en página 1]
+   - rival — a person or team you compete against (rival)  [<b> en página 1]
+   - tournament — a competition with many games (torneo)  [<b> en página 2]
+   - captain — the leader of a team (capitán)  [<b> en página 3]
+   - selfish — thinking only of yourself (egoísta)  [<b> en página 4]
+   - cooperate — to work together (cooperar)  [<b> en página 4]
+   - referee — the person who controls a game (árbitro)  [<b> en página 5]
+   - sportsmanship — fair and respectful behavior in sports (espíritu deportivo)  [<b> en página 6]
+   - substitute — a player who replaces another (suplente)  [<b> en página 1]
+   - pressure — the feeling of being pushed to do something (presión)  [<b> en página 2]
+
+--- week25_grade08_cover.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5 book cover, original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses. At a Medellin bus stop after school, Valentina (13, long wavy brown hair, yellow jacket) holds a ball and looks tense at teammates arguing nearby, while Andres (13, short curly dark hair, green hoodie) watches her closely. The ONLY text: the title "More Than The Final Score" in thick hand-lettered navy, green and orange letters with small ray accents; and at the bottom two lines of white/pale yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No other text, no logos.
+
+--- week25_grade08_page01.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses. At a Medellin bus stop after school, Valentina (13, long wavy brown hair, yellow jacket) holds a ball and looks tense at teammates arguing nearby, while Andres (13, short curly dark hair, green hoodie) watches her closely. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade08_page02.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses. At the bus stop, Valentina stands in the middle as teammates argue and point at each other about who should play, everyone talking at once; Andres looks uncomfortable. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade08_page03.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses. At the bus stop, Valentina and Andres look at a small whiteboard with only dots and arrows (no letters, no numbers), rethinking the team plan. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade08_page04.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses. Valentina (13, long wavy brown hair, yellow jacket) calls the team into a calm huddle, hands joined in the center; Andres nods in support. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade08_page05.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses. In a bright Medellin classroom, Valentina, Andres and classmates watch a video call on a big screen with friendly teenagers from a youth exchange in New York City, faces only; they talk about competition creating tension inside a team. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade08_page06.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses. At the bus stop, Valentina and teammates shake hands and smile after the match, a sense of teamwork restored; Andres cheers. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+##############################################################################
+GRADO 9 — "The Best Player Or The Best Team" — 9° Grade / A2 Advanced — portada + 6 páginas = 7 imágenes
+##############################################################################
+BLOQUE DE ESTILO (fijo): glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field
+PERSONAJES (fijos): Mariana (14, long straight black hair, white sneakers and blue denim jacket) and Felipe (14, short dark hair with a side part, teal sweater)
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - teammate — a person on the same team (compañero de equipo)  [<b> en página 1]
+   - rival — a person or team you compete against (rival)  [<b> en página 1]
+   - tournament — a competition with many games (torneo)  [<b> en página 1]
+   - captain — the leader of a team (capitán)  [<b> en página 3]
+   - selfish — thinking only of yourself (egoísta)  [<b> en página 4]
+   - cooperate — to work together (cooperar)  [<b> en página 5]
+   - referee — the person who controls a game (árbitro)  [<b> en página 6]
+   - sportsmanship — fair and respectful behavior in sports (espíritu deportivo)  [<b> en página 1]
+   - substitute — a player who replaces another (suplente)  [<b> en página 2]
+   - pressure — the feeling of being pushed to do something (presión)  [<b> en página 3]
+
+--- week25_grade09_cover.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5 book cover, glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. In a sunny Medellin school courtyard, Mariana (14, long straight black hair, white sneakers and blue denim jacket) holds a ball and looks tense at teammates arguing nearby, while Felipe (14, short dark hair with a side part, teal sweater) watches her closely. The ONLY text: the title "The Best Player Or The Best Team" in bold navy, green and orange hand-lettered letters with a soft white glow; and at the bottom two lines of white/pale yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No other text, no logos.
+
+--- week25_grade09_page01.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. In a sunny Medellin school courtyard, Mariana (14, long straight black hair, white sneakers and blue denim jacket) holds a ball and looks tense at teammates arguing nearby, while Felipe (14, short dark hair with a side part, teal sweater) watches her closely. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade09_page02.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. In the courtyard, Mariana stands in the middle as teammates argue and point at each other about who should play, everyone talking at once; Felipe looks uncomfortable. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade09_page03.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. In the courtyard, Mariana and Felipe look at a small whiteboard with only dots and arrows (no letters, no numbers), rethinking the team plan. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade09_page04.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Mariana (14, long straight black hair, white sneakers and blue denim jacket) calls the team into a calm huddle, hands joined in the center; Felipe nods in support. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade09_page05.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. In a bright Medellin classroom, Mariana, Felipe and classmates watch a video call on a big screen with New York students in an online class, faces only, friendly and attentive; they talk about competition creating tension inside a team. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade09_page06.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. In the courtyard, Mariana and teammates shake hands and smile after the match, a sense of teamwork restored; Felipe cheers. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+##############################################################################
+GRADO 10 — "The Match And The Decision After It" — 10° Grade / B1 Beginner — portada + 7 páginas = 8 imágenes
+##############################################################################
+BLOQUE DE ESTILO (fijo): painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere
+PERSONAJES (fijos): Daniel (16, short dark hair with a side part, teal sweater) and Maya (16, curly brown hair in a bun, mustard shirt)
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - leadership — the ability to guide a group (liderazgo)  [<b> en página 1]
+   - rivalry — competition between people (rivalidad)  [<b> en página 2]
+   - cohesion — unity in a group (cohesión)  [<b> en página 4]
+   - ego — a person's sense of self-importance (ego)  [<b> en página 5]
+   - collective — shared by a group (colectivo)  [<b> en página 7]
+   - setback — a problem that delays progress (contratiempo)  [<b> en página 1]
+   - motivate — to give someone a reason to try (motivar)  [<b> en página 2]
+   - mediate — to help people in a conflict reach an agreement (mediar)  [<b> en página 3]
+   - integrity — being honest and having strong values (integridad)  [<b> en página 4]
+   - constructive — helpful and positive (constructivo)  [<b> en página 5]
+
+--- week25_grade10_cover.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5 book cover, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. In a bright corridor of a public school in Medellin, Daniel (16, short dark hair with a side part, teal sweater) holds a ball and looks tense at teammates arguing nearby, while Maya (16, curly brown hair in a bun, mustard shirt) watches him closely. The ONLY text: the title "The Match And The Decision After It" in navy and green hand-lettered letters with a golden underline swoosh; and at the bottom two lines of white/pale yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No other text, no logos.
+
+--- week25_grade10_page01.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. In a bright corridor of a public school in Medellin, Daniel (16, short dark hair with a side part, teal sweater) holds a ball and looks tense at teammates arguing nearby, while Maya (16, curly brown hair in a bun, mustard shirt) watches him closely. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade10_page02.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. In the school corridor, Daniel stands in the middle as teammates argue and point at each other about who should play, everyone talking at once; Maya looks uncomfortable. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade10_page03.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. In the school corridor, Daniel and Maya look at a small whiteboard with only dots and arrows (no letters, no numbers), rethinking the team plan. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade10_page04.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Daniel (16, short dark hair with a side part, teal sweater) calls the team into a calm huddle, hands joined in the center; Maya nods in support. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade10_page05.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. In a bright Medellin classroom, Daniel, Maya and classmates watch a video call on a big screen with friendly teenagers from Queens, New York, faces only; they talk about competition creating tension inside a team. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade10_page06.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. In the school corridor, Daniel and teammates shake hands and smile after the match, a sense of teamwork restored; Maya cheers. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade10_page07.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. In a Medellin classroom the next morning, a friendly teacher stands at a whiteboard drawn only with arrows and shapes (no letters) while Daniel and Maya take notes in notebooks among attentive students. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+##############################################################################
+GRADO 11 — "Competition, Leadership And The Final Decision" — 11° Grade / B1+ — portada + 8 páginas = 9 imágenes
+##############################################################################
+BLOQUE DE ESTILO (fijo): realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors
+PERSONAJES (fijos): Andres (17, curly black hair, white t-shirt and denim overshirt) and Camila (18, side braid, sky-blue hoodie)
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - leadership — the ability to guide a group (liderazgo)  [<b> en página 1]
+   - rivalry — competition between people (rivalidad)  [<b> en página 1]
+   - cohesion — unity in a group (cohesión)  [<b> en página 2]
+   - ego — a person's sense of self-importance (ego)  [<b> en página 3]
+   - collective — shared by a group (colectivo)  [<b> en página 4]
+   - setback — a problem that delays progress (contratiempo)  [<b> en página 4]
+   - motivate — to give someone a reason to try (motivar)  [<b> en página 6]
+   - mediate — to help people in a conflict reach an agreement (mediar)  [<b> en página 7]
+   - integrity — being honest and having strong values (integridad)  [<b> en página 8]
+   - constructive — helpful and positive (constructivo)  [<b> en página 1]
+
+--- week25_grade11_cover.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5 book cover, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. On a colorful hillside street in the Manrique neighborhood of Medellin, Andres (17, curly black hair, white t-shirt and denim overshirt) holds a ball and looks tense at teammates arguing nearby, while Camila (18, side braid, sky-blue hoodie) watches him closely. The ONLY text: the title "Competition, Leadership And The Final Decision" in navy and green letters with an orange underline; and at the bottom two lines of white/pale yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No other text, no logos.
+
+--- week25_grade11_page01.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. On a colorful hillside street in the Manrique neighborhood of Medellin, Andres (17, curly black hair, white t-shirt and denim overshirt) holds a ball and looks tense at teammates arguing nearby, while Camila (18, side braid, sky-blue hoodie) watches him closely. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade11_page02.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. On the Manrique street, Andres stands in the middle as teammates argue and point at each other about who should play, everyone talking at once; Camila looks uncomfortable. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade11_page03.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. On the Manrique street, Andres and Camila look at a small whiteboard with only dots and arrows (no letters, no numbers), rethinking the team plan. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade11_page04.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. Andres (17, curly black hair, white t-shirt and denim overshirt) calls the team into a calm huddle, hands joined in the center; Camila nods in support. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade11_page05.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. In a bright Medellin classroom, Andres, Camila and classmates watch a video call on a big screen with friendly teenagers from Brooklyn, New York, who smile and wave; the screen shows faces only; they talk about competition creating tension inside a team. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade11_page06.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. On the Manrique street, Andres and teammates shake hands and smile after the match, a sense of teamwork restored; Camila cheers. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade11_page07.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. At night in his bedroom, Andres sits on his bed writing a reflection in a notebook, phone face-down beside him, warm lamp light. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week25_grade11_page08.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. In a Medellin high-school classroom, Andres presents his ideas to attentive classmates and a friendly teacher, whiteboard behind him with simple shapes and arrows only. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+FIN. Total: 6 portadas + 36 páginas = 42 imágenes.

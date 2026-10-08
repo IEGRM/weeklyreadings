@@ -1,0 +1,267 @@
+WEEKLY READINGS — WEEK 22 — PROMPTS PARA CHATGPT (UNA IMAGEN POR PROMPT)
+==============================================================================
+
+CÓMO FUNCIONA (resumen exacto del método usado en Weeks 12–21)
+1. Un chat NUEVO de ChatGPT por cada imagen (evita que se trabe a partir del 2.º prompt).
+2. En cada chat adjunto las fotos de referencia del grado (portada + page1 base) y pego UN solo prompt de este archivo.
+3. Cada prompt empieza con "Generate the image now:" y contiene, en este orden: formato 4:5 vertical -> estilo del grado (ver bloque de estilo) -> escena concreta con los personajes bloqueados -> regla de texto.
+4. Páginas interiores: CERO texto visible (sin letras, números ni logos). Portadas: SOLO el título exacto y, abajo, dos líneas: "Jony Rojas Ochoa" / "Reading Project shared by IEGRM".
+5. Reviso cada imagen (personajes consistentes, sin texto, sin duplicados) y la convierto en el navegador a WEBP 1122x1402 con el nombre exacto del JSON (week22_gradeXX_cover.webp / week22_gradeXX_pageNN.webp).
+6. Al terminar los 6 grados: ZIP por grado (Week22_Grade06_READY.zip ... Week22_Grade11_READY.zip) con solo las WEBP de ese grado, guardados en C:\xampp\htdocs\weeklyreadings.com\public\assets\images
+NOTA HONESTA: ChatGPT no puede descargar archivos en tu disco por sí mismo; las descargas las hago yo desde el navegador (con retraso de varios minutos hasta que aparecen en la carpeta) y yo armo los ZIP.
+
+CÓMO CONSTRUYO CADA PROMPT A PARTIR DEL JSON
+- "artDirection" del JSON da el ESTILO por grado (Pixar-like 3D / painterly / semi-realista / realista). Lo condenso en un "bloque de estilo" fijo y lo repito idéntico en TODAS las imágenes del grado.
+- "Scene based on:" del JSON da el ARGUMENTO por página (situación, presión, pistas, acción, comparación Nueva York, consecuencia, reflexión, reto de lectura). Lo traduzco a UNA escena visual concreta con los personajes del grado, sin palabras escritas.
+- Personajes del JSON (p. ej. Juan/María) se bloquean con edad, peinado y ropa fija; se repiten textualmente en cada prompt.
+- Se elimina cualquier concepto abstracto que ChatGPT pintaría como texto (chats, carteles, pantallas): las pantallas muestran solo íconos/formas.
+
+REGLAS ANTI-RECHAZO APRENDIDAS
+- No escribir "Pixar" ni "Disney": ChatGPT lo rechaza a veces (mensaje de "medidas de protección"). Usar "original 3D-rendered ... storybook illustration".
+- Adolescentes: vocabulario escolar y neutro; evitar "sad eyes", "empty classroom", ángulos bajos.
+- Si el chat se traba (sin imagen en ~90 s) -> chat nuevo y reenviar. Si repite una composición ya usada -> pedir otra composición.
+- Si se adjuntan las fotos base, añadir a cada prompt la línea: "Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes."
+
+******************************************************************************
+VOCABULARIO INTERACTIVO — OBLIGATORIO, NO SE PUEDE OMITIR (debe funcionar EXACTAMENTE como en week15.json)
+******************************************************************************
+Las imágenes de ChatGPT NO llevan texto, pero la lectura sí lleva el vocabulario interactivo, y eso NO se toca ni se olvida.
+Reglas (idénticas a week15.json; week22.json ya fue verificado y las cumple):
+1. Cada grado tiene EXACTAMENTE 10 entradas en "vocabulary", con el formato {"word": "...", "definition": "definición en inglés (traducción)"}.
+2. "practiceWords" contiene las MISMAS 10 palabras, en el MISMO orden que "vocabulary".
+3. Cada palabra del vocabulario aparece marcada con <b>palabra</b> dentro de "sentences[].html" de las páginas (una vez cada una). Esa marca <b> es lo que la vuelve interactiva (tocar/clic -> resalta, muestra la definición y la pronuncia). La comparación es sin distinguir mayúsculas (ej.: <b>Permission</b> = "permission").
+4. NO quitar, renombrar ni mover las etiquetas <b>; NO convertir "html" en texto plano; NO cambiar "word"/"definition" ni volver al esquema viejo (legacySentenceSchema: false).
+5. Respetar todo el código base del audio: "contentPolicy" igual (tts: "Web Speech API / SpeechSynthesis", manualAudioFiles: false). No se agregan archivos de audio ni se modifica el lector.
+6. Las rutas de imagen del JSON NO cambian: ../assets/images/week22_gradeXX_cover.webp y ../assets/images/week22_gradeXX_pageNN.webp.
+Checklist final por grado: [ ] 10 vocabulary  [ ] practiceWords = vocabulary  [ ] 10 <b> en las oraciones  [ ] audio intacto  [ ] imágenes con nombre exacto.
+
+
+##############################################################################
+GRADO 6 — "Why Didn't My Friend Answer?" — 6° Grade / A1 Beginner — portada + 4 páginas = 5 imágenes
+##############################################################################
+BLOQUE DE ESTILO (fijo): original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream), cute rounded big-eyed child characters, soft subsurface lighting, gentle bright daylight, cozy sets, shallow depth of field
+PERSONAJES (fijos): Laura (11, curly brown hair in a bun, mustard shirt) and Tomas (11, short dark hair with a side part, teal sweater)
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - friend — a person you like and trust (amigo)  [<b> en página 1]
+   - answer — to reply to someone (responder)  [<b> en página 1]
+   - sad — not happy (triste)  [<b> en página 1]
+   - worry — to feel nervous about a problem (preocuparse)  [<b> en página 2]
+   - alone — without other people (solo)  [<b> en página 2]
+   - smile — a happy expression on the face (sonrisa)  [<b> en página 2]
+   - call — to phone someone (llamar)  [<b> en página 3]
+   - talk — to speak with someone (hablar)  [<b> en página 3]
+   - busy — having a lot to do (ocupado)  [<b> en página 4]
+   - miss — to feel sad because someone is not with you (extrañar)  [<b> en página 1]
+
+--- week22_grade06_cover.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5 book cover, original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream), cute rounded big-eyed child characters, soft subsurface lighting, gentle bright daylight, cozy sets, shallow depth of field. In a bright corridor of a public school in Medellin, Laura (11, curly brown hair in a bun, mustard shirt) looks at a phone whose screen shows only an empty message-bubble icon, puzzled, while Tomas (11, short dark hair with a side part, teal sweater) watches her closely. The ONLY text: the title "Why Didn't My Friend Answer?" in bubbly hand-lettered orange and deep blue letters with tiny sun and heart doodles; and at the bottom two lines of white/pale yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No other text, no logos.
+
+--- week22_grade06_page01.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream), cute rounded big-eyed child characters, soft subsurface lighting, gentle bright daylight, cozy sets, shallow depth of field. In a bright corridor of a public school in Medellin, Laura (11, curly brown hair in a bun, mustard shirt) looks at a phone whose screen shows only an empty message-bubble icon, puzzled, while Tomas (11, short dark hair with a side part, teal sweater) watches her closely. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade06_page02.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream), cute rounded big-eyed child characters, soft subsurface lighting, gentle bright daylight, cozy sets, shallow depth of field. In the school corridor, Laura looks hurt and confused as a quiet friend walks away with head down, while two classmates whisper different versions nearby; Tomas stays beside Laura. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade06_page03.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream), cute rounded big-eyed child characters, soft subsurface lighting, gentle bright daylight, cozy sets, shallow depth of field. Laura (11, curly brown hair in a bun, mustard shirt) calmly sits next to the quiet friend and starts a gentle, respectful conversation; Tomas watches hopefully from a short distance. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade06_page04.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered children's storybook illustration, soft pastel warm palette (peach, pink, lilac, cream), cute rounded big-eyed child characters, soft subsurface lighting, gentle bright daylight, cozy sets, shallow depth of field. Evening in a small cozy Medellin family apartment: Laura sits on her bed writing in a small notebook with a pencil, calm and thoughtful, a backpack beside her. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+##############################################################################
+GRADO 7 — "The Friend Who Went Quiet" — 7° Grade / A1 Advanced — portada + 5 páginas = 6 imágenes
+##############################################################################
+BLOQUE DE ESTILO (fijo): painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors
+PERSONAJES (fijos): Nicolas (12, short dark hair with a side part, teal sweater) and Paula (12, two braids, lilac top)
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - friend — a person you like and trust (amigo)  [<b> en página 1]
+   - answer — to reply to someone (responder)  [<b> en página 1]
+   - sad — not happy (triste)  [<b> en página 1]
+   - worry — to feel nervous about a problem (preocuparse)  [<b> en página 2]
+   - alone — without other people (solo)  [<b> en página 2]
+   - smile — a happy expression on the face (sonrisa)  [<b> en página 3]
+   - call — to phone someone (llamar)  [<b> en página 5]
+   - talk — to speak with someone (hablar)  [<b> en página 5]
+   - busy — having a lot to do (ocupado)  [<b> en página 1]
+   - miss — to feel sad because someone is not with you (extrañar)  [<b> en página 2]
+
+--- week22_grade07_cover.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5 book cover, painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors. On a colorful hillside street in the Manrique neighborhood of Medellin, Nicolas (12, short dark hair with a side part, teal sweater) looks at a phone whose screen shows only an empty message-bubble icon, puzzled, while Paula (12, two braids, lilac top) watches him closely. The ONLY text: the title "The Friend Who Went Quiet" in navy (first line) and green (second line) letters on a cream torn brush-stroke banner at the top, small leaf sprigs in the corners; and at the bottom two lines of navy text inside a cream rounded box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No other text, no logos.
+
+--- week22_grade07_page01.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors. On a colorful hillside street in the Manrique neighborhood of Medellin, Nicolas (12, short dark hair with a side part, teal sweater) looks at a phone whose screen shows only an empty message-bubble icon, puzzled, while Paula (12, two braids, lilac top) watches him closely. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade07_page02.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors. On the Manrique street, Nicolas looks hurt and confused as a quiet friend walks away with head down, while two classmates whisper different versions nearby; Paula stays beside Nicolas. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade07_page03.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors. On the Manrique street, Nicolas and Paula sit together looking at printed photos of old good times (no text) and a small notebook, thinking carefully. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade07_page04.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors. Nicolas (12, short dark hair with a side part, teal sweater) calmly sits next to the quiet friend and starts a gentle, respectful conversation; Paula watches hopefully from a short distance. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade07_page05.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly digital illustration, soft visible brushwork, gentle outlines, vivid but soft colors. On the Manrique street, Nicolas and the quiet friend talk openly and smile again; Paula joins them; the friendship feels repaired. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+##############################################################################
+GRADO 8 — "When A Teammate Stops Talking" — 8° Grade / A2 Beginner — portada + 6 páginas = 7 imágenes
+##############################################################################
+BLOQUE DE ESTILO (fijo): original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses
+PERSONAJES (fijos): Samuel (13, short spiky black hair, red jacket) and Kevin (13, short dark hair with a side part, teal sweater)
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - distant — not friendly or close (distante)  [<b> en página 1]
+   - ignore — to not pay attention to someone (ignorar)  [<b> en página 1]
+   - assume — to think something is true without proof (suponer)  [<b> en página 2]
+   - misunderstanding — when people understand something in the wrong way (malentendido)  [<b> en página 2]
+   - blame — to say someone is responsible for a problem (culpar)  [<b> en página 3]
+   - gossip — talk about other people's private lives (chisme)  [<b> en página 4]
+   - loyal — always supporting a friend (leal)  [<b> en página 4]
+   - reach out — to contact someone to offer help (acercarse, contactar)  [<b> en página 5]
+   - trust — the belief that someone is honest (confianza)  [<b> en página 6]
+   - support — help and encouragement (apoyo)  [<b> en página 1]
+
+--- week22_grade08_cover.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5 book cover, original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses. At a Medellin Metro station platform, Samuel (13, short spiky black hair, red jacket) looks at a phone whose screen shows only an empty message-bubble icon, puzzled, while Kevin (13, short dark hair with a side part, teal sweater) watches him closely. The ONLY text: the title "When A Teammate Stops Talking" in thick hand-lettered navy, green and orange letters with small ray accents; and at the bottom two lines of white/pale yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No other text, no logos.
+
+--- week22_grade08_page01.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses. At a Medellin Metro station platform, Samuel (13, short spiky black hair, red jacket) looks at a phone whose screen shows only an empty message-bubble icon, puzzled, while Kevin (13, short dark hair with a side part, teal sweater) watches him closely. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade08_page02.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses. On the Metro platform, Samuel looks hurt and confused as a quiet friend walks away with head down, while two classmates whisper different versions nearby; Kevin stays beside Samuel. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade08_page03.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses. On the Metro platform, Samuel and Kevin sit together looking at printed photos of old good times (no text) and a small notebook, thinking carefully. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade08_page04.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses. Samuel (13, short spiky black hair, red jacket) calmly sits next to the quiet friend and starts a gentle, respectful conversation; Kevin watches hopefully from a short distance. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade08_page05.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses. In a bright Medellin classroom, Samuel, Kevin and classmates watch a video call on a big screen with friendly teenagers from Queens, New York, faces only; they talk about a friend who suddenly became distant. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade08_page06.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, original 3D-rendered storybook illustration, vivid golden sunset light, strong rim light, dynamic teenage poses. On the Metro platform, Samuel and the quiet friend talk openly and smile again; Kevin joins them; the friendship feels repaired. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+##############################################################################
+GRADO 9 — "The Friend Everyone Blamed" — 9° Grade / A2 Advanced — portada + 6 páginas = 7 imágenes
+##############################################################################
+BLOQUE DE ESTILO (fijo): glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field
+PERSONAJES (fijos): Andres (14, short brown hair, olive bomber jacket) and Valeria (14, long wavy brown hair, yellow jacket)
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - distant — not friendly or close (distante)  [<b> en página 1]
+   - ignore — to not pay attention to someone (ignorar)  [<b> en página 1]
+   - assume — to think something is true without proof (suponer)  [<b> en página 1]
+   - misunderstanding — when people understand something in the wrong way (malentendido)  [<b> en página 3]
+   - blame — to say someone is responsible for a problem (culpar)  [<b> en página 4]
+   - gossip — talk about other people's private lives (chisme)  [<b> en página 5]
+   - loyal — always supporting a friend (leal)  [<b> en página 6]
+   - reach out — to contact someone to offer help (acercarse, contactar)  [<b> en página 1]
+   - trust — the belief that someone is honest (confianza)  [<b> en página 2]
+   - support — help and encouragement (apoyo)  [<b> en página 3]
+
+--- week22_grade09_cover.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5 book cover, glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Inside a Medellin library near the school, Andres (14, short brown hair, olive bomber jacket) looks at a phone whose screen shows only an empty message-bubble icon, puzzled, while Valeria (14, long wavy brown hair, yellow jacket) watches him closely. The ONLY text: the title "The Friend Everyone Blamed" in bold navy, green and orange hand-lettered letters with a soft white glow; and at the bottom two lines of white/pale yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No other text, no logos.
+
+--- week22_grade09_page01.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Inside a Medellin library near the school, Andres (14, short brown hair, olive bomber jacket) looks at a phone whose screen shows only an empty message-bubble icon, puzzled, while Valeria (14, long wavy brown hair, yellow jacket) watches him closely. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade09_page02.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. In the library, Andres looks hurt and confused as a quiet friend walks away with head down, while two classmates whisper different versions nearby; Valeria stays beside Andres. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade09_page03.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. In the library, Andres and Valeria sit together looking at printed photos of old good times (no text) and a small notebook, thinking carefully. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade09_page04.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. Andres (14, short brown hair, olive bomber jacket) calmly sits next to the quiet friend and starts a gentle, respectful conversation; Valeria watches hopefully from a short distance. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade09_page05.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. In a bright Medellin classroom, Andres, Valeria and classmates watch a video call on a big screen with friendly teenagers from Brooklyn, New York, who smile and wave; the screen shows faces only; they talk about a friend who suddenly became distant. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade09_page06.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, glossy saturated semi-realistic painted cartoon illustration, rich natural light, detailed props, cinematic framing, shallow depth of field. In the library, Andres and the quiet friend talk openly and smile again; Valeria joins them; the friendship feels repaired. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+##############################################################################
+GRADO 10 — "The Conversation We Kept Avoiding" — 10° Grade / B1 Beginner — portada + 7 páginas = 8 imágenes
+##############################################################################
+BLOQUE DE ESTILO (fijo): painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere
+PERSONAJES (fijos): Laura (16, short bob haircut, red cardigan) and Kevin (16, short curly dark hair, green hoodie)
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - withdrawn — quiet and not wanting to be with others (retraído)  [<b> en página 1]
+   - empathy — the ability to understand other people's feelings (empatía)  [<b> en página 1]
+   - confront — to face a person or problem directly (enfrentar)  [<b> en página 4]
+   - resentment — a lasting feeling of anger (resentimiento)  [<b> en página 5]
+   - reconcile — to become friends again after a problem (reconciliarse)  [<b> en página 7]
+   - vulnerable — easy to hurt emotionally (vulnerable)  [<b> en página 1]
+   - perspective — a way of seeing a situation (perspectiva)  [<b> en página 2]
+   - interpret — to understand something in a particular way (interpretar)  [<b> en página 3]
+   - reassurance — words that remove doubts or fears (tranquilidad)  [<b> en página 4]
+   - assumption — something believed without proof (suposición)  [<b> en página 5]
+
+--- week22_grade10_cover.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5 book cover, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. On a Medellin hillside sports court, Laura (16, short bob haircut, red cardigan) looks at a phone whose screen shows only an empty message-bubble icon, puzzled, while Kevin (16, short curly dark hair, green hoodie) watches her closely. The ONLY text: the title "The Conversation We Kept Avoiding" in navy and green hand-lettered letters with a golden underline swoosh; and at the bottom two lines of white/pale yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No other text, no logos.
+
+--- week22_grade10_page01.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. On a Medellin hillside sports court, Laura (16, short bob haircut, red cardigan) looks at a phone whose screen shows only an empty message-bubble icon, puzzled, while Kevin (16, short curly dark hair, green hoodie) watches her closely. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade10_page02.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. On the court, Laura looks hurt and confused as a quiet friend walks away with head down, while two classmates whisper different versions nearby; Kevin stays beside Laura. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade10_page03.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. On the court, Laura and Kevin sit together looking at printed photos of old good times (no text) and a small notebook, thinking carefully. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade10_page04.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. Laura (16, short bob haircut, red cardigan) calmly sits next to the quiet friend and starts a gentle, respectful conversation; Kevin watches hopefully from a short distance. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade10_page05.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. In a bright Medellin classroom, Laura, Kevin and classmates watch a video call on a big screen with friendly teenagers in a Manhattan subway-station setting, faces only; they talk about a friend who suddenly became distant. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade10_page06.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. On the court, Laura and the quiet friend talk openly and smile again; Kevin joins them; the friendship feels repaired. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade10_page07.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, painterly semi-realistic illustration, dramatic natural light, mature teenage proportions, cinematic atmosphere. In a Medellin classroom the next morning, a friendly teacher stands at a whiteboard drawn only with arrows and shapes (no letters) while Laura and Kevin take notes in notebooks among attentive students. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+##############################################################################
+GRADO 11 — "Silence Is Also A Message" — 11° Grade / B1+ — portada + 8 páginas = 9 imágenes
+##############################################################################
+BLOQUE DE ESTILO (fijo): realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors
+PERSONAJES (fijos): Valentina (17, side braid, sky-blue hoodie) and Samuel (18, curly black hair, white t-shirt and denim overshirt)
+VOCABULARIO INTERACTIVO (10 — obligatorio, marcado con <b> en el texto, como week15.json):
+   - withdrawn — quiet and not wanting to be with others (retraído)  [<b> en página 1]
+   - empathy — the ability to understand other people's feelings (empatía)  [<b> en página 1]
+   - confront — to face a person or problem directly (enfrentar)  [<b> en página 2]
+   - resentment — a lasting feeling of anger (resentimiento)  [<b> en página 3]
+   - reconcile — to become friends again after a problem (reconciliarse)  [<b> en página 4]
+   - vulnerable — easy to hurt emotionally (vulnerable)  [<b> en página 4]
+   - perspective — a way of seeing a situation (perspectiva)  [<b> en página 6]
+   - interpret — to understand something in a particular way (interpretar)  [<b> en página 7]
+   - reassurance — words that remove doubts or fears (tranquilidad)  [<b> en página 8]
+   - assumption — something believed without proof (suposición)  [<b> en página 1]
+
+--- week22_grade11_cover.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5 book cover, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. In a small Medellin family apartment, Valentina (17, side braid, sky-blue hoodie) looks at a phone whose screen shows only an empty message-bubble icon, puzzled, while Samuel (18, curly black hair, white t-shirt and denim overshirt) watches her closely. The ONLY text: the title "Silence Is Also A Message" in navy and green letters with an orange underline; and at the bottom two lines of white/pale yellow letters directly on the image, no box: "Jony Rojas Ochoa" and below it "Reading Project shared by IEGRM". No other text, no logos.
+
+--- week22_grade11_page01.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. In a small Medellin family apartment, Valentina (17, side braid, sky-blue hoodie) looks at a phone whose screen shows only an empty message-bubble icon, puzzled, while Samuel (18, curly black hair, white t-shirt and denim overshirt) watches her closely. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade11_page02.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. In the apartment, Valentina looks hurt and confused as a quiet friend walks away with head down, while two classmates whisper different versions nearby; Samuel stays beside Valentina. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade11_page03.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. In the apartment, Valentina and Samuel sit together looking at printed photos of old good times (no text) and a small notebook, thinking carefully. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade11_page04.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. Valentina (17, side braid, sky-blue hoodie) calmly sits next to the quiet friend and starts a gentle, respectful conversation; Samuel watches hopefully from a short distance. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade11_page05.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. In a bright Medellin classroom, Valentina, Samuel and classmates watch a video call on a big screen with friendly teenagers from a youth exchange in New York City, faces only; they talk about a friend who suddenly became distant. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade11_page06.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. In the apartment, Valentina and the quiet friend talk openly and smile again; Samuel joins them; the friendship feels repaired. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade11_page07.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. At night in her bedroom, Valentina sits on her bed writing a reflection in a notebook, phone face-down beside her, warm lamp light. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+--- week22_grade11_page08.webp ---
+Use the attached reference images for the exact character designs and art style; keep the same faces, hair and clothes. Generate the image now: vertical 4:5, realistic cinematic digital illustration, tight crop, moody soft light, bright blue sky outdoors. In a Medellin high-school classroom, Valentina presents her ideas to attentive classmates and a friendly teacher, whiteboard behind her with simple shapes and arrows only. One single scene. Zero visible text anywhere, no letters, no numbers, no logos.
+
+FIN. Total: 6 portadas + 36 páginas = 42 imágenes.

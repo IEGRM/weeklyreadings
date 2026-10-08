@@ -1,0 +1,1698 @@
+{
+  "week": 1,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 1",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "A Morning Routine",
+      "minimumWordTarget": 350,
+      "wordCount": 353,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week01_grade06_page01.webp",
+          "artDirection": "Early morning bedroom in Medellín, 11-year-old Latina student waking before sunrise, warm realistic educational illustration.",
+          "sentences": [
+            {
+              "html": "Every school day, Valentina <b>wakes</b> up before six o’clock in a small apartment in Medellín."
+            },
+            {
+              "html": "The room is still dark, and she can sometimes see the moon before the sun begins to <b>rise</b>."
+            },
+            {
+              "html": "She sits on the edge of her bed for a moment and listens to the quiet sounds of the building."
+            },
+            {
+              "html": "Then she opens the window, takes a deep breath, and remembers that a good morning can help her have a good day."
+            },
+            {
+              "html": "Before leaving her room, she folds her blanket and checks the simple list beside her bed."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week01_grade06_page02.webp",
+          "artDirection": "Young student getting ready for school in a bright bathroom and bedroom, school clothes visible, age-appropriate premium illustration.",
+          "sentences": [
+            {
+              "html": "In the bathroom, Valentina <b>brushes</b> her teeth carefully for two minutes."
+            },
+            {
+              "html": "She laughs at the foam around her mouth and notices that her teeth look clean and white."
+            },
+            {
+              "html": "After washing her face, she chooses her school <b>clothes</b>."
+            },
+            {
+              "html": "Her favorite <b>shirt</b> is green because it reminds her of the trees near her school."
+            },
+            {
+              "html": "She also puts on dark pants, comfortable shoes, and a light jacket because mornings can be cool."
+            }
+          ],
+          "wordCount": 69
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week01_grade06_page03.webp",
+          "artDirection": "Family breakfast in a Colombian apartment kitchen, cereal, banana and conversation, warm educational storybook scene.",
+          "sentences": [
+            {
+              "html": "Next, Valentina walks <b>downstairs</b> to the kitchen, where her father is already preparing breakfast."
+            },
+            {
+              "html": "She takes a blue <b>bowl</b> from the cabinet and <b>pours</b> some milk over her <b>cereal</b>."
+            },
+            {
+              "html": "Her father adds a banana to the table and asks about her plans for the day."
+            },
+            {
+              "html": "Valentina says she has English, science, and physical education."
+            },
+            {
+              "html": "While she eats, she tries not to use her phone because her family prefers to talk together during breakfast."
+            }
+          ],
+          "wordCount": 73
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week01_grade06_page04.webp",
+          "artDirection": "Student checking backpack before school while grandfather reads a newspaper, then walking toward a bus stop, optimistic morning scene.",
+          "sentences": [
+            {
+              "html": "Before leaving home, Valentina checks her backpack: notebook, pencil case, water bottle, and homework."
+            },
+            {
+              "html": "Her grandfather is sitting near the door with a <b>newspaper</b>, and he reads a short local story aloud."
+            },
+            {
+              "html": "Valentina does not understand every word, so she asks one question before saying goodbye."
+            },
+            {
+              "html": "At the bus stop, she sees other students following their own routines."
+            },
+            {
+              "html": "She realizes that a routine is not only a list of actions; it is a way to organize time, arrive prepared, and begin the day with less stress."
+            },
+            {
+              "html": "She also notices that when she prepares everything the night before, she does not need to rush in the morning."
+            },
+            {
+              "html": "That small habit gives her more time to eat, think, and leave home calmly."
+            }
+          ],
+          "wordCount": 120
+        }
+      ],
+      "practiceWords": [
+        "wakes",
+        "rise",
+        "brushes",
+        "clothes",
+        "shirt",
+        "downstairs",
+        "bowl",
+        "pours",
+        "cereal",
+        "newspaper"
+      ],
+      "vocabulary": [
+        {
+          "word": "wakes",
+          "definition": "stops sleeping and gets up (se despierta)"
+        },
+        {
+          "word": "rise",
+          "definition": "to move upward; for the sun or moon, to appear higher in the sky (salir / elevarse)"
+        },
+        {
+          "word": "brushes",
+          "definition": "cleans with a brush (cepilla)"
+        },
+        {
+          "word": "clothes",
+          "definition": "things people wear, such as shirts and pants (ropa)"
+        },
+        {
+          "word": "shirt",
+          "definition": "a piece of clothing worn on the upper body (camisa)"
+        },
+        {
+          "word": "downstairs",
+          "definition": "to or on a lower floor (abajo / piso inferior)"
+        },
+        {
+          "word": "bowl",
+          "definition": "a round container used for food (tazón)"
+        },
+        {
+          "word": "pours",
+          "definition": "makes liquid flow from one container to another (vierte)"
+        },
+        {
+          "word": "cereal",
+          "definition": "a breakfast food made from grains (cereal)"
+        },
+        {
+          "word": "newspaper",
+          "definition": "a publication with news and information (periódico)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Why does Valentina prepare her things before leaving home?",
+          "options": [
+            "To avoid going to school",
+            "To make the morning more organized",
+            "To spend more time on her phone",
+            "To change her clothes twice"
+          ],
+          "answer": "To make the morning more organized"
+        },
+        {
+          "skill": "sequence",
+          "question": "What does Valentina do after getting dressed?",
+          "options": [
+            "She goes back to sleep",
+            "She reads the newspaper first",
+            "She leaves without eating",
+            "She goes downstairs for breakfast"
+          ],
+          "answer": "She goes downstairs for breakfast"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "In the reading, what does “pours” mean?",
+          "options": [
+            "Makes liquid flow into another container",
+            "Cleans a container",
+            "Carries food upstairs",
+            "Throws food away"
+          ],
+          "answer": "Makes liquid flow into another container"
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main idea of the reading?",
+          "options": [
+            "School uniforms are difficult to choose",
+            "Newspapers are better than phones",
+            "Morning routines can help people start the day prepared",
+            "Breakfast must always include cereal"
+          ],
+          "answer": "Morning routines can help people start the day prepared"
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why does Valentina avoid using her phone during breakfast?",
+          "options": [
+            "Her phone has no battery",
+            "Her family values talking together",
+            "She dislikes technology",
+            "Her father takes the phone away"
+          ],
+          "answer": "Her family values talking together"
+        }
+      ],
+      "cover": "../assets/images/week01_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "A Morning in the Neighborhood",
+      "minimumWordTarget": 400,
+      "wordCount": 406,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week01_grade07_page01.webp",
+          "artDirection": "Teen boy waking in a Medellín neighborhood bedroom on Saturday, street vendors outside, warm semi-realistic educational illustration.",
+          "sentences": [
+            {
+              "html": "Mateo <b>wakes</b> up on Saturday when he hears street vendors calling from the avenue below."
+            },
+            {
+              "html": "He is not going to school, but he has promised to meet his friends for a neighborhood basketball game."
+            },
+            {
+              "html": "He walks to the bathroom and looks in the <b>mirror</b>."
+            },
+            {
+              "html": "At thirteen, he has started to notice small changes in his face, including new <b>facial</b> hair above his lip."
+            },
+            {
+              "html": "He smiles because he feels older, but he also knows he is still learning how to take care of himself."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week01_grade07_page02.webp",
+          "artDirection": "Teen in bathroom considering a razor after shower, mirror and sink visible, safe non-graphic educational scene.",
+          "sentences": [
+            {
+              "html": "Mateo turns on the <b>shower</b>, but the water is cold, so he waits a minute before stepping in."
+            },
+            {
+              "html": "Afterward, he dries his face and remembers that his older brother left a small <b>razor</b> near the sink."
+            },
+            {
+              "html": "Mateo has never tried <b>shaving</b> by himself."
+            },
+            {
+              "html": "He thinks it looks easy because he has watched his brother do it many times."
+            },
+            {
+              "html": "Without asking anyone, he <b>grabs</b> the razor and slowly moves it across the skin above his lip."
+            }
+          ],
+          "wordCount": 75
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week01_grade07_page03.webp",
+          "artDirection": "Teen with a tiny harmless shaving cut pressing a towel to his lip while mother enters, caring family moment, non-graphic.",
+          "sentences": [
+            {
+              "html": "At first, nothing happens, and Mateo feels proud."
+            },
+            {
+              "html": "Then his hand moves too quickly and he makes a tiny cut."
+            },
+            {
+              "html": "A red line appears and begins to <b>bleed</b>."
+            },
+            {
+              "html": "Mateo becomes nervous and presses a clean <b>towel</b> against the cut."
+            },
+            {
+              "html": "His mother hears him moving around and asks if everything is all right."
+            },
+            {
+              "html": "Mateo tells her what happened."
+            },
+            {
+              "html": "She does not shout; instead, she explains that razors can be dangerous when people use them without knowing the correct technique."
+            }
+          ],
+          "wordCount": 78
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week01_grade07_page04.webp",
+          "artDirection": "Mother calmly helping teen clean a minor cut and explaining safe shaving, supportive domestic scene.",
+          "sentences": [
+            {
+              "html": "His mother helps him clean the cut and puts a small bandage on it."
+            },
+            {
+              "html": "When Mateo applies a little aftershave from his brother’s shelf, the cut <b>stings</b>, and he quickly decides that was a bad idea."
+            },
+            {
+              "html": "They both laugh."
+            },
+            {
+              "html": "His mother tells him that growing up does not mean doing everything alone; it also means knowing when to ask for help."
+            },
+            {
+              "html": "Mateo understands the message and sends his brother a text asking him to show him the right way another day."
+            }
+          ],
+          "wordCount": 81
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week01_grade07_page05.webp",
+          "artDirection": "Teen playing basketball with friends in a neighborhood court, small bandage visible, relaxed laughter and friendship.",
+          "sentences": [
+            {
+              "html": "Later, Mateo meets his friends at the court."
+            },
+            {
+              "html": "One friend notices the bandage and asks what happened."
+            },
+            {
+              "html": "Mateo could invent a dramatic story, but he chooses to tell the truth."
+            },
+            {
+              "html": "His friends laugh for a moment, then one says he once made the same mistake."
+            },
+            {
+              "html": "Mateo realizes that embarrassing moments can teach useful lessons."
+            },
+            {
+              "html": "By the end of the morning, the small cut matters less than what he learned about patience, safety, and asking questions before trying something new."
+            },
+            {
+              "html": "He feels more confident because he handled the mistake honestly."
+            }
+          ],
+          "wordCount": 89
+        }
+      ],
+      "practiceWords": [
+        "wakes",
+        "mirror",
+        "facial",
+        "shower",
+        "razor",
+        "shaving",
+        "grabs",
+        "bleed",
+        "towel",
+        "stings"
+      ],
+      "vocabulary": [
+        {
+          "word": "wakes",
+          "definition": "stops sleeping and becomes awake (se despierta)"
+        },
+        {
+          "word": "mirror",
+          "definition": "a surface that shows your reflection (espejo)"
+        },
+        {
+          "word": "facial",
+          "definition": "related to the face (facial)"
+        },
+        {
+          "word": "shower",
+          "definition": "a place or activity for washing the body with water (ducha)"
+        },
+        {
+          "word": "razor",
+          "definition": "a tool used for shaving hair (afeitadora / cuchilla)"
+        },
+        {
+          "word": "shaving",
+          "definition": "removing hair from the face or body with a razor (afeitarse)"
+        },
+        {
+          "word": "grabs",
+          "definition": "takes or holds something quickly (agarra)"
+        },
+        {
+          "word": "bleed",
+          "definition": "to lose blood from a cut or injury (sangrar)"
+        },
+        {
+          "word": "towel",
+          "definition": "a piece of cloth used for drying (toalla)"
+        },
+        {
+          "word": "stings",
+          "definition": "causes a sharp burning feeling (arde / pica)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Why does Mateo use the razor?",
+          "options": [
+            "He wants to fix a broken object",
+            "His mother asks him to shave",
+            "He wants to try shaving by himself",
+            "His friends are waiting for the razor"
+          ],
+          "answer": "He wants to try shaving by himself"
+        },
+        {
+          "skill": "cause and effect",
+          "question": "What happens because Mateo moves the razor too quickly?",
+          "options": [
+            "He makes a small cut",
+            "The razor breaks",
+            "The water becomes cold",
+            "He drops the towel"
+          ],
+          "answer": "He makes a small cut"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which lesson is most important in the story?",
+          "options": [
+            "Growing up means doing everything alone",
+            "Mistakes should always be hidden",
+            "People should avoid learning new skills",
+            "Being responsible includes asking for help when needed"
+          ],
+          "answer": "Being responsible includes asking for help when needed"
+        },
+        {
+          "skill": "inference",
+          "question": "Why does Mateo tell his friends the true story about the bandage?",
+          "options": [
+            "He wants them to buy a razor",
+            "He decides the mistake is nothing to hide",
+            "He wants to leave the game early",
+            "His mother tells him to explain it"
+          ],
+          "answer": "He decides the mistake is nothing to hide"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "What does “stings” describe in the reading?",
+          "options": [
+            "A loud sound",
+            "A feeling of sleepiness",
+            "A sharp burning feeling",
+            "A change in temperature"
+          ],
+          "answer": "A sharp burning feeling"
+        }
+      ],
+      "cover": "../assets/images/week01_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "A Soccer Game in the Barrio",
+      "minimumWordTarget": 450,
+      "wordCount": 461,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week01_grade08_page01.webp",
+          "artDirection": "Teenagers playing soccer on a worn neighborhood court in Medellín, energetic safe sports scene, premium educational illustration.",
+          "sentences": [
+            {
+              "html": "Julián and his <b>friends</b> meet every afternoon to play <b>soccer</b> at the neighborhood <b>cancha</b>."
+            },
+            {
+              "html": "The <b>field</b> is old, one goal has no net, and the painted lines are almost invisible, but everyone still loves the place."
+            },
+            {
+              "html": "For them, the court is more than a place for playing."
+            },
+            {
+              "html": "It is where they talk after school, practice new moves, and forget about homework for a while."
+            },
+            {
+              "html": "On Friday, they decide to organize a short match before the sun goes down."
+            }
+          ],
+          "wordCount": 78
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week01_grade08_page02.webp",
+          "artDirection": "Soccer ball flying over a fence toward a city street while a teen runs after it and a motorcycle approaches in the distance, tense but safe.",
+          "sentences": [
+            {
+              "html": "The game begins quickly."
+            },
+            {
+              "html": "Julián receives the <b>ball</b> near the middle of the court, turns, and <b>kicks</b> it much harder than he intended."
+            },
+            {
+              "html": "The ball flies over the low <b>fence</b> and lands on the street."
+            },
+            {
+              "html": "Luis reacts immediately and runs toward the gate."
+            },
+            {
+              "html": "He is focused only on getting the ball back before a passing car damages it."
+            },
+            {
+              "html": "The others see something Luis does not: a <b>motorcycle</b> is approaching the corner at high speed."
+            }
+          ],
+          "wordCount": 74
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week01_grade08_page03.webp",
+          "artDirection": "Teen stopping safely at the curb as friends shout warning, motorcycle passing, dramatic educational scene without injury.",
+          "sentences": [
+            {
+              "html": "“Stop, Luis!” several players <b>shout</b> at the same time."
+            },
+            {
+              "html": "Luis freezes just before stepping into the street."
+            },
+            {
+              "html": "The motorcycle passes in front of him and disappears down the avenue."
+            },
+            {
+              "html": "For a second, nobody speaks."
+            },
+            {
+              "html": "Then Luis walks back slowly, holding the ball against his chest."
+            },
+            {
+              "html": "He tries to smile, but everyone understands how close the situation was."
+            },
+            {
+              "html": "Julián feels responsible because his powerful kick started the problem, even though Luis made the decision to run."
+            }
+          ],
+          "wordCount": 75
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week01_grade08_page04.webp",
+          "artDirection": "Group of teens sitting beside a soccer court discussing safety rules, collaborative neighborhood atmosphere.",
+          "sentences": [
+            {
+              "html": "The group sits beside the court and discusses what happened."
+            },
+            {
+              "html": "Camila says they need a rule: nobody should run into the street for a ball without stopping and looking both ways."
+            },
+            {
+              "html": "Another player suggests asking an adult in the community to help raise the fence."
+            },
+            {
+              "html": "Luis laughs nervously and agrees that the ball is not worth risking an accident."
+            },
+            {
+              "html": "The players decide to be more <b>careful</b>, especially when younger children use the court."
+            }
+          ],
+          "wordCount": 73
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week01_grade08_page05.webp",
+          "artDirection": "Teens placing a simple safety sign near the court gate with community support, positive civic action and soccer context.",
+          "sentences": [
+            {
+              "html": "The next week, the group makes a simple sign that says “STOP — LOOK — CROSS SAFELY” and places it near the gate with permission from a local adult."
+            },
+            {
+              "html": "They also speak with the neighborhood committee about improving the fence."
+            },
+            {
+              "html": "Nothing becomes perfect overnight, but the players understand that safety is a shared responsibility."
+            },
+            {
+              "html": "Their match continues, and Julián still kicks hard, but now everyone pays attention to what is happening beyond the court as well as inside it."
+            }
+          ],
+          "wordCount": 77
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week01_grade08_page06.webp",
+          "artDirection": "Older teens explaining street safety to a younger student beside the neighborhood soccer court, positive mentoring scene.",
+          "sentences": [
+            {
+              "html": "A few days later, a younger student asks why the group changed its habits."
+            },
+            {
+              "html": "Luis tells him the story without exaggerating it."
+            },
+            {
+              "html": "He explains that being confident in a sport does not remove danger from the street."
+            },
+            {
+              "html": "The younger student listens carefully and promises to stop at the gate before crossing."
+            },
+            {
+              "html": "Julián notices that one mistake has turned into a useful lesson for other people."
+            },
+            {
+              "html": "The team feels proud because their response did more than protect one player; it made the whole area safer."
+            }
+          ],
+          "wordCount": 84
+        }
+      ],
+      "practiceWords": [
+        "friends",
+        "soccer",
+        "cancha",
+        "field",
+        "ball",
+        "kicks",
+        "fence",
+        "motorcycle",
+        "shout",
+        "careful"
+      ],
+      "vocabulary": [
+        {
+          "word": "friends",
+          "definition": "people you know and like (amigos)"
+        },
+        {
+          "word": "soccer",
+          "definition": "a sport played with a round ball and goals (fútbol)"
+        },
+        {
+          "word": "cancha",
+          "definition": "a sports court or playing field (cancha)"
+        },
+        {
+          "word": "field",
+          "definition": "an area used for sports or outdoor activities (campo)"
+        },
+        {
+          "word": "ball",
+          "definition": "a round object used in games and sports (balón)"
+        },
+        {
+          "word": "kicks",
+          "definition": "hits something with the foot (patea)"
+        },
+        {
+          "word": "fence",
+          "definition": "a barrier around an area (cerca)"
+        },
+        {
+          "word": "motorcycle",
+          "definition": "a two-wheeled motor vehicle (motocicleta)"
+        },
+        {
+          "word": "shout",
+          "definition": "to speak very loudly, often as a warning (gritar)"
+        },
+        {
+          "word": "careful",
+          "definition": "paying attention to avoid danger or mistakes (cuidadoso)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Why does Luis run toward the street?",
+          "options": [
+            "He wants to stop a motorcycle",
+            "He wants to get the ball back",
+            "He is leaving the game",
+            "He sees a younger student"
+          ],
+          "answer": "He wants to get the ball back"
+        },
+        {
+          "skill": "inference",
+          "question": "Why is Julián partly responsible even though Luis chose to run?",
+          "options": [
+            "Julián owned the motorcycle",
+            "Julián told Luis to cross the street",
+            "Julián refused to continue playing",
+            "Julián’s hard kick sent the ball outside the court"
+          ],
+          "answer": "Julián’s hard kick sent the ball outside the court"
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the group create a safety sign?",
+          "options": [
+            "To remind people to stop and cross safely",
+            "To decorate the cancha",
+            "To advertise a soccer tournament",
+            "To keep adults away from the court"
+          ],
+          "answer": "To remind people to stop and cross safely"
+        },
+        {
+          "skill": "main idea",
+          "question": "What does the story mainly show?",
+          "options": [
+            "Good teams never make mistakes",
+            "Motorcycles should not use neighborhood streets",
+            "Sports are safer when people share responsibility",
+            "Older players should always control younger players"
+          ],
+          "answer": "Sports are safer when people share responsibility"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Which word best matches the meaning of “careful” in the final part?",
+          "options": [
+            "Fast",
+            "Funny",
+            "Popular",
+            "Attentive"
+          ],
+          "answer": "Attentive"
+        }
+      ],
+      "cover": "../assets/images/week01_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "Working at the Corner Shop",
+      "minimumWordTarget": 500,
+      "wordCount": 501,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week01_grade09_page01.webp",
+          "artDirection": "15-year-old student arriving for first shift at a small Colombian neighborhood shop, clean uniform, welcoming shop owner.",
+          "sentences": [
+            {
+              "html": "Carlos had wanted a part-time <b>job</b> for months, so when the owner of a small corner <b>shop</b> called Tienda La Esperanza offered him work after school, he accepted immediately."
+            },
+            {
+              "html": "On his first afternoon, he arrived ten minutes early wearing a clean <b>uniform</b>."
+            },
+            {
+              "html": "He felt both <b>nervous</b> and excited because he had never worked for someone outside his family."
+            },
+            {
+              "html": "Don Luis, the owner, welcomed him and explained that the store served many people from the neighborhood every day."
+            }
+          ],
+          "wordCount": 77
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week01_grade09_page02.webp",
+          "artDirection": "Teen employee organizing shelves in a corner store while a coworker helps answer a customer question, realistic educational illustration.",
+          "sentences": [
+            {
+              "html": "Carlos’s first <b>task</b> was to organize the <b>shelves</b>."
+            },
+            {
+              "html": "He checked bags of rice, beans, pasta, and snacks, placing older products in front so they would sell first."
+            },
+            {
+              "html": "Then he cleaned the counter and learned where common items were stored."
+            },
+            {
+              "html": "At first, the amount of information felt overwhelming."
+            },
+            {
+              "html": "A customer asked for something Carlos could not find, and he almost guessed."
+            },
+            {
+              "html": "Instead, he asked one of his <b>coworkers</b> for help and learned that giving correct information is more important than pretending to know everything."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week01_grade09_page03.webp",
+          "artDirection": "Teen learning barcode scanner and cash register, serving customers carefully, modern neighborhood shop scene.",
+          "sentences": [
+            {
+              "html": "Later, Don Luis showed Carlos how to use the <b>scanner</b> and the cash register."
+            },
+            {
+              "html": "Carlos practiced with a few inexpensive products before serving real <b>customers</b>."
+            },
+            {
+              "html": "His hands shook slightly when he counted change for the first person in line."
+            },
+            {
+              "html": "After the customer left, he checked the amount again and saw that it was correct."
+            },
+            {
+              "html": "That small success made him more confident."
+            },
+            {
+              "html": "Soon he was greeting people, packing groceries, answering simple questions, and writing down special orders."
+            }
+          ],
+          "wordCount": 76
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week01_grade09_page04.webp",
+          "artDirection": "Busy corner shop before dinner with teen employee managing customers and delivery while owner coaches calmly.",
+          "sentences": [
+            {
+              "html": "The busiest moment came just before dinner."
+            },
+            {
+              "html": "Several customers entered at once, a delivery arrived, and the phone began to ring."
+            },
+            {
+              "html": "Carlos tried to do everything quickly, but speed caused mistakes."
+            },
+            {
+              "html": "He put bread in the wrong bag and almost charged one customer twice."
+            },
+            {
+              "html": "Don Luis stopped him and said, “Fast is useful only when you are also accurate.” Carlos slowed down, followed each step carefully, and noticed that the line moved more smoothly when he stayed organized."
+            }
+          ],
+          "wordCount": 78
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week01_grade09_page05.webp",
+          "artDirection": "Teen employee helping an elderly customer choose a less expensive product respectfully, warm community shop scene.",
+          "sentences": [
+            {
+              "html": "Near closing time, an elderly customer realized she was short of money for one item."
+            },
+            {
+              "html": "Carlos wanted to pay for it himself, but Don Luis explained that employees had to follow store rules."
+            },
+            {
+              "html": "Instead, he helped the customer choose a less expensive option."
+            },
+            {
+              "html": "The situation taught Carlos that good service is not the same as ignoring procedures."
+            },
+            {
+              "html": "It means listening, finding reasonable solutions, and treating people with respect even when you cannot give them exactly what they request."
+            }
+          ],
+          "wordCount": 78
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week01_grade09_page06.webp",
+          "artDirection": "Teen walking home at dusk after first job shift, thoughtful and proud, Medellín neighborhood atmosphere.",
+          "sentences": [
+            {
+              "html": "At the end of the shift, Carlos was tired but satisfied."
+            },
+            {
+              "html": "Don Luis asked what he had learned."
+            },
+            {
+              "html": "Carlos mentioned the scanner, the shelves, and the register, but then added that the most <b>valuable</b> lesson was about responsibility."
+            },
+            {
+              "html": "A job was not only about earning money; other people depended on him to be careful, honest, and helpful."
+            },
+            {
+              "html": "Walking home, he understood why his first day had felt difficult."
+            },
+            {
+              "html": "He had entered the shop as a student looking for experience and left feeling a little more independent."
+            },
+            {
+              "html": "He also knew that the next shift would bring new problems, but now he trusted himself to ask questions and learn from them."
+            }
+          ],
+          "wordCount": 109
+        }
+      ],
+      "practiceWords": [
+        "job",
+        "shop",
+        "nervous",
+        "uniform",
+        "task",
+        "shelves",
+        "coworkers",
+        "scanner",
+        "customers",
+        "valuable"
+      ],
+      "vocabulary": [
+        {
+          "word": "job",
+          "definition": "paid work that a person does (trabajo / empleo)"
+        },
+        {
+          "word": "shop",
+          "definition": "a place where goods are sold (tienda)"
+        },
+        {
+          "word": "nervous",
+          "definition": "worried or not fully relaxed (nervioso)"
+        },
+        {
+          "word": "uniform",
+          "definition": "special clothing worn for work or school (uniforme)"
+        },
+        {
+          "word": "task",
+          "definition": "a specific piece of work to complete (tarea)"
+        },
+        {
+          "word": "shelves",
+          "definition": "flat surfaces used to store or display things (estantes)"
+        },
+        {
+          "word": "coworkers",
+          "definition": "people who work with you (compañeros de trabajo)"
+        },
+        {
+          "word": "scanner",
+          "definition": "a device that reads barcodes or information (escáner)"
+        },
+        {
+          "word": "customers",
+          "definition": "people who buy goods or services (clientes)"
+        },
+        {
+          "word": "valuable",
+          "definition": "useful or important; worth a lot in some way (valioso)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What does Carlos learn before serving customers by himself?",
+          "options": [
+            "How to repair the store",
+            "How to prepare meals",
+            "How to use the scanner and cash register",
+            "How to drive a delivery vehicle"
+          ],
+          "answer": "How to use the scanner and cash register"
+        },
+        {
+          "skill": "inference",
+          "question": "Why does Carlos ask a coworker instead of guessing where an item is?",
+          "options": [
+            "He understands accuracy is more important than pretending",
+            "He wants to avoid helping customers",
+            "He does not like organizing shelves",
+            "He wants the coworker to do all his work"
+          ],
+          "answer": "He understands accuracy is more important than pretending"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What does Don Luis mean by “Fast is useful only when you are also accurate”?",
+          "options": [
+            "Speed matters more than customer service",
+            "Employees should work slowly all the time",
+            "Customers should serve themselves when the shop is busy",
+            "Efficiency requires both speed and correctness"
+          ],
+          "answer": "Efficiency requires both speed and correctness"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which statement best summarizes Carlos’s first day?",
+          "options": [
+            "He decides the job is too difficult and plans to quit",
+            "He discovers that work involves responsibility as well as tasks",
+            "He learns that customers usually create problems",
+            "He realizes earning money is the only purpose of a job"
+          ],
+          "answer": "He discovers that work involves responsibility as well as tasks"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "In the final paragraph, “valuable” most nearly means:",
+          "options": [
+            "expensive to buy",
+            "difficult to explain",
+            "important and useful",
+            "easy to replace"
+          ],
+          "answer": "important and useful"
+        }
+      ],
+      "cover": "../assets/images/week01_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "A New Opportunity",
+      "minimumWordTarget": 600,
+      "wordCount": 631,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week01_grade10_page01.webp",
+          "artDirection": "16-year-old student studying on an old failing laptop at a modest home while parents discuss finances in background, respectful realistic scene.",
+          "sentences": [
+            {
+              "html": "Samuel had been saving money for months because his old <b>laptop</b> could no longer run some of the programs he needed for school."
+            },
+            {
+              "html": "The battery lasted less than an hour, the keyboard sometimes failed, and video calls froze constantly."
+            },
+            {
+              "html": "Under normal circumstances, he might have asked his parents for help, but his family was <b>struggling</b>."
+            },
+            {
+              "html": "His mother had recently lost her job at a clothing <b>factory</b>, and his father had left a position at a garage after the business reduced its staff."
+            },
+            {
+              "html": "Samuel understood that rent, food, and transportation had to come before a new computer."
+            }
+          ],
+          "wordCount": 96
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week01_grade10_page02.webp",
+          "artDirection": "Teen arriving at successful uncle's elegant but tasteful home, noticing chandelier and paintings, reflective mood.",
+          "sentences": [
+            {
+              "html": "One Saturday, Samuel decided to visit his uncle Esteban, a <b>successful</b> business owner who lived across the city."
+            },
+            {
+              "html": "Samuel did not plan to demand anything; he simply hoped his uncle might know where to find a reliable used computer."
+            },
+            {
+              "html": "When he arrived, he was surprised by the <b>impressive</b> house."
+            },
+            {
+              "html": "A large chandelier hung from the high ceiling, framed paintings covered the walls, and every room seemed carefully designed."
+            },
+            {
+              "html": "The contrast with Samuel’s home made him uncomfortable."
+            },
+            {
+              "html": "He wondered whether asking for help would make him appear interested only in his uncle’s money."
+            }
+          ],
+          "wordCount": 92
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week01_grade10_page03.webp",
+          "artDirection": "Teen and uncle talking seriously at a dining table about school technology needs, supportive conversation.",
+          "sentences": [
+            {
+              "html": "Esteban offered him lunch and asked about school."
+            },
+            {
+              "html": "Samuel spoke about an upcoming technology project and then began to <b>hesitate</b>."
+            },
+            {
+              "html": "He explained the problems with his laptop and said he was trying to find an affordable replacement."
+            },
+            {
+              "html": "“I don’t want to be <b>rude</b> or ask for something expensive,” he added."
+            },
+            {
+              "html": "“I just need a computer that works.” Esteban listened without interrupting, then gave a slow <b>nod</b>."
+            },
+            {
+              "html": "He asked Samuel how much he had already saved and what specifications the school actually required."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week01_grade10_page04.webp",
+          "artDirection": "Uncle and teen comparing laptop specifications and prices together on a screen, practical financial decision-making scene.",
+          "sentences": [
+            {
+              "html": "Samuel showed him a list from his teacher."
+            },
+            {
+              "html": "Esteban opened his own laptop and compared several models."
+            },
+            {
+              "html": "Instead of simply buying the most expensive one, he explained the difference between memory, storage, processor speed, warranty, and price."
+            },
+            {
+              "html": "They found a refurbished laptop that met the school’s requirements for far less than Samuel expected."
+            },
+            {
+              "html": "Esteban took out his <b>wallet</b>, but before paying, he asked an important question: “What can you contribute?” Samuel showed him the money he had saved from small weekend jobs."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week01_grade10_page05.webp",
+          "artDirection": "Teen agreeing to earn part of laptop cost through weekend digital work, handshake or thoughtful agreement, empowering scene.",
+          "sentences": [
+            {
+              "html": "Esteban proposed an agreement."
+            },
+            {
+              "html": "He would pay the remaining amount as a loan, and Samuel could repay part of it by helping organize digital files for his uncle’s business on Saturdays."
+            },
+            {
+              "html": "Samuel almost jumped from his chair with excitement, but then he thought about the responsibility involved."
+            },
+            {
+              "html": "The arrangement meant he would receive the computer he needed, yet he would also have to give up some free time and meet real deadlines."
+            },
+            {
+              "html": "After a moment, he accepted."
+            },
+            {
+              "html": "The opportunity felt different from receiving a gift because his effort would be part of the solution."
+            }
+          ],
+          "wordCount": 94
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week01_grade10_page06.webp",
+          "artDirection": "Teen explaining the agreement honestly to his mother at home, warm supportive family conversation.",
+          "sentences": [
+            {
+              "html": "On the bus ride home, Samuel considered whether to tell his mother immediately."
+            },
+            {
+              "html": "At first he worried she might <b>feel bad</b> because the family could not buy the laptop themselves."
+            },
+            {
+              "html": "Then he realized that hiding the agreement could create a bigger problem."
+            },
+            {
+              "html": "When he arrived, he explained everything: the refurbished computer, the loan, the Saturday work, and the money he had already saved."
+            },
+            {
+              "html": "His mother was quiet for a moment, but then she said she was proud that he had looked for a responsible solution rather than simply asking someone to rescue him."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week01_grade10_page07.webp",
+          "artDirection": "Teen using new laptop for school and organizing files on weekend, balanced responsibility and independence, modern educational illustration.",
+          "sentences": [
+            {
+              "html": "The following month was not easy."
+            },
+            {
+              "html": "Samuel had to balance homework, family responsibilities, and the work he had promised to do for Esteban."
+            },
+            {
+              "html": "However, the experience changed the way he thought about opportunity."
+            },
+            {
+              "html": "Having a relative with money had helped, but the most important part was learning to compare options, communicate honestly, and accept obligations."
+            },
+            {
+              "html": "By the time he made his first repayment, the new laptop was no longer just a piece of technology."
+            },
+            {
+              "html": "It represented planning, trust, and the idea that support can be more meaningful when it also builds independence."
+            }
+          ],
+          "wordCount": 92
+        }
+      ],
+      "practiceWords": [
+        "laptop",
+        "struggling",
+        "factory",
+        "successful",
+        "impressive",
+        "hesitate",
+        "rude",
+        "nod",
+        "wallet",
+        "feel bad"
+      ],
+      "vocabulary": [
+        {
+          "word": "laptop",
+          "definition": "a portable computer (computador portátil)"
+        },
+        {
+          "word": "struggling",
+          "definition": "having difficulty with a problem or situation (teniendo dificultades)"
+        },
+        {
+          "word": "factory",
+          "definition": "a building where products are made (fábrica)"
+        },
+        {
+          "word": "successful",
+          "definition": "having achieved important goals (exitoso)"
+        },
+        {
+          "word": "impressive",
+          "definition": "causing admiration or strong attention (impresionante)"
+        },
+        {
+          "word": "hesitate",
+          "definition": "to pause because you are unsure (dudar / vacilar)"
+        },
+        {
+          "word": "rude",
+          "definition": "not polite or respectful (grosero / descortés)"
+        },
+        {
+          "word": "nod",
+          "definition": "to move the head up and down, often to show agreement (asentir)"
+        },
+        {
+          "word": "wallet",
+          "definition": "a small case for carrying money and cards (billetera)"
+        },
+        {
+          "word": "feel bad",
+          "definition": "to feel sad, guilty, or uncomfortable about something (sentirse mal)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Why does Samuel avoid asking his parents to buy a laptop?",
+          "options": [
+            "They do not support his studies",
+            "His family has more urgent financial needs",
+            "He wants a more expensive model",
+            "His school does not allow laptops"
+          ],
+          "answer": "His family has more urgent financial needs"
+        },
+        {
+          "skill": "inference",
+          "question": "Why does Esteban ask Samuel what he can contribute?",
+          "options": [
+            "He does not believe Samuel needs a computer",
+            "He wants Samuel to leave the house",
+            "He plans to sell Samuel his old laptop",
+            "He wants Samuel to take responsibility for the solution"
+          ],
+          "answer": "He wants Samuel to take responsibility for the solution"
+        },
+        {
+          "skill": "purpose",
+          "question": "What is the purpose of the paragraph comparing laptop specifications?",
+          "options": [
+            "To explain how Samuel and Esteban make an informed choice",
+            "To show that the most expensive device is always best",
+            "To prove Samuel already knows everything about computers",
+            "To show that refurbished computers never have warranties"
+          ],
+          "answer": "To explain how Samuel and Esteban make an informed choice"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "How does Samuel’s attitude change during the story?",
+          "options": [
+            "From enjoying school to wanting to quit",
+            "From trusting his uncle to refusing his advice",
+            "From wanting immediate help to accepting shared responsibility",
+            "From saving money to deciding money is unimportant"
+          ],
+          "answer": "From wanting immediate help to accepting shared responsibility"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which message best represents the reading?",
+          "options": [
+            "Family problems should be kept secret",
+            "Support can build independence when it includes responsibility",
+            "Technology is the main cause of financial stress",
+            "A successful relative should always pay for school materials"
+          ],
+          "answer": "Support can build independence when it includes responsibility"
+        }
+      ],
+      "cover": "../assets/images/week01_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "A New Haircut",
+      "minimumWordTarget": 700,
+      "wordCount": 741,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week01_grade11_page01.webp",
+          "artDirection": "17-year-old Colombian student considering a new look before final year of high school, mirror and everyday bedroom, thoughtful editorial illustration.",
+          "sentences": [
+            {
+              "html": "Kevin wanted a <b>fresh look</b> before starting his final year of <b>high school</b>."
+            },
+            {
+              "html": "For years, he had worn the same simple <b>haircut</b>: short on the sides, slightly longer on top, easy to maintain."
+            },
+            {
+              "html": "It suited him, but lately he had begun to feel that other people still saw him as the quiet younger student he used to be."
+            },
+            {
+              "html": "In his barrio, appearance mattered more than he wanted to admit."
+            },
+            {
+              "html": "Friends discussed sneakers, hairstyles, music, and social media constantly, and Kevin wondered whether changing the way he looked might also change the way people treated him."
+            }
+          ],
+          "wordCount": 95
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week01_grade11_page02.webp",
+          "artDirection": "Modern neighborhood barbershop with teen consulting barber about haircut options, clippers and lively atmosphere, mature educational magazine style.",
+          "sentences": [
+            {
+              "html": "On Friday afternoon, he entered a local <b>barbershop</b> filled with music, conversation, and the steady sound of clippers."
+            },
+            {
+              "html": "The barber, Nico, had cut Kevin’s hair before and noticed immediately that he looked uncertain."
+            },
+            {
+              "html": "“What do you want this time?” he asked."
+            },
+            {
+              "html": "Kevin paused."
+            },
+            {
+              "html": "He wanted something <b>bold</b>, but he could not explain exactly what that meant."
+            },
+            {
+              "html": "Nico showed him several photos and asked practical questions about school rules, how much time Kevin wanted to spend styling his hair, and whether he was comfortable with a dramatic change."
+            }
+          ],
+          "wordCount": 87
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week01_grade11_page03.webp",
+          "artDirection": "Teen seeing a clean fade haircut in mirror for first time, reflective confident expression, premium semi-realistic illustration.",
+          "sentences": [
+            {
+              "html": "Kevin chose a clean <b>fade</b> with a sharper line around the front."
+            },
+            {
+              "html": "While Nico worked, Kevin removed his glasses and listened to the conversations around him."
+            },
+            {
+              "html": "One customer argued that a good haircut could completely change a person’s confidence."
+            },
+            {
+              "html": "Another said confidence came from behavior, not appearance."
+            },
+            {
+              "html": "Kevin thought about both opinions."
+            },
+            {
+              "html": "When Nico finally turned the chair toward the mirror, Kevin put on his glasses and studied his <b>reflection</b>."
+            },
+            {
+              "html": "He looked older and, at least to himself, somewhat tougher."
+            },
+            {
+              "html": "For a few seconds, the change felt exactly as powerful as he had imagined."
+            }
+          ],
+          "wordCount": 94
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week01_grade11_page04.webp",
+          "artDirection": "Teen at school receiving attention from friends after haircut, confident but slightly overassertive group interaction.",
+          "sentences": [
+            {
+              "html": "The reaction from his friends was immediate."
+            },
+            {
+              "html": "Some liked the style, and one joked that Kevin looked ready for a reggaeton video."
+            },
+            {
+              "html": "Others asked for the barber’s number."
+            },
+            {
+              "html": "At school on Monday, even a few <b>strangers</b> seemed to notice him."
+            },
+            {
+              "html": "Kevin enjoyed the attention, but he also began acting differently."
+            },
+            {
+              "html": "He spoke louder in group conversations and interrupted people more often."
+            },
+            {
+              "html": "During a class presentation, he dismissed a classmate’s suggestion without listening carefully."
+            },
+            {
+              "html": "His friend Sara later told him that looking confident was fine, but acting as if other people’s ideas did not matter was something else."
+            }
+          ],
+          "wordCount": 97
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week01_grade11_page05.webp",
+          "artDirection": "Student reconsidering behavior after friend gives honest feedback, classroom teamwork and active listening, mature social-emotional scene.",
+          "sentences": [
+            {
+              "html": "Sara’s comment bothered him because it was true."
+            },
+            {
+              "html": "Kevin had wanted others to take him seriously, yet he had begun confusing seriousness with dominance."
+            },
+            {
+              "html": "That afternoon, he remembered the debate in the barbershop."
+            },
+            {
+              "html": "A new appearance could influence first impressions, but it could not create leadership by itself."
+            },
+            {
+              "html": "The next day, he apologized to his classmate and asked to hear the suggestion again."
+            },
+            {
+              "html": "The idea improved their project."
+            },
+            {
+              "html": "Kevin noticed that the group responded better when he listened, asked questions, and explained his own opinions calmly."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week01_grade11_page06.webp",
+          "artDirection": "Teen approached in a shopping center by a legitimate-looking music producer offering a business card, cautious professional interaction.",
+          "sentences": [
+            {
+              "html": "A week later, Kevin was at a shopping center when a man introduced himself as a local <b>music producer</b>."
+            },
+            {
+              "html": "He said he was helping prepare a music video and asked whether Kevin had ever considered <b>modeling</b>."
+            },
+            {
+              "html": "Kevin was surprised and slightly flattered, but he did not immediately agree."
+            },
+            {
+              "html": "The man offered a phone number and suggested sending personal photos."
+            },
+            {
+              "html": "Kevin remembered a school discussion about online safety and professional opportunities."
+            },
+            {
+              "html": "Instead of sharing information on the spot, he took the producer’s public business card and told him he would verify the company first."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week01_grade11_page07.webp",
+          "artDirection": "Teen and mother verifying a media company online at home, digital safety and decision-making scene.",
+          "sentences": [
+            {
+              "html": "At home, Kevin searched for the company with his mother."
+            },
+            {
+              "html": "They found a professional website and public social-media accounts, but they also noticed that legitimate casting information was handled through an official email address, not a private messaging account."
+            },
+            {
+              "html": "Kevin contacted the company using that address and learned that the producer was real, but the project required a formal application and parental authorization for younger participants."
+            },
+            {
+              "html": "The experience reinforced an important lesson: an exciting opportunity can still require caution."
+            },
+            {
+              "html": "Confidence should not make someone careless."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week01_grade11_page08.webp",
+          "artDirection": "Teen with same haircut later acting more grounded and confident, reflective final-year high-school atmosphere, leadership through behavior.",
+          "sentences": [
+            {
+              "html": "By the end of the month, Kevin still liked his haircut, but its meaning had changed."
+            },
+            {
+              "html": "At first, he had expected the style to transform him into someone people would automatically respect."
+            },
+            {
+              "html": "Instead, the haircut became the beginning of a more complicated lesson about identity."
+            },
+            {
+              "html": "Appearance can affect how others see us, but respect develops through decisions, communication, and consistency."
+            },
+            {
+              "html": "Kevin kept the fade, but he stopped treating it like proof that he had become a leader."
+            },
+            {
+              "html": "He understood that a razor and a good barber could change a reflection in one afternoon; becoming the person he wanted to be would take much longer."
+            }
+          ],
+          "wordCount": 104
+        }
+      ],
+      "practiceWords": [
+        "fresh look",
+        "high school",
+        "haircut",
+        "bold",
+        "barbershop",
+        "fade",
+        "reflection",
+        "strangers",
+        "music producer",
+        "modeling"
+      ],
+      "vocabulary": [
+        {
+          "word": "fresh look",
+          "definition": "a new or updated appearance (apariencia renovada)"
+        },
+        {
+          "word": "high school",
+          "definition": "secondary school for older students (bachillerato / secundaria)"
+        },
+        {
+          "word": "haircut",
+          "definition": "the style or act of cutting someone’s hair (corte de cabello)"
+        },
+        {
+          "word": "bold",
+          "definition": "confident, noticeable, and not afraid to stand out (audaz)"
+        },
+        {
+          "word": "barbershop",
+          "definition": "a place where people get haircuts and shaves (barbería)"
+        },
+        {
+          "word": "fade",
+          "definition": "a haircut that gradually becomes shorter toward the neck (degradado)"
+        },
+        {
+          "word": "reflection",
+          "definition": "an image seen in a mirror or shiny surface (reflejo)"
+        },
+        {
+          "word": "strangers",
+          "definition": "people you do not know (desconocidos)"
+        },
+        {
+          "word": "music producer",
+          "definition": "a professional who helps create and manage music recordings or projects (productor musical)"
+        },
+        {
+          "word": "modeling",
+          "definition": "posing for photos, fashion, or media projects as a model (modelaje)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "Why does Kevin initially want a bold haircut?",
+          "options": [
+            "He wants to copy his barber exactly",
+            "His school requires students to change styles",
+            "He hopes a new appearance will influence how others see him",
+            "He plans to become a barber"
+          ],
+          "answer": "He hopes a new appearance will influence how others see him"
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "What does Sara’s comment help Kevin understand?",
+          "options": [
+            "Confidence and disrespect are not the same thing",
+            "A haircut should never attract attention",
+            "Class projects are less important than appearance",
+            "Leadership requires speaking louder than everyone else"
+          ],
+          "answer": "Confidence and disrespect are not the same thing"
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the music-producer episode?",
+          "options": [
+            "To prove Kevin should become famous",
+            "To explain how music videos are recorded",
+            "To suggest strangers are always dishonest",
+            "To show that exciting opportunities still require verification"
+          ],
+          "answer": "To show that exciting opportunities still require verification"
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "In the final paragraph, “reflection” refers most directly to:",
+          "options": [
+            "a school rule",
+            "an image seen in a mirror",
+            "a public reputation",
+            "a musical performance"
+          ],
+          "answer": "an image seen in a mirror"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which statement best expresses the central idea?",
+          "options": [
+            "Physical appearance can create lasting leadership by itself",
+            "Teenagers should avoid changing their appearance",
+            "Respect develops more from consistent choices than from appearance",
+            "Professional opportunities should always be rejected"
+          ],
+          "answer": "Respect develops more from consistent choices than from appearance"
+        }
+      ],
+      "cover": "../assets/images/week01_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}

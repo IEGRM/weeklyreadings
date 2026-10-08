@@ -1,0 +1,2298 @@
+{
+  "week": 28,
+  "program": "weekly-readings",
+  "schemaVersion": 2,
+  "title": "Week 28",
+  "contentPolicy": {
+    "legacySentenceSchema": false,
+    "pagesRequired": true,
+    "manualAudioFiles": false,
+    "tts": "Web Speech API / SpeechSynthesis",
+    "pageIllustrations": "Artistly-ready"
+  },
+  "grades": {
+    "6": {
+      "grade": "6",
+      "label": "6° Grade / A1 Beginner",
+      "title": "The Mystery Room Swap",
+      "minimumWordTarget": 350,
+      "wordCount": 355,
+      "readingFocus": [
+        "literal comprehension",
+        "sequence",
+        "vocabulary in context",
+        "main idea",
+        "simple inference"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week28_grade06_page01.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Mystery Room Swap”, page 1. Scene based on: In a small family apartment in Medellín, Mateo, 11, and his sister Sara, 11, push a wooden chair and carry blankets between two small bedrooms while their mother points at a wall clock showing five o'clock. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "It is Friday, and the house is very busy."
+            },
+            {
+              "html": "Mateo’s cousins are coming for the weekend."
+            },
+            {
+              "html": "Their names are Pablo and Lina."
+            },
+            {
+              "html": "They are arriving at five o’clock."
+            },
+            {
+              "html": "Mom has a plan for the <b>room</b> problem."
+            },
+            {
+              "html": "“Pablo and Lina are sleeping in your <b>bedroom</b>, Mateo.”"
+            },
+            {
+              "html": "“You are sleeping in Sara’s room on the mattress.”"
+            },
+            {
+              "html": "Mateo is not very happy, but he says okay."
+            },
+            {
+              "html": "He and his sister Sara move some <b>furniture</b>."
+            },
+            {
+              "html": "They move a <b>chair</b>, a small table, and a box."
+            },
+            {
+              "html": "Mateo puts clean sheets on his <b>bed</b>."
+            },
+            {
+              "html": "At five, the doorbell rings."
+            }
+          ],
+          "wordCount": 93
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week28_grade06_page02.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Mystery Room Swap”, page 2. Scene based on: In the living room, Pablo, 9, and Lina, 7, stand with their parents next to two bags, a green bag and a pink backpack, while Mateo holds up a pink backpack with a puzzled face and Sara laughs. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Pablo and Lina are at the door with their parents."
+            },
+            {
+              "html": "Pablo is nine, and Lina is seven."
+            },
+            {
+              "html": "Everybody is happy and hugging."
+            },
+            {
+              "html": "There are two <b>bag</b>s on the floor."
+            },
+            {
+              "html": "One bag is green, and one bag is pink."
+            },
+            {
+              "html": "“Is this your bag, Pablo?” Mateo asks."
+            },
+            {
+              "html": "“No, it isn’t mine. It’s my sister’s,” Pablo says."
+            },
+            {
+              "html": "“My bag is the green one.”"
+            },
+            {
+              "html": "Mateo takes the bags to his bedroom."
+            },
+            {
+              "html": "His <b>cousin</b> Lina is very quiet."
+            },
+            {
+              "html": "She looks at the bedroom and holds her mother’s hand."
+            },
+            {
+              "html": "“Is she okay?” Sara asks Mom."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week28_grade06_page03.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Mystery Room Swap”, page 3. Scene based on: At night in Mateo's bedroom with the main light off, little Lina, 7, sits on the bed hugging a pillow and looking worried at the dark corner, while Mateo and Sara stand at the door with a small star-shaped lamp. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At nine o’clock, it is time for bed."
+            },
+            {
+              "html": "Mateo turns off the light in his bedroom."
+            },
+            {
+              "html": "After two minutes, Lina is crying softly."
+            },
+            {
+              "html": "Mateo and Sara go to the door."
+            },
+            {
+              "html": "“What is the problem, Lina?” Sara asks gently."
+            },
+            {
+              "html": "Lina holds her <b>pillow</b> very tight."
+            },
+            {
+              "html": "“This room is very <b>dark</b>,” she says."
+            },
+            {
+              "html": "“I am scared of the dark.”"
+            },
+            {
+              "html": "Mateo thinks about his room at night."
+            },
+            {
+              "html": "His room has no light at all."
+            },
+            {
+              "html": "But Sara’s room has a small star <b>lamp</b>."
+            },
+            {
+              "html": "Mateo has an idea."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week28_grade06_page04.webp",
+          "artDirection": "Soft pastel 3D educational storybook, cute rounded characters, bright natural daylight, 11-year-old student context, short concrete A1 English. One single 4:5 vertical scene for “The Mystery Room Swap”, page 4. Scene based on: In a cozy bedroom with a glowing star-shaped lamp on the wall, Lina, 7, sleeps peacefully in bed with a pillow, while Mateo and Sara quietly sleep on a mattress in the other room, seen through an open door, and Pablo gives a thumbs up. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "“Let’s swap the rooms again,” Mateo says."
+            },
+            {
+              "html": "“Lina and Pablo can sleep in Sara’s room.”"
+            },
+            {
+              "html": "“Sara’s room has the star lamp.”"
+            },
+            {
+              "html": "“Sara and I can sleep in my room.”"
+            },
+            {
+              "html": "Mom smiles. “That is a very good idea, Mateo.”"
+            },
+            {
+              "html": "They move the bags and the pillows again."
+            },
+            {
+              "html": "Lina lies on Sara’s bed and looks at the stars."
+            },
+            {
+              "html": "Now she is calm and happy."
+            },
+            {
+              "html": "“Thank you, Mateo,” she whispers."
+            },
+            {
+              "html": "The next morning, everybody eats pancakes together."
+            },
+            {
+              "html": "Mateo writes in his notebook after breakfast."
+            },
+            {
+              "html": "“A good plan can change for a good reason.”"
+            }
+          ],
+          "wordCount": 90
+        }
+      ],
+      "practiceWords": [
+        "room",
+        "cousin",
+        "bedroom",
+        "furniture",
+        "bed",
+        "chair",
+        "bag",
+        "pillow",
+        "lamp",
+        "dark"
+      ],
+      "vocabulary": [
+        {
+          "word": "room",
+          "definition": "a space inside a house with walls and a door (habitación)"
+        },
+        {
+          "word": "cousin",
+          "definition": "the child of your aunt or uncle (primo)"
+        },
+        {
+          "word": "bedroom",
+          "definition": "a room for sleeping (dormitorio)"
+        },
+        {
+          "word": "furniture",
+          "definition": "things like beds, chairs, and tables (muebles)"
+        },
+        {
+          "word": "bed",
+          "definition": "a piece of furniture for sleeping (cama)"
+        },
+        {
+          "word": "chair",
+          "definition": "a seat for one person (silla)"
+        },
+        {
+          "word": "bag",
+          "definition": "a container for carrying things (bolso)"
+        },
+        {
+          "word": "pillow",
+          "definition": "a soft thing for your head in bed (almohada)"
+        },
+        {
+          "word": "lamp",
+          "definition": "a thing that gives light in a room (lámpara)"
+        },
+        {
+          "word": "dark",
+          "definition": "without light (oscuro)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "literal comprehension",
+          "question": "Why do Mateo and Sara move the furniture on Friday?",
+          "options": [
+            "The family is moving to a new apartment next week.",
+            "Their mother wants to buy new furniture.",
+            "Their cousins are coming to stay for the weekend.",
+            "Mateo wants a bigger bedroom for himself."
+          ],
+          "answer": "Their cousins are coming to stay for the weekend."
+        },
+        {
+          "skill": "sequence",
+          "question": "What happens FIRST in the story?",
+          "options": [
+            "The family eats pancakes together.",
+            "Lina says that the room is very dark.",
+            "Mateo and Sara swap the rooms again at night.",
+            "Mom explains the plan for the bedrooms."
+          ],
+          "answer": "Mom explains the plan for the bedrooms."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “They move a chair, a small table, and a box.” These things are examples of…",
+          "options": [
+            "furniture",
+            "pillows",
+            "decorations",
+            "bags"
+          ],
+          "answer": "furniture"
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the story mainly about?",
+          "options": [
+            "A family buys a new lamp for a dark bedroom.",
+            "A boy changes a plan to help his little cousin feel safe.",
+            "A boy does not want to share his room with anyone.",
+            "Two cousins fight all night about a pink bag and a green bag."
+          ],
+          "answer": "A boy changes a plan to help his little cousin feel safe."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why does Mateo decide to swap the rooms again?",
+          "options": [
+            "Mateo wants to sleep in his own bed again immediately.",
+            "Pablo wants to sleep next to his parents in the living room.",
+            "Sara’s room has a lamp, and Lina is afraid of the dark.",
+            "The green bag does not fit in his bedroom."
+          ],
+          "answer": "Sara’s room has a lamp, and Lina is afraid of the dark."
+        }
+      ],
+      "cover": "../assets/images/week28_grade06_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "7": {
+      "grade": "7",
+      "label": "7° Grade / A1 Advanced",
+      "title": "The Hostel That Changed Our Plan",
+      "minimumWordTarget": 400,
+      "wordCount": 429,
+      "readingFocus": [
+        "explicit information",
+        "cause and effect",
+        "main idea",
+        "simple inference",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week28_grade07_page01.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Hostel That Changed Our Plan”, page 1. Scene based on: On a Medellín Metro platform in the morning, Valeria, 12, with a purple suitcase reads a phone message shown only as an envelope icon and a clock icon, surprised, while Samuel, 12, with a backpack leans in to look. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valeria and Samuel are neighbors and good friends."
+            },
+            {
+              "html": "This Saturday, they <b>travel</b> with Valeria’s aunt."
+            },
+            {
+              "html": "They are going to Santa Fe de Antioquia."
+            },
+            {
+              "html": "It is a small, hot town with old streets."
+            },
+            {
+              "html": "Valeria’s aunt has a <b>reservation</b> at a <b>hostel</b>."
+            },
+            {
+              "html": "They are on the Metro <b>platform</b> at nine."
+            },
+            {
+              "html": "Valeria’s phone buzzes with a new email."
+            },
+            {
+              "html": "It is from the hostel."
+            },
+            {
+              "html": "“Sorry, <b>check-in</b> is now at five, not at two.”"
+            },
+            {
+              "html": "Valeria reads it twice. “Oh no!” she says."
+            },
+            {
+              "html": "“We can’t go to our rooms until five!”"
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week28_grade07_page02.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Hostel That Changed Our Plan”, page 2. Scene based on: Inside a moving intercity bus, Valeria looks worried at her phone while her aunt shrugs, and Samuel points at something on the screen with a curious smile; green hills pass by the window. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On the bus, Valeria is worried."
+            },
+            {
+              "html": "“We need a place for our things,” she says."
+            },
+            {
+              "html": "Her <b>suitcase</b> is big and heavy."
+            },
+            {
+              "html": "“We can’t walk around town with suitcases.”"
+            },
+            {
+              "html": "Her aunt is worried too."
+            },
+            {
+              "html": "“Maybe we <b>need</b> to change the whole day,” she says."
+            },
+            {
+              "html": "Samuel reads the email again, slowly."
+            },
+            {
+              "html": "He notices a small line at the end."
+            },
+            {
+              "html": "“Look. ‘Luggage storage is available,’” he reads."
+            },
+            {
+              "html": "“What does ‘luggage storage’ mean?” Valeria asks."
+            },
+            {
+              "html": "“It means they keep your bags for you,” Samuel says."
+            },
+            {
+              "html": "“I think we don’t need to change everything.”"
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week28_grade07_page03.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Hostel That Changed Our Plan”, page 3. Scene based on: At the wooden reception desk of a small colonial-style hostel with a green plant and old tiles, a friendly receptionist takes Valeria's purple suitcase, while Samuel and Valeria's aunt smile with relief. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At one o’clock, they arrive at the hostel."
+            },
+            {
+              "html": "It is an old white house with green windows."
+            },
+            {
+              "html": "There is a friendly woman at <b>reception</b>."
+            },
+            {
+              "html": "“Hello! Can you keep our bags until five?” Valeria asks."
+            },
+            {
+              "html": "“Of course. You don’t need to carry them,” she says."
+            },
+            {
+              "html": "“The rooms need more cleaning time today.”"
+            },
+            {
+              "html": "“That’s why check-in is later.”"
+            },
+            {
+              "html": "“We are sorry for the change.”"
+            },
+            {
+              "html": "Valeria understands, and she is not angry now."
+            },
+            {
+              "html": "The woman gives them a small map."
+            },
+            {
+              "html": "“You can visit the old bridge first,” she says."
+            }
+          ],
+          "wordCount": 86
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week28_grade07_page04.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Hostel That Changed Our Plan”, page 4. Scene based on: On the long old hanging Puente de Occidente over a wide brown river in hot sunlight, Valeria and Samuel walk with sun hats, Valeria pointing at the river, her aunt following with a water bottle. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They walk to the Puente de Occidente."
+            },
+            {
+              "html": "It is a very old <b>bridge</b> over the Cauca River."
+            },
+            {
+              "html": "It is long, narrow, and made of wood and metal."
+            },
+            {
+              "html": "The river is brown and very wide."
+            },
+            {
+              "html": "“I love this place!” Valeria says."
+            },
+            {
+              "html": "“We need water. It is very hot,” her aunt says."
+            },
+            {
+              "html": "They buy cold lemonade from a small store."
+            },
+            {
+              "html": "Samuel takes photos of the bridge and the river."
+            },
+            {
+              "html": "“Without the email, we can’t plan this,” he says."
+            },
+            {
+              "html": "“Without you, we can’t read it well,” Valeria laughs."
+            }
+          ],
+          "wordCount": 85
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week28_grade07_page05.webp",
+          "artDirection": "Painterly digital educational illustration, soft brushwork, gentle outlines, vivid but soft colors, 12-year-old student context, clear A1+ English. One single 4:5 vertical scene for “The Hostel That Changed Our Plan”, page 5. Scene based on: In the late afternoon in a sunny colonial square in Santa Fe de Antioquia with white houses and a church, Valeria writes in a small notebook on a bench while Samuel eats a tamarind sweet and her aunt holds the hostel keys. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At five, they go back to the hostel."
+            },
+            {
+              "html": "Their rooms are clean and ready."
+            },
+            {
+              "html": "Valeria’s aunt gets the keys at reception."
+            },
+            {
+              "html": "Then they sit in the main square."
+            },
+            {
+              "html": "Samuel buys a sweet made with tamarind."
+            },
+            {
+              "html": "Valeria opens her notebook and writes a short note."
+            },
+            {
+              "html": "“When a <b>plan</b> changes, read everything first.”"
+            },
+            {
+              "html": "“Small details can save a big trip.”"
+            },
+            {
+              "html": "Samuel reads it and smiles."
+            },
+            {
+              "html": "“Can I add one more idea?” he asks."
+            },
+            {
+              "html": "“Sure. What is it?” Valeria says."
+            },
+            {
+              "html": "“Ask questions. You don’t need to panic.”"
+            }
+          ],
+          "wordCount": 84
+        }
+      ],
+      "practiceWords": [
+        "travel",
+        "hostel",
+        "reservation",
+        "platform",
+        "check-in",
+        "suitcase",
+        "reception",
+        "need",
+        "bridge",
+        "plan"
+      ],
+      "vocabulary": [
+        {
+          "word": "travel",
+          "definition": "to go from one place to another (viajar)"
+        },
+        {
+          "word": "hostel",
+          "definition": "a cheap place to stay for travelers (hostal)"
+        },
+        {
+          "word": "reservation",
+          "definition": "a place you book before you arrive (reserva)"
+        },
+        {
+          "word": "platform",
+          "definition": "the place where you wait for a train (andén)"
+        },
+        {
+          "word": "check-in",
+          "definition": "the time when you can enter your room (registro de entrada)"
+        },
+        {
+          "word": "suitcase",
+          "definition": "a bag with a handle for travel clothes (maleta)"
+        },
+        {
+          "word": "reception",
+          "definition": "the desk where guests are welcomed (recepción)"
+        },
+        {
+          "word": "need",
+          "definition": "to have to do something important (necesitar)"
+        },
+        {
+          "word": "bridge",
+          "definition": "a structure that goes over a river (puente)"
+        },
+        {
+          "word": "plan",
+          "definition": "a list of things you are going to do (plan)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What new information does the hostel send in the email?",
+          "options": [
+            "The hostel is full and the reservation is cancelled.",
+            "The bridge is closed for repairs today.",
+            "The bus to Santa Fe leaves one hour later.",
+            "Check-in is now at five instead of two."
+          ],
+          "answer": "Check-in is now at five instead of two."
+        },
+        {
+          "skill": "cause and effect",
+          "question": "What happens because Samuel notices the line about luggage storage?",
+          "options": [
+            "They leave their suitcases at the hostel and visit the town.",
+            "They wait at the bus station until five o’clock.",
+            "They change their reservation to a different hostel near the bridge.",
+            "They go back to Medellín with their suitcases."
+          ],
+          "answer": "They leave their suitcases at the hostel and visit the town."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main idea of the story?",
+          "options": [
+            "Hostels always change the check-in time.",
+            "Reading information carefully can save a changed plan.",
+            "Children should not travel alone with big, heavy suitcases.",
+            "Santa Fe de Antioquia is a hot town with old streets."
+          ],
+          "answer": "Reading information carefully can save a changed plan."
+        },
+        {
+          "skill": "simple inference",
+          "question": "Why does the receptionist say “We are sorry for the change”?",
+          "options": [
+            "She does not want to keep their suitcases.",
+            "She thinks Valeria broke something in the hostel’s reception area.",
+            "She knows the new check-in time causes a problem for guests.",
+            "She forgot the family’s reservation."
+          ],
+          "answer": "She knows the new check-in time causes a problem for guests."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “There is a friendly woman at reception.” “Reception” is…",
+          "options": [
+            "a long bridge over a river",
+            "the place where you wait for a train",
+            "a bag with a handle for clothes",
+            "the desk where guests are welcomed"
+          ],
+          "answer": "the desk where guests are welcomed"
+        }
+      ],
+      "cover": "../assets/images/week28_grade07_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "8": {
+      "grade": "8",
+      "label": "8° Grade / A2 Beginner",
+      "title": "Training on the Hill",
+      "minimumWordTarget": 450,
+      "wordCount": 460,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week28_grade08_page01.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “Training on the Hill”, page 1. Scene based on: On a steep green path up Cerro Nutibara in Medellín on a Saturday morning, a youth running club in colorful T-shirts gathers around a female coach; Camila, 13, with a high ponytail, jogs in place eagerly while Mateo, 13, ties his shoe. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "It is Saturday morning on Cerro Nutibara."
+            },
+            {
+              "html": "Camila is going to a running club for the first time."
+            },
+            {
+              "html": "The club meets at the bottom of the <b>hill</b>."
+            },
+            {
+              "html": "Twelve teenagers are waiting with the coach."
+            },
+            {
+              "html": "Camila’s friend Mateo is a member of the club."
+            },
+            {
+              "html": "“Today we are <b>training</b> on the hill,” the coach says."
+            },
+            {
+              "html": "Camila is feeling excited and strong."
+            },
+            {
+              "html": "She wants to <b>run</b> fast immediately."
+            },
+            {
+              "html": "“First, we are doing a <b>warm-up</b>,” the coach says."
+            },
+            {
+              "html": "Camila is jumping in place, impatient."
+            }
+          ],
+          "wordCount": 80
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week28_grade08_page02.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “Training on the Hill”, page 2. Scene based on: On the hill path, Camila runs fast and passes other club members who are walking, jogging slowly, or stretching on the grass, while Mateo jogs steadily behind her and looks at her with concern. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Now everyone is going up the path."
+            },
+            {
+              "html": "Camila is running very fast."
+            },
+            {
+              "html": "She is passing the other runners one by one."
+            },
+            {
+              "html": "A girl is walking slowly on the side."
+            },
+            {
+              "html": "A boy is running, then stopping, then running again."
+            },
+            {
+              "html": "Two runners are talking and laughing while they jog."
+            },
+            {
+              "html": "Camila is thinking, “They aren’t really training.”"
+            },
+            {
+              "html": "“I am the fastest one here!”"
+            },
+            {
+              "html": "But after five minutes, her legs are burning."
+            },
+            {
+              "html": "She is breathing very hard."
+            },
+            {
+              "html": "Mateo is coming up behind her, calm and steady."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week28_grade08_page03.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “Training on the Hill”, page 3. Scene based on: Halfway up the hill under a big tree, Camila bends forward with her hands on her knees, breathing hard, while Mateo stands next to her calmly and points toward the other runners on the path. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Camila stops under a tree, tired and red."
+            },
+            {
+              "html": "Mateo stops next to her."
+            },
+            {
+              "html": "“Why are they walking?” Camila asks."
+            },
+            {
+              "html": "“Are they lazy, or are they tired?”"
+            },
+            {
+              "html": "“You are guessing again,” Mateo says with a smile."
+            },
+            {
+              "html": "“Let’s ask them. They are coming now.”"
+            },
+            {
+              "html": "The girl who is walking is Daniela."
+            },
+            {
+              "html": "“I am coming back from a knee injury,” she explains."
+            },
+            {
+              "html": "“The doctor says I can walk fast, but not run.”"
+            },
+            {
+              "html": "Camila feels a little embarrassed."
+            }
+          ],
+          "wordCount": 74
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week28_grade08_page04.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “Training on the Hill”, page 4. Scene based on: On the hill path, a boy named Kevin jogs and speaks with a friend to show the \"talk test,\" while Camila and Mateo listen and the coach explains with an open hand; the city of Medellín appears below. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Then a boy named Kevin arrives, jogging slowly."
+            },
+            {
+              "html": "He is talking easily with his friend."
+            },
+            {
+              "html": "“Why are you running and stopping?” Camila asks."
+            },
+            {
+              "html": "“I am doing intervals,” Kevin says."
+            },
+            {
+              "html": "“Two minutes running, one minute walking.”"
+            },
+            {
+              "html": "“It is a good <b>exercise</b> for beginners.”"
+            },
+            {
+              "html": "The coach is listening and smiling."
+            },
+            {
+              "html": "“Kevin is using the talk test,” she explains."
+            },
+            {
+              "html": "“If you can talk, your <b>pace</b> is good.”"
+            },
+            {
+              "html": "“If you can’t talk, you are going too fast.”"
+            }
+          ],
+          "wordCount": 73
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week28_grade08_page05.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “Training on the Hill”, page 5. Scene based on: Near the top of the hill, Camila jogs at a slower, steady pace and talks with Daniela, who walks quickly beside her, while Mateo and Kevin follow; colorful houses of the Pueblito Paisa appear at the top. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Camila is trying the talk test now."
+            },
+            {
+              "html": "She is running slowly and talking with Daniela."
+            },
+            {
+              "html": "Her <b>breath</b> is calmer, and her legs feel better."
+            },
+            {
+              "html": "“Are you training for something?” Camila asks."
+            },
+            {
+              "html": "“Yes, for the school <b>race</b> in October,” Daniela says."
+            },
+            {
+              "html": "“I am getting stronger every week.”"
+            },
+            {
+              "html": "Camila is surprised. Slow can be smart."
+            },
+            {
+              "html": "At the top, they can see all of Medellín."
+            },
+            {
+              "html": "The buildings are shining in the sun."
+            },
+            {
+              "html": "Everyone is resting and drinking water."
+            }
+          ],
+          "wordCount": 75
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week28_grade08_page06.webp",
+          "artDirection": "Vivid 3D educational storybook illustration, warm light, dynamic teenage poses, 13-year-old student context, accessible A2 English. One single 4:5 vertical scene for “Training on the Hill”, page 6. Scene based on: At the top of Cerro Nutibara with the Pueblito Paisa and the city below, the whole running club sits in a circle stretching their legs; Camila stretches next to Daniela, smiling, while the coach talks. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At the end, everyone is sitting in a circle."
+            },
+            {
+              "html": "They <b>stretch</b> their legs and their arms."
+            },
+            {
+              "html": "“What are you learning today?” the coach asks."
+            },
+            {
+              "html": "Camila raises her hand."
+            },
+            {
+              "html": "“I am learning that people train in different ways.”"
+            },
+            {
+              "html": "“Some are recovering, and some are starting.”"
+            },
+            {
+              "html": "“Fast is not always the best way.”"
+            },
+            {
+              "html": "The coach nods. “That is real <b>practice</b>.”"
+            },
+            {
+              "html": "Mateo laughs. “And you are not the fastest anymore!”"
+            },
+            {
+              "html": "Camila laughs too. She is coming back next Saturday."
+            }
+          ],
+          "wordCount": 76
+        }
+      ],
+      "practiceWords": [
+        "hill",
+        "run",
+        "training",
+        "exercise",
+        "stretch",
+        "breath",
+        "pace",
+        "practice",
+        "race",
+        "warm-up"
+      ],
+      "vocabulary": [
+        {
+          "word": "hill",
+          "definition": "a high area of land, smaller than a mountain (colina)"
+        },
+        {
+          "word": "run",
+          "definition": "to move fast on your feet (correr)"
+        },
+        {
+          "word": "training",
+          "definition": "practice to get better at a sport (entrenamiento)"
+        },
+        {
+          "word": "exercise",
+          "definition": "physical activity to stay healthy (ejercicio)"
+        },
+        {
+          "word": "stretch",
+          "definition": "to make your muscles long before or after exercise (estirar)"
+        },
+        {
+          "word": "breath",
+          "definition": "the air that goes in and out of your body (respiración)"
+        },
+        {
+          "word": "pace",
+          "definition": "the speed of a runner (ritmo)"
+        },
+        {
+          "word": "practice",
+          "definition": "to do something many times to improve (practicar)"
+        },
+        {
+          "word": "race",
+          "definition": "a competition to see who is fastest (carrera)"
+        },
+        {
+          "word": "warm-up",
+          "definition": "light exercise before a sport (calentamiento)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Why is Daniela walking instead of running?",
+          "options": [
+            "She is coming back from a knee injury.",
+            "She forgot her running shoes at home on Saturday.",
+            "She is the slowest runner in the club.",
+            "She is waiting for her friend Kevin."
+          ],
+          "answer": "She is coming back from a knee injury."
+        },
+        {
+          "skill": "inference",
+          "question": "What does Camila first think about the runners who are walking?",
+          "options": [
+            "She thinks they are lost on the steep hill path.",
+            "She thinks they are not really training.",
+            "She thinks they are part of a race.",
+            "She thinks they are the fastest runners."
+          ],
+          "answer": "She thinks they are not really training."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the explanation of the “talk test”?",
+          "options": [
+            "To explain why the coach is angry with Kevin and Daniela.",
+            "To describe the view of Medellín from the top.",
+            "To show a simple way to find a healthy running pace.",
+            "To show that runners should talk instead of running."
+          ],
+          "answer": "To show a simple way to find a healthy running pace."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main idea of the story?",
+          "options": [
+            "Camila is the strongest runner in the club.",
+            "Cerro Nutibara is the highest hill in Medellín.",
+            "Running clubs should only train on Saturday mornings on hills.",
+            "People train in different ways, and fast is not always better."
+          ],
+          "answer": "People train in different ways, and fast is not always better."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “If you can talk, your pace is good.” Here, “pace” means…",
+          "options": [
+            "the speed of a runner",
+            "the end of a race",
+            "the breath of a runner",
+            "the path on the hill"
+          ],
+          "answer": "the speed of a runner"
+        }
+      ],
+      "cover": "../assets/images/week28_grade08_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "9": {
+      "grade": "9",
+      "label": "9° Grade / A2 Advanced",
+      "title": "One Photo, Three Opinions",
+      "minimumWordTarget": 500,
+      "wordCount": 527,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "relationship between ideas",
+        "main idea",
+        "vocabulary in context"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week28_grade09_page01.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “One Photo, Three Opinions”, page 1. Scene based on: In a bright English classroom in a Medellín public school, a projector shows a large photo of colorful houses and murals on a hillside with outdoor escalators; Santiago, 14, sits forward at his desk while Laura, 14, studies the photo with her chin on her hand. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Monday, the English teacher projects a <b>photo</b>."
+            },
+            {
+              "html": "It shows a hillside full of houses and murals."
+            },
+            {
+              "html": "There are orange escalators going up the hill."
+            },
+            {
+              "html": "“Please <b>describe</b> this place in three sentences,” she says."
+            },
+            {
+              "html": "Santiago, Laura, and two classmates work together."
+            },
+            {
+              "html": "Santiago writes first, very quickly."
+            },
+            {
+              "html": "“This is the most dangerous neighborhood in Medellín.”"
+            },
+            {
+              "html": "Laura stops reading and looks at him."
+            },
+            {
+              "html": "“How do you know that?” she asks."
+            },
+            {
+              "html": "“Everyone says it,” Santiago answers."
+            },
+            {
+              "html": "Laura is not convinced."
+            }
+          ],
+          "wordCount": 77
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week28_grade09_page02.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “One Photo, Three Opinions”, page 2. Scene based on: Three students sit around a desk with notebooks, each pointing at a different part of the projected photo of colorful hillside houses and murals; Santiago crosses his arms, a girl smiles widely, and Laura raises a hand to pause the discussion. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The other two classmates write different sentences."
+            },
+            {
+              "html": "“This is the most <b>colorful</b> place in the city,” Juliana says."
+            },
+            {
+              "html": "“These people are happier than people downtown,” Andrés says."
+            },
+            {
+              "html": "Now there are three very different descriptions."
+            },
+            {
+              "html": "“Which <b>opinion</b> is correct?” Santiago asks."
+            },
+            {
+              "html": "Laura looks at the photo again, more slowly."
+            },
+            {
+              "html": "“Maybe none of them,” she says."
+            },
+            {
+              "html": "“Which part can we really see in the photo?”"
+            },
+            {
+              "html": "“And which part are we only imagining?”"
+            },
+            {
+              "html": "The group goes quiet."
+            }
+          ],
+          "wordCount": 74
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week28_grade09_page03.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “One Photo, Three Opinions”, page 3. Scene based on: Close-up of a school desk where Laura and Santiago study a printed copy of the hillside photo with a magnifying glass, pointing at small details: a mural of birds, children on the escalator, and a small grocery store. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "They print the photo and look at every <b>detail</b>."
+            },
+            {
+              "html": "They can see murals of birds and flowers."
+            },
+            {
+              "html": "They can see children riding the escalator."
+            },
+            {
+              "html": "They can see a small grocery store with fruit."
+            },
+            {
+              "html": "In the <b>background</b>, there are many brick houses."
+            },
+            {
+              "html": "“I can’t see danger in this photo,” Laura says."
+            },
+            {
+              "html": "“I can’t see happiness either. Only smiles,” Santiago admits."
+            },
+            {
+              "html": "“Andrés’s sentence is bigger than the photo.”"
+            },
+            {
+              "html": "“And mine is bigger than the photo too.”"
+            },
+            {
+              "html": "Santiago feels a little uncomfortable now."
+            },
+            {
+              "html": "He wrote his sentence in less than a minute."
+            },
+            {
+              "html": "He didn’t look at the photo carefully at all."
+            }
+          ],
+          "wordCount": 98
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week28_grade09_page04.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “One Photo, Three Opinions”, page 4. Scene based on: Laura's uncle, a friendly photographer in his forties with a camera around his neck, talks on a video call shown on a laptop, while Santiago and Laura listen at a desk and take notes. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Laura has an idea. Her uncle is a photographer."
+            },
+            {
+              "html": "“Maybe he knows this place,” she says."
+            },
+            {
+              "html": "That afternoon, they call him on video."
+            },
+            {
+              "html": "“I took photos there last year,” he says."
+            },
+            {
+              "html": "“Years ago, the neighborhood had serious problems.”"
+            },
+            {
+              "html": "“Today it is more peaceful than before.”"
+            },
+            {
+              "html": "“Each mural remembers people and events from the past.”"
+            },
+            {
+              "html": "“But it is still a real neighborhood with real problems.”"
+            },
+            {
+              "html": "“One photo can’t tell the whole story.”"
+            },
+            {
+              "html": "Santiago writes the words “the whole story.”"
+            },
+            {
+              "html": "“Older news is louder than newer news,” the uncle adds."
+            },
+            {
+              "html": "“That’s why old ideas stay longer in our heads.”"
+            }
+          ],
+          "wordCount": 97
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week28_grade09_page05.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “One Photo, Three Opinions”, page 5. Scene based on: In the classroom, Santiago stands at the front pointing to the projected photo while the teacher and classmates listen; on the board, three simple drawings show an eye, a speech bubble, and a question mark. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Wednesday, the group presents to the class."
+            },
+            {
+              "html": "Santiago speaks first, a bit nervous."
+            },
+            {
+              "html": "“My first sentence was a <b>stereotype</b>,” he says."
+            },
+            {
+              "html": "“It came from old news, not from the photo.”"
+            },
+            {
+              "html": "“Now we have a <b>better</b> description.”"
+            },
+            {
+              "html": "“This hillside has colorful murals and outdoor escalators.”"
+            },
+            {
+              "html": "“Children are riding the escalators to their homes.”"
+            },
+            {
+              "html": "“The murals tell the history of the community.”"
+            },
+            {
+              "html": "The teacher nods. “That’s much more precise.”"
+            },
+            {
+              "html": "“Facts first, then opinions,” she adds."
+            },
+            {
+              "html": "Juliana and Andrés also change their sentences."
+            },
+            {
+              "html": "Now all three descriptions are more careful than before."
+            }
+          ],
+          "wordCount": 90
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week28_grade09_page06.webp",
+          "artDirection": "Semi-realistic painted educational cartoon, rich natural light, detailed props, cinematic framing, 14-year-old student context, A2+ connected English. One single 4:5 vertical scene for “One Photo, Three Opinions”, page 6. Scene based on: On a sunny school trip day, Santiago, Laura and classmates ride the orange outdoor escalators in Comuna 13 with their teacher, looking at colorful bird murals, while a young local guide in a cap explains with open arms. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Two weeks later, the class visits the neighborhood."
+            },
+            {
+              "html": "A young guide from the community walks with them."
+            },
+            {
+              "html": "He explains the murals and the people behind them."
+            },
+            {
+              "html": "Santiago listens more carefully than ever before."
+            },
+            {
+              "html": "“What is the <b>best</b> thing about your neighborhood?” he asks."
+            },
+            {
+              "html": "“The people,” the guide says. “And the music.”"
+            },
+            {
+              "html": "On the bus home, Laura sits next to Santiago."
+            },
+            {
+              "html": "“So, what is your new sentence?” she asks."
+            },
+            {
+              "html": "“Every photo needs <b>context</b>,” he says."
+            },
+            {
+              "html": "“And every place is bigger than one photo.”"
+            },
+            {
+              "html": "Laura smiles. “That’s the best sentence of the day.”"
+            }
+          ],
+          "wordCount": 91
+        }
+      ],
+      "practiceWords": [
+        "photo",
+        "describe",
+        "opinion",
+        "background",
+        "detail",
+        "colorful",
+        "better",
+        "best",
+        "stereotype",
+        "context"
+      ],
+      "vocabulary": [
+        {
+          "word": "photo",
+          "definition": "a picture taken with a camera or phone (foto)"
+        },
+        {
+          "word": "describe",
+          "definition": "to say what something is like (describir)"
+        },
+        {
+          "word": "opinion",
+          "definition": "what a person thinks about something (opinión)"
+        },
+        {
+          "word": "background",
+          "definition": "the part of a picture behind the main thing (fondo)"
+        },
+        {
+          "word": "detail",
+          "definition": "a small part or fact (detalle)"
+        },
+        {
+          "word": "colorful",
+          "definition": "having many bright colors (colorido)"
+        },
+        {
+          "word": "better",
+          "definition": "of a higher quality than another (mejor)"
+        },
+        {
+          "word": "best",
+          "definition": "better than all the others (el mejor)"
+        },
+        {
+          "word": "stereotype",
+          "definition": "a fixed and simple idea about a group (estereotipo)"
+        },
+        {
+          "word": "context",
+          "definition": "the situation around an event or picture (contexto)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "What can Santiago and Laura actually see in the photo?",
+          "options": [
+            "A big shopping mall with many cars",
+            "Murals, children on the escalator, and a small grocery store",
+            "Dangerous people, broken streets, and closed stores everywhere",
+            "A sad neighborhood with empty houses"
+          ],
+          "answer": "Murals, children on the escalator, and a small grocery store"
+        },
+        {
+          "skill": "inference",
+          "question": "Why does Laura ask which part they can “really see”?",
+          "options": [
+            "She thinks the photo is too dark to describe.",
+            "She does not understand the teacher’s instructions.",
+            "She wants to separate facts in the photo from ideas in their heads.",
+            "She wants to finish the task faster than the other groups in class."
+          ],
+          "answer": "She wants to separate facts in the photo from ideas in their heads."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "How is the group’s final description different from Santiago’s first sentence?",
+          "options": [
+            "It says that the neighborhood is the happiest place in the whole city.",
+            "It is shorter and uses fewer English words.",
+            "It copies the description from Andrés and Juliana.",
+            "It describes what is in the photo instead of repeating an old idea."
+          ],
+          "answer": "It describes what is in the photo instead of repeating an old idea."
+        },
+        {
+          "skill": "main idea",
+          "question": "What is the main message of the text?",
+          "options": [
+            "One photo cannot show a whole place, so we need facts and context.",
+            "School trips are better than English classes.",
+            "Comuna 13 is the most colorful neighborhood in Medellín.",
+            "Professional photographers always take better photos than students do."
+          ],
+          "answer": "One photo cannot show a whole place, so we need facts and context."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “My first sentence was a stereotype.” A “stereotype” is…",
+          "options": [
+            "a question that a guide answers",
+            "a fixed and simple idea about a group",
+            "a small detail in the background of a photo",
+            "a careful description with many facts"
+          ],
+          "answer": "a fixed and simple idea about a group"
+        }
+      ],
+      "cover": "../assets/images/week28_grade09_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "10": {
+      "grade": "10",
+      "label": "10° Grade / B1 Beginner",
+      "title": "Advice From a Stranger at San Javier",
+      "minimumWordTarget": 600,
+      "wordCount": 624,
+      "readingFocus": [
+        "explicit information",
+        "inference",
+        "purpose",
+        "relationship between ideas",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week28_grade10_page01.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “Advice From a Stranger at San Javier”, page 1. Scene based on: At San Javier Metro station in Medellín in the morning, Valentina, 16, and Mateo, 16, in school uniforms stand near the turnstiles while a worried foreign visitor woman in her thirties with a camera bag shows them a phone with only a map pin icon. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina and Mateo are at San Javier station."
+            },
+            {
+              "html": "They are waiting for their class to start a field trip."
+            },
+            {
+              "html": "A <b>visitor</b> with a camera bag walks toward them."
+            },
+            {
+              "html": "“Excuse me, do you speak English?” she asks."
+            },
+            {
+              "html": "“Yes, a little,” Valentina says with a smile."
+            },
+            {
+              "html": "“My name is Ana. I’m a journalist from Brazil.”"
+            },
+            {
+              "html": "“I have an <b>appointment</b> at a community center at 10:30.”"
+            },
+            {
+              "html": "“It’s near the outdoor escalators, but I’m lost.”"
+            },
+            {
+              "html": "She looks at her watch nervously."
+            },
+            {
+              "html": "It is already 10:05."
+            },
+            {
+              "html": "The community center is far for someone on foot."
+            },
+            {
+              "html": "Ana has never been in Medellín before."
+            }
+          ],
+          "wordCount": 97
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week28_grade10_page02.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “Advice From a Stranger at San Javier”, page 2. Scene based on: Near the station exit, a tall man in sunglasses gestures confidently toward a street full of tourists, talking to the visitor Ana, while Valentina and Mateo listen with doubtful expressions. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "A man near the exit hears the conversation."
+            },
+            {
+              "html": "“Just walk up through the tourist streets,” he says."
+            },
+            {
+              "html": "“Follow the crowd. It’s easy.”"
+            },
+            {
+              "html": "Then he walks away quickly."
+            },
+            {
+              "html": "Ana looks relieved. “Great, that’s simple.”"
+            },
+            {
+              "html": "But Mateo looks doubtful."
+            },
+            {
+              "html": "“Should we trust that <b>advice</b>?” he asks Valentina."
+            },
+            {
+              "html": "“The tourist streets are very <b>crowded</b> in the morning.”"
+            },
+            {
+              "html": "“And the crowd goes to the murals, not the center.”"
+            },
+            {
+              "html": "Valentina agrees. “We shouldn’t guess. Let’s check.”"
+            },
+            {
+              "html": "They have ten minutes before their class meets."
+            }
+          ],
+          "wordCount": 79
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week28_grade10_page03.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “Advice From a Stranger at San Javier”, page 3. Scene based on: At the Metro customer service window, Valentina speaks with a friendly Metro staff member in uniform who traces a line on a simple printed map with no words, while Mateo and Ana look closely at the map. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina walks to the station’s information window."
+            },
+            {
+              "html": "The Metro <b>staff</b> are always helpful there."
+            },
+            {
+              "html": "She explains Ana’s situation clearly and politely."
+            },
+            {
+              "html": "The employee looks at a printed map."
+            },
+            {
+              "html": "“She shouldn’t walk through the tourist area now.”"
+            },
+            {
+              "html": "“It takes twenty minutes with the crowds.”"
+            },
+            {
+              "html": "“She should take the feeder bus outside, route 225.”"
+            },
+            {
+              "html": "“It stops two blocks from the community center.”"
+            },
+            {
+              "html": "“Then she should look for the blue church.”"
+            },
+            {
+              "html": "“The center is next to it.”"
+            },
+            {
+              "html": "Valentina thanks her and runs back to Mateo and Ana."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week28_grade10_page04.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “Advice From a Stranger at San Javier”, page 4. Scene based on: Outside San Javier station, Valentina and Mateo stand with Ana at a bus stop, Mateo drawing a simple map in Ana's notebook with arrows and a church shape, a green feeder bus approaching in the background. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mateo explains the <b>route</b> to Ana in English."
+            },
+            {
+              "html": "“You should take this green bus, number 225.”"
+            },
+            {
+              "html": "“You shouldn’t get off at the first stop.”"
+            },
+            {
+              "html": "“Get off at the second stop, near the bakery.”"
+            },
+            {
+              "html": "He draws a small map in her notebook."
+            },
+            {
+              "html": "There is a church, a bakery, and an arrow."
+            },
+            {
+              "html": "“The blue church is your <b>landmark</b>,” Valentina adds."
+            },
+            {
+              "html": "“The center’s <b>entrance</b> is on the left side.”"
+            },
+            {
+              "html": "Ana repeats the steps to check them."
+            },
+            {
+              "html": "She writes them in Portuguese next to the map."
+            },
+            {
+              "html": "“Bus 225, second stop, blue church, left,” she says."
+            }
+          ],
+          "wordCount": 91
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week28_grade10_page05.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “Advice From a Stranger at San Javier”, page 5. Scene based on: Valentina speaks on her phone while Ana listens next to her at the bus stop; Mateo checks the time on his watch, and a teacher with a group of uniformed students waves from the station entrance. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Valentina has one more idea."
+            },
+            {
+              "html": "“You should call the center now,” she says."
+            },
+            {
+              "html": "“Tell them you might be five minutes late.”"
+            },
+            {
+              "html": "Ana calls, and a woman answers kindly."
+            },
+            {
+              "html": "“No problem. We will wait for you,” the woman says."
+            },
+            {
+              "html": "Ana smiles for the first time."
+            },
+            {
+              "html": "“You two are better than any app,” she laughs."
+            },
+            {
+              "html": "Then the green bus arrives."
+            },
+            {
+              "html": "Ana gets on and waves from the window."
+            },
+            {
+              "html": "Their teacher is calling them from the station."
+            },
+            {
+              "html": "“Hurry, the group is leaving!” she says."
+            },
+            {
+              "html": "Valentina and Mateo run back to their class."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week28_grade10_page06.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “Advice From a Stranger at San Javier”, page 6. Scene based on: In a quiet community center room with colorful murals, Ana the journalist interviews a group of young local musicians with her camera, smiling, at 10:35, while a clock on the wall shows the time. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "At 10:35, Ana sends a message to Valentina."
+            },
+            {
+              "html": "It’s a photo of the community center."
+            },
+            {
+              "html": "“I arrived! Only five minutes late,” she writes."
+            },
+            {
+              "html": "“The interview is starting now. Thank you!”"
+            },
+            {
+              "html": "Valentina shows the message to Mateo."
+            },
+            {
+              "html": "Mateo feels proud and a little surprised."
+            },
+            {
+              "html": "“That man gave advice in two seconds,” he says."
+            },
+            {
+              "html": "“But it was the wrong <b>direction</b> for her.”"
+            },
+            {
+              "html": "“Fast advice isn’t always good advice,” Valentina says."
+            },
+            {
+              "html": "They walk back to their class, smiling."
+            },
+            {
+              "html": "The murals look brighter to them now."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week28_grade10_page07.webp",
+          "artDirection": "Modern semi-realistic cinematic educational illustration, natural urban light, 15–16-year-old student context, B1 English with clear reasoning. One single 4:5 vertical scene for “Advice From a Stranger at San Javier”, page 7. Scene based on: Back in their classroom, Valentina and Mateo share their story with the class; on the board, a simple drawing shows a bus, a church and an arrow, while the teacher writes a check mark next to it. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next day, their teacher asks about the trip."
+            },
+            {
+              "html": "Valentina and Mateo share Ana’s story."
+            },
+            {
+              "html": "“Public <b>transport</b> is easier with good information,” Mateo says."
+            },
+            {
+              "html": "“You should ask staff, not random people.”"
+            },
+            {
+              "html": "“You should give clear steps and one landmark.”"
+            },
+            {
+              "html": "“And you should call if you’ll be late.”"
+            },
+            {
+              "html": "The teacher writes their tips on the board."
+            },
+            {
+              "html": "“Good advice is clear, checked, and kind,” she says."
+            },
+            {
+              "html": "A classmate asks, “What if you don’t speak English?”"
+            },
+            {
+              "html": "“Then you can draw a map,” Mateo answers."
+            },
+            {
+              "html": "Everyone laughs, but the teacher thinks it is a great idea."
+            },
+            {
+              "html": "She asks the class to draw maps to their homes."
+            }
+          ],
+          "wordCount": 102
+        }
+      ],
+      "practiceWords": [
+        "visitor",
+        "appointment",
+        "crowded",
+        "advice",
+        "route",
+        "staff",
+        "direction",
+        "entrance",
+        "transport",
+        "landmark"
+      ],
+      "vocabulary": [
+        {
+          "word": "visitor",
+          "definition": "a person who comes to a place for a short time (visitante)"
+        },
+        {
+          "word": "appointment",
+          "definition": "an arranged time to meet someone (cita)"
+        },
+        {
+          "word": "crowded",
+          "definition": "full of people (lleno de gente)"
+        },
+        {
+          "word": "advice",
+          "definition": "an opinion about what someone should do (consejo)"
+        },
+        {
+          "word": "route",
+          "definition": "the way you travel from one place to another (ruta)"
+        },
+        {
+          "word": "staff",
+          "definition": "the people who work for an organization (personal)"
+        },
+        {
+          "word": "direction",
+          "definition": "the way something goes or points (dirección)"
+        },
+        {
+          "word": "entrance",
+          "definition": "the door or place where you go in (entrada)"
+        },
+        {
+          "word": "transport",
+          "definition": "ways of moving people from place to place (transporte)"
+        },
+        {
+          "word": "landmark",
+          "definition": "an easy-to-recognize place that helps you find your way (punto de referencia)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "explicit information",
+          "question": "Why is the visitor, Ana, in a hurry?",
+          "options": [
+            "She wants to see the murals before the tourists arrive.",
+            "She needs to buy a new camera bag.",
+            "She has an appointment at a community center at 10:30.",
+            "Her bus to Brazil leaves in twenty minutes."
+          ],
+          "answer": "She has an appointment at a community center at 10:30."
+        },
+        {
+          "skill": "inference",
+          "question": "Why does Mateo doubt the man’s advice?",
+          "options": [
+            "The man tells Ana to take a taxi.",
+            "Mateo knows the community center is closed.",
+            "The man speaks English with a strange accent and walks away too fast.",
+            "The tourist streets are crowded and go to the murals, not the center."
+          ],
+          "answer": "The tourist streets are crowded and go to the murals, not the center."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the Metro employee in the story?",
+          "options": [
+            "To show that staff can give reliable information for a specific situation.",
+            "To explain why Ana is a journalist from Brazil.",
+            "To show that the Metro system is too complicated for most foreign visitors.",
+            "To show that Valentina is afraid to help strangers."
+          ],
+          "answer": "To show that staff can give reliable information for a specific situation."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "How does the blue church help Ana?",
+          "options": [
+            "It is the meeting point for Valentina’s class.",
+            "It is a landmark that shows her where the center’s entrance is.",
+            "It is where Ana takes photos for her interview.",
+            "It is the place where the green feeder bus starts its daily route."
+          ],
+          "answer": "It is a landmark that shows her where the center’s entrance is."
+        },
+        {
+          "skill": "main idea",
+          "question": "Which statement best summarizes the text?",
+          "options": [
+            "Journalists should arrive early to every interview.",
+            "Feeder buses are faster than walking in every case.",
+            "Good advice is checked, clear, and adapted to the person’s situation.",
+            "Visitors should always follow the crowd when they are in a new city."
+          ],
+          "answer": "Good advice is checked, clear, and adapted to the person’s situation."
+        }
+      ],
+      "cover": "../assets/images/week28_grade10_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    },
+    "11": {
+      "grade": "11",
+      "label": "11° Grade / B1+",
+      "title": "Must I Study What I Love?",
+      "minimumWordTarget": 700,
+      "wordCount": 705,
+      "readingFocus": [
+        "inference",
+        "relationship between ideas",
+        "purpose",
+        "vocabulary in context",
+        "main idea"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "image": "../assets/images/week28_grade11_page01.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “Must I Study What I Love?”, page 1. Scene based on: In a small family home in Medellín in the evening, Sofía, 17, sits on her bed with a guitar and a laptop showing only university building icons, looking thoughtful, while Mateo, 17, sits on a chair with a notebook full of crossed-out lines. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Sofía has to choose a <b>university</b> program this month."
+            },
+            {
+              "html": "She loves music more than any other <b>subject</b>."
+            },
+            {
+              "html": "She plays guitar every day after school."
+            },
+            {
+              "html": "But her parents have other ideas."
+            },
+            {
+              "html": "“You must study medicine,” her father always says."
+            },
+            {
+              "html": "“Musicians don’t have stable jobs.”"
+            },
+            {
+              "html": "Her friend Mateo is visiting to study."
+            },
+            {
+              "html": "He has to choose too, and he is confused."
+            },
+            {
+              "html": "“I like computers and art,” he says."
+            },
+            {
+              "html": "“Do I have to pick only one?”"
+            },
+            {
+              "html": "Sofía puts down her guitar with a sigh."
+            },
+            {
+              "html": "The deadline for applications is in four weeks."
+            },
+            {
+              "html": "She feels the pressure in her stomach."
+            }
+          ],
+          "wordCount": 96
+        },
+        {
+          "page": 2,
+          "image": "../assets/images/week28_grade11_page02.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “Must I Study What I Love?”, page 2. Scene based on: Sofía and Mateo sit at a desk with laptops showing only icons of books, a stethoscope and a music note, comparing two lists in a notebook while a wall calendar has one day circled in red. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "“Let’s be honest,” Sofía says."
+            },
+            {
+              "html": "“Do I have to study medicine?”"
+            },
+            {
+              "html": "“Or do I only feel that I have to?”"
+            },
+            {
+              "html": "Mateo thinks for a moment."
+            },
+            {
+              "html": "“Your parents’ <b>expectation</b> is strong, but it isn’t law.”"
+            },
+            {
+              "html": "“Still, you must make a decision with facts.”"
+            },
+            {
+              "html": "They write two lists in a notebook."
+            },
+            {
+              "html": "One list says “music,” and one says “medicine.”"
+            },
+            {
+              "html": "Each list has three questions."
+            },
+            {
+              "html": "What are the <b>requirement</b>s? What are the costs?"
+            },
+            {
+              "html": "What are the real jobs after graduation?"
+            },
+            {
+              "html": "Mateo opens his laptop, and they start researching."
+            },
+            {
+              "html": "They promise to use facts, not fears or rumors."
+            }
+          ],
+          "wordCount": 94
+        },
+        {
+          "page": 3,
+          "image": "../assets/images/week28_grade11_page03.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “Must I Study What I Love?”, page 3. Scene based on: Sofía and Mateo look at a public university website on a laptop showing only icons of a calendar, a guitar and an exam paper, Sofía pointing at the screen with surprise. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "First, they research the music program."
+            },
+            {
+              "html": "At the public university, applicants must pass an audition."
+            },
+            {
+              "html": "They also have to present the Saber 11 results."
+            },
+            {
+              "html": "“Medicine has higher score requirements,” Mateo reads."
+            },
+            {
+              "html": "“You mustn’t miss either deadline if you apply.”"
+            },
+            {
+              "html": "Sofía is surprised by one detail."
+            },
+            {
+              "html": "The music program includes sound engineering courses."
+            },
+            {
+              "html": "“That’s a technical <b>skill</b>,” she says."
+            },
+            {
+              "html": "“Studios, concerts, and video games need that.”"
+            },
+            {
+              "html": "“So it isn’t only playing on a stage,” Mateo adds."
+            },
+            {
+              "html": "Sofía didn’t know that until today."
+            },
+            {
+              "html": "She had only heard opinions, never real information."
+            }
+          ],
+          "wordCount": 89
+        },
+        {
+          "page": 4,
+          "image": "../assets/images/week28_grade11_page04.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “Must I Study What I Love?”, page 4. Scene based on: In a small recording studio in Medellín with microphones and soundproof panels, a young professional sound engineer in her twenties talks with Sofía and Mateo, who hold notebooks and listen carefully. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "On Saturday, they visit a small recording studio."
+            },
+            {
+              "html": "Mateo’s cousin Laura works there."
+            },
+            {
+              "html": "She studied music and sound engineering."
+            },
+            {
+              "html": "“Musicians don’t have to be famous to work,” Laura says."
+            },
+            {
+              "html": "“I record bands, podcasts, and school projects.”"
+            },
+            {
+              "html": "“I also teach guitar online twice a week.”"
+            },
+            {
+              "html": "“My <b>career</b> has three parts, not one.”"
+            },
+            {
+              "html": "“But you have to be organized and disciplined.”"
+            },
+            {
+              "html": "“You must build a portfolio while you study.”"
+            },
+            {
+              "html": "Sofía writes everything in her notebook."
+            },
+            {
+              "html": "She asks Laura about her salary, a little shyly."
+            },
+            {
+              "html": "“It isn’t huge, but it’s stable now,” Laura answers."
+            },
+            {
+              "html": "“The first two years were the hardest.”"
+            }
+          ],
+          "wordCount": 98
+        },
+        {
+          "page": 5,
+          "image": "../assets/images/week28_grade11_page05.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “Must I Study What I Love?”, page 5. Scene based on: At the dining table of a family home, Sofía shows her father a notebook with two lists while her mother listens; her father has his arms crossed but leans forward, listening carefully. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "That night, Sofía talks to her parents."
+            },
+            {
+              "html": "She doesn’t shout, and she doesn’t cry."
+            },
+            {
+              "html": "She shows them the lists and the facts."
+            },
+            {
+              "html": "“I don’t have to choose music for fame,” she says."
+            },
+            {
+              "html": "“I want a <b>degree</b> that gives me real options.”"
+            },
+            {
+              "html": "“Sound engineering has <b>employment</b> in many industries.”"
+            },
+            {
+              "html": "Her father listens quietly for a long time."
+            },
+            {
+              "html": "“I’m worried about money,” he admits."
+            },
+            {
+              "html": "“That’s fair,” Sofía says. “So let’s check scholarships.”"
+            },
+            {
+              "html": "Her mother nods slowly."
+            },
+            {
+              "html": "The conversation is difficult, but it is respectful."
+            }
+          ],
+          "wordCount": 82
+        },
+        {
+          "page": 6,
+          "image": "../assets/images/week28_grade11_page06.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “Must I Study What I Love?”, page 6. Scene based on: Sofía and her father sit together at a laptop showing only a graduation cap icon and a coin icon, her father pointing at the screen with interest while Sofía smiles. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "The next day, Sofía and her father search together."
+            },
+            {
+              "html": "They find a <b>scholarship</b> for students with good scores."
+            },
+            {
+              "html": "Students must keep high grades every semester."
+            },
+            {
+              "html": "They also have to do volunteer hours."
+            },
+            {
+              "html": "“This changes things,” her father says."
+            },
+            {
+              "html": "“You still have to work very hard.”"
+            },
+            {
+              "html": "“I know. I don’t mind hard work,” Sofía answers."
+            },
+            {
+              "html": "Her father smiles a little for the first time."
+            },
+            {
+              "html": "“Let’s prepare for the audition, then,” he says."
+            },
+            {
+              "html": "Sofía can’t believe it."
+            },
+            {
+              "html": "She hugs her father, and he laughs nervously."
+            }
+          ],
+          "wordCount": 83
+        },
+        {
+          "page": 7,
+          "image": "../assets/images/week28_grade11_page07.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “Must I Study What I Love?”, page 7. Scene based on: Mateo sits at his desk with a laptop showing icons of a computer and a paintbrush connected by a plus sign, looking excited, while Sofía practices guitar in the background through a video call window. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Mateo uses the same method for his own decision."
+            },
+            {
+              "html": "He doesn’t have to choose computers or art."
+            },
+            {
+              "html": "He finds a program in digital design."
+            },
+            {
+              "html": "It combines programming with illustration."
+            },
+            {
+              "html": "“I must improve my math first,” he says."
+            },
+            {
+              "html": "“The program has a hard entrance exam.”"
+            },
+            {
+              "html": "He makes a study plan for the next six months."
+            },
+            {
+              "html": "Sofía sends him a voice note playing a happy song."
+            },
+            {
+              "html": "“For your new plan,” she says."
+            },
+            {
+              "html": "Mateo laughs and saves it."
+            },
+            {
+              "html": "For the first time in weeks, he feels calm."
+            }
+          ],
+          "wordCount": 84
+        },
+        {
+          "page": 8,
+          "image": "../assets/images/week28_grade11_page08.webp",
+          "artDirection": "Realistic cinematic digital educational illustration, mature high-school atmosphere, 17–18-year-old student context, B1+ connected English with nuanced reasoning. One single 4:5 vertical scene for “Must I Study What I Love?”, page 8. Scene based on: Months later, Sofía, 17, plays guitar at a university audition room with a calm face, while Mateo waits outside the door holding two cups of coffee, giving her a thumbs-up through the window. Natural expressions, age-appropriate, educational, school-safe, no visible text, no letters, no logos.",
+          "sentences": [
+            {
+              "html": "Three months later, Sofía has her audition."
+            },
+            {
+              "html": "Her hands are cold, but her mind is clear."
+            },
+            {
+              "html": "She plays the song she practiced every day."
+            },
+            {
+              "html": "Outside, Mateo is waiting with two coffees."
+            },
+            {
+              "html": "“How was it?” he asks when she comes out."
+            },
+            {
+              "html": "“I don’t know yet,” Sofía says honestly."
+            },
+            {
+              "html": "“But I made the decision with information, not fear.”"
+            },
+            {
+              "html": "“That <b>experience</b> already taught me something important.”"
+            },
+            {
+              "html": "“You don’t have to love only one thing.”"
+            },
+            {
+              "html": "“But you must be responsible with your choice.”"
+            }
+          ],
+          "wordCount": 79
+        }
+      ],
+      "practiceWords": [
+        "subject",
+        "university",
+        "career",
+        "expectation",
+        "requirement",
+        "skill",
+        "degree",
+        "scholarship",
+        "experience",
+        "employment"
+      ],
+      "vocabulary": [
+        {
+          "word": "subject",
+          "definition": "an area of study, like math or music (asignatura)"
+        },
+        {
+          "word": "university",
+          "definition": "a place for higher education after school (universidad)"
+        },
+        {
+          "word": "career",
+          "definition": "the work a person does for many years (carrera profesional)"
+        },
+        {
+          "word": "expectation",
+          "definition": "what someone hopes or believes will happen (expectativa)"
+        },
+        {
+          "word": "requirement",
+          "definition": "something that you must have or do (requisito)"
+        },
+        {
+          "word": "skill",
+          "definition": "an ability you develop with practice (habilidad)"
+        },
+        {
+          "word": "degree",
+          "definition": "the title you get after university studies (título)"
+        },
+        {
+          "word": "scholarship",
+          "definition": "money given to a student to pay for studies (beca)"
+        },
+        {
+          "word": "experience",
+          "definition": "knowledge you get from doing something (experiencia)"
+        },
+        {
+          "word": "employment",
+          "definition": "paid work (empleo)"
+        }
+      ],
+      "quiz": [
+        {
+          "skill": "inference",
+          "question": "What does Sofía discover about the music program?",
+          "options": [
+            "It has higher score requirements than medicine.",
+            "It is only for students who want to be famous singers on a stage.",
+            "It does not require any audition or exam.",
+            "It includes sound engineering courses with technical skills."
+          ],
+          "answer": "It includes sound engineering courses with technical skills."
+        },
+        {
+          "skill": "relationship between ideas",
+          "question": "How do the two lists help Sofía talk with her parents?",
+          "options": [
+            "They let her discuss facts calmly instead of only emotions.",
+            "They prove that medicine is a bad career.",
+            "They show that her father’s opinion is wrong.",
+            "They help her avoid the difficult conversation with her father completely."
+          ],
+          "answer": "They let her discuss facts calmly instead of only emotions."
+        },
+        {
+          "skill": "purpose",
+          "question": "Why does the author include the visit to Laura’s recording studio?",
+          "options": [
+            "To introduce Mateo’s new girlfriend.",
+            "To show a real example of a varied career in music.",
+            "To explain how to play guitar professionally.",
+            "To show that recording studios are too expensive for most students."
+          ],
+          "answer": "To show a real example of a varied career in music."
+        },
+        {
+          "skill": "vocabulary in context",
+          "question": "Read: “Your parents’ expectation is strong, but it isn’t law.” “Expectation” means…",
+          "options": [
+            "a title you get after university",
+            "money given to students for their studies",
+            "what someone hopes or believes will happen",
+            "something you must have before you can apply"
+          ],
+          "answer": "what someone hopes or believes will happen"
+        },
+        {
+          "skill": "main idea",
+          "question": "Which statement best expresses the central idea of the text?",
+          "options": [
+            "Music is a better career than medicine for everyone who loves it.",
+            "Scholarships are only for students who play an instrument.",
+            "Students must always follow their parents’ choice of career.",
+            "Future decisions should be based on information, not only on fear."
+          ],
+          "answer": "Future decisions should be based on information, not only on fear."
+        }
+      ],
+      "cover": "../assets/images/week28_grade11_cover.webp",
+      "readingFrame": "../assets/images/weekly_reading-frame.webp"
+    }
+  }
+}
